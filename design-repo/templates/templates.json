@@ -118,7 +118,7 @@
       "implementedBy": [
         {
           "path": "src/pages/Tares.jsx",
-          "lines": "149-196",
+          "lines": "152-199",
           "quote": "export default function Tares()"
         }
       ],
@@ -276,7 +276,7 @@
       "implementedBy": [
         {
           "path": "src/pages/Rius.jsx",
-          "lines": "259-319",
+          "lines": "273-333",
           "quote": "export default function Rius()"
         }
       ],
@@ -292,7 +292,7 @@
         {
           "section": "layout.spacer",
           "variants": [
-            "divider-30"
+            "divider-30-tablet-up"
           ],
           "required": true,
           "repeatable": false
@@ -514,7 +514,7 @@
       "implementedBy": [
         {
           "path": "src/pages/RiusPricing.jsx",
-          "lines": "190-215",
+          "lines": "199-224",
           "quote": "export default function RiusPricing()"
         }
       ],
@@ -594,7 +594,7 @@
         {
           "section": "layout.spacer",
           "variants": [
-            "band-65"
+            "band-70"
           ],
           "required": true,
           "repeatable": false
@@ -656,7 +656,7 @@
       "implementedBy": [
         {
           "path": "src/pages/Alternatives.jsx",
-          "lines": "1047-1078",
+          "lines": "1051-1082",
           "quote": "export default function Alternatives({ vendor })"
         }
       ],
@@ -790,7 +790,7 @@
     "calculator": {
       "theme": "mars",
       "chromeFamily": "mars",
-      "description": "Build-vs-buy calculator.",
+      "description": "Build-vs-buy calculator (the top band is desktop-only; it is still one node).",
       "implementedBy": [
         {
           "path": "src/pages/Calculator.jsx",
@@ -1318,7 +1318,7 @@
       "implementedBy": [
         {
           "path": "src/pages/Contact.jsx",
-          "lines": "201-235",
+          "lines": "208-242",
           "quote": "export default function Contact()"
         }
       ],
@@ -1396,7 +1396,7 @@
       "implementedBy": [
         {
           "path": "src/pages/Contact.jsx",
-          "lines": "247-287",
+          "lines": "258-298",
           "quote": "export function ContactSuccess()"
         }
       ],
@@ -1535,7 +1535,7 @@
       "implementedBy": [
         {
           "path": "src/pages/Category.jsx",
-          "lines": "52-80",
+          "lines": "60-88",
           "quote": "export default function Category()"
         }
       ],

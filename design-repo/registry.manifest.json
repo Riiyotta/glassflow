@@ -1,7 +1,7 @@
 {
   "repositoryId": "glassflow-clone-design-repo",
-  "repositoryVersion": "1.0.0",
-  "pageSpecVersion": "1.0.0",
+  "repositoryVersion": "1.1.0",
+  "pageSpecVersion": "1.1.0",
   "allowlistVersion": "1.0.0",
   "versionFieldNote": "Only allowlistVersion is machine-checked (verify_all.py fails if it differs from tokens/llm/component-allowlist.json or from the README). repositoryVersion and pageSpecVersion are documentation-only, hand-maintained markers; pageSpecVersion is additionally a schema const, so PageSpecs must declare it, but nothing checks it against this manifest.",
   "status": "design-review-pending",
@@ -20,12 +20,12 @@
     "legacy-black"
   ],
   "counts": {
-    "foundationTokens": 114,
+    "foundationTokens": 126,
     "semanticTokens": 34,
     "primitives": 18,
     "components": 16,
     "sections": 68,
-    "sectionVariants": 97,
+    "sectionVariants": 99,
     "templates": 17,
     "routes": 160,
     "pageRoutes": 133,

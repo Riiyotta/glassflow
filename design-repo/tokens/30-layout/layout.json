@@ -27,7 +27,24 @@
   "maxWidths": {
     "legal-article": 620,
     "legacy-content": 1220,
-    "alternatives-arize": 1200,
-    "alternatives-langfuse": 1234
+    "legacy-cta-heading": 720
+  },
+  "fixedFrames": {
+    "alternatives": {
+      "390": 420,
+      "810": 918,
+      "1200": {
+        "arize": 1200,
+        "langfuse": 1234
+      },
+      "behaviour": "fixed-width box centred on the viewport, horizontally clipped"
+    },
+    "measuredFrom": [
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "77",
+        "quote": "width: 'w-[420px] ml-[calc(50%-210px)] md:w-[918px]"
+      }
+    ]
   }
 }

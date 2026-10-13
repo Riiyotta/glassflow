@@ -11,7 +11,7 @@
   "implementedBy": [
     {
       "path": "src/components/LegacyLayout.jsx",
-      "lines": "58-75",
+      "lines": "59-76",
       "quote": "function Dropdown({ items })"
     }
   ]

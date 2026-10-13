@@ -14,7 +14,7 @@
   "implementedBy": [
     {
       "path": "src/components/ProductSections.jsx",
-      "lines": "73-92",
+      "lines": "75-94",
       "quote": "export function ImageCardGrid"
     }
   ]

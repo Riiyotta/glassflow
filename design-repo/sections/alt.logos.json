@@ -10,7 +10,7 @@
   "implementedBy": [
     {
       "path": "src/pages/Alternatives.jsx",
-      "lines": "461-467",
+      "lines": "465-471",
       "quote": "function Logos()"
     }
   ],
@@ -60,21 +60,34 @@
   },
   "responsive": {
     "390": {
-      "layout": "single column, 16px section padding"
+      "frame": "fixed 420px box centred on the viewport and clipped (overflow-x-clip)",
+      "sectionPad": 16
     },
     "810": {
-      "layout": "64px section padding"
+      "frame": "fixed 918px box, centred, clipped",
+      "sectionPad": 64
     },
     "1200": {
-      "layout": "max 1200 (arize) / 1234 (langfuse)"
+      "frame": "fixed 1200px (arize) / 1234px (langfuse) box, centred",
+      "sectionPad": 64
     },
     "evidence": [
       {
         "path": "src/pages/Alternatives.jsx",
-        "lines": "291",
+        "lines": "295",
         "quote": "px-4 md:px-16"
+      },
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "77",
+        "quote": "width: 'w-[420px] ml-[calc(50%-210px)] md:w-[918px] md:ml-[calc(50%-459px)] lg:w-[1200px]"
+      },
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "1063",
+        "quote": "<div className={`overflow-x-clip ${d.frame}`}>"
       }
     ]
   },
-  "notes": "Native rebuild of the live iframe template; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
+  "notes": "Native rebuild of the live iframe template, typeset in font-display (Inter Display) 16/22.4 with Geist Mono labels; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
 }

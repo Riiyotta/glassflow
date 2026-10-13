@@ -33,18 +33,42 @@
     "measuredFrom": [
       {
         "path": "src/pages/Tares.jsx",
-        "lines": "155",
+        "lines": "158",
         "quote": "<Spacer inner=\"h-[30px]\" />"
+      }
+    ]
+  },
+  "spacer-band-70": {
+    "$value": 70,
+    "note": "72px band before the /rius/pricing calculator banner",
+    "measuredFrom": [
+      {
+        "path": "src/pages/RiusPricing.jsx",
+        "lines": "214",
+        "quote": "<Spacer inner=\"h-[70px]\" />"
       }
     ]
   },
   "spacer-top-calculator": {
     "$value": 64,
+    "note": "desktop only",
     "measuredFrom": [
       {
         "path": "src/pages/Calculator.jsx",
-        "lines": "12",
+        "lines": "15",
         "quote": "<Spacer inner=\"h-[64px]\" />"
+      }
+    ]
+  },
+  "calculator-gutter": {
+    "390": 16,
+    "810": 64,
+    "1200": 64,
+    "measuredFrom": [
+      {
+        "path": "src/pages/Calculator.jsx",
+        "lines": "17",
+        "quote": "<Shell className=\"px-4 md:!px-16\""
       }
     ]
   },

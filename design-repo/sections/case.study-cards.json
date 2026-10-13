@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/components/ContentSections.jsx",
-      "lines": "328-346",
+      "lines": "334-352",
       "quote": "export function CaseStudyCards"
     }
   ],
@@ -86,7 +86,7 @@
       "columns": 1
     },
     "810": {
-      "columns": 2
+      "columns": "1 (stacked, 4px gap/pad)"
     },
     "1200": {
       "columns": 2
@@ -94,8 +94,8 @@
     "evidence": [
       {
         "path": "src/components/ContentSections.jsx",
-        "lines": "330",
-        "quote": "grid grid-cols-1 md:grid-cols-2 md:gap-1 md:p-1"
+        "lines": "336",
+        "quote": "grid grid-cols-1 md:gap-1 md:p-1 lg:grid-cols-2"
       }
     ]
   }

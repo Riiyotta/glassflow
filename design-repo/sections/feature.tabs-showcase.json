@@ -98,17 +98,23 @@
       "stack": "copy then 359px image"
     },
     "810": {
-      "stack": "same"
+      "stack": "copy then 500px image inset 64px"
     },
     "1200": {
       "columns": 2,
-      "height": 548
+      "height": 548,
+      "image": "flush"
     },
     "evidence": [
       {
         "path": "src/components/TabsShowcase.jsx",
         "lines": "34",
         "quote": "lg:h-[548px] lg:grid-cols-2"
+      },
+      {
+        "path": "src/components/TabsShowcase.jsx",
+        "lines": "73",
+        "quote": "h-[359px] md:h-[500px] md:p-16 lg:h-[548px] lg:p-0"
       }
     ]
   }

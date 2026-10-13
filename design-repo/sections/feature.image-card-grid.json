@@ -10,7 +10,7 @@
   "implementedBy": [
     {
       "path": "src/components/ProductSections.jsx",
-      "lines": "73-92",
+      "lines": "75-94",
       "quote": "export function ImageCardGrid"
     }
   ],
@@ -113,16 +113,28 @@
       "columns": 1
     },
     "810": {
-      "columns": 1
+      "cols-4": 2,
+      "cols-3": 3
     },
     "1200": {
-      "columns": "3 or 4"
+      "cols-4": 4,
+      "cols-3": 3
     },
     "evidence": [
       {
         "path": "src/components/ProductSections.jsx",
-        "lines": "73",
-        "quote": "cols = 'lg:grid-cols-4'"
+        "lines": "75",
+        "quote": "export function ImageCardGrid({ cards, cols = 'lg:grid-cols-4' })"
+      },
+      {
+        "path": "src/pages/Tares.jsx",
+        "lines": "169",
+        "quote": "cols=\"md:grid-cols-2 lg:grid-cols-4\""
+      },
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "311",
+        "quote": "cols=\"md:grid-cols-3\""
       }
     ]
   }

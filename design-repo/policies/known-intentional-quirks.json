@@ -13,7 +13,7 @@
         },
         {
           "path": "src/pages/Tares.jsx",
-          "lines": "160",
+          "lines": "163",
           "quote": "label: 'sart on the cloud'"
         }
       ]
@@ -61,7 +61,7 @@
       "evidence": [
         {
           "path": "src/pages/Contact.jsx",
-          "lines": "243",
+          "lines": "254",
           "quote": "// no href on live"
         }
       ]
@@ -73,7 +73,7 @@
       "evidence": [
         {
           "path": "src/pages/Contact.jsx",
-          "lines": "217",
+          "lines": "224",
           "quote": "<p className=\"md:hidden\">Four plans"
         }
       ]
@@ -127,6 +127,30 @@
       ]
     },
     {
+      "id": "product-hero-buttons-overflow",
+      "where": "/tares, /rius hero at 390",
+      "what": "button row never wraps; the second button runs past the panel edge",
+      "evidence": [
+        {
+          "path": "src/components/ProductSections.jsx",
+          "lines": "41",
+          "quote": "{/* overflow-hidden: the live button row never wraps"
+        }
+      ]
+    },
+    {
+      "id": "addon-copy",
+      "where": "/rius/pricing add-ons",
+      "what": "'Extened retention' typo; Audit logs reuses the retention description",
+      "evidence": [
+        {
+          "path": "src/pages/RiusPricing.jsx",
+          "lines": "72",
+          "quote": "['Extened retention'"
+        }
+      ]
+    },
+    {
       "id": "legal-double-band",
       "where": "legal pages",
       "what": "a 67px spacer sits directly before the footer's own 67px band",
@@ -158,8 +182,19 @@
       "evidence": [
         {
           "path": "src/pages/Category.jsx",
-          "lines": "70",
-          "quote": "{/* live squeezes 3 columns at 390 (defect)"
+          "lines": "81",
+          "quote": "Live squeezes 3 columns at 390 (defect); clone fix"
+        }
+      ]
+    },
+    {
+      "id": "category-cta-heading-cap",
+      "what": "clone ships only Inter 400 (live uses 500), so the CTA heading is capped at 720px with break-words to keep the live line break",
+      "evidence": [
+        {
+          "path": "src/pages/Category.jsx",
+          "lines": "35",
+          "quote": "the clone only ships Inter 400"
         }
       ]
     },
@@ -169,7 +204,7 @@
       "evidence": [
         {
           "path": "src/components/LegacyLayout.jsx",
-          "lines": "84",
+          "lines": "85",
           "quote": "close the menu at all"
         }
       ]

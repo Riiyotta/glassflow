@@ -72,7 +72,7 @@ def control_for(tid):
         cs = sec["contentByVariant"][v] if "contentByVariant" in sec else sec["content"]
         nodes.append({"id": f"n{i}", "section": tn["section"], "variant": v, "content": synth(cs),
                       "motion": {"patterns": list(sec["motion"]["allowedPatterns"]), "reducedMotionFallback": sec["motion"]["reducedMotionFallback"]}})
-    return {"pageSpecVersion": "1.0.0", "template": tid, "theme": T["theme"], "route": route, "meta": {"title": "Sample page"}, "nodes": nodes}
+    return {"pageSpecVersion": C["schema"]["properties"]["pageSpecVersion"]["const"], "template": tid, "theme": T["theme"], "route": route, "meta": {"title": "Sample page"}, "nodes": nodes}
 
 
 EXAMPLE = json.load(open(os.path.join(REPO, "schema/example.pagespec.json"), encoding="utf-8"))
@@ -160,6 +160,9 @@ MUTATIONS = [
     ("runtime", "fabricated third-party logo (generate: on must-reuse-exact role)", mut(HOME, lambda s: _set(node(s, "hero.home")["logoStrip"]["logos"][0], "ref", "generate:new partner logo"))),
     ("runtime", "outbound link to a non-allowlisted host", mut(HOME, lambda s: _set(node(s, "hero.home")["cta"], "href", "https://evil.example.com/x"))),
     ("runtime", "protocol-relative link", mut(HOME, lambda s: _set(node(s, "hero.home")["cta"], "href", "//evil.example.com"))),
+    ("runtime", "comparison-table row label over budget (anyOf object branch)", mut(PRICING, lambda s: _set(node(s, "pricing.comparison-table"), "rows", [{"band": "SUPPORT"}, {"label": " ".join(["w"] * 9), "values": ["check", "minus", "x", "y"]}]))),
+    ("schema", "rius divider variant swapped for the all-widths divider", mut(control_for("product-rius"), lambda s: _set(s["nodes"][1], "variant", "divider-30-nope"))),
+    ("structural", "pricing calculator band replaced by a default band (template expects band-70)", mut(PRICING, lambda s: _set(s["nodes"][idx(s, "conversion.calculator-banner") - 1], "variant", "band-65"))),
     ("runtime", "case-study body summary-only violated (3 sentences)", mut(CASE, lambda s: _set(node(s, "case.detail-body")["body"]["outline"][0], "summary", "A. B. C."))),
 ]
 
@@ -186,7 +189,8 @@ EXPECT = {
     "long-form summary is multi-sentence copied prose": "LONG_FORM_SUMMARY_ONLY", "long-form outline totals exceed 600 words": "LONG_FORM_SUMMARY_ONLY",
     "HubSpot endpoint string in content": "FORM_ENDPOINT_PINNED", "fabricated real-person photo (generate: on must-not-fabricate role)": "ASSET_ROLE_POLICY",
     "fabricated third-party logo (generate: on must-reuse-exact role)": "ASSET_ROLE_POLICY", "outbound link to a non-allowlisted host": "LINK_KINDS",
-    "protocol-relative link": "LINK_KINDS", "case-study body summary-only violated (3 sentences)": "LONG_FORM_SUMMARY_ONLY",
+    "protocol-relative link": "LINK_KINDS", "comparison-table row label over budget (anyOf object branch)": "MAX_WORDS",
+    "rius divider variant swapped for the all-widths divider": "SCHEMA", "pricing calculator band replaced by a default band (template expects band-70)": "TEMPLATE_SEQUENCE", "case-study body summary-only violated (3 sentences)": "LONG_FORM_SUMMARY_ONLY",
 }
 
 

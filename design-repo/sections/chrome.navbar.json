@@ -16,6 +16,11 @@
       "path": "src/App.jsx",
       "lines": "55-57",
       "quote": "<GlobalChrome>"
+    },
+    {
+      "path": "src/components/Navbar.jsx",
+      "lines": "56",
+      "quote": "<span tabIndex={0} aria-haspopup=\"true\""
     }
   ],
   "content": {
@@ -62,7 +67,7 @@
     "evidence": [
       {
         "path": "src/components/Navbar.jsx",
-        "lines": "77",
+        "lines": "78",
         "quote": "flex h-[40px] md:hidden"
       },
       {
@@ -71,5 +76,6 @@
         "quote": "has-dropdown relative hidden md:flex"
       }
     ]
-  }
+  },
+  "notes": "The 'products' cell is a focusable dropdown trigger (<span tabIndex=0 aria-haspopup>), not a navigation link; it has no href."
 }

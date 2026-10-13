@@ -42,7 +42,7 @@
       "columns": 1
     },
     "810": {
-      "columns": 1
+      "columns": 2
     },
     "1200": {
       "columns": 4
@@ -51,7 +51,7 @@
       {
         "path": "src/pages/Rius.jsx",
         "lines": "95",
-        "quote": "grid grid-cols-1 bg-card-dark lg:grid-cols-4"
+        "quote": "grid grid-cols-1 bg-card-dark md:grid-cols-2 lg:grid-cols-4"
       }
     ]
   }

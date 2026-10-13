@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/pages/RiusPricing.jsx",
-      "lines": "170-190",
+      "lines": "175-195",
       "quote": "function CalculatorBanner()"
     }
   ],
@@ -91,19 +91,27 @@
   },
   "responsive": {
     "390": {
-      "text": "max 326"
+      "height": 450,
+      "text": "max 326, gap 24"
     },
     "810": {
-      "text": "max 990"
+      "height": 610,
+      "text": "max 420, gap 38"
     },
     "1200": {
+      "height": 450,
       "text": "max 990"
     },
     "evidence": [
       {
         "path": "src/pages/RiusPricing.jsx",
-        "lines": "175",
-        "quote": "max-w-[326px] flex-col items-center gap-6 text-center md:max-w-[990px]"
+        "lines": "180",
+        "quote": "relative flex h-[450px] items-center justify-center overflow-hidden px-8 md:h-[610px] lg:h-[450px]"
+      },
+      {
+        "path": "src/pages/RiusPricing.jsx",
+        "lines": "182",
+        "quote": "max-w-[326px] flex-col items-center gap-6 text-center md:max-w-[420px]"
       }
     ]
   }

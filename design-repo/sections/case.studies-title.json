@@ -10,7 +10,7 @@
   "implementedBy": [
     {
       "path": "src/components/ContentSections.jsx",
-      "lines": "313-327",
+      "lines": "317-331",
       "quote": "export function CaseStudiesTitle"
     }
   ],
@@ -61,19 +61,21 @@
   },
   "responsive": {
     "390": {
-      "title": "32/32"
+      "title": "32/32",
+      "pad": 32
     },
     "810": {
-      "title": "40/40"
+      "title": "40/40",
+      "pad": "64 x 32"
     },
     "1200": {
-      "height": "263 / 184"
+      "height": "263 (index) / 184 (compact)"
     },
     "evidence": [
       {
         "path": "src/components/ContentSections.jsx",
-        "lines": "317",
-        "quote": "compact ? 'lg:h-[184px]' : 'lg:h-[263px]'"
+        "lines": "322",
+        "quote": "bg-panel p-8 md:py-16 ${compact ? 'lg:h-[184px]' : 'lg:h-[263px]'}"
       }
     ]
   }

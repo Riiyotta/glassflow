@@ -9,12 +9,12 @@
   "implementedBy": [
     {
       "path": "src/components/LegacyLayout.jsx",
-      "lines": "78-138",
+      "lines": "79-139",
       "quote": "function LegacyNav({ tone })"
     },
     {
       "path": "src/components/LegacyLayout.jsx",
-      "lines": "153",
+      "lines": "155",
       "quote": "export default function LegacyLayout"
     }
   ],
@@ -52,17 +52,28 @@
       "layout": "logo + hamburger; menu opens as a 342x401 rounded card"
     },
     "810": {
-      "layout": "inline links, dropdowns, GitHub star"
+      "layout": "logo, 1x26 #3B3B3B rule, links 24px apart, GitHub star widget (170x28)"
     },
     "1200": {
-      "layout": "inline, max 1220 centred"
+      "layout": "same, max 1220 centred"
     },
     "evidence": [
       {
         "path": "src/components/LegacyLayout.jsx",
-        "lines": "122",
+        "lines": "124",
         "quote": "className=\"relative z-10 ml-auto flex h-3 w-4 flex-col justify-between md:hidden\""
+      },
+      {
+        "path": "src/components/LegacyLayout.jsx",
+        "lines": "98",
+        "quote": "ml-6 mr-[23px] hidden h-[26px] w-px bg-[#3B3B3B] md:block"
+      },
+      {
+        "path": "src/components/LegacyLayout.jsx",
+        "lines": "45-57",
+        "quote": "function GithubStar()"
       }
     ]
-  }
+  },
+  "notes": "The GitHub star widget is a static stand-in for the live buttons.github.io iframe and embeds GitHub's mark (a third-party trademark: reuse exactly, never redraw)."
 }

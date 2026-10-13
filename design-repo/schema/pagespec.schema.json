@@ -14,7 +14,7 @@
   ],
   "properties": {
     "pageSpecVersion": {
-      "const": "1.0.0"
+      "const": "1.1.0"
     },
     "template": {
       "enum": [
@@ -4964,7 +4964,7 @@
             ]
           },
           "minItems": 2,
-          "maxItems": 4
+          "maxItems": 8
         },
         "image": {
           "type": "object",
@@ -5006,9 +5006,76 @@
         "plans": {
           "type": "array",
           "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 2
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "price": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 1
+              },
+              "cta": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 4
+                  },
+                  "href": {
+                    "type": "string",
+                    "minLength": 1,
+                    "x-linkField": true,
+                    "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "href"
+                ]
+              },
+              "highlight": {
+                "type": "boolean"
+              },
+              "icon": {
+                "type": "object",
+                "properties": {
+                  "assetRole": {
+                    "enum": [
+                      "icon.pixel"
+                    ]
+                  },
+                  "ref": {
+                    "type": "string",
+                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                    "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  },
+                  "alt": {
+                    "type": "string",
+                    "maxWords": 14
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "assetRole",
+                  "ref",
+                  "alt"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "price",
+              "cta",
+              "highlight",
+              "icon"
+            ]
           },
           "minItems": 4,
           "maxItems": 4
@@ -5016,38 +5083,56 @@
         "rows": {
           "type": "array",
           "items": {
-            "type": "object",
-            "properties": {
-              "label": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 8
-              },
-              "values": {
-                "type": "array",
-                "items": {
-                  "anyOf": [
-                    {
-                      "enum": [
-                        "check",
-                        "minus"
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 8
+                  },
+                  "values": {
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "enum": [
+                            "check",
+                            "minus"
+                          ]
+                        },
+                        {
+                          "type": "string",
+                          "minLength": 1,
+                          "maxWords": 4
+                        }
                       ]
                     },
-                    {
-                      "type": "string",
-                      "minLength": 1,
-                      "maxWords": 4
-                    }
-                  ]
+                    "minItems": 4,
+                    "maxItems": 4
+                  }
                 },
-                "minItems": 4,
-                "maxItems": 4
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "values"
+                ]
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "band": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 2
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "band"
+                ]
               }
-            },
-            "additionalProperties": false,
-            "required": [
-              "label",
-              "values"
             ]
           },
           "minItems": 1,
@@ -8039,7 +8124,9 @@
               "variant": {
                 "enum": [
                   "band-65",
+                  "band-70",
                   "divider-30",
+                  "divider-30-tablet-up",
                   "top-64"
                 ]
               },
@@ -8551,11 +8638,13 @@
                     "type": "array",
                     "uniqueItems": true,
                     "items": {
-                      "enum": []
+                      "enum": [
+                        "text-roll"
+                      ]
                     }
                   },
                   "reducedMotionFallback": {
-                    "const": "none-needed"
+                    "const": "transitions-disabled"
                   }
                 }
               },

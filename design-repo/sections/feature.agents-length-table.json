@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/pages/Rius.jsx",
-      "lines": "153-213",
+      "lines": "157-217",
       "quote": "function AgentsLength()"
     }
   ],
@@ -137,20 +137,33 @@
   },
   "responsive": {
     "390": {
-      "table": "single column cells, 20px side pad"
+      "header": "title image 144 + photo 347, stacked",
+      "columnHeads": "replaced by an empty 262px cell",
+      "table": "single column cells"
     },
     "810": {
-      "table": "single column"
+      "header": "title image 224 + photo 413, stacked",
+      "table": "3 columns; Mid/Long rows share equal heights (152)"
     },
     "1200": {
-      "table": "3 columns",
-      "header": "525px + image, 490 tall"
+      "header": "525px title + photo, 490 tall",
+      "table": "3 columns, rows 96/107"
     },
     "evidence": [
       {
         "path": "src/pages/Rius.jsx",
-        "lines": "157",
-        "quote": "grid grid-cols-1 bg-card-dark lg:h-[490px] lg:grid-cols-[525px_1fr]"
+        "lines": "161",
+        "quote": "grid grid-cols-1 bg-card-dark lg:h-[490px] lg:grid-cols-[525px_1fr] lg:items-center"
+      },
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "177",
+        "quote": "<div className=\"hairline h-[262px] md:hidden\" />"
+      },
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "178",
+        "quote": "<div className=\"hidden grid-cols-3 md:grid\">"
       }
     ]
   }

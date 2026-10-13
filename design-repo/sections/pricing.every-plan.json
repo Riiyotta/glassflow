@@ -9,8 +9,13 @@
   "implementedBy": [
     {
       "path": "src/pages/RiusPricing.jsx",
-      "lines": "112-132",
+      "lines": "113-131",
       "quote": "function EveryPlan()"
+    },
+    {
+      "path": "src/pages/RiusPricing.jsx",
+      "lines": "66",
+      "quote": "const EVERY_PLAN_ROWS ="
     }
   ],
   "content": {
@@ -50,10 +55,10 @@
   },
   "responsive": {
     "390": {
-      "columns": 1
+      "columns": "1; items read row by row from the interleaved 2-column grid"
     },
     "810": {
-      "columns": 1
+      "columns": 2
     },
     "1200": {
       "columns": 2
@@ -61,9 +66,10 @@
     "evidence": [
       {
         "path": "src/pages/RiusPricing.jsx",
-        "lines": "118",
-        "quote": "grid grid-cols-1 bg-card-dark lg:grid-cols-2"
+        "lines": "120",
+        "quote": "grid grid-cols-1 items-start bg-card-dark md:grid-cols-2"
       }
     ]
-  }
+  },
+  "notes": "ONE grid filled row by row (EVERY_PLAN_ROWS interleaves the two source columns), not two independent lists."
 }

@@ -70,11 +70,14 @@
       "text.secondary"
     ],
     "typography.roles": [
+      "alternatives-body",
       "article-h2",
       "article-p",
       "blog-card-title",
       "body",
       "button",
+      "calculator-section-label",
+      "calculator-title",
       "h1",
       "h2",
       "lead",

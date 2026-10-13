@@ -15,7 +15,7 @@
   "implementedBy": [
     {
       "path": "src/components/Testimonial.jsx",
-      "lines": "18-65",
+      "lines": "20-67",
       "quote": "export default function Testimonial"
     }
   ]

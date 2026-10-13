@@ -14,7 +14,7 @@
     },
     {
       "path": "src/components/Hero.jsx",
-      "lines": "70-103",
+      "lines": "72-105",
       "quote": "export function LogoStrip"
     }
   ],
@@ -173,7 +173,7 @@
   "responsive": {
     "390": {
       "band": "296 tall",
-      "panels": "stacked; second panel bar hidden",
+      "panels": "stacked; second panel bar hidden; NO hairline on the shared edge between the two panels (max-md shadow overrides)",
       "logos": "2x2 under a 50px caption"
     },
     "810": {
@@ -193,8 +193,13 @@
       },
       {
         "path": "src/components/Hero.jsx",
-        "lines": "92",
+        "lines": "94",
         "quote": "lg:grid-cols-[280px_repeat(4,1fr)]"
+      },
+      {
+        "path": "src/components/Hero.jsx",
+        "lines": "32",
+        "quote": "max-md:shadow-[inset_1px_1px_0_0_#5F3E1F,inset_-1px_0_0_0_#5F3E1F]"
       }
     ]
   }

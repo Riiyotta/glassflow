@@ -5,14 +5,31 @@
   "purpose": "Bordered blank band separating sections.",
   "variants": {
     "band-65": "default 67px band",
-    "divider-30": "30px divider directly under the nav",
-    "top-64": "64px band (calculator)"
+    "band-70": "72px band (/rius/pricing, before the calculator banner)",
+    "divider-30": "30px divider directly under the nav (all widths)",
+    "divider-30-tablet-up": "30px divider under the nav, hidden below 810 (/rius)",
+    "top-64": "66px band above the calculator, desktop only (hidden below 1200)"
   },
   "implementedBy": [
     {
       "path": "src/components/ui.jsx",
       "lines": "18-22",
       "quote": "export function Spacer"
+    },
+    {
+      "path": "src/pages/RiusPricing.jsx",
+      "lines": "214",
+      "quote": "<Spacer inner=\"h-[70px]\" />"
+    },
+    {
+      "path": "src/pages/Rius.jsx",
+      "lines": "280",
+      "quote": "<Spacer className=\"hidden bg-page md:block\" inner=\"h-[30px]\" />"
+    },
+    {
+      "path": "src/pages/Calculator.jsx",
+      "lines": "14-16",
+      "quote": "<div className=\"hidden lg:block\">"
     }
   ],
   "content": {
@@ -31,19 +48,36 @@
   },
   "responsive": {
     "390": {
-      "height": "same"
+      "band-65": 67,
+      "band-70": 72,
+      "divider-30": 32,
+      "divider-30-tablet-up": "hidden",
+      "top-64": "hidden"
     },
     "810": {
-      "height": "same"
+      "band-65": 67,
+      "band-70": 72,
+      "divider-30": 32,
+      "divider-30-tablet-up": 32,
+      "top-64": "hidden"
     },
     "1200": {
-      "height": "same"
+      "band-65": 67,
+      "band-70": 72,
+      "divider-30": 32,
+      "divider-30-tablet-up": 32,
+      "top-64": 66
     },
     "evidence": [
       {
         "path": "src/components/ui.jsx",
         "lines": "18",
         "quote": "inner = 'h-[65px]'"
+      },
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "279",
+        "quote": "{/* live /rius has no divider under the nav on mobile"
       }
     ]
   }

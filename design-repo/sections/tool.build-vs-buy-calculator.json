@@ -9,8 +9,13 @@
   "implementedBy": [
     {
       "path": "src/components/BuildVsBuyCalculator.jsx",
-      "lines": "177-237",
+      "lines": "188-248",
       "quote": "export default function BuildVsBuyCalculator"
+    },
+    {
+      "path": "src/components/BuildVsBuyCalculator.jsx",
+      "lines": "225",
+      "quote": "bg-panel font-sys text-[12px]"
     }
   ],
   "content": {
@@ -42,21 +47,29 @@
   },
   "responsive": {
     "390": {
-      "layout": "stacked"
+      "topBand": "none (calculator directly under the nav)",
+      "gutters": 16
     },
     "810": {
-      "layout": "stacked"
+      "topBand": "none",
+      "gutters": 64
     },
     "1200": {
-      "layout": "inputs + results columns"
+      "topBand": "66px band",
+      "gutters": 64
     },
     "evidence": [
       {
         "path": "src/pages/Calculator.jsx",
-        "lines": "13",
-        "quote": "<Shell className=\"px-4\" inner=\"bg-panel\">"
+        "lines": "17",
+        "quote": "<Shell className=\"px-4 md:!px-16\" inner=\"bg-panel\">"
+      },
+      {
+        "path": "src/pages/Calculator.jsx",
+        "lines": "14",
+        "quote": "<div className=\"hidden lg:block\">"
       }
     ]
   },
-  "notes": "Uses system font stacks (fontFamily sys / sys-mono) and calc-* colours: an intentional third sub-palette scoped to this tool."
+  "notes": "Render mirrors the live embed: root in the SYSTEM font (font-sys 12px), labels in sys-mono, title 34px/800; calc-* colours; radii 3/4px and a round help dot. Number formatting, table brand/subtitle fields and the short visible labels are code-owned and not part of the content contract."
 }

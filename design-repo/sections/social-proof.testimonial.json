@@ -4,13 +4,13 @@
   "category": "social-proof",
   "purpose": "Single quote over dithered texture with person + company attribution cells.",
   "variants": {
-    "home": "32px quote, 64px pad",
-    "compact": "/rius: 40px pad, 21px quote on mobile, centred attribution"
+    "home": "32px quote at every width, 32/64px pad",
+    "compact": "/rius (compact + bleed): 40px pad, quote 21/26/32, centred attribution, full-bleed at tablet"
   },
   "implementedBy": [
     {
       "path": "src/components/Testimonial.jsx",
-      "lines": "18-65",
+      "lines": "20-67",
       "quote": "export default function Testimonial"
     }
   ],
@@ -148,19 +148,51 @@
   },
   "responsive": {
     "390": {
-      "attribution": "home: stacked cells; compact: 2 columns"
+      "home": {
+        "quote": "32/32",
+        "attribution": "stacked cells"
+      },
+      "compact": {
+        "quote": "21/21",
+        "attribution": "2 columns"
+      }
     },
     "810": {
-      "attribution": "2 columns"
+      "home": {
+        "quote": "32/32",
+        "attribution": "2 columns"
+      },
+      "compact": {
+        "quote": "26/26",
+        "gutters": "0 (bleed: md:!px-0)",
+        "attribution": "2 columns, names nowrap"
+      }
     },
     "1200": {
-      "attribution": "2 columns, 117px side padding (home)"
+      "home": {
+        "quote": "32/32",
+        "attribution": "2 columns, 117px side padding"
+      },
+      "compact": {
+        "quote": "32/32",
+        "gutters": 64
+      }
     },
     "evidence": [
       {
         "path": "src/components/Testimonial.jsx",
-        "lines": "40",
+        "lines": "46",
         "quote": "grid-cols-1 md:grid-cols-2"
+      },
+      {
+        "path": "src/components/Testimonial.jsx",
+        "lines": "37",
+        "quote": "'text-[21px] leading-[21px] md:text-[26px] md:leading-[26px] lg:text-[32px] lg:leading-[32px]'"
+      },
+      {
+        "path": "src/components/Testimonial.jsx",
+        "lines": "22",
+        "quote": "bleed ? { className: 'md:!px-0 lg:!px-16' }"
       }
     ]
   },

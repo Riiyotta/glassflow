@@ -5,7 +5,7 @@
       "$type": "color",
       "$value": "#492400",
       "group": "mars",
-      "usageCount": 21,
+      "usageCount": 28,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -18,7 +18,7 @@
       "$type": "color",
       "$value": "#2D1804",
       "group": "mars",
-      "usageCount": 43,
+      "usageCount": 46,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -70,7 +70,7 @@
       "$type": "color",
       "$value": "#FFAC00",
       "group": "mars",
-      "usageCount": 75,
+      "usageCount": 73,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -96,7 +96,7 @@
       "$type": "color",
       "$value": "#F1EFDF",
       "group": "mars",
-      "usageCount": 126,
+      "usageCount": 132,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -161,7 +161,7 @@
       "$type": "color",
       "$value": "#1E0F00",
       "group": "mars.product",
-      "usageCount": 41,
+      "usageCount": 39,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -395,7 +395,7 @@
       "$type": "color",
       "$value": "#C9BBA0",
       "group": "mars.calculator",
-      "usageCount": 10,
+      "usageCount": 6,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -408,7 +408,7 @@
       "$type": "color",
       "$value": "#8F8672",
       "group": "mars.calculator",
-      "usageCount": 17,
+      "usageCount": 11,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -434,7 +434,7 @@
       "$type": "color",
       "$value": "#FFC15C",
       "group": "mars.calculator",
-      "usageCount": 2,
+      "usageCount": 3,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -447,7 +447,7 @@
       "$type": "color",
       "$value": "#4ADE80",
       "group": "mars.calculator",
-      "usageCount": 6,
+      "usageCount": 7,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -460,7 +460,7 @@
       "$type": "color",
       "$value": "rgba(255,220,180,0.14)",
       "group": "mars.calculator",
-      "usageCount": 10,
+      "usageCount": 11,
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -504,7 +504,7 @@
       "measuredFrom": [
         {
           "path": "src/components/LegacyLayout.jsx",
-          "lines": "63",
+          "lines": "64",
           "quote": "bg-black/80"
         }
       ]
@@ -528,7 +528,7 @@
       "measuredFrom": [
         {
           "path": "src/pages/Category.jsx",
-          "lines": "31",
+          "lines": "39",
           "quote": "text-[#A8A3A3]"
         }
       ]
@@ -548,19 +548,43 @@
     "divider": {
       "$type": "color",
       "$value": "#333333",
-      "use": "nav divider, secondary button border",
+      "use": "secondary (outline) button border",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Category.jsx",
+          "lines": "51",
+          "quote": "border-[#333333]"
+        }
+      ]
+    },
+    "nav-rule": {
+      "$type": "color",
+      "$value": "#3B3B3B",
+      "use": "1x26 rule between logo and links",
       "measuredFrom": [
         {
           "path": "src/components/LegacyLayout.jsx",
-          "lines": "96",
-          "quote": "bg-[#333333]"
+          "lines": "98",
+          "quote": "bg-[#3B3B3B]"
+        }
+      ]
+    },
+    "cta-heading-gradient": {
+      "$type": "color",
+      "$value": "linear-gradient(0deg,#FFFFFF 0%,#A8A8A8 100%)",
+      "use": "category bottom-CTA heading, painted per line",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Category.jsx",
+          "lines": "24",
+          "quote": "const CTA_GRADIENT"
         }
       ]
     },
     "heading-gradient": {
       "$type": "color",
       "$value": "linear-gradient(244deg,#A8A8A8 0%,#FFFFFF 100%)",
-      "use": "gradient-clipped H1/H2",
+      "use": "gradient-clipped H1 (inline span) + guide H1",
       "measuredFrom": [
         {
           "path": "src/pages/Category.jsx",
@@ -614,6 +638,39 @@
           "path": "src/pages/Guide.jsx",
           "lines": "125",
           "quote": "bg-amber px-[10px]"
+        }
+      ]
+    }
+  },
+  "untokenised": {
+    "$description": "Raw values present in src that are NOT design tokens. Generators must not reuse them as palette colours.",
+    "sidebar-kicker": {
+      "$value": "#ABABBA",
+      "use": "case-study sidebar 'Company Overview' label",
+      "measuredFrom": [
+        {
+          "path": "src/pages/CaseStudies.jsx",
+          "lines": "124",
+          "quote": "text-[#ABABBA]"
+        }
+      ]
+    },
+    "github-widget": {
+      "$value": [
+        "#f6f8fa",
+        "#ebf0f4",
+        "#eff2f5",
+        "#e5eaee",
+        "#d1d9e0",
+        "#25292e",
+        "#0969da"
+      ],
+      "use": "GitHub's own star-button styling reproduced in the legacy nav stand-in (third-party UI)",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "43",
+          "quote": "const GH_PART ="
         }
       ]
     }

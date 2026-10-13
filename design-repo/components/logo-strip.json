@@ -13,7 +13,7 @@
   "implementedBy": [
     {
       "path": "src/components/Hero.jsx",
-      "lines": "70-103",
+      "lines": "72-105",
       "quote": "export function LogoStrip"
     }
   ]

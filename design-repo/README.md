@@ -5,18 +5,18 @@ www.glassflow.ai. A generator composes **PageSpecs** (JSON) from the closed set 
 templates here; `schema/` validates them structurally and semantically.
 
 **Status: design-review-pending, productionApproved false.** allowlistVersion 1.0.0 (machine-checked);
-repositoryVersion / pageSpecVersion 1.0.0 (documentation-only, see `registry.manifest.json`.versionFieldNote).
+repositoryVersion / pageSpecVersion 1.1.0 (documentation-only, see `registry.manifest.json`.versionFieldNote).
 
 ## Counts (recomputed from disk by `extraction/verify_all.py`)
 
 | count | value |
 |---|---|
-| foundationTokens | 114 |
+| foundationTokens | 126 |
 | semanticTokens | 34 |
 | primitives | 18 |
 | components | 16 |
 | sections | 68 |
-| sectionVariants | 97 |
+| sectionVariants | 99 |
 | templates | 17 |
 | routes | 160 |
 | pageRoutes | 133 |

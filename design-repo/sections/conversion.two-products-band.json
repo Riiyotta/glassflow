@@ -33,19 +33,32 @@
   },
   "responsive": {
     "390": {
-      "copy": "posts variant swaps to mobile copy"
+      "copy": "posts variant swaps to mobile copy",
+      "copyToButtonsGap": "32 (pages/posts/cases), 64 (blog)"
     },
     "810": {
-      "buttons": "row"
+      "buttons": "row",
+      "copyToButtonsGap": 64
     },
     "1200": {
-      "text": "max 640"
+      "title": "max 420",
+      "body": "max 420 (pages/posts/cases); blog body unconstrained in a 640 group"
     },
     "evidence": [
       {
         "path": "src/components/ContentSections.jsx",
         "lines": "87",
         "quote": "<span className=\"md:hidden\">Give your agent one place to look."
+      },
+      {
+        "path": "src/components/ContentSections.jsx",
+        "lines": "110",
+        "quote": "bodyClass=\"t-body max-w-[420px]\""
+      },
+      {
+        "path": "src/components/ContentSections.jsx",
+        "lines": "112",
+        "quote": "gapClass=\"gap-8 md:gap-16\""
       }
     ]
   },

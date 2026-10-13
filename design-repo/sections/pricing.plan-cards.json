@@ -146,7 +146,7 @@
       "columns": 1
     },
     "810": {
-      "columns": 1
+      "columns": "2x2, equal rows (552)"
     },
     "1200": {
       "columns": 4
@@ -154,8 +154,13 @@
     "evidence": [
       {
         "path": "src/components/PlanCards.jsx",
-        "lines": "8",
-        "quote": "grid grid-cols-1 lg:grid-cols-4"
+        "lines": "9",
+        "quote": "grid grid-cols-1 md:grid-cols-2 md:auto-rows-fr lg:grid-cols-4"
+      },
+      {
+        "path": "src/components/PlanCards.jsx",
+        "lines": "16",
+        "quote": "md:min-h-[243.5px]"
       }
     ]
   }

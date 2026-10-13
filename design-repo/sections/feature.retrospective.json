@@ -105,20 +105,26 @@
   },
   "responsive": {
     "390": {
-      "image": "372 tall, stacked"
+      "order": "image (372) then text"
     },
     "810": {
-      "image": "372 tall"
+      "order": "TEXT first, then a 600px image",
+      "lottie": "562x281"
     },
     "1200": {
-      "columns": 2,
-      "image": "530 tall"
+      "columns": "image left (530) + text right",
+      "lottie": "400x405"
     },
     "evidence": [
       {
         "path": "src/pages/Rius.jsx",
-        "lines": "130",
-        "quote": "relative h-[372px] p-3 lg:h-[530px]"
+        "lines": "132",
+        "quote": "relative h-[372px] md:order-2 md:h-[600px] lg:order-1 lg:h-[530px]"
+      },
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "136",
+        "quote": "md:h-[281px] md:w-[562px] lg:h-[405px] lg:w-[400px]"
       }
     ]
   },

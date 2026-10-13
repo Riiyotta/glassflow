@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/pages/Rius.jsx",
-      "lines": "244-258",
+      "lines": "258-272",
       "quote": "function CtaXs()"
     }
   ],
@@ -68,20 +68,21 @@
   "responsive": {
     "390": {
       "height": 200,
-      "layout": "column"
+      "layout": "column, icon top / label bottom"
     },
     "810": {
-      "height": 104,
-      "layout": "row"
+      "height": "auto (64px vertical pad)",
+      "layout": "row, gap 24"
     },
     "1200": {
+      "height": 104,
       "inset": "128px"
     },
     "evidence": [
       {
         "path": "src/pages/Rius.jsx",
-        "lines": "247",
-        "quote": "h-[200px] flex-col justify-center gap-6 overflow-hidden p-8 md:h-[104px]"
+        "lines": "261",
+        "quote": "relative flex h-[200px] flex-col justify-between overflow-hidden p-8 md:h-auto md:flex-row"
       }
     ]
   }

@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/components/ProductSections.jsx",
-      "lines": "98-126",
+      "lines": "101-129",
       "quote": "export function ImageCTA"
     }
   ],
@@ -112,20 +112,29 @@
   },
   "responsive": {
     "390": {
-      "buttons": "stacked"
+      "buttons": "stacked",
+      "title": "42/42",
+      "copyToButtonsGap": 32
     },
     "810": {
       "buttons": "row",
-      "title": "40/40"
+      "title": "40/40",
+      "copyToButtonsGap": 64
     },
     "1200": {
-      "pad": "128px sides"
+      "pad": "128px sides",
+      "copyToButtonsGap": 64
     },
     "evidence": [
       {
         "path": "src/components/ProductSections.jsx",
-        "lines": "118",
+        "lines": "122",
         "quote": "flex flex-col items-start gap-2 md:flex-row"
+      },
+      {
+        "path": "src/pages/Tares.jsx",
+        "lines": "194",
+        "quote": "gapClass=\"gap-8 md:gap-16\""
       }
     ]
   }

@@ -82,7 +82,7 @@
       "groups": "stacked"
     },
     "810": {
-      "groups": "stacked"
+      "groups": "2 columns"
     },
     "1200": {
       "groups": "2 columns"
@@ -90,8 +90,8 @@
     "evidence": [
       {
         "path": "src/pages/Rius.jsx",
-        "lines": "106-108",
-        "quote": "function Logos()"
+        "lines": "108",
+        "quote": "<Shell inner=\"grid grid-cols-1 md:grid-cols-2\">"
       }
     ]
   }

@@ -35,6 +35,7 @@
       "easing": "cubic-bezier(0.44, 0, 0.56, 1)",
       "delayLeadMs": 70,
       "reduced": "opacity-only",
+      "endStateGuarantee": "appear() (also used by text-effect) forces each part to its end state at delay + duration + 50ms if the timeline stalls; mount-only, never scroll-gated",
       "evidence": [
         {
           "path": "src/components/motion.js",
@@ -45,6 +46,11 @@
           "path": "src/index.css",
           "lines": "163",
           "quote": ".appear-part:not([data-revealed]) { opacity: 0.001; }"
+        },
+        {
+          "path": "src/components/motion.js",
+          "lines": "139-141",
+          "quote": "const fallback = setTimeout(() => {"
         }
       ]
     },
@@ -134,7 +140,7 @@
       "evidence": [
         {
           "path": "src/components/motion.js",
-          "lines": "151",
+          "lines": "161",
           "quote": "export function animateHeight(el, from, to, { duration = 200, easing = EASE.easeInish } = {}) {"
         },
         {
@@ -282,7 +288,7 @@
       "evidence": [
         {
           "path": "src/components/LegacyLayout.jsx",
-          "lines": "88",
+          "lines": "89",
           "quote": "el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 600, easing: EASE.legacyMenu })"
         }
       ]

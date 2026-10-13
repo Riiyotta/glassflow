@@ -35,7 +35,7 @@
     "measuredFrom": [
       {
         "path": "src/components/PlanCards.jsx",
-        "lines": "13",
+        "lines": "19",
         "quote": "className=\"h-10 w-10\""
       }
     ]
@@ -45,7 +45,7 @@
     "measuredFrom": [
       {
         "path": "src/components/ProductSections.jsx",
-        "lines": "79",
+        "lines": "81",
         "quote": "relative h-16 w-16"
       }
     ]
@@ -55,7 +55,7 @@
     "measuredFrom": [
       {
         "path": "src/components/Testimonial.jsx",
-        "lines": "46",
+        "lines": "52",
         "quote": "h-12 w-12 object-cover"
       }
     ]
@@ -65,7 +65,7 @@
     "measuredFrom": [
       {
         "path": "src/components/ContentSections.jsx",
-        "lines": "118",
+        "lines": "121",
         "quote": "h-[23px] w-[23px]"
       }
     ]

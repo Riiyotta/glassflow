@@ -105,7 +105,7 @@
         },
         {
           "path": "src/components/motion.js",
-          "lines": "150",
+          "lines": "160",
           "quote": "// Measured: 200ms, cubic-bezier(.5, 0, .88, .77), both directions."
         }
       ]
@@ -154,7 +154,7 @@
         },
         {
           "path": "src/components/Testimonial.jsx",
-          "lines": "33",
+          "lines": "39",
           "quote": "'text-[32px] leading-[32px]'"
         }
       ]
@@ -211,7 +211,7 @@
       "evidence": [
         {
           "path": "src/pages/Contact.jsx",
-          "lines": "177",
+          "lines": "181",
           "quote": "src=\"https://app.cal.com/"
         }
       ]
@@ -224,7 +224,7 @@
       "evidence": [
         {
           "path": "src/pages/Alternatives.jsx",
-          "lines": "1047",
+          "lines": "1051",
           "quote": "export default function Alternatives({ vendor })"
         }
       ]
@@ -269,6 +269,58 @@
       "repoUses": "final"
     }
   ],
+  "sourceChangesSinceV1_0": {
+    "$description": "v1.1.0 refresh after two pixel-audit fix passes changed the clone. Every fact below was re-derived from the current source, not re-pointed.",
+    "changedFiles": [
+      "src/components/BuildVsBuyCalculator.jsx",
+      "src/components/ComparisonTable.jsx",
+      "src/components/ContentSections.jsx",
+      "src/components/Hero.jsx",
+      "src/components/LegacyLayout.jsx",
+      "src/components/Navbar.jsx",
+      "src/components/PlanCards.jsx",
+      "src/components/ProductSections.jsx",
+      "src/components/TabsShowcase.jsx",
+      "src/components/Testimonial.jsx",
+      "src/components/motion.js",
+      "src/pages/Alternatives.jsx",
+      "src/pages/Calculator.jsx",
+      "src/pages/CaseStudies.jsx",
+      "src/pages/Category.jsx",
+      "src/pages/Contact.jsx",
+      "src/pages/Rius.jsx",
+      "src/pages/RiusPricing.jsx",
+      "src/pages/Tares.jsx"
+    ],
+    "unchanged": [
+      "tailwind.config.js",
+      "src/index.css",
+      "index.html",
+      "public/assets (no new files)"
+    ],
+    "evidence": [
+      {
+        "path": "src/components/ComparisonTable.jsx",
+        "lines": "10",
+        "quote": "// Live structure (measured at 1440 / 810 / 390)"
+      },
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "279",
+        "quote": "{/* live /rius has no divider under the nav on mobile"
+      },
+      {
+        "path": "src/pages/RiusPricing.jsx",
+        "lines": "213",
+        "quote": "{/* live band before the calculator is 72 tall (70 + borders), the others 67 */}"
+      },
+      {
+        "path": "src/pages/Calculator.jsx",
+        "lines": "12",
+        "quote": "{/* Live: the 66px band exists only on desktop"
+      }
+    ]
+  },
   "sitemap": {
     "total": 108,
     "blogUrls": 67,

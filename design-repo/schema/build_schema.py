@@ -69,7 +69,7 @@ def build():
         "type": "object", "additionalProperties": False,
         "required": ["pageSpecVersion", "template", "theme", "route", "meta", "nodes"],
         "properties": {
-            "pageSpecVersion": {"const": "1.0.0"},
+            "pageSpecVersion": {"const": "1.1.0"},
             "template": {"enum": sorted(T)},
             "theme": {"enum": ["mars", "legacy-black"]},
             "route": {"type": "string", "pattern": "^/[a-z0-9/_-]*$"},

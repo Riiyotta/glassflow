@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/pages/Rius.jsx",
-      "lines": "215-245",
+      "lines": "228-258",
       "quote": "function WhatYouGet()"
     }
   ],
@@ -114,20 +114,27 @@
   },
   "responsive": {
     "390": {
-      "cards": 1
+      "cards": 1,
+      "headingRow": "stacked"
     },
     "810": {
-      "cards": 1
+      "cards": "2, equal rows, card text 13px",
+      "headingRow": "row, two equal halves"
     },
     "1200": {
       "cards": 2,
-      "headingRow": "178 tall, row"
+      "headingRow": "178 tall, 656 + 600"
     },
     "evidence": [
       {
         "path": "src/pages/Rius.jsx",
-        "lines": "224",
-        "quote": "grid grid-cols-1 gap-2 lg:grid-cols-2"
+        "lines": "238",
+        "quote": "grid grid-cols-1 gap-2 md:grid-cols-2 md:auto-rows-fr md:items-start"
+      },
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "231",
+        "quote": "md:flex-row md:items-center lg:h-[178px]"
       }
     ]
   }

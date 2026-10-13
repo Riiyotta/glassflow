@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/pages/Contact.jsx",
-      "lines": "201-235",
+      "lines": "208-242",
       "quote": "export default function Contact()"
     },
     {
@@ -172,25 +172,41 @@
   "responsive": {
     "390": {
       "lead": "mobile shows a different (pricing) sentence - live quirk",
-      "columns": 1
+      "columns": 1,
+      "panelPad": 32,
+      "formFrame": 0
     },
     "810": {
-      "columns": 1
+      "columns": 1,
+      "panelPad": 40,
+      "formFrame": 24
     },
     "1200": {
       "columns": 2,
-      "panel": "563 tall"
+      "panel": "564 tall",
+      "panelPad": 64,
+      "formFrame": 40
     },
     "evidence": [
       {
         "path": "src/pages/Contact.jsx",
-        "lines": "217",
+        "lines": "224",
         "quote": "<p className=\"md:hidden\">Four plans, priced per trace"
       },
       {
         "path": "src/pages/Contact.jsx",
-        "lines": "210",
-        "quote": "<div className=\"grid grid-cols-1 lg:grid-cols-2\">"
+        "lines": "195",
+        "quote": "pad = 'p-8 md:p-10 lg:p-16'"
+      },
+      {
+        "path": "src/pages/Contact.jsx",
+        "lines": "236",
+        "quote": "<div className=\"bg-deep md:p-6 lg:p-10\">"
+      },
+      {
+        "path": "src/pages/Contact.jsx",
+        "lines": "218",
+        "quote": "imageH=\"lg:h-[564px]\""
       }
     ]
   },

@@ -74,10 +74,10 @@
   },
   "responsive": {
     "390": {
-      "inset": "24px left"
+      "inset": 0
     },
     "810": {
-      "inset": "24px left"
+      "inset": 0
     },
     "1200": {
       "inset": "128px each side"
@@ -86,7 +86,7 @@
       {
         "path": "src/pages/Tares.jsx",
         "lines": "60",
-        "quote": "<Shell inner=\"pl-6 lg:px-[128px]\">"
+        "quote": "<Shell inner=\"lg:px-[128px]\">"
       }
     ]
   }

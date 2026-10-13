@@ -7,6 +7,7 @@
         400
       ],
       "source": "public/fonts/inter-display-400.woff2 (Framer woff2)",
+      "scope": "Mars headings/body AND the alternatives pages' base text (no longer Inter there)",
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
@@ -17,6 +18,11 @@
           "path": "src/index.css",
           "lines": "3",
           "quote": "src: url('/fonts/inter-display-400.woff2')"
+        },
+        {
+          "path": "src/pages/Alternatives.jsx",
+          "lines": "1064",
+          "quote": "bg-page font-display text-[16px] leading-[22.4px] tracking-[-0.64px]"
         }
       ]
     },
@@ -62,12 +68,17 @@
     },
     "sys": {
       "$value": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
-      "scope": "legacy guide form + calculator only",
+      "scope": "the whole calculator (root font), legacy guide form, legacy GitHub widget",
       "measuredFrom": [
         {
           "path": "tailwind.config.js",
           "lines": "57",
           "quote": "sys: ["
+        },
+        {
+          "path": "src/components/BuildVsBuyCalculator.jsx",
+          "lines": "225",
+          "quote": "bg-panel font-sys text-[12px]"
         }
       ]
     },
@@ -189,7 +200,7 @@
       "measuredFrom": [
         {
           "path": "src/components/ProductSections.jsx",
-          "lines": "48",
+          "lines": "49",
           "quote": "text-[48px] leading-[48px] tracking-[-1.92px]"
         }
       ]
@@ -202,7 +213,7 @@
       "measuredFrom": [
         {
           "path": "src/components/ProductSections.jsx",
-          "lines": "53",
+          "lines": "54",
           "quote": "text-[21px] leading-[29.4px] tracking-[-0.84px]"
         }
       ]
@@ -259,6 +270,44 @@
           "path": "src/pages/Category.jsx",
           "lines": "21",
           "quote": "const HEADING ="
+        }
+      ]
+    },
+    "alternatives-body": {
+      "font": "display",
+      "size": "16/22.4",
+      "tracking": "-0.64px",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Alternatives.jsx",
+          "lines": "1064",
+          "quote": "bg-page font-display text-[16px] leading-[22.4px] tracking-[-0.64px]"
+        }
+      ]
+    },
+    "calculator-title": {
+      "font": "sys",
+      "size": "34/1.25",
+      "weight": 800,
+      "measuredFrom": [
+        {
+          "path": "src/components/BuildVsBuyCalculator.jsx",
+          "lines": "229",
+          "quote": "mb-4 text-[34px] font-extrabold leading-[1.25]"
+        }
+      ]
+    },
+    "calculator-section-label": {
+      "font": "sys-mono",
+      "size": "11",
+      "weight": 700,
+      "transform": "uppercase",
+      "tracking": "0.06em",
+      "measuredFrom": [
+        {
+          "path": "src/components/BuildVsBuyCalculator.jsx",
+          "lines": "144",
+          "quote": "const SECTION_LABEL ="
         }
       ]
     },

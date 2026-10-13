@@ -9,8 +9,13 @@
   "implementedBy": [
     {
       "path": "src/components/ComparisonTable.jsx",
-      "lines": "13-58",
+      "lines": "19-63",
       "quote": "export default function ComparisonTable"
+    },
+    {
+      "path": "src/components/ComparisonTable.jsx",
+      "lines": "65-83",
+      "quote": "function Row({ r, hi, value })"
     }
   ],
   "content": {
@@ -19,9 +24,76 @@
       "plans": {
         "type": "array",
         "items": {
-          "type": "string",
-          "minLength": 1,
-          "maxWords": 2
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 2
+            },
+            "price": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 1
+            },
+            "cta": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 4
+                },
+                "href": {
+                  "type": "string",
+                  "minLength": 1,
+                  "x-linkField": true,
+                  "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "label",
+                "href"
+              ]
+            },
+            "highlight": {
+              "type": "boolean"
+            },
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "icon.pixel"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "price",
+            "cta",
+            "highlight",
+            "icon"
+          ]
         },
         "minItems": 4,
         "maxItems": 4
@@ -29,38 +101,56 @@
       "rows": {
         "type": "array",
         "items": {
-          "type": "object",
-          "properties": {
-            "label": {
-              "type": "string",
-              "minLength": 1,
-              "maxWords": 8
-            },
-            "values": {
-              "type": "array",
-              "items": {
-                "anyOf": [
-                  {
-                    "enum": [
-                      "check",
-                      "minus"
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 8
+                },
+                "values": {
+                  "type": "array",
+                  "items": {
+                    "anyOf": [
+                      {
+                        "enum": [
+                          "check",
+                          "minus"
+                        ]
+                      },
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxWords": 4
+                      }
                     ]
                   },
-                  {
-                    "type": "string",
-                    "minLength": 1,
-                    "maxWords": 4
-                  }
-                ]
+                  "minItems": 4,
+                  "maxItems": 4
+                }
               },
-              "minItems": 4,
-              "maxItems": 4
+              "additionalProperties": false,
+              "required": [
+                "label",
+                "values"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "band": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 2
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "band"
+              ]
             }
-          },
-          "additionalProperties": false,
-          "required": [
-            "label",
-            "values"
           ]
         },
         "minItems": 1,
@@ -75,25 +165,44 @@
   },
   "constraints": {},
   "motion": {
-    "allowedPatterns": [],
-    "reducedMotionFallback": "none-needed"
+    "allowedPatterns": [
+      "text-roll"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
   },
   "responsive": {
     "390": {
-      "columns": "160px + 4x140 (scrolls)"
+      "columns": "label 160 + 4 x 140, horizontal scroll",
+      "valuePad": 32,
+      "rowHeight": "88 (82 icon rows)"
     },
     "810": {
-      "columns": "160px + 4x140"
+      "columns": "label 200 + 4 x 160, horizontal scroll",
+      "valuePad": 40,
+      "rowHeight": "104 (98)"
     },
     "1200": {
-      "columns": "200px + 4x278"
+      "columns": "label 200 + 4 x 278",
+      "valuePad": 12,
+      "rowHeight": "48 (42)"
     },
     "evidence": [
       {
         "path": "src/components/ComparisonTable.jsx",
-        "lines": "11",
-        "quote": "const COLS ="
+        "lines": "16",
+        "quote": "const LABEL_W ="
+      },
+      {
+        "path": "src/components/ComparisonTable.jsx",
+        "lines": "17",
+        "quote": "const PLAN_W ="
+      },
+      {
+        "path": "src/components/ComparisonTable.jsx",
+        "lines": "14",
+        "quote": "// Cell padding: label 20 below lg"
       }
     ]
-  }
+  },
+  "notes": "Rewritten as flex row groups with fixed column widths: a header block per plan (icon, name, price, text-roll CTA; highlighted column #1E0F00) and band rows (e.g. SUPPORT)."
 }

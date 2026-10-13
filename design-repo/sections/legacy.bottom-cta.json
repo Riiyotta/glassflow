@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/pages/Category.jsx",
-      "lines": "23-50",
+      "lines": "26-53",
       "quote": "function BottomCta()"
     }
   ],
@@ -114,21 +114,26 @@
   },
   "responsive": {
     "390": {
-      "pad": "16px sides"
+      "copy": "starts 408px into the image box, 24px sides, 159px below; box grows with wrapping"
     },
     "810": {
-      "pad": 0
+      "copy": "same; box 846 tall when the subtitle wraps"
     },
     "1200": {
-      "max": 1400,
-      "height": 900
+      "max": 1400
     },
     "evidence": [
       {
         "path": "src/pages/Category.jsx",
-        "lines": "25",
-        "quote": "max-w-[1400px] flex-col items-center justify-end px-4 h-[900px]"
+        "lines": "30",
+        "quote": "max-w-[1400px] flex-col items-center px-6 pb-[159px] pt-[408px]"
+      },
+      {
+        "path": "src/pages/Category.jsx",
+        "lines": "36",
+        "quote": "max-w-[720px] break-words"
       }
     ]
-  }
+  },
+  "notes": "Heading capped at 720px with mid-word breaking (break-words) to keep the live line break with Inter 400; its gradient is a 0deg white->grey painted per line on an inline span (CTA_GRADIENT), unlike the 244deg title gradient."
 }

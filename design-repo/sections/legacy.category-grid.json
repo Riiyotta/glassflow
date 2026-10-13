@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/pages/Category.jsx",
-      "lines": "52-80",
+      "lines": "60-88",
       "quote": "export default function Category()"
     }
   ],
@@ -110,10 +110,13 @@
   },
   "responsive": {
     "390": {
-      "columns": "1 (clone fix; live squeezes 3 columns at 390)"
+      "columns": "1 (clone fix; live squeezes 3 columns at 390)",
+      "gridPad": "34 top / 48 bottom"
     },
     "810": {
-      "columns": 2
+      "columns": 3,
+      "gridPad": "34 / 48, 24 sides",
+      "cardImage": "aspect 385/220"
     },
     "1200": {
       "columns": 3,
@@ -122,8 +125,13 @@
     "evidence": [
       {
         "path": "src/pages/Category.jsx",
-        "lines": "71",
-        "quote": "grid w-full max-w-[1220px] grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
+        "lines": "83",
+        "quote": "mx-auto grid w-full max-w-[1220px] grid-cols-1 gap-8 pb-12 md:grid-cols-3"
+      },
+      {
+        "path": "src/pages/Category.jsx",
+        "lines": "82",
+        "quote": "<div className=\"w-full pt-[34px] md:px-6\">"
       }
     ]
   }

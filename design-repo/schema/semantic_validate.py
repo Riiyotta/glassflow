@@ -103,6 +103,13 @@ def walk(schema, val, path, rep, tmpl):
                 if "maxWords" in b and words(val) > b["maxWords"]:
                     rep.add("MAX_WORDS", f"{path}: {words(val)} words > {b['maxWords']}", tmpl)
             return
+        if k in schema and isinstance(val, dict):
+            # object alternatives (e.g. comparison rows {label, values} | {band}): walk the branch whose required keys are present
+            for b in schema[k]:
+                if b.get("type") == "object" and set(b.get("required", [])) <= set(val):
+                    walk(b, val, path, rep, tmpl)
+                    return
+            return
     if isinstance(val, str):
         if "maxWords" in schema and words(val) > schema["maxWords"]:
             rep.add("MAX_WORDS", f"{path}: {words(val)} words > {schema['maxWords']}", tmpl)

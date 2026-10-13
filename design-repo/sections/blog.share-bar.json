@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/components/ContentSections.jsx",
-      "lines": "226-254",
+      "lines": "229-257",
       "quote": "export function ShareBar"
     }
   ],
@@ -59,7 +59,7 @@
     "evidence": [
       {
         "path": "src/components/ContentSections.jsx",
-        "lines": "228",
+        "lines": "231",
         "quote": "<Shell inner=\"lg:px-[192px]\">"
       }
     ]

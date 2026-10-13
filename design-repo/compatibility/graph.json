@@ -77,7 +77,7 @@
     {
       "id": "BAND_SPACER_NOT_FIRST",
       "severity": "error",
-      "rule": "the node right after chrome.navbar is never a band-65 spacer (divider-30 / top-64 only)."
+      "rule": "the node right after chrome.navbar is never a band-65 spacer (only divider-30, divider-30-tablet-up or top-64)."
     },
     {
       "id": "TWO_PRODUCTS_BAND_BEFORE_FOOTER",

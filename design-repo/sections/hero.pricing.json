@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/pages/RiusPricing.jsx",
-      "lines": "85-110",
+      "lines": "87-112",
       "quote": "function Hero()"
     }
   ],
@@ -99,21 +99,35 @@
   },
   "responsive": {
     "390": {
-      "title": "32/32",
-      "image": "400 tall below"
+      "title": "48/48",
+      "pad": 32,
+      "image": "400 below"
     },
     "810": {
-      "title": "48/48"
+      "title": "48/48",
+      "pad": 40,
+      "image": "671 below"
     },
     "1200": {
       "columns": 2,
-      "height": 439
+      "height": 439,
+      "pad": 64
     },
     "evidence": [
       {
         "path": "src/pages/RiusPricing.jsx",
-        "lines": "89",
+        "lines": "91",
         "quote": "grid grid-cols-1 lg:h-[439px] lg:grid-cols-2"
+      },
+      {
+        "path": "src/pages/RiusPricing.jsx",
+        "lines": "107",
+        "quote": "h-[400px] w-full object-cover md:h-[671px] lg:h-full"
+      },
+      {
+        "path": "src/pages/RiusPricing.jsx",
+        "lines": "93",
+        "quote": "bg-panel p-8 text-center md:px-10 md:py-10 lg:p-16"
       }
     ]
   }

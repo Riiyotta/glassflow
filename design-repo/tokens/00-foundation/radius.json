@@ -19,7 +19,7 @@
       "measuredFrom": [
         {
           "path": "src/pages/Category.jsx",
-          "lines": "37",
+          "lines": "45",
           "quote": "rounded-md bg-white"
         }
       ]
@@ -41,20 +41,60 @@
       "measuredFrom": [
         {
           "path": "src/components/LegacyLayout.jsx",
-          "lines": "130",
+          "lines": "132",
           "quote": "rounded-2xl bg-black/[0.92]"
+        }
+      ]
+    },
+    "dropdown": {
+      "$value": "15px",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "64",
+          "quote": "rounded-[15px] bg-black/80"
+        }
+      ]
+    },
+    "github-widget": {
+      "$value": "3px",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "48",
+          "quote": "rounded-l-[3px]"
         }
       ]
     }
   },
   "calculator": {
-    "tooltip": {
+    "box": {
+      "$value": "4px",
+      "measuredFrom": [
+        {
+          "path": "src/components/BuildVsBuyCalculator.jsx",
+          "lines": "147",
+          "quote": "const BOX = 'rounded-[4px] border border-calc-border'"
+        }
+      ]
+    },
+    "subtotal-row": {
       "$value": "3px",
       "measuredFrom": [
         {
           "path": "src/components/BuildVsBuyCalculator.jsx",
-          "lines": "154",
-          "quote": "rounded-[3px]"
+          "lines": "160",
+          "quote": "rounded-[3px] bg-page"
+        }
+      ]
+    },
+    "help-dot": {
+      "$value": "9999px",
+      "measuredFrom": [
+        {
+          "path": "src/components/BuildVsBuyCalculator.jsx",
+          "lines": "167",
+          "quote": "rounded-full border border-calc-border font-sys"
         }
       ]
     }

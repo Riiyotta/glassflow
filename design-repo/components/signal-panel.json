@@ -11,7 +11,7 @@
   "implementedBy": [
     {
       "path": "src/pages/Contact.jsx",
-      "lines": "189-199",
+      "lines": "195-205",
       "quote": "function SignalPanel"
     }
   ]

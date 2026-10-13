@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/components/ContentSections.jsx",
-      "lines": "281-293",
+      "lines": "285-297",
       "quote": "export function RelatedPosts"
     }
   ],
@@ -116,7 +116,7 @@
     "evidence": [
       {
         "path": "src/components/ContentSections.jsx",
-        "lines": "285",
+        "lines": "289",
         "quote": "grid grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-0"
       }
     ]

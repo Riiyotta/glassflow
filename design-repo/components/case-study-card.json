@@ -11,7 +11,7 @@
   "implementedBy": [
     {
       "path": "src/components/ContentSections.jsx",
-      "lines": "328-338",
+      "lines": "334-344",
       "quote": "export function CaseStudyCards"
     }
   ]

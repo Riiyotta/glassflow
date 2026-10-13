@@ -273,7 +273,8 @@
   },
   "responsive": {
     "390": {
-      "sidebar": "below body"
+      "sidebar": "below body",
+      "visitWebsite": "opens in a new tab (target _blank, rel noopener noreferrer)"
     },
     "810": {
       "sidebar": "below body"

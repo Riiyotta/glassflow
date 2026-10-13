@@ -9,8 +9,8 @@
   "implementedBy": [
     {
       "path": "src/pages/Rius.jsx",
-      "lines": "314-318",
-      "quote": "<Shell inner=\"flex flex-col gap-6 md:flex-row md:gap-2\">"
+      "lines": "330-340",
+      "quote": "<Shell inner=\"flex flex-col gap-6 md:gap-2 lg:flex-row\">"
     }
   ],
   "content": {
@@ -101,19 +101,28 @@
   },
   "responsive": {
     "390": {
-      "cards": "stacked gap 24"
+      "cards": "stacked, gap 24",
+      "image": 223
     },
     "810": {
-      "cards": "row gap 8"
+      "cards": "STACKED, gap 8",
+      "image": 426
     },
     "1200": {
-      "cards": "row"
+      "cards": "row",
+      "image": 373,
+      "title": "1 line"
     },
     "evidence": [
       {
         "path": "src/pages/Rius.jsx",
-        "lines": "314",
-        "quote": "flex flex-col gap-6 md:flex-row md:gap-2"
+        "lines": "330",
+        "quote": "flex flex-col gap-6 md:gap-2 lg:flex-row"
+      },
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "336",
+        "quote": "imageClass=\"h-[223px] md:h-[426px] lg:h-[373px]\""
       }
     ]
   }

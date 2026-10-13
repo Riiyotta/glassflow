@@ -12,7 +12,7 @@
   "implementedBy": [
     {
       "path": "src/pages/Category.jsx",
-      "lines": "37",
+      "lines": "45",
       "quote": "rounded-md bg-white"
     }
   ]

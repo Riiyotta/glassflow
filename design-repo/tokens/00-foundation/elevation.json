@@ -49,7 +49,7 @@
       "measuredFrom": [
         {
           "path": "src/components/LegacyLayout.jsx",
-          "lines": "91",
+          "lines": "92",
           "quote": "backdrop-blur-[50px]"
         }
       ]

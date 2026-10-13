@@ -9,7 +9,7 @@
   "implementedBy": [
     {
       "path": "src/components/ContentSections.jsx",
-      "lines": "128-175",
+      "lines": "131-178",
       "quote": "export function PostHero"
     }
   ],
@@ -101,7 +101,7 @@
     "evidence": [
       {
         "path": "src/components/ContentSections.jsx",
-        "lines": "136",
+        "lines": "139",
         "quote": "flex flex-col bg-deep lg:flex-row"
       }
     ]
