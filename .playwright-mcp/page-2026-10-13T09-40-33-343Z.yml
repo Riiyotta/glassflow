@@ -1,0 +1,286 @@
+- generic [ref=f130e3]:
+  - generic [ref=f130e8]:
+    - link [ref=f130e9] [cursor=pointer]:
+      - /url: ../
+    - generic [ref=f130e13]:
+      - paragraph [ref=f130e17]: products
+      - link [ref=f130e22] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f130e25]: docs
+      - link [ref=f130e26] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=f130e29]: blog
+      - link [ref=f130e30] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f130e33]: contact
+    - link [ref=f130e35] [cursor=pointer]:
+      - /url: ../#quickstart
+      - paragraph [ref=f130e38]: get_started
+  - generic [ref=f130e47]:
+    - link [ref=f130e50] [cursor=pointer]:
+      - /url: ../case-studies
+      - paragraph [ref=f130e52]: Case Studies
+    - heading "Nubrain fixes the silent errors of AI agents in their pipelines" [level=1] [ref=f130e55]
+    - generic:
+      - paragraph
+  - generic [ref=f130e57]:
+    - generic [ref=f130e58]:
+      - heading "93%" [level=2] [ref=f130e61]
+      - paragraph [ref=f130e64]: Reduction of silently duplicated or corrupted metrics
+    - generic [ref=f130e65]:
+      - heading "3x" [level=2] [ref=f130e68]
+      - paragraph [ref=f130e71]: Improved scalability as agent throughput increased
+    - generic [ref=f130e72]:
+      - heading "7 TB/day" [level=2] [ref=f130e75]
+      - paragraph [ref=f130e78]: Stable processing
+  - generic [ref=f130e80]:
+    - generic [ref=f130e82]:
+      - generic [ref=f130e86]:
+        - paragraph [ref=f130e95]: “GlassFlow helped eliminate silent failures in our pipelines. Dead-letter queues and pipeline metrics significantly improved reliability while keeping everything self-hosted.”
+        - generic [ref=f130e100]:
+          - paragraph [ref=f130e102]: Ingo Marquardt,
+          - paragraph [ref=f130e104]: CTO, Nubrain
+      - heading "Results" [level=2] [ref=f130e108]
+      - paragraph [ref=f130e109]: "With GlassFlow in production, Nubrain achieved:"
+      - list [ref=f130e110]:
+        - listitem [ref=f130e111]:
+          - text: •
+          - paragraph [ref=f130e112]: Correct and consistent metrics due to stateful transformations and deduplication logic.
+        - listitem [ref=f130e113]:
+          - text: •
+          - paragraph [ref=f130e114]: 93% reduction of silently duplicated or corrupted metrics that previously passed through the pipeline (measured in production pipelines).
+        - listitem [ref=f130e115]:
+          - text: •
+          - paragraph [ref=f130e116]: Reliable handling of stateful streaming logic at scale.
+        - listitem [ref=f130e117]:
+          - text: •
+          - paragraph [ref=f130e118]: 3x improved scalability as agent throughput increased.
+        - listitem [ref=f130e119]:
+          - text: •
+          - paragraph [ref=f130e120]: Clear visibility into pipeline behavior and failures.
+        - listitem [ref=f130e121]:
+          - text: •
+          - paragraph [ref=f130e122]: Stable processing of approximately 7 TB of data per day.
+      - paragraph [ref=f130e123]: By introducing state into the pipeline, Nubrain was able to trust their metrics again and operate production AI workloads with significantly lower operational risk.
+      - heading "Key takeaways:" [level=2] [ref=f130e124]
+      - list [ref=f130e125]:
+        - listitem [ref=f130e126]:
+          - text: •
+          - paragraph [ref=f130e127]: Eliminated silent metric corruption using stateful streaming transformations and deduplication
+        - listitem [ref=f130e128]:
+          - text: •
+          - paragraph [ref=f130e129]: Scaled AI pipelines 3x with reliable observability while processing 7 TB of data per day
+      - heading "The Challenge" [level=2] [ref=f130e130]
+      - paragraph [ref=f130e131]: Nubrain’s initial data infrastructure was built on Kafka, a Kafka table engine, and self-written transformation code before ingesting to ClickHouse.
+      - paragraph [ref=f130e132]: "While this setup worked for early experimentation, it exposed several fundamental limitations in production:"
+      - list [ref=f130e133]:
+        - listitem [ref=f130e134]:
+          - text: •
+          - paragraph [ref=f130e135]:
+            - strong [ref=f130e136]: No support for stateful transformations
+            - text: . Custom transformation code was largely stateless, making it difficult to correctly handle retries, aggregations, and validation over time windows.
+        - listitem [ref=f130e137]:
+          - text: •
+          - paragraph [ref=f130e138]:
+            - strong [ref=f130e139]: Limited scalability
+            - text: . As agent activity increased, retries and reprocessing caused unpredictable load and operational overhead.
+        - listitem [ref=f130e140]:
+          - text: •
+          - paragraph [ref=f130e141]:
+            - strong [ref=f130e142]: Poor observability
+            - text: . The team had limited insight into what was happening inside the pipeline, especially when data was dropped, retried, or silently corrupted.
+        - listitem [ref=f130e143]:
+          - text: •
+          - paragraph [ref=f130e144]:
+            - strong [ref=f130e145]: Silent data issues
+            - text: . Incorrect metrics could pass through the system without triggering errors, making failures hard to detect.
+        - listitem [ref=f130e146]:
+          - text: •
+          - paragraph [ref=f130e147]:
+            - strong [ref=f130e148]: Operational complexity
+            - text: . Debugging required inspecting multiple systems without a single source of truth for pipeline health.
+      - paragraph [ref=f130e149]: These limitations made it difficult to operate AI pipelines with confidence at higher throughput.
+      - heading "Why GlassFlow" [level=2] [ref=f130e150]
+      - paragraph [ref=f130e151]: Nubrain evaluated GlassFlow to address the gaps left by Kafka table engines and custom transformation code.
+      - paragraph [ref=f130e152]: "GlassFlow stood out because it provided:"
+      - list [ref=f130e153]:
+        - listitem [ref=f130e154]:
+          - text: •
+          - paragraph [ref=f130e155]:
+            - text: Native support for
+            - strong [ref=f130e156]: stateful streaming transformations
+            - text: .
+        - listitem [ref=f130e157]:
+          - text: •
+          - paragraph [ref=f130e158]:
+            - text: Built-in
+            - strong [ref=f130e159]: pipeline-level observability and metrics
+            - text: .
+        - listitem [ref=f130e160]:
+          - text: •
+          - paragraph [ref=f130e161]:
+            - strong [ref=f130e162]: Dead-letter queues
+            - text: to isolate and inspect failing records.
+        - listitem [ref=f130e163]:
+          - text: •
+          - paragraph [ref=f130e164]: A scalable, self-hosted architecture suitable for production workloads.
+        - listitem [ref=f130e165]:
+          - text: •
+          - paragraph [ref=f130e166]: Full data ownership, with all data remaining inside Nubrain’s infrastructure.
+      - heading "Solution" [level=2] [ref=f130e167]
+      - paragraph [ref=f130e168]: Nubrain adopted GlassFlow to replace their Kafka table engine and custom transformation code with a simpler and more reliable streaming architecture.
+      - paragraph [ref=f130e169]: "GlassFlow was selected because it provided:"
+      - list [ref=f130e170]:
+        - listitem [ref=f130e171]:
+          - text: •
+          - paragraph [ref=f130e172]: Native support for stateful streaming transformations.
+        - listitem [ref=f130e173]:
+          - text: •
+          - paragraph [ref=f130e174]: Built-in pipeline-level observability and metrics.
+        - listitem [ref=f130e175]:
+          - text: •
+          - paragraph [ref=f130e176]: Dead-letter queues to isolate and inspect failing records.
+        - listitem [ref=f130e177]:
+          - text: •
+          - paragraph [ref=f130e178]: A scalable, self-hosted architecture suitable for production workloads.
+        - listitem [ref=f130e179]:
+          - text: •
+          - paragraph [ref=f130e180]: Full data ownership, with all data remaining inside Nubrain’s infrastructure.
+      - paragraph [ref=f130e181]: "GlassFlow was implemented as the core processing layer of Nubrain’s data pipelines. The new setup includes:"
+      - list [ref=f130e182]:
+        - listitem [ref=f130e183]:
+          - text: •
+          - paragraph [ref=f130e184]: Stateful transformations to validate, normalize, and aggregate agent output.
+        - listitem [ref=f130e185]:
+          - text: •
+          - paragraph [ref=f130e186]: Deduplication logic to ensure metric correctness.
+        - listitem [ref=f130e187]:
+          - text: •
+          - paragraph [ref=f130e188]: Dead-letter queues to prevent silent propagation of invalid data.
+        - listitem [ref=f130e189]:
+          - text: •
+          - paragraph [ref=f130e190]: Pipeline metrics to monitor throughput, retries, latency, and failures.
+        - listitem [ref=f130e191]:
+          - text: •
+          - paragraph [ref=f130e192]: A simpler operational model with fewer custom components.
+      - paragraph [ref=f130e193]: GlassFlow was integrated quickly and required minimal ongoing maintenance.
+    - generic [ref=f130e194]:
+      - generic [ref=f130e199]:
+        - heading "Company Overview" [level=6] [ref=f130e201]
+        - generic [ref=f130e202]:
+          - paragraph [ref=f130e203]: Nubrain is building a Human Mind API for non-invasive brain-computer interfaces. Their platform processes large volumes of AI-driven data produced by autonomous agents and research systems.
+          - paragraph [ref=f130e204]: As Nubrain moved from experimentation to production workloads, they needed streaming pipelines that could handle state, scale reliably, and provide deep observability.
+      - link "V i s i t W e b s i t e V i s i t W e b s i t e" [ref=f130e207] [cursor=pointer]:
+        - /url: https://nubrain.com/
+        - generic [ref=f130e208]:
+          - generic [ref=f130e209]: V
+          - generic [ref=f130e211]: i
+          - generic [ref=f130e213]: s
+          - generic [ref=f130e215]: i
+          - generic [ref=f130e217]: t
+          - generic [ref=f130e219]: W
+          - generic [ref=f130e221]: e
+          - generic [ref=f130e223]: b
+          - generic [ref=f130e225]: s
+          - generic [ref=f130e227]: i
+          - generic [ref=f130e229]: t
+          - generic [ref=f130e231]: e
+        - generic:
+          - generic: V
+          - generic: i
+          - generic: s
+          - generic: i
+          - generic: t
+          - generic: W
+          - generic: e
+          - generic: b
+          - generic: s
+          - generic: i
+          - generic: t
+          - generic: e
+  - generic [ref=f130e235]:
+    - heading "You might also like" [level=1] [ref=f130e253]
+    - generic [ref=f130e257]:
+      - link "Restack scales real-time enterprise observability with GlassFlow read more read more" [ref=f130e258] [cursor=pointer]:
+        - /url: ./restack
+        - heading "Restack scales real-time enterprise observability with GlassFlow" [level=3] [ref=f130e264]
+        - generic [ref=f130e266]:
+          - paragraph [ref=f130e268]: read more
+          - paragraph [ref=f130e270]: read more
+      - link "Nubrain fixes the silent errors of AI agents in their pipelines read more read more" [ref=f130e271] [cursor=pointer]:
+        - /url: ./nubrain
+        - heading "Nubrain fixes the silent errors of AI agents in their pipelines" [level=3] [ref=f130e277]
+        - generic [ref=f130e279]:
+          - paragraph [ref=f130e281]: read more
+          - paragraph [ref=f130e283]: read more
+  - generic [ref=f130e291]:
+    - generic [ref=f130e292]:
+      - paragraph [ref=f130e294]: Two products. Two starting points.
+      - paragraph [ref=f130e296]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and retention, from first span to production.
+    - generic [ref=f130e297]:
+      - link [ref=f130e299] [cursor=pointer]:
+        - /url: https://github.com/glassflow/tares
+        - paragraph [ref=f130e304]: Star Tares on GitHub
+      - link [ref=f130e306] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/rius/guides
+        - paragraph [ref=f130e311]: Read the Rius guides
+  - generic [ref=f130e316]:
+    - generic [ref=f130e318]:
+      - paragraph [ref=f130e322]: Ready to give your agents better data and total recall?
+      - generic [ref=f130e323]:
+        - generic [ref=f130e326]:
+          - generic [ref=f130e327]:
+            - paragraph [ref=f130e329]: Start with Tares
+            - paragraph [ref=f130e331]: Feed your agents the right data.
+          - link [ref=f130e333] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f130e338]: get_started
+        - generic [ref=f130e345]:
+          - generic [ref=f130e346]:
+            - paragraph [ref=f130e348]: Start with Rius
+            - paragraph [ref=f130e350]: See and debug agents in production.
+          - link [ref=f130e352] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f130e357]: get_started
+    - generic [ref=f130e363]:
+      - generic [ref=f130e365]:
+        - paragraph [ref=f130e372]: products
+        - generic [ref=f130e377]:
+          - link [ref=f130e378] [cursor=pointer]:
+            - /url: ../tares
+            - generic [ref=f130e383]:
+              - paragraph [ref=f130e385]: tares
+              - paragraph [ref=f130e387]: Feed your agents the right data. Open source
+          - link [ref=f130e388] [cursor=pointer]:
+            - /url: ../rius
+            - generic [ref=f130e393]:
+              - paragraph [ref=f130e395]: rius
+              - paragraph [ref=f130e397]: See what your agents did in production.
+      - generic [ref=f130e398]:
+        - link [ref=f130e399] [cursor=pointer]:
+          - /url: ../contact
+          - paragraph [ref=f130e405]: contact
+        - link [ref=f130e406] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f130e412]: docs
+        - link [ref=f130e413] [cursor=pointer]:
+          - /url: ../blog
+          - paragraph [ref=f130e419]: blog
+        - link [ref=f130e420] [cursor=pointer]:
+          - /url: ../about
+          - paragraph [ref=f130e426]: about
+      - generic [ref=f130e427]:
+        - link [ref=f130e428] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f130e430] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f130e432] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f130e435]:
+      - paragraph [ref=f130e437]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f130e439]:
+        - link "Terms & Conditions" [ref=f130e440] [cursor=pointer]:
+          - /url: ../terms-of-service
+      - paragraph [ref=f130e442]:
+        - link "Privacy Policy" [ref=f130e443] [cursor=pointer]:
+          - /url: ../privacy-policy

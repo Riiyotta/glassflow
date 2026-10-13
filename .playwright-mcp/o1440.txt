@@ -1,0 +1,240 @@
+products | 229,11,67,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(143, 137, 130) | 1
+docs | 342,11,34,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(143, 137, 130) | 1
+blog | 408,11,34,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(143, 137, 130) | 1
+contact | 473,11,59,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(143, 137, 130) | 1
+get_started | 1232,11,92,18 | "Geist Mono Variable" | 14px | 18.2px | 400 | normal | rgb(29, 14, 0) | 1
+the | 96,549,70,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+data | 178,549,96,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+infrastructure | 287,549,289,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+for | 588,549,58,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+AI | 96,599,44,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+Agents | 153,599,153,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+in | 318,599,38,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+production | 368,599,234,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+GlassFlow is one data layer for both sid | 768,524,576,81 | "Inter Display" | 18px | 27px | 400 | -0.18px | rgb(241, 239, 223) | 1
+GlassFlow Tares | 1187,527,124,22 | "Inter Display" | 18px | 27px | 400 | -0.18px | rgb(212, 143, 4) | 1
+GlassFlow Rius | 1027,554,115,22 | "Inter Display" | 18px | 27px | 400 | -0.18px | rgb(212, 143, 4) | 1
+get_started | 796,638,89,18 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(29, 14, 0) | 1
+Works with the tools you already use. | 96,830,210,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+…data is not just an asset but a fundame | 128,1041,800,192 | "Inter Display" | 32px | 32px | 400 | normal | rgb(241, 239, 223) | 1
+Thomas Dohmke | 237,1327,125,18 | "Geist Mono" | 16px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+Co-founder & CEO | 237,1347,154,21 | "Geist Mono" | 16px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Entire | 1047,1336,58,21 | "Geist Mono" | 16px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+products | 686,1480,67,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+GlassFlow Tares | 132,1618,126,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(29, 14, 0) | 1
+One correlated read over every system yo | 128,1673,528,120 | "Inter Display" | 40px | 40px | 400 | normal | rgb(241, 239, 223) | 1
+Instead of your agent firing dozens of l | 128,1825,528,96 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+GlassFlow Tares | 221,1851,110,20 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(212, 143, 4) | 1
+Open source, self-hostable, and built on | 128,1945,528,24 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+github | 144,2050,48,18 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(241, 239, 223) | 1
+learn_more | 284,2050,81,18 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(241, 239, 223) | 1
+products | 686,2268,67,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+GlassFlow Rius | 788,2391,118,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(29, 14, 0) | 1
+Catch and debug agent failures in produc | 784,2445,528,80 | "Inter Display" | 40px | 40px | 400 | normal | rgb(241, 239, 223) | 1
+Once agents are live,  tells you what th | 784,2557,528,216 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+GlassFlow Rius | 929,2559,102,20 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(212, 143, 4) | 1
+Rius | 979,2583,29,20 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(212, 143, 4) | 1
+get_started | 800,2851,89,24 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(241, 239, 223) | 1
+learn_more | 981,2851,81,24 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(241, 239, 223) | 1
+From install to | 508,3100,253,49 | "Inter Display" | 40px | 40px | 400 | normal | rgb(241, 239, 223) | 1
+first result | 761,3100,181,49 | "Inter Display" | 40px | 40px | 400 | normal | rgb(255, 172, 0) | 1
+in minutes. | 627,3140,187,49 | "Inter Display" | 40px | 40px | 400 | normal | rgb(241, 239, 223) | 1
+Pick a product and follow the quickstart | 583,3205,274,20 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+Both are copy-paste and run on your own  | 509,3229,425,44 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+glassflow- | 406,3319,84,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+rius | 490,3319,34,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+See your first agent run appear live. | 311,3365,319,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+Drop in the OTEL receiver, run your agen | 311,3383,319,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+> | 242,3462,8,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Long-running agents: | 271,3452,429,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+trace hours-long runs, lose nothing | 271,3472,429,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+> | 242,3516,8,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+MCP both ways: | 271,3506,429,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+agents send traces; coding agents query  | 271,3527,429,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+> | 242,3571,8,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Replay any run: | 271,3561,429,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+reconstruct what happened last week | 271,3581,429,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+open the rius quickstart | 374,3629,194,24 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(241, 239, 223) | 1
+Start with rius | 410,3681,121,24 | "Geist Mono" | 14px | 24px | 700 | -0.32px | rgb(52, 29, 3) | 1
+glassflow- | 904,3319,84,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+tares | 988,3319,42,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+Deliver your first correlated data packa | 805,3365,336,54 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+> | 740,3462,8,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Cut token spend: | 769,3452,429,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+one clean read, not dozens of tool calls | 769,3472,429,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+> | 740,3516,8,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Kill latency: | 769,3506,429,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+data's ready before the agent asks | 769,3527,429,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+> | 740,3571,8,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+One connection: | 769,3561,429,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+all your sources, unified | 769,3581,429,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+open the tares quickstart | 868,3629,202,24 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(241, 239, 223) | 1
+Start with tares | 904,3681,129,24 | "Geist Mono" | 14px | 24px | 700 | -0.32px | rgb(57, 34, 3) | 1
+Frequently Asked Questions | 524,3911,392,39 | "Inter Display" | 32px | 32px | 400 | normal | rgb(241, 239, 223) | 1
+What is GlassFlow? | 88,4038,640,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+GlassFlow is the data infrastructure for | 88,4075,640,58 | "Inter Display" | 16px | 19.2px | 400 | normal | rgb(241, 239, 223) | 1
+What’s the difference between GlassFlow  | 88,4178,640,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+Is GlassFlow open source? | 88,4252,640,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+What makes GlassFlow different for long- | 88,4326,640,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+Ready to give your agents better data an | 96,4547,266,103 | "Inter Display" | 32px | 32px | 400 | normal | rgb(241, 239, 223) | 1
+Start with Tares | 804,4528,169,30 | "Inter Display" | 24px | 24px | 400 | normal | rgb(241, 239, 223) | 1
+Feed your agents the right data. | 750,4563,277,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+get_started | 818,4631,89,18 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(29, 14, 0) | 1
+Start with Rius | 1135,4528,157,30 | "Inter Display" | 24px | 24px | 400 | normal | rgb(241, 239, 223) | 1
+See and debug agents in production. | 1062,4563,302,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+get_started | 1143,4631,89,18 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(29, 14, 0) | 1
+products | 646,4783,67,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+tares | 302,4875,40,18 | "Geist Mono" | 14px | 24px | 700 | -0.32px | rgb(255, 255, 255) | 1
+Feed your agents the right data. Open so | 302,4897,218,38 | "Geist Mono" | 14px | 19.6px | 500 | -0.32px | rgb(255, 255, 255) | 1
+rius | 700,4875,32,18 | "Geist Mono" | 14px | 24px | 700 | -0.32px | rgb(255, 255, 255) | 1
+See what your agents did in production. | 700,4897,202,38 | "Geist Mono" | 14px | 19.6px | 500 | -0.32px | rgb(255, 255, 255) | 1
+contact | 1143,4779,59,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+docs | 1143,4829,34,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+blog | 1143,4879,34,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+about | 1143,4929,42,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+2026 - Copyright GlassFlow.ai | 88,4991,244,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Terms & Conditions | 707,4991,151,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Privacy Policy | 1234,4991,118,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+=====BOXES
+DIV | Frame 2087326064 | 64,-1,1312,42 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+A |  | 64,-1,149,42 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px 12px
+DIV | link | 213,0,113,40 | rgb(29, 14, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 3.06401px 16px
+A | Overlay | 326,0,66,40 | rgb(29, 14, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 3.06401px 16px
+A | Overlay | 392,0,66,40 | rgb(29, 14, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 3.06401px 16px
+A | Overlay | 457,0,91,40 | rgb(29, 14, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 3.06401px 16px
+DIV | Overlay | 1223,0,111,40 | rgb(255, 172, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 3.06401px 9.19203px
+DIV | Frame 2087325940 1 | 64,40,1312,401 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | Frame 2087326096 | 64,441,640,278 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | Frame 2087326093 | 64,441,640,38 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Rectangle 34628278 | 80,457,6,6 | rgb(73, 36, 0) |  |  |  | 0px
+DIV | Rectangle 34628279 | 90,457,6,6 | rgb(73, 36, 0) |  |  |  | 0px
+DIV | Rectangle 34628280 | 100,457,6,6 | rgb(73, 36, 0) |  |  |  | 0px
+DIV | Frame 2087326095 | 736,441,640,278 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | Frame 2087326093 | 736,441,640,38 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Rectangle 34628278 | 752,457,6,6 | rgb(73, 36, 0) |  |  |  | 0px
+DIV | Rectangle 34628279 | 762,457,6,6 | rgb(73, 36, 0) |  |  |  | 0px
+DIV | Rectangle 34628280 | 772,457,6,6 | rgb(73, 36, 0) |  |  |  | 0px
+A | Primary | 768,621,197,52 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(255, 172, 0) | 0px
+DIV |  | 768,621,197,52 | rgb(255, 172, 0) |  |  |  | 0px
+DIV |  | 772,625,137,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 10px 24px
+DIV |  | 917,625,44,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | Frame 2087326094 | 64,719,1312,67 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | title | 64,786,280,124 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px 32px
+DIV | Frame 2087326014 | 344,786,258,125 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | Frame 2087326012 | 602,786,258,125 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | Frame 2087326010 | 860,786,258,125 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | Frame 2087326013 | 1118,786,258,125 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | Frame 2087326092 | 64,911,1312,486 | rgb(45, 24, 4) |  |  |  | 0px
+DIV | Frame 2087326083 | 64,911,1312,386 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 64px
+DIV | Frame 2087326012 | 64,1297,656,100 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 42px 117px
+DIV | Frame 2087326014 | 720,1297,656,100 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 42px 117px
+DIV | Frame 2087326094 | 64,1397,1312,67 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | bar | 64,1464,1312,50 | rgb(45, 24, 3) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Rectangle 34628278 | 80,1486,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 90,1486,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 100,1486,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628278 | 1334,1486,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 1344,1486,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 1354,1486,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | content | 64,1514,1312,671 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | col | 64,1514,656,671 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 64px
+DIV | badge | 128,1614,134,26 | rgb(255, 172, 0) |  |  |  | 4px
+DIV | Frame 2087325991 | 128,2033,80,52 | rgb(73, 36, 0) |  |  |  | 4px
+DIV | Overlay | 132,2037,72,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 10px 12px
+A | Frame 2087325994 | 268,2033,113,52 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | Frame 2087325991 | 268,2033,113,52 | rgb(45, 24, 4) |  |  |  | 4px
+DIV | Overlay | 272,2037,105,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 10px 12px
+DIV | Frame 2087326094 | 64,2185,1312,67 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | bar | 64,2252,1312,50 | rgb(45, 24, 3) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Rectangle 34628278 | 80,2274,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 90,2274,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 100,2274,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628278 | 1334,2274,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 1344,2274,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 1354,2274,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | content | 64,2302,1312,671 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | col | 720,2302,656,671 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 64px
+DIV | badge | 784,2387,126,26 | rgb(255, 172, 0) |  |  |  | 4px
+DIV | Frame 2087325991 | 784,2837,121,52 | rgb(73, 36, 0) |  |  |  | 4px
+SPAN | Overlay | 788,2841,113,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 10px 12px
+A | Frame 2087325994 | 965,2837,113,52 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | Frame 2087325991 | 965,2837,113,52 | rgb(45, 24, 4) |  |  |  | 4px
+DIV | Overlay | 969,2841,105,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 10px 12px
+DIV | Frame 2087326094 | 64,2973,1312,67 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | Frame 2087326094 | 64,3040,1312,743 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 64px 24px
+DIV | Rectangle 34628322 | 226,3307,490,42 | rgb(45, 24, 3) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | Rectangle 34628278 | 240,3325,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 250,3325,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 260,3325,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Frame 2087326051 | 226,3349,490,87 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Frame 2087326052 | 226,3436,490,179 | rgb(29, 14, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Frame 2087325994 | 226,3615,490,104 | rgba(0, 0, 0, 0) |  |  | after:2px2px2px2px rgb(95, 62, 31) | 0px
+A | Frame 2087325991 | 226,3615,490,104 | rgb(29, 14, 0) |  |  |  | 4px
+SPAN | Overlay | 230,3619,482,44 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 10px 12px
+SPAN | Overlay | 230,3671,482,44 | rgb(255, 172, 0) |  |  | after:5px5px5px5px rgb(95, 62, 31) | 10px 12px
+DIV | Rectangle 34628322 | 724,3307,490,42 | rgb(45, 24, 3) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | Rectangle 34628278 | 738,3325,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 748,3325,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 758,3325,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Frame 2087326051 | 724,3349,490,87 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Frame 2087326052 | 724,3436,490,179 | rgb(29, 14, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Frame 2087325994 | 724,3615,490,104 | rgba(0, 0, 0, 0) |  |  | after:2px2px2px2px rgb(95, 62, 31) | 0px
+A | Frame 2087325991 | 724,3615,490,104 | rgb(29, 14, 0) |  |  |  | 4px
+SPAN | Overlay | 728,3619,482,44 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 10px 12px
+SPAN | Overlay | 728,3671,482,44 | rgb(255, 172, 0) |  |  | after:4px4px4px4px rgb(95, 62, 31) | 10px 12px
+DIV | Frame 2087326094 | 64,3783,1312,67 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | Frame 2087326094 | 64,3850,1312,160 | rgb(45, 24, 4) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 64px 32px
+DIV | Rectangle 34628254 | 1328,3898,24,24 | rgb(73, 36, 0) |  |  |  | 0px
+DIV | Rectangle 34628257 | 1352,3874,24,24 | rgb(73, 36, 0) |  |  |  | 0px
+DIV | Rectangle 34628259 | 1352,3850,24,24 | rgb(73, 36, 0) |  |  |  | 0px
+DIV | Rectangle 34628258 | 1328,3850,24,24 | rgb(73, 36, 0) |  |  |  | 0px
+DIV | Frame 2087326067 | 64,4010,1312,140 | rgb(73, 36, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 17px 24px
+DIV |  | 1312,4027,40,40 | rgb(255, 172, 0) |  |  |  | 0px
+DIV | Frame 2087326060 | 64,4150,1312,74 | rgb(73, 36, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 17px 24px
+DIV |  | 1312,4167,40,40 | rgb(45, 24, 4) |  |  |  | 0px
+DIV | Frame 2087326065 | 64,4224,1312,74 | rgb(73, 36, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 17px 24px
+DIV |  | 1312,4241,40,40 | rgb(45, 24, 4) |  |  |  | 0px
+DIV | Frame 2087326064 | 64,4298,1312,74 | rgb(73, 36, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 17px 24px
+DIV |  | 1312,4315,40,40 | rgb(45, 24, 4) |  |  |  | 0px
+DIV | Frame 2087326094 | 64,4372,1312,67 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+DIV | Frame 2087326094 | 64,4439,662,320 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 32px
+DIV | tares | 726,4439,325,320 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+A | Primary | 790,4614,197,52 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(255, 172, 0) | 0px
+DIV |  | 790,4614,197,52 | rgb(255, 172, 0) |  |  |  | 0px
+DIV |  | 794,4618,137,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 10px 24px
+DIV |  | 939,4618,44,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | rius | 1051,4439,325,320 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px
+A | Primary | 1115,4614,197,52 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(255, 172, 0) | 0px
+DIV |  | 1115,4614,197,52 | rgb(255, 172, 0) |  |  |  | 0px
+DIV |  | 1119,4618,137,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 10px 24px
+DIV |  | 1264,4618,44,44 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 0px
+DIV | Frame 2087326094 | 64,4759,1312,208 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 8px
+DIV | Frame 2087326098 | 282,4767,795,50 | rgb(45, 24, 3) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Rectangle 34628278 | 298,4789,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 308,4789,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 318,4789,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628278 | 1035,4789,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 1045,4789,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 1055,4789,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+A | item | 282,4817,398,142 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 20px
+A | item | 680,4817,398,142 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 20px
+A | Frame 2087326068 | 1085,4767,175,42 | rgb(45, 24, 3) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Rectangle 34628278 | 1101,4785,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 1111,4785,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 1121,4785,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+A | Frame 2087326069 | 1085,4817,175,42 | rgb(45, 24, 3) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Rectangle 34628278 | 1101,4835,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 1111,4835,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 1121,4835,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+A | Frame 2087326069 | 1085,4867,175,42 | rgb(45, 24, 3) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Rectangle 34628278 | 1101,4885,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 1111,4885,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 1121,4885,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+A | Frame 2087326068 | 1085,4917,175,42 | rgb(45, 24, 3) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Rectangle 34628278 | 1101,4935,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628279 | 1111,4935,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+DIV | Rectangle 34628280 | 1121,4935,6,6 | rgb(85, 54, 25) |  |  |  | 0px
+A | Frame 2087326068 | 1268,4767,100,59 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+A | Frame 2087326068 | 1268,4833,100,59 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+A | Frame 2087326068 | 1268,4900,100,59 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 16px
+DIV | Frame 2087326094 | 64,4967,1312,66 | rgba(0, 0, 0, 0) |  |  | after:1px1px1px1px rgb(95, 62, 31) | 24px

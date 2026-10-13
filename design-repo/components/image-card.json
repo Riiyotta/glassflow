@@ -1,0 +1,21 @@
+{
+  "id": "image-card",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "300px full-bleed dithered card: 64px icon top, mono title + body bottom.",
+  "composes": [],
+  "props": {
+    "image": "asset",
+    "icon": "asset",
+    "title": "text",
+    "body": "text"
+  },
+  "motionPattern": "product-appear",
+  "implementedBy": [
+    {
+      "path": "src/components/ProductSections.jsx",
+      "lines": "73-92",
+      "quote": "export function ImageCardGrid"
+    }
+  ]
+}

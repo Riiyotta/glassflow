@@ -1,0 +1,74 @@
+{
+  "repositoryId": "glassflow-clone-design-repo",
+  "repositoryVersion": "1.0.0",
+  "pageSpecVersion": "1.0.0",
+  "allowlistVersion": "1.0.0",
+  "versionFieldNote": "Only allowlistVersion is machine-checked (verify_all.py fails if it differs from tokens/llm/component-allowlist.json or from the README). repositoryVersion and pageSpecVersion are documentation-only, hand-maintained markers; pageSpecVersion is additionally a schema const, so PageSpecs must declare it, but nothing checks it against this manifest.",
+  "status": "design-review-pending",
+  "productionApproved": false,
+  "source": {
+    "site": "https://www.glassflow.ai (real, live company)",
+    "clone": "React + Vite + Tailwind v3 clone in the parent folder (not shipped)"
+  },
+  "themes": [
+    "mars",
+    "legacy-black"
+  ],
+  "defaultTheme": "mars",
+  "schemaValidatedThemes": [
+    "mars",
+    "legacy-black"
+  ],
+  "counts": {
+    "foundationTokens": 114,
+    "semanticTokens": 34,
+    "primitives": 18,
+    "components": 16,
+    "sections": 68,
+    "sectionVariants": 97,
+    "templates": 17,
+    "routes": 160,
+    "pageRoutes": 133,
+    "redirectRoutes": 27,
+    "sitemapRoutes": 108,
+    "sitemapRedirects": 18,
+    "assetRoles": 11,
+    "motionPatterns": 17,
+    "graphRules": 20
+  },
+  "countsMethod": "recomputed by extraction/verify_all.py compute_counts(); foundationTokens = children of every top-level group in tokens/00-foundation/*.json (a group whose values are all objects counts each child, otherwise 1), excluding $-keys and motion's documentation blocks.",
+  "entryPoints": {
+    "readme": "README.md",
+    "changelog": "CHANGELOG.md",
+    "schema": "schema/pagespec.schema.json",
+    "schemaBuilder": "schema/build_schema.py",
+    "example": "schema/example.pagespec.json",
+    "validator": "schema/semantic_validate.py",
+    "adversarial": "schema/tests/adversarial_test.py",
+    "verify": "extraction/verify_all.py",
+    "driftProofs": "extraction/prove_drift.py",
+    "measuredValues": "extraction/measured-values.json",
+    "templates": "templates/templates.json",
+    "routes": "templates/routes.json",
+    "graph": "compatibility/graph.json",
+    "assetRoles": "assets/asset-roles.json",
+    "allowlist": "tokens/llm/component-allowlist.json",
+    "tokenCatalog": "tokens/llm/token-catalog.json",
+    "tokenPolicy": "tokens/llm/token-policy.json",
+    "motion": "tokens/00-foundation/motion.json",
+    "themes": [
+      "tokens/themes/mars.json",
+      "tokens/themes/legacy-black.json"
+    ],
+    "policies": [
+      "policies/forms.json",
+      "policies/link-kinds.json",
+      "policies/long-form-content.json",
+      "policies/known-intentional-quirks.json"
+    ]
+  },
+  "packaging": {
+    "zip": "design-repo.zip is built LAST with the CLI zip from the project root, excluding .DS_Store; must contain 0 __MACOSX/.DS_Store entries and nothing newer than the zip.",
+    "vcs": "The source project is NOT a git repository: the .gitignore / `git ls-files` zip check (MASTER-GUIDE 3.6/3.23) is N/A. If it is ever put under git, add design-repo.zip to .gitignore and never commit it."
+  }
+}

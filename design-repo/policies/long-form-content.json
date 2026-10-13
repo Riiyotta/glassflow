@@ -1,0 +1,48 @@
+{
+  "$description": "Blog post bodies, case-study bodies, the /about story, legal texts and guide bodies are long-form copyrighted writing. The clone renders SUMMARY-ONLY (headings + one-line summaries + 'Read the full ... on glassflow.ai'). Contracts encode that shape; never reproduce or fabricate full article/legal/case-study text.",
+  "appliesTo": [
+    "content.article-summary-body",
+    "case.detail-body",
+    "about.hero",
+    "legal.toc-document",
+    "legal.single-document",
+    "legacy.guide-hero-form"
+  ],
+  "limits": {
+    "summaryMaxWords": 30,
+    "headingMaxWords": 16,
+    "maxOutlineItems": 40,
+    "maxTotalOutlineWords": 600,
+    "maxSentencesPerSummary": 2
+  },
+  "forbiddenContentKeys": [
+    "body",
+    "paragraphs",
+    "html",
+    "markdown",
+    "fullText",
+    "prose"
+  ],
+  "evidence": [
+    {
+      "path": "src/pages/BlogPost.jsx",
+      "lines": "2",
+      "quote": "// Bodies are rendered from the spec outline (headings + one-line summaries), never the live prose."
+    },
+    {
+      "path": "src/pages/Legal.jsx",
+      "lines": "1",
+      "quote": "// T2 legal with TOC sidebar"
+    },
+    {
+      "path": "src/pages/About.jsx",
+      "lines": "1",
+      "quote": "// /about (specs/content.md §6). The story paragraphs are the spec's three-point outline, not the live prose."
+    },
+    {
+      "path": "src/pages/CaseStudies.jsx",
+      "lines": "30",
+      "quote": "// Bodies: the live headings with the spec's one-line summaries"
+    }
+  ]
+}

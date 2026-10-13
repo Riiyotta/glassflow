@@ -1,0 +1,18 @@
+{
+  "id": "radio-chip",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Square radio chip with 20px pixel-tick box; amber when checked.",
+  "props": {
+    "label": "text"
+  },
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/pages/Contact.jsx",
+      "lines": "69-99",
+      "quote": "<fieldset>"
+    }
+  ]
+}

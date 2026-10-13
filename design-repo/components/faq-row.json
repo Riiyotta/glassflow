@@ -1,0 +1,20 @@
+{
+  "id": "faq-row",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Question row with 40px toggle cell (panel/chevron <-> amber/minus); answer mounts instantly, row height tweens.",
+  "composes": [],
+  "props": {
+    "q": "text",
+    "a": "text",
+    "defaultOpen": "bool"
+  },
+  "motionPattern": "faq-height",
+  "implementedBy": [
+    {
+      "path": "src/components/Faq.jsx",
+      "lines": "16-45",
+      "quote": "function Row({ q, a, defaultOpen })"
+    }
+  ]
+}

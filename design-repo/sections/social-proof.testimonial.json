@@ -1,0 +1,168 @@
+{
+  "id": "social-proof.testimonial",
+  "family": "mars",
+  "category": "social-proof",
+  "purpose": "Single quote over dithered texture with person + company attribution cells.",
+  "variants": {
+    "home": "32px quote, 64px pad",
+    "compact": "/rius: 40px pad, 21px quote on mobile, centred attribution"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/Testimonial.jsx",
+      "lines": "18-65",
+      "quote": "export default function Testimonial"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 50
+      },
+      "person": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 4
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 6
+          },
+          "avatar": {
+            "type": "object",
+            "properties": {
+              "assetRole": {
+                "enum": [
+                  "person.real-photo"
+                ]
+              },
+              "ref": {
+                "type": "string",
+                "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 14
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "assetRole",
+              "ref",
+              "alt"
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "role",
+          "avatar"
+        ]
+      },
+      "company": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 3
+          },
+          "logo": {
+            "type": "object",
+            "properties": {
+              "assetRole": {
+                "enum": [
+                  "logo.customer"
+                ]
+              },
+              "ref": {
+                "type": "string",
+                "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 14
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "assetRole",
+              "ref",
+              "alt"
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "logo"
+        ]
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "quote",
+      "person",
+      "company",
+      "background"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "attribution": "home: stacked cells; compact: 2 columns"
+    },
+    "810": {
+      "attribution": "2 columns"
+    },
+    "1200": {
+      "attribution": "2 columns, 117px side padding (home)"
+    },
+    "evidence": [
+      {
+        "path": "src/components/Testimonial.jsx",
+        "lines": "40",
+        "quote": "grid-cols-1 md:grid-cols-2"
+      }
+    ]
+  },
+  "notes": "CLONE_SPEC.md §0 says the home quote is 24px at 390; src renders 32px at every width (src followed)."
+}

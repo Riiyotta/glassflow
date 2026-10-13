@@ -1,0 +1,165 @@
+{
+  "$description": "Rules JSON Schema cannot express. Each rule id here is implemented under the SAME id in schema/semantic_validate.py; verify_all.py checks the two id sets are identical.",
+  "heroKeys": [
+    [
+      "hero.home",
+      "*"
+    ],
+    [
+      "hero.product",
+      "*"
+    ],
+    [
+      "hero.pricing",
+      "*"
+    ],
+    [
+      "alt.hero",
+      "*"
+    ],
+    [
+      "blog.title-block",
+      "*"
+    ],
+    [
+      "blog.post-hero",
+      "*"
+    ],
+    [
+      "case.studies-title",
+      "index"
+    ],
+    [
+      "case.detail-hero",
+      "*"
+    ],
+    [
+      "about.hero",
+      "*"
+    ]
+  ],
+  "rules": [
+    {
+      "id": "TEMPLATE_SEQUENCE",
+      "severity": "error",
+      "rule": "nodes must match the declared template's node list in order (required / optional / repeatable), keyed on (section, variant)."
+    },
+    {
+      "id": "THEME_MATCHES_TEMPLATE",
+      "severity": "error",
+      "rule": "PageSpec theme must equal the template theme (mars | legacy-black)."
+    },
+    {
+      "id": "CHROME_FAMILY_NO_MIX",
+      "severity": "error",
+      "rule": "mars pages use chrome.navbar + chrome.footer and only mars sections; legacy pages use chrome.legacy-nav, no footer, only legacy sections. The two chromes never mix."
+    },
+    {
+      "id": "ONE_PER_PAGE",
+      "severity": "error",
+      "rule": "a (section, variant) whose template node is not repeatable may appear once; content.title-row and layout.spacer are repeatable."
+    },
+    {
+      "id": "ONE_HERO",
+      "severity": "error",
+      "rule": "at most one node whose (section, variant) is in heroKeys. case.studies-title/compact is a title band, not a hero (case-study-detail has both)."
+    },
+    {
+      "id": "HERO_FIRST_AFTER_CHROME",
+      "severity": "error",
+      "rule": "if a hero exists it is the first node after the nav, ignoring layout.spacer/divider-30."
+    },
+    {
+      "id": "NO_CONSECUTIVE_SPACERS",
+      "severity": "error",
+      "rule": "two layout.spacer nodes may never be adjacent."
+    },
+    {
+      "id": "BAND_SPACER_NOT_FIRST",
+      "severity": "error",
+      "rule": "the node right after chrome.navbar is never a band-65 spacer (divider-30 / top-64 only)."
+    },
+    {
+      "id": "TWO_PRODUCTS_BAND_BEFORE_FOOTER",
+      "severity": "error",
+      "rule": "conversion.two-products-band is immediately followed by chrome.footer."
+    },
+    {
+      "id": "SPACER_BEFORE_FOOTER",
+      "severity": "warn",
+      "rule": "a band spacer directly before chrome.footer doubles the footer's own 67px band.",
+      "exceptions": [
+        "legal-with-sidebar",
+        "legal-single"
+      ]
+    },
+    {
+      "id": "HOME_ROUTE_ONLY",
+      "severity": "error",
+      "rule": "template home and section hero.home only on route '/'."
+    },
+    {
+      "id": "ROUTE_NOT_REDIRECT_OR_EXTERNAL",
+      "severity": "error",
+      "rule": "route is an internal path and is not an existing redirect source in templates/routes.json."
+    },
+    {
+      "id": "MAX_WORDS",
+      "severity": "error",
+      "rule": "every string with a maxWords budget in its section contract is within budget (computed per instance)."
+    },
+    {
+      "id": "LONG_FORM_SUMMARY_ONLY",
+      "severity": "error",
+      "rule": "long-form sections carry contentPolicy summary-only, summaries <= 2 sentences, total outline words <= 600, no forbidden prose keys."
+    },
+    {
+      "id": "FORM_ENDPOINT_PINNED",
+      "severity": "error",
+      "rule": "every form endpointPolicy == must-not-reuse-live-endpoint; no string anywhere may reference a HubSpot endpoint."
+    },
+    {
+      "id": "LINK_KINDS",
+      "severity": "error",
+      "rule": "every link field is internal-route, in-page-anchor, mailto, or https on an allowed outbound host (policies/link-kinds.json); null only on known dead-button fields."
+    },
+    {
+      "id": "ASSET_ROLE_POLICY",
+      "severity": "error",
+      "rule": "generate:<brief> refs only for roles with generationPolicy may-generate-new; all other roles must reference an existing /assets/ file."
+    },
+    {
+      "id": "REDUCED_MOTION_FALLBACK",
+      "severity": "error",
+      "rule": "every node's motion carries the section's reducedMotionFallback (also schema-enforced)."
+    },
+    {
+      "id": "NODE_IDS_UNIQUE",
+      "severity": "error",
+      "rule": "node ids are unique within a PageSpec."
+    },
+    {
+      "id": "HERO_TEXT_MOTION_BUDGET",
+      "severity": "warn",
+      "rule": "at most one node per page uses a hero text appear (hero-word-blur-in / text-effect)."
+    }
+  ],
+  "recommendedAdjacency": {
+    "layout.spacer": "between almost every pair of mars content sections (see templates)",
+    "content.title-row": [
+      "feature.image-card-grid",
+      "pricing.plan-cards",
+      "content.blog-card-row"
+    ],
+    "conversion.two-products-band": [
+      "chrome.footer"
+    ]
+  },
+  "evidence": [
+    {
+      "path": "src/App.jsx",
+      "lines": "21",
+      "quote": "// Legacy-design routes (ROUTES entries with `bare: true`) bring their own nav and have no footer."
+    }
+  ]
+}

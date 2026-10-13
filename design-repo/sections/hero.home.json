@@ -1,0 +1,201 @@
+{
+  "id": "hero.home",
+  "family": "mars",
+  "category": "hero",
+  "purpose": "Home hero: Mars band image, per-word blur-in H1, lead with two product links, get_started, then logo strip.",
+  "variants": {
+    "default": "home only"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/Hero.jsx",
+      "lines": "15-66",
+      "quote": "export default function Hero()"
+    },
+    {
+      "path": "src/components/Hero.jsx",
+      "lines": "70-103",
+      "quote": "export function LogoStrip"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "headline": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 10
+      },
+      "lead": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 40
+      },
+      "leadLinks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 3
+            },
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "minItems": 0,
+        "maxItems": 2
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 2
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "bandImage": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "scene.mars-figurative"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      },
+      "logoStrip": {
+        "type": "object",
+        "properties": {
+          "caption": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 8
+          },
+          "logos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "logo.third-party"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "caption",
+          "logos"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "headline",
+      "lead",
+      "leadLinks",
+      "cta",
+      "bandImage",
+      "logoStrip"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true,
+    "homeRouteOnly": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "hero-word-blur-in",
+      "amber-button-hover"
+    ],
+    "reducedMotionFallback": "opacity-only+transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "band": "296 tall",
+      "panels": "stacked; second panel bar hidden",
+      "logos": "2x2 under a 50px caption"
+    },
+    "810": {
+      "band": "228 tall",
+      "panels": "2 columns gap 32, 240 tall",
+      "logos": "4 across"
+    },
+    "1200": {
+      "band": "401 tall",
+      "logos": "280px caption cell + 4 cells"
+    },
+    "evidence": [
+      {
+        "path": "src/components/Hero.jsx",
+        "lines": "24",
+        "quote": "h-[296px] w-full object-cover md:h-[228px] lg:h-[401px]"
+      },
+      {
+        "path": "src/components/Hero.jsx",
+        "lines": "92",
+        "quote": "lg:grid-cols-[280px_repeat(4,1fr)]"
+      }
+    ]
+  }
+}

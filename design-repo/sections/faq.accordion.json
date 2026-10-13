@@ -1,0 +1,91 @@
+{
+  "id": "faq.accordion",
+  "family": "mars",
+  "category": "faq",
+  "purpose": "FAQ: 160px heading panel with pixel corners, then independent rows (first open).",
+  "variants": {
+    "home": "full-bleed, 'Frequently Asked Questions'",
+    "product-inset": "pulled in 128px each side at lg"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/Faq.jsx",
+      "lines": "49-68",
+      "quote": "export default function Faq"
+    },
+    {
+      "path": "src/components/Faq.jsx",
+      "lines": "64",
+      "quote": "defaultOpen={i === 0}"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 5
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 16
+            },
+            "answer": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 60
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "question",
+            "answer"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 8
+      },
+      "firstOpen": {
+        "const": true
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "items",
+      "firstOpen"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "faq-height"
+    ],
+    "reducedMotionFallback": "instant"
+  },
+  "responsive": {
+    "390": {
+      "heading": "wraps, 64px vertical padding"
+    },
+    "810": {
+      "heading": "160 tall"
+    },
+    "1200": {
+      "inset": "product-inset: 1056 wide column"
+    },
+    "evidence": [
+      {
+        "path": "src/components/Faq.jsx",
+        "lines": "52",
+        "quote": "md:h-[160px]"
+      }
+    ]
+  }
+}

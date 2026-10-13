@@ -1,0 +1,31 @@
+- main [ref=f156e4]:
+  - generic [ref=f156e5]:
+    - generic [ref=f156e7]:
+      - link "GlassFlow home" [ref=f156e8] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f156e9]
+      - navigation [ref=f156e11]:
+        - link "Product" [ref=f156e13] [cursor=pointer]:
+          - /url: /product
+        - link "Case Studies" [ref=f156e14] [cursor=pointer]:
+          - /url: /case-studies
+        - link "Pricing" [ref=f156e15] [cursor=pointer]:
+          - /url: /rius/pricing
+        - link "Resources" [ref=f156e17] [cursor=pointer]:
+          - /url: /product
+        - link "Contact" [ref=f156e18] [cursor=pointer]:
+          - /url: /contact
+      - link "Star glassflow/clickhouse-etl on GitHub" [ref=f156e20] [cursor=pointer]:
+        - /url: https://github.com/glassflow/clickhouse-etl
+        - generic [ref=f156e21]: clickhouse-etl
+        - generic [ref=f156e24]: "504"
+    - main [ref=f156e25]:
+      - heading "MCP" [level=1] [ref=f156e26]
+      - generic [ref=f156e27]:
+        - heading "Data transformations at TB scale for ClickHouse" [level=2] [ref=f156e30]
+        - paragraph [ref=f156e31]: Get query ready data, lower ClickHouse load, and reliable pipelines at enterprise scale.
+        - generic [ref=f156e32]:
+          - link "Get in Touch" [ref=f156e33] [cursor=pointer]:
+            - /url: https://cal.com/team/glassflow-founders/founders
+          - link "Explore the code" [ref=f156e34] [cursor=pointer]:
+            - /url: https://github.com/glassflow/clickhouse-etl

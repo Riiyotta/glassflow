@@ -1,0 +1,93 @@
+{
+  "id": "blog.title-block",
+  "family": "mars",
+  "category": "hero",
+  "purpose": "Blog title block: chip, 56px H1, lead over dithered title texture.",
+  "variants": {
+    "default": "/blog"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/BlogIndex.jsx",
+      "lines": "11-26",
+      "quote": "function TitleBlock()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "chip": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 1
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 6
+      },
+      "lead": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 25
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "chip",
+      "title",
+      "lead",
+      "background"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "pad": "64/24"
+    },
+    "810": {
+      "pad": "64/24"
+    },
+    "1200": {
+      "height": 310
+    },
+    "evidence": [
+      {
+        "path": "src/pages/BlogIndex.jsx",
+        "lines": "14",
+        "quote": "lg:h-[310px] lg:px-0"
+      }
+    ]
+  }
+}

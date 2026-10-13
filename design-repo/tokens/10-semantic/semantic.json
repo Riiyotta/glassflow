@@ -1,0 +1,41 @@
+{
+  "$description": "Semantic roles -> foundation colour names (tokens/00-foundation/color.json). Generators reference these names, never raw hex.",
+  "mars": {
+    "surface.page": "page",
+    "surface.panel": "panel",
+    "surface.bar": "bar",
+    "surface.deep": "deep",
+    "surface.card-dark": "card-dark",
+    "surface.brand": "amber",
+    "surface.promo": "promo",
+    "surface.table-band": "table-band",
+    "border.default": "line",
+    "border.embed": "embed-line",
+    "text.primary": "cream",
+    "text.secondary": "cream-64",
+    "text.muted": "muted",
+    "text.on-brand": "on-amber",
+    "text.button-ink": "btn-ink",
+    "text.link": "link",
+    "text.accent": "amber",
+    "text.blog-title": "blog-title",
+    "text.blog-muted": "blog-muted",
+    "state.ok.bg": "ok-bg",
+    "state.ok.text": "ok-text",
+    "state.no.bg": "no-bg",
+    "state.no.text": "no-text",
+    "decor.traffic-red": "traffic-red",
+    "decor.traffic-yellow": "traffic-yellow",
+    "decor.traffic-green": "traffic-green"
+  },
+  "legacy-black": {
+    "surface.page": "canvas",
+    "text.link": "link",
+    "text.link-category": "link-category",
+    "text.strong": "text-strong",
+    "border.divider": "divider",
+    "text.heading-fill": "heading-gradient",
+    "surface.field": "field-bg",
+    "border.field": "field-border"
+  }
+}

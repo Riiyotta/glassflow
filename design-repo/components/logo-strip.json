@@ -1,0 +1,20 @@
+{
+  "id": "logo-strip",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "'Works with the tools you already use.' caption + 4 third-party logo cells (Shell row, or in-panel on /contact).",
+  "composes": [
+    "shell"
+  ],
+  "props": {
+    "inPanel": "bool"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/Hero.jsx",
+      "lines": "70-103",
+      "quote": "export function LogoStrip"
+    }
+  ]
+}

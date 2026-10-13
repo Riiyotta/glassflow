@@ -1,0 +1,18 @@
+{
+  "id": "arrow",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "16x14 pixel arrow SVG.",
+  "props": {
+    "src": "svg name"
+  },
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ui.jsx",
+      "lines": "37-39",
+      "quote": "export function Arrow"
+    }
+  ]
+}

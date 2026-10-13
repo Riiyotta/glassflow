@@ -1,0 +1,19 @@
+{
+  "id": "product-copy-panel",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Badge, H2, body, actions panel used by the home product splits.",
+  "composes": [
+    "badge",
+    "button-dark"
+  ],
+  "props": {},
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/Product.jsx",
+      "lines": "13-27",
+      "quote": "function Copy({"
+    }
+  ]
+}

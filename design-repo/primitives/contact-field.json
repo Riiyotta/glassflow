@@ -1,0 +1,18 @@
+{
+  "id": "contact-field",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Square white input / textarea with mono label (contact form).",
+  "props": {
+    "type": "text|email|textarea"
+  },
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/pages/Contact.jsx",
+      "lines": "15-16",
+      "quote": "const FIELD ="
+    }
+  ]
+}

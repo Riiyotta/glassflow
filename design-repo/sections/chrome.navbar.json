@@ -1,0 +1,75 @@
+{
+  "id": "chrome.navbar",
+  "family": "mars",
+  "category": "chrome",
+  "purpose": "Global 40px Mars nav: wordmark, products dropdown, docs/blog/contact cells, amber get_started.",
+  "variants": {
+    "default": "single global nav"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/Navbar.jsx",
+      "lines": "44-85",
+      "quote": "export default function Navbar"
+    },
+    {
+      "path": "src/App.jsx",
+      "lines": "55-57",
+      "quote": "<GlobalChrome>"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "ctaHref": {
+        "type": "string",
+        "minLength": 1,
+        "x-linkField": true,
+        "description": "get_started target: #quickstart on /, /#quickstart elsewhere, console URL on /tares and /rius"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "ctaHref"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true,
+    "familyOnly": "mars",
+    "notSticky": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "products-dropdown-fade",
+      "nav-products-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "layout": "logo + empty 88px cell + CTA; second row of 5 equal link cells (tares, rius, docs, blog, contact)",
+      "dropdown": "hidden"
+    },
+    "810": {
+      "layout": "single 40px row, products/docs/blog/contact cells inline",
+      "gutters": 32
+    },
+    "1200": {
+      "layout": "single 40px row",
+      "gutters": 64
+    },
+    "evidence": [
+      {
+        "path": "src/components/Navbar.jsx",
+        "lines": "77",
+        "quote": "flex h-[40px] md:hidden"
+      },
+      {
+        "path": "src/components/Navbar.jsx",
+        "lines": "54",
+        "quote": "has-dropdown relative hidden md:flex"
+      }
+    ]
+  }
+}

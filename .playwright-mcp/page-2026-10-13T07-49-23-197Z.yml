@@ -1,0 +1,1091 @@
+- generic [ref=f17e3]:
+  - generic [ref=f17e6]:
+    - generic [ref=f17e7]:
+      - link [ref=f17e8] [cursor=pointer]:
+        - /url: ./tares
+        - paragraph [ref=f17e11]: tares
+      - link [ref=f17e12] [cursor=pointer]:
+        - /url: ./rius
+        - paragraph [ref=f17e15]: rius
+      - link [ref=f17e16] [cursor=pointer]:
+        - /url: ./blog
+        - paragraph [ref=f17e19]: blog
+      - link [ref=f17e20] [cursor=pointer]:
+        - /url: ./contact
+        - paragraph [ref=f17e23]: contact
+      - link [ref=f17e24] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f17e27]: docs
+    - generic [ref=f17e29]:
+      - link [ref=f17e30] [cursor=pointer]:
+        - /url: ./
+      - link [ref=f17e35] [cursor=pointer]:
+        - /url: ./#quickstart
+        - paragraph [ref=f17e38]: get_started
+  - generic [ref=f17e60]:
+    - heading "Developing data infra products for AI agents" [level=1] [ref=f17e63]:
+      - generic [ref=f17e64]: Developing
+      - generic [ref=f17e65]: data
+      - generic [ref=f17e66]: infra
+      - generic [ref=f17e67]: products
+      - generic [ref=f17e68]: for
+      - generic [ref=f17e69]: AI
+      - generic [ref=f17e70]: agents
+    - generic [ref=f17e71]:
+      - paragraph [ref=f17e72]:
+        - generic [ref=f17e73]:
+          - generic [ref=f17e74]: A
+          - generic [ref=f17e75]: t
+        - generic [ref=f17e76]:
+          - generic [ref=f17e77]: G
+          - generic [ref=f17e78]: l
+          - generic [ref=f17e79]: a
+          - generic [ref=f17e80]: s
+          - generic [ref=f17e81]: s
+          - generic [ref=f17e82]: F
+          - generic [ref=f17e83]: l
+          - generic [ref=f17e84]: o
+          - generic [ref=f17e85]: w
+          - generic [ref=f17e86]: ","
+        - generic [ref=f17e87]:
+          - generic [ref=f17e88]: w
+          - generic [ref=f17e89]: e
+        - generic [ref=f17e90]:
+          - generic [ref=f17e91]: b
+          - generic [ref=f17e92]: u
+          - generic [ref=f17e93]: i
+          - generic [ref=f17e94]: l
+          - generic [ref=f17e95]: d
+        - generic [ref=f17e96]:
+          - generic [ref=f17e97]: t
+          - generic [ref=f17e98]: h
+          - generic [ref=f17e99]: e
+        - generic [ref=f17e100]:
+          - generic [ref=f17e101]: i
+          - generic [ref=f17e102]: "n"
+          - generic [ref=f17e103]: f
+          - generic [ref=f17e104]: r
+          - generic [ref=f17e105]: a
+          - generic [ref=f17e106]: s
+          - generic [ref=f17e107]: t
+          - generic [ref=f17e108]: r
+          - generic [ref=f17e109]: u
+          - generic [ref=f17e110]: c
+          - generic [ref=f17e111]: t
+          - generic [ref=f17e112]: u
+          - generic [ref=f17e113]: r
+          - generic [ref=f17e114]: e
+        - generic [ref=f17e115]:
+          - generic [ref=f17e116]: A
+          - generic [ref=f17e117]: I
+        - generic [ref=f17e118]:
+          - generic [ref=f17e119]: a
+          - generic [ref=f17e120]: g
+          - generic [ref=f17e121]: e
+          - generic [ref=f17e122]: "n"
+          - generic [ref=f17e123]: t
+          - generic [ref=f17e124]: s
+        - generic [ref=f17e125]:
+          - generic [ref=f17e126]: "n"
+          - generic [ref=f17e127]: e
+          - generic [ref=f17e128]: e
+          - generic [ref=f17e129]: d
+        - generic [ref=f17e130]:
+          - generic [ref=f17e131]: t
+          - generic [ref=f17e132]: o
+        - generic [ref=f17e133]:
+          - generic [ref=f17e134]: r
+          - generic [ref=f17e135]: u
+          - generic [ref=f17e136]: "n"
+        - generic [ref=f17e137]:
+          - generic [ref=f17e138]: r
+          - generic [ref=f17e139]: e
+          - generic [ref=f17e140]: l
+          - generic [ref=f17e141]: i
+          - generic [ref=f17e142]: a
+          - generic [ref=f17e143]: b
+          - generic [ref=f17e144]: l
+          - generic [ref=f17e145]: "y"
+        - generic [ref=f17e146]:
+          - generic [ref=f17e147]: i
+          - generic [ref=f17e148]: "n"
+        - generic [ref=f17e149]:
+          - generic [ref=f17e150]: p
+          - generic [ref=f17e151]: r
+          - generic [ref=f17e152]: o
+          - generic [ref=f17e153]: d
+          - generic [ref=f17e154]: u
+          - generic [ref=f17e155]: c
+          - generic [ref=f17e156]: t
+          - generic [ref=f17e157]: i
+          - generic [ref=f17e158]: o
+          - generic [ref=f17e159]: "n"
+          - generic [ref=f17e160]: .
+        - generic [ref=f17e161]:
+          - generic [ref=f17e162]: T
+          - generic [ref=f17e163]: e
+          - generic [ref=f17e164]: a
+          - generic [ref=f17e165]: m
+          - generic [ref=f17e166]: s
+        - generic [ref=f17e167]:
+          - generic [ref=f17e168]: m
+          - generic [ref=f17e169]: o
+          - generic [ref=f17e170]: v
+          - generic [ref=f17e171]: i
+          - generic [ref=f17e172]: "n"
+          - generic [ref=f17e173]: g
+        - generic [ref=f17e174]:
+          - generic [ref=f17e175]: a
+          - generic [ref=f17e176]: g
+          - generic [ref=f17e177]: e
+          - generic [ref=f17e178]: "n"
+          - generic [ref=f17e179]: t
+          - generic [ref=f17e180]: s
+        - generic [ref=f17e181]:
+          - generic [ref=f17e182]: f
+          - generic [ref=f17e183]: r
+          - generic [ref=f17e184]: o
+          - generic [ref=f17e185]: m
+        - generic [ref=f17e186]:
+          - generic [ref=f17e187]: d
+          - generic [ref=f17e188]: e
+          - generic [ref=f17e189]: m
+          - generic [ref=f17e190]: o
+        - generic [ref=f17e191]:
+          - generic [ref=f17e192]: t
+          - generic [ref=f17e193]: o
+        - generic [ref=f17e194]:
+          - generic [ref=f17e195]: r
+          - generic [ref=f17e196]: e
+          - generic [ref=f17e197]: a
+          - generic [ref=f17e198]: l
+        - generic [ref=f17e199]:
+          - generic [ref=f17e200]: w
+          - generic [ref=f17e201]: o
+          - generic [ref=f17e202]: r
+          - generic [ref=f17e203]: k
+          - generic [ref=f17e204]: l
+          - generic [ref=f17e205]: o
+          - generic [ref=f17e206]: a
+          - generic [ref=f17e207]: d
+          - generic [ref=f17e208]: s
+        - generic [ref=f17e209]:
+          - generic [ref=f17e210]: h
+          - generic [ref=f17e211]: i
+          - generic [ref=f17e212]: t
+        - generic [ref=f17e213]:
+          - generic [ref=f17e214]: t
+          - generic [ref=f17e215]: h
+          - generic [ref=f17e216]: e
+        - generic [ref=f17e217]:
+          - generic [ref=f17e218]: s
+          - generic [ref=f17e219]: a
+          - generic [ref=f17e220]: m
+          - generic [ref=f17e221]: e
+        - generic [ref=f17e222]:
+          - generic [ref=f17e223]: w
+          - generic [ref=f17e224]: a
+          - generic [ref=f17e225]: l
+          - generic [ref=f17e226]: l
+          - generic [ref=f17e227]: ":"
+        - generic [ref=f17e228]:
+          - generic [ref=f17e229]: a
+          - generic [ref=f17e230]: g
+          - generic [ref=f17e231]: e
+          - generic [ref=f17e232]: "n"
+          - generic [ref=f17e233]: t
+          - generic [ref=f17e234]: s
+        - generic [ref=f17e235]:
+          - generic [ref=f17e236]: a
+          - generic [ref=f17e237]: r
+          - generic [ref=f17e238]: e
+        - generic [ref=f17e239]:
+          - generic [ref=f17e240]: o
+          - generic [ref=f17e241]: "n"
+          - generic [ref=f17e242]: l
+          - generic [ref=f17e243]: "y"
+        - generic [ref=f17e244]:
+          - generic [ref=f17e245]: a
+          - generic [ref=f17e246]: s
+        - generic [ref=f17e247]:
+          - generic [ref=f17e248]: g
+          - generic [ref=f17e249]: o
+          - generic [ref=f17e250]: o
+          - generic [ref=f17e251]: d
+        - generic [ref=f17e252]:
+          - generic [ref=f17e253]: a
+          - generic [ref=f17e254]: s
+        - generic [ref=f17e255]:
+          - generic [ref=f17e256]: t
+          - generic [ref=f17e257]: h
+          - generic [ref=f17e258]: e
+        - generic [ref=f17e259]:
+          - generic [ref=f17e260]: d
+          - generic [ref=f17e261]: a
+          - generic [ref=f17e262]: t
+          - generic [ref=f17e263]: a
+        - generic [ref=f17e264]:
+          - generic [ref=f17e265]: f
+          - generic [ref=f17e266]: e
+          - generic [ref=f17e267]: e
+          - generic [ref=f17e268]: d
+          - generic [ref=f17e269]: i
+          - generic [ref=f17e270]: "n"
+          - generic [ref=f17e271]: g
+        - generic [ref=f17e272]:
+          - generic [ref=f17e273]: t
+          - generic [ref=f17e274]: h
+          - generic [ref=f17e275]: e
+          - generic [ref=f17e276]: m
+          - generic [ref=f17e277]: ","
+        - generic [ref=f17e278]:
+          - generic [ref=f17e279]: a
+          - generic [ref=f17e280]: "n"
+          - generic [ref=f17e281]: d
+        - generic [ref=f17e282]:
+          - generic [ref=f17e283]: "n"
+          - generic [ref=f17e284]: e
+          - generic [ref=f17e285]: a
+          - generic [ref=f17e286]: r
+          - generic [ref=f17e287]: l
+          - generic [ref=f17e288]: "y"
+        - generic [ref=f17e289]:
+          - generic [ref=f17e290]: i
+          - generic [ref=f17e291]: m
+          - generic [ref=f17e292]: p
+          - generic [ref=f17e293]: o
+          - generic [ref=f17e294]: s
+          - generic [ref=f17e295]: s
+          - generic [ref=f17e296]: i
+          - generic [ref=f17e297]: b
+          - generic [ref=f17e298]: l
+          - generic [ref=f17e299]: e
+        - generic [ref=f17e300]:
+          - generic [ref=f17e301]: t
+          - generic [ref=f17e302]: o
+        - generic [ref=f17e303]:
+          - generic [ref=f17e304]: d
+          - generic [ref=f17e305]: e
+          - generic [ref=f17e306]: b
+          - generic [ref=f17e307]: u
+          - generic [ref=f17e308]: g
+        - generic [ref=f17e309]:
+          - generic [ref=f17e310]: o
+          - generic [ref=f17e311]: "n"
+          - generic [ref=f17e312]: c
+          - generic [ref=f17e313]: e
+        - generic [ref=f17e314]:
+          - generic [ref=f17e315]: t
+          - generic [ref=f17e316]: h
+          - generic [ref=f17e317]: e
+          - generic [ref=f17e318]: "y"
+          - generic [ref=f17e319]: "'"
+          - generic [ref=f17e320]: r
+          - generic [ref=f17e321]: e
+        - generic [ref=f17e322]:
+          - generic [ref=f17e323]: l
+          - generic [ref=f17e324]: i
+          - generic [ref=f17e325]: v
+          - generic [ref=f17e326]: e
+          - generic [ref=f17e327]: .
+      - paragraph [ref=f17e328]:
+        - generic [ref=f17e329]:
+          - generic [ref=f17e330]: W
+          - generic [ref=f17e331]: e
+        - generic [ref=f17e332]:
+          - generic [ref=f17e333]: b
+          - generic [ref=f17e334]: u
+          - generic [ref=f17e335]: i
+          - generic [ref=f17e336]: l
+          - generic [ref=f17e337]: d
+        - generic [ref=f17e338]:
+          - generic [ref=f17e339]: t
+          - generic [ref=f17e340]: w
+          - generic [ref=f17e341]: o
+        - generic [ref=f17e342]:
+          - generic [ref=f17e343]: p
+          - generic [ref=f17e344]: r
+          - generic [ref=f17e345]: o
+          - generic [ref=f17e346]: d
+          - generic [ref=f17e347]: u
+          - generic [ref=f17e348]: c
+          - generic [ref=f17e349]: t
+          - generic [ref=f17e350]: s
+        - generic [ref=f17e351]:
+          - generic [ref=f17e352]: t
+          - generic [ref=f17e353]: o
+        - generic [ref=f17e354]:
+          - generic [ref=f17e355]: f
+          - generic [ref=f17e356]: i
+          - generic [ref=f17e357]: x
+        - generic [ref=f17e358]:
+          - generic [ref=f17e359]: t
+          - generic [ref=f17e360]: h
+          - generic [ref=f17e361]: a
+          - generic [ref=f17e362]: t
+          - generic [ref=f17e363]: .
+        - link "T a r e s" [ref=f17e364] [cursor=pointer]:
+          - /url: ./tares
+          - generic [ref=f17e365]:
+            - generic [ref=f17e366]: T
+            - generic [ref=f17e367]: a
+            - generic [ref=f17e368]: r
+            - generic [ref=f17e369]: e
+            - generic [ref=f17e370]: s
+        - generic [ref=f17e371]:
+          - generic [ref=f17e372]: f
+          - generic [ref=f17e373]: e
+          - generic [ref=f17e374]: e
+          - generic [ref=f17e375]: d
+          - generic [ref=f17e376]: s
+        - generic [ref=f17e377]:
+          - generic [ref=f17e378]: a
+          - generic [ref=f17e379]: g
+          - generic [ref=f17e380]: e
+          - generic [ref=f17e381]: "n"
+          - generic [ref=f17e382]: t
+          - generic [ref=f17e383]: s
+        - generic [ref=f17e384]:
+          - generic [ref=f17e385]: c
+          - generic [ref=f17e386]: o
+          - generic [ref=f17e387]: r
+          - generic [ref=f17e388]: r
+          - generic [ref=f17e389]: e
+          - generic [ref=f17e390]: l
+          - generic [ref=f17e391]: a
+          - generic [ref=f17e392]: t
+          - generic [ref=f17e393]: e
+          - generic [ref=f17e394]: d
+          - generic [ref=f17e395]: ","
+        - generic [ref=f17e396]:
+          - generic [ref=f17e397]: r
+          - generic [ref=f17e398]: e
+          - generic [ref=f17e399]: a
+          - generic [ref=f17e400]: l
+          - generic [ref=f17e401]: "-"
+          - generic [ref=f17e402]: t
+          - generic [ref=f17e403]: i
+          - generic [ref=f17e404]: m
+          - generic [ref=f17e405]: e
+        - generic [ref=f17e406]:
+          - generic [ref=f17e407]: d
+          - generic [ref=f17e408]: a
+          - generic [ref=f17e409]: t
+          - generic [ref=f17e410]: a
+          - generic [ref=f17e411]: ","
+        - generic [ref=f17e412]:
+          - generic [ref=f17e413]: s
+          - generic [ref=f17e414]: o
+        - generic [ref=f17e415]:
+          - generic [ref=f17e416]: t
+          - generic [ref=f17e417]: h
+          - generic [ref=f17e418]: e
+          - generic [ref=f17e419]: "y"
+        - generic [ref=f17e420]:
+          - generic [ref=f17e421]: a
+          - generic [ref=f17e422]: c
+          - generic [ref=f17e423]: t
+        - generic [ref=f17e424]:
+          - generic [ref=f17e425]: o
+          - generic [ref=f17e426]: "n"
+        - generic [ref=f17e427]: a
+        - generic [ref=f17e429]:
+          - generic [ref=f17e430]: c
+          - generic [ref=f17e431]: o
+          - generic [ref=f17e432]: h
+          - generic [ref=f17e433]: e
+          - generic [ref=f17e434]: r
+          - generic [ref=f17e435]: e
+          - generic [ref=f17e436]: "n"
+          - generic [ref=f17e437]: t
+        - generic [ref=f17e438]:
+          - generic [ref=f17e439]: v
+          - generic [ref=f17e440]: i
+          - generic [ref=f17e441]: e
+          - generic [ref=f17e442]: w
+        - generic [ref=f17e443]:
+          - generic [ref=f17e444]: o
+          - generic [ref=f17e445]: f
+        - generic [ref=f17e446]:
+          - generic [ref=f17e447]: t
+          - generic [ref=f17e448]: h
+          - generic [ref=f17e449]: e
+        - generic [ref=f17e450]:
+          - generic [ref=f17e451]: w
+          - generic [ref=f17e452]: o
+          - generic [ref=f17e453]: r
+          - generic [ref=f17e454]: l
+          - generic [ref=f17e455]: d
+          - generic [ref=f17e456]: ","
+        - generic [ref=f17e457]:
+          - generic [ref=f17e458]: "n"
+          - generic [ref=f17e459]: o
+          - generic [ref=f17e460]: t
+        - generic [ref=f17e461]:
+          - generic [ref=f17e462]: s
+          - generic [ref=f17e463]: t
+          - generic [ref=f17e464]: a
+          - generic [ref=f17e465]: l
+          - generic [ref=f17e466]: e
+          - generic [ref=f17e467]: ","
+        - generic [ref=f17e468]:
+          - generic [ref=f17e469]: f
+          - generic [ref=f17e470]: r
+          - generic [ref=f17e471]: a
+          - generic [ref=f17e472]: g
+          - generic [ref=f17e473]: m
+          - generic [ref=f17e474]: e
+          - generic [ref=f17e475]: "n"
+          - generic [ref=f17e476]: t
+          - generic [ref=f17e477]: e
+          - generic [ref=f17e478]: d
+        - generic [ref=f17e479]:
+          - generic [ref=f17e480]: c
+          - generic [ref=f17e481]: o
+          - generic [ref=f17e482]: "n"
+          - generic [ref=f17e483]: t
+          - generic [ref=f17e484]: e
+          - generic [ref=f17e485]: x
+          - generic [ref=f17e486]: t
+          - generic [ref=f17e487]: .
+        - link "R i u s" [ref=f17e488] [cursor=pointer]:
+          - /url: ./rius
+          - generic [ref=f17e489]:
+            - generic [ref=f17e490]: R
+            - generic [ref=f17e491]: i
+            - generic [ref=f17e492]: u
+            - generic [ref=f17e493]: s
+        - generic [ref=f17e494]:
+          - generic [ref=f17e495]: i
+          - generic [ref=f17e496]: s
+        - generic [ref=f17e497]:
+          - generic [ref=f17e498]: t
+          - generic [ref=f17e499]: h
+          - generic [ref=f17e500]: e
+        - generic [ref=f17e501]:
+          - generic [ref=f17e502]: o
+          - generic [ref=f17e503]: b
+          - generic [ref=f17e504]: s
+          - generic [ref=f17e505]: e
+          - generic [ref=f17e506]: r
+          - generic [ref=f17e507]: v
+          - generic [ref=f17e508]: a
+          - generic [ref=f17e509]: b
+          - generic [ref=f17e510]: i
+          - generic [ref=f17e511]: l
+          - generic [ref=f17e512]: i
+          - generic [ref=f17e513]: t
+          - generic [ref=f17e514]: "y"
+        - generic [ref=f17e515]:
+          - generic [ref=f17e516]: l
+          - generic [ref=f17e517]: a
+          - generic [ref=f17e518]: "y"
+          - generic [ref=f17e519]: e
+          - generic [ref=f17e520]: r
+        - generic [ref=f17e521]:
+          - generic [ref=f17e522]: t
+          - generic [ref=f17e523]: h
+          - generic [ref=f17e524]: a
+          - generic [ref=f17e525]: t
+        - generic [ref=f17e526]:
+          - generic [ref=f17e527]: s
+          - generic [ref=f17e528]: h
+          - generic [ref=f17e529]: o
+          - generic [ref=f17e530]: w
+          - generic [ref=f17e531]: s
+        - generic [ref=f17e532]:
+          - generic [ref=f17e533]: e
+          - generic [ref=f17e534]: x
+          - generic [ref=f17e535]: a
+          - generic [ref=f17e536]: c
+          - generic [ref=f17e537]: t
+          - generic [ref=f17e538]: l
+          - generic [ref=f17e539]: "y"
+        - generic [ref=f17e540]:
+          - generic [ref=f17e541]: w
+          - generic [ref=f17e542]: h
+          - generic [ref=f17e543]: a
+          - generic [ref=f17e544]: t
+        - generic [ref=f17e545]:
+          - generic [ref=f17e546]: "y"
+          - generic [ref=f17e547]: o
+          - generic [ref=f17e548]: u
+          - generic [ref=f17e549]: r
+        - generic [ref=f17e550]:
+          - generic [ref=f17e551]: a
+          - generic [ref=f17e552]: g
+          - generic [ref=f17e553]: e
+          - generic [ref=f17e554]: "n"
+          - generic [ref=f17e555]: t
+          - generic [ref=f17e556]: s
+        - generic [ref=f17e557]:
+          - generic [ref=f17e558]: d
+          - generic [ref=f17e559]: o
+        - generic [ref=f17e560]:
+          - generic [ref=f17e561]: i
+          - generic [ref=f17e562]: "n"
+        - generic [ref=f17e563]:
+          - generic [ref=f17e564]: p
+          - generic [ref=f17e565]: r
+          - generic [ref=f17e566]: o
+          - generic [ref=f17e567]: d
+          - generic [ref=f17e568]: u
+          - generic [ref=f17e569]: c
+          - generic [ref=f17e570]: t
+          - generic [ref=f17e571]: i
+          - generic [ref=f17e572]: o
+          - generic [ref=f17e573]: "n"
+          - generic [ref=f17e574]: ":"
+        - generic [ref=f17e575]:
+          - generic [ref=f17e576]: w
+          - generic [ref=f17e577]: h
+          - generic [ref=f17e578]: e
+          - generic [ref=f17e579]: r
+          - generic [ref=f17e580]: e
+        - generic [ref=f17e581]:
+          - generic [ref=f17e582]: t
+          - generic [ref=f17e583]: h
+          - generic [ref=f17e584]: e
+          - generic [ref=f17e585]: "y"
+        - generic [ref=f17e586]:
+          - generic [ref=f17e587]: s
+          - generic [ref=f17e588]: u
+          - generic [ref=f17e589]: c
+          - generic [ref=f17e590]: c
+          - generic [ref=f17e591]: e
+          - generic [ref=f17e592]: e
+          - generic [ref=f17e593]: d
+          - generic [ref=f17e594]: ","
+        - generic [ref=f17e595]:
+          - generic [ref=f17e596]: w
+          - generic [ref=f17e597]: h
+          - generic [ref=f17e598]: e
+          - generic [ref=f17e599]: r
+          - generic [ref=f17e600]: e
+        - generic [ref=f17e601]:
+          - generic [ref=f17e602]: t
+          - generic [ref=f17e603]: h
+          - generic [ref=f17e604]: e
+          - generic [ref=f17e605]: "y"
+        - generic [ref=f17e606]:
+          - generic [ref=f17e607]: f
+          - generic [ref=f17e608]: a
+          - generic [ref=f17e609]: i
+          - generic [ref=f17e610]: l
+          - generic [ref=f17e611]: ","
+        - generic [ref=f17e612]:
+          - generic [ref=f17e613]: a
+          - generic [ref=f17e614]: "n"
+          - generic [ref=f17e615]: d
+        - generic [ref=f17e616]:
+          - generic [ref=f17e617]: w
+          - generic [ref=f17e618]: h
+          - generic [ref=f17e619]: "y"
+          - generic [ref=f17e620]: .
+      - paragraph [ref=f17e621]:
+        - generic [ref=f17e622]:
+          - generic [ref=f17e623]: W
+          - generic [ref=f17e624]: e
+          - generic [ref=f17e625]: "'"
+          - generic [ref=f17e626]: r
+          - generic [ref=f17e627]: e
+        - generic [ref=f17e628]:
+          - generic [ref=f17e629]: e
+          - generic [ref=f17e630]: "n"
+          - generic [ref=f17e631]: g
+          - generic [ref=f17e632]: i
+          - generic [ref=f17e633]: "n"
+          - generic [ref=f17e634]: e
+          - generic [ref=f17e635]: e
+          - generic [ref=f17e636]: r
+          - generic [ref=f17e637]: s
+        - generic [ref=f17e638]:
+          - generic [ref=f17e639]: w
+          - generic [ref=f17e640]: h
+          - generic [ref=f17e641]: o
+          - generic [ref=f17e642]: "'"
+          - generic [ref=f17e643]: v
+          - generic [ref=f17e644]: e
+        - generic [ref=f17e645]:
+          - generic [ref=f17e646]: b
+          - generic [ref=f17e647]: u
+          - generic [ref=f17e648]: i
+          - generic [ref=f17e649]: l
+          - generic [ref=f17e650]: t
+        - generic [ref=f17e651]:
+          - generic [ref=f17e652]: a
+          - generic [ref=f17e653]: "n"
+          - generic [ref=f17e654]: d
+        - generic [ref=f17e655]:
+          - generic [ref=f17e656]: r
+          - generic [ref=f17e657]: u
+          - generic [ref=f17e658]: "n"
+        - generic [ref=f17e659]:
+          - generic [ref=f17e660]: s
+          - generic [ref=f17e661]: "y"
+          - generic [ref=f17e662]: s
+          - generic [ref=f17e663]: t
+          - generic [ref=f17e664]: e
+          - generic [ref=f17e665]: m
+          - generic [ref=f17e666]: s
+        - generic [ref=f17e667]:
+          - generic [ref=f17e668]: a
+          - generic [ref=f17e669]: t
+        - generic [ref=f17e670]:
+          - generic [ref=f17e671]: s
+          - generic [ref=f17e672]: c
+          - generic [ref=f17e673]: a
+          - generic [ref=f17e674]: l
+          - generic [ref=f17e675]: e
+        - generic [ref=f17e676]:
+          - generic [ref=f17e677]: a
+          - generic [ref=f17e678]: t
+        - generic [ref=f17e679]:
+          - generic [ref=f17e680]: G
+          - generic [ref=f17e681]: o
+          - generic [ref=f17e682]: o
+          - generic [ref=f17e683]: g
+          - generic [ref=f17e684]: l
+          - generic [ref=f17e685]: e
+          - generic [ref=f17e686]: ","
+        - generic [ref=f17e687]:
+          - generic [ref=f17e688]: U
+          - generic [ref=f17e689]: b
+          - generic [ref=f17e690]: e
+          - generic [ref=f17e691]: r
+          - generic [ref=f17e692]: ","
+        - generic [ref=f17e693]:
+          - generic [ref=f17e694]: S
+          - generic [ref=f17e695]: u
+          - generic [ref=f17e696]: m
+          - generic [ref=f17e697]: U
+          - generic [ref=f17e698]: p
+          - generic [ref=f17e699]: ","
+        - generic [ref=f17e700]:
+          - generic [ref=f17e701]: A
+          - generic [ref=f17e702]: v
+          - generic [ref=f17e703]: i
+          - generic [ref=f17e704]: r
+          - generic [ref=f17e705]: a
+        - generic [ref=f17e706]:
+          - generic [ref=f17e707]: a
+          - generic [ref=f17e708]: "n"
+          - generic [ref=f17e709]: d
+        - generic [ref=f17e710]:
+          - generic [ref=f17e711]: M
+          - generic [ref=f17e712]: i
+          - generic [ref=f17e713]: s
+          - generic [ref=f17e714]: t
+          - generic [ref=f17e715]: e
+          - generic [ref=f17e716]: r
+        - generic [ref=f17e717]:
+          - generic [ref=f17e718]: S
+          - generic [ref=f17e719]: p
+          - generic [ref=f17e720]: e
+          - generic [ref=f17e721]: x
+          - generic [ref=f17e722]: .
+        - generic [ref=f17e723]:
+          - generic [ref=f17e724]: W
+          - generic [ref=f17e725]: e
+        - generic [ref=f17e726]:
+          - generic [ref=f17e727]: k
+          - generic [ref=f17e728]: "n"
+          - generic [ref=f17e729]: o
+          - generic [ref=f17e730]: w
+        - generic [ref=f17e731]:
+          - generic [ref=f17e732]: h
+          - generic [ref=f17e733]: o
+          - generic [ref=f17e734]: w
+        - generic [ref=f17e735]:
+          - generic [ref=f17e736]: h
+          - generic [ref=f17e737]: a
+          - generic [ref=f17e738]: r
+          - generic [ref=f17e739]: d
+        - generic [ref=f17e740]:
+          - generic [ref=f17e741]: r
+          - generic [ref=f17e742]: e
+          - generic [ref=f17e743]: l
+          - generic [ref=f17e744]: i
+          - generic [ref=f17e745]: a
+          - generic [ref=f17e746]: b
+          - generic [ref=f17e747]: i
+          - generic [ref=f17e748]: l
+          - generic [ref=f17e749]: i
+          - generic [ref=f17e750]: t
+          - generic [ref=f17e751]: "y"
+        - generic [ref=f17e752]:
+          - generic [ref=f17e753]: i
+          - generic [ref=f17e754]: s
+          - generic [ref=f17e755]: ","
+        - generic [ref=f17e756]:
+          - generic [ref=f17e757]: a
+          - generic [ref=f17e758]: "n"
+          - generic [ref=f17e759]: d
+        - generic [ref=f17e760]:
+          - generic [ref=f17e761]: h
+          - generic [ref=f17e762]: o
+          - generic [ref=f17e763]: w
+        - generic [ref=f17e764]:
+          - generic [ref=f17e765]: m
+          - generic [ref=f17e766]: u
+          - generic [ref=f17e767]: c
+          - generic [ref=f17e768]: h
+        - generic [ref=f17e769]:
+          - generic [ref=f17e770]: l
+          - generic [ref=f17e771]: e
+          - generic [ref=f17e772]: v
+          - generic [ref=f17e773]: e
+          - generic [ref=f17e774]: r
+          - generic [ref=f17e775]: a
+          - generic [ref=f17e776]: g
+          - generic [ref=f17e777]: e
+        - generic [ref=f17e778]:
+          - generic [ref=f17e779]: t
+          - generic [ref=f17e780]: h
+          - generic [ref=f17e781]: e
+        - generic [ref=f17e782]:
+          - generic [ref=f17e783]: r
+          - generic [ref=f17e784]: i
+          - generic [ref=f17e785]: g
+          - generic [ref=f17e786]: h
+          - generic [ref=f17e787]: t
+        - generic [ref=f17e788]:
+          - generic [ref=f17e789]: i
+          - generic [ref=f17e790]: "n"
+          - generic [ref=f17e791]: f
+          - generic [ref=f17e792]: r
+          - generic [ref=f17e793]: a
+          - generic [ref=f17e794]: s
+          - generic [ref=f17e795]: t
+          - generic [ref=f17e796]: r
+          - generic [ref=f17e797]: u
+          - generic [ref=f17e798]: c
+          - generic [ref=f17e799]: t
+          - generic [ref=f17e800]: u
+          - generic [ref=f17e801]: r
+          - generic [ref=f17e802]: e
+        - generic [ref=f17e803]:
+          - generic [ref=f17e804]: g
+          - generic [ref=f17e805]: i
+          - generic [ref=f17e806]: v
+          - generic [ref=f17e807]: e
+          - generic [ref=f17e808]: s
+        - generic [ref=f17e809]:
+          - generic [ref=f17e810]: "y"
+          - generic [ref=f17e811]: o
+          - generic [ref=f17e812]: u
+          - generic [ref=f17e813]: .
+  - generic [ref=f17e823]:
+    - paragraph [ref=f17e830]: products
+    - generic [ref=f17e835]:
+      - generic [ref=f17e843]:
+        - paragraph [ref=f17e845]: Simplicity
+        - paragraph [ref=f17e847]: Four plans, priced per trace, not per seat. Start free, pay for what you actually send.
+      - generic [ref=f17e855]:
+        - paragraph [ref=f17e857]: Empowerment
+        - paragraph [ref=f17e859]: Four plans, priced per trace, not per seat. Start free, pay for what you actually send.
+      - generic [ref=f17e867]:
+        - paragraph [ref=f17e869]: Curiosity
+        - paragraph [ref=f17e871]: Four plans, priced per trace, not per seat. Start free, pay for what you actually send.
+  - generic [ref=f17e875]:
+    - paragraph [ref=f17e878]: Meet our team
+    - generic [ref=f17e879]:
+      - generic [ref=f17e880]:
+        - link [ref=f17e891] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/armend-avdijaj/
+        - generic [ref=f17e893]:
+          - generic [ref=f17e894]:
+            - paragraph [ref=f17e896]: Armend Avdijaj
+            - generic [ref=f17e898]:
+              - paragraph [ref=f17e899]: Founder & CEO
+              - paragraph [ref=f17e900]
+          - link [ref=f17e901] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/armend-avdijaj
+            - link [ref=f17e902]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e903]:
+                - /url: https://www.linkedin.com/in/armend-avdijaj/
+      - generic [ref=f17e909]:
+        - link [ref=f17e920] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/vladimir-cutkovic/
+        - generic [ref=f17e922]:
+          - generic [ref=f17e923]:
+            - paragraph [ref=f17e925]: Vladimir Cutkovic
+            - paragraph [ref=f17e927]: Senior Frontend Engineer
+          - link [ref=f17e928] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/vladimir-cutkovic
+            - link [ref=f17e929]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e930]:
+                - /url: https://www.linkedin.com/in/vladimir-cutkovic/
+      - generic [ref=f17e936]:
+        - link [ref=f17e947] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev
+        - generic [ref=f17e949]:
+          - generic [ref=f17e950]:
+            - paragraph [ref=f17e952]: Kiran Nambiar
+            - paragraph [ref=f17e954]: Senior Backend Engineer
+          - link [ref=f17e956] [cursor=pointer]:
+            - /url: https://docs.glassflow.ai/rius/quickstart
+            - link [ref=f17e957]:
+              - /url: https://www.linkedin.com/company/glassflow-dev/
+      - generic [ref=f17e963]:
+        - link [ref=f17e974] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/petrnuzhnov/
+        - generic [ref=f17e976]:
+          - generic [ref=f17e977]:
+            - paragraph [ref=f17e979]: Petr Nuzhnov
+            - paragraph [ref=f17e981]: Senior Backend Engineer
+          - link [ref=f17e982] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/petrnuzhnov
+            - link [ref=f17e983]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e984]:
+                - /url: https://www.linkedin.com/in/petrnuzhnov/
+      - generic [ref=f17e990]:
+        - link [ref=f17e1001] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/meryem-cebeci-ba52a661/
+        - generic [ref=f17e1003]:
+          - generic [ref=f17e1004]:
+            - paragraph [ref=f17e1006]: Meryem Cebeci
+            - generic [ref=f17e1008]:
+              - paragraph [ref=f17e1009]: Project Manager
+              - paragraph [ref=f17e1010]
+          - link [ref=f17e1011] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/meryem-cebeci-ba52a661
+            - link [ref=f17e1012]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e1013]:
+                - /url: https://www.linkedin.com/in/meryem-cebeci-ba52a661/
+      - generic [ref=f17e1019]:
+        - link [ref=f17e1030] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/pablo-pardo-garcia/
+        - generic [ref=f17e1032]:
+          - generic [ref=f17e1033]:
+            - paragraph [ref=f17e1035]: Pablo Pardo Garcia
+            - paragraph [ref=f17e1037]: Senior Solution Engineer
+          - link [ref=f17e1038] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/pablo-pardo-garcia
+            - link [ref=f17e1039]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e1040]:
+                - /url: https://www.linkedin.com/in/pablo-pardo-garcia/
+      - generic [ref=f17e1046]:
+        - link [ref=f17e1057] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/ben-gorski/
+        - generic [ref=f17e1059]:
+          - generic [ref=f17e1060]:
+            - paragraph [ref=f17e1062]: Benjamin Gorski
+            - generic [ref=f17e1064]:
+              - paragraph [ref=f17e1065]: Head of Operations
+              - paragraph [ref=f17e1066]
+          - link [ref=f17e1067] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ben-gorski
+            - link [ref=f17e1068]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e1069]:
+                - /url: https://www.linkedin.com/in/ben-gorski/
+      - generic [ref=f17e1075]:
+        - link [ref=f17e1086] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/mohammed-ayaan-islam-262989294/
+        - generic [ref=f17e1088]:
+          - generic [ref=f17e1089]:
+            - paragraph [ref=f17e1091]: Ayaan Islam
+            - paragraph [ref=f17e1093]: Accounting & Finance Associate
+          - link [ref=f17e1094] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/mohammed-ayaan-islam-262989294
+            - link [ref=f17e1095]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e1096]:
+                - /url: https://www.linkedin.com/in/mohammed-ayaan-islam-262989294/
+      - generic [ref=f17e1102]:
+        - link [ref=f17e1113] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/ashishbagri/
+        - generic [ref=f17e1115]:
+          - generic [ref=f17e1116]:
+            - paragraph [ref=f17e1118]: Ashish Bagri
+            - paragraph [ref=f17e1120]: Founder & CTO
+          - link [ref=f17e1121] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ashishbagri
+            - link [ref=f17e1122]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e1123]:
+                - /url: https://www.linkedin.com/in/ashishbagri/
+      - generic [ref=f17e1129]:
+        - link [ref=f17e1140] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/msfikas/
+        - generic [ref=f17e1142]:
+          - generic [ref=f17e1143]:
+            - paragraph [ref=f17e1145]: Markos Sfikas
+            - paragraph [ref=f17e1147]: Marketing Lead
+          - link [ref=f17e1148] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/msfikas/
+            - link [ref=f17e1149]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e1150]:
+                - /url: https://www.linkedin.com/in/msfikas/
+      - generic [ref=f17e1156]:
+        - link [ref=f17e1167] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/bahareh-darbandi/
+        - generic [ref=f17e1169]:
+          - generic [ref=f17e1170]:
+            - paragraph [ref=f17e1172]: Bahareh Darbandi
+            - paragraph [ref=f17e1174]: Senior Backend Engineer
+          - link [ref=f17e1175] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/msfikas/
+            - link [ref=f17e1176]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - link [ref=f17e1177]:
+                - /url: https://www.linkedin.com/in/bahareh-darbandi/
+  - generic [ref=f17e1187]:
+    - paragraph [ref=f17e1191]: Discover more
+    - generic [ref=f17e1192]:
+      - generic [ref=f17e1193]:
+        - paragraph [ref=f17e1197]: careers
+        - heading "We are hiring people who want to shape the data streaming future with us." [level=3] [ref=f17e1206]
+        - link [ref=f17e1208] [cursor=pointer]:
+          - /url: https://join.com/companies/getglassflow
+          - paragraph [ref=f17e1212]: find out more
+      - generic [ref=f17e1213]:
+        - paragraph [ref=f17e1221]: blog
+        - heading "Check the latest news, product updates and best practices." [level=3] [ref=f17e1226]
+        - link [ref=f17e1228] [cursor=pointer]:
+          - /url: ./blog
+          - paragraph [ref=f17e1232]: find out more
+  - generic [ref=f17e1236]:
+    - paragraph [ref=f17e1239]: Backed by the best
+    - generic [ref=f17e1240]:
+      - generic [ref=f17e1250]:
+        - paragraph [ref=f17e1252]: Kevin Zhang
+        - paragraph [ref=f17e1254]: Partner at Upfront Ventures
+      - generic [ref=f17e1264]:
+        - paragraph [ref=f17e1266]: Martin Möllmann
+        - paragraph [ref=f17e1268]: Investor at High-Tech Gründerfonds
+      - generic [ref=f17e1278]:
+        - paragraph [ref=f17e1280]: Philipp Moehring
+        - paragraph [ref=f17e1282]: Partner at TSIC
+      - generic [ref=f17e1292]:
+        - paragraph [ref=f17e1294]: Robin Haak
+        - paragraph [ref=f17e1296]: Partner at Robin Capital
+      - generic [ref=f17e1306]:
+        - paragraph [ref=f17e1308]: Serhii Sokolenko
+        - paragraph [ref=f17e1310]: Ex-Snowflake
+      - generic [ref=f17e1320]:
+        - paragraph [ref=f17e1322]: Kamil Mieczakowski
+        - paragraph [ref=f17e1324]: Partner at Notion Capital
+      - generic [ref=f17e1334]:
+        - paragraph [ref=f17e1336]: Andrew Tymovskyi
+        - paragraph [ref=f17e1338]: Investor at Roosh Ventures
+      - generic [ref=f17e1348]:
+        - paragraph [ref=f17e1350]: Thomas Dohmke
+        - paragraph [ref=f17e1352]: CEO at GitHub
+      - generic [ref=f17e1362]:
+        - paragraph [ref=f17e1364]: Andrei David
+        - paragraph [ref=f17e1366]: Scout at Atomico
+      - generic [ref=f17e1376]:
+        - paragraph [ref=f17e1378]: Roland Fassauer
+        - paragraph [ref=f17e1380]: Partner at Fadelia
+      - generic [ref=f17e1390]:
+        - paragraph [ref=f17e1392]: Heikki Nousiainen
+        - paragraph [ref=f17e1394]: CTO & Co-Founder at aiven
+      - generic [ref=f17e1404]:
+        - paragraph [ref=f17e1406]: Andres Almansa
+        - paragraph [ref=f17e1408]: CEO at Restack
+      - generic [ref=f17e1418]:
+        - paragraph [ref=f17e1420]: Philippe Brule
+        - paragraph [ref=f17e1422]: CTO at Restack
+      - generic [ref=f17e1432]:
+        - paragraph [ref=f17e1434]: Jernej Strasner
+        - paragraph [ref=f17e1436]: VP Engineering at sentry.io
+      - generic [ref=f17e1446]:
+        - paragraph [ref=f17e1448]: Taimur Rashid
+        - paragraph [ref=f17e1450]: Founding AWS sales manager
+      - generic [ref=f17e1460]:
+        - paragraph [ref=f17e1462]: Enrique Sarap
+        - paragraph [ref=f17e1464]: Scout at Sequoia
+      - generic [ref=f17e1474]:
+        - paragraph [ref=f17e1476]: Eva Spannagl
+        - paragraph [ref=f17e1478]: Ex Moss Lead and scout
+      - generic [ref=f17e1488]:
+        - paragraph [ref=f17e1490]: Bob van Luijt
+        - paragraph [ref=f17e1492]: CEO at Weaviate
+      - generic [ref=f17e1502]:
+        - paragraph [ref=f17e1504]: Keith Grose
+        - paragraph [ref=f17e1506]: Ex Plaid Lead and scout
+      - generic [ref=f17e1516]:
+        - paragraph [ref=f17e1518]: Mark Maxwell
+        - paragraph [ref=f17e1520]: Ex dbt labs and fivetran
+      - generic [ref=f17e1530]:
+        - paragraph [ref=f17e1532]: Navid Meyer
+        - paragraph [ref=f17e1534]: Investor at Lakestar
+  - generic [ref=f17e1542]:
+    - generic [ref=f17e1543]:
+      - paragraph [ref=f17e1545]: Two products. Two starting points.
+      - paragraph [ref=f17e1547]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and retention, from first span to production.
+    - generic [ref=f17e1548]:
+      - link [ref=f17e1550] [cursor=pointer]:
+        - /url: https://github.com/glassflow/tares
+        - paragraph [ref=f17e1555]: Star Tares on GitHub
+      - link [ref=f17e1557] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/rius/guides
+        - paragraph [ref=f17e1562]: Read the Rius guides
+  - generic [ref=f17e1567]:
+    - generic [ref=f17e1569]:
+      - paragraph [ref=f17e1573]: Ready to give your agents better data and total recall?
+      - generic [ref=f17e1574]:
+        - generic [ref=f17e1577]:
+          - generic [ref=f17e1578]:
+            - paragraph [ref=f17e1580]: Start with Tares
+            - paragraph [ref=f17e1582]: Feed your agents the right data.
+          - link [ref=f17e1584] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f17e1589]: get_started
+        - generic [ref=f17e1596]:
+          - generic [ref=f17e1597]:
+            - paragraph [ref=f17e1599]: Start with Rius
+            - paragraph [ref=f17e1601]: See and debug agents in production.
+          - link [ref=f17e1603] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f17e1608]: get_started
+    - generic [ref=f17e1614]:
+      - generic [ref=f17e1615]:
+        - paragraph [ref=f17e1622]: products
+        - generic [ref=f17e1627]:
+          - link [ref=f17e1628] [cursor=pointer]:
+            - /url: ./tares
+            - generic [ref=f17e1633]:
+              - paragraph [ref=f17e1635]: tares
+              - paragraph [ref=f17e1637]: Feed your agents the right data. Open source
+          - link [ref=f17e1638] [cursor=pointer]:
+            - /url: ./rius
+            - generic [ref=f17e1643]:
+              - paragraph [ref=f17e1645]: rius
+              - paragraph [ref=f17e1647]: See what your agents did in production.
+      - generic [ref=f17e1648]:
+        - link [ref=f17e1649] [cursor=pointer]:
+          - /url: ./contact
+          - paragraph [ref=f17e1655]: contact
+        - link [ref=f17e1656] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f17e1662]: docs
+        - link [ref=f17e1663] [cursor=pointer]:
+          - /url: ./blog
+          - paragraph [ref=f17e1669]: blog
+        - link [ref=f17e1670] [cursor=pointer]:
+          - /url: ./about
+          - paragraph [ref=f17e1676]: about
+      - generic [ref=f17e1677]:
+        - link [ref=f17e1678] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f17e1680] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f17e1682] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f17e1685]:
+      - paragraph [ref=f17e1687]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f17e1689]:
+        - link "Terms & Conditions" [ref=f17e1690] [cursor=pointer]:
+          - /url: ./terms-of-service
+      - paragraph [ref=f17e1692]:
+        - link "Privacy Policy" [ref=f17e1693] [cursor=pointer]:
+          - /url: ./privacy-policy

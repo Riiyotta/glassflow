@@ -1,0 +1,19 @@
+{
+  "id": "meta-cell",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Post meta cell: 23px pixel icon, mono label, Inter w300 value.",
+  "composes": [],
+  "props": {
+    "icon": "asset",
+    "label": "text"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "115-125",
+      "quote": "function MetaCell"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+- generic [ref=f51e3]:
+  - generic [ref=f51e8]:
+    - link [ref=f51e9] [cursor=pointer]:
+      - /url: ../
+    - generic [ref=f51e13]:
+      - paragraph [ref=f51e17]: products
+      - link [ref=f51e22] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f51e25]: docs
+      - link [ref=f51e26] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=f51e29]: blog
+      - link [ref=f51e30] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f51e33]: contact
+    - link [ref=f51e35] [cursor=pointer]:
+      - /url: ../#quickstart
+      - paragraph [ref=f51e38]: get_started
+  - generic [ref=f51e47]:
+    - link [ref=f51e50] [cursor=pointer]:
+      - /url: ../case-studies
+      - paragraph [ref=f51e52]: Case Studies
+    - heading "Restack scales real-time enterprise observability with GlassFlow" [level=1] [ref=f51e55]
+    - generic:
+      - paragraph
+  - generic [ref=f51e57]:
+    - generic [ref=f51e58]:
+      - heading "84%" [level=2] [ref=f51e61]
+      - paragraph [ref=f51e64]: Reduction in engineering effort for building and maintaining pipelines
+    - generic [ref=f51e65]:
+      - heading "87%" [level=2] [ref=f51e68]
+      - paragraph [ref=f51e71]: Reduction in pipeline-related incidents
+    - generic [ref=f51e72]:
+      - heading "10 TB / day" [level=2] [ref=f51e75]
+      - paragraph [ref=f51e78]: Stable processing
+  - generic [ref=f51e80]:
+    - generic [ref=f51e82]:
+      - generic [ref=f51e86]:
+        - paragraph [ref=f51e95]: “I am happy we found GlassFlow. I was fed up seeing my engineers debugging broken observability pipelines and spending their time creating custom solutions, while our focus should have been on improving our own product.”
+        - generic [ref=f51e100]:
+          - paragraph [ref=f51e102]: Andres Tapia,
+          - paragraph [ref=f51e104]: CEO, Restack
+      - heading "Results" [level=2] [ref=f51e108]
+      - paragraph [ref=f51e109]: "After going live with GlassFlow, Restack observed:"
+      - list [ref=f51e110]:
+        - listitem [ref=f51e111]:
+          - text: •
+          - paragraph [ref=f51e112]: 84% reduction in engineering effort for building and maintaining pipelines.
+        - listitem [ref=f51e113]:
+          - text: •
+          - paragraph [ref=f51e114]: 87% reduction in pipeline-related incidents.
+        - listitem [ref=f51e115]:
+          - text: •
+          - paragraph [ref=f51e116]: Stable ingestion of approximately 10 TB of data per day.
+        - listitem [ref=f51e117]:
+          - text: •
+          - paragraph [ref=f51e118]: Support for new real-time observability and alerting use cases, like
+          - list [ref=f51e119]:
+            - listitem [ref=f51e120]:
+              - text: •
+              - paragraph [ref=f51e121]: alerting when CPU > 85% for 3 mins on any node or
+            - listitem [ref=f51e122]:
+              - text: •
+              - paragraph [ref=f51e123]: the p99 latency is > 500ms for /checkout in prod.
+      - paragraph [ref=f51e124]: GlassFlow removed operational complexity and allowed the team to focus on core platform development.
+      - heading "Key takeaways:" [level=2] [ref=f51e125]
+      - list [ref=f51e126]:
+        - listitem [ref=f51e127]:
+          - text: •
+          - paragraph [ref=f51e128]: Built real-time, enterprise-grade observability without relying on Kafka table engines or slow merge patterns
+        - listitem [ref=f51e129]:
+          - text: •
+          - paragraph [ref=f51e130]: Reduced pipeline engineering effort by 84% and incidents by 87%
+        - listitem [ref=f51e131]:
+          - text: •
+          - paragraph [ref=f51e132]: Ingesting 10 TB every day from Kafka to ClickHouse (self-hosted)
+      - heading "Challenge - Real-time Observability" [level=2] [ref=f51e133]
+      - paragraph [ref=f51e134]: Restack needed reliable real-time observability for their platform and for their enterprise customers. Their existing setup was based on Kafka, a Kafka table engine, and custom Python transformation code.
+      - paragraph [ref=f51e135]: "This approach caused several problems:"
+      - list [ref=f51e136]:
+        - listitem [ref=f51e137]:
+          - text: •
+          - paragraph [ref=f51e138]: Transformations were implemented as stateless Python code, which required significant ongoing maintenance.
+        - listitem [ref=f51e139]:
+          - text: •
+          - paragraph [ref=f51e140]: Limited visibility into pipeline behavior made debugging difficult.
+        - listitem [ref=f51e141]:
+          - text: •
+          - paragraph [ref=f51e142]: Pipelines would break intermittently without clear insight into root causes.
+        - listitem [ref=f51e143]:
+          - text: •
+          - paragraph [ref=f51e144]: Heavy reliance on ReplacingMergeTree and FINAL made queries too slow for real-time observability and alerting.
+        - listitem [ref=f51e145]:
+          - text: •
+          - paragraph [ref=f51e146]: Ensuring availability for enterprise customers became increasingly difficult.
+      - paragraph [ref=f51e147]: As ingestion volume increased, this architecture became fragile and expensive to operate.
+      - heading "Solution" [level=2] [ref=f51e148]
+      - paragraph [ref=f51e149]: Restack adopted GlassFlow to simplify their streaming architecture while meeting strict real-time observability requirements.
+      - paragraph [ref=f51e150]: "GlassFlow was selected because it allowed Restack to:"
+      - list [ref=f51e151]:
+        - listitem [ref=f51e152]:
+          - text: •
+          - paragraph [ref=f51e153]: Consume and transform approximately 6.7 billion messages per day.
+        - listitem [ref=f51e154]:
+          - text: •
+          - paragraph [ref=f51e155]: Produce query-ready data without relying on ReplacingMergeTree or FINAL.
+        - listitem [ref=f51e156]:
+          - text: •
+          - paragraph [ref=f51e157]: Enable real-time alerting on streaming data.
+        - listitem [ref=f51e158]:
+          - text: •
+          - paragraph [ref=f51e159]: Expose built-in pipeline metrics.
+        - listitem [ref=f51e160]:
+          - text: •
+          - paragraph [ref=f51e161]: Export metrics via OpenTelemetry and visualize them in Grafana.
+        - listitem [ref=f51e162]:
+          - text: •
+          - paragraph [ref=f51e163]: Use dead-letter queues to isolate failures instead of breaking pipelines.
+      - paragraph [ref=f51e164]: "GlassFlow was implemented as the core of Restack’s observability data pipeline. The implementation included:"
+      - list [ref=f51e165]:
+        - listitem [ref=f51e166]:
+          - text: •
+          - paragraph [ref=f51e167]: Stateless streaming transformations.
+        - listitem [ref=f51e168]:
+          - text: •
+          - paragraph [ref=f51e169]: Deduplication over a seven-day time window.
+        - listitem [ref=f51e170]:
+          - text: •
+          - paragraph [ref=f51e171]: Dead-letter queues to handle malformed or failing records.
+        - listitem [ref=f51e172]:
+          - text: •
+          - paragraph [ref=f51e173]: Pipeline-level metrics exposed via OpenTelemetry.
+      - paragraph [ref=f51e174]: The full rollout was completed in fifteen days and required minimal changes to downstream consumers.
+    - generic [ref=f51e175]:
+      - generic [ref=f51e180]:
+        - heading "Company Overview" [level=6] [ref=f51e182]
+        - generic [ref=f51e183]:
+          - paragraph [ref=f51e184]: Where product teams design, test and optimize agents at Enterprise Scale.
+          - paragraph [ref=f51e185]: The open-source stack enabling product teams to improve their agent experience while engineers make them reliable at scale on Kubernetes.
+          - paragraph [ref=f51e186]: As data volume and customer expectations have grown, Restack needed a more reliable way to build and operate streaming observability pipelines.
+      - link "V i s i t W e b s i t e V i s i t W e b s i t e" [ref=f51e189] [cursor=pointer]:
+        - /url: https://www.restack.io/
+        - generic [ref=f51e190]:
+          - generic [ref=f51e191]: V
+          - generic [ref=f51e193]: i
+          - generic [ref=f51e195]: s
+          - generic [ref=f51e197]: i
+          - generic [ref=f51e199]: t
+          - generic [ref=f51e201]: W
+          - generic [ref=f51e203]: e
+          - generic [ref=f51e205]: b
+          - generic [ref=f51e207]: s
+          - generic [ref=f51e209]: i
+          - generic [ref=f51e211]: t
+          - generic [ref=f51e213]: e
+        - generic:
+          - generic: V
+          - generic: i
+          - generic: s
+          - generic: i
+          - generic: t
+          - generic: W
+          - generic: e
+          - generic: b
+          - generic: s
+          - generic: i
+          - generic: t
+          - generic: e
+  - generic [ref=f51e217]:
+    - heading "You might also like" [level=1] [ref=f51e235]
+    - generic [ref=f51e239]:
+      - link "Restack scales real-time enterprise observability with GlassFlow read more read more" [ref=f51e240] [cursor=pointer]:
+        - /url: ./restack
+        - heading "Restack scales real-time enterprise observability with GlassFlow" [level=3] [ref=f51e246]
+        - generic [ref=f51e248]:
+          - paragraph [ref=f51e250]: read more
+          - paragraph [ref=f51e252]: read more
+      - link "Nubrain fixes the silent errors of AI agents in their pipelines read more read more" [ref=f51e253] [cursor=pointer]:
+        - /url: ./nubrain
+        - heading "Nubrain fixes the silent errors of AI agents in their pipelines" [level=3] [ref=f51e259]
+        - generic [ref=f51e261]:
+          - paragraph [ref=f51e263]: read more
+          - paragraph [ref=f51e265]: read more
+  - generic [ref=f51e273]:
+    - generic [ref=f51e274]:
+      - paragraph [ref=f51e276]: Two products. Two starting points.
+      - paragraph [ref=f51e278]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and retention, from first span to production.
+    - generic [ref=f51e279]:
+      - link [ref=f51e281] [cursor=pointer]:
+        - /url: https://github.com/glassflow/tares
+        - paragraph [ref=f51e286]: Star Tares on GitHub
+      - link [ref=f51e288] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/rius/guides
+        - paragraph [ref=f51e293]: Read the Rius guides
+  - generic [ref=f51e298]:
+    - generic [ref=f51e300]:
+      - paragraph [ref=f51e304]: Ready to give your agents better data and total recall?
+      - generic [ref=f51e305]:
+        - generic [ref=f51e308]:
+          - generic [ref=f51e309]:
+            - paragraph [ref=f51e311]: Start with Tares
+            - paragraph [ref=f51e313]: Feed your agents the right data.
+          - link [ref=f51e315] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f51e320]: get_started
+        - generic [ref=f51e327]:
+          - generic [ref=f51e328]:
+            - paragraph [ref=f51e330]: Start with Rius
+            - paragraph [ref=f51e332]: See and debug agents in production.
+          - link [ref=f51e334] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f51e339]: get_started
+    - generic [ref=f51e345]:
+      - generic [ref=f51e347]:
+        - paragraph [ref=f51e354]: products
+        - generic [ref=f51e359]:
+          - link [ref=f51e360] [cursor=pointer]:
+            - /url: ../tares
+            - generic [ref=f51e365]:
+              - paragraph [ref=f51e367]: tares
+              - paragraph [ref=f51e369]: Feed your agents the right data. Open source
+          - link [ref=f51e370] [cursor=pointer]:
+            - /url: ../rius
+            - generic [ref=f51e375]:
+              - paragraph [ref=f51e377]: rius
+              - paragraph [ref=f51e379]: See what your agents did in production.
+      - generic [ref=f51e380]:
+        - link [ref=f51e381] [cursor=pointer]:
+          - /url: ../contact
+          - paragraph [ref=f51e387]: contact
+        - link [ref=f51e388] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f51e394]: docs
+        - link [ref=f51e395] [cursor=pointer]:
+          - /url: ../blog
+          - paragraph [ref=f51e401]: blog
+        - link [ref=f51e402] [cursor=pointer]:
+          - /url: ../about
+          - paragraph [ref=f51e408]: about
+      - generic [ref=f51e409]:
+        - link [ref=f51e410] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f51e412] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f51e414] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f51e417]:
+      - paragraph [ref=f51e419]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f51e421]:
+        - link "Terms & Conditions" [ref=f51e422] [cursor=pointer]:
+          - /url: ../terms-of-service
+      - paragraph [ref=f51e424]:
+        - link "Privacy Policy" [ref=f51e425] [cursor=pointer]:
+          - /url: ../privacy-policy

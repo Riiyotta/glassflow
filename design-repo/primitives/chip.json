@@ -1,0 +1,19 @@
+{
+  "id": "chip",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Amber category chip: Inter 12/12 w500 uppercase.",
+  "props": {
+    "label": "text",
+    "href": "optional link"
+  },
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "25-36",
+      "quote": "export function Chip"
+    }
+  ]
+}

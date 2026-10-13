@@ -1,0 +1,18 @@
+{
+  "id": "legacy-dropdown",
+  "kind": "component",
+  "family": "legacy",
+  "purpose": "Legacy nav dropdown panel (opacity + scale .95 spring) with rotating chevron.",
+  "composes": [],
+  "props": {
+    "items": "[label,href][]"
+  },
+  "motionPattern": "legacy-dropdown",
+  "implementedBy": [
+    {
+      "path": "src/components/LegacyLayout.jsx",
+      "lines": "58-75",
+      "quote": "function Dropdown({ items })"
+    }
+  ]
+}

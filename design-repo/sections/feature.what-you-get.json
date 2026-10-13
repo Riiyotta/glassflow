@@ -1,0 +1,134 @@
+{
+  "id": "feature.what-you-get",
+  "family": "mars",
+  "category": "feature",
+  "purpose": "Heading + intro row, then 2-column feature cards (title bar, image, text, read more).",
+  "variants": {
+    "default": "/rius"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Rius.jsx",
+      "lines": "215-245",
+      "quote": "function WhatYouGet()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 4
+      },
+      "intro": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 25
+      },
+      "features": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 20
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "product.screenshot"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 3
+                },
+                "href": {
+                  "type": "string",
+                  "minLength": 1,
+                  "x-linkField": true,
+                  "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "label",
+                "href"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "title",
+            "text",
+            "image",
+            "link"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 6
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "intro",
+      "features"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "cards": 1
+    },
+    "810": {
+      "cards": 1
+    },
+    "1200": {
+      "cards": 2,
+      "headingRow": "178 tall, row"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "224",
+        "quote": "grid grid-cols-1 gap-2 lg:grid-cols-2"
+      }
+    ]
+  }
+}

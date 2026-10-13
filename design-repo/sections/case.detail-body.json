@@ -1,0 +1,295 @@
+{
+  "id": "case.detail-body",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Quote card + SUMMARY-ONLY case-study body, with a sticky sidebar (logo, overview, Visit Website).",
+  "variants": {
+    "default": "/case-studies/:slug"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/CaseStudies.jsx",
+      "lines": "168-175",
+      "quote": "<Shell inner=\"flex flex-col lg:flex-row lg:justify-center\">"
+    },
+    {
+      "path": "src/pages/CaseStudies.jsx",
+      "lines": "120-140",
+      "quote": "function Sidebar({ s })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "quote": {
+        "type": "object",
+        "properties": {
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 45
+          },
+          "person": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              },
+              "role": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              },
+              "avatar": {
+                "type": "object",
+                "properties": {
+                  "assetRole": {
+                    "enum": [
+                      "person.real-photo"
+                    ]
+                  },
+                  "ref": {
+                    "type": "string",
+                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                    "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  },
+                  "alt": {
+                    "type": "string",
+                    "maxWords": 14
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "assetRole",
+                  "ref",
+                  "alt"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "role",
+              "avatar"
+            ]
+          },
+          "company": {
+            "type": "object",
+            "properties": {
+              "logo": {
+                "type": "object",
+                "properties": {
+                  "assetRole": {
+                    "enum": [
+                      "logo.customer"
+                    ]
+                  },
+                  "ref": {
+                    "type": "string",
+                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                    "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  },
+                  "alt": {
+                    "type": "string",
+                    "maxWords": 14
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "assetRole",
+                  "ref",
+                  "alt"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "logo"
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "quote",
+          "person",
+          "company"
+        ]
+      },
+      "body": {
+        "type": "object",
+        "properties": {
+          "contentPolicy": {
+            "const": "summary-only"
+          },
+          "lede": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 30,
+            "description": "one-sentence summary, not the original opening paragraph"
+          },
+          "outline": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "level": {
+                  "enum": [
+                    "h2",
+                    "h3"
+                  ]
+                },
+                "heading": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 16
+                },
+                "summary": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 30,
+                  "description": "one-line summary written fresh; never a copied paragraph"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "level",
+                "heading"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 40
+          },
+          "fullTextLink": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "pattern": "^Read the full case study on glassflow\\.ai$",
+                "maxWords": 8
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^https://www\\.glassflow\\.ai/",
+                "x-linkField": true
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "href"
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "contentPolicy",
+          "outline",
+          "fullTextLink"
+        ]
+      },
+      "sidebar": {
+        "type": "object",
+        "properties": {
+          "logo": {
+            "type": "object",
+            "properties": {
+              "assetRole": {
+                "enum": [
+                  "logo.customer"
+                ]
+              },
+              "ref": {
+                "type": "string",
+                "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 14
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "assetRole",
+              "ref",
+              "alt"
+            ]
+          },
+          "overview": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 40
+            },
+            "minItems": 1,
+            "maxItems": 3
+          },
+          "siteLink": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 3
+              },
+              "href": {
+                "type": "string",
+                "minLength": 1,
+                "x-linkField": true,
+                "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "href"
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "logo",
+          "overview",
+          "siteLink"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "quote",
+      "body",
+      "sidebar"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "char-roll"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "sidebar": "below body"
+    },
+    "810": {
+      "sidebar": "below body"
+    },
+    "1200": {
+      "layout": "780 article + 320 sticky sidebar"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/CaseStudies.jsx",
+        "lines": "122",
+        "quote": "lg:sticky lg:top-[128px] lg:w-[320px]"
+      }
+    ]
+  },
+  "policies": [
+    "long-form-summary-only"
+  ]
+}

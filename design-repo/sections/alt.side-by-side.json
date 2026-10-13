@@ -1,0 +1,81 @@
+{
+  "id": "alt.side-by-side",
+  "family": "mars",
+  "category": "feature",
+  "purpose": "OTEL / SDK side-by-side code comparison (langfuse only).",
+  "variants": {
+    "arize": "arize data",
+    "langfuse": "langfuse data"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Alternatives.jsx",
+      "lines": "758-764",
+      "quote": "function SideBySide()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 12
+      },
+      "rows": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "from": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 6
+            },
+            "to": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 6
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "from",
+            "to"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 10
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "rows"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "single column, 16px section padding"
+    },
+    "810": {
+      "layout": "64px section padding"
+    },
+    "1200": {
+      "layout": "max 1200 (arize) / 1234 (langfuse)"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "291",
+        "quote": "px-4 md:px-16"
+      }
+    ]
+  },
+  "notes": "Native rebuild of the live iframe template; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
+}

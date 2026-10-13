@@ -1,0 +1,1897 @@
+{
+  "url": "https://www.glassflow.ai/case-studies",
+  "title": "AI Agent Observability & Data Infrastructure | GlassFlow",
+  "H": 1293,
+  "W": 1440,
+  "bodyBg": "rgb(73, 36, 0)",
+  "text": [
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        229,
+        11,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        342,
+        11,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        408,
+        11,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(143, 137, 130)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        473,
+        11,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1232,
+        11,
+        92,
+        18
+      ],
+      "f": "Geist Mono Variable",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(29, 14, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "H1",
+      "x": "Case Studies",
+      "r": [
+        96,
+        214,
+        1248,
+        40
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "40px",
+      "fw": "400",
+      "ls": "-1.6px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "H3",
+      "x": "Restack scales real-time enterprise observability with GlassFlow",
+      "r": [
+        92,
+        479,
+        602,
+        73
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "read more",
+      "r": [
+        357,
+        560,
+        73,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "read more",
+      "r": [
+        357,
+        590,
+        73,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "H3",
+      "x": "Nubrain fixes the silent errors of AI agents in their pipelines",
+      "r": [
+        746,
+        479,
+        602,
+        73
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "read more",
+      "r": [
+        1011,
+        560,
+        73,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "read more",
+      "r": [
+        1011,
+        590,
+        73,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ready to give your agents better data and total recall?",
+      "r": [
+        96,
+        811,
+        271,
+        96
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "32px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Tares",
+      "r": [
+        750,
+        792,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data.",
+      "r": [
+        750,
+        824,
+        277,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        818,
+        889,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Rius",
+      "r": [
+        1075,
+        792,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "See and debug agents in production.",
+      "r": [
+        1062,
+        824,
+        302,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1143,
+        889,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        646,
+        1043,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "tares",
+      "r": [
+        302,
+        1133,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data. Open source",
+      "r": [
+        302,
+        1157,
+        211,
+        39
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "rius",
+      "r": [
+        700,
+        1133,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "See what your agents did in production.",
+      "r": [
+        700,
+        1157,
+        211,
+        39
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        1143,
+        1039,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        1143,
+        1089,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        1143,
+        1139,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "about",
+      "r": [
+        1143,
+        1189,
+        42,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "2026 - Copyright GlassFlow.ai",
+      "r": [
+        88,
+        1251,
+        244,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Terms & Conditions",
+      "r": [
+        707,
+        1251,
+        151,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Privacy Policy",
+      "r": [
+        1234,
+        1251,
+        118,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    }
+  ],
+  "imgs": [
+    {
+      "src": "https://framerusercontent.com/images/gGgprOgbK8sImEo5X3oHCssBw0w.jpg?width=800&height=160",
+      "alt": "",
+      "r": [
+        64,
+        110,
+        1312,
+        263
+      ],
+      "nat": [
+        1312,
+        262
+      ],
+      "of": "contain"
+    },
+    {
+      "src": "https://framerusercontent.com/images/gU6Xy4ekBJSu57RtzjJJ0U3x1Q.svg?scale-down-to=512&width=1000&height=425",
+      "alt": "",
+      "r": [
+        92,
+        401,
+        71,
+        30
+      ],
+      "nat": [
+        138,
+        59
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/71EJsST8RQxnFwMo7Alb9eWZXcI.svg?width=89&height=20",
+      "alt": "",
+      "r": [
+        746,
+        401,
+        134,
+        30
+      ],
+      "nat": [
+        89,
+        20
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/p8ihsATIQW2BpC2j7ekzEF2gA.jpg?width=559&height=661",
+      "alt": "",
+      "r": [
+        64,
+        699,
+        662,
+        320
+      ],
+      "nat": [
+        1440,
+        1702
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/dkWQcxyRjqORomn3COxNj6KgRl4.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        726,
+        699,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZsW3C35h6WXWKMkdVHcrVPc.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        1051,
+        699,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    }
+  ],
+  "links": [
+    {
+      "h": "./",
+      "x": "",
+      "r": [
+        64,
+        -1,
+        149,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        326,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "./blog",
+      "x": "blog",
+      "r": [
+        392,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "./contact",
+      "x": "contact",
+      "r": [
+        457,
+        0,
+        91,
+        40
+      ]
+    },
+    {
+      "h": "./#quickstart",
+      "x": "get_started",
+      "r": [
+        1223,
+        -1,
+        153,
+        42
+      ]
+    },
+    {
+      "h": "./case-studies/restack",
+      "x": "Restack scales real-time enterprise obse",
+      "r": [
+        68,
+        377,
+        650,
+        251
+      ]
+    },
+    {
+      "h": "./case-studies/nubrain",
+      "x": "Nubrain fixes the silent errors of AI ag",
+      "r": [
+        722,
+        377,
+        650,
+        251
+      ]
+    },
+    {
+      "h": "https://console.tares-glassflow.com/",
+      "x": "get_started",
+      "r": [
+        790,
+        875,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core",
+      "x": "get_started",
+      "r": [
+        1115,
+        875,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "./tares",
+      "x": "taresFeed your agents the right data. Op",
+      "r": [
+        282,
+        1077,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "./rius",
+      "x": "riusSee what your agents did in producti",
+      "r": [
+        680,
+        1077,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "./contact",
+      "x": "contact",
+      "r": [
+        1085,
+        1027,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        1085,
+        1077,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "./blog",
+      "x": "blog",
+      "r": [
+        1085,
+        1127,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "./about",
+      "x": "about",
+      "r": [
+        1085,
+        1177,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://x.com/glassflowdev",
+      "x": "",
+      "r": [
+        1268,
+        1027,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/company/glassflow-dev/",
+      "x": "",
+      "r": [
+        1268,
+        1094,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "",
+      "r": [
+        1268,
+        1160,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "./terms-of-service",
+      "x": "Terms & Conditions",
+      "r": [
+        707,
+        1251,
+        151,
+        18
+      ]
+    },
+    {
+      "h": "./privacy-policy",
+      "x": "Privacy Policy",
+      "r": [
+        1234,
+        1251,
+        118,
+        18
+      ]
+    }
+  ],
+  "bgimgs": [
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 124.51 15.963%22 ove",
+      "r": [
+        76,
+        12,
+        125,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 48 72%22 overflow=%2",
+      "r": [
+        64,
+        110,
+        48,
+        72
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        924,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        894,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        924,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        894,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 202 194%22><path d=%",
+      "r": [
+        72,
+        1026,
+        202,
+        194
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 16%22 overflow=%2",
+      "r": [
+        1310,
+        1048,
+        16,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 14.994%22 overflo",
+      "r": [
+        1311,
+        1116,
+        15,
+        15
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16.667 16.264%22 ove",
+      "r": [
+        1310,
+        1181,
+        17,
+        17
+      ]
+    }
+  ],
+  "boxes": [
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        1293
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "nav"
+    },
+    {
+      "r": [
+        213,
+        0,
+        113,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "3.06401px 16px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "link"
+    },
+    {
+      "r": [
+        1223,
+        0,
+        111,
+        40
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "3.06401px 9.19203px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        0,
+        40,
+        1440,
+        32
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "divider-xs"
+    },
+    {
+      "r": [
+        64,
+        32,
+        1312,
+        48
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        72,
+        1440,
+        301
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        64,
+        72,
+        1312,
+        38
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "bar"
+    },
+    {
+      "r": [
+        80,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        90,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        100,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1334,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1344,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1354,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        64,
+        110,
+        1312,
+        263
+      ],
+      "bg": "rgb(45, 24, 5)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "heading"
+    },
+    {
+      "r": [
+        64,
+        110,
+        1312,
+        263
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 32px",
+      "gap": "15px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "content-wr"
+    },
+    {
+      "r": [
+        0,
+        373,
+        1440,
+        259
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "40px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "listing"
+    },
+    {
+      "r": [
+        64,
+        373,
+        1312,
+        259
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        68,
+        377,
+        650,
+        78
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "logo"
+    },
+    {
+      "r": [
+        68,
+        455,
+        650,
+        121
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "10px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        68,
+        576,
+        650,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "btn"
+    },
+    {
+      "r": [
+        72,
+        580,
+        642,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        722,
+        377,
+        650,
+        78
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "logo"
+    },
+    {
+      "r": [
+        722,
+        455,
+        650,
+        121
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "10px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        722,
+        576,
+        650,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "btn"
+    },
+    {
+      "r": [
+        726,
+        580,
+        642,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        632,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        632,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        699,
+        1440,
+        594
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        699,
+        1440,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326097"
+    },
+    {
+      "r": [
+        64,
+        699,
+        662,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        726,
+        699,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "tares"
+    },
+    {
+      "r": [
+        790,
+        875,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        790,
+        875,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        794,
+        879,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        935,
+        875,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        1051,
+        699,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "rius"
+    },
+    {
+      "r": [
+        1115,
+        875,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        1115,
+        875,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        1119,
+        879,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        1260,
+        875,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        0,
+        1019,
+        1440,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326096"
+    },
+    {
+      "r": [
+        64,
+        1019,
+        1312,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        282,
+        1027,
+        795,
+        50
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326098"
+    },
+    {
+      "r": [
+        298,
+        1049,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        308,
+        1049,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        318,
+        1049,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1035,
+        1049,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1045,
+        1049,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1055,
+        1049,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        1045,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        1045,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        1045,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        1095,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        1095,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        1095,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        1145,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        1145,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        1145,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        1195,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        1195,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        1195,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        0,
+        1227,
+        1440,
+        66
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326095"
+    },
+    {
+      "r": [
+        64,
+        1227,
+        1312,
+        66
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    }
+  ],
+  "sections": []
+}

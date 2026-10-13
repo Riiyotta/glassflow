@@ -1,0 +1,62 @@
+{
+  "$description": "Mars is square: radius 0 everywhere (CLONE_SPEC.md §0). Rounded values exist ONLY in the legacy-black family and the calculator.",
+  "mars": {
+    "none": {
+      "$value": "0px",
+      "measuredFrom": [
+        {
+          "path": "CLONE_SPEC.md",
+          "lines": "12",
+          "quote": "EVERYTHING IS SQUARE"
+        }
+      ]
+    }
+  },
+  "legacy-black": {
+    "button": {
+      "$value": "6px",
+      "class": "rounded-md",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Category.jsx",
+          "lines": "37",
+          "quote": "rounded-md bg-white"
+        }
+      ]
+    },
+    "field": {
+      "$value": "12px",
+      "class": "rounded-xl",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "79",
+          "quote": "rounded-xl border border-[#2A2A2A]"
+        }
+      ]
+    },
+    "mobile-menu": {
+      "$value": "16px",
+      "class": "rounded-2xl",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "130",
+          "quote": "rounded-2xl bg-black/[0.92]"
+        }
+      ]
+    }
+  },
+  "calculator": {
+    "tooltip": {
+      "$value": "3px",
+      "measuredFrom": [
+        {
+          "path": "src/components/BuildVsBuyCalculator.jsx",
+          "lines": "154",
+          "quote": "rounded-[3px]"
+        }
+      ]
+    }
+  }
+}

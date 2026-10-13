@@ -1,0 +1,83 @@
+{
+  "id": "case.detail-hero",
+  "family": "mars",
+  "category": "hero",
+  "purpose": "Case-study hero: chip back to /case-studies + 40px title over texture.",
+  "variants": {
+    "default": "/case-studies/:slug"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/CaseStudies.jsx",
+      "lines": "139-159",
+      "quote": "export function CaseStudy({ slug })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "chip": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 2
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 14
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "chip",
+      "title",
+      "background"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {},
+    "810": {},
+    "1200": {
+      "height": 280
+    },
+    "evidence": [
+      {
+        "path": "src/pages/CaseStudies.jsx",
+        "lines": "152",
+        "quote": "py-16 text-center lg:h-[280px]"
+      }
+    ]
+  }
+}

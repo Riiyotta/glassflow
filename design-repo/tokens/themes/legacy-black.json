@@ -1,0 +1,16 @@
+{
+  "theme": "legacy-black",
+  "default": false,
+  "family": "legacy",
+  "resolve": {
+    "surface.page": "#000000",
+    "text.link": "#999999",
+    "text.link-category": "#A8A3A3",
+    "text.strong": "#FAFAFA",
+    "border.divider": "#333333",
+    "text.heading-fill": "linear-gradient(244deg,#A8A8A8 0%,#FFFFFF 100%)",
+    "surface.field": "#1A1A1A",
+    "border.field": "#2A2A2A"
+  },
+  "description": "Pre-rebrand ClickHouse-era black system: /categories/* and the two guide pages only. Own nav (chrome.legacy-nav), no global footer, no CTA band, rounded controls allowed."
+}

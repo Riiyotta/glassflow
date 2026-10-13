@@ -1,0 +1,136 @@
+{
+  "id": "pricing.add-ons",
+  "family": "mars",
+  "category": "pricing",
+  "purpose": "Add-ons: image title panel + four add-on cards (horizontal scroll below lg).",
+  "variants": {
+    "default": "/rius/pricing"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/RiusPricing.jsx",
+      "lines": "134-169",
+      "quote": "function AddOns()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 3
+      },
+      "addons": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "price": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 1
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 15
+            },
+            "link": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 4
+                },
+                "href": {
+                  "type": "string",
+                  "minLength": 1,
+                  "x-linkField": true,
+                  "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "label",
+                "href"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "price",
+            "description",
+            "link"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 4
+      },
+      "image": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field",
+              "scene.mars-figurative"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "addons",
+      "image"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "product-appear"
+    ],
+    "reducedMotionFallback": "opacity-only"
+  },
+  "responsive": {
+    "390": {
+      "cards": "horizontal scroll, 240px each"
+    },
+    "810": {
+      "cards": "horizontal scroll"
+    },
+    "1200": {
+      "cards": "4x2 grid beside 394px title panel"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/RiusPricing.jsx",
+        "lines": "143",
+        "quote": "flex gap-1 overflow-x-auto p-1 lg:grid lg:grid-cols-4"
+      }
+    ]
+  }
+}

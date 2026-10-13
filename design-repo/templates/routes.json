@@ -1,0 +1,1809 @@
+{
+  "$description": "Every route the clone serves: src/routes.jsx + App.jsx '/' + live categories (Category.jsx META) + every slug in src/data/posts.json. Redirects are modelled as kind=redirect, never as templates. inSitemap from specs/posts.json in_sitemap (blog) and the sitemap cross-check in specs/content.md §1.6.",
+  "routes": [
+    {
+      "path": "/",
+      "kind": "page",
+      "template": "home",
+      "inSitemap": true,
+      "source": {
+        "path": "src/App.jsx",
+        "lines": "60",
+        "quote": "<Route path=\"/\" element={<Home />} />"
+      }
+    },
+    {
+      "path": "/tares",
+      "kind": "page",
+      "template": "product-tares",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "20",
+        "quote": "path: '/tares'"
+      }
+    },
+    {
+      "path": "/rius",
+      "kind": "page",
+      "template": "product-rius",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "21",
+        "quote": "path: '/rius'"
+      }
+    },
+    {
+      "path": "/rius/pricing",
+      "kind": "page",
+      "template": "pricing",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "22",
+        "quote": "path: '/rius/pricing'"
+      }
+    },
+    {
+      "path": "/rius/alternatives/arize",
+      "kind": "page",
+      "template": "alternatives",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "23",
+        "quote": "path: '/rius/alternatives/arize'"
+      },
+      "variant": "arize"
+    },
+    {
+      "path": "/rius/alternatives/langfuse",
+      "kind": "page",
+      "template": "alternatives",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "24",
+        "quote": "path: '/rius/alternatives/langfuse'"
+      },
+      "variant": "langfuse"
+    },
+    {
+      "path": "/rius/calculator-building-your-own-agent-observability",
+      "kind": "page",
+      "template": "calculator",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "25",
+        "quote": "path: '/rius/calculator-building-your-own-agent-observability'"
+      }
+    },
+    {
+      "path": "/product",
+      "kind": "redirect",
+      "redirectTo": "/",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "26",
+        "quote": "path: '/product'"
+      }
+    },
+    {
+      "path": "/integrations",
+      "kind": "redirect",
+      "redirectTo": "/",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "27",
+        "quote": "path: '/integrations'"
+      }
+    },
+    {
+      "path": "/proof-of-concept",
+      "kind": "redirect",
+      "redirectTo": "/",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "28",
+        "quote": "path: '/proof-of-concept'"
+      }
+    },
+    {
+      "path": "/enterprise",
+      "kind": "redirect",
+      "redirectTo": "/rius/pricing",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "29",
+        "quote": "path: '/enterprise'"
+      }
+    },
+    {
+      "path": "/blog",
+      "kind": "page",
+      "template": "blog-index",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "30",
+        "quote": "path: '/blog'"
+      }
+    },
+    {
+      "path": "/case-studies",
+      "kind": "page",
+      "template": "case-studies-index",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "31",
+        "quote": "path: '/case-studies'"
+      }
+    },
+    {
+      "path": "/case-studies/nubrain",
+      "kind": "page",
+      "template": "case-study-detail",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "32",
+        "quote": "path: '/case-studies/nubrain'"
+      },
+      "variant": "nubrain"
+    },
+    {
+      "path": "/case-studies/restack",
+      "kind": "page",
+      "template": "case-study-detail",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "33",
+        "quote": "path: '/case-studies/restack'"
+      },
+      "variant": "restack"
+    },
+    {
+      "path": "/about",
+      "kind": "page",
+      "template": "about",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "34",
+        "quote": "path: '/about'"
+      }
+    },
+    {
+      "path": "/contact",
+      "kind": "page",
+      "template": "contact",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "35",
+        "quote": "path: '/contact'"
+      }
+    },
+    {
+      "path": "/contact/success",
+      "kind": "page",
+      "template": "contact-success",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "36",
+        "quote": "path: '/contact/success'"
+      }
+    },
+    {
+      "path": "/terms-of-service",
+      "kind": "page",
+      "template": "legal-with-sidebar",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "37",
+        "quote": "path: '/terms-of-service'"
+      },
+      "variant": "terms"
+    },
+    {
+      "path": "/privacy-policy",
+      "kind": "page",
+      "template": "legal-with-sidebar",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "38",
+        "quote": "path: '/privacy-policy'"
+      },
+      "variant": "privacy"
+    },
+    {
+      "path": "/imprint",
+      "kind": "page",
+      "template": "legal-single",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "39",
+        "quote": "path: '/imprint'"
+      }
+    },
+    {
+      "path": "/kafka-to-clickhouse-pipeline-guide",
+      "kind": "page",
+      "template": "legacy-guide",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "40",
+        "quote": "path: '/kafka-to-clickhouse-pipeline-guide'"
+      },
+      "variant": "kafka",
+      "bare": true
+    },
+    {
+      "path": "/clickhouse-mistakes-guide",
+      "kind": "page",
+      "template": "legacy-guide",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "41",
+        "quote": "path: '/clickhouse-mistakes-guide'"
+      },
+      "variant": "mistakes",
+      "bare": true
+    },
+    {
+      "path": "/newsletter",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "42",
+        "quote": "path: '/newsletter'"
+      }
+    },
+    {
+      "path": "/categories/comparisons",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "43",
+        "quote": "path: '/categories/comparisons'"
+      }
+    },
+    {
+      "path": "/categories/engineering",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "44",
+        "quote": "path: '/categories/engineering'"
+      }
+    },
+    {
+      "path": "/kafka-to-clickhouse-connector",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "45",
+        "quote": "path: '/kafka-to-clickhouse-connector'"
+      }
+    },
+    {
+      "path": "/cookie-policy",
+      "kind": "redirect",
+      "redirectTo": "/privacy-policy",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "46",
+        "quote": "path: '/cookie-policy'"
+      }
+    },
+    {
+      "path": "/imprint-old",
+      "kind": "redirect",
+      "redirectTo": "/imprint",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "47",
+        "quote": "path: '/imprint-old'"
+      }
+    },
+    {
+      "path": "/use-cases/real-time-observability-pipelines",
+      "kind": "redirect",
+      "redirectTo": "/case-studies",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "48",
+        "quote": "path: '/use-cases/real-time-observability-pipelines'"
+      }
+    },
+    {
+      "path": "/clickstack",
+      "kind": "redirect",
+      "redirectTo": "/blog/open-source-observability-clickstack-glassflow",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "49",
+        "quote": "path: '/clickstack'"
+      }
+    },
+    {
+      "path": "/joins",
+      "kind": "redirect",
+      "redirectTo": "/blog/clickhouse-joins",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "50",
+        "quote": "path: '/joins'"
+      }
+    },
+    {
+      "path": "/replacingmergetree-alternative",
+      "kind": "redirect",
+      "redirectTo": "/blog/part-3-clickhouse-replacingmergetree-materialized-views-not-enough",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "51",
+        "quote": "path: '/replacingmergetree-alternative'"
+      }
+    },
+    {
+      "path": "/vector-dev-alternative",
+      "kind": "redirect",
+      "redirectTo": "/blog/when-vector-becomes-your-streaming-engine",
+      "mechanism": "client <Navigate replace>",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "52",
+        "quote": "path: '/vector-dev-alternative'"
+      }
+    },
+    {
+      "path": "/categories/mcp",
+      "kind": "page",
+      "template": "category-legacy",
+      "bare": true,
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/Category.jsx",
+        "lines": "10",
+        "quote": "const META = {"
+      }
+    },
+    {
+      "path": "/categories/data-for-agents",
+      "kind": "page",
+      "template": "category-legacy",
+      "bare": true,
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/Category.jsx",
+        "lines": "10",
+        "quote": "const META = {"
+      }
+    },
+    {
+      "path": "/categories/agent-infrastructure",
+      "kind": "page",
+      "template": "category-legacy",
+      "bare": true,
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/Category.jsx",
+        "lines": "10",
+        "quote": "const META = {"
+      }
+    },
+    {
+      "path": "/categories/observability",
+      "kind": "page",
+      "template": "category-legacy",
+      "bare": true,
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/Category.jsx",
+        "lines": "10",
+        "quote": "const META = {"
+      }
+    },
+    {
+      "path": "/categories/use-cases",
+      "kind": "page",
+      "template": "category-legacy",
+      "bare": true,
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/Category.jsx",
+        "lines": "10",
+        "quote": "const META = {"
+      }
+    },
+    {
+      "path": "/categories/product-updates",
+      "kind": "page",
+      "template": "category-legacy",
+      "bare": true,
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/Category.jsx",
+        "lines": "10",
+        "quote": "const META = {"
+      }
+    },
+    {
+      "path": "/categories/tutorials",
+      "kind": "page",
+      "template": "category-legacy",
+      "bare": true,
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/Category.jsx",
+        "lines": "10",
+        "quote": "const META = {"
+      }
+    },
+    {
+      "path": "/blog/decision-model-vs-llm",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/how-to-detect-ai-agent-failures-in-production",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/how-to-debug-an-ai-agent",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/ai-agent-failure-modes",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/agents-in-production-context-failure",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/agent-defined-data-model",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/cost-self-hosting-your-agent-observability-stack",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/blog-autonomous-agents-infrastructure-not-trust",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/ran-signal-quality-opentelemetry-glassflow-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/glassflow-v3.1.0-v3.2.0-clickhouse-retries-pipeline-observability",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/opentelemetry-to-clickhouse-do-you-need-kafka",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-mistakes-engineers-make",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-telemetry-pipeline-with-opentelemetry-and-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clean-enriched-otel-data-in-clickhouse-otel-data-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/fraud-detection-pipelines-kafka-glassflow-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/glassflow-now-scales-to-500k-events-per-sec",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/handle-semi-structured-data-log-pipelines",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/load-test-glass-flow-for-click-house-real-time-deduplication-at-scale",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": false,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/when-vector-becomes-your-streaming-engine",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/kafka-to-clickhouse-breaks-quietly-in-ai-systems",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-ai-backfills",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/building-observability-stack-with-opentelemetry-and-kafka",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-analytics-clickhouse-kafka",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-deduplication-for-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/replacingmergetree",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-deduplication-glassflow-alternative-replacingmergetree",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/glassflow-vs-clickpipes-clickhouse-deduplication",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/aggregatingmergetree-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-observability-with-clickhouse-coroot-and-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/open-source-observability-clickstack-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/observability-in-the-ai-era-scaling-logs-with-clickhouse-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/top-kafka-alternatives",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/snowflake-vs-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/migrating-from-snowflake-to-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/redshift-vs-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/migrating-from-redshift-to-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/migrating-from-bigquery-to-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-joins",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-limitations-joins",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/denormalization-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/solve-join-limitations-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/solve-clickhouse-join-limitations-with-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-query-optimization",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-materialized-views",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/alternative-materialized-views",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/blog-data-lakes-apache-iceberg-clickhouse-data-transformation",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-ecosystem-tools",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/best-managed-clickhouse-service-2025",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-etl-with-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-etl-with-glassflow-part-2-deduplication",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-etl-with-glassflow-part-3-joins",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/simplify-cloudflare-s-log-analytics-setup-with-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/kafka-to-clickhouse-with-glassflow-and-altinity-cloud",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/asynchronous-inserts-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/kafka-to-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/challenges-connecting-flink-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/limitations-flink-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/alternative-flink-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-go-ingestion-service",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/bitcoin-to-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/glassflow-clickhouse-duplications-and-joins-solved-for-kafka-users",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/part-1-kafka-to-clickhouse-data-ingestion",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/part-2-why-duplicates-happen-joins-slow-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/part-3-clickhouse-replacingmergetree-materialized-views-not-enough",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/part-4-apache-flink-is-not-the-solution-to-clickhouse-duplications",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": true,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/part-5-how-glassflow-will-solve-duplications-and-joins-for-clickhouse",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/clickhouse-glossary",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/news-announcing-glassflow-raised-seed-round",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": true,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-ai-price-recommendations-car-dealerships",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-clickstream-analytics",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-data-anomaly-detection-alerting-glassflow-openai-slack",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-fleet-management-car-sharing-fuel-monitoring-discounts",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-generative-feedback-loop-automation-with-glass-flow-supabase-and-weaviate",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/anomaly-detection-complete-guide",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/comparison-of-event-driven-data-pipeline-providers-why-glass-flow-is-built-for-ai-startups",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/how-to-enrich-classified-ads-in-real-time-using-ai-glassflow-and-langchain",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/why-event-driven-data-pipelines-for-ai-applications",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/managed-nats-connectors",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-data-consuming-and-streaming-with-webhooks",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-event-streaming-transformation-clickhouse-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/connect-google-pubsub-to-glassflow-data-streaming",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": false,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/connect-amazon-sqs-to-glassflow-data-integration",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": false,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/connect-zapier-to-glassflow-real-time-data-processing",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": false,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/build-real-time-applications-with-aws-kinesis-dynamodb-and-glassflowbuild-real-time-applications-with-aws-kinesis-dynamodb-and-glassflow",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": false,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/data-pipeline-tools",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/data-infrastructure-trends",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/what-is-etl-pipeline",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/python-etl",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/batch-processing-vs-stream-processing",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/what-is-real-time-analytics",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/machine-learning-pipeline",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/what-is-cdc",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/real-time-streaming-basics-data-pipeline",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/revolutionizing-real-time-alerts-with-ai-nats-and-streamlit",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": false,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/real-time-alerts-with-ai-and-streamlit",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": false,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/the-evolutions-from-etl-to-modern-data-stack",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/choosing-the-right-language-python-vs-java-for-ai-and-machine-learning",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/learn-top-techniques-for-anomaly-detection-and-boost-the-data-quality-for-ll-ms",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/microservices-data-synchronization-using-postgresql-debezium-and-nats",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/change-data-capture-in-databases-techniques-and-tools",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/database-streaming-tools-techniques-and-benefits",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/supercharge-your-low-code-app-for-your-startup-project",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/steps-for-building-data-pipelines",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/how-to-predict-equipment-failure-for-maintenance-in-real-time",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/how-to-predict-customer-churn-and-implement-retention-strategies-in-real-time",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/how-to-detect-and-prevent-credit-card-fraud-in-real-time",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/how-to-personalize-marketing-campaigns-based-on-user-behavior-in-real-time",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/how-to-enhance-user-experience-with-recommendations-in-real-time",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/enhance-online-learning-with-personalized-content-in-real-time-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/hide-pii-data-in-real-time-with-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/check-data-quality-in-real-time-with-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/how-to-enrich-data-in-real-time",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/modern-real-time-data-stack-and-glassflow",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/postgres-to-snowflake",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": false,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/glassflow-vs-other-serverless-solutions",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/top-10-data-engineers-scientists-pain-points-2024",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/choosing-streaming-database-vs-stream-processing-framework-python",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    },
+    {
+      "path": "/blog/glassflow-vs-aws-lambda",
+      "kind": "redirect",
+      "redirectTo": "/blog",
+      "mechanism": "client <Navigate replace> in BlogPost (post.live false)",
+      "inSitemap": false,
+      "source": {
+        "path": "src/pages/BlogPost.jsx",
+        "lines": "49",
+        "quote": "if (!post.live) return <Navigate"
+      }
+    },
+    {
+      "path": "/blog/new-design-and-ready-to-use-jupyter-examples",
+      "kind": "page",
+      "template": "blog-post",
+      "inSitemap": false,
+      "source": {
+        "path": "src/routes.jsx",
+        "lines": "53",
+        "quote": "path: '/blog/:slug'"
+      }
+    }
+  ]
+}

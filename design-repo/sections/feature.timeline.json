@@ -1,0 +1,93 @@
+{
+  "id": "feature.timeline",
+  "family": "mars",
+  "category": "feature",
+  "purpose": "Minute-by-minute incident timeline rows with logs and an amber finding.",
+  "variants": {
+    "default": "/tares"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Tares.jsx",
+      "lines": "58-95",
+      "quote": "function Timeline()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "rows": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "time": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 1
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "sub": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 25
+            },
+            "log": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 14
+            },
+            "finding": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 12
+              },
+              "minItems": 1,
+              "maxItems": 4
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "time",
+            "title"
+          ]
+        },
+        "minItems": 3,
+        "maxItems": 8
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "rows"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "inset": "24px left"
+    },
+    "810": {
+      "inset": "24px left"
+    },
+    "1200": {
+      "inset": "128px each side"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Tares.jsx",
+        "lines": "60",
+        "quote": "<Shell inner=\"pl-6 lg:px-[128px]\">"
+      }
+    ]
+  }
+}

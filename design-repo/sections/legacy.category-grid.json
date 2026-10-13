@@ -1,0 +1,130 @@
+{
+  "id": "legacy.category-grid",
+  "family": "legacy",
+  "category": "content",
+  "purpose": "Legacy category page body: gradient H1 + 3-column post cards (empty author cell).",
+  "variants": {
+    "default": "/categories/:slug"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Category.jsx",
+      "lines": "52-80",
+      "quote": "export default function Category()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 4
+      },
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            },
+            "tag": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 3
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 20
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 30
+            },
+            "author": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "blog.cover"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "href",
+            "tag",
+            "title",
+            "description",
+            "author",
+            "image"
+          ]
+        },
+        "minItems": 0,
+        "maxItems": 60
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "cards"
+    ]
+  },
+  "constraints": {
+    "familyOnly": "legacy",
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "blog-card-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "columns": "1 (clone fix; live squeezes 3 columns at 390)"
+    },
+    "810": {
+      "columns": 2
+    },
+    "1200": {
+      "columns": 3,
+      "max": 1220
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Category.jsx",
+        "lines": "71",
+        "quote": "grid w-full max-w-[1220px] grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
+      }
+    ]
+  }
+}

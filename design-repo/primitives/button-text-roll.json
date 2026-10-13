@@ -1,0 +1,21 @@
+{
+  "id": "button-text-roll",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "52px framed button whose label rolls up 30px on hover (self), with the card (group) or not at all (none).",
+  "props": {
+    "label": "text",
+    "trigger": "self | group | none",
+    "frame": "classes",
+    "fill": "classes"
+  },
+  "tokens": [],
+  "motionPattern": "text-roll",
+  "implementedBy": [
+    {
+      "path": "src/components/TextRollButton.jsx",
+      "lines": "15-41",
+      "quote": "export default function TextRollButton"
+    }
+  ]
+}

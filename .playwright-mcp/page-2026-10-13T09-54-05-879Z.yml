@@ -1,0 +1,231 @@
+- generic [ref=f339e3]:
+  - generic [ref=f339e6]:
+    - generic [ref=f339e7]:
+      - link [ref=f339e8] [cursor=pointer]:
+        - /url: ./tares
+        - paragraph [ref=f339e11]: tares
+      - link [ref=f339e12] [cursor=pointer]:
+        - /url: ./rius
+        - paragraph [ref=f339e15]: rius
+      - link [ref=f339e16] [cursor=pointer]:
+        - /url: ./blog
+        - paragraph [ref=f339e19]: blog
+      - link [ref=f339e20] [cursor=pointer]:
+        - /url: ./contact
+        - paragraph [ref=f339e23]: contact
+      - link [ref=f339e24] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f339e27]: docs
+    - generic [ref=f339e29]:
+      - link [ref=f339e30] [cursor=pointer]:
+        - /url: ./
+      - link [ref=f339e35] [cursor=pointer]:
+        - /url: ./#quickstart
+        - paragraph [ref=f339e38]: get_started
+  - generic [ref=f339e43]:
+    - generic [ref=f339e50]:
+      - paragraph [ref=f339e60]:
+        - generic [ref=f339e61]: the
+        - generic [ref=f339e62]: data
+        - generic [ref=f339e63]: infrastructure
+        - generic [ref=f339e64]: for
+        - generic [ref=f339e65]: AI
+        - generic [ref=f339e66]: Agents
+        - generic [ref=f339e67]: in
+        - generic [ref=f339e68]: production
+      - generic [ref=f339e70]:
+        - paragraph [ref=f339e72]:
+          - text: "GlassFlow is one data layer for both sides of the agent:"
+          - link "GlassFlow Tares" [ref=f339e73] [cursor=pointer]:
+            - /url: ./tares
+          - text: feeds agents correlated data, and
+          - link "GlassFlow Rius" [ref=f339e74] [cursor=pointer]:
+            - /url: ./rius
+          - text: traces and debugs every run.
+        - link [ref=f339e77] [cursor=pointer]:
+          - /url: ./#quickstart
+          - paragraph [ref=f339e82]: get_started
+    - paragraph [ref=f339e93]: Works with the tools you already use.
+    - generic [ref=f339e104]:
+      - paragraph [ref=f339e114]: …data is not just an asset but a fundamental building block to a company's success. It’s through this vital resource that systems and teams learn, adapt, innovate, and provide unprecedented value, driving efficiencies and creating new opportunities. GlassFlow offers the tools to harness this data for AI.”
+      - generic [ref=f339e115]:
+        - generic [ref=f339e120]:
+          - paragraph [ref=f339e122]: Thomas Dohmke
+          - paragraph [ref=f339e124]: Co-founder & CEO
+        - paragraph [ref=f339e129]: Entire
+    - generic [ref=f339e133]:
+      - paragraph [ref=f339e140]: products
+      - generic [ref=f339e147]:
+        - generic [ref=f339e148]:
+          - paragraph [ref=f339e152]: GlassFlow Tares
+          - paragraph [ref=f339e155]: One correlated read over every system your agents touch.
+          - generic [ref=f339e156]:
+            - paragraph [ref=f339e157]:
+              - text: Instead of your agent firing dozens of live tool calls at runtime (slow, expensive, inconsistent),
+              - link "GlassFlow Tares" [ref=f339e158] [cursor=pointer]:
+                - /url: ./tares
+              - link [ref=f339e159] [cursor=pointer]:
+                - /url: https://tares.glassflow.ai/
+              - text: "prepares and delivers exactly the data each agent needs, already correlated across every source. One clean read replaces many brittle ones: less latency, fewer tokens, more reliable decisions."
+            - paragraph [ref=f339e160]
+            - paragraph [ref=f339e161]: Open source, self-hostable, and built on a production streaming core.
+        - generic [ref=f339e162]:
+          - link [ref=f339e163] [cursor=pointer]:
+            - /url: https://github.com/glassflow/tares
+            - paragraph [ref=f339e167]: github
+          - link [ref=f339e172] [cursor=pointer]:
+            - /url: https://tares.glassflow.ai/
+            - paragraph [ref=f339e177]: learn_more
+    - generic [ref=f339e184]:
+      - paragraph [ref=f339e191]: products
+      - generic [ref=f339e201]:
+        - generic [ref=f339e202]:
+          - paragraph [ref=f339e206]: GlassFlow Rius
+          - paragraph [ref=f339e209]: Catch and debug agent failures in production.
+          - paragraph [ref=f339e211]:
+            - text: Once agents are live,
+            - link "GlassFlow Rius" [ref=f339e212] [cursor=pointer]:
+              - /url: ./rius
+            - text: tells you what they did, why they failed, and how quality is changing.
+            - link "Rius" [ref=f339e213] [cursor=pointer]:
+              - /url: ./rius
+            - text: is built for any agent, running from short chat sessions to long-running agents that span across hours or days. Live metrics on running agents (not just the completed minority), heartbeat detection that flags a frozen agent instead of hiding it, and bidirectional MCP so Claude Code, Cursor or ChatGPT Codex can query a failure and open a PR with the fix. Every trace kept as long as you need it, not capped at 30 days
+        - generic [ref=f339e214]:
+          - link [ref=f339e215] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signin?utm_source=glassflow&utm_medium=homepage&utm_campaign=signup&utm_content=core
+            - link [ref=f339e217]:
+              - /url: https://console.rius-glassflow.com/signup?utm_source=framer.com&utm_medium=referral&utm_campaign=hp_start_cta
+              - paragraph [ref=f339e219]: get_started
+          - link [ref=f339e224] [cursor=pointer]:
+            - /url: https://rius.glassflow.ai/
+            - paragraph [ref=f339e229]: learn_more
+    - generic [ref=f339e234]:
+      - generic [ref=f339e236]:
+        - paragraph [ref=f339e238]: From install to first result in minutes.
+        - generic [ref=f339e239]:
+          - paragraph [ref=f339e240]: Pick a product and follow the quickstart.
+          - paragraph [ref=f339e241]: Both are copy-paste and run on your own machine, no waitlist. Up and running in minutes.
+      - generic [ref=f339e242]:
+        - generic [ref=f339e243]:
+          - paragraph [ref=f339e251]: glassflow-rius
+          - paragraph [ref=f339e254]: See your first agent run appear live. Drop in the OTEL receiver, run your agent, and watch the trace stream in.
+          - generic [ref=f339e256]:
+            - generic [ref=f339e257]:
+              - paragraph [ref=f339e259]: ">"
+              - generic [ref=f339e260]:
+                - paragraph [ref=f339e262]: "Long-running agents:"
+                - paragraph [ref=f339e264]: trace hours-long runs, lose nothing
+            - generic [ref=f339e265]:
+              - paragraph [ref=f339e267]: ">"
+              - generic [ref=f339e268]:
+                - paragraph [ref=f339e270]: "MCP both ways:"
+                - paragraph [ref=f339e272]: agents send traces; coding agents query back
+            - generic [ref=f339e273]:
+              - paragraph [ref=f339e275]: ">"
+              - generic [ref=f339e276]:
+                - paragraph [ref=f339e278]: "Replay any run:"
+                - paragraph [ref=f339e280]: reconstruct what happened last week
+          - link [ref=f339e282] [cursor=pointer]:
+            - /url: https://docs.glassflow.ai/rius/quickstart
+            - link [ref=f339e283]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+              - paragraph [ref=f339e286]: open the rius quickstart
+            - link [ref=f339e287]:
+              - /url: https://console.rius-glassflow.com/signup?utm_source=framer.com&utm_medium=referral&utm_campaign=hp_start_cta
+              - paragraph [ref=f339e290]: Start with rius
+        - generic [ref=f339e291]:
+          - paragraph [ref=f339e295]: glassflow-tares
+          - paragraph [ref=f339e302]: Deliver your first correlated data package. Install, connect your sources, and serve one clean read to an agent.
+          - generic [ref=f339e304]:
+            - generic [ref=f339e305]:
+              - paragraph [ref=f339e307]: ">"
+              - generic [ref=f339e308]:
+                - paragraph [ref=f339e310]: "Cut token spend:"
+                - paragraph [ref=f339e312]: one clean read, not dozens of tool calls
+            - generic [ref=f339e313]:
+              - paragraph [ref=f339e315]: ">"
+              - generic [ref=f339e316]:
+                - paragraph [ref=f339e318]: "Kill latency:"
+                - paragraph [ref=f339e320]: data's ready before the agent asks
+            - generic [ref=f339e321]:
+              - paragraph [ref=f339e323]: ">"
+              - generic [ref=f339e324]:
+                - paragraph [ref=f339e326]: "One connection:"
+                - paragraph [ref=f339e328]: all your sources, unified
+          - link [ref=f339e330] [cursor=pointer]:
+            - /url: https://docs.glassflow.ai/tares/quickstart
+            - link [ref=f339e331]:
+              - /url: https://docs.glassflow.ai/tares/quickstart
+              - paragraph [ref=f339e334]: open the tares quickstart
+            - link [ref=f339e335]:
+              - /url: https://console.tares-glassflow.com/?utm_source=button&utm_medium=website&utm_campaign=hp_start_cta
+              - paragraph [ref=f339e338]: Start with tares
+    - generic [ref=f339e343]:
+      - paragraph [ref=f339e346]: Frequently Asked Questions
+      - generic [ref=f339e356]:
+        - generic [ref=f339e360]:
+          - paragraph [ref=f339e363] [cursor=pointer]: What is GlassFlow?
+          - paragraph [ref=f339e368]: "GlassFlow is the data infrastructure for AI agents in production. It has two products: GlassFlow Tares, which feeds agents correlated data from every system they touch, and GlassFlow Rius, which traces and debugs what agents do once they’re running."
+        - paragraph [ref=f339e375] [cursor=pointer]: What’s the difference between GlassFlow Tares and GlassFlow Rius?
+        - paragraph [ref=f339e384] [cursor=pointer]: Is GlassFlow open source?
+        - paragraph [ref=f339e393] [cursor=pointer]: What makes GlassFlow different for long-running agents?
+  - generic [ref=f339e400]:
+    - generic [ref=f339e402]:
+      - paragraph [ref=f339e406]: Ready to give your agents better data and total recall?
+      - generic [ref=f339e407]:
+        - generic [ref=f339e410]:
+          - generic [ref=f339e411]:
+            - paragraph [ref=f339e413]: Start with Tares
+            - paragraph [ref=f339e415]: Feed your agents the right data.
+          - link [ref=f339e417] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f339e422]: get_started
+        - generic [ref=f339e429]:
+          - generic [ref=f339e430]:
+            - paragraph [ref=f339e432]: Start with Rius
+            - paragraph [ref=f339e434]: See and debug agents in production.
+          - link [ref=f339e436] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f339e441]: get_started
+    - generic [ref=f339e447]:
+      - generic [ref=f339e448]:
+        - paragraph [ref=f339e455]: products
+        - generic [ref=f339e460]:
+          - link [ref=f339e461] [cursor=pointer]:
+            - /url: ./tares
+            - generic [ref=f339e466]:
+              - paragraph [ref=f339e468]: tares
+              - paragraph [ref=f339e470]: Feed your agents the right data. Open source
+          - link [ref=f339e471] [cursor=pointer]:
+            - /url: ./rius
+            - generic [ref=f339e476]:
+              - paragraph [ref=f339e478]: rius
+              - paragraph [ref=f339e480]: See what your agents did in production.
+      - generic [ref=f339e481]:
+        - link [ref=f339e482] [cursor=pointer]:
+          - /url: ./contact
+          - paragraph [ref=f339e488]: contact
+        - link [ref=f339e489] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f339e495]: docs
+        - link [ref=f339e496] [cursor=pointer]:
+          - /url: ./blog
+          - paragraph [ref=f339e502]: blog
+        - link [ref=f339e503] [cursor=pointer]:
+          - /url: ./about
+          - paragraph [ref=f339e509]: about
+      - generic [ref=f339e510]:
+        - link [ref=f339e511] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f339e513] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f339e515] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f339e518]:
+      - paragraph [ref=f339e520]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f339e522]:
+        - link "Terms & Conditions" [ref=f339e523] [cursor=pointer]:
+          - /url: ./terms-of-service
+      - paragraph [ref=f339e525]:
+        - link "Privacy Policy" [ref=f339e526] [cursor=pointer]:
+          - /url: ./privacy-policy

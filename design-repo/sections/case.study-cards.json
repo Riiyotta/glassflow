@@ -1,0 +1,102 @@
+{
+  "id": "case.study-cards",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Case-study cards (logo, title, static read more); card bg + 2px lift on hover.",
+  "variants": {
+    "default": "case studies"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "328-346",
+      "quote": "export function CaseStudyCards"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 12
+            },
+            "logo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "logo.customer"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "href",
+            "title",
+            "logo"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 6
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "cards"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "case-card-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "columns": 1
+    },
+    "810": {
+      "columns": 2
+    },
+    "1200": {
+      "columns": 2
+    },
+    "evidence": [
+      {
+        "path": "src/components/ContentSections.jsx",
+        "lines": "330",
+        "quote": "grid grid-cols-1 md:grid-cols-2 md:gap-1 md:p-1"
+      }
+    ]
+  }
+}

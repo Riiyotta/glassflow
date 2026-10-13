@@ -1,0 +1,370 @@
+- generic [ref=f119e3]:
+  - banner [ref=f119e4]:
+    - navigation [ref=f119e5]:
+      - generic [ref=f119e6]:
+        - link "GlassFlow home" [ref=f119e7] [cursor=pointer]:
+          - /url: /
+          - img "GlassFlow" [ref=f119e8]
+        - link "products" [ref=f119e10] [cursor=pointer]:
+          - /url: "#"
+        - link "docs" [ref=f119e13] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f119e14] [cursor=pointer]:
+          - /url: /blog
+        - link "contact" [ref=f119e15] [cursor=pointer]:
+          - /url: /contact
+      - link "get_started" [ref=f119e16] [cursor=pointer]:
+        - /url: /#quickstart
+  - main [ref=f119e18]:
+    - generic [ref=f119e22]:
+      - link "blog / …" [ref=f119e28] [cursor=pointer]:
+        - /url: /blog
+      - generic [ref=f119e30]:
+        - generic [ref=f119e32]:
+          - generic [ref=f119e33]: Agent Observability
+          - 'heading "How to Debug an AI Agent: A Step-by-Step Guide" [level=1] [ref=f119e34]':
+            - generic [ref=f119e35]: How
+            - generic [ref=f119e36]: to
+            - generic [ref=f119e37]: Debug
+            - generic [ref=f119e38]: an
+            - generic [ref=f119e39]: AI
+            - generic [ref=f119e40]: "Agent:"
+            - generic [ref=f119e41]: A
+            - generic [ref=f119e42]: Step-by-Step
+            - generic [ref=f119e43]: Guide
+          - paragraph [ref=f119e45]:
+            - generic [ref=f119e46]:
+              - generic [ref=f119e47]: H
+              - generic [ref=f119e48]: o
+              - generic [ref=f119e49]: w
+            - generic [ref=f119e50]:
+              - generic [ref=f119e51]: t
+              - generic [ref=f119e52]: o
+            - generic [ref=f119e53]:
+              - generic [ref=f119e54]: d
+              - generic [ref=f119e55]: e
+              - generic [ref=f119e56]: b
+              - generic [ref=f119e57]: u
+              - generic [ref=f119e58]: g
+            - generic [ref=f119e59]:
+              - generic [ref=f119e60]: a
+              - generic [ref=f119e61]: "n"
+            - generic [ref=f119e62]:
+              - generic [ref=f119e63]: A
+              - generic [ref=f119e64]: I
+            - generic [ref=f119e65]:
+              - generic [ref=f119e66]: a
+              - generic [ref=f119e67]: g
+              - generic [ref=f119e68]: e
+              - generic [ref=f119e69]: "n"
+              - generic [ref=f119e70]: t
+            - generic [ref=f119e71]:
+              - generic [ref=f119e72]: i
+              - generic [ref=f119e73]: "n"
+            - generic [ref=f119e74]:
+              - generic [ref=f119e75]: p
+              - generic [ref=f119e76]: r
+              - generic [ref=f119e77]: o
+              - generic [ref=f119e78]: d
+              - generic [ref=f119e79]: u
+              - generic [ref=f119e80]: c
+              - generic [ref=f119e81]: t
+              - generic [ref=f119e82]: i
+              - generic [ref=f119e83]: o
+              - generic [ref=f119e84]: "n"
+              - generic [ref=f119e85]: ":"
+            - generic [ref=f119e86]:
+              - generic [ref=f119e87]: f
+              - generic [ref=f119e88]: i
+              - generic [ref=f119e89]: "n"
+              - generic [ref=f119e90]: d
+            - generic [ref=f119e91]:
+              - generic [ref=f119e92]: t
+              - generic [ref=f119e93]: h
+              - generic [ref=f119e94]: e
+            - generic [ref=f119e95]:
+              - generic [ref=f119e96]: r
+              - generic [ref=f119e97]: u
+              - generic [ref=f119e98]: "n"
+              - generic [ref=f119e99]: ","
+            - generic [ref=f119e100]:
+              - generic [ref=f119e101]: t
+              - generic [ref=f119e102]: r
+              - generic [ref=f119e103]: a
+              - generic [ref=f119e104]: c
+              - generic [ref=f119e105]: e
+            - generic [ref=f119e106]:
+              - generic [ref=f119e107]: i
+              - generic [ref=f119e108]: t
+            - generic [ref=f119e109]:
+              - generic [ref=f119e110]: t
+              - generic [ref=f119e111]: o
+            - generic [ref=f119e112]:
+              - generic [ref=f119e113]: t
+              - generic [ref=f119e114]: h
+              - generic [ref=f119e115]: e
+            - generic [ref=f119e116]:
+              - generic [ref=f119e117]: f
+              - generic [ref=f119e118]: i
+              - generic [ref=f119e119]: r
+              - generic [ref=f119e120]: s
+              - generic [ref=f119e121]: t
+            - generic [ref=f119e122]:
+              - generic [ref=f119e123]: d
+              - generic [ref=f119e124]: i
+              - generic [ref=f119e125]: v
+              - generic [ref=f119e126]: e
+              - generic [ref=f119e127]: r
+              - generic [ref=f119e128]: g
+              - generic [ref=f119e129]: e
+              - generic [ref=f119e130]: "n"
+              - generic [ref=f119e131]: c
+              - generic [ref=f119e132]: e
+              - generic [ref=f119e133]: ","
+            - generic [ref=f119e134]:
+              - generic [ref=f119e135]: c
+              - generic [ref=f119e136]: l
+              - generic [ref=f119e137]: a
+              - generic [ref=f119e138]: s
+              - generic [ref=f119e139]: s
+              - generic [ref=f119e140]: i
+              - generic [ref=f119e141]: f
+              - generic [ref=f119e142]: "y"
+            - generic [ref=f119e143]:
+              - generic [ref=f119e144]: t
+              - generic [ref=f119e145]: h
+              - generic [ref=f119e146]: e
+            - generic [ref=f119e147]:
+              - generic [ref=f119e148]: f
+              - generic [ref=f119e149]: a
+              - generic [ref=f119e150]: i
+              - generic [ref=f119e151]: l
+              - generic [ref=f119e152]: u
+              - generic [ref=f119e153]: r
+              - generic [ref=f119e154]: e
+            - generic [ref=f119e155]:
+              - generic [ref=f119e156]: m
+              - generic [ref=f119e157]: o
+              - generic [ref=f119e158]: d
+              - generic [ref=f119e159]: e
+              - generic [ref=f119e160]: ","
+            - generic [ref=f119e161]:
+              - generic [ref=f119e162]: a
+              - generic [ref=f119e163]: "n"
+              - generic [ref=f119e164]: d
+            - generic [ref=f119e165]:
+              - generic [ref=f119e166]: s
+              - generic [ref=f119e167]: h
+              - generic [ref=f119e168]: i
+              - generic [ref=f119e169]: p
+            - generic [ref=f119e170]: a
+            - generic [ref=f119e172]:
+              - generic [ref=f119e173]: f
+              - generic [ref=f119e174]: i
+              - generic [ref=f119e175]: x
+              - generic [ref=f119e176]: .
+            - generic [ref=f119e177]: A
+            - generic [ref=f119e179]:
+              - generic [ref=f119e180]: s
+              - generic [ref=f119e181]: t
+              - generic [ref=f119e182]: e
+              - generic [ref=f119e183]: p
+              - generic [ref=f119e184]: "-"
+            - generic [ref=f119e185]:
+              - generic [ref=f119e186]: b
+              - generic [ref=f119e187]: "y"
+              - generic [ref=f119e188]: "-"
+            - generic [ref=f119e189]:
+              - generic [ref=f119e190]: s
+              - generic [ref=f119e191]: t
+              - generic [ref=f119e192]: e
+              - generic [ref=f119e193]: p
+            - generic [ref=f119e194]:
+              - generic [ref=f119e195]: g
+              - generic [ref=f119e196]: u
+              - generic [ref=f119e197]: i
+              - generic [ref=f119e198]: d
+              - generic [ref=f119e199]: e
+              - generic [ref=f119e200]: .
+              - generic [ref=f119e201]: "\""
+            - generic [ref=f119e202]:
+              - generic [ref=f119e203]: s
+              - generic [ref=f119e204]: l
+              - generic [ref=f119e205]: u
+              - generic [ref=f119e206]: g
+              - generic [ref=f119e207]: ":"
+            - generic [ref=f119e208]:
+              - generic [ref=f119e209]: "\""
+              - generic [ref=f119e210]: b
+              - generic [ref=f119e211]: l
+              - generic [ref=f119e212]: o
+              - generic [ref=f119e213]: g
+              - generic [ref=f119e214]: /
+            - generic [ref=f119e215]:
+              - generic [ref=f119e216]: w
+              - generic [ref=f119e217]: h
+              - generic [ref=f119e218]: a
+              - generic [ref=f119e219]: t
+              - generic [ref=f119e220]: "-"
+            - generic [ref=f119e221]:
+              - generic [ref=f119e222]: i
+              - generic [ref=f119e223]: s
+              - generic [ref=f119e224]: "-"
+            - generic [ref=f119e225]:
+              - generic [ref=f119e226]: a
+              - generic [ref=f119e227]: g
+              - generic [ref=f119e228]: e
+              - generic [ref=f119e229]: "n"
+              - generic [ref=f119e230]: t
+              - generic [ref=f119e231]: "-"
+            - generic [ref=f119e232]:
+              - generic [ref=f119e233]: o
+              - generic [ref=f119e234]: b
+              - generic [ref=f119e235]: s
+              - generic [ref=f119e236]: e
+              - generic [ref=f119e237]: r
+              - generic [ref=f119e238]: v
+              - generic [ref=f119e239]: a
+              - generic [ref=f119e240]: b
+              - generic [ref=f119e241]: i
+              - generic [ref=f119e242]: l
+              - generic [ref=f119e243]: i
+              - generic [ref=f119e244]: t
+              - generic [ref=f119e245]: "y"
+        - generic [ref=f119e246]:
+          - generic [ref=f119e248]:
+            - generic [ref=f119e249]: Written by
+            - generic [ref=f119e250]: Pablo Pardo Garcia
+          - generic [ref=f119e252]:
+            - generic [ref=f119e253]: Date added
+            - time [ref=f119e255]: Sep 21, 2026
+    - generic [ref=f119e263]:
+      - paragraph [ref=f119e264]: "How to debug an AI agent in production: find the run, trace it to the first divergence, classify the failure mode, and ship a fix."
+      - heading "Why debugging agents is different" [level=2] [ref=f119e265]
+      - 'heading "Before you start: what you need in place" [level=2] [ref=f119e266]'
+      - heading "The six-step process" [level=2] [ref=f119e267]
+      - 'heading "Step 1: Pin the symptom precisely" [level=3] [ref=f119e268]'
+      - 'heading "Step 2: Find the run, not the log line" [level=3] [ref=f119e269]'
+      - 'heading "Step 3: Walk forward to the first divergence" [level=3] [ref=f119e270]'
+      - 'heading "Step 4: Inspect that step''s inputs and outputs" [level=3] [ref=f119e271]'
+      - 'heading "Step 5: Classify the failure mode" [level=3] [ref=f119e272]'
+      - 'heading "Step 6: Fix it, then make it unrepeatable" [level=3] [ref=f119e273]'
+      - 'heading "Example: the report that lost its second half" [level=2] [ref=f119e274]'
+      - heading "Debugging long-running agents specifically" [level=2] [ref=f119e275]
+      - heading "Common mistakes" [level=2] [ref=f119e276]
+      - heading "FAQ" [level=3] [ref=f119e277]
+      - paragraph [ref=f119e278]:
+        - link "Read the full article on glassflow.ai" [ref=f119e279] [cursor=pointer]:
+          - /url: https://www.glassflow.ai/blog/how-to-debug-an-ai-agent
+    - generic [ref=f119e284]:
+      - heading "Share the article" [level=2] [ref=f119e290]
+      - generic [ref=f119e291]:
+        - button "Share on X" [ref=f119e292] [cursor=pointer]
+        - button "Share on Facebook" [ref=f119e295] [cursor=pointer]
+        - button "Share on LinkedIn" [ref=f119e298] [cursor=pointer]
+        - button "Share on Reddit" [ref=f119e301] [cursor=pointer]
+        - button "Copy link" [ref=f119e304] [cursor=pointer]
+        - button "Share" [ref=f119e309] [cursor=pointer]
+    - heading "You might also like" [level=2] [ref=f119e318]
+    - generic [ref=f119e320]:
+      - 'link "Agent Infrastructure AI agent failure modes: the seven ways agents fail in production The seven ways AI agents fail in production: tool misuse, context loss, goal drift, retry loops, frozen agents, cascading errors & silent degradation. Written by Pablo Pardo Garcia read article" [ref=f119e321] [cursor=pointer]':
+        - /url: /blog/ai-agent-failure-modes
+        - generic [ref=f119e327]:
+          - generic [ref=f119e328]: Agent Infrastructure
+          - 'heading "AI agent failure modes: the seven ways agents fail in production" [level=3] [ref=f119e329]'
+          - paragraph [ref=f119e330]: "The seven ways AI agents fail in production: tool misuse, context loss, goal drift, retry loops, frozen agents, cascading errors & silent degradation."
+        - generic [ref=f119e331]:
+          - generic [ref=f119e332]: Written by
+          - generic [ref=f119e333]: Pablo Pardo Garcia
+        - generic [ref=f119e337]:
+          - generic [ref=f119e338]: read article
+          - generic [aria-hidden] [ref=f119e339]: read article
+      - 'link "Data for Agents Agents in production: what looks like a reasoning failure is usually a context failure When an AI agent fails in production, it''s usually reasoning correctly over stale, partial, or lossy inputs, not hallucinating. Why, and how context fixes it. Written by Ashish Bagri read article" [ref=f119e340] [cursor=pointer]':
+        - /url: /blog/agents-in-production-context-failure
+        - generic [ref=f119e346]:
+          - generic [ref=f119e347]: Data for Agents
+          - 'heading "Agents in production: what looks like a reasoning failure is usually a context failure" [level=3] [ref=f119e348]'
+          - paragraph [ref=f119e349]: When an AI agent fails in production, it's usually reasoning correctly over stale, partial, or lossy inputs, not hallucinating. Why, and how context fixes it.
+        - generic [ref=f119e350]:
+          - generic [ref=f119e351]: Written by
+          - generic [ref=f119e352]: Ashish Bagri
+        - generic [ref=f119e356]:
+          - generic [ref=f119e357]: read article
+          - generic [aria-hidden] [ref=f119e358]: read article
+      - 'link "Agent Observability The real cost of self-hosting your agent observability stack What it really costs to self-host Langfuse, Phoenix, or Laminar: ClickHouse and infra requirements, engineering hours, and real AWS pricing, single node vs. high availability Written by Armend Avdijaj read article" [ref=f119e359] [cursor=pointer]':
+        - /url: /blog/cost-self-hosting-your-agent-observability-stack
+        - generic [ref=f119e365]:
+          - generic [ref=f119e366]: Agent Observability
+          - heading "The real cost of self-hosting your agent observability stack" [level=3] [ref=f119e367]
+          - paragraph [ref=f119e368]: "What it really costs to self-host Langfuse, Phoenix, or Laminar: ClickHouse and infra requirements, engineering hours, and real AWS pricing, single node vs. high availability"
+        - generic [ref=f119e369]:
+          - generic [ref=f119e370]: Written by
+          - generic [ref=f119e371]: Armend Avdijaj
+        - generic [ref=f119e375]:
+          - generic [ref=f119e376]: read article
+          - generic [aria-hidden] [ref=f119e377]: read article
+    - generic [ref=f119e383]:
+      - generic [ref=f119e384]:
+        - heading [level=2] [ref=f119e385]:
+          - generic [ref=f119e386]: Two products.Two starting points.
+        - paragraph [ref=f119e387]:
+          - generic [ref=f119e388]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful.Rius, end to end. Guides for wiring up traces, MCP, and retention, from first span to production.
+      - generic [ref=f119e389]:
+        - link "star Tares on GitHub" [ref=f119e390] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+        - link "read the Rius guides" [ref=f119e393] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/guides
+  - contentinfo [ref=f119e397]:
+    - generic [ref=f119e401]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f119e403]
+      - generic [ref=f119e405]:
+        - generic [ref=f119e406]:
+          - heading "Start with Tares" [level=3] [ref=f119e407]
+          - paragraph [ref=f119e408]: Feed your agents the right data.
+        - link "get_started" [ref=f119e409] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f119e414]:
+        - generic [ref=f119e415]:
+          - heading "Start with Rius" [level=3] [ref=f119e416]
+          - paragraph [ref=f119e417]: See and debug agents in production.
+        - link "get_started" [ref=f119e418] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f119e423]:
+      - link "GlassFlow home" [ref=f119e424] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f119e425]
+      - generic [ref=f119e426]:
+        - generic [ref=f119e427]: products
+        - generic [ref=f119e433]:
+          - link "tares Feed your agents the right data. Open source" [ref=f119e434] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f119e435]:
+              - generic [ref=f119e436]: tares
+              - generic [ref=f119e437]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f119e438] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f119e439]:
+              - generic [ref=f119e440]: rius
+              - generic [ref=f119e441]: See what your agents did in production.
+      - generic [ref=f119e442]:
+        - link "contact" [ref=f119e443] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f119e449] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f119e455] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f119e461] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f119e467]:
+        - link "X" [ref=f119e468] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f119e469] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f119e470] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f119e472]:
+      - generic [ref=f119e473]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f119e474] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f119e475] [cursor=pointer]:
+        - /url: /privacy-policy

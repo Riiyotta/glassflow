@@ -1,0 +1,1200 @@
+- generic [ref=f28e3]:
+  - generic [ref=f28e7]:
+    - link [ref=f28e8] [cursor=pointer]:
+      - /url: ../
+    - generic [ref=f28e12]:
+      - paragraph [ref=f28e16]: products
+      - link [ref=f28e21] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f28e24]: docs
+      - link [ref=f28e25] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=f28e28]: blog
+      - link [ref=f28e29] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f28e32]: contact
+    - link [ref=f28e34] [cursor=pointer]:
+      - /url: ../#quickstart
+      - paragraph [ref=f28e37]: get_started
+  - generic [ref=f28e42]:
+    - generic [ref=f28e45]:
+      - paragraph [ref=f28e52]:
+        - link "blog / …" [ref=f28e53] [cursor=pointer]:
+          - /url: ../blog
+      - generic [ref=f28e58]:
+        - generic [ref=f28e59]:
+          - generic [ref=f28e62]:
+            - paragraph [ref=f28e66] [cursor=pointer]: Engineering
+            - 'heading "ClickHouse JOIN Guide: Global Join, Algorithms, Asof, Semi & Anti" [level=1] [ref=f28e68]':
+              - generic [ref=f28e69]: ClickHouse
+              - generic [ref=f28e70]: JOIN
+              - generic [ref=f28e71]: "Guide:"
+              - generic [ref=f28e72]: Global
+              - generic [ref=f28e73]: Join,
+              - generic [ref=f28e74]: Algorithms,
+              - generic [ref=f28e75]: Asof,
+              - generic [ref=f28e76]: Semi
+              - generic [ref=f28e77]: "&"
+              - generic [ref=f28e78]: Anti
+            - paragraph [ref=f28e80]:
+              - generic [ref=f28e81]:
+                - generic [ref=f28e82]: L
+                - generic [ref=f28e83]: e
+                - generic [ref=f28e84]: a
+                - generic [ref=f28e85]: r
+                - generic [ref=f28e86]: "n"
+              - generic [ref=f28e87]:
+                - generic [ref=f28e88]: C
+                - generic [ref=f28e89]: l
+                - generic [ref=f28e90]: i
+                - generic [ref=f28e91]: c
+                - generic [ref=f28e92]: k
+                - generic [ref=f28e93]: H
+                - generic [ref=f28e94]: o
+                - generic [ref=f28e95]: u
+                - generic [ref=f28e96]: s
+                - generic [ref=f28e97]: e
+              - generic [ref=f28e98]:
+                - generic [ref=f28e99]: J
+                - generic [ref=f28e100]: O
+                - generic [ref=f28e101]: I
+                - generic [ref=f28e102]: "N"
+                - generic [ref=f28e103]: s
+              - generic [ref=f28e104]:
+                - generic [ref=f28e105]: s
+                - generic [ref=f28e106]: t
+                - generic [ref=f28e107]: e
+                - generic [ref=f28e108]: p
+              - generic [ref=f28e109]:
+                - generic [ref=f28e110]: b
+                - generic [ref=f28e111]: "y"
+              - generic [ref=f28e112]:
+                - generic [ref=f28e113]: s
+                - generic [ref=f28e114]: t
+                - generic [ref=f28e115]: e
+                - generic [ref=f28e116]: p
+                - generic [ref=f28e117]: ":"
+              - generic [ref=f28e118]:
+                - generic [ref=f28e119]: t
+                - generic [ref=f28e120]: "y"
+                - generic [ref=f28e121]: p
+                - generic [ref=f28e122]: e
+                - generic [ref=f28e123]: s
+                - generic [ref=f28e124]: ","
+              - generic [ref=f28e125]:
+                - generic [ref=f28e126]: e
+                - generic [ref=f28e127]: x
+                - generic [ref=f28e128]: a
+                - generic [ref=f28e129]: m
+                - generic [ref=f28e130]: p
+                - generic [ref=f28e131]: l
+                - generic [ref=f28e132]: e
+                - generic [ref=f28e133]: s
+              - generic [ref=f28e134]: "&"
+              - generic [ref=f28e136]:
+                - generic [ref=f28e137]: b
+                - generic [ref=f28e138]: e
+                - generic [ref=f28e139]: s
+                - generic [ref=f28e140]: t
+              - generic [ref=f28e141]:
+                - generic [ref=f28e142]: p
+                - generic [ref=f28e143]: r
+                - generic [ref=f28e144]: a
+                - generic [ref=f28e145]: c
+                - generic [ref=f28e146]: t
+                - generic [ref=f28e147]: i
+                - generic [ref=f28e148]: c
+                - generic [ref=f28e149]: e
+                - generic [ref=f28e150]: s
+                - generic [ref=f28e151]: .
+          - generic [ref=f28e153]:
+            - generic [ref=f28e159]:
+              - paragraph [ref=f28e161]: Written by
+              - paragraph [ref=f28e165]: Armend Avdijaj
+            - generic [ref=f28e171]:
+              - paragraph [ref=f28e173]: Date added
+              - paragraph [ref=f28e175]:
+                - time [ref=f28e176]: Sep 26, 2025
+        - img "ClickHouse JOINs, ClickHouse, clickhouse anti join syntax, clickhouse left anti join" [ref=f28e183]
+    - generic [ref=f28e189]:
+      - heading "Mastering JOINs in ClickHouse" [level=1] [ref=f28e190]
+      - paragraph [ref=f28e191]: "TL;DR: Key Takeaways"
+      - list [ref=f28e192]:
+        - listitem [ref=f28e193]:
+          - text: •
+          - paragraph [ref=f28e194]:
+            - strong [ref=f28e195]: "Denormalize First, Join Second:"
+            - text: ClickHouse is built for speed on wide, denormalized tables. Use JOINs strategically for flexibility, not as the default.
+        - listitem [ref=f28e196]:
+          - text: •
+          - paragraph [ref=f28e197]:
+            - strong [ref=f28e198]: Use the Right
+            - code [ref=f28e199]:
+              - strong [ref=f28e200]: JOIN
+            - strong [ref=f28e201]: "for the Job:"
+            - text: Go beyond
+            - code [ref=f28e202]: INNER
+            - text: and
+            - code [ref=f28e203]: LEFT
+            - text: . Use
+            - code [ref=f28e204]: ANY JOIN
+            - text: for fast lookups,
+            - code [ref=f28e205]: ASOF JOIN
+            - text: for time-series data, and
+            - code [ref=f28e206]: SEMI
+            - text: /
+            - code [ref=f28e207]: ANTI JOIN
+            - text: for efficient filtering.
+        - listitem [ref=f28e208]:
+          - text: •
+          - paragraph [ref=f28e209]:
+            - strong [ref=f28e210]: "Performance is in Your Hands:"
+            - text: Always put the smaller table on the right side of the
+            - code [ref=f28e211]: JOIN
+            - text: . Filter data as early as possible in your query to reduce the amount of data being processed.
+        - listitem [ref=f28e212]:
+          - text: •
+          - paragraph [ref=f28e213]:
+            - strong [ref=f28e214]: "Know the Algorithms:"
+            - text: ClickHouse uses different algorithms like
+            - code [ref=f28e215]: Hash Join
+            - text: (fast, memory-intensive) and
+            - code [ref=f28e216]: Merge Join
+            - text: (good for sorted data). Understanding these helps you tune for speed or low memory usage.
+        - listitem [ref=f28e217]:
+          - text: •
+          - paragraph [ref=f28e218]:
+            - strong [ref=f28e219]: "Mind the Limitations:"
+            - text: Be aware that JOINs can be memory-heavy. For distributed queries across a cluster, use
+            - code [ref=f28e220]: GLOBAL JOIN
+            - text: to ensure correctness.
+      - heading "Why JOINs in a Columnar World?" [level=2] [ref=f28e221]
+      - paragraph [ref=f28e222]:
+        - text: ClickHouse is an open-source, column-oriented database management system (DBMS) engineered for online analytical processing (OLAP). Its architecture is built for speed, capable of processing billions of rows and terabytes of data to generate analytical reports in milliseconds. This performance stems from its columnar storage model. Unlike traditional row-based databases that store all values for a single row together, ClickHouse stores all values for a single column together. This design is revolutionary for analytical queries because it enables the database to read only the specific columns required for a query, thereby drastically reducing disk I/O and accelerating aggregations such as
+        - code [ref=f28e223]: SUM
+        - text: ","
+        - code [ref=f28e224]: AVG
+        - text: ", and"
+        - code [ref=f28e225]: COUNT
+        - text: .
+      - paragraph [ref=f28e226]:
+        - text: To achieve this lightning-fast performance, the recommended data modeling practice in ClickHouse is
+        - strong [ref=f28e227]: denormalization
+        - text: . This approach involves creating large, wide, "flat" tables that contain all the information needed for analysis in a single place. By pre-joining data during the ingestion or ETL (Extract, Transform, Load) process, denormalization eliminates the need for expensive JOIN operations at query time, leading to simpler and faster query execution.
+      - paragraph [ref=f28e228]: However, pure denormalization is not always practical. It can lead to significant data redundancy, increased storage costs, and complex data update logic, as a single piece of information might need to be changed in many rows. In contrast, a normalized schema, which separates data into distinct logical tables (e.g., orders, customers, products), offers greater flexibility, easier data management, and reduced redundancy. This is where JOINs become essential.
+      - paragraph [ref=f28e229]: Contrary to some misconceptions, JOINs are fully supported in ClickHouse, which offers a rich toolkit of standard and specialized JOIN types. However, consider them a powerful feature to use strategically, rather than a default data modeling tool. The extensive development of multiple JOIN types and sophisticated execution algorithms within ClickHouse is a clear acknowledgment that real-world applications often demand the flexibility that JOINs provide, especially for ad-hoc exploratory analysis or when denormalization is prohibitively complex. This guide will navigate the landscape of ClickHouse JOINs, teaching how to use this powerful capability effectively by understanding its unique characteristics, performance implications, and underlying mechanics.
+      - heading "A Refresher on Standard SQL JOINs" [level=2] [ref=f28e230]
+      - paragraph [ref=f28e231]: Before diving into the specifics of ClickHouse, it is crucial to have a solid foundation in standard SQL JOINs. A JOIN clause is used to combine rows from two or more tables based on a related column between them, known as a join key. A popular way to visualize JOINs is with Venn diagrams, which represent tables as overlapping circles. While intuitive, this analogy has limitations that I will address shortly.
+      - paragraph [ref=f28e232]: Also, I will be using the following two tables for the examples.
+      - paragraph [ref=f28e233]: Product Table
+      - generic [ref=f28e237]:
+        - tabpanel [ref=f28e239]:
+          - textbox "Code Editor for example.md" [ref=f28e240]
+        - button "Copy code" [ref=f28e242] [cursor=pointer]: Copy
+      - paragraph [ref=f28e243]: Order Table
+      - generic [ref=f28e247]:
+        - tabpanel [ref=f28e249]:
+          - textbox "Code Editor for example.md" [ref=f28e250]
+        - button "Copy code" [ref=f28e252] [cursor=pointer]: Copy
+      - heading "Inner Join" [level=3] [ref=f28e253]
+      - paragraph [ref=f28e254]: Inner join only returns the rows that have matching values in both tables.
+      - paragraph [ref=f28e255]
+      - img "Inner Join ClickHouse, ClickHouse Joins, denormalization, open source, OLAP JOINS" [ref=f28e256]
+      - paragraph [ref=f28e257]:
+        - emphasis [ref=f28e258]: Inner Join
+      - generic [ref=f28e262]:
+        - tabpanel [ref=f28e264]:
+          - textbox "Code Editor for example.sql" [ref=f28e265]:
+            - generic [ref=f28e266]: SELECT p.ProductID, p.ProductName, o.OrderID, o.CustomerName FROM Products AS p INNER JOIN Orders AS o ON
+        - button "Copy code" [ref=f28e267] [cursor=pointer]: Copy
+      - generic [ref=f28e271]:
+        - tabpanel [ref=f28e273]:
+          - textbox "Code Editor for example.md" [ref=f28e274]
+        - button "Copy code" [ref=f28e276] [cursor=pointer]: Copy
+      - heading "Left Outer Join" [level=3] [ref=f28e277]
+      - paragraph [ref=f28e278]:
+        - text: Left outer join returns all rows from the left table (
+        - code [ref=f28e279]: TableA
+        - text: ), and the matched rows from the right table (
+        - code [ref=f28e280]: TableB
+        - text: ). If there is no match, the columns from the right table will contain default values (often
+        - code [ref=f28e281]: "NULL"
+        - text: ).
+      - paragraph [ref=f28e282]
+      - img "Left outer join, ClickHouse, ClickHouse Joins, OLAP SQL JOINS, open source" [ref=f28e283]
+      - paragraph [ref=f28e284]:
+        - emphasis [ref=f28e285]: Left Outer Join
+      - generic [ref=f28e289]:
+        - tabpanel [ref=f28e291]:
+          - textbox "Code Editor for example.sql" [ref=f28e292]:
+            - generic [ref=f28e293]: SELECT p.ProductID, p.ProductName, o.OrderID, o.CustomerName FROM Products AS p LEFT JOIN Orders AS o ON
+        - button "Copy code" [ref=f28e294] [cursor=pointer]: Copy
+      - generic [ref=f28e298]:
+        - tabpanel [ref=f28e300]:
+          - textbox "Code Editor for example.md" [ref=f28e301]
+        - button "Copy code" [ref=f28e303] [cursor=pointer]: Copy
+      - heading "Right Outer Join" [level=3] [ref=f28e304]
+      - paragraph [ref=f28e305]:
+        - text: Right outer join returns all rows from the right table (
+        - code [ref=f28e306]: TableB
+        - text: ), and the matched rows from the left table (
+        - code [ref=f28e307]: TableA
+        - text: ). If there is no match, the columns from the left table will contain default values.
+      - paragraph [ref=f28e308]
+      - img "Right Outer Join, ClickHouse, ClickHouse Joins, open source, GlassFlow, SQL JOINS" [ref=f28e309]
+      - paragraph [ref=f28e310]:
+        - emphasis [ref=f28e311]: Right Outer Join
+      - generic [ref=f28e315]:
+        - tabpanel [ref=f28e317]:
+          - textbox "Code Editor for example.sql" [ref=f28e318]:
+            - generic [ref=f28e319]: SELECT p.ProductID, p.ProductName, o.OrderID, o.CustomerName FROM Products AS p RIGHT JOIN Orders AS o ON
+        - button "Copy code" [ref=f28e320] [cursor=pointer]: Copy
+      - generic [ref=f28e324]:
+        - tabpanel [ref=f28e326]:
+          - textbox "Code Editor for example.md" [ref=f28e327]
+        - button "Copy code" [ref=f28e329] [cursor=pointer]: Copy
+      - heading "Full Outer Join" [level=3] [ref=f28e330]
+      - paragraph [ref=f28e331]:
+        - text: Full outer join returns all rows when there is a match in either the left or the right table. It combines the functionality of
+        - code [ref=f28e332]: LEFT
+        - text: and
+        - code [ref=f28e333]: RIGHT JOIN
+        - text: .
+      - paragraph [ref=f28e334]
+      - img "Full Outer Join, Full Outer Join ClickHouse, ClickHouse, open source, ClickHouse JOIN, SQL JOIN" [ref=f28e335]
+      - paragraph [ref=f28e336]:
+        - emphasis [ref=f28e337]: Full Outer Join
+      - generic [ref=f28e341]:
+        - tabpanel [ref=f28e343]:
+          - textbox "Code Editor for example.sql" [ref=f28e344]:
+            - generic [ref=f28e345]: SELECT p.ProductID, p.ProductName, o.OrderID, o.CustomerName FROM Products AS p FULL OUTER JOIN Orders AS o ON
+        - button "Copy code" [ref=f28e346] [cursor=pointer]: Copy
+      - generic [ref=f28e350]:
+        - tabpanel [ref=f28e352]:
+          - textbox "Code Editor for example.md" [ref=f28e353]
+        - button "Copy code" [ref=f28e355] [cursor=pointer]: Copy
+      - heading "Why Venn Diagrams Can Be Misleading" [level=3] [ref=f28e356]
+      - paragraph [ref=f28e357]:
+        - text: While helpful for initial understanding, Venn diagrams are technically inaccurate for explaining SQL JOINs. Venn diagrams illustrate
+        - emphasis [ref=f28e358]: set operations
+        - text: like
+        - code [ref=f28e359]: UNION
+        - text: ","
+        - code [ref=f28e360]: INTERSECT
+        - text: ", and"
+        - code [ref=f28e361]: EXCEPT
+        - text: ", which operate on sets of elements of the same type. A SQL JOIN is fundamentally different. It is not a set operation but a"
+        - strong [ref=f28e362]: filtered Cartesian product
+        - text: .
+      - paragraph [ref=f28e363]: "Here is a more accurate mental model:"
+      - list [ref=f28e364]:
+        - listitem [ref=f28e365]:
+          - paragraph [ref=f28e366]:
+            - strong [ref=f28e367]: Cartesian Product (
+            - code [ref=f28e368]:
+              - strong [ref=f28e369]: CROSS JOIN
+            - strong [ref=f28e370]: )
+            - text: ": First, the database engine conceptually creates a massive intermediate table by pairing every single row from the left table with every single row from the right table. If"
+            - code [ref=f28e371]: Table_A
+            - text: has 1,000 rows and
+            - code [ref=f28e372]: Table_B
+            - text: has 1,000 rows, the
+            - code [ref=f28e373]: CROSS JOIN
+            - text: produces 1,000,000 rows.
+        - listitem [ref=f28e374]:
+          - paragraph [ref=f28e375]:
+            - strong [ref=f28e376]: Filtering (
+            - code [ref=f28e377]:
+              - strong [ref=f28e378]: "ON"
+            - strong [ref=f28e379]: clause)
+            - text: ": Next, the engine filters this huge intermediate table, keeping only the rows where the condition in the"
+            - code [ref=f28e380]: "ON"
+            - text: clause is true (e.g.,
+            - code [ref=f28e381]: Table_A.key = Table_B.key
+            - text: ).
+      - paragraph [ref=f28e382]:
+        - text: This model correctly explains why a
+        - code [ref=f28e383]: JOIN
+        - text: can sometimes produce
+        - emphasis [ref=f28e384]: more
+        - text: rows than exist in either of the original tables. If a key in
+        - code [ref=f28e385]: Table_A
+        - text: matches three keys in
+        - code [ref=f28e386]: Table_B
+        - text: ", the final result will include three rows for that single key from"
+        - code [ref=f28e387]: Table_A
+        - text: . A Venn diagram cannot represent this multiplicative behavior. Understanding this "Cartesian Product -> Filter" mechanism is the key to mastering JOINS, especially in a high-performance database like ClickHouse.
+      - heading "ClickHouse JOIN" [level=2] [ref=f28e388]
+      - paragraph [ref=f28e389]:
+        - text: ClickHouse supports all standard SQL
+        - code [ref=f28e390]: JOIN
+        - text: types and enhances them with specialized modifiers and entirely new
+        - code [ref=f28e391]: JOIN
+        - text: types designed for analytical workloads. These are not just syntactic sugar; they are purpose-built tools that can dramatically improve query performance and solve specific analytical problems.
+      - 'heading "Strictness Modifiers: ANY and ALL" [level=3] [ref=f28e392]'
+      - paragraph [ref=f28e393]:
+        - text: In standard SQL, JOINs implicitly use
+        - code [ref=f28e394]: ALL
+        - text: strictness. This means if a single row from the left table matches multiple rows in the right table, all possible combinations are returned, forming a Cartesian product for those matching keys. While this is sometimes necessary, it can lead to an explosion in result set size and is often inefficient for simple data enrichment.
+      - paragraph [ref=f28e395]:
+        - text: ClickHouse introduces the
+        - code [ref=f28e396]: ANY
+        - text: strictness modifier as a powerful optimization. An
+        - code [ref=f28e397]: ANY JOIN
+        - text: returns only the
+        - strong [ref=f28e398]: first found matching row
+        - text: from the right table for each key from the left table, effectively disabling the Cartesian product.
+      - paragraph [ref=f28e399]:
+        - text: This makes
+        - code [ref=f28e400]: ANY JOIN
+        - text: exceptionally fast and memory-efficient for lookup scenarios. For example, if enriching an
+        - code [ref=f28e401]: orders
+        - text: table with customer names from a
+        - code [ref=f28e402]: customers
+        - text: table, an
+        - code [ref=f28e403]: ANY JOIN
+        - text: is ideal because each order belongs to only one customer, and only one name needs to be attached.
+      - generic [ref=f28e407]:
+        - tabpanel [ref=f28e409]:
+          - textbox "Code Editor for example.sql" [ref=f28e410]:
+            - generic [ref=f28e411]: CREATE TABLE users ( user_id UInt32, name String ) ENGINE = Memory; CREATE TABLE logins ( user_id UInt32, login_time DateTime ) ENGINE = Memory; INSERT INTO users VALUES (1, 'Alice'), (2, 'Bob'); INSERT INTO logins VALUES (1, '2023-10-26 10:00:00'), (1, '2023-10-27 11:00:00'), (2, '2023-10-26 12:00:00')
+        - button "Copy code" [ref=f28e412] [cursor=pointer]: Copy
+      - paragraph [ref=f28e413]:
+        - text: Now, let's compare
+        - code [ref=f28e414]: LEFT ALL JOIN
+        - text: (the default) with
+        - code [ref=f28e415]: LEFT ANY JOIN
+        - text: .
+      - paragraph [ref=f28e416]:
+        - strong [ref=f28e417]: Query with
+        - code [ref=f28e418]:
+          - strong [ref=f28e419]: ALL
+        - strong [ref=f28e420]: "strictness (implicit):"
+      - generic [ref=f28e424]:
+        - tabpanel [ref=f28e426]:
+          - textbox "Code Editor for example.sql" [ref=f28e427]:
+            - generic [ref=f28e428]: SELECT u.name, l.login_time FROM users AS u LEFT JOIN logins AS l ON
+        - button "Copy code" [ref=f28e429] [cursor=pointer]: Copy
+      - paragraph [ref=f28e430]:
+        - emphasis [ref=f28e431]: "Result:"
+        - text: Notice that Alice appears twice, once for each of her logins.
+      - generic [ref=f28e435]:
+        - tabpanel [ref=f28e437]:
+          - textbox "Code Editor for example.md" [ref=f28e438]
+        - button "Copy code" [ref=f28e440] [cursor=pointer]: Copy
+      - paragraph [ref=f28e441]:
+        - strong [ref=f28e442]: Query with
+        - code [ref=f28e443]:
+          - strong [ref=f28e444]: ANY
+        - strong [ref=f28e445]: "strictness:"
+      - generic [ref=f28e449]:
+        - tabpanel [ref=f28e451]:
+          - textbox "Code Editor for example.sql" [ref=f28e452]:
+            - generic [ref=f28e453]: SELECT u.name, l.login_time FROM users AS u LEFT ANY JOIN logins AS l ON
+        - button "Copy code" [ref=f28e454] [cursor=pointer]: Copy
+      - generic [ref=f28e458]:
+        - tabpanel [ref=f28e460]:
+          - textbox "Code Editor for example.md" [ref=f28e461]
+        - button "Copy code" [ref=f28e463] [cursor=pointer]: Copy
+      - paragraph [ref=f28e464]:
+        - text: For simple lookups,
+        - code [ref=f28e465]: ANY JOIN
+        - text: is the clear winner in terms of performance and memory usage.
+      - 'heading "Filtering JOIN: SEMI and ANTI" [level=3] [ref=f28e466]'
+      - paragraph [ref=f28e467]:
+        - text: Sometimes, the goal is not to combine columns but to filter one table based on the contents of another. ClickHouse provides two highly efficient
+        - code [ref=f28e468]: JOIN
+        - text: "types for this purpose:"
+        - code [ref=f28e469]: SEMI JOIN
+        - text: and
+        - code [ref=f28e470]: ANTI JOIN
+        - text: .
+      - list [ref=f28e471]:
+        - listitem [ref=f28e472]:
+          - text: •
+          - paragraph [ref=f28e473]:
+            - code [ref=f28e474]:
+              - strong [ref=f28e475]: SEMI JOIN
+            - text: ": Returns rows from the left table for which a matching key"
+            - strong [ref=f28e476]: exists
+            - text: in the right table. It does not add any columns from the right table and, like
+            - code [ref=f28e477]: ANY JOIN
+            - text: ", returns each left-side row only once, even if there are multiple matches on the right. This is often a more performant alternative to a"
+          - paragraph [ref=f28e478]:
+            - code [ref=f28e479]: WHERE... IN (SELECT...)
+            - text: subquery.
+        - listitem [ref=f28e480]:
+          - text: •
+          - paragraph [ref=f28e481]:
+            - code [ref=f28e482]:
+              - strong [ref=f28e483]: ANTI JOIN
+            - text: ": The logical opposite of"
+            - code [ref=f28e484]: SEMI JOIN
+            - text: . It returns rows from the left table for which
+            - strong [ref=f28e485]: no matching key exists
+            - text: in the right table. This is an efficient way to perform a
+          - paragraph [ref=f28e486]:
+            - code [ref=f28e487]: NOT EXISTS
+            - text: or a
+            - code [ref=f28e488]: LEFT JOIN... WHERE right_table.key IS NULL
+            - text: operation.
+      - paragraph [ref=f28e489]:
+        - text: To illustrate this feature, let’s create
+        - code [ref=f28e490]: products
+        - text: and
+        - code [ref=f28e491]: sales
+        - text: tables.
+      - generic [ref=f28e495]:
+        - tabpanel [ref=f28e497]:
+          - textbox "Code Editor for example.sql" [ref=f28e498]:
+            - generic [ref=f28e499]: CREATE TABLE products ( product_id UInt32, product_name String ) ENGINE = Memory; CREATE TABLE sales ( sale_id UInt32, product_id UInt32, quantity UInt32 ) ENGINE = Memory; INSERT INTO products VALUES (101, 'Laptop'), (102, 'Mouse'), (103, 'Keyboard'); INSERT INTO sales VALUES (1, 101, 2), (2, 101, 1), (3, 103, 5)
+        - button "Copy code" [ref=f28e500] [cursor=pointer]: Copy
+      - paragraph [ref=f28e501]:
+        - strong [ref=f28e502]: "LEFT SEMI JOIN: Find all products that have been sold"
+      - generic [ref=f28e506]:
+        - tabpanel [ref=f28e508]:
+          - textbox "Code Editor for example.sql" [ref=f28e509]:
+            - generic [ref=f28e510]: SELECT product_name FROM products p LEFT SEMI JOIN sales s ON
+        - button "Copy code" [ref=f28e511] [cursor=pointer]: Copy
+      - paragraph [ref=f28e512]:
+        - emphasis [ref=f28e513]: "Result:"
+        - text: Returns only the products that have an entry in the
+        - code [ref=f28e514]: sales
+        - text: table.
+      - generic [ref=f28e518]:
+        - tabpanel [ref=f28e520]:
+          - textbox "Code Editor for example.md" [ref=f28e521]
+        - button "Copy code" [ref=f28e523] [cursor=pointer]: Copy
+      - paragraph [ref=f28e524]:
+        - strong [ref=f28e525]: "LEFT ANTI JOIN: Find all products that have"
+        - emphasis [ref=f28e526]:
+          - strong [ref=f28e527]: never
+        - strong [ref=f28e528]: been sold
+      - generic [ref=f28e532]:
+        - tabpanel [ref=f28e534]:
+          - textbox "Code Editor for example.sql" [ref=f28e535]:
+            - generic [ref=f28e536]: SELECT product_name FROM products p LEFT ANTI JOIN sales s ON
+        - button "Copy code" [ref=f28e537] [cursor=pointer]: Copy
+      - paragraph [ref=f28e538]:
+        - emphasis [ref=f28e539]: Result
+        - text: ": Returns the 'Mouse', which has no corresponding entry in the"
+        - code [ref=f28e540]: sales
+        - text: table.
+      - generic [ref=f28e544]:
+        - tabpanel [ref=f28e546]:
+          - textbox "Code Editor for example.md" [ref=f28e547]
+        - button "Copy code" [ref=f28e549] [cursor=pointer]: Copy
+      - 'heading "Time-Series Magic: ASOF JOIN" [level=3] [ref=f28e550]'
+      - paragraph [ref=f28e551]:
+        - text: The
+        - code [ref=f28e552]: ASOF JOIN
+        - text: is a specialized tool designed for time-series analysis. It performs a non-exact match, joining rows from the left table with the row from the right table that has the
+        - strong [ref=f28e553]: closest preceding timestamp
+        - text: (or any other ordered numeric key).
+      - paragraph [ref=f28e554]:
+        - text: Its syntax requires two types of conditions in the
+        - code [ref=f28e555]: "ON"
+        - text: "clause:"
+      - list [ref=f28e556]:
+        - listitem [ref=f28e557]:
+          - paragraph [ref=f28e558]:
+            - text: An
+            - strong [ref=f28e559]: exact match condition
+            - text: on one or more keys (e.g.,
+            - code [ref=f28e560]: ON trades.symbol = quotes.symbol
+            - text: ).
+        - listitem [ref=f28e561]:
+          - paragraph [ref=f28e562]:
+            - text: A
+            - strong [ref=f28e563]: closest match condition
+            - text: on an ordered key, typically a timestamp (e.g.,
+            - code [ref=f28e564]: AND trades.time >= quotes.time
+            - text: ).
+      - paragraph [ref=f28e565]:
+        - text: This is invaluable for scenarios like attaching a stock quote to a trade, where the quote's timestamp will almost never exactly match the trade's timestamp.
+        - code [ref=f28e566]: ASOF JOIN
+        - text: finds the last valid quote
+        - emphasis [ref=f28e567]: before
+        - text: the trade occurred.
+      - paragraph [ref=f28e568]:
+        - text: Let's create
+        - code [ref=f28e569]: trades
+        - text: and
+        - code [ref=f28e570]: quotes
+        - text: tables.
+      - generic [ref=f28e574]:
+        - tabpanel [ref=f28e576]:
+          - textbox "Code Editor for example.sql" [ref=f28e577]:
+            - generic [ref=f28e578]: CREATE TABLE trades ( symbol String, trade_time DateTime, volume UInt32 ) ENGINE = Memory; CREATE TABLE quotes ( symbol String, quote_time DateTime, price Float32 ) ENGINE = Memory; INSERT INTO trades VALUES ('CHDB', '2023-11-15 10:00:05', 100), ('CHDB', '2023-11-15 10:00:12', 50); INSERT INTO quotes VALUES ('CHDB', '2023-11-15 10:00:00', 150.00), ('CHDB', '2023-11-15 10:00:10', 150.50)
+        - button "Copy code" [ref=f28e579] [cursor=pointer]: Copy
+      - paragraph [ref=f28e580]: Now let’s find the price for each trade based on the most recent quote at the time of the trade.
+      - generic [ref=f28e584]:
+        - tabpanel [ref=f28e586]:
+          - textbox "Code Editor for example.sql" [ref=f28e587]:
+            - generic [ref=f28e588]: SELECT t.symbol, t.trade_time, t.volume, q.price AS trade_price FROM trades AS t ASOF LEFT JOIN quotes AS q ON t.symbol = q.symbol AND
+        - button "Copy code" [ref=f28e589] [cursor=pointer]: Copy
+      - paragraph [ref=f28e590]:
+        - emphasis [ref=f28e591]: Result
+        - text: ":"
+      - generic [ref=f28e595]:
+        - tabpanel [ref=f28e597]:
+          - textbox "Code Editor for example.md" [ref=f28e598]
+        - button "Copy code" [ref=f28e600] [cursor=pointer]: Copy
+      - paragraph [ref=f28e601]:
+        - text: The first trade at
+        - code [ref=f28e602]: 10:00:05
+        - text: is matched with the quote from
+        - code [ref=f28e603]: 10:00:00
+        - text: . The second trade at
+        - code [ref=f28e604]: 10:00:12
+        - text: is matched with the quote from
+        - code [ref=f28e605]: 10:00:10
+        - text: ", which was the most recent quote before the trade."
+      - 'heading "A Special Case: Unnesting with ARRAY JOIN" [level=3] [ref=f28e606]'
+      - paragraph [ref=f28e607]:
+        - text: While it uses the
+        - code [ref=f28e608]: JOIN
+        - text: keyword,
+        - code [ref=f28e609]: ARRAY JOIN
+        - text: is not a traditional join between two tables. Instead, it is a powerful operator that "unfolds" or "unnests" an array column, creating a new row for each element in the array while duplicating the values in all other columns.
+      - paragraph [ref=f28e610]:
+        - text: This is extremely useful for analyzing data stored in arrays. For example, if a table of articles has a column
+        - code [ref=f28e611]: tags Array(String)
+        - text: ","
+        - code [ref=f28e612]: ARRAY JOIN
+        - text: can be used to create a row for each tag, allowing for aggregations like counting the usage of each tag. The
+        - code [ref=f28e613]: LEFT ARRAY JOIN
+        - text: variant will produce a row even if the array is empty, which can be useful for preserving the original row count.
+      - paragraph [ref=f28e614]: Let’s see it in action.
+      - generic [ref=f28e618]:
+        - tabpanel [ref=f28e620]:
+          - textbox "Code Editor for example.sql" [ref=f28e621]:
+            - generic [ref=f28e622]: CREATE TABLE articles ( article_id UInt32, title String, tags Array(String) ) ENGINE = Memory; INSERT INTO articles VALUES (1, 'ClickHouse Intro', ['database', 'analytics']), (2, 'SQL Basics', ['sql']), (3, 'Future Tech', [])
+        - button "Copy code" [ref=f28e623] [cursor=pointer]: Copy
+      - paragraph [ref=f28e624]: Now let’s unnest the tags to count how many articles are associated with each tag.
+      - generic [ref=f28e628]:
+        - tabpanel [ref=f28e630]:
+          - textbox "Code Editor for example.sql" [ref=f28e631]:
+            - generic [ref=f28e632]: SELECT tag, count() AS article_count FROM articles ARRAY JOIN tags AS tag GROUP BY
+        - button "Copy code" [ref=f28e633] [cursor=pointer]: Copy
+      - paragraph [ref=f28e634]:
+        - emphasis [ref=f28e635]: Result
+        - text: ": The row for article 3 is excluded because its"
+        - code [ref=f28e636]: tags
+        - text: array is empty.
+      - generic [ref=f28e640]:
+        - tabpanel [ref=f28e642]:
+          - textbox "Code Editor for example.md" [ref=f28e643]
+        - button "Copy code" [ref=f28e645] [cursor=pointer]: Copy
+      - heading "The Summary of ClickHouse JOIN Toolkit" [level=3] [ref=f28e646]
+      - paragraph [ref=f28e647]:
+        - text: The following table serves as a quick-reference guide to help select the appropriate
+        - code [ref=f28e648]: JOIN
+        - text: type for various analytical tasks.
+      - figure [ref=f28e649]:
+        - table [ref=f28e650]:
+          - rowgroup [ref=f28e651]:
+            - row [ref=f28e652]:
+              - columnheader [ref=f28e653]:
+                - paragraph [ref=f28e654]: JOIN Type
+              - columnheader [ref=f28e655]:
+                - paragraph [ref=f28e656]: Syntax Example
+              - columnheader [ref=f28e657]:
+                - paragraph [ref=f28e658]: Core Function
+              - columnheader [ref=f28e659]:
+                - paragraph [ref=f28e660]: Best Use Case
+            - row [ref=f28e661]:
+              - cell [ref=f28e662]:
+                - paragraph [ref=f28e663]:
+                  - strong [ref=f28e664]: ALL JOIN
+              - cell [ref=f28e665]:
+                - paragraph [ref=f28e666]:
+                  - code [ref=f28e667]: LEFT JOIN...
+              - cell [ref=f28e668]:
+                - paragraph [ref=f28e669]: Returns all matching rows (Cartesian product for duplicates).
+              - cell [ref=f28e670]:
+                - paragraph [ref=f28e671]: When you need every combination of matching rows from both tables.
+            - row [ref=f28e672]:
+              - cell [ref=f28e673]:
+                - paragraph [ref=f28e674]:
+                  - strong [ref=f28e675]: ANY JOIN
+              - cell [ref=f28e676]:
+                - paragraph [ref=f28e677]:
+                  - code [ref=f28e678]: LEFT ANY JOIN...
+              - cell [ref=f28e679]:
+                - paragraph [ref=f28e680]: Returns only the first found matching row from the right table.
+              - cell [ref=f28e681]:
+                - paragraph [ref=f28e682]: Fast data enrichment or lookups where only one match is needed.
+            - row [ref=f28e683]:
+              - cell [ref=f28e684]:
+                - paragraph [ref=f28e685]:
+                  - strong [ref=f28e686]: SEMI JOIN
+              - cell [ref=f28e687]:
+                - paragraph [ref=f28e688]:
+                  - code [ref=f28e689]: LEFT SEMI JOIN...
+              - cell [ref=f28e690]:
+                - paragraph [ref=f28e691]: Filters the left table, keeping rows that have a match in the right table.
+              - cell [ref=f28e692]:
+                - paragraph [ref=f28e693]: Efficiently checking for the existence of related data (e.g., "users with orders").
+            - row [ref=f28e694]:
+              - cell [ref=f28e695]:
+                - paragraph [ref=f28e696]:
+                  - strong [ref=f28e697]: ANTI JOIN
+              - cell [ref=f28e698]:
+                - paragraph [ref=f28e699]:
+                  - code [ref=f28e700]: LEFT ANTI JOIN...
+              - cell [ref=f28e701]:
+                - paragraph [ref=f28e702]:
+                  - text: Filters the left table, keeping rows that have
+                  - emphasis [ref=f28e703]: "no"
+                  - text: match in the right table.
+              - cell [ref=f28e704]:
+                - paragraph [ref=f28e705]: Finding records that lack a relationship (e.g., "products without sales").
+            - row [ref=f28e706]:
+              - cell [ref=f28e707]:
+                - paragraph [ref=f28e708]:
+                  - strong [ref=f28e709]: ASOF JOIN
+              - cell [ref=f28e710]:
+                - paragraph [ref=f28e711]:
+                  - code [ref=f28e712]: ASOF JOIN... ON... AND
+              - cell [ref=f28e713]:
+                - paragraph [ref=f28e714]: Performs a non-exact match based on the closest preceding ordered key.
+              - cell [ref=f28e715]:
+                - paragraph [ref=f28e716]: Time-series analysis, such as matching trades to quotes or events to states.
+            - row [ref=f28e717]:
+              - cell [ref=f28e718]:
+                - paragraph [ref=f28e719]:
+                  - strong [ref=f28e720]: ARRAY JOIN
+              - cell [ref=f28e721]:
+                - paragraph [ref=f28e722]:
+                  - code [ref=f28e723]: ... ARRAY JOIN arr AS item
+              - cell [ref=f28e724]:
+                - paragraph [ref=f28e725]: Unnests an array column, creating a new row for each element.
+              - cell [ref=f28e726]:
+                - paragraph [ref=f28e727]: Analyzing and aggregating data stored within arrays.
+      - heading "A Peak Under the Hood at JOIN Algorithms" [level=2] [ref=f28e728]
+      - paragraph [ref=f28e729]:
+        - text: The performance of a
+        - code [ref=f28e730]: JOIN
+        - text: in ClickHouse depends not only on its
+        - emphasis [ref=f28e731]: type
+        - text: (
+        - code [ref=f28e732]: INNER
+        - text: ","
+        - code [ref=f28e733]: LEFT
+        - text: ", etc.) but critically on the underlying"
+        - emphasis [ref=f28e734]: algorithm
+        - text: used to execute it. ClickHouse features a number of
+        - link "join algorithm" [ref=f28e735] [cursor=pointer]:
+          - /url: https://clickhouse.com/blog/clickhouse-fully-supports-joins-part1
+        - text: ", each with distinct trade-offs between memory consumption and execution speed. While ClickHouse can often select an appropriate algorithm automatically (by setting"
+        - code [ref=f28e736]: join_algorithm = 'auto'
+        - text: ), understanding these mechanisms empowers users to make informed tuning decisions for complex queries.
+      - 'heading "The Default Workhorse: Hash-Based Joins" [level=3] [ref=f28e737]'
+      - paragraph [ref=f28e738]: Hash-based algorithms are the most common and versatile in ClickHouse. They operate by building an in-memory hash table (similar to a dictionary or map) of the right-hand table, which allows for very fast lookups.
+      - list [ref=f28e739]:
+        - listitem [ref=f28e740]:
+          - text: •
+          - paragraph [ref=f28e741]:
+            - strong [ref=f28e742]: Hash Join
+            - text: ": This is the most generic algorithm and supports all"
+            - code [ref=f28e743]: JOIN
+            - text: "types. It follows a two-phase process:"
+          - list [ref=f28e744]:
+            - listitem [ref=f28e745]:
+              - paragraph [ref=f28e746]:
+                - strong [ref=f28e747]: Build Phase
+                - text: ": The entire right-hand table is streamed into memory, and a hash table is constructed using the join key(s) as the hash keys."
+            - listitem [ref=f28e748]:
+              - paragraph [ref=f28e749]:
+                - strong [ref=f28e750]: Probe Phase
+                - text: ": The left-hand table is streamed row by row and joined by doing lookups into the hash table."
+        - listitem [ref=f28e751]:
+          - text: •
+          - paragraph [ref=f28e752]:
+            - strong [ref=f28e753]: Parallel Hash Join
+            - text: ": This is an enhancement of the standard"
+            - code [ref=f28e754]: Hash Join
+            - text: . The "Build Phase" is parallelized across multiple CPU cores, which significantly speeds up the creation of the hash table for larger right-side tables. However, this comes at the cost of higher peak memory consumption.
+        - listitem [ref=f28e755]:
+          - text: •
+          - paragraph [ref=f28e756]:
+            - strong [ref=f28e757]: Grace Hash Join
+            - text: ": This is the solution for when the right-hand table is too large to fit into memory. It is a non-memory-bound algorithm that avoids failure by \"spilling\" data to temporary storage on disk. It partitions both tables into smaller buckets using a hash function and then performs a standard"
+            - code [ref=f28e758]: Hash Join
+            - text: on each pair of corresponding buckets that can fit in memory.
+      - 'heading "Leveraging Order: Merge-Based Join" [level=3] [ref=f28e759]'
+      - paragraph [ref=f28e760]: Merge-based algorithms are designed to be highly efficient when data is sorted on the join key.
+      - list [ref=f28e761]:
+        - listitem [ref=f28e762]:
+          - text: •
+          - paragraph [ref=f28e763]:
+            - strong [ref=f28e764]: Full Sorting Merge Join
+            - text: ": This algorithm first ensures both the left and right tables are sorted by the join key. It then merges the two sorted streams in a single, efficient pass, much like merging two sorted lists. Its most powerful feature is an optimization: if a table is already physically sorted on disk by its primary key (defined in the"
+            - code [ref=f28e765]: ORDER BY
+            - text: clause of the
+            - code [ref=f28e766]: CREATE TABLE
+            - text: statement), the expensive sorting step for that table can be skipped entirely. This can make it extremely fast and memory-efficient.
+        - listitem [ref=f28e767]:
+          - text: •
+          - paragraph [ref=f28e768]:
+            - strong [ref=f28e769]: Partial Merge Join
+            - text: ": This algorithm is optimized for scenarios with very low memory. It always fully sorts the right table to disk and creates on-disk indexes for it. It then reads the left table block by block, sorts each block in memory, and uses the indexes to efficiently join with the corresponding data from the right table on disk. It is generally slower but has the lowest memory footprint of the non-memory-bound algorithms."
+      - 'heading "The Ultimate Speed: Direct Join" [level=3] [ref=f28e770]'
+      - paragraph [ref=f28e771]:
+        - text: The
+        - code [ref=f28e772]: Direct Join
+        - text: is the fastest algorithm available but comes with specific prerequisites. It completely eliminates the "Build Phase" of a hash join.
+      - list [ref=f28e773]:
+        - listitem [ref=f28e774]:
+          - text: •
+          - paragraph [ref=f28e775]:
+            - strong [ref=f28e776]: How it Works
+            - text: ": This algorithm can only be used when the right-hand table is a data structure that already supports fast key-value lookups, such as a ClickHouse"
+            - strong [ref=f28e777]: Dictionary
+            - text: ", a table using the"
+            - code [ref=f28e778]: Join
+            - text: engine, or
+            - code [ref=f28e779]: EmbeddedRocksDB
+            - text: . Because the key-value map is already built and loaded in memory, the
+          - paragraph [ref=f28e780]:
+            - code [ref=f28e781]: JOIN
+            - text: becomes a series of highly optimized direct lookups as the left table is streamed.
+        - listitem [ref=f28e782]:
+          - text: •
+          - paragraph [ref=f28e783]:
+            - strong [ref=f28e784]: Limitations
+            - text: ": Its primary limitation is that it generally only supports"
+            - code [ref=f28e785]: LEFT ANY JOIN
+            - text: semantics, as key-value structures like dictionaries typically enforce unique keys.
+      - heading "Choosing the Right JOIN Algorithm" [level=3] [ref=f28e786]
+      - paragraph [ref=f28e787]:
+        - text: The choice of algorithm is a direct negotiation with the physical constraints of the system, primarily RAM and disk I/O. The hierarchy from
+        - code [ref=f28e788]: Direct Join
+        - text: down to
+        - code [ref=f28e789]: Partial Merge Join
+        - text: represents a spectrum of trade-offs between performance and flexibility. The following table provides a practical guide for selecting an algorithm based on common scenarios.
+      - figure [ref=f28e790]:
+        - table [ref=f28e791]:
+          - rowgroup [ref=f28e792]:
+            - row [ref=f28e793]:
+              - columnheader [ref=f28e794]:
+                - paragraph [ref=f28e795]: Scenario
+              - columnheader [ref=f28e796]:
+                - paragraph [ref=f28e797]: Recommended Algorithm
+              - columnheader [ref=f28e798]:
+                - paragraph [ref=f28e799]: Key Consideration
+            - row [ref=f28e800]:
+              - cell [ref=f28e801]:
+                - paragraph [ref=f28e802]: My right table is a small, frequently used key-value lookup table.
+              - cell [ref=f28e803]:
+                - paragraph [ref=f28e804]:
+                  - strong [ref=f28e805]: Direct Join
+              - cell [ref=f28e806]:
+                - paragraph [ref=f28e807]: Requires pre-configuring the right table as a ClickHouse Dictionary. Offers the absolute best performance.
+            - row [ref=f28e808]:
+              - cell [ref=f28e809]:
+                - paragraph [ref=f28e810]: My right table is small to medium-sized and fits comfortably in RAM.
+              - cell [ref=f28e811]:
+                - paragraph [ref=f28e812]:
+                  - strong [ref=f28e813]: Parallel Hash Join
+                  - text: (default)
+              - cell [ref=f28e814]:
+                - paragraph [ref=f28e815]: The fastest and most versatile general-purpose algorithm.
+            - row [ref=f28e816]:
+              - cell [ref=f28e817]:
+                - paragraph [ref=f28e818]: Both tables are very large and already sorted on the join key.
+              - cell [ref=f28e819]:
+                - paragraph [ref=f28e820]:
+                  - strong [ref=f28e821]: Full Sorting Merge Join
+              - cell [ref=f28e822]:
+                - paragraph [ref=f28e823]: Extremely memory-efficient and fast in this specific case, as it skips the sorting step.
+            - row [ref=f28e824]:
+              - cell [ref=f28e825]:
+                - paragraph [ref=f28e826]: My right table is too large to fit in RAM.
+              - cell [ref=f28e827]:
+                - paragraph [ref=f28e828]:
+                  - strong [ref=f28e829]: Grace Hash Join
+              - cell [ref=f28e830]:
+                - paragraph [ref=f28e831]: A flexible non-memory-bound option that spills to disk. Performance is tunable.
+            - row [ref=f28e832]:
+              - cell [ref=f28e833]:
+                - paragraph [ref=f28e834]: I have extremely limited memory, and performance is a secondary concern.
+              - cell [ref=f28e835]:
+                - paragraph [ref=f28e836]:
+                  - strong [ref=f28e837]: Partial Merge Join
+              - cell [ref=f28e838]:
+                - paragraph [ref=f28e839]: The slowest of the non-memory-bound options but uses the least amount of RAM.
+      - 'heading "Performance Playbook: Optimizing Your ClickHouse JOINs" [level=2] [ref=f28e840]'
+      - paragraph [ref=f28e841]:
+        - text: Unlike traditional databases with highly sophisticated, cost-based optimizers, ClickHouse
+        - code [ref=f28e842]: JOIN
+        - text: performance benefits immensely from thoughtful query design and manual tuning. The core principle behind nearly every optimization is to
+        - strong [ref=f28e843]: reduce the amount of data processed at every stage of the query
+        - text: . The following practices are a playbook for writing efficient JOINs.
+      - list [ref=f28e844]:
+        - listitem [ref=f28e845]:
+          - text: •
+          - paragraph [ref=f28e846]:
+            - strong [ref=f28e847]: "The Golden Rule: Smaller Table on the Right"
+            - text: ": For hash-based joins, ClickHouse builds an in-memory hash table from the right-hand side of the"
+            - code [ref=f28e848]: JOIN
+            - text: . Therefore, always place the smaller of the two tables on the right. This minimizes the memory required for the hash table and reduces the time spent in the "Build Phase". While recent versions of ClickHouse (24.12+) have a query planner that can automatically reorder tables, understanding this principle is fundamental to writing performant JOINs.
+        - listitem [ref=f28e849]:
+          - text: •
+          - paragraph [ref=f28e850]:
+            - strong [ref=f28e851]: Avoid Cartesian Products with
+            - code [ref=f28e852]:
+              - strong [ref=f28e853]: ANY JOIN
+            - text: ": As discussed earlier, if a join key in the left table matches multiple rows in the right table, a standard ("
+            - code [ref=f28e854]: ALL
+            - text: )
+            - code [ref=f28e855]: JOIN
+            - text: will return all combinations. For data enrichment or lookup tasks where only a single match is needed, using
+            - code [ref=f28e856]: ANY JOIN
+            - text: is the single most effective optimization. It prevents the result set from exploding in size and is significantly faster and less memory-intensive.
+        - listitem [ref=f28e857]:
+          - text: •
+          - paragraph [ref=f28e858]:
+            - strong [ref=f28e859]: Filter Early and Often
+            - text: ": Reduce the amount of data entering the"
+            - code [ref=f28e860]: JOIN
+            - text: operation by applying filters in the
+            - code [ref=f28e861]: WHERE
+            - text: clause as early as possible. ClickHouse's query planner attempts to "push down" predicates to the underlying tables before the join, but explicitly filtering both tables in subqueries or with
+            - code [ref=f28e862]: WHERE
+            - text: conditions is a robust practice that guarantees less data is processed by the join algorithm.
+          - list [ref=f28e863]:
+            - listitem [ref=f28e864]:
+              - text: •
+              - paragraph [ref=f28e865]: Inefficient (JOIN first, then filter)
+          - generic [ref=f28e869]:
+            - tabpanel [ref=f28e871]:
+              - textbox "Code Editor for example.sql" [ref=f28e872]:
+                - generic [ref=f28e873]: SELECT... FROM large_table_A AS a JOIN large_table_B AS b ON a.id = b.id WHERE a.date = '2023-01-01'
+            - button "Copy code" [ref=f28e874] [cursor=pointer]: Copy
+          - list [ref=f28e875]:
+            - listitem [ref=f28e876]:
+              - text: •
+              - paragraph [ref=f28e877]: Efficient (Filter first, then JOIN)
+          - generic [ref=f28e881]:
+            - tabpanel [ref=f28e883]:
+              - textbox "Code Editor for example.sql" [ref=f28e884]:
+                - generic [ref=f28e885]: SELECT... FROM (SELECT * FROM large_table_A WHERE date = '2023-01-01') AS a JOIN large_table_B AS b ON
+            - button "Copy code" [ref=f28e886] [cursor=pointer]: Copy
+        - listitem [ref=f28e887]:
+          - text: •
+          - paragraph [ref=f28e888]:
+            - strong [ref=f28e889]: Use
+            - code [ref=f28e890]:
+              - strong [ref=f28e891]: IN
+            - strong [ref=f28e892]: Instead of
+            - code [ref=f28e893]:
+              - strong [ref=f28e894]: JOIN
+            - strong [ref=f28e895]: for Existence Checks
+            - text: ": When the goal is simply to filter one table based on the existence of keys in another (the use case for"
+            - code [ref=f28e896]: SEMI JOIN
+            - text: ), using a
+            - code [ref=f28e897]: WHERE... IN (subquery)
+            - text: clause is often much faster. The
+            - code [ref=f28e898]: IN
+            - text: operator only needs to build a hash set of the keys from the subquery and check for existence, avoiding the overhead of retrieving and combining columns from the right table.
+        - listitem [ref=f28e899]:
+          - text: •
+          - paragraph [ref=f28e900]:
+            - strong [ref=f28e901]: Optimize Join Key Data Types
+            - text: ": The performance of a"
+            - code [ref=f28e902]: JOIN
+            - text: is sensitive to the data types of the join keys. Use the smallest integer types possible (e.g.,
+            - code [ref=f28e903]: UInt32
+            - text: instead of
+            - code [ref=f28e904]: UInt64
+            - text: if the cardinality allows). Avoid
+            - code [ref=f28e905]: Nullable
+            - text: types for join keys unless absolutely necessary, as they introduce extra overhead for handling
+            - code [ref=f28e906]: "NULL"
+            - text: values.
+        - listitem [ref=f28e907]:
+          - text: •
+          - paragraph [ref=f28e908]:
+            - strong [ref=f28e909]: Leverage Sorting Keys for Merge Joins
+            - text: ": If two large tables are frequently joined on the same set of columns, a powerful optimization is to include those columns in the"
+            - code [ref=f28e910]: ORDER BY
+            - text: clause of both
+            - code [ref=f28e911]: CREATE TABLE
+            - text: statements. This physically sorts the data on disk by those keys. When a
+            - code [ref=f28e912]: full_sorting_merge
+            - text: join is later performed on these keys, ClickHouse can skip the expensive in-memory or external sorting step, resulting in a very fast and memory-efficient join.
+        - listitem [ref=f28e913]:
+          - text: •
+          - paragraph [ref=f28e914]:
+            - strong [ref=f28e915]: Understand Distributed Joins (
+            - code [ref=f28e916]:
+              - strong [ref=f28e917]: GLOBAL JOIN
+            - strong [ref=f28e918]: )
+            - text: ": In a distributed ClickHouse cluster, a standard"
+            - code [ref=f28e919]: JOIN
+            - text: is executed locally on each shard. Each shard builds a right-hand table using only its local data. This is often not the desired behavior. To join a large, sharded table (on the left) with a smaller dimension table (on the right), use
+            - code [ref=f28e920]: GLOBAL... JOIN
+            - text: . This syntax instructs the initiator node to first compute the
+            - emphasis [ref=f28e921]: entire
+            - text: right-hand table, broadcast this complete table to every shard, and then perform the join on each shard against the full dimension table.
+      - heading "Navigating the Limitations" [level=2] [ref=f28e922]
+      - paragraph [ref=f28e923]: No database is a universal solution, and ClickHouse's design choices, which make it exceptionally fast for its core use cases, also introduce certain limitations for JOINs. Understanding these limitations is key to avoiding common pitfalls and working effectively with the database's architecture. These are not arbitrary flaws but rather the logical consequences of a design optimized for speed on single-table analytical scans.
+      - list [ref=f28e924]:
+        - listitem [ref=f28e925]:
+          - text: •
+          - paragraph [ref=f28e926]:
+            - strong [ref=f28e927]: Rule-Based Query Planner
+            - text: ": Historically, ClickHouse has used a rule-based query planner. Unlike a cost-based planner that analyzes data statistics to find the most efficient execution path, a rule-based planner follows a fixed set of heuristics. This can sometimes lead to suboptimal plans for complex queries with multiple JOINs, which is why manual tuning (like ordering tables and filtering early) is so crucial. It should be noted that ClickHouse is actively developing a more advanced, cost-based planner known as the \"Analyzer\" to mitigate this."
+        - listitem [ref=f28e928]:
+          - text: •
+          - paragraph [ref=f28e929]:
+            - strong [ref=f28e930]: Memory Consumption and Guardrails
+            - text: ": The default hash-based join algorithms are memory-intensive. If the right-hand table is too large to fit in the available RAM, the query will fail with an \"out of memory\" error by default. To prevent this, ClickHouse provides \"guardrail\" settings like"
+            - code [ref=f28e931]: max_rows_in_join
+            - text: and
+            - code [ref=f28e932]: max_bytes_in_join
+            - text: ", which will cause the query to fail gracefully if a"
+            - code [ref=f28e933]: JOIN
+            - text: operation exceeds these thresholds. These settings prevent server instability but require the user to either provision more memory, filter the data more aggressively, or switch to a non-memory-bound algorithm like
+            - code [ref=f28e934]: Grace Hash Join
+            - text: or
+            - code [ref=f28e935]: Partial Merge Join
+            - text: .
+        - listitem [ref=f28e936]:
+          - text: •
+          - paragraph [ref=f28e937]:
+            - strong [ref=f28e938]: Distributed
+            - code [ref=f28e939]:
+              - strong [ref=f28e940]: JOIN
+            - strong [ref=f28e941]: Challenges
+            - text: ": ClickHouse's distributed execution model is designed for \"shared-nothing\" parallelism, where each node works independently on its local data to minimize network communication. This is highly efficient for aggregations but presents a challenge for"
+            - code [ref=f28e942]: JOIN
+            - text: s. ClickHouse does not support "data shuffling," a process used by systems like Apache Spark where data is dynamically repartitioned and sent between nodes to co-locate matching join keys. The absence of shuffling is a trade-off for faster execution of single-table distributed queries. The workaround for many distributed
+            - code [ref=f28e943]: JOIN
+            - text: scenarios is the
+            - code [ref=f28e944]: GLOBAL JOIN
+            - text: syntax, which involves a potentially large, one-time broadcast of the right table to all nodes.
+        - listitem [ref=f28e945]:
+          - text: •
+          - paragraph [ref=f28e946]:
+            - strong [ref=f28e947]: Restrictions on Join Keys
+            - text: ": There are several specific restrictions on the types of conditions and data used in join keys:"
+          - list [ref=f28e948]:
+            - listitem [ref=f28e949]:
+              - text: •
+              - paragraph [ref=f28e950]:
+                - strong [ref=f28e951]: Inequality Conditions
+                - text: ": Conditions using operators like"
+                - code [ref=f28e952]: ">"
+                - text: or
+                - code [ref=f28e953]: <
+                - text: are only supported by the
+                - code [ref=f28e954]: hash
+                - text: and
+                - code [ref=f28e955]: grace_hash
+                - text: join algorithms and are incompatible with the
+                - code [ref=f28e956]: join_use_nulls
+                - text: setting.
+            - listitem [ref=f28e957]:
+              - text: •
+              - paragraph [ref=f28e958]:
+                - strong [ref=f28e959]: NULL Handling
+                - text: ": By default,"
+                - code [ref=f28e960]: "NULL"
+                - text: values in a join key do not match anything, including other
+                - code [ref=f28e961]: "NULL"
+                - text: values. This is standard SQL behavior but can be surprising to newcomers.
+            - listitem [ref=f28e962]:
+              - text: •
+              - paragraph [ref=f28e963]:
+                - strong [ref=f28e964]: Type Compatibility
+                - text: ": ClickHouse can perform implicit type casting on join keys, but the"
+                - code [ref=f28e965]: JOIN
+                - text: will fail if there is no common, compatible data type. For instance, a
+                - code [ref=f28e966]: JOIN
+                - text: between a
+                - code [ref=f28e967]: String
+                - text: and an
+                - code [ref=f28e968]: Int32
+                - text: key is not possible.
+      - paragraph [ref=f28e969]:
+        - text: To learn more see our
+        - link "previous article" [ref=f28e970] [cursor=pointer]:
+          - /url: ./clickhouse-limitations-joins
+        - text: .
+      - heading "Conclusion" [level=2] [ref=f28e971]
+      - paragraph [ref=f28e972]: JOINs in ClickHouse are a deep and powerful feature, reflecting the database's evolution from a specialized analytics engine to a more comprehensive data warehouse. While ClickHouse's columnar architecture and performance philosophy will always favor denormalized, flat table structures, its robust support for JOINs provides the critical flexibility needed for modern, complex analytical applications.
+      - paragraph [ref=f28e973]: Mastering JOINs in this environment requires a shift in mindset away from the patterns of traditional OLTP databases. Success hinges on a strategic approach that acknowledges the underlying mechanics of the system.
+      - paragraph [ref=f28e974]: "The key takeaways are:"
+      - list [ref=f28e975]:
+        - listitem [ref=f28e976]:
+          - paragraph [ref=f28e977]:
+            - strong [ref=f28e978]: Denormalize by Default, Join by Design
+            - text: ": Start with denormalization as the primary strategy for high-performance, high-concurrency workloads. Use JOINs deliberately for data enrichment, ad-hoc analysis, or where the complexity of maintaining a denormalized view is too high."
+        - listitem [ref=f28e979]:
+          - paragraph [ref=f28e980]:
+            - strong [ref=f28e981]: Use the Right Tool for the Job
+            - text: ": Go beyond standard JOINs. Leverage ClickHouse's specialized toolkit—use"
+            - code [ref=f28e982]: ANY JOIN
+            - text: for fast lookups,
+            - code [ref=f28e983]: ASOF JOIN
+            - text: for time-series analysis, and
+            - code [ref=f28e984]: SEMI
+            - text: /
+            - code [ref=f28e985]: ANTI JOIN
+            - text: for efficient filtering.
+        - listitem [ref=f28e986]:
+          - paragraph [ref=f28e987]:
+            - strong [ref=f28e988]: Understand the Engine Room
+            - text: ": The choice of"
+            - code [ref=f28e989]: JOIN
+            - text: algorithm is a critical performance lever. Understand the trade-offs between the speed of in-memory
+            - code [ref=f28e990]: Hash
+            - text: joins and the resilience of disk-spilling
+            - code [ref=f28e991]: Grace Hash
+            - text: and
+            - code [ref=f28e992]: Merge
+            - text: joins. Guide the planner when necessary.
+        - listitem [ref=f28e993]:
+          - paragraph [ref=f28e994]:
+            - strong [ref=f28e995]: Optimize Aggressively
+            - text: ": Performance is in the user's hands. Aggressively reduce the data being joined by filtering early, using the smallest possible key types, and always placing the smaller table on the right side of the"
+            - code [ref=f28e996]: JOIN
+            - text: .
+      - paragraph [ref=f28e997]:
+        - text: The ClickHouse team is continuously improving
+        - code [ref=f28e998]: JOIN
+        - text: performance, with recent releases introducing a more intelligent query planner and faster algorithms. By combining these ongoing platform enhancements with the principles and techniques outlined in this guide, developers and analysts can confidently and effectively harness the full power of JOINs to build sophisticated, high-performance analytical systems on ClickHouse.
+    - generic [ref=f28e1003]:
+      - heading "Share the article" [level=2] [ref=f28e1010]
+      - generic [ref=f28e1013]:
+        - button "Share on X" [ref=f28e1014] [cursor=pointer]
+        - button "Share on Facebook" [ref=f28e1017] [cursor=pointer]
+        - button "Share on LinkedIn" [ref=f28e1020] [cursor=pointer]
+        - button "Share on Reddit" [ref=f28e1023] [cursor=pointer]
+        - button "Copy link" [ref=f28e1026] [cursor=pointer]
+        - button "Share" [ref=f28e1030] [cursor=pointer]
+    - generic [ref=f28e1036]:
+      - paragraph [ref=f28e1040]: You might also like
+      - generic [ref=f28e1042]:
+        - link [ref=f28e1043] [cursor=pointer]:
+          - /url: ./fraud-detection-pipelines-kafka-glassflow-clickhouse
+          - link [ref=f28e1045]:
+            - generic [ref=f28e1051]:
+              - img "Fraud detection pipeline, Fraud detection use case, fraud detection, Kafka, GlassFlow, ClickHouse, stream processing, data pipelines, anomaly detection" [ref=f28e1055]
+              - generic [ref=f28e1056]:
+                - paragraph [ref=f28e1060]: Tutorials
+                - paragraph [ref=f28e1062]: Fraud Detection Pipelines with Kafka, Glassflow, and ClickHouse
+                - paragraph [ref=f28e1064]: A demo using GlassFlow to deduplicate and filter Kafka events before they reach ClickHouse for real-time fraud detection.
+            - generic [ref=f28e1065]:
+              - paragraph [ref=f28e1068]: Written by
+              - paragraph [ref=f28e1073]: Armend Avdijaj
+            - link [ref=f28e1074]:
+              - generic [ref=f28e1077]:
+                - paragraph [ref=f28e1079]: read article
+                - paragraph [ref=f28e1081]: read article
+        - link [ref=f28e1082] [cursor=pointer]:
+          - /url: ./glassflow-now-scales-to-500k-events-per-sec
+          - link [ref=f28e1084]:
+            - generic [ref=f28e1090]:
+              - img "GlassFlow performance, ClickHouse ingestion, Kafka to ClickHouse, data transformations, ClickHouse sink connector" [ref=f28e1094]
+              - generic [ref=f28e1095]:
+                - paragraph [ref=f28e1099]: Product Updates
+                - paragraph [ref=f28e1101]: GlassFlow Streaming ETL now scales to 500k+ Events/Sec with zero changes to your existing pipeline
+                - paragraph [ref=f28e1103]: Teams kept asking if Glassflow would scale, so we rebuilt it to grow from small to massive workloads without changing your pipeline.
+            - generic [ref=f28e1104]:
+              - paragraph [ref=f28e1107]: Written by
+              - paragraph [ref=f28e1112]: Armend Avdijaj
+            - link [ref=f28e1113]:
+              - generic [ref=f28e1116]:
+                - paragraph [ref=f28e1118]: read article
+                - paragraph [ref=f28e1120]: read article
+        - link [ref=f28e1121] [cursor=pointer]:
+          - /url: ./handle-semi-structured-data-log-pipelines
+          - link "Engineering How to Handle Semi-Structured Data in Your Log Pipelines Turn messy logs into analytics-ready data with GlassFlow & ClickHouse. Written by Armend Avdijaj read article read article" [ref=f28e1123]:
+            - generic [ref=f28e1133]:
+              - paragraph [ref=f28e1137]: Engineering
+              - paragraph [ref=f28e1139]: How to Handle Semi-Structured Data in Your Log Pipelines
+              - paragraph [ref=f28e1141]: Turn messy logs into analytics-ready data with GlassFlow & ClickHouse.
+            - generic [ref=f28e1142]:
+              - paragraph [ref=f28e1145]: Written by
+              - paragraph [ref=f28e1150]: Armend Avdijaj
+            - link [ref=f28e1151]:
+              - generic [ref=f28e1154]:
+                - paragraph [ref=f28e1156]: read article
+                - paragraph [ref=f28e1158]: read article
+    - generic [ref=f28e1164]:
+      - generic [ref=f28e1165]:
+        - paragraph [ref=f28e1167]: Two products. Two starting points.
+        - generic [ref=f28e1168]:
+          - paragraph [ref=f28e1169]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and
+          - paragraph [ref=f28e1170]: retention, from first span to production.
+      - generic [ref=f28e1171]:
+        - link [ref=f28e1173] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+          - paragraph [ref=f28e1178]: star Tares on GitHub
+        - link [ref=f28e1180] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/guides
+          - paragraph [ref=f28e1185]: read the Rius guides
+  - generic [ref=f28e1189]:
+    - generic [ref=f28e1191]:
+      - paragraph [ref=f28e1195]: Ready to give your agents better data and total recall?
+      - generic [ref=f28e1196]:
+        - generic [ref=f28e1199]:
+          - generic [ref=f28e1200]:
+            - paragraph [ref=f28e1202]: Start with Tares
+            - paragraph [ref=f28e1204]: Feed your agents the right data.
+          - link [ref=f28e1206] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f28e1211]: get_started
+        - generic [ref=f28e1218]:
+          - generic [ref=f28e1219]:
+            - paragraph [ref=f28e1221]: Start with Rius
+            - paragraph [ref=f28e1223]: See and debug agents in production.
+          - link [ref=f28e1225] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f28e1230]: get_started
+    - generic [ref=f28e1236]:
+      - generic [ref=f28e1238]:
+        - paragraph [ref=f28e1245]: products
+        - generic [ref=f28e1250]:
+          - link [ref=f28e1251] [cursor=pointer]:
+            - /url: ../tares
+            - generic [ref=f28e1256]:
+              - paragraph [ref=f28e1258]: tares
+              - paragraph [ref=f28e1260]: Feed your agents the right data. Open source
+          - link [ref=f28e1261] [cursor=pointer]:
+            - /url: ../rius
+            - generic [ref=f28e1266]:
+              - paragraph [ref=f28e1268]: rius
+              - paragraph [ref=f28e1270]: See what your agents did in production.
+      - generic [ref=f28e1271]:
+        - link [ref=f28e1272] [cursor=pointer]:
+          - /url: ../contact
+          - paragraph [ref=f28e1278]: contact
+        - link [ref=f28e1279] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f28e1285]: docs
+        - link [ref=f28e1286] [cursor=pointer]:
+          - /url: ../blog
+          - paragraph [ref=f28e1292]: blog
+        - link [ref=f28e1293] [cursor=pointer]:
+          - /url: ../about
+          - paragraph [ref=f28e1299]: about
+      - generic [ref=f28e1300]:
+        - link [ref=f28e1301] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f28e1303] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f28e1305] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f28e1308]:
+      - paragraph [ref=f28e1310]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f28e1312]:
+        - link "Terms & Conditions" [ref=f28e1313] [cursor=pointer]:
+          - /url: ../terms-of-service
+      - paragraph [ref=f28e1315]:
+        - link "Privacy Policy" [ref=f28e1316] [cursor=pointer]:
+          - /url: ../privacy-policy

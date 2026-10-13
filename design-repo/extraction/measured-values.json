@@ -1,0 +1,296 @@
+{
+  "$description": "Citation ledger for build-time evidence OUTSIDE this package. Paths are relative to the source project root (the folder containing design-repo/). When that sibling tree is absent, verify_all.py degrades these checks to warnings.",
+  "sourceProjectLayout": "design-repo/ sits inside the GlassFlow clone project root; citations resolve against <design-repo>/..",
+  "sources": [
+    {
+      "file": "src/routes.jsx",
+      "use": "route table incl. bare legacy routes + Navigate redirects (ground truth for routes)"
+    },
+    {
+      "file": "src/App.jsx",
+      "use": "GlobalChrome / Navbar / Footer layout, Lenis config"
+    },
+    {
+      "file": "src/data/posts.json",
+      "use": "119 posts (107 live, 12 redirect) + 9 categories"
+    },
+    {
+      "file": "src/pages",
+      "use": "page compositions -> templates"
+    },
+    {
+      "file": "src/components",
+      "use": "sections, primitives, motion.js"
+    },
+    {
+      "file": "src/index.css",
+      "use": "type classes, hairlines, motion CSS"
+    },
+    {
+      "file": "tailwind.config.js",
+      "use": "colour tokens, screens md 810 / lg 1200, font stacks"
+    },
+    {
+      "file": "index.html",
+      "use": "fonts, meta"
+    },
+    {
+      "file": "public/fonts",
+      "use": "Inter Display 400 + Inter 400 woff2"
+    },
+    {
+      "file": "public/assets",
+      "use": "clone asset files referenced by assetRole refs"
+    },
+    {
+      "file": "CLONE_SPEC.md",
+      "use": "home: live-measured tokens/type/geometry/motion"
+    },
+    {
+      "file": "specs/products.md",
+      "use": "product pages incl. §1.5 measured motion (appendices NOT copied)"
+    },
+    {
+      "file": "specs/content.md",
+      "use": "blog/case studies/about/contact"
+    },
+    {
+      "file": "specs/landing.md",
+      "use": "legal, legacy guides, redirects"
+    },
+    {
+      "file": "specs/posts.json",
+      "use": "in_sitemap flags (67 blog URLs)"
+    },
+    {
+      "file": "ASSETS.md",
+      "use": "home asset manifest"
+    },
+    {
+      "file": "specs/content-assets.md",
+      "use": "content asset manifest"
+    },
+    {
+      "file": "specs/landing-assets.md",
+      "use": "legacy/landing asset manifest"
+    },
+    {
+      "file": "specs/products-assets.md",
+      "use": "product asset manifest"
+    },
+    {
+      "file": ".playwright-mcp/o1440.txt",
+      "use": "pixel-audit text dump of the original at 1440"
+    },
+    {
+      "file": ".playwright-mcp/c1440.txt",
+      "use": "pixel-audit text dump of the clone at 1440"
+    },
+    {
+      "file": "ia.json",
+      "use": "root IA (built concurrently by another pass): cross-reference only"
+    }
+  ],
+  "specVsSrcDisagreements": [
+    {
+      "topic": "FAQ height tween",
+      "spec": "specs/products.md §1.5: ~0.25s",
+      "src": "200ms cubic-bezier(.5,0,.88,.77)",
+      "followed": "src",
+      "evidence": [
+        {
+          "path": "specs/products.md",
+          "lines": "112",
+          "quote": "4. **FAQ rows**"
+        },
+        {
+          "path": "src/components/motion.js",
+          "lines": "150",
+          "quote": "// Measured: 200ms, cubic-bezier(.5, 0, .88, .77), both directions."
+        }
+      ]
+    },
+    {
+      "topic": "BigButton arrow roll",
+      "spec": "specs/products.md §1.5: ~0.3s ease-in-out",
+      "src": "0.4s cubic-bezier(.44,0,0,1)",
+      "followed": "src",
+      "evidence": [
+        {
+          "path": "specs/products.md",
+          "lines": "110",
+          "quote": "2. **BigButton hover**"
+        },
+        {
+          "path": "src/index.css",
+          "lines": "139",
+          "quote": ".arrow-track > .arrow-b { transition: transform 0.4s cubic-bezier(0.44, 0, 0, 1); }"
+        }
+      ]
+    },
+    {
+      "topic": "section fade-ins",
+      "spec": "CLONE_SPEC.md §11 proposes an IntersectionObserver section reveal (0.5s, y 12-20px) as a 'reasonable replica'",
+      "src": "no section reveals anywhere; only the hero H1 word reveal uses in-view",
+      "followed": "src (and the live finding: no scroll reveals)",
+      "evidence": [
+        {
+          "path": "CLONE_SPEC.md",
+          "lines": "173",
+          "quote": "Reasonable replica: IntersectionObserver reveal"
+        }
+      ]
+    },
+    {
+      "topic": "home quote size at 390",
+      "spec": "CLONE_SPEC.md §0: mobile quote 24px",
+      "src": "text-[32px] at every width",
+      "followed": "src",
+      "evidence": [
+        {
+          "path": "CLONE_SPEC.md",
+          "lines": "62",
+          "quote": "Responsive type: hero H1 / sub same at tablet; mobile quote 24px/24px"
+        },
+        {
+          "path": "src/components/Testimonial.jsx",
+          "lines": "33",
+          "quote": "'text-[32px] leading-[32px]'"
+        }
+      ]
+    },
+    {
+      "topic": "radius",
+      "spec": "CLONE_SPEC.md §0: border-radius 0 everywhere",
+      "src": "true for Mars; legacy family uses rounded-md/xl/2xl, calculator 3px",
+      "followed": "src (scoped by theme)",
+      "evidence": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "79",
+          "quote": "rounded-xl border border-[#2A2A2A]"
+        }
+      ]
+    },
+    {
+      "topic": "contact form submit",
+      "spec": "specs/content.md §7.2: 'post to the same endpoint or stub it'",
+      "src": "stub only; never submits",
+      "followed": "src, pinned as must-not-reuse-live-endpoint",
+      "evidence": [
+        {
+          "path": "specs/content.md",
+          "lines": "565",
+          "quote": "For the clone: post to the same endpoint or stub it"
+        },
+        {
+          "path": "src/pages/Contact.jsx",
+          "lines": "2",
+          "quote": "// The form never submits to HubSpot or anywhere else"
+        }
+      ]
+    },
+    {
+      "topic": "guide form success",
+      "spec": "task brief: forms go to /contact/success",
+      "src": "Guide.jsx shows an inline 'Thanks for submitting the form.' status; only /contact navigates to /contact/success",
+      "followed": "src",
+      "evidence": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "56",
+          "quote": "Thanks for submitting the form."
+        }
+      ]
+    },
+    {
+      "topic": "external domains",
+      "spec": "task brief: external domains are outbound links only",
+      "src": "/contact also embeds an app.cal.com iframe",
+      "followed": "src: modelled as link kind external-embed restricted to that one field",
+      "evidence": [
+        {
+          "path": "src/pages/Contact.jsx",
+          "lines": "177",
+          "quote": "src=\"https://app.cal.com/"
+        }
+      ]
+    },
+    {
+      "topic": "template count",
+      "spec": "root ia.json: 19 templates (alternative-arize + alternative-langfuse separate, plus template.redirect)",
+      "src": "Alternatives.jsx is ONE component for both vendors; redirects are <Navigate>, not pages",
+      "followed": "src: 17 templates; alternatives shared (optional install/side-by-side/better-pick, repeatable split); redirects are routes kind=redirect",
+      "evidence": [
+        {
+          "path": "src/pages/Alternatives.jsx",
+          "lines": "1047",
+          "quote": "export default function Alternatives({ vendor })"
+        }
+      ]
+    },
+    {
+      "topic": "Inter weights",
+      "spec": "CLONE_SPEC.md §0: only weight 400 used",
+      "src": "only 400 woff2 ships, but some Inter text sets font-medium/font-light (renders synthesised/fallback)",
+      "followed": "src recorded; fontFamily.inter.note",
+      "evidence": [
+        {
+          "path": "src/index.css",
+          "lines": "10",
+          "quote": "src: url('/fonts/inter-400.woff2')"
+        }
+      ]
+    }
+  ],
+  "concurrentChangesDuringBuild": [
+    {
+      "file": "src/components/LegacyLayout.jsx",
+      "before": "dropdown shown instantly via group-hover (visibility/opacity, no transition); chevron group-hover:rotate-180",
+      "after": ".legacy-dd/.legacy-dd-panel spring (opacity + scale .95, 0.4s) and .legacy-chev 0.45s spring; mobile menu 600ms fade (EASE.legacyMenu)",
+      "repoUses": "after"
+    },
+    {
+      "file": "src/pages/About.jsx",
+      "before": "static H1 and story; 'find out more' rolled on hover",
+      "after": "AppearText text-effect (word H1; per-char story, 50ms per visual line); 'find out more' trigger none (static)",
+      "repoUses": "after"
+    },
+    {
+      "file": "src/components/AppearText.jsx",
+      "before": "char split wrapped whole words",
+      "after": "char split also breaks after hyphens/dashes/slashes (no timing change)",
+      "repoUses": "after"
+    },
+    {
+      "file": "src/components/motion.js, src/index.css",
+      "before": "-",
+      "after": "byte-identical between this pass's first read and the final re-read",
+      "repoUses": "final"
+    }
+  ],
+  "sitemap": {
+    "total": 108,
+    "blogUrls": 67,
+    "redirects": 18,
+    "evidence": [
+      {
+        "path": "specs/content.md",
+        "lines": "174",
+        "quote": "Sitemap cross-check: sitemap.xml has **67** `/blog/*` URLs"
+      },
+      {
+        "path": "specs/content.md",
+        "lines": "173",
+        "quote": "Three of those 12 are in the sitemap"
+      }
+    ],
+    "note": "The 41 non-blog sitemap paths equal the 34 static paths in routes.jsx (+ '/') plus the 7 live categories; checked against the live sitemap.xml during the build (that file is not part of the project, so it is not cited)."
+  },
+  "inferredOrOmitted": [
+    "Dithered images not opened individually are classified into texture/scene roles from asset-manifest descriptions (INFERRED).",
+    "Alternatives sub-section content contracts are coarse (headings/items) because the page is data-heavy; per-field budgets are inferred from src data lengths, not measured.",
+    "Calculator content is code-owned; only its labels are contracted.",
+    "No colour histogram from live computed styles exists as a single file; usageCount is a source-usage histogram computed from src/ at build time."
+  ]
+}

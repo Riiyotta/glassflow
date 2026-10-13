@@ -1,0 +1,24 @@
+{
+  "id": "quickstart-card",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "490px terminal-style card: glassflow-<product> bar, amber pitch, > bullets, docs + start buttons.",
+  "composes": [
+    "dots"
+  ],
+  "props": {
+    "name": "rius|tares",
+    "pitch": "text[]",
+    "bullets": "[label,text][]",
+    "docs": "link",
+    "start": "optional link"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/Quickstart.jsx",
+      "lines": "32-76",
+      "quote": "function Card({ c })"
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+- generic [ref=f97e3]:
+  - banner [ref=f97e4]:
+    - navigation [ref=f97e5]:
+      - generic [ref=f97e6]:
+        - link "GlassFlow home" [ref=f97e7] [cursor=pointer]:
+          - /url: /
+          - img "GlassFlow" [ref=f97e8]
+        - link "products" [ref=f97e10] [cursor=pointer]:
+          - /url: "#"
+        - link "docs" [ref=f97e13] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f97e14] [cursor=pointer]:
+          - /url: /blog
+        - link "contact" [ref=f97e15] [cursor=pointer]:
+          - /url: /contact
+      - link "get_started" [ref=f97e16] [cursor=pointer]:
+        - /url: /#quickstart
+  - main [ref=f97e18]:
+    - generic [ref=f97e20]:
+      - generic [ref=f97e23]:
+        - img "Rius" [ref=f97e29]
+        - generic [ref=f97e30]:
+          - generic [ref=f97e32]:
+            - heading "Rius is the Langfuse alternative that does the debugging for you." [level=1] [ref=f97e33]
+            - paragraph [ref=f97e34]: Rius is managed observability for AI agents in prod. Unlike Langfuse, which gives you traces to dig through, Rius detects silent failures like tool loops and crashed runs and points you to the root cause.
+            - generic [ref=f97e35]:
+              - link "try 1 month free" [ref=f97e36] [cursor=pointer]:
+                - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=alternative&utm_campaign=signup&utm_content=langfuse
+                - generic [aria-hidden] [ref=f97e40]: →
+              - link "talk to the founders" [ref=f97e41] [cursor=pointer]:
+                - /url: https://cal.com/armend-glassflow/30min?utm_source=glassflow&utm_medium=rius_page&utm_campaign=signup&overlayCalendar=true
+            - paragraph [ref=f97e44]: 1 month free, then $19/mo · managed · no ClickHouse to run
+          - 'img "Rius alert view: tool loop detected on checkout-agent with root-cause analysis and delivery to Slack and a supervisor agent" [ref=f97e47]'
+        - generic [ref=f97e48]:
+          - generic [ref=f97e49]: Silent failure detection
+          - generic [ref=f97e53]: MCP Observability
+          - generic [ref=f97e57]: Live spans
+          - generic [ref=f97e61]: Agent heartbeats
+      - generic [ref=f97e67]:
+        - generic [ref=f97e68]:
+          - generic [ref=f97e69]: "Used by:"
+          - generic [ref=f97e70]:
+            - img "Restack" [ref=f97e72]
+            - img "nubrain" [ref=f97e74]
+            - img "Sentri" [ref=f97e76]
+        - generic [ref=f97e77]:
+          - generic [ref=f97e78]: "Backed by CEOs of:"
+          - generic [ref=f97e79]:
+            - img "Entire" [ref=f97e81]
+            - img "Weaviate" [ref=f97e83]
+            - img "sference" [ref=f97e85]
+      - generic [ref=f97e89]:
+        - paragraph [ref=f97e91]: "\"Rius found agent failures we didn't know existed. Our time to debug went from days to minutes and now we catch issues before they ever reach a customer.\""
+        - generic [ref=f97e92]:
+          - generic [ref=f97e93]:
+            - img "Andres Almansa" [ref=f97e94]
+            - paragraph [ref=f97e95]:
+              - generic [ref=f97e96]: Andres Almansa
+              - generic [ref=f97e97]: CEO of Restack
+          - img "Restack" [ref=f97e98]
+      - generic [ref=f97e101]:
+        - img "Rius" [ref=f97e107]
+        - heading "Rius gives you insights that Langfuse can not." [level=2] [ref=f97e109]
+        - table [ref=f97e111]:
+          - rowgroup [ref=f97e112]:
+            - row [ref=f97e113]:
+              - columnheader [ref=f97e114]
+              - columnheader "Rius" [ref=f97e115]
+              - columnheader "Langfuse" [ref=f97e116]
+          - rowgroup [ref=f97e117]:
+            - row [ref=f97e118]:
+              - rowheader "01 Detection:" [ref=f97e119]:
+                - generic [ref=f97e120]:
+                  - generic [ref=f97e121]: "01"
+                  - text: "Detection:"
+              - cell "Automatic. Tool loops, context overflow, consistent error patterns. No evals to write." [ref=f97e122]
+              - cell "Only if you wrote an eval or score for it." [ref=f97e123]
+            - row [ref=f97e124]:
+              - rowheader "02 Root cause:" [ref=f97e125]:
+                - generic [ref=f97e126]:
+                  - generic [ref=f97e127]: "02"
+                  - text: "Root cause:"
+              - cell "Per incident. Which step, which tool, which change." [ref=f97e128]
+              - cell "Manual trace inspection." [ref=f97e129]
+            - row [ref=f97e130]:
+              - rowheader "03 Heartbeat:" [ref=f97e131]:
+                - generic [ref=f97e132]:
+                  - generic [ref=f97e133]: "03"
+                  - text: "Heartbeat:"
+              - cell "Real-time per span. A frozen agent becomes an incident in seconds." [ref=f97e134]
+              - cell "No heartbeat. Frozen looks like running." [ref=f97e135]
+            - row [ref=f97e136]:
+              - rowheader "04 MCP:" [ref=f97e137]:
+                - generic [ref=f97e138]:
+                  - generic [ref=f97e139]: "04"
+                  - text: "MCP:"
+              - cell "Built MCP-first. Agents query traces whenever you need them. Full view of what happened, when, and which data was queried. RCAs and alerts go to your supervisor agent over MCP." [ref=f97e140]
+              - cell "Limited." [ref=f97e141]
+            - row [ref=f97e142]:
+              - rowheader "05 Delivery:" [ref=f97e143]:
+                - generic [ref=f97e144]:
+                  - generic [ref=f97e145]: "05"
+                  - text: "Delivery:"
+              - cell "Cloud only. Nothing to host, patch or scale." [ref=f97e146]
+              - cell "Self-hosted and cloud." [ref=f97e147]
+            - row [ref=f97e148]:
+              - rowheader "06 Costs:" [ref=f97e149]:
+                - generic [ref=f97e150]:
+                  - generic [ref=f97e151]: "06"
+                  - text: "Costs:"
+              - 'cell "$19/mo. More value than Langfuse Cloud: more traces, longer query retention, more alerts and lower overage." [ref=f97e152]'
+              - 'cell "Self-hosted: free license, but you manage ClickHouse and the rest of the infra. Cloud starts at $29/mo." [ref=f97e153]'
+      - generic [ref=f97e156]:
+        - generic [ref=f97e162]:
+          - heading "Where Langfuse stops." [level=2] [ref=f97e163]
+          - paragraph [ref=f97e164]: Great for traces, evals and prompts. These are the gaps.
+        - generic [ref=f97e165]:
+          - generic [ref=f97e166]:
+            - generic [ref=f97e167]: Unknown failures
+            - paragraph [ref=f97e168]: You only catch what you wrote an eval for.
+            - generic [ref=f97e169]:
+              - generic [ref=f97e170]: Loops look like normal traffic
+              - generic [ref=f97e172]: Truncated context throws no error
+              - generic [ref=f97e174]: Customers report it first
+          - generic [ref=f97e176]:
+            - generic [ref=f97e177]: Frozen agents
+            - paragraph [ref=f97e178]: A stuck agent looks exactly like a working one.
+            - generic [ref=f97e179]:
+              - generic [ref=f97e180]: No heartbeat per run
+              - generic [ref=f97e182]: Open traces never close
+              - generic [ref=f97e184]: You find out after the SLA
+          - generic [ref=f97e186]:
+            - generic [ref=f97e187]: Self-hosting
+            - paragraph [ref=f97e188]: The license is free. Running it isn't.
+            - generic [ref=f97e189]:
+              - generic [ref=f97e190]: Postgres, ClickHouse, Redis, S3
+              - generic [ref=f97e192]: Upgrades and backups are yours
+              - generic [ref=f97e194]: Ops hours every month
+      - generic [ref=f97e198]:
+        - img "Rius" [ref=f97e204]
+        - generic [ref=f97e205]:
+          - heading "Some of the silent failures that Rius would have caught for you." [level=2] [ref=f97e207]
+          - generic [ref=f97e208]:
+            - generic [ref=f97e209]:
+              - generic [ref=f97e210]: infrastructure
+              - paragraph [ref=f97e211]: Trace is green but one span shows an error
+              - paragraph [ref=f97e212]: The run reports success. One tool call inside it failed and the agent carried on with bad data. Rius flags the span, not just the run.
+            - generic [ref=f97e213]:
+              - generic [ref=f97e214]: cognitive
+              - paragraph [ref=f97e215]: Tool loop
+              - paragraph [ref=f97e216]: The agent calls the same tool with near-identical arguments again and again. Every call returns 200. Rius flags the loop.
+            - generic [ref=f97e217]:
+              - generic [ref=f97e218]: infrastructure
+              - paragraph [ref=f97e219]: Consistent error pattern
+              - paragraph [ref=f97e220]: The same failure signature across many runs, like a deprecated model name in config. Rius groups it into one incident with counts.
+            - generic [ref=f97e221]:
+              - generic [ref=f97e222]: infrastructure
+              - paragraph [ref=f97e223]: The process that vanished
+              - paragraph [ref=f97e224]: No output, no error, no end. The heartbeat stops and Rius opens an incident within seconds.
+            - generic [ref=f97e225]:
+              - generic [ref=f97e226]: recovery
+              - paragraph [ref=f97e227]: The run that crashed
+              - paragraph [ref=f97e228]: The agent died mid-run. Rius keeps every span sent before the crash, so you see exactly where it stopped.
+            - generic [ref=f97e229]:
+              - generic [ref=f97e230]: cognitive
+              - paragraph [ref=f97e231]: The wrong turn at step 7
+              - paragraph [ref=f97e232]: The agent diverged early and kept going for 180 more steps. Rius shows the first divergence, not just the wrong final answer.
+      - generic [ref=f97e235]:
+        - img "Rius" [ref=f97e241]
+        - generic [ref=f97e242]:
+          - img "Rius root-cause analysis with suggested next actions" [ref=f97e245]
+          - generic [ref=f97e247]:
+            - heading "Langfuse gives you the trace. Rius gives you the cause." [level=2] [ref=f97e248]
+            - paragraph [ref=f97e249]: Rius groups symptoms into one incident and works out which step, which tool and which change caused it. No digging through 400 spans.
+            - paragraph [ref=f97e250]: Then it alerts you, or your supervisor agent over MCP, with the root cause attached.
+            - generic [ref=f97e251]:
+              - generic [ref=f97e252]: symptom
+              - generic [ref=f97e254]:
+                - generic [ref=f97e255]: →
+                - generic [ref=f97e256]: pattern
+              - generic [ref=f97e257]:
+                - generic [ref=f97e258]: →
+                - generic [ref=f97e259]: root cause
+              - generic [ref=f97e260]:
+                - generic [ref=f97e261]: →
+                - generic [ref=f97e262]: alert
+      - generic [ref=f97e265]:
+        - img "Rius" [ref=f97e271]
+        - generic [ref=f97e272]:
+          - heading "Run both side by side. Compare what each catches." [level=2] [ref=f97e273]
+          - paragraph [ref=f97e274]: Route the same traces to Langfuse and Rius for a week. Langfuse keeps running until you decide.
+        - generic [ref=f97e275]:
+          - generic [ref=f97e276]:
+            - generic [ref=f97e277]: "01"
+            - generic [ref=f97e283]:
+              - paragraph [ref=f97e284]: Already on OpenTelemetry? Dual-export.
+              - paragraph [ref=f97e285]: Using OpenLLMetry, OpenInference or a vanilla OTel SDK? Add Rius as a second exporter in your OpenTelemetry Collector. Langfuse keeps receiving every trace.
+              - generic [ref=f97e286]: "# otel-collector.yaml exporters: otlphttp/langfuse: endpoint: https://cloud.langfuse.com/api/public/otel headers: authorization: Basic ${env:LANGFUSE_BASIC_AUTH} otlphttp/rius: endpoint: https://ingest.eu.console.rius-glassflow.com headers: authorization: Bearer ${env:RIUS_API_KEY} service: pipelines: traces: exporters: [otlphttp/langfuse, otlphttp/rius]"
+              - link "read the migration guide →" [ref=f97e287] [cursor=pointer]:
+                - /url: https://docs.glassflow.ai/rius/guides/migrate-from-langfuse
+          - generic [ref=f97e288]:
+            - generic [ref=f97e289]: "02"
+            - generic [ref=f97e295]:
+              - paragraph [ref=f97e296]: On the Langfuse SDK? Swap the decorators.
+              - paragraph [ref=f97e297]: The Langfuse SDK can't send to Rius directly. The Rius SDK uses the same patterns, so the switch is mechanical.
+              - generic [ref=f97e298]:
+                - generic [ref=f97e299]: "# Langfuse SDK # Rius SDK"
+                - generic [ref=f97e300]: "@observe() → @rius.observe"
+                - generic [ref=f97e301]: span.update(input=.., output=..) → span.set_input(..) / set_output(..)
+                - generic [ref=f97e302]: "propagate_attributes(session_id) → with rius.session(session_id):"
+                - generic [ref=f97e303]: public key + secret key → one API key
+              - link "see all sdk differences →" [ref=f97e304] [cursor=pointer]:
+                - /url: https://docs.glassflow.ai/rius/guides/migrate-from-langfuse
+      - generic [ref=f97e307]:
+        - generic [ref=f97e313]:
+          - heading "Self-hosting Langfuse isn't free. Run the numbers." [level=2] [ref=f97e314]
+          - paragraph [ref=f97e315]: Estimate for ~100k traces/mo, set up and run by a mid-level engineer working heavily with Claude Code. Set your hourly rate.
+        - generic [ref=f97e316]:
+          - generic [ref=f97e317]:
+            - generic [ref=f97e318]: engineer hourly rate
+            - status [ref=f97e319]: $65/h
+            - slider "engineer hourly rate" [ref=f97e320] [cursor=pointer]: "65"
+            - generic [ref=f97e321]:
+              - generic [ref=f97e322]: $10
+              - generic [ref=f97e323]: $100
+          - group "infrastructure" [ref=f97e324]:
+            - generic [ref=f97e326] [cursor=pointer]:
+              - radio "production · AWS managed" [checked] [ref=f97e327]
+              - text: production · AWS managed
+            - generic [ref=f97e328] [cursor=pointer]:
+              - radio "lean · single VM" [ref=f97e329]
+              - text: lean · single VM
+        - generic [ref=f97e330]:
+          - generic [ref=f97e331]:
+            - generic [ref=f97e332]: self-hosted langfuse
+            - generic [ref=f97e338]:
+              - paragraph [ref=f97e339]: Self-hosted Langfuse
+              - paragraph [ref=f97e340]: $478 /mo
+              - paragraph [ref=f97e341]: Year one, setup spread over 12 months.
+            - generic [ref=f97e342]:
+              - generic [ref=f97e343]: ESTIMATEsetup · 12 h one-time
+              - generic [ref=f97e344]: $65/mo
+            - generic [ref=f97e345]:
+              - generic [ref=f97e346]: ESTIMATEmaintenance · 3.25 h/mo
+              - generic [ref=f97e347]: $211/mo
+            - generic [ref=f97e348]:
+              - generic [ref=f97e349]: ESTIMATEinfrastructure
+              - generic [ref=f97e350]: $202/mo
+            - button "setup hours" [ref=f97e352] [cursor=pointer]:
+              - text: setup hours
+              - generic [aria-hidden] [ref=f97e353]: ↓
+            - button "maintenance hours per month" [ref=f97e355] [cursor=pointer]:
+              - text: maintenance hours per month
+              - generic [aria-hidden] [ref=f97e356]: ↓
+            - button "infrastructure per month" [ref=f97e358] [cursor=pointer]:
+              - text: infrastructure per month
+              - generic [aria-hidden] [ref=f97e359]: ↓
+            - paragraph [ref=f97e360]: "Assumptions: ~100k traces/mo at ~50 KB · 30-day retention · AWS on-demand list prices, us-east-1 · Hours assume heavy AI-assisted work with Claude Code: half of a manual setup. Setup hours exclude your app's own instrumentation work beyond one end-to-end test."
+          - generic [ref=f97e361]:
+            - img "Rius" [ref=f97e367]
+            - generic [ref=f97e368]:
+              - paragraph [ref=f97e369]: Rius Core
+              - paragraph [ref=f97e370]: $19 /mo
+              - paragraph [ref=f97e371]: Managed. 0 h setup beyond the SDK, 0 h maintenance, $0 infrastructure.
+              - generic [ref=f97e372]: try 1 month for free
+            - link "get started" [ref=f97e373] [cursor=pointer]:
+              - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=alternative&utm_campaign=signup&utm_content=langfuse
+            - generic [ref=f97e374]:
+              - generic [ref=f97e375]: spans incl.
+              - generic [ref=f97e376]: 500k
+            - generic [ref=f97e377]:
+              - generic [ref=f97e378]: overage per 1m spans
+              - generic [ref=f97e379]: $14
+            - generic [ref=f97e380]:
+              - generic [ref=f97e381]: query retention
+              - generic [ref=f97e382]: 60d
+            - generic [ref=f97e383]:
+              - generic [ref=f97e384]: silent failures · rca · heartbeat · mcp
+              - generic [ref=f97e385]: incl.
+            - generic [ref=f97e386]: you save $459/mo · $5,511/year
+      - generic [ref=f97e390]:
+        - generic [ref=f97e396]:
+          - heading "Where Langfuse is still the better pick" [level=2] [ref=f97e397]
+          - paragraph [ref=f97e398]: "Rius isn’t a drop-in replacement for everything Langfuse does. Stick with Langfuse if:"
+        - generic [ref=f97e399]:
+          - generic [ref=f97e400]:
+            - generic [ref=f97e401]: "01"
+            - paragraph [ref=f97e403]: You need to self-host.
+            - paragraph [ref=f97e404]: Langfuse is open source and runs on your own infrastructure. Rius is a managed cloud service.
+          - generic [ref=f97e405]:
+            - generic [ref=f97e406]: "02"
+            - paragraph [ref=f97e408]: Prompt management and evals are your main use case.
+            - paragraph [ref=f97e409]: Langfuse has built-in prompt versioning, datasets and eval workflows. Rius focuses on production failures, not offline evals.
+          - generic [ref=f97e410]:
+            - generic [ref=f97e411]: "03"
+            - paragraph [ref=f97e413]: Your agents are short, stateless LLM calls.
+            - paragraph [ref=f97e414]: If a plain trace answers your questions, Langfuse is free and works well.
+        - generic [ref=f97e415]:
+          - paragraph [ref=f97e416]: Choose Rius when agents run long, fail silently, and you’d rather get the root cause than dig through traces. You can also run both side by side.
+          - link "try 1 month free" [ref=f97e417] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=alternative&utm_campaign=signup&utm_content=langfuse
+            - generic [aria-hidden] [ref=f97e421]: →
+      - generic [ref=f97e424]:
+        - heading "Common questions" [level=2] [ref=f97e425]
+        - generic [ref=f97e426]:
+          - button "What’s the best Langfuse alternative for AI agents?" [ref=f97e428] [cursor=pointer]:
+            - text: What’s the best Langfuse alternative for AI agents?
+            - generic [aria-hidden] [ref=f97e429]: ↓
+          - button "Can Rius replace Langfuse?" [ref=f97e431] [cursor=pointer]:
+            - text: Can Rius replace Langfuse?
+            - generic [aria-hidden] [ref=f97e432]: ↓
+          - button "Does Langfuse require ClickHouse?" [ref=f97e434] [cursor=pointer]:
+            - text: Does Langfuse require ClickHouse?
+            - generic [aria-hidden] [ref=f97e435]: ↓
+          - button "How much does Langfuse self-hosting cost?" [ref=f97e437] [cursor=pointer]:
+            - text: How much does Langfuse self-hosting cost?
+            - generic [aria-hidden] [ref=f97e438]: ↓
+          - button "Langfuse is free. Why pay $19?" [ref=f97e440] [cursor=pointer]:
+            - text: Langfuse is free. Why pay $19?
+            - generic [aria-hidden] [ref=f97e441]: ↓
+          - button "Can I use Rius and Langfuse together?" [ref=f97e443] [cursor=pointer]:
+            - text: Can I use Rius and Langfuse together?
+            - generic [aria-hidden] [ref=f97e444]: ↓
+          - button "Is Rius self-hostable?" [ref=f97e446] [cursor=pointer]:
+            - text: Is Rius self-hostable?
+            - generic [aria-hidden] [ref=f97e447]: ↓
+  - contentinfo [ref=f97e448]:
+    - generic [ref=f97e452]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f97e454]
+      - generic [ref=f97e456]:
+        - generic [ref=f97e457]:
+          - heading "Start with Tares" [level=3] [ref=f97e458]
+          - paragraph [ref=f97e459]: Feed your agents the right data.
+        - link "get_started" [ref=f97e460] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f97e465]:
+        - generic [ref=f97e466]:
+          - heading "Start with Rius" [level=3] [ref=f97e467]
+          - paragraph [ref=f97e468]: See and debug agents in production.
+        - link "get_started" [ref=f97e469] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f97e474]:
+      - link "GlassFlow home" [ref=f97e475] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f97e476]
+      - generic [ref=f97e477]:
+        - generic [ref=f97e478]: products
+        - generic [ref=f97e484]:
+          - link "tares Feed your agents the right data. Open source" [ref=f97e485] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f97e486]:
+              - generic [ref=f97e487]: tares
+              - generic [ref=f97e488]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f97e489] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f97e490]:
+              - generic [ref=f97e491]: rius
+              - generic [ref=f97e492]: See what your agents did in production.
+      - generic [ref=f97e493]:
+        - link "contact" [ref=f97e494] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f97e500] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f97e506] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f97e512] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f97e518]:
+        - link "X" [ref=f97e519] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f97e520] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f97e521] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f97e523]:
+      - generic [ref=f97e524]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f97e525] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f97e526] [cursor=pointer]:
+        - /url: /privacy-policy

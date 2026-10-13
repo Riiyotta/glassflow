@@ -1,0 +1,19 @@
+{
+  "id": "legacy-button",
+  "kind": "primitive",
+  "family": "legacy",
+  "purpose": "Legacy rounded-md 48px button (white solid or black outlined).",
+  "props": {
+    "label": "text",
+    "tone": "solid|outline"
+  },
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/pages/Category.jsx",
+      "lines": "37",
+      "quote": "rounded-md bg-white"
+    }
+  ]
+}

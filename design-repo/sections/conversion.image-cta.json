@@ -1,0 +1,132 @@
+{
+  "id": "conversion.image-cta",
+  "family": "mars",
+  "category": "conversion",
+  "purpose": "Closing image CTA: big title, optional body, amber BigButton + product dark button.",
+  "variants": {
+    "product": "/tares and /rius/pricing closing band"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ProductSections.jsx",
+      "lines": "98-126",
+      "quote": "export function ImageCTA"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 12
+      },
+      "body": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 40
+      },
+      "primary": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 5
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "secondary": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 5
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "brand.dither-mark",
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "primary",
+      "secondary",
+      "background"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "amber-button-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "buttons": "stacked"
+    },
+    "810": {
+      "buttons": "row",
+      "title": "40/40"
+    },
+    "1200": {
+      "pad": "128px sides"
+    },
+    "evidence": [
+      {
+        "path": "src/components/ProductSections.jsx",
+        "lines": "118",
+        "quote": "flex flex-col items-start gap-2 md:flex-row"
+      }
+    ]
+  }
+}

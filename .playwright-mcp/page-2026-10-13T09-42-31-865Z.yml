@@ -1,0 +1,103 @@
+- generic [ref=f151e3]:
+  - banner [ref=f151e4]:
+    - navigation [ref=f151e5]:
+      - generic [ref=f151e6]:
+        - link "GlassFlow home" [ref=f151e7] [cursor=pointer]:
+          - /url: /
+          - img "GlassFlow" [ref=f151e8]
+        - link "products" [ref=f151e10] [cursor=pointer]:
+          - /url: "#"
+        - link "docs" [ref=f151e13] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f151e14] [cursor=pointer]:
+          - /url: /blog
+        - link "contact" [ref=f151e15] [cursor=pointer]:
+          - /url: /contact
+      - link "get_started" [ref=f151e16] [cursor=pointer]:
+        - /url: /#quickstart
+  - main [ref=f151e18]:
+    - article [ref=f151e21]:
+      - heading "Imprint" [level=1] [ref=f151e22]
+      - generic [ref=f151e23]:
+        - heading "Information according to §5 TMG (Telemedia Act)" [level=2] [ref=f151e24]
+        - generic [ref=f151e25]:
+          - paragraph [ref=f151e27]: GlassFlow GmbH, Prinzessinnenstraße 19/20, 10969 Berlin
+          - generic [ref=f151e28]:
+            - paragraph [ref=f151e29]: "VAT ID: DE361405627"
+            - paragraph [ref=f151e30]: "Tax number: 37/308/50336"
+          - paragraph [ref=f151e32]: Represented by Armend Avdijaj and Ashish Bagri
+          - paragraph [ref=f151e34]:
+            - text: "E-mail:"
+            - link "info@glassflow.dev" [ref=f151e35] [cursor=pointer]:
+              - /url: mailto:info@glassflow.dev
+      - generic [ref=f151e36]:
+        - heading "Further Information" [level=2] [ref=f151e37]
+        - generic [ref=f151e38]:
+          - paragraph [ref=f151e40]: §2 Service Information Regulation; German law applies, venue Berlin.
+          - paragraph [ref=f151e42]:
+            - text: "EU online dispute resolution platform:"
+            - link "http://ec.europa.eu/odr" [ref=f151e43] [cursor=pointer]:
+              - /url: http://ec.europa.eu/odr
+      - generic [ref=f151e44]:
+        - heading "Liability" [level=2] [ref=f151e45]
+        - paragraph [ref=f151e48]: Responsibility for own content under the Telemedia Act; external links.
+      - generic [ref=f151e49]:
+        - heading "Copyright Notice" [level=2] [ref=f151e50]
+        - paragraph [ref=f151e53]: Site content is protected; no unauthorised use.
+      - paragraph [ref=f151e54]:
+        - link "Read the full text on glassflow.ai" [ref=f151e55] [cursor=pointer]:
+          - /url: https://www.glassflow.ai/imprint
+  - contentinfo [ref=f151e58]:
+    - generic [ref=f151e62]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f151e64]
+      - generic [ref=f151e66]:
+        - generic [ref=f151e67]:
+          - heading "Start with Tares" [level=3] [ref=f151e68]
+          - paragraph [ref=f151e69]: Feed your agents the right data.
+        - link "get_started" [ref=f151e70] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f151e75]:
+        - generic [ref=f151e76]:
+          - heading "Start with Rius" [level=3] [ref=f151e77]
+          - paragraph [ref=f151e78]: See and debug agents in production.
+        - link "get_started" [ref=f151e79] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f151e84]:
+      - link "GlassFlow home" [ref=f151e85] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f151e86]
+      - generic [ref=f151e87]:
+        - generic [ref=f151e88]: products
+        - generic [ref=f151e94]:
+          - link "tares Feed your agents the right data. Open source" [ref=f151e95] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f151e96]:
+              - generic [ref=f151e97]: tares
+              - generic [ref=f151e98]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f151e99] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f151e100]:
+              - generic [ref=f151e101]: rius
+              - generic [ref=f151e102]: See what your agents did in production.
+      - generic [ref=f151e103]:
+        - link "contact" [ref=f151e104] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f151e110] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f151e116] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f151e122] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f151e128]:
+        - link "X" [ref=f151e129] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f151e130] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f151e131] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f151e133]:
+      - generic [ref=f151e134]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f151e135] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f151e136] [cursor=pointer]:
+        - /url: /privacy-policy

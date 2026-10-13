@@ -1,0 +1,87 @@
+{
+  "id": "alt.comparison",
+  "family": "mars",
+  "category": "pricing",
+  "purpose": "Rius vs vendor comparison table.",
+  "variants": {
+    "arize": "arize data",
+    "langfuse": "langfuse data"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Alternatives.jsx",
+      "lines": "505-511",
+      "quote": "function Comparison({ d })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 14
+      },
+      "rows": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 8
+            },
+            "rius": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 12
+            },
+            "vendor": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 12
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "rius",
+            "vendor"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 20
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "rows"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "single column, 16px section padding"
+    },
+    "810": {
+      "layout": "64px section padding"
+    },
+    "1200": {
+      "layout": "max 1200 (arize) / 1234 (langfuse)"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "291",
+        "quote": "px-4 md:px-16"
+      }
+    ]
+  },
+  "notes": "Native rebuild of the live iframe template; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
+}

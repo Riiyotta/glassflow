@@ -1,0 +1,103 @@
+- generic [ref=f333e3]:
+  - generic [ref=f333e8]:
+    - link [ref=f333e9] [cursor=pointer]:
+      - /url: ../
+    - generic [ref=f333e13]:
+      - paragraph [ref=f333e17]: products
+      - link [ref=f333e22] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f333e25]: docs
+      - link [ref=f333e26] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=f333e29]: blog
+      - link [ref=f333e30] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f333e33]: contact
+    - link [ref=f333e35] [cursor=pointer]:
+      - /url: ../#quickstart
+      - paragraph [ref=f333e38]: get_started
+  - generic [ref=f333e45]:
+    - paragraph [ref=f333e52]: products
+    - generic [ref=f333e58]:
+      - generic [ref=f333e63]:
+        - paragraph [ref=f333e65]: Thanks for reaching out!
+        - paragraph [ref=f333e67]: We've got your message. One of our engineers or founders will get back to you shortly.
+        - paragraph [ref=f333e69]: "In the meantime, here's where to poke around:"
+      - generic [ref=f333e70]:
+        - generic [ref=f333e73]:
+          - paragraph [ref=f333e75]:
+            - link [ref=f333e76] [cursor=pointer]:
+              - /url: https://github.com/glassflow/tares
+              - strong [ref=f333e77]: Tares on GitHub
+              - text: ↗
+          - paragraph [ref=f333e79]: Open source. Feed your agents the right data clone it, run it, drop a star.
+        - generic [ref=f333e82]:
+          - paragraph [ref=f333e84]:
+            - link "Read the Blog" [ref=f333e85] [cursor=pointer]:
+              - /url: ../blog
+          - paragraph [ref=f333e87]: How we think about agent observability and long-running agents.
+        - generic [ref=f333e90]:
+          - paragraph [ref=f333e92]:
+            - strong [ref=f333e93]: Rius guides
+            - text: ↗
+          - paragraph [ref=f333e95]: "Wire up traces, MCP, and retention: from first span to production."
+  - generic [ref=f333e102]:
+    - generic [ref=f333e104]:
+      - paragraph [ref=f333e108]: Ready to give your agents better data and total recall?
+      - generic [ref=f333e109]:
+        - generic [ref=f333e112]:
+          - generic [ref=f333e113]:
+            - paragraph [ref=f333e115]: Start with Tares
+            - paragraph [ref=f333e117]: Feed your agents the right data.
+          - link [ref=f333e119] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f333e124]: get_started
+        - generic [ref=f333e131]:
+          - generic [ref=f333e132]:
+            - paragraph [ref=f333e134]: Start with Rius
+            - paragraph [ref=f333e136]: See and debug agents in production.
+          - link [ref=f333e138] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f333e143]: get_started
+    - generic [ref=f333e149]:
+      - generic [ref=f333e151]:
+        - paragraph [ref=f333e158]: products
+        - generic [ref=f333e163]:
+          - link [ref=f333e164] [cursor=pointer]:
+            - /url: ../tares
+            - generic [ref=f333e169]:
+              - paragraph [ref=f333e171]: tares
+              - paragraph [ref=f333e173]: Feed your agents the right data. Open source
+          - link [ref=f333e174] [cursor=pointer]:
+            - /url: ../rius
+            - generic [ref=f333e179]:
+              - paragraph [ref=f333e181]: rius
+              - paragraph [ref=f333e183]: See what your agents did in production.
+      - generic [ref=f333e184]:
+        - link [ref=f333e185] [cursor=pointer]:
+          - /url: ../contact
+          - paragraph [ref=f333e191]: contact
+        - link [ref=f333e192] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f333e198]: docs
+        - link [ref=f333e199] [cursor=pointer]:
+          - /url: ../blog
+          - paragraph [ref=f333e205]: blog
+        - link [ref=f333e206] [cursor=pointer]:
+          - /url: ../about
+          - paragraph [ref=f333e212]: about
+      - generic [ref=f333e213]:
+        - link [ref=f333e214] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f333e216] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f333e218] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f333e221]:
+      - paragraph [ref=f333e223]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f333e225]:
+        - link "Terms & Conditions" [ref=f333e226] [cursor=pointer]:
+          - /url: ../terms-of-service
+      - paragraph [ref=f333e228]:
+        - link "Privacy Policy" [ref=f333e229] [cursor=pointer]:
+          - /url: ../privacy-policy

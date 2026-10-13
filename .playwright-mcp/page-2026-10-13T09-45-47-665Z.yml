@@ -1,0 +1,466 @@
+- generic [ref=f193e3]:
+  - banner [ref=f193e4]:
+    - navigation [ref=f193e5]:
+      - link "GlassFlow home" [ref=f193e7] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f193e8]
+      - link "get_started" [ref=f193e10] [cursor=pointer]:
+        - /url: /#quickstart
+    - generic [ref=f193e12]:
+      - link "tares" [ref=f193e13] [cursor=pointer]:
+        - /url: /tares
+      - link "rius" [ref=f193e14] [cursor=pointer]:
+        - /url: /rius
+      - link "docs" [ref=f193e15] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+      - link "blog" [ref=f193e16] [cursor=pointer]:
+        - /url: /blog
+      - link "contact" [ref=f193e17] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=f193e18]:
+    - generic [ref=f193e20]:
+      - generic [ref=f193e23]:
+        - img "Rius" [ref=f193e29]
+        - generic [ref=f193e30]:
+          - generic [ref=f193e32]:
+            - heading "Rius is an Arize alternative built for companies shipping agents every day." [level=1] [ref=f193e33]
+            - paragraph [ref=f193e34]: Phoenix means running your own stack. AX includes 25k–50k spans a month. Rius is managed, real-time and includes 500k spans for $19/mo.
+            - generic [ref=f193e35]:
+              - link "try 1 month free" [ref=f193e36] [cursor=pointer]:
+                - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=alternative&utm_campaign=signup&utm_content=arize
+                - generic [aria-hidden] [ref=f193e40]: →
+              - link "talk to the founders" [ref=f193e41] [cursor=pointer]:
+                - /url: https://cal.com/armend-glassflow/30min?utm_source=glassflow&utm_medium=rius_page&utm_campaign=signup&overlayCalendar=true
+            - paragraph [ref=f193e44]: 1 month free, then $19/mo · managed · 500k spans included
+          - generic [ref=f193e45]:
+            - link "instrument your agent in 2 minutes ↓" [ref=f193e46] [cursor=pointer]:
+              - /url: "#rcx-install"
+            - 'img "Rius Home dashboard: traces, spans, LLM calls, cost, tokens and error rate" [ref=f193e48]'
+        - generic [ref=f193e49]:
+          - generic [ref=f193e50]: Silent failure detection
+          - generic [ref=f193e54]: MCP Observability
+          - generic [ref=f193e58]: Live spans
+          - generic [ref=f193e62]: Agent heartbeats
+      - generic [ref=f193e68]:
+        - generic [ref=f193e69]:
+          - generic [ref=f193e70]: "Used by:"
+          - generic [ref=f193e71]:
+            - img "Restack" [ref=f193e73]
+            - img "nubrain" [ref=f193e75]
+            - img "Sentri" [ref=f193e77]
+        - generic [ref=f193e78]:
+          - generic [ref=f193e79]: "Backed by CEOs of:"
+          - generic [ref=f193e80]:
+            - img "Entire" [ref=f193e82]
+            - img "Weaviate" [ref=f193e84]
+            - img "sference" [ref=f193e86]
+      - generic [ref=f193e90]:
+        - paragraph [ref=f193e92]: "\"Rius found agent failures we didn't know existed. Our time to debug went from days to minutes and now we catch issues before they ever reach a customer.\""
+        - generic [ref=f193e93]:
+          - generic [ref=f193e94]:
+            - img "Andres Almansa" [ref=f193e95]
+            - paragraph [ref=f193e96]:
+              - generic [ref=f193e97]: Andres Almansa
+              - generic [ref=f193e98]: CEO of Restack
+          - img "Restack" [ref=f193e99]
+      - generic [ref=f193e102]:
+        - img "Rius" [ref=f193e108]
+        - generic [ref=f193e109]:
+          - heading "Rius vs Arize AX" [level=2] [ref=f193e110]
+          - group "Compare with" [ref=f193e111]:
+            - button "vs Arize AX" [pressed] [ref=f193e112] [cursor=pointer]
+            - button "vs Phoenix OSS" [ref=f193e113] [cursor=pointer]
+        - table [ref=f193e115]:
+          - rowgroup [ref=f193e116]:
+            - row [ref=f193e117]:
+              - rowheader "01 Detection:" [ref=f193e118]:
+                - generic [ref=f193e119]:
+                  - generic [ref=f193e120]: "01"
+                  - text: "Detection:"
+              - cell "Rius Real-time, unlimited. Loops, context overflow, error patterns." [ref=f193e121]:
+                - generic [ref=f193e122]: Rius
+                - text: Real-time, unlimited. Loops, context overflow, error patterns.
+              - cell "Arize AX Free / Pro Signal scans every 3–6 h. 10 / 25 issues/mo." [ref=f193e123]:
+                - generic [ref=f193e124]: Arize AX Free / Pro
+                - text: Signal scans every 3–6 h. 10 / 25 issues/mo.
+            - row [ref=f193e125]:
+              - rowheader "02 Root cause:" [ref=f193e126]:
+                - generic [ref=f193e127]:
+                  - generic [ref=f193e128]: "02"
+                  - text: "Root cause:"
+              - cell "Rius Automatic per incident. Step, tool, change." [ref=f193e129]:
+                - generic [ref=f193e130]: Rius
+                - text: Automatic per incident. Step, tool, change.
+              - cell "Arize AX Free / Pro Pattern summary + fix idea. Alyx chat on request." [ref=f193e131]:
+                - generic [ref=f193e132]: Arize AX Free / Pro
+                - text: Pattern summary + fix idea. Alyx chat on request.
+            - row [ref=f193e133]:
+              - rowheader "03 Heartbeat:" [ref=f193e134]:
+                - generic [ref=f193e135]:
+                  - generic [ref=f193e136]: "03"
+                  - text: "Heartbeat:"
+              - cell "Rius Per span. Frozen agent = incident in seconds." [ref=f193e137]:
+                - generic [ref=f193e138]: Rius
+                - text: Per span. Frozen agent = incident in seconds.
+              - cell "Arize AX Free / Pro “No data” per time window, not per run." [ref=f193e139]:
+                - generic [ref=f193e140]: Arize AX Free / Pro
+                - text: “No data” per time window, not per run.
+            - row [ref=f193e141]:
+              - rowheader "04 Alerts:" [ref=f193e142]:
+                - generic [ref=f193e143]:
+                  - generic [ref=f193e144]: "04"
+                  - text: "Alerts:"
+              - cell "Rius Unlimited, to Slack and agents over MCP." [ref=f193e145]:
+                - generic [ref=f193e146]: Rius
+                - text: Unlimited, to Slack and agents over MCP.
+              - cell "Arize AX Free / Pro Metric-threshold monitors → Slack, PagerDuty." [ref=f193e147]:
+                - generic [ref=f193e148]: Arize AX Free / Pro
+                - text: Metric-threshold monitors → Slack, PagerDuty.
+            - row [ref=f193e149]:
+              - rowheader "05 MCP:" [ref=f193e150]:
+                - generic [ref=f193e151]:
+                  - generic [ref=f193e152]: "05"
+                  - text: "MCP:"
+              - cell "Rius MCP-first. Incidents, RCAs, traces, alerts." [ref=f193e153]:
+                - generic [ref=f193e154]: Rius
+                - text: MCP-first. Incidents, RCAs, traces, alerts.
+              - cell "Arize AX Free / Pro Not documented (CLI + Skills)." [ref=f193e155]:
+                - generic [ref=f193e156]: Arize AX Free / Pro
+                - text: Not documented (CLI + Skills).
+            - row [ref=f193e157]:
+              - rowheader "06 User view:" [ref=f193e158]:
+                - generic [ref=f193e159]:
+                  - generic [ref=f193e160]: "06"
+                  - text: "User view:"
+              - 'cell "Rius Per end user: traces, failures, cost." [ref=f193e161]':
+                - generic [ref=f193e162]: Rius
+                - text: "Per end user: traces, failures, cost."
+              - cell "Arize AX Free / Pro Filter by user.id." [ref=f193e163]:
+                - generic [ref=f193e164]: Arize AX Free / Pro
+                - text: Filter by user.id.
+            - row [ref=f193e165]:
+              - rowheader "07 Limits:" [ref=f193e166]:
+                - generic [ref=f193e167]:
+                  - generic [ref=f193e168]: "07"
+                  - text: "Limits:"
+              - cell "Rius 500k spans · 60 days" [ref=f193e169]:
+                - generic [ref=f193e170]: Rius
+                - text: 500k spans · 60 days
+              - cell "Arize AX Free / Pro 25k / 50k spans · 15 / 30 days" [ref=f193e171]:
+                - generic [ref=f193e172]: Arize AX Free / Pro
+                - text: 25k / 50k spans · 15 / 30 days
+            - row [ref=f193e173]:
+              - rowheader "08 Price:" [ref=f193e174]:
+                - generic [ref=f193e175]:
+                  - generic [ref=f193e176]: "08"
+                  - text: "Price:"
+              - cell "Rius $19/mo, managed. First month free." [ref=f193e177]:
+                - generic [ref=f193e178]: Rius
+                - text: $19/mo, managed. First month free.
+              - cell "Arize AX Free / Pro $0 / $50 per month. SaaS." [ref=f193e179]:
+                - generic [ref=f193e180]: Arize AX Free / Pro
+                - text: $0 / $50 per month. SaaS.
+      - generic [ref=f193e183]:
+        - generic [ref=f193e189]:
+          - heading "Where Arize stops." [level=2] [ref=f193e190]
+          - paragraph [ref=f193e191]: Strong for evals and experiments. These are the gaps in production.
+        - generic [ref=f193e192]:
+          - generic [ref=f193e193]:
+            - generic [ref=f193e194]: Scheduled, not real-time
+            - paragraph [ref=f193e195]: Signal reviews traces every 3–6 hours.
+            - generic [ref=f193e196]:
+              - generic [ref=f193e197]: A loop at 9:02 shows up after the next scan
+              - generic [ref=f193e199]: Alyx investigates only when you ask
+              - generic [ref=f193e201]: No per-run heartbeat for frozen agents
+          - generic [ref=f193e203]:
+            - generic [ref=f193e204]: Low limits
+            - paragraph [ref=f193e205]: Free and Pro run out fast with agents.
+            - generic [ref=f193e206]:
+              - generic [ref=f193e207]: 25k / 50k spans per month
+              - generic [ref=f193e209]: 15 / 30 days retention
+              - generic [ref=f193e211]: 10 / 25 Signal issues per month
+          - generic [ref=f193e213]:
+            - generic [ref=f193e214]: Phoenix in production
+            - paragraph [ref=f193e215]: Free to download. Not free to run.
+            - generic [ref=f193e216]:
+              - generic [ref=f193e217]: PostgreSQL, backups, auth, upgrades
+              - generic [ref=f193e219]: One tenant per instance
+              - generic [ref=f193e221]: No built-in alerting
+      - generic [ref=f193e225]:
+        - img "Rius" [ref=f193e231]
+        - generic [ref=f193e232]:
+          - heading "Some of the silent failures that Rius would have caught for you." [level=2] [ref=f193e234]
+          - generic [ref=f193e235]:
+            - generic [ref=f193e236]:
+              - generic [ref=f193e237]: infrastructure
+              - paragraph [ref=f193e238]: Trace is green but one span shows an error
+              - paragraph [ref=f193e239]: The run reports success. One tool call inside it failed and the agent carried on with bad data. Rius flags the span, not just the run.
+            - generic [ref=f193e240]:
+              - generic [ref=f193e241]: cognitive
+              - paragraph [ref=f193e242]: Tool loop
+              - paragraph [ref=f193e243]: The agent calls the same tool with near-identical arguments again and again. Every call returns 200. Rius flags the loop.
+            - generic [ref=f193e244]:
+              - generic [ref=f193e245]: infrastructure
+              - paragraph [ref=f193e246]: Consistent error pattern
+              - paragraph [ref=f193e247]: The same failure signature across many runs, like a deprecated model name in config. Rius groups it into one incident with counts.
+            - generic [ref=f193e248]:
+              - generic [ref=f193e249]: infrastructure
+              - paragraph [ref=f193e250]: The process that vanished
+              - paragraph [ref=f193e251]: No output, no error, no end. The heartbeat stops and Rius opens an incident within seconds.
+            - generic [ref=f193e252]:
+              - generic [ref=f193e253]: recovery
+              - paragraph [ref=f193e254]: The run that crashed
+              - paragraph [ref=f193e255]: The agent died mid-run. Rius keeps every span sent before the crash, so you see exactly where it stopped.
+            - generic [ref=f193e256]:
+              - generic [ref=f193e257]: cognitive
+              - paragraph [ref=f193e258]: The wrong turn at step 7
+              - paragraph [ref=f193e259]: The agent diverged early and kept going for 180 more steps. Rius shows the first divergence, not just the wrong final answer.
+      - generic [ref=f193e262]:
+        - generic [ref=f193e268]:
+          - heading "Instrument your agent in 2 minutes." [level=2] [ref=f193e269]
+          - paragraph [ref=f193e270]: No servers, no collector, no database. Paste one prompt into your coding agent and it wires up the Rius SDK for you.
+        - generic [ref=f193e271]:
+          - tablist [ref=f193e272]:
+            - tab "python" [selected] [ref=f193e273] [cursor=pointer]
+            - tab "typescript" [ref=f193e274] [cursor=pointer]
+            - button "copy" [ref=f193e275] [cursor=pointer]
+          - generic [ref=f193e276]: "Instrument this code with the Rius SDK: # install the extra for the LLM library the code uses; it auto-instruments it: pip install \"glassflow-rius[openai]\" # or [anthropic], [langchain], ...; [instruments] for all import rius rius.init(service_name=\"my-agent\") # reads the API key from RIUS_API_KEY Provide the key as the RIUS_API_KEY environment variable (or in an env file). Never hardcode it. Docs: https://docs.glassflow.ai/rius/sdk"
+          - generic [ref=f193e277]:
+            - generic [ref=f193e278]:
+              - generic [ref=f193e279]: "01"
+              - generic [ref=f193e280]: Sign up and copy your API key.
+            - generic [ref=f193e281]:
+              - generic [ref=f193e282]: "02"
+              - generic [ref=f193e283]: Paste the prompt into Claude Code, Cursor or any coding agent.
+            - generic [ref=f193e284]:
+              - generic [ref=f193e285]: "03"
+              - generic [ref=f193e286]: Run your agent. Traces and incidents show up in Rius.
+          - generic [ref=f193e287]:
+            - link "get your API key" [ref=f193e288] [cursor=pointer]:
+              - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=alternative&utm_campaign=signup&utm_content=arize
+              - generic [aria-hidden] [ref=f193e292]: →
+            - generic [ref=f193e293]: 1 month free, then $19/mo
+      - generic [ref=f193e296]:
+        - img "Rius" [ref=f193e302]
+        - generic [ref=f193e303]:
+          - img "Rius root-cause analysis with suggested next actions" [ref=f193e306]
+          - generic [ref=f193e308]:
+            - heading "Arize summarizes patterns. Rius gives you the cause." [level=2] [ref=f193e309]
+            - paragraph [ref=f193e310]: Arize groups failures on a schedule and leaves the digging to you or a chat assistant. Rius works out which step, which tool and which change caused each incident, as it happens.
+            - paragraph [ref=f193e311]: Then it alerts you, or your supervisor agent over MCP, with the root cause attached.
+            - generic [ref=f193e312]:
+              - generic [ref=f193e313]: symptom
+              - generic [ref=f193e315]:
+                - generic [ref=f193e316]: →
+                - generic [ref=f193e317]: pattern
+              - generic [ref=f193e318]:
+                - generic [ref=f193e319]: →
+                - generic [ref=f193e320]: root cause
+              - generic [ref=f193e321]:
+                - generic [ref=f193e322]: →
+                - generic [ref=f193e323]: alert
+      - generic [ref=f193e326]:
+        - img "Rius" [ref=f193e332]
+        - generic [ref=f193e333]:
+          - generic [ref=f193e335]:
+            - heading "See every end user your agents served." [level=2] [ref=f193e336]
+            - paragraph [ref=f193e337]: Traces, failures, cost and which agents touched each user, in one view. Untagged traffic is the first row, never hidden.
+            - paragraph [ref=f193e338]: Click a user to open their traces. Answer “did this customer have a bad experience?” in seconds.
+          - img "Rius users view" [ref=f193e341]
+      - generic [ref=f193e344]:
+        - img "Rius" [ref=f193e350]
+        - generic [ref=f193e351]:
+          - 'img "Rius MCP view: clients, sessions, tool calls and answer rate" [ref=f193e354]'
+          - generic [ref=f193e356]:
+            - heading "Built to feed your agents, not just your dashboard." [level=2] [ref=f193e357]
+            - paragraph [ref=f193e358]: Rius runs as an MCP server for many agents at once. Coding agents, supervisor agents and on-call agents pull incidents, root causes and traces, so they can investigate, fix and improve themselves.
+            - paragraph [ref=f193e359]: The MCP view shows which agents connect, which tools they call and whether they get an answer.
+            - generic [ref=f193e360]:
+              - generic [ref=f193e361]: incident
+              - generic [ref=f193e363]:
+                - generic [ref=f193e364]: →
+                - generic [ref=f193e365]: agent reads RCA
+              - generic [ref=f193e366]:
+                - generic [ref=f193e367]: →
+                - generic [ref=f193e368]: fix
+              - generic [ref=f193e369]:
+                - generic [ref=f193e370]: →
+                - generic [ref=f193e371]: verify
+      - generic [ref=f193e374]:
+        - generic [ref=f193e380]:
+          - heading "What does 100k spans per month cost you?" [level=2] [ref=f193e381]
+          - paragraph [ref=f193e382]: Same volume, four options. Phoenix is free to download, so set your engineer's hourly rate to see what running it costs.
+        - generic [ref=f193e383]:
+          - generic [ref=f193e384]: volume
+          - generic [ref=f193e385]: 100k spans / month
+        - generic [ref=f193e386]:
+          - generic [ref=f193e387]:
+            - generic [ref=f193e388]: engineer hourly rate (Phoenix)
+            - status [ref=f193e389]: $65/h
+            - slider "engineer hourly rate (Phoenix)" [ref=f193e390] [cursor=pointer]: "65"
+            - generic [ref=f193e391]:
+              - generic [ref=f193e392]: $10
+              - generic [ref=f193e393]: $100
+          - group "Phoenix infrastructure" [ref=f193e394]:
+            - generic [ref=f193e396] [cursor=pointer]:
+              - radio "production · AWS managed" [checked] [ref=f193e397]
+              - text: production · AWS managed
+            - generic [ref=f193e398] [cursor=pointer]:
+              - radio "lean · single VM" [ref=f193e399]
+              - text: lean · single VM
+        - generic [ref=f193e400]:
+          - generic [ref=f193e401]:
+            - generic [ref=f193e407]:
+              - paragraph [ref=f193e408]: Rius Core
+              - paragraph [ref=f193e409]: $19 /mo
+              - generic [ref=f193e410]: Covers 100k spans · 500k included
+              - generic [ref=f193e411]: try 1 month for free
+            - link "get started" [ref=f193e412] [cursor=pointer]:
+              - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=alternative&utm_campaign=signup&utm_content=arize
+            - generic [ref=f193e413]:
+              - generic [ref=f193e414]: retention
+              - generic [ref=f193e415]: 60d
+            - generic [ref=f193e416]:
+              - generic [ref=f193e417]: setup · maintenance
+              - generic [ref=f193e418]: 0 h
+            - generic [ref=f193e419]:
+              - generic [ref=f193e420]: alerts
+              - generic [ref=f193e421]: unlimited
+            - generic [ref=f193e422]:
+              - generic [ref=f193e423]: RCAs
+              - generic [ref=f193e424]: 10/mo
+            - generic [ref=f193e425]: "vs Phoenix: you save $324/mo"
+          - generic [ref=f193e427]:
+            - generic [ref=f193e433]:
+              - paragraph [ref=f193e434]: Phoenix OSS
+              - paragraph [ref=f193e435]: $343 /mo
+              - generic [ref=f193e436]: Covers 100k spans · on your infra
+              - paragraph [ref=f193e437]: Year one, setup spread over 12 months.
+            - generic [ref=f193e438]:
+              - generic [ref=f193e439]: ESTIMATEsetup · 11 h
+              - generic [ref=f193e440]: $60/mo
+            - generic [ref=f193e441]:
+              - generic [ref=f193e442]: ESTIMATEmaint · 3 h/mo
+              - generic [ref=f193e443]: $195/mo
+            - generic [ref=f193e444]:
+              - generic [ref=f193e445]: ESTIMATEinfrastructure
+              - generic [ref=f193e446]: $88/mo
+            - button "setup hours" [ref=f193e448] [cursor=pointer]:
+              - text: setup hours
+              - generic [aria-hidden] [ref=f193e449]: ↓
+            - button "maintenance hours / month" [ref=f193e451] [cursor=pointer]:
+              - text: maintenance hours / month
+              - generic [aria-hidden] [ref=f193e452]: ↓
+            - button "infrastructure / month" [ref=f193e454] [cursor=pointer]:
+              - text: infrastructure / month
+              - generic [aria-hidden] [ref=f193e455]: ↓
+          - generic [ref=f193e456]:
+            - generic [ref=f193e462]:
+              - paragraph [ref=f193e463]: Arize AX Free
+              - paragraph [ref=f193e464]: $0 /mo
+              - generic [ref=f193e465]: Limited to 25k spans per month
+            - generic [ref=f193e466]:
+              - generic [ref=f193e467]: retention
+              - generic [ref=f193e468]: 15d
+            - generic [ref=f193e469]:
+              - generic [ref=f193e470]: ingestion
+              - generic [ref=f193e471]: 1 GB/mo
+            - generic [ref=f193e472]:
+              - generic [ref=f193e473]: Signal issues
+              - generic [ref=f193e474]: 10/mo
+          - generic [ref=f193e475]:
+            - generic [ref=f193e481]:
+              - paragraph [ref=f193e482]: Arize AX Pro
+              - paragraph [ref=f193e483]: $50 /mo
+              - generic [ref=f193e484]: Limited to 50k spans per month
+            - generic [ref=f193e485]:
+              - generic [ref=f193e486]: retention
+              - generic [ref=f193e487]: 30d
+            - generic [ref=f193e488]:
+              - generic [ref=f193e489]: ingestion
+              - generic [ref=f193e490]: 10 GB/mo
+            - generic [ref=f193e491]:
+              - generic [ref=f193e492]: Signal issues
+              - generic [ref=f193e493]: 25/mo
+            - generic [ref=f193e494]:
+              - generic [ref=f193e495]: overage
+              - generic [ref=f193e496]: price not published
+        - paragraph [ref=f193e497]: "Phoenix figures are estimates: AWS on-demand list prices, us-east-1; hours assume heavy AI-assisted work with Claude Code (half of a manual setup); Phoenix OSS has no built-in alerting, so building it is included."
+      - generic [ref=f193e500]:
+        - heading "Common questions" [level=2] [ref=f193e501]
+        - generic [ref=f193e502]:
+          - button "What is the best Arize alternative for startups?" [ref=f193e504] [cursor=pointer]:
+            - text: What is the best Arize alternative for startups?
+            - generic [aria-hidden] [ref=f193e505]: ↓
+          - button "How much does it cost to self-host Arize Phoenix?" [ref=f193e507] [cursor=pointer]:
+            - text: How much does it cost to self-host Arize Phoenix?
+            - generic [aria-hidden] [ref=f193e508]: ↓
+          - button "Does Arize Phoenix have real-time alerts?" [ref=f193e510] [cursor=pointer]:
+            - text: Does Arize Phoenix have real-time alerts?
+            - generic [aria-hidden] [ref=f193e511]: ↓
+          - button "Can I run Rius and Phoenix side by side?" [ref=f193e513] [cursor=pointer]:
+            - text: Can I run Rius and Phoenix side by side?
+            - generic [aria-hidden] [ref=f193e514]: ↓
+          - button "Phoenix is free. Why pay $19?" [ref=f193e516] [cursor=pointer]:
+            - text: Phoenix is free. Why pay $19?
+            - generic [aria-hidden] [ref=f193e517]: ↓
+          - button "Is Phoenix open source?" [ref=f193e519] [cursor=pointer]:
+            - text: Is Phoenix open source?
+            - generic [aria-hidden] [ref=f193e520]: ↓
+          - button "Is Rius self-hostable?" [ref=f193e522] [cursor=pointer]:
+            - text: Is Rius self-hostable?
+            - generic [aria-hidden] [ref=f193e523]: ↓
+          - button "What does Rius not replace?" [ref=f193e525] [cursor=pointer]:
+            - text: What does Rius not replace?
+            - generic [aria-hidden] [ref=f193e526]: ↓
+  - contentinfo [ref=f193e527]:
+    - generic [ref=f193e531]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f193e533]
+      - generic [ref=f193e535]:
+        - generic [ref=f193e536]:
+          - heading "Start with Tares" [level=3] [ref=f193e537]
+          - paragraph [ref=f193e538]: Feed your agents the right data.
+        - link "get_started" [ref=f193e539] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f193e544]:
+        - generic [ref=f193e545]:
+          - heading "Start with Rius" [level=3] [ref=f193e546]
+          - paragraph [ref=f193e547]: See and debug agents in production.
+        - link "get_started" [ref=f193e548] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f193e553]:
+      - generic [ref=f193e554]:
+        - generic [ref=f193e555]: products
+        - generic [ref=f193e561]:
+          - link "tares Feed your agents the right data. Open source" [ref=f193e562] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f193e563]:
+              - generic [ref=f193e564]: tares
+              - generic [ref=f193e565]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f193e566] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f193e567]:
+              - generic [ref=f193e568]: rius
+              - generic [ref=f193e569]: See what your agents did in production.
+      - generic [ref=f193e570]:
+        - link "contact" [ref=f193e571] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f193e577] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f193e583] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f193e589] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f193e595]:
+        - link "X" [ref=f193e596] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f193e597] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f193e598] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f193e600]:
+      - generic [ref=f193e601]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f193e602] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f193e603] [cursor=pointer]:
+        - /url: /privacy-policy

@@ -1,0 +1,11 @@
+{
+  "$description": "What is enforced vs convention.",
+  "enforced": {
+    "motion.patterns": "PageSpec motion.patterns is a closed per-section enum (schema)",
+    "assetRoles": "closed enum (schema + verify_all)"
+  },
+  "convention": {
+    "color": "reference semantic names, never raw hex"
+  },
+  "overrides": "PageSpecs carry NO per-instance style/token override field: styling is owned by section contracts. There is therefore nothing to mutate at PageSpec level for token overrides (MASTER-GUIDE 3.21); token drift is caught at catalog level by verify_all."
+}

@@ -1,0 +1,418 @@
+{
+  "id": "conversion.two-products-band",
+  "family": "mars",
+  "category": "conversion",
+  "purpose": "Content pages' 'Two products' / 'Start free' band (label-only amber button).",
+  "variants": {
+    "pages": "/about, /contact",
+    "posts": "/blog/:slug (mobile copy differs)",
+    "blog": "/blog (both buttons dead on live)",
+    "cases": "/case-studies/:slug"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "52-112",
+      "quote": "export function TwoProductsBand"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustPrecedeFooter": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "amber-button-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "copy": "posts variant swaps to mobile copy"
+    },
+    "810": {
+      "buttons": "row"
+    },
+    "1200": {
+      "text": "max 640"
+    },
+    "evidence": [
+      {
+        "path": "src/components/ContentSections.jsx",
+        "lines": "87",
+        "quote": "<span className=\"md:hidden\">Give your agent one place to look."
+      }
+    ]
+  },
+  "contentByVariant": {
+    "pages": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 16
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 40
+        },
+        "primary": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "secondary": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "background": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "brand.dither-mark"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "body",
+        "primary",
+        "secondary",
+        "background"
+      ]
+    },
+    "posts": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 16
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 40
+        },
+        "primary": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "secondary": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "background": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "brand.dither-mark"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "body",
+        "primary",
+        "secondary",
+        "background"
+      ]
+    },
+    "blog": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 16
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 40
+        },
+        "primary": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "href": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "x-linkField": true,
+              "description": "null only where the live site ships a dead button (policies/known-intentional-quirks.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "secondary": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "href": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "x-linkField": true,
+              "description": "null only where the live site ships a dead button (policies/known-intentional-quirks.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "background": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "brand.dither-mark"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "body",
+        "primary",
+        "secondary",
+        "background"
+      ]
+    },
+    "cases": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 16
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 40
+        },
+        "primary": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "secondary": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "background": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "brand.dither-mark"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "body",
+        "primary",
+        "secondary",
+        "background"
+      ]
+    }
+  }
+}

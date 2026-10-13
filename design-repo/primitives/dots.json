@@ -1,0 +1,20 @@
+{
+  "id": "dots",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Three 6px squares (4px gap) at the left of title bars.",
+  "props": {
+    "tone": "dot | page"
+  },
+  "tokens": [
+    "icon-size.dots"
+  ],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ui.jsx",
+      "lines": "26-35",
+      "quote": "export function Dots"
+    }
+  ]
+}

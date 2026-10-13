@@ -1,0 +1,251 @@
+{
+  "W": 1440,
+  "H": 24040,
+  "h1": "ClickHouse JOIN Guide: Global Join, Algorithms, Asof, Semi & Anti",
+  "kidsTags": [
+    "H1.framer-text",
+    "P.framer-text",
+    "UL.framer-text",
+    "LI.framer-text",
+    "STRONG.framer-text",
+    "CODE.framer-text",
+    "H2.framer-text",
+    "BR.framer-text",
+    "DIV.framer-text.framer-text-module",
+    "DIV.framer-cb",
+    "DIV.sp-879783808.sp-c-fVPbOs.sp-c-fVPbOs-LrWkf-variant-dark.sp-wrapper",
+    "DIV.sp-c-ikJbEZ.sp-layout",
+    "DIV.sp-c-euXojQ.sp-editor.sp-stack",
+    "DIV.sp-c-gtcpyq.sp-code-editor.cb-code-editor",
+    "DIV.sp-pristine.sp-markdown.sp-c-jOWzsE.sp-c-jkvvao.sp-cm",
+    "PRE.sp-c-fWymNx.sp-pre-placeholder",
+    "DIV",
+    "STYLE",
+    "BUTTON",
+    "H3.framer-text",
+    "BR.framer-text.trailing-break",
+    "IMG.framer-text.framer-image",
+    "EM.framer-text",
+    "DIV.sp-pristine.sp-sql.sp-c-jOWzsE.sp-c-jkvvao.sp-cm",
+    "SPAN.sp-syntax-keyword",
+    "SPAN.sp-syntax-punctuation",
+    "OL.framer-text",
+    "SPAN.sp-syntax-static",
+    "SPAN.sp-syntax-string",
+    "FIGURE.framer-text.framer-table-wrapper",
+    "TABLE.framer-text",
+    "TBODY.framer-text",
+    "TR.framer-text",
+    "TH.framer-text",
+    "TD.framer-text",
+    "A.framer-text"
+  ],
+  "pre": {
+    "tag": "PRE",
+    "x": "",
+    "r": [
+      321,
+      2444,
+      68,
+      106
+    ],
+    "f": "\"Geist Mono\", \"Geist Mono Plac",
+    "fs": "14px",
+    "lh": "21px",
+    "fw": "600",
+    "ls": "normal",
+    "c": "rgb(230, 237, 243)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "mt": "0px",
+    "pad": "32px 32px 32px 36px",
+    "bd": "0px none rgb(230, 237, 243)",
+    "bl": "0px none rgb(230, 237, 243)",
+    "rad": "0px",
+    "ov": "visible",
+    "ws": "pre"
+  },
+  "codeBlock": [
+    {
+      "tag": "PRE",
+      "x": "",
+      "r": [
+        321,
+        2444,
+        68,
+        106
+      ],
+      "f": "\"Geist Mono\", \"Geist Mono Plac",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "600",
+      "ls": "normal",
+      "c": "rgb(230, 237, 243)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "0px",
+      "pad": "32px 32px 32px 36px",
+      "bd": "0px none rgb(230, 237, 243)",
+      "bl": "0px none rgb(230, 237, 243)",
+      "rad": "0px",
+      "ov": "visible",
+      "ws": "pre"
+    },
+    {
+      "tag": "DIV",
+      "x": "",
+      "r": [
+        321,
+        2444,
+        798,
+        106
+      ],
+      "f": "sans-serif",
+      "fs": "14px",
+      "lh": "normal",
+      "fw": "600",
+      "ls": "normal",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(255, 255, 255)",
+      "bl": "0px none rgb(255, 255, 255)",
+      "rad": "0px",
+      "ov": "visible",
+      "ws": "normal"
+    },
+    {
+      "tag": "DIV",
+      "x": "",
+      "r": [
+        321,
+        2444,
+        798,
+        106
+      ],
+      "f": "sans-serif",
+      "fs": "14px",
+      "lh": "normal",
+      "fw": "600",
+      "ls": "normal",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgb(30, 15, 0)",
+      "mt": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(255, 255, 255)",
+      "bl": "0px none rgb(255, 255, 255)",
+      "rad": "0px",
+      "ov": "auto",
+      "ws": "normal"
+    },
+    null,
+    []
+  ],
+  "bq": null,
+  "bqP": null,
+  "h4": null,
+  "hr": null,
+  "inlineCode": {
+    "tag": "CODE",
+    "x": "JOIN",
+    "r": [
+      452,
+      788,
+      47,
+      27
+    ],
+    "f": "\"Geist Mono\", \"Geist Mono Plac",
+    "fs": "18px",
+    "lh": "32.4px",
+    "fw": "400",
+    "ls": "-0.36px",
+    "c": "rgba(255, 255, 255, 0.7)",
+    "bg": "rgb(30, 15, 0)",
+    "mt": "0px",
+    "pad": "1.8px 3.6px",
+    "bd": "0px none rgba(255, 255, 255, 0.7)",
+    "bl": "0px none rgba(255, 255, 255, 0.7)",
+    "rad": "6px",
+    "ov": "visible",
+    "ws": "pre-wrap"
+  },
+  "imgs": [
+    [
+      [
+        320,
+        2924,
+        800,
+        400
+      ],
+      "https://framerusercontent.com/images/M5NeIIAwz6q2OtuL3OiMfnebIcg.png",
+      "Inner Join ClickHouse, ClickHo"
+    ],
+    [
+      [
+        320,
+        4056,
+        800,
+        400
+      ],
+      "https://framerusercontent.com/images/g2R8mBOVpAcZydsCwIuGTnvCEk.png",
+      "Left outer join, ClickHouse, C"
+    ],
+    [
+      [
+        320,
+        5187,
+        800,
+        400
+      ],
+      "https://framerusercontent.com/images/HEdg8B9Z8O21Ua22w0smqF687eE.png",
+      "Right Outer Join, ClickHouse, "
+    ],
+    [
+      [
+        320,
+        6319,
+        800,
+        400
+      ],
+      "https://framerusercontent.com/images/MjTjALrSvKUqooOp90MFFrEWpzs.png",
+      "Full Outer Join, Full Outer Jo"
+    ]
+  ],
+  "heads": [
+    "H2: Why JOINs in a Columnar World?",
+    "H2: A Refresher on Standard SQL JOINs",
+    "H3: Inner Join",
+    "H3: Left Outer Join",
+    "H3: Right Outer Join",
+    "H3: Full Outer Join",
+    "H3: Why Venn Diagrams Can Be Misleading",
+    "H2: ClickHouse JOIN",
+    "H3: Strictness Modifiers: ANY and ALL",
+    "H3: Filtering JOIN: SEMI and ANTI",
+    "H3: Time-Series Magic: ASOF JOIN",
+    "H3: A Special Case: Unnesting with ARRAY JOIN",
+    "H3: The Summary of ClickHouse JOIN Toolkit",
+    "H2: A Peak Under the Hood at JOIN Algorithms",
+    "H3: The Default Workhorse: Hash-Based Joins",
+    "H3: Leveraging Order: Merge-Based Join",
+    "H3: The Ultimate Speed: Direct Join",
+    "H3: Choosing the Right JOIN Algorithm",
+    "H2: Performance Playbook: Optimizing Your ClickHouse JOINs",
+    "H2: Navigating the Limitations",
+    "H2: Conclusion"
+  ],
+  "hero": {
+    "pill": "Engineering",
+    "author": "Written byArmend Avdijaj",
+    "date": "Sep 26, 2025",
+    "cover": [
+      "https://framerusercontent.com/images/p8ihsATIQW2BpC2j7ekzEF2gA.jpg",
+      "https://framerusercontent.com/images/5G4h16OWSlfa4F2lERWRFPE.jpg",
+      "https://framerusercontent.com/images/3hxsOE4L7XVTLV87Sf9Txk54M.jpeg"
+    ]
+  },
+  "related": [
+    "./fraud-detection-pipelines-kafka-glassflow-clickhouse",
+    "./glassflow-now-scales-to-500k-events-per-sec",
+    "./handle-semi-structured-data-log-pipelines"
+  ]
+}

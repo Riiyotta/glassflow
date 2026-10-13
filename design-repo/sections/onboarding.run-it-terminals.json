@@ -1,0 +1,131 @@
+{
+  "id": "onboarding.run-it-terminals",
+  "family": "mars",
+  "category": "onboarding",
+  "purpose": "Heading band with two terminal cards of install/run commands.",
+  "variants": {
+    "default": "/tares"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Tares.jsx",
+      "lines": "118-146",
+      "quote": "function RunIt()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 6
+      },
+      "sub": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 12
+        },
+        "minItems": 1,
+        "maxItems": 2
+      },
+      "terminals": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "rows": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "mark": {
+                    "enum": [
+                      "#",
+                      ">"
+                    ]
+                  },
+                  "text": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 12
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "mark",
+                  "text"
+                ]
+              },
+              "minItems": 1,
+              "maxItems": 4
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "rows"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "sub",
+      "terminals",
+      "background"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "terminals": "2 columns (grid-cols-2 at every width)"
+    },
+    "810": {
+      "terminals": "2 columns"
+    },
+    "1200": {
+      "terminals": "400px each, max 800"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Tares.jsx",
+        "lines": "133",
+        "quote": "grid w-full max-w-[800px] grid-cols-2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "blog.filter-bar",
+  "family": "mars",
+  "category": "navigation",
+  "purpose": "Category tabs (?category=) + title search (?title=).",
+  "variants": {
+    "default": "/blog"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/BlogIndex.jsx",
+      "lines": "50-80",
+      "quote": "function FilterBar("
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "tabs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 3
+            },
+            "slug": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "slug"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 12
+      },
+      "searchParam": {
+        "const": "title"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "tabs",
+      "searchParam"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "tabs": "hidden; search only"
+    },
+    "810": {
+      "tabs": "scrollable row"
+    },
+    "1200": {
+      "height": 88
+    },
+    "evidence": [
+      {
+        "path": "src/pages/BlogIndex.jsx",
+        "lines": "55",
+        "quote": "relative hidden min-w-0 flex-1 md:block"
+      }
+    ]
+  }
+}

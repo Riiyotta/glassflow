@@ -1,0 +1,162 @@
+{
+  "id": "pricing.plan-cards",
+  "family": "mars",
+  "category": "pricing",
+  "purpose": "Four flush Rius plan cards.",
+  "variants": {
+    "default": "/rius"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/PlanCards.jsx",
+      "lines": "6-47",
+      "quote": "export default function PlanCards"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "plans": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 2
+            },
+            "price": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 2
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 22
+            },
+            "promo": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 6
+            },
+            "cta": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 4
+                },
+                "href": {
+                  "type": "string",
+                  "minLength": 1,
+                  "x-linkField": true,
+                  "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "label",
+                "href"
+              ]
+            },
+            "highlight": {
+              "type": "boolean"
+            },
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "icon.pixel"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            },
+            "specs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 4
+                  },
+                  "value": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 3
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "value"
+                ]
+              },
+              "minItems": 1,
+              "maxItems": 8
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "price",
+            "description",
+            "cta",
+            "highlight",
+            "icon",
+            "specs"
+          ]
+        },
+        "minItems": 4,
+        "maxItems": 4
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "plans"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "columns": 1
+    },
+    "810": {
+      "columns": 1
+    },
+    "1200": {
+      "columns": 4
+    },
+    "evidence": [
+      {
+        "path": "src/components/PlanCards.jsx",
+        "lines": "8",
+        "quote": "grid grid-cols-1 lg:grid-cols-4"
+      }
+    ]
+  }
+}

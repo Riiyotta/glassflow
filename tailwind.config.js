@@ -1,0 +1,66 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    screens: {
+      md: '810px',
+      lg: '1200px',
+    },
+    extend: {
+      colors: {
+        page: '#492400',
+        panel: '#2D1804',
+        bar: '#2D1803',
+        deep: '#1D0E00',
+        line: '#5F3E1F',
+        amber: '#FFAC00',
+        link: '#D48F04',
+        cream: '#F1EFDF',
+        'cream-64': 'rgba(241,239,223,0.64)',
+        muted: '#8F8982',
+        'on-amber': '#1D0E00',
+        'btn-ink': '#341D03',
+        // product pages (specs/products.md §1.2)
+        'card-dark': '#1E0F00',
+        'amber-2': '#FFAA00',
+        'amber-tint': 'rgba(255,172,0,0.05)',
+        'table-band': '#54310F',
+        promo: '#5B3200',
+        'blog-title': '#E0E0E0',
+        'blog-muted': 'rgba(230,230,230,0.8)',
+        'traffic-red': '#FE5F57',
+        'traffic-yellow': '#FEBC2E',
+        'traffic-green': '#27C840',
+        // alternatives template (specs/products.md §5.1 + Appendix A)
+        'embed-line': '#553619',
+        'amber-hover': '#FFBD33',
+        'embed-hi': '#26140A',
+        'ok-bg': '#1F3A1A',
+        'ok-text': '#A6E3B8',
+        'no-bg': '#4A1607',
+        'no-text': '#FFB199',
+        strike: '#FF6A3D',
+        // build-vs-buy calculator (specs/products.md §6.1)
+        'calc-secondary': '#C9BBA0',
+        'calc-muted': '#8F8672',
+        'calc-danger': '#FF6B4A',
+        'calc-warning': '#FFC15C',
+        'calc-success': '#4ADE80',
+        'calc-border': 'rgba(255,220,180,0.14)',
+        'calc-accent-bg': 'rgba(255,172,0,0.16)',
+        'calc-success-bg': 'rgba(74,222,128,0.14)',
+      },
+      fontFamily: {
+        display: ['"Inter Display"', '"Inter Display Placeholder"', 'sans-serif'],
+        inter: ['"Inter"', '"Inter Placeholder"', 'sans-serif'],
+        mono: ['"Geist Mono"', 'monospace'],
+        sys: ['-apple-system', 'BlinkMacSystemFont', '"Segoe UI"', 'sans-serif'],
+        'sys-mono': ['"SF Mono"', 'Menlo', 'Consolas', 'monospace'],
+      },
+      spacing: {
+        gutter: '64px',
+      },
+    },
+  },
+  plugins: [],
+}

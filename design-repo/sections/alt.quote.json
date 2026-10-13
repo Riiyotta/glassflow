@@ -1,0 +1,102 @@
+{
+  "id": "alt.quote",
+  "family": "mars",
+  "category": "social-proof",
+  "purpose": "Restack quote panel (shared RIUS_QUOTE).",
+  "variants": {
+    "arize": "arize data",
+    "langfuse": "langfuse data"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Alternatives.jsx",
+      "lines": "482-488",
+      "quote": "function Quote()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 40
+      },
+      "person": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 4
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 6
+          },
+          "avatar": {
+            "type": "object",
+            "properties": {
+              "assetRole": {
+                "enum": [
+                  "person.real-photo"
+                ]
+              },
+              "ref": {
+                "type": "string",
+                "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 14
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "assetRole",
+              "ref",
+              "alt"
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "role",
+          "avatar"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "quote",
+      "person"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "single column, 16px section padding"
+    },
+    "810": {
+      "layout": "64px section padding"
+    },
+    "1200": {
+      "layout": "max 1200 (arize) / 1234 (langfuse)"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "291",
+        "quote": "px-4 md:px-16"
+      }
+    ]
+  },
+  "notes": "Native rebuild of the live iframe template; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
+}

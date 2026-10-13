@@ -1,0 +1,649 @@
+- generic [ref=f120e3]:
+  - generic [ref=f120e8]:
+    - link [ref=f120e9] [cursor=pointer]:
+      - /url: ../
+    - generic [ref=f120e13]:
+      - paragraph [ref=f120e17]: products
+      - link [ref=f120e22] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f120e25]: docs
+      - link [ref=f120e26] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=f120e29]: blog
+      - link [ref=f120e30] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f120e33]: contact
+    - link [ref=f120e35] [cursor=pointer]:
+      - /url: ../#quickstart
+      - paragraph [ref=f120e38]: get_started
+  - generic [ref=f120e43]:
+    - generic [ref=f120e46]:
+      - paragraph [ref=f120e53]:
+        - link "blog / …" [ref=f120e54] [cursor=pointer]:
+          - /url: ../blog
+      - generic [ref=f120e59]:
+        - generic [ref=f120e60]:
+          - generic [ref=f120e64]:
+            - paragraph [ref=f120e68] [cursor=pointer]: Agent Observability
+            - 'heading "How to Debug an AI Agent: A Step-by-Step Guide" [level=1] [ref=f120e70]':
+              - generic [ref=f120e71]: How
+              - generic [ref=f120e72]: to
+              - generic [ref=f120e73]: Debug
+              - generic [ref=f120e74]: an
+              - generic [ref=f120e75]: AI
+              - generic [ref=f120e76]: "Agent:"
+              - generic [ref=f120e77]: A
+              - generic [ref=f120e78]: Step-by-Step
+              - generic [ref=f120e79]: Guide
+            - paragraph [ref=f120e81]:
+              - generic [ref=f120e82]:
+                - generic [ref=f120e83]: H
+                - generic [ref=f120e84]: o
+                - generic [ref=f120e85]: w
+              - generic [ref=f120e86]:
+                - generic [ref=f120e87]: t
+                - generic [ref=f120e88]: o
+              - generic [ref=f120e89]:
+                - generic [ref=f120e90]: d
+                - generic [ref=f120e91]: e
+                - generic [ref=f120e92]: b
+                - generic [ref=f120e93]: u
+                - generic [ref=f120e94]: g
+              - generic [ref=f120e95]:
+                - generic [ref=f120e96]: a
+                - generic [ref=f120e97]: "n"
+              - generic [ref=f120e98]:
+                - generic [ref=f120e99]: A
+                - generic [ref=f120e100]: I
+              - generic [ref=f120e101]:
+                - generic [ref=f120e102]: a
+                - generic [ref=f120e103]: g
+                - generic [ref=f120e104]: e
+                - generic [ref=f120e105]: "n"
+                - generic [ref=f120e106]: t
+              - generic [ref=f120e107]:
+                - generic [ref=f120e108]: i
+                - generic [ref=f120e109]: "n"
+              - generic [ref=f120e110]:
+                - generic [ref=f120e111]: p
+                - generic [ref=f120e112]: r
+                - generic [ref=f120e113]: o
+                - generic [ref=f120e114]: d
+                - generic [ref=f120e115]: u
+                - generic [ref=f120e116]: c
+                - generic [ref=f120e117]: t
+                - generic [ref=f120e118]: i
+                - generic [ref=f120e119]: o
+                - generic [ref=f120e120]: "n"
+                - generic [ref=f120e121]: ":"
+              - generic [ref=f120e122]:
+                - generic [ref=f120e123]: f
+                - generic [ref=f120e124]: i
+                - generic [ref=f120e125]: "n"
+                - generic [ref=f120e126]: d
+              - generic [ref=f120e127]:
+                - generic [ref=f120e128]: t
+                - generic [ref=f120e129]: h
+                - generic [ref=f120e130]: e
+              - generic [ref=f120e131]:
+                - generic [ref=f120e132]: r
+                - generic [ref=f120e133]: u
+                - generic [ref=f120e134]: "n"
+                - generic [ref=f120e135]: ","
+              - generic [ref=f120e136]:
+                - generic [ref=f120e137]: t
+                - generic [ref=f120e138]: r
+                - generic [ref=f120e139]: a
+                - generic [ref=f120e140]: c
+                - generic [ref=f120e141]: e
+              - generic [ref=f120e142]:
+                - generic [ref=f120e143]: i
+                - generic [ref=f120e144]: t
+              - generic [ref=f120e145]:
+                - generic [ref=f120e146]: t
+                - generic [ref=f120e147]: o
+              - generic [ref=f120e148]:
+                - generic [ref=f120e149]: t
+                - generic [ref=f120e150]: h
+                - generic [ref=f120e151]: e
+              - generic [ref=f120e152]:
+                - generic [ref=f120e153]: f
+                - generic [ref=f120e154]: i
+                - generic [ref=f120e155]: r
+                - generic [ref=f120e156]: s
+                - generic [ref=f120e157]: t
+              - generic [ref=f120e158]:
+                - generic [ref=f120e159]: d
+                - generic [ref=f120e160]: i
+                - generic [ref=f120e161]: v
+                - generic [ref=f120e162]: e
+                - generic [ref=f120e163]: r
+                - generic [ref=f120e164]: g
+                - generic [ref=f120e165]: e
+                - generic [ref=f120e166]: "n"
+                - generic [ref=f120e167]: c
+                - generic [ref=f120e168]: e
+                - generic [ref=f120e169]: ","
+              - generic [ref=f120e170]:
+                - generic [ref=f120e171]: c
+                - generic [ref=f120e172]: l
+                - generic [ref=f120e173]: a
+                - generic [ref=f120e174]: s
+                - generic [ref=f120e175]: s
+                - generic [ref=f120e176]: i
+                - generic [ref=f120e177]: f
+                - generic [ref=f120e178]: "y"
+              - generic [ref=f120e179]:
+                - generic [ref=f120e180]: t
+                - generic [ref=f120e181]: h
+                - generic [ref=f120e182]: e
+              - generic [ref=f120e183]:
+                - generic [ref=f120e184]: f
+                - generic [ref=f120e185]: a
+                - generic [ref=f120e186]: i
+                - generic [ref=f120e187]: l
+                - generic [ref=f120e188]: u
+                - generic [ref=f120e189]: r
+                - generic [ref=f120e190]: e
+              - generic [ref=f120e191]:
+                - generic [ref=f120e192]: m
+                - generic [ref=f120e193]: o
+                - generic [ref=f120e194]: d
+                - generic [ref=f120e195]: e
+                - generic [ref=f120e196]: ","
+              - generic [ref=f120e197]:
+                - generic [ref=f120e198]: a
+                - generic [ref=f120e199]: "n"
+                - generic [ref=f120e200]: d
+              - generic [ref=f120e201]:
+                - generic [ref=f120e202]: s
+                - generic [ref=f120e203]: h
+                - generic [ref=f120e204]: i
+                - generic [ref=f120e205]: p
+              - generic [ref=f120e206]: a
+              - generic [ref=f120e208]:
+                - generic [ref=f120e209]: f
+                - generic [ref=f120e210]: i
+                - generic [ref=f120e211]: x
+                - generic [ref=f120e212]: .
+              - generic [ref=f120e213]: A
+              - generic [ref=f120e215]:
+                - generic [ref=f120e216]: s
+                - generic [ref=f120e217]: t
+                - generic [ref=f120e218]: e
+                - generic [ref=f120e219]: p
+                - generic [ref=f120e220]: "-"
+                - generic [ref=f120e221]: b
+                - generic [ref=f120e222]: "y"
+                - generic [ref=f120e223]: "-"
+                - generic [ref=f120e224]: s
+                - generic [ref=f120e225]: t
+                - generic [ref=f120e226]: e
+                - generic [ref=f120e227]: p
+              - generic [ref=f120e228]:
+                - generic [ref=f120e229]: g
+                - generic [ref=f120e230]: u
+                - generic [ref=f120e231]: i
+                - generic [ref=f120e232]: d
+                - generic [ref=f120e233]: e
+                - generic [ref=f120e234]: .
+                - generic [ref=f120e235]: "\""
+              - generic [ref=f120e236]:
+                - generic [ref=f120e237]: s
+                - generic [ref=f120e238]: l
+                - generic [ref=f120e239]: u
+                - generic [ref=f120e240]: g
+                - generic [ref=f120e241]: ":"
+              - generic [ref=f120e242]:
+                - generic [ref=f120e243]: "\""
+                - generic [ref=f120e244]: b
+                - generic [ref=f120e245]: l
+                - generic [ref=f120e246]: o
+                - generic [ref=f120e247]: g
+                - generic [ref=f120e248]: /
+                - generic [ref=f120e249]: w
+                - generic [ref=f120e250]: h
+                - generic [ref=f120e251]: a
+                - generic [ref=f120e252]: t
+                - generic [ref=f120e253]: "-"
+                - generic [ref=f120e254]: i
+                - generic [ref=f120e255]: s
+                - generic [ref=f120e256]: "-"
+                - generic [ref=f120e257]: a
+                - generic [ref=f120e258]: g
+                - generic [ref=f120e259]: e
+                - generic [ref=f120e260]: "n"
+                - generic [ref=f120e261]: t
+                - generic [ref=f120e262]: "-"
+                - generic [ref=f120e263]: o
+                - generic [ref=f120e264]: b
+                - generic [ref=f120e265]: s
+                - generic [ref=f120e266]: e
+                - generic [ref=f120e267]: r
+                - generic [ref=f120e268]: v
+                - generic [ref=f120e269]: a
+                - generic [ref=f120e270]: b
+                - generic [ref=f120e271]: i
+                - generic [ref=f120e272]: l
+                - generic [ref=f120e273]: i
+                - generic [ref=f120e274]: t
+                - generic [ref=f120e275]: "y"
+          - generic [ref=f120e277]:
+            - generic [ref=f120e283]:
+              - paragraph [ref=f120e285]: Written by
+              - paragraph [ref=f120e289]: Pablo Pardo Garcia
+            - generic [ref=f120e295]:
+              - paragraph [ref=f120e297]: Date added
+              - paragraph [ref=f120e299]:
+                - time [ref=f120e300]: Sep 21, 2026
+        - 'img "How to Debug an AI Agent: A Step-by-Step Guide" [ref=f120e308]'
+    - generic [ref=f120e314]:
+      - paragraph [ref=f120e315]: An agent ran for three hours and produced the wrong answer. Nothing crashed. No alert fired. A customer noticed before you did.
+      - paragraph [ref=f120e316]:
+        - text: "Debugging that is different from debugging a web service, and most of the difficulty is structural: the thing that failed and the thing that"
+        - strong [ref=f120e317]: caused
+        - text: the failure are often dozens of steps apart. This guide walks through a repeatable process for debugging an AI agent in production, including long-running agent runs that span restarts and sub-agents and how to make sure the same failure can't happen twice.
+      - 'img "How to Debug an AI Agent: A Step-by-Step Guide" [ref=f120e318]'
+      - heading [level=2] [ref=f120e319]:
+        - strong [ref=f120e320]: Why debugging agents is different
+      - paragraph [ref=f120e321]: A traditional service fails where it breaks. You get a stack trace at the point of failure, and the point of failure is usually the point of cause.
+      - paragraph [ref=f120e322]: Agents violate that assumption. An agent makes a sequence of decisions, each conditioned on the output of the last. A malformed tool argument at step 2 doesn't raise an error; rather it returns plausible-looking data that the agent happily builds on. Step 14 produces a confidently wrong result, and step 14 looks fine in isolation.
+      - paragraph [ref=f120e323]: "Three consequences follow, and they shape the whole process:"
+      - list [ref=f120e324]:
+        - listitem [ref=f120e325]:
+          - text: •
+          - paragraph [ref=f120e326]:
+            - strong [ref=f120e327]: The crash point is not the cause.
+            - text: You need the first
+            - strong [ref=f120e328]: divergence
+            - text: not the last error.
+        - listitem [ref=f120e329]:
+          - text: •
+          - paragraph [ref=f120e330]:
+            - strong [ref=f120e331]: Isolated steps look correct.
+            - text: Reviewing an individual LLM call rarely reveals the problem.
+        - listitem [ref=f120e332]:
+          - text: •
+          - paragraph [ref=f120e333]:
+            - strong [ref=f120e334]: Silent failures are the norm.
+            - text: "Many agent failures produce no error code at all. This is why agent observability differs from LLM logging: you need the whole run as one connected object, not a pile of independent events."
+      - heading [level=2] [ref=f120e335]:
+        - strong [ref=f120e336]: "Before you start: what you need in place"
+      - paragraph [ref=f120e337]: "You can't debug what you didn't capture. Minimum viable instrumentation:"
+      - list [ref=f120e338]:
+        - listitem [ref=f120e339]:
+          - text: •
+          - paragraph [ref=f120e340]:
+            - strong [ref=f120e341]: Every step as a span
+            - text: ": LLM calls (model, prompt, response, tokens, latency) and tool calls (name, arguments, response or error, latency)."
+        - listitem [ref=f120e342]:
+          - text: •
+          - paragraph [ref=f120e343]:
+            - strong [ref=f120e344]: A session ID
+            - text: linking every span in one run, and surviving process restarts.
+        - listitem [ref=f120e345]:
+          - text: •
+          - paragraph [ref=f120e346]:
+            - strong [ref=f120e347]: Sub-agent linkage
+            - text: ": child runs attributed to their parent."
+        - listitem [ref=f120e348]:
+          - text: •
+          - paragraph [ref=f120e349]:
+            - strong [ref=f120e350]: Trace-level querying
+            - text: ", not just text search over logs. \"Show me the run\" has to be one query."
+      - paragraph [ref=f120e351]: If you're missing the session ID or restart continuity, fix that first. Everything below depends on it.
+      - heading [level=2] [ref=f120e352]:
+        - strong [ref=f120e353]: The six-step process
+      - heading [level=3] [ref=f120e354]:
+        - strong [ref=f120e355]: "Step 1: Pin the symptom precisely"
+      - paragraph [ref=f120e356]: "Before opening a trace, write down what \"wrong\" means in one sentence: wrong output, no output, took too long, cost too much, or did something it shouldn't have. Each points at a different part of the run. \"The agent is broken\" is not a debuggable statement; \"the quarterly report omitted the security section\" is."
+      - paragraph [ref=f120e357]: Note the timestamp, the affected user or tenant, and the agent name. You'll need them to find the run.
+      - img "The six steps to debug an AI Agent" [ref=f120e358]
+      - heading [level=3] [ref=f120e359]:
+        - strong [ref=f120e360]: "Step 2: Find the run, not the log line"
+      - paragraph [ref=f120e361]: Retrieve the whole session, not the error that surfaced. You want one continuous timeline from first step to last, including retries and sub-agents. If your tooling returns forty separate log entries for one run, you're already fighting it.
+      - paragraph [ref=f120e362]:
+        - text: With
+        - link "Rius" [ref=f120e363] [cursor=pointer]:
+          - /url: ../rius
+        - text: "you can do this from your dashboard or MCP: \"show me the failed run for user X around 02:00\" and get the session back without wasting time figuring out what went wrong."
+      - heading [level=3] [ref=f120e364]:
+        - strong [ref=f120e365]: "Step 3: Walk forward to the first divergence"
+      - paragraph [ref=f120e366]:
+        - text: "This is the step that matters most, and the one most people skip. Start at the beginning and move forward, asking at each step:"
+        - strong [ref=f120e367]: is this what I expected?
+        - text: Stop at the first step where the answer is no, even if it produced no error and even if the visible failure came much later.
+      - paragraph [ref=f120e368]: "Practical signals of divergence:"
+      - list [ref=f120e369]:
+        - listitem [ref=f120e370]:
+          - text: •
+          - paragraph [ref=f120e371]: A tool returned success with empty, truncated, or default data
+        - listitem [ref=f120e372]:
+          - text: •
+          - paragraph [ref=f120e373]: A step's input doesn't match the previous step's output
+        - listitem [ref=f120e374]:
+          - text: •
+          - paragraph [ref=f120e375]: The agent's stated plan changed without a triggering event
+        - listitem [ref=f120e376]:
+          - text: •
+          - paragraph [ref=f120e377]: Latency or token count for a step is a clear outlier
+        - listitem [ref=f120e378]:
+          - text: •
+          - paragraph [ref=f120e379]: The same step appears repeatedly with identical arguments
+      - paragraph [ref=f120e380]:
+        - text: Resist the pull of the crash point. The error at the end is usually a
+        - strong [ref=f120e381]: symptom
+        - text: of a divergence much earlier.
+      - heading [level=3] [ref=f120e382]:
+        - strong [ref=f120e383]: "Step 4: Inspect that step's inputs and outputs"
+      - paragraph [ref=f120e384]: "At the divergence, read the full input and full output. Most root causes are visible here: a wrong argument type, a missing field, a truncated prompt, a tool response the agent misread as valid, or a constraint from step 1 that's no longer in context. Ask specifically: did the agent receive what it needed, and did it interpret what it received correctly? Those are two different failures with two different fixes."
+      - heading [level=3] [ref=f120e385]:
+        - strong [ref=f120e386]: "Step 5: Classify the failure mode"
+      - paragraph [ref=f120e387]:
+        - text: Naming the failure tells you where the fix belongs. The
+        - link "common agent failure modes" [ref=f120e388] [cursor=pointer]:
+          - /url: ./ai-agent-failure-modes
+        - text: ":"
+      - figure [ref=f120e389]:
+        - table [ref=f120e390]:
+          - rowgroup [ref=f120e391]:
+            - row [ref=f120e392]:
+              - cell [ref=f120e393]:
+                - paragraph [ref=f120e394]:
+                  - strong [ref=f120e395]: Failure mode
+              - cell [ref=f120e396]:
+                - paragraph [ref=f120e397]:
+                  - strong [ref=f120e398]: Typical fix location
+            - row [ref=f120e399]:
+              - cell [ref=f120e400]:
+                - paragraph [ref=f120e401]: Tool misuse (wrong args, wrong tool)
+              - cell [ref=f120e402]:
+                - paragraph [ref=f120e403]: Tool schema, argument validation
+            - row [ref=f120e404]:
+              - cell [ref=f120e405]:
+                - paragraph [ref=f120e406]: Silent empty response
+              - cell [ref=f120e407]:
+                - paragraph [ref=f120e408]: Response validation before use
+            - row [ref=f120e409]:
+              - cell [ref=f120e410]:
+                - paragraph [ref=f120e411]: Context loss
+              - cell [ref=f120e412]:
+                - paragraph [ref=f120e413]: Prompt/context management, constraint pinning
+            - row [ref=f120e414]:
+              - cell [ref=f120e415]:
+                - paragraph [ref=f120e416]: Goal drift
+              - cell [ref=f120e417]:
+                - paragraph [ref=f120e418]: Persistent objective tracking
+            - row [ref=f120e419]:
+              - cell [ref=f120e420]:
+                - paragraph [ref=f120e421]: Retry loop / stall
+              - cell [ref=f120e422]:
+                - paragraph [ref=f120e423]: Backoff, loop detection, escalation path
+            - row [ref=f120e424]:
+              - cell [ref=f120e425]:
+                - paragraph [ref=f120e426]: Cascading sub-agent error
+              - cell [ref=f120e427]:
+                - paragraph [ref=f120e428]: Input validation at agent boundaries
+      - link [ref=f120e429] [cursor=pointer]:
+        - /url: ./ai-agent-failure-modes
+        - img "AI Agent failure modes" [ref=f120e430]
+      - paragraph [ref=f120e431]:
+        - link "Check our full taxonomy of agent failure modes" [ref=f120e432] [cursor=pointer]:
+          - /url: ./ai-agent-failure-modes
+        - text: and how to detect each for more detailed read.
+      - heading [level=3] [ref=f120e433]:
+        - strong [ref=f120e434]: "Step 6: Fix it, then make it unrepeatable"
+      - paragraph [ref=f120e435]: "Ship the fix, then close the loop so the failure becomes a regression check: capture the triggering conditions from the real trace, define the expected behavior, and add it to your test set. Add an alert on the signal that would have caught it earlier: step-count outliers, empty tool responses, or quality scores rather than error rate alone."
+      - paragraph [ref=f120e436]: A fix without a check means you'll debug this again in six weeks.
+      - heading [level=2] [ref=f120e437]:
+        - strong [ref=f120e438]: "Example: the report that lost its second half"
+      - paragraph [ref=f120e439]:
+        - strong [ref=f120e440]: Symptom
+        - text: .
+      - paragraph [ref=f120e441]:
+        - text: A reporting agent was asked to summarize quarterly metrics
+        - strong [ref=f120e442]: and
+        - text: flag anomalies. It returned a polished metrics summary with no anomaly section. No errors. 41 minutes, 19 steps.
+      - paragraph [ref=f120e443]:
+        - strong [ref=f120e444]: Find the run.
+      - paragraph [ref=f120e445]: Pull the full session for that user and timestamp, all 19 steps, including one restart at step 11.
+      - paragraph [ref=f120e446]:
+        - strong [ref=f120e447]: Walk to the first divergence.
+      - paragraph [ref=f120e448]:
+        - text: Steps 1–6 look right. At
+        - strong [ref=f120e449]: step 7
+        - text: ", a `"
+        - code [ref=f120e450]: fetch_anomalies
+        - text: "` tool call returns HTTP 200 with an empty array. The agent treats \"no data returned\" as \"no anomalies exist\" and drops the objective from its working plan. Steps 8–19 elaborate the metrics section, each individually coherent. The restart at step 11 reloads context that already excludes the anomaly objective, cementing the loss."
+      - paragraph [ref=f120e451]:
+        - strong [ref=f120e452]: Inspect step 7.
+      - paragraph [ref=f120e453]: The tool call was made with a date range that had been serialized incorrectly after an upstream formatting change, a valid request for a window containing no data. The tool behaved correctly. The agent's interpretation was the failure.
+      - paragraph [ref=f120e454]:
+        - strong [ref=f120e455]: Classify.
+      - paragraph [ref=f120e456]: "Two compounding modes: a silent empty response (step 7) and goal drift (steps 8 onward), with the restart making it permanent."
+      - paragraph [ref=f120e457]:
+        - strong [ref=f120e458]: Fix.
+      - paragraph [ref=f120e459]:
+        - text: Validate the date range before the call; treat an empty result as
+        - strong [ref=f120e460]: unverified
+        - text: rather than
+        - strong [ref=f120e461]: negative
+        - text: ; keep both objectives in a persistent checklist that survives restarts.
+      - paragraph [ref=f120e462]:
+        - strong [ref=f120e463]: Prevent.
+      - paragraph [ref=f120e464]:
+        - text: "Add a regression case where `"
+        - code [ref=f120e465]: fetch_anomalies
+        - text: "` returns empty and assert the agent still reports the anomaly objective as incomplete. Alert on runs that finish having addressed fewer objectives than requested. Note what this required: seeing step 7 and step 19 as parts of one run,"
+        - strong [ref=f120e466]: across a restart
+        - text: . In tooling that treats each LLM call as an independent event, step 7 looks like a successful call and step 19 looks like a fine summary. The failure lives in the relationship between them.
+      - heading [level=2] [ref=f120e467]:
+        - strong [ref=f120e468]: Debugging long-running agents specifically
+      - paragraph [ref=f120e469]: Long runs add three complications worth handling explicitly.
+      - list [ref=f120e470]:
+        - listitem [ref=f120e471]:
+          - paragraph [ref=f120e472]:
+            - strong [ref=f120e473]: Restarts fragment the story.
+      - paragraph [ref=f120e474]: If a restart starts a new trace, you lose the causal chain exactly where it matters. Your session ID must survive the restart; that's what one continuous session across restarts and sub-agents means in practice.
+      - list [ref=f120e475]:
+        - listitem [ref=f120e476]:
+          - paragraph [ref=f120e477]:
+            - strong [ref=f120e478]: The evidence expires.
+      - paragraph [ref=f120e479]: A failure reported Monday about a run from three weeks ago is undebuggable if the trace has been deleted. Retention that keeps older traces queryable is a debugging requirement, not a compliance nicety.
+      - list [ref=f120e480]:
+        - listitem [ref=f120e481]:
+          - paragraph [ref=f120e482]:
+            - strong [ref=f120e483]: You should catch it live.
+      - paragraph [ref=f120e484]: For runs measured in hours, post-hoc debugging is the expensive path. Real-time visibility plus alerts on the right signals turn a three-hour wrong answer into a five-minute intervention.
+      - heading [level=2] [ref=f120e485]:
+        - strong [ref=f120e486]: Common mistakes
+      - list [ref=f120e487]:
+        - listitem [ref=f120e488]:
+          - text: •
+          - paragraph [ref=f120e489]: Starting at the error instead of the beginning.
+        - listitem [ref=f120e490]:
+          - text: •
+          - paragraph [ref=f120e491]: Reviewing one LLM call in isolation.
+        - listitem [ref=f120e492]:
+          - text: •
+          - paragraph [ref=f120e493]: Trusting HTTP 200 as proof of a useful response.
+        - listitem [ref=f120e494]:
+          - text: •
+          - paragraph [ref=f120e495]: Alerting only on error rate, which misses every silent failure.
+        - listitem [ref=f120e496]:
+          - text: •
+          - paragraph [ref=f120e497]: Fixing the symptom step rather than the divergence step.
+        - listitem [ref=f120e498]:
+          - text: •
+          - paragraph [ref=f120e499]: And debugging without the full session, which is less "debugging" than guessing.
+      - heading "FAQ" [level=3] [ref=f120e500]
+      - list [ref=f120e501]:
+        - listitem [ref=f120e502]:
+          - paragraph [ref=f120e503]:
+            - strong [ref=f120e504]: How do you debug an AI agent that fails silently?
+      - paragraph [ref=f120e505]: Don't look for an error; look for the first divergence. Retrieve the full run and walk forward from the start until a step's output stops matching what you'd expect, paying attention to tool calls that returned success with empty or default data. Silent failures are found by comparing intent to behavior across the run, not by scanning for error codes.
+      - list [ref=f120e506]:
+        - listitem [ref=f120e507]:
+          - paragraph [ref=f120e508]:
+            - strong [ref=f120e509]: What's the difference between debugging an LLM call and debugging an agent?
+      - paragraph [ref=f120e510]:
+        - text: An LLM call is one input and one output, so you can evaluate it in isolation. An agent is a sequence of interdependent steps, so failures usually live in the relationship
+        - strong [ref=f120e511]: between
+        - text: "steps: a bad output at step 3 corrupting step 12. Debugging agents means reading the whole run as one causal chain."
+      - list [ref=f120e512]:
+        - listitem [ref=f120e513]:
+          - paragraph [ref=f120e514]:
+            - strong [ref=f120e515]: How do I find the root cause of an agent failure?
+      - paragraph [ref=f120e516]: Walk the run forward from the first step and stop at the earliest point where behavior diverged from expectation, then inspect that step's full inputs and outputs. The root cause is almost always at the first divergence, not at the step where the visible error appeared.
+      - list [ref=f120e517]:
+        - listitem [ref=f120e518]:
+          - paragraph [ref=f120e519]:
+            - strong [ref=f120e520]: What tools do I need to debug agents in production?
+      - paragraph [ref=f120e521]: "At minimum: span-level instrumentation of every LLM and tool call, a session ID that links all steps in a run and survives restarts, sub-agent linkage, and the ability to query at the trace level. Agent observability platforms provide this; log dashboards and chat-focused LLM tools generally don't preserve the causal chain."
+      - list [ref=f120e522]:
+        - listitem [ref=f120e523]:
+          - paragraph [ref=f120e524]:
+            - strong [ref=f120e525]: How do I stop the same agent failure from recurring?
+      - paragraph [ref=f120e526]: Convert each diagnosed failure into a regression test built from the real trace (the triggering inputs plus the expected behavior) and add an alert on the signal that would have caught it earlier, such as empty tool responses, step-count outliers, or objective-completion checks rather than error rate alone.
+      - list [ref=f120e527]:
+        - listitem [ref=f120e528]:
+          - paragraph [ref=f120e529]:
+            - strong [ref=f120e530]: Debug agent runs where you already work
+      - paragraph [ref=f120e531]:
+        - text: "Debugging an AI agent comes down to one discipline: see the whole run, and find the first divergence rather than the last error. Everything else follows from that. GlassFlow keeps every step of every run as one continuous session, across restarts and sub-agents, queryable in milliseconds, and lets you ask your traces questions straight from your coding agent. If you need more information,"
+        - link "get in touch" [ref=f120e532] [cursor=pointer]:
+          - /url: ../contact
+        - text: .
+    - generic [ref=f120e537]:
+      - heading "Share the article" [level=2] [ref=f120e544]
+      - generic [ref=f120e547]:
+        - button "Share on X" [ref=f120e548] [cursor=pointer]
+        - button "Share on Facebook" [ref=f120e551] [cursor=pointer]
+        - button "Share on LinkedIn" [ref=f120e554] [cursor=pointer]
+        - button "Share on Reddit" [ref=f120e557] [cursor=pointer]
+        - button "Copy link" [ref=f120e560] [cursor=pointer]
+        - button "Share" [ref=f120e564] [cursor=pointer]
+    - generic [ref=f120e570]:
+      - paragraph [ref=f120e574]: You might also like
+      - generic [ref=f120e576]:
+        - link [ref=f120e577] [cursor=pointer]:
+          - /url: ./ai-agent-failure-modes
+          - link [ref=f120e580]:
+            - generic [ref=f120e586]:
+              - 'img "AI agent failure modes: the seven ways agents fail in production" [ref=f120e590]'
+              - generic [ref=f120e591]:
+                - paragraph [ref=f120e595]: Agent Infrastructure
+                - paragraph [ref=f120e597]: "AI agent failure modes: the seven ways agents fail in production"
+                - paragraph [ref=f120e599]: "The seven ways AI agents fail in production: tool misuse, context loss, goal drift, retry loops, frozen agents, cascading errors & silent degradation."
+            - generic [ref=f120e600]:
+              - paragraph [ref=f120e603]: Written by
+              - paragraph [ref=f120e608]: Pablo Pardo Garcia
+            - link [ref=f120e609]:
+              - generic [ref=f120e612]:
+                - paragraph [ref=f120e614]: read article
+                - paragraph [ref=f120e616]: read article
+        - link [ref=f120e617] [cursor=pointer]:
+          - /url: ./agents-in-production-context-failure
+          - link [ref=f120e620]:
+            - generic [ref=f120e626]:
+              - 'img "Why AI Agents Fail in Production: Context, Not Reasoning" [ref=f120e630]'
+              - generic [ref=f120e631]:
+                - paragraph [ref=f120e635]: Data for Agents
+                - paragraph [ref=f120e637]: "Agents in production: what looks like a reasoning failure is usually a context failure"
+                - paragraph [ref=f120e639]: When an AI agent fails in production, it's usually reasoning correctly over stale, partial, or lossy inputs, not hallucinating. Why, and how context fixes it.
+            - generic [ref=f120e640]:
+              - paragraph [ref=f120e643]: Written by
+              - paragraph [ref=f120e648]: Ashish Bagri
+            - link [ref=f120e649]:
+              - generic [ref=f120e652]:
+                - paragraph [ref=f120e654]: read article
+                - paragraph [ref=f120e656]: read article
+        - link [ref=f120e657] [cursor=pointer]:
+          - /url: ./cost-self-hosting-your-agent-observability-stack
+          - link [ref=f120e660]:
+            - generic [ref=f120e666]:
+              - img "The real cost of self-hosting your agent observability stack" [ref=f120e670]
+              - generic [ref=f120e671]:
+                - paragraph [ref=f120e675]: Agent Observability
+                - paragraph [ref=f120e677]: The real cost of self-hosting your agent observability stack
+                - paragraph [ref=f120e679]: "What it really costs to self-host Langfuse, Phoenix, or Laminar: ClickHouse and infra requirements, engineering hours, and real AWS pricing, single node vs. high availability"
+            - generic [ref=f120e680]:
+              - paragraph [ref=f120e683]: Written by
+              - paragraph [ref=f120e688]: Armend Avdijaj
+            - link [ref=f120e689]:
+              - generic [ref=f120e692]:
+                - paragraph [ref=f120e694]: read article
+                - paragraph [ref=f120e696]: read article
+    - generic [ref=f120e703]:
+      - generic [ref=f120e704]:
+        - paragraph [ref=f120e706]: Two products. Two starting points.
+        - generic [ref=f120e707]:
+          - paragraph [ref=f120e708]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and
+          - paragraph [ref=f120e709]: retention, from first span to production.
+      - generic [ref=f120e710]:
+        - link [ref=f120e712] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+          - paragraph [ref=f120e717]: star Tares on GitHub
+        - link [ref=f120e719] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/guides
+          - paragraph [ref=f120e724]: read the Rius guides
+  - generic [ref=f120e729]:
+    - generic [ref=f120e731]:
+      - paragraph [ref=f120e735]: Ready to give your agents better data and total recall?
+      - generic [ref=f120e736]:
+        - generic [ref=f120e739]:
+          - generic [ref=f120e740]:
+            - paragraph [ref=f120e742]: Start with Tares
+            - paragraph [ref=f120e744]: Feed your agents the right data.
+          - link [ref=f120e746] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f120e751]: get_started
+        - generic [ref=f120e758]:
+          - generic [ref=f120e759]:
+            - paragraph [ref=f120e761]: Start with Rius
+            - paragraph [ref=f120e763]: See and debug agents in production.
+          - link [ref=f120e765] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f120e770]: get_started
+    - generic [ref=f120e776]:
+      - generic [ref=f120e778]:
+        - paragraph [ref=f120e785]: products
+        - generic [ref=f120e790]:
+          - link [ref=f120e791] [cursor=pointer]:
+            - /url: ../tares
+            - generic [ref=f120e796]:
+              - paragraph [ref=f120e798]: tares
+              - paragraph [ref=f120e800]: Feed your agents the right data. Open source
+          - link [ref=f120e801] [cursor=pointer]:
+            - /url: ../rius
+            - generic [ref=f120e806]:
+              - paragraph [ref=f120e808]: rius
+              - paragraph [ref=f120e810]: See what your agents did in production.
+      - generic [ref=f120e811]:
+        - link [ref=f120e812] [cursor=pointer]:
+          - /url: ../contact
+          - paragraph [ref=f120e818]: contact
+        - link [ref=f120e819] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f120e825]: docs
+        - link [ref=f120e826] [cursor=pointer]:
+          - /url: ../blog
+          - paragraph [ref=f120e832]: blog
+        - link [ref=f120e833] [cursor=pointer]:
+          - /url: ../about
+          - paragraph [ref=f120e839]: about
+      - generic [ref=f120e840]:
+        - link [ref=f120e841] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f120e843] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f120e845] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f120e848]:
+      - paragraph [ref=f120e850]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f120e852]:
+        - link "Terms & Conditions" [ref=f120e853] [cursor=pointer]:
+          - /url: ../terms-of-service
+      - paragraph [ref=f120e855]:
+        - link "Privacy Policy" [ref=f120e856] [cursor=pointer]:
+          - /url: ../privacy-policy

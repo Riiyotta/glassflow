@@ -1,0 +1,22 @@
+{
+  "id": "button-big-amber",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Primary amber CTA [label][arrow cell] inside a 4px amber frame; arrow rolls up 30px on hover.",
+  "props": {
+    "label": "lowercase_with_underscores on Mars (get_started)",
+    "href": "link",
+    "arrow": "bool (false = label-only, content-page bands)"
+  },
+  "tokens": [
+    "component.button.big-amber"
+  ],
+  "motionPattern": "amber-button-hover",
+  "implementedBy": [
+    {
+      "path": "src/components/ui.jsx",
+      "lines": "43-64",
+      "quote": "export function BigButton"
+    }
+  ]
+}

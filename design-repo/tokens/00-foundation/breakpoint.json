@@ -1,0 +1,51 @@
+{
+  "$description": "Tailwind screens md 810 / lg 1200 (mobile-first); 390 is the measured mobile width.",
+  "mobile": {
+    "$value": 390,
+    "kind": "measured-viewport",
+    "measuredFrom": [
+      {
+        "path": "CLONE_SPEC.md",
+        "lines": "5",
+        "quote": "Measured live (Playwright, Chromium) at 1440x900, 810x1080, 390x844"
+      }
+    ]
+  },
+  "md": {
+    "$value": 810,
+    "kind": "min-width",
+    "measuredFrom": [
+      {
+        "path": "tailwind.config.js",
+        "lines": "6",
+        "quote": "md: '810px'"
+      }
+    ]
+  },
+  "lg": {
+    "$value": 1200,
+    "kind": "min-width",
+    "measuredFrom": [
+      {
+        "path": "tailwind.config.js",
+        "lines": "7",
+        "quote": "lg: '1200px'"
+      }
+    ]
+  },
+  "desktop-measure": {
+    "$value": 1440,
+    "kind": "measured-viewport"
+  },
+  "hairline-overlay-from": {
+    "$value": 810,
+    "note": "shell column edge lines only drawn >=810",
+    "measuredFrom": [
+      {
+        "path": "src/index.css",
+        "lines": "54",
+        "quote": "@media (min-width: 810px) {"
+      }
+    ]
+  }
+}

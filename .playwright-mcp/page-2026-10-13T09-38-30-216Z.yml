@@ -1,0 +1,202 @@
+- generic [ref=f104e3]:
+  - generic [ref=f104e8]:
+    - link [ref=f104e9] [cursor=pointer]:
+      - /url: ../
+    - generic [ref=f104e13]:
+      - paragraph [ref=f104e17]: products
+      - link [ref=f104e22] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f104e25]: docs
+      - link [ref=f104e26] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=f104e29]: blog
+      - link [ref=f104e30] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f104e33]: contact
+    - link [ref=f104e35] [cursor=pointer]:
+      - /url: ../#quickstart
+      - paragraph [ref=f104e38]: get_started
+  - generic [ref=f104e50]:
+    - heading "Is building your own agent observability cheaper than Rius?" [level=1] [ref=f104e53]
+    - button "Assumptions behind this estimate ▾" [ref=f104e57] [cursor=pointer]:
+      - generic [ref=f104e58]: Assumptions behind this estimate
+      - generic [ref=f104e59]: ▾
+    - generic [ref=f104e62]:
+      - generic [ref=f104e63]:
+        - heading "Inputs" [level=2] [ref=f104e64]
+        - generic [ref=f104e65]:
+          - generic [ref=f104e66]: Monthly traces
+          - generic [ref=f104e67]:
+            - button "10k traces/mo" [ref=f104e68] [cursor=pointer]:
+              - generic [ref=f104e69]: 10k
+              - generic [ref=f104e70]: traces/mo
+            - button "100k traces/mo" [ref=f104e71] [cursor=pointer]:
+              - generic [ref=f104e72]: 100k
+              - generic [ref=f104e73]: traces/mo
+            - button "500k traces/mo" [ref=f104e74] [cursor=pointer]:
+              - generic [ref=f104e75]: 500k
+              - generic [ref=f104e76]: traces/mo
+            - button "1M traces/mo" [ref=f104e77] [cursor=pointer]:
+              - generic [ref=f104e78]: 1M
+              - generic [ref=f104e79]: traces/mo
+            - button "2M traces/mo" [ref=f104e80] [cursor=pointer]:
+              - generic [ref=f104e81]: 2M
+              - generic [ref=f104e82]: traces/mo
+            - button "5M traces/mo" [ref=f104e83] [cursor=pointer]:
+              - generic [ref=f104e84]: 5M
+              - generic [ref=f104e85]: traces/mo
+          - paragraph [ref=f104e86]: A trace typically represents one end-to-end agent or workflow execution.
+        - generic [ref=f104e87]:
+          - generic [ref=f104e88]: Who would build this internally?
+          - generic [ref=f104e89]:
+            - button "Junior engineer ~$40/hr 119h build · 8h/mo maint" [ref=f104e90] [cursor=pointer]:
+              - generic [ref=f104e91]: Junior engineer
+              - generic [ref=f104e92]: ~$40/hr
+              - generic [ref=f104e93]: 119h build · 8h/mo maint
+            - button "Mid-level engineer ~$65/hr 80h build · 5.3h/mo maint" [ref=f104e94] [cursor=pointer]:
+              - generic [ref=f104e95]: Mid-level engineer
+              - generic [ref=f104e96]: ~$65/hr
+              - generic [ref=f104e97]: 80h build · 5.3h/mo maint
+            - button "Senior engineer ~$90/hr 60h build · 4h/mo maint" [ref=f104e98] [cursor=pointer]:
+              - generic [ref=f104e99]: Senior engineer
+              - generic [ref=f104e100]: ~$90/hr
+              - generic [ref=f104e101]: 60h build · 4h/mo maint
+        - generic [ref=f104e102]:
+          - generic [ref=f104e103]: How much does AI coding accelerate your team?
+          - generic [ref=f104e104]:
+            - button "Conservative 15% faster build 10% faster maintenance" [ref=f104e105] [cursor=pointer]:
+              - generic [ref=f104e106]: Conservative
+              - generic [ref=f104e107]: 15% faster build
+              - generic [ref=f104e108]: 10% faster maintenance
+            - button "Typical 25% faster build 15% faster maintenance" [ref=f104e109] [cursor=pointer]:
+              - generic [ref=f104e110]: Typical
+              - generic [ref=f104e111]: 25% faster build
+              - generic [ref=f104e112]: 15% faster maintenance
+            - button "AI-native 45% faster build 20% faster maintenance" [ref=f104e113] [cursor=pointer]:
+              - generic [ref=f104e114]: AI-native
+              - generic [ref=f104e115]: 45% faster build
+              - generic [ref=f104e116]: 20% faster maintenance
+        - button "Advanced settings ▾" [ref=f104e117] [cursor=pointer]
+      - generic [ref=f104e118]:
+        - heading "Results" [level=2] [ref=f104e119]
+        - generic [ref=f104e120]:
+          - generic [ref=f104e121]: Rius vs Self-Built
+          - generic [ref=f104e122]:
+            - generic [ref=f104e123]:
+              - generic [ref=f104e124]: Self-Built
+              - generic [ref=f104e125]: $943/mo
+            - generic [ref=f104e126]: vs
+            - generic [ref=f104e127]:
+              - generic [ref=f104e128]: Rius Core
+              - generic [ref=f104e129]: $19/mo
+              - list [ref=f104e130]:
+                - listitem [ref=f104e131]: ✓ 48h support response
+                - listitem [ref=f104e132]: ✓ SLA available as add-on
+          - generic [ref=f104e133]: You save $924/mo · $11,087/year with Rius
+          - paragraph [ref=f104e134]: 100k traces/mo · 50 KB avg. trace · 30-day retention · Mid-level engineer · Typical AI acceleration
+          - link "Get started" [ref=f104e135] [cursor=pointer]:
+            - /url: https://eu.console.rius-glassflow.com
+        - generic [ref=f104e136]:
+          - generic [ref=f104e137]:
+            - generic [ref=f104e138]: Infrastructure
+            - generic [ref=f104e139]: $37/mo
+          - generic [ref=f104e140]:
+            - generic [ref=f104e141]: Engineering
+            - generic [ref=f104e142]: $906/mo
+            - generic [ref=f104e143]: 79.5h build · 7.3h/mo ongoing
+          - generic [ref=f104e144]:
+            - generic [ref=f104e145]: 12-month effective monthly cost
+            - generic [ref=f104e146]: $943/mo
+            - generic [ref=f104e147]: Initial build amortized over 12 months + ongoing maintenance + infrastructure.
+        - generic [ref=f104e148]: Costs Breakdown
+        - generic [ref=f104e149]:
+          - generic [ref=f104e150]: Infrastructure
+          - generic [ref=f104e151]: 4.8 GB ingested/mo → 4.8 GB stored (30d retention)
+          - generic [ref=f104e152]:
+            - generic [ref=f104e153]: Database (Supabase Pro)
+            - generic [ref=f104e154]: $25
+          - generic [ref=f104e155]:
+            - generic [ref=f104e156]: Hosting (Railway Managed)
+            - generic [ref=f104e157]: $7
+          - generic [ref=f104e158]:
+            - generic [ref=f104e159]: Query & processing compute
+            - generic [ref=f104e160]: $5
+          - generic [ref=f104e162]:
+            - generic [ref=f104e163]: Infrastructure total
+            - generic [ref=f104e164]: $37
+          - generic [ref=f104e165]: Engineering
+          - generic [ref=f104e166]: Initial build
+          - generic [ref=f104e167]: 106 hrs raw × 0.75 (Mid-level engineer + Typical AI acceleration) = 79.5 hrs effective
+          - generic [ref=f104e168]: × $65/hr = $5,168
+          - generic [ref=f104e169]: Amortised over 12 months = $431/mo
+          - generic [ref=f104e170]: Feature maintenance
+          - generic [ref=f104e171]: 6.3 hrs/mo raw × 0.85 (Mid-level engineer + Typical AI acceleration) = 5.3 hrs/mo effective
+          - generic [ref=f104e172]: × $65/hr = $345/mo
+          - generic [ref=f104e173]: Operational overhead
+          - generic [ref=f104e174]: 2 hrs/mo × $65/hr = $130/mo
+          - generic [ref=f104e176]:
+            - generic [ref=f104e177]: Engineering total
+            - generic [ref=f104e178]: $906/mo
+          - generic [ref=f104e180]:
+            - generic [ref=f104e181]: 12-month effective monthly cost
+            - generic [ref=f104e182]: $943/mo
+  - generic [ref=f104e187]:
+    - generic [ref=f104e189]:
+      - paragraph [ref=f104e193]: Ready to give your agents better data and total recall?
+      - generic [ref=f104e194]:
+        - generic [ref=f104e197]:
+          - generic [ref=f104e198]:
+            - paragraph [ref=f104e200]: Start with Tares
+            - paragraph [ref=f104e202]: Feed your agents the right data.
+          - link [ref=f104e204] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f104e209]: get_started
+        - generic [ref=f104e216]:
+          - generic [ref=f104e217]:
+            - paragraph [ref=f104e219]: Start with Rius
+            - paragraph [ref=f104e221]: See and debug agents in production.
+          - link [ref=f104e223] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f104e228]: get_started
+    - generic [ref=f104e234]:
+      - generic [ref=f104e236]:
+        - paragraph [ref=f104e243]: products
+        - generic [ref=f104e248]:
+          - link [ref=f104e249] [cursor=pointer]:
+            - /url: ../tares
+            - generic [ref=f104e254]:
+              - paragraph [ref=f104e256]: tares
+              - paragraph [ref=f104e258]: Feed your agents the right data. Open source
+          - link [ref=f104e259] [cursor=pointer]:
+            - /url: ../rius
+            - generic [ref=f104e264]:
+              - paragraph [ref=f104e266]: rius
+              - paragraph [ref=f104e268]: See what your agents did in production.
+      - generic [ref=f104e269]:
+        - link [ref=f104e270] [cursor=pointer]:
+          - /url: ../contact
+          - paragraph [ref=f104e276]: contact
+        - link [ref=f104e277] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f104e283]: docs
+        - link [ref=f104e284] [cursor=pointer]:
+          - /url: ../blog
+          - paragraph [ref=f104e290]: blog
+        - link [ref=f104e291] [cursor=pointer]:
+          - /url: ../about
+          - paragraph [ref=f104e297]: about
+      - generic [ref=f104e298]:
+        - link [ref=f104e299] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f104e301] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f104e303] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f104e306]:
+      - paragraph [ref=f104e308]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f104e310]:
+        - link "Terms & Conditions" [ref=f104e311] [cursor=pointer]:
+          - /url: ../terms-of-service
+      - paragraph [ref=f104e313]:
+        - link "Privacy Policy" [ref=f104e314] [cursor=pointer]:
+          - /url: ../privacy-policy

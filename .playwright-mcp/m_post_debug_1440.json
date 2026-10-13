@@ -1,0 +1,6684 @@
+{
+  "url": "https://www.glassflow.ai/blog/how-to-debug-an-ai-agent",
+  "title": "How to Debug an AI Agent: A Step-by-Step Guide",
+  "H": 10554,
+  "W": 1440,
+  "bodyBg": "rgb(73, 36, 0)",
+  "text": [
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        229,
+        11,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        342,
+        11,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        408,
+        11,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(143, 137, 130)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        473,
+        11,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1232,
+        11,
+        92,
+        18
+      ],
+      "f": "Geist Mono Variable",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(29, 14, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog / …",
+      "r": [
+        688,
+        81,
+        65,
+        21
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "300",
+      "ls": "-0.28px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Agent Observability",
+      "r": [
+        106,
+        180,
+        138,
+        12
+      ],
+      "f": "Inter",
+      "fs": "12px",
+      "lh": "12px",
+      "fw": "500",
+      "ls": "normal",
+      "c": "rgb(29, 14, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "uppercase",
+      "ta": "center"
+    },
+    {
+      "t": "H1",
+      "x": "How to Debug an AI Agent: A Step-by-Step Guide",
+      "r": [
+        96,
+        213,
+        580,
+        96
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "48px",
+      "fw": "400",
+      "ls": "-1.6px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "How to debug an AI agent in production: find the run, trace it to the ",
+      "r": [
+        96,
+        324,
+        580,
+        88
+      ],
+      "f": "Inter Display",
+      "fs": "21px",
+      "lh": "29.4px",
+      "fw": "400",
+      "ls": "-0.84px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Written by",
+      "r": [
+        131,
+        504,
+        81,
+        21
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "300",
+      "ls": "-0.28px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Pablo Pardo Garcia",
+      "r": [
+        131,
+        527,
+        136,
+        24
+      ],
+      "f": "Inter",
+      "fs": "16px",
+      "lh": "24px",
+      "fw": "300",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Date added",
+      "r": [
+        453,
+        504,
+        81,
+        21
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "300",
+      "ls": "-0.28px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Sep 21, 2026",
+      "r": [
+        453,
+        527,
+        94,
+        24
+      ],
+      "f": "Inter",
+      "fs": "16px",
+      "lh": "24px",
+      "fw": "300",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TIME",
+      "x": "Sep 21, 2026",
+      "r": [
+        453,
+        529,
+        94,
+        20
+      ],
+      "f": "Inter",
+      "fs": "16px",
+      "lh": "24px",
+      "fw": "300",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "An agent ran for three hours and produced the wrong answer. Nothing cr",
+      "r": [
+        320,
+        662,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Debugging that is different from debugging a web service, and most of ",
+      "r": [
+        320,
+        747,
+        800,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "Why debugging agents is different",
+      "r": [
+        320,
+        1338,
+        800,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "A traditional service fails where it breaks. You get a stack trace at ",
+      "r": [
+        320,
+        1402,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Agents violate that assumption. An agent makes a sequence of decisions",
+      "r": [
+        320,
+        1487,
+        800,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Three consequences follow, and they shape the whole process:",
+      "r": [
+        320,
+        1637,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "The crash point is not the cause. You need the first divergence not th",
+      "r": [
+        320,
+        1685,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "The crash point is not the cause. You need the first divergence not th",
+      "r": [
+        342,
+        1685,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Isolated steps look correct. Reviewing an individual LLM call rarely r",
+      "r": [
+        320,
+        1718,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Isolated steps look correct. Reviewing an individual LLM call rarely r",
+      "r": [
+        342,
+        1718,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Silent failures are the norm. Many agent failures produce no error cod",
+      "r": [
+        320,
+        1750,
+        800,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Silent failures are the norm. Many agent failures produce no error cod",
+      "r": [
+        342,
+        1750,
+        778,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "Before you start: what you need in place",
+      "r": [
+        320,
+        1920,
+        800,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "You can't debug what you didn't capture. Minimum viable instrumentatio",
+      "r": [
+        320,
+        1984,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Every step as a span: LLM calls (model, prompt, response, tokens, late",
+      "r": [
+        320,
+        2033,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Every step as a span: LLM calls (model, prompt, response, tokens, late",
+      "r": [
+        342,
+        2033,
+        778,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "A session ID linking every span in one run, and surviving process rest",
+      "r": [
+        320,
+        2098,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "A session ID linking every span in one run, and surviving process rest",
+      "r": [
+        342,
+        2098,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Sub-agent linkage: child runs attributed to their parent.",
+      "r": [
+        320,
+        2130,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Sub-agent linkage: child runs attributed to their parent.",
+      "r": [
+        342,
+        2130,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Trace-level querying, not just text search over logs. \"Show me the run",
+      "r": [
+        320,
+        2162,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Trace-level querying, not just text search over logs. \"Show me the run",
+      "r": [
+        342,
+        2162,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "If you're missing the session ID or restart continuity, fix that first",
+      "r": [
+        320,
+        2215,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "The six-step process",
+      "r": [
+        320,
+        2287,
+        800,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "H3",
+      "x": "Step 1: Pin the symptom precisely",
+      "r": [
+        320,
+        2372,
+        800,
+        36
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(250, 250, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Before opening a trace, write down what \"wrong\" means in one sentence:",
+      "r": [
+        320,
+        2428,
+        800,
+        97
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Note the timestamp, the affected user or tenant, and the agent name. Y",
+      "r": [
+        320,
+        2546,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H3",
+      "x": "Step 2: Find the run, not the log line",
+      "r": [
+        320,
+        2944,
+        800,
+        36
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(250, 250, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Retrieve the whole session, not the error that surfaced. You want one ",
+      "r": [
+        320,
+        3000,
+        800,
+        97
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "With Rius you can do this from your dashboard or MCP: \"show me the fai",
+      "r": [
+        320,
+        3118,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H3",
+      "x": "Step 3: Walk forward to the first divergence",
+      "r": [
+        320,
+        3222,
+        800,
+        36
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(250, 250, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "This is the step that matters most, and the one most people skip. Star",
+      "r": [
+        320,
+        3279,
+        800,
+        97
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Practical signals of divergence:",
+      "r": [
+        320,
+        3396,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "A tool returned success with empty, truncated, or default data",
+      "r": [
+        320,
+        3444,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "A tool returned success with empty, truncated, or default data",
+      "r": [
+        342,
+        3444,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "A step's input doesn't match the previous step's output",
+      "r": [
+        320,
+        3477,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "A step's input doesn't match the previous step's output",
+      "r": [
+        342,
+        3477,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "The agent's stated plan changed without a triggering event",
+      "r": [
+        320,
+        3509,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "The agent's stated plan changed without a triggering event",
+      "r": [
+        342,
+        3509,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Latency or token count for a step is a clear outlier",
+      "r": [
+        320,
+        3542,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Latency or token count for a step is a clear outlier",
+      "r": [
+        342,
+        3542,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "The same step appears repeatedly with identical arguments",
+      "r": [
+        320,
+        3574,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "The same step appears repeatedly with identical arguments",
+      "r": [
+        342,
+        3574,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Resist the pull of the crash point. The error at the end is usually a ",
+      "r": [
+        320,
+        3626,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H3",
+      "x": "Step 4: Inspect that step's inputs and outputs",
+      "r": [
+        320,
+        3699,
+        800,
+        36
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(250, 250, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "At the divergence, read the full input and full output. Most root caus",
+      "r": [
+        320,
+        3755,
+        800,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H3",
+      "x": "Step 5: Classify the failure mode",
+      "r": [
+        320,
+        3925,
+        800,
+        36
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(250, 250, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Naming the failure tells you where the fix belongs. The common agent f",
+      "r": [
+        320,
+        3981,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Failure mode",
+      "r": [
+        321,
+        4031,
+        345,
+        64
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Failure mode",
+      "r": [
+        337,
+        4047,
+        313,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Typical fix location",
+      "r": [
+        666,
+        4031,
+        453,
+        64
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Typical fix location",
+      "r": [
+        683,
+        4047,
+        420,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Tool misuse (wrong args, wrong tool)",
+      "r": [
+        321,
+        4095,
+        345,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Tool misuse (wrong args, wrong tool)",
+      "r": [
+        337,
+        4112,
+        313,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Tool schema, argument validation",
+      "r": [
+        666,
+        4095,
+        453,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Tool schema, argument validation",
+      "r": [
+        683,
+        4112,
+        420,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Silent empty response",
+      "r": [
+        321,
+        4160,
+        345,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Silent empty response",
+      "r": [
+        337,
+        4177,
+        313,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Response validation before use",
+      "r": [
+        666,
+        4160,
+        453,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Response validation before use",
+      "r": [
+        683,
+        4177,
+        420,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Context loss",
+      "r": [
+        321,
+        4226,
+        345,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Context loss",
+      "r": [
+        337,
+        4243,
+        313,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Prompt/context management, constraint pinning",
+      "r": [
+        666,
+        4226,
+        453,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Prompt/context management, constraint pinning",
+      "r": [
+        683,
+        4243,
+        420,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Goal drift",
+      "r": [
+        321,
+        4291,
+        345,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Goal drift",
+      "r": [
+        337,
+        4308,
+        313,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Persistent objective tracking",
+      "r": [
+        666,
+        4291,
+        453,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Persistent objective tracking",
+      "r": [
+        683,
+        4308,
+        420,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Retry loop / stall",
+      "r": [
+        321,
+        4356,
+        345,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Retry loop / stall",
+      "r": [
+        337,
+        4373,
+        313,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Backoff, loop detection, escalation path",
+      "r": [
+        666,
+        4356,
+        453,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Backoff, loop detection, escalation path",
+      "r": [
+        683,
+        4373,
+        420,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Cascading sub-agent error",
+      "r": [
+        321,
+        4422,
+        345,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Cascading sub-agent error",
+      "r": [
+        337,
+        4439,
+        313,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "TD",
+      "x": "Input validation at agent boundaries",
+      "r": [
+        666,
+        4422,
+        453,
+        65
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Input validation at agent boundaries",
+      "r": [
+        683,
+        4439,
+        420,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Check our full taxonomy of agent failure modes and how to detect each ",
+      "r": [
+        320,
+        4931,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H3",
+      "x": "Step 6: Fix it, then make it unrepeatable",
+      "r": [
+        320,
+        5004,
+        800,
+        36
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(250, 250, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ship the fix, then close the loop so the failure becomes a regression ",
+      "r": [
+        320,
+        5060,
+        800,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "A fix without a check means you'll debug this again in six weeks.",
+      "r": [
+        320,
+        5210,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "Example: the report that lost its second half",
+      "r": [
+        320,
+        5282,
+        800,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Symptom.",
+      "r": [
+        320,
+        5347,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "A reporting agent was asked to summarize quarterly metrics and flag an",
+      "r": [
+        320,
+        5399,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Find the run.",
+      "r": [
+        320,
+        5484,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Pull the full session for that user and timestamp, all 19 steps, inclu",
+      "r": [
+        320,
+        5536,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Walk to the first divergence.",
+      "r": [
+        320,
+        5589,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Steps 1–6 look right. At step 7, a `fetch_anomalies` tool call returns",
+      "r": [
+        320,
+        5641,
+        800,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "CODE",
+      "x": "fetch_anomalies",
+      "r": [
+        567,
+        5644,
+        164,
+        27
+      ],
+      "f": "Geist Mono",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgba(255, 255, 255, 0.7)",
+      "bg": "rgb(30, 15, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Inspect step 7.",
+      "r": [
+        320,
+        5791,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "The tool call was made with a date range that had been serialized inco",
+      "r": [
+        320,
+        5844,
+        800,
+        97
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Classify.",
+      "r": [
+        320,
+        5961,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Two compounding modes: a silent empty response (step 7) and goal drift",
+      "r": [
+        320,
+        6013,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Fix.",
+      "r": [
+        320,
+        6098,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Validate the date range before the call; treat an empty result as unve",
+      "r": [
+        320,
+        6151,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Prevent.",
+      "r": [
+        320,
+        6235,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Add a regression case where `fetch_anomalies` returns empty and assert",
+      "r": [
+        320,
+        6288,
+        800,
+        162
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "CODE",
+      "x": "fetch_anomalies",
+      "r": [
+        546,
+        6290,
+        164,
+        27
+      ],
+      "f": "Geist Mono",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgba(255, 255, 255, 0.7)",
+      "bg": "rgb(30, 15, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "Debugging long-running agents specifically",
+      "r": [
+        320,
+        6490,
+        800,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Long runs add three complications worth handling explicitly.",
+      "r": [
+        320,
+        6555,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Restarts fragment the story.",
+      "r": [
+        320,
+        6603,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Restarts fragment the story.",
+      "r": [
+        342,
+        6603,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "If a restart starts a new trace, you lose the causal chain exactly whe",
+      "r": [
+        320,
+        6656,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "The evidence expires.",
+      "r": [
+        320,
+        6737,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "The evidence expires.",
+      "r": [
+        342,
+        6737,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "A failure reported Monday about a run from three weeks ago is undebugg",
+      "r": [
+        320,
+        6789,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "You should catch it live.",
+      "r": [
+        320,
+        6870,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "You should catch it live.",
+      "r": [
+        342,
+        6870,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "For runs measured in hours, post-hoc debugging is the expensive path. ",
+      "r": [
+        320,
+        6922,
+        800,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "Common mistakes",
+      "r": [
+        320,
+        7027,
+        800,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "LI",
+      "x": "Starting at the error instead of the beginning.",
+      "r": [
+        320,
+        7088,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Starting at the error instead of the beginning.",
+      "r": [
+        342,
+        7088,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Reviewing one LLM call in isolation.",
+      "r": [
+        320,
+        7120,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Reviewing one LLM call in isolation.",
+      "r": [
+        342,
+        7120,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Trusting HTTP 200 as proof of a useful response.",
+      "r": [
+        320,
+        7153,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Trusting HTTP 200 as proof of a useful response.",
+      "r": [
+        342,
+        7153,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Alerting only on error rate, which misses every silent failure.",
+      "r": [
+        320,
+        7185,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Alerting only on error rate, which misses every silent failure.",
+      "r": [
+        342,
+        7185,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Fixing the symptom step rather than the divergence step.",
+      "r": [
+        320,
+        7217,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Fixing the symptom step rather than the divergence step.",
+      "r": [
+        342,
+        7217,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "And debugging without the full session, which is less \"debugging\" than",
+      "r": [
+        320,
+        7250,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "And debugging without the full session, which is less \"debugging\" than",
+      "r": [
+        342,
+        7250,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H3",
+      "x": "FAQ",
+      "r": [
+        320,
+        7322,
+        800,
+        36
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(250, 250, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "LI",
+      "x": "How do you debug an AI agent that fails silently?",
+      "r": [
+        320,
+        7375,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "How do you debug an AI agent that fails silently?",
+      "r": [
+        342,
+        7375,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Don't look for an error; look for the first divergence. Retrieve the f",
+      "r": [
+        320,
+        7427,
+        800,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "What's the difference between debugging an LLM call and debugging an a",
+      "r": [
+        320,
+        7573,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "What's the difference between debugging an LLM call and debugging an a",
+      "r": [
+        342,
+        7573,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "An LLM call is one input and one output, so you can evaluate it in iso",
+      "r": [
+        320,
+        7625,
+        800,
+        97
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "How do I find the root cause of an agent failure?",
+      "r": [
+        320,
+        7738,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "How do I find the root cause of an agent failure?",
+      "r": [
+        342,
+        7738,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Walk the run forward from the first step and stop at the earliest poin",
+      "r": [
+        320,
+        7791,
+        800,
+        97
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "What tools do I need to debug agents in production?",
+      "r": [
+        320,
+        7904,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "What tools do I need to debug agents in production?",
+      "r": [
+        342,
+        7904,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "At minimum: span-level instrumentation of every LLM and tool call, a s",
+      "r": [
+        320,
+        7956,
+        800,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "How do I stop the same agent failure from recurring?",
+      "r": [
+        320,
+        8102,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "How do I stop the same agent failure from recurring?",
+      "r": [
+        342,
+        8102,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Convert each diagnosed failure into a regression test built from the r",
+      "r": [
+        320,
+        8154,
+        800,
+        97
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Debug agent runs where you already work",
+      "r": [
+        320,
+        8267,
+        800,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Debug agent runs where you already work",
+      "r": [
+        342,
+        8267,
+        778,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Debugging an AI agent comes down to one discipline: see the whole run,",
+      "r": [
+        320,
+        8320,
+        800,
+        130
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "Share the article",
+      "r": [
+        306,
+        8604,
+        133,
+        17
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "16.8px",
+      "fw": "400",
+      "ls": "-0.56px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "BUTTON",
+      "x": "",
+      "r": [
+        872,
+        8592,
+        40,
+        40
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "BUTTON",
+      "x": "",
+      "r": [
+        924,
+        8592,
+        40,
+        40
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "BUTTON",
+      "x": "",
+      "r": [
+        976,
+        8592,
+        40,
+        40
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "BUTTON",
+      "x": "",
+      "r": [
+        1028,
+        8592,
+        40,
+        40
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "BUTTON",
+      "x": "",
+      "r": [
+        1080,
+        8592,
+        40,
+        40
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "BUTTON",
+      "x": "",
+      "r": [
+        1132,
+        8592,
+        40,
+        40
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "You might also like",
+      "r": [
+        88,
+        8708,
+        1264,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "32px",
+      "lh": "32px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Agent Infrastructure",
+      "r": [
+        98,
+        9122,
+        144,
+        12
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "12px",
+      "fw": "500",
+      "ls": "normal",
+      "c": "rgb(73, 36, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "uppercase",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "AI agent failure modes: the seven ways agents fail in production",
+      "r": [
+        88,
+        9156,
+        389,
+        42
+      ],
+      "f": "Geist Mono",
+      "fs": "16px",
+      "lh": "20.8px",
+      "fw": "500",
+      "ls": "-0.64px",
+      "c": "rgb(224, 224, 224)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "The seven ways AI agents fail in production: tool misuse, context loss",
+      "r": [
+        88,
+        9214,
+        389,
+        44
+      ],
+      "f": "Inter Display",
+      "fs": "16px",
+      "lh": "22px",
+      "fw": "400",
+      "ls": "-0.32px",
+      "c": "rgba(230, 230, 230, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Written by",
+      "r": [
+        133,
+        9291,
+        81,
+        21
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "400",
+      "ls": "-0.32px",
+      "c": "rgba(230, 230, 230, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Pablo Pardo Garcia",
+      "r": [
+        283,
+        9291,
+        219,
+        21
+      ],
+      "f": "Inter Display",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "400",
+      "ls": "-0.32px",
+      "c": "rgba(230, 230, 230, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "read article",
+      "r": [
+        234,
+        9336,
+        97,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "read article",
+      "r": [
+        234,
+        9366,
+        97,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Data for Agents",
+      "r": [
+        535,
+        9122,
+        108,
+        12
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "12px",
+      "fw": "500",
+      "ls": "normal",
+      "c": "rgb(73, 36, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "uppercase",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Agents in production: what looks like a reasoning failure is usually a",
+      "r": [
+        525,
+        9156,
+        389,
+        42
+      ],
+      "f": "Geist Mono",
+      "fs": "16px",
+      "lh": "20.8px",
+      "fw": "500",
+      "ls": "-0.64px",
+      "c": "rgb(224, 224, 224)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "When an AI agent fails in production, it's usually reasoning correctly",
+      "r": [
+        525,
+        9214,
+        389,
+        44
+      ],
+      "f": "Inter Display",
+      "fs": "16px",
+      "lh": "22px",
+      "fw": "400",
+      "ls": "-0.32px",
+      "c": "rgba(230, 230, 230, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Written by",
+      "r": [
+        570,
+        9291,
+        81,
+        21
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "400",
+      "ls": "-0.32px",
+      "c": "rgba(230, 230, 230, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Ashish Bagri",
+      "r": [
+        720,
+        9291,
+        219,
+        21
+      ],
+      "f": "Inter Display",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "400",
+      "ls": "-0.32px",
+      "c": "rgba(230, 230, 230, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "read article",
+      "r": [
+        672,
+        9336,
+        97,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "read article",
+      "r": [
+        672,
+        9366,
+        97,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Agent Observability",
+      "r": [
+        973,
+        9122,
+        137,
+        12
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "12px",
+      "fw": "500",
+      "ls": "normal",
+      "c": "rgb(73, 36, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "uppercase",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "The real cost of self-hosting your agent observability stack",
+      "r": [
+        963,
+        9156,
+        389,
+        42
+      ],
+      "f": "Geist Mono",
+      "fs": "16px",
+      "lh": "20.8px",
+      "fw": "500",
+      "ls": "-0.64px",
+      "c": "rgb(224, 224, 224)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "What it really costs to self-host Langfuse, Phoenix, or Laminar: Click",
+      "r": [
+        963,
+        9214,
+        389,
+        44
+      ],
+      "f": "Inter Display",
+      "fs": "16px",
+      "lh": "22px",
+      "fw": "400",
+      "ls": "-0.32px",
+      "c": "rgba(230, 230, 230, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Written by",
+      "r": [
+        1008,
+        9291,
+        81,
+        21
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "400",
+      "ls": "-0.32px",
+      "c": "rgba(230, 230, 230, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Armend Avdijaj",
+      "r": [
+        1157,
+        9291,
+        219,
+        21
+      ],
+      "f": "Inter Display",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "400",
+      "ls": "-0.32px",
+      "c": "rgba(230, 230, 230, 0.8)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "read article",
+      "r": [
+        1109,
+        9336,
+        97,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "read article",
+      "r": [
+        1109,
+        9366,
+        97,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Two products. Two starting points.",
+      "r": [
+        192,
+        9505,
+        640,
+        80
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "40px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Tares is open source. Kick the tires, open an issue, and drop a star i",
+      "r": [
+        192,
+        9617,
+        640,
+        72
+      ],
+      "f": "Inter Display",
+      "fs": "16px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "retention, from first span to production.",
+      "r": [
+        192,
+        9689,
+        640,
+        24
+      ],
+      "f": "Inter Display",
+      "fs": "16px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "star Tares on GitHub",
+      "r": [
+        220,
+        9791,
+        162,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "read the Rius guides",
+      "r": [
+        446,
+        9791,
+        162,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ready to give your agents better data and total recall?",
+      "r": [
+        96,
+        10072,
+        271,
+        96
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "32px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Tares",
+      "r": [
+        750,
+        10052,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data.",
+      "r": [
+        750,
+        10084,
+        277,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        818,
+        10149,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Rius",
+      "r": [
+        1075,
+        10052,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "See and debug agents in production.",
+      "r": [
+        1062,
+        10084,
+        302,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1143,
+        10149,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        646,
+        10304,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "tares",
+      "r": [
+        302,
+        10393,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data. Open source",
+      "r": [
+        302,
+        10417,
+        211,
+        39
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "rius",
+      "r": [
+        700,
+        10393,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "See what your agents did in production.",
+      "r": [
+        700,
+        10417,
+        211,
+        39
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        1143,
+        10300,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        1143,
+        10350,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        1143,
+        10400,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "about",
+      "r": [
+        1143,
+        10450,
+        42,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "2026 - Copyright GlassFlow.ai",
+      "r": [
+        88,
+        10512,
+        244,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Terms & Conditions",
+      "r": [
+        707,
+        10512,
+        151,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Privacy Policy",
+      "r": [
+        1234,
+        10512,
+        118,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    }
+  ],
+  "imgs": [
+    {
+      "src": "https://framerusercontent.com/images/p8ihsATIQW2BpC2j7ekzEF2gA.jpg?width=559&height=661",
+      "alt": "",
+      "r": [
+        64,
+        110,
+        644,
+        382
+      ],
+      "nat": [
+        1440,
+        1702
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/5G4h16OWSlfa4F2lERWRFPE.jpg?width=593&height=593",
+      "alt": "",
+      "r": [
+        720,
+        122,
+        644,
+        429
+      ],
+      "nat": [
+        632,
+        632
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZYFgdipfUsSImL2VBbWVD01uk.png?width=650&height=392",
+      "alt": "How to Debug an AI Agent: A Step-by-Step Guide",
+      "r": [
+        744,
+        122,
+        596,
+        429
+      ],
+      "nat": [
+        584,
+        352
+      ],
+      "of": "contain"
+    },
+    {
+      "src": "https://framerusercontent.com/images/e1GBOoa1KWkIprdcpJiOxWCl3s.png?width=1440&height=810",
+      "alt": "How to Debug an AI Agent: A Step-by-Step Guide",
+      "r": [
+        320,
+        893,
+        720,
+        405
+      ],
+      "nat": [
+        1440,
+        810
+      ],
+      "of": "fill"
+    },
+    {
+      "src": "https://framerusercontent.com/images/L8FrQxUxtX5yVP13PWL998SBMg.png?width=1440&height=620",
+      "alt": "The six steps to debug an AI Agent",
+      "r": [
+        320,
+        2594,
+        720,
+        310
+      ],
+      "nat": [
+        1440,
+        620
+      ],
+      "of": "fill"
+    },
+    {
+      "src": "https://framerusercontent.com/images/cw2js3MZEP5caHDCuqQ6au0FQc.png?width=1440&height=810",
+      "alt": "AI Agent failure modes",
+      "r": [
+        321,
+        4505,
+        720,
+        405
+      ],
+      "nat": [
+        1440,
+        810
+      ],
+      "of": "fill"
+    },
+    {
+      "src": "https://framerusercontent.com/images/z1DrJYJtJHmNIa3BOuyaEjNlg.png?width=650&height=392",
+      "alt": "AI agent failure modes: the seven ways agents fail in production",
+      "r": [
+        64,
+        8842,
+        437,
+        250
+      ],
+      "nat": [
+        1312,
+        791
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/yQiqS09uklcObImhiL1e2IQtoV4.png?width=1826&height=1156",
+      "alt": "Why AI Agents Fail in Production: Context, Not Reasoning",
+      "r": [
+        501,
+        8842,
+        437,
+        250
+      ],
+      "nat": [
+        1312,
+        830
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/nrwkOaP6b1IEXSFQSnUhEiYv9jU.png?width=1826&height=1156",
+      "alt": "The real cost of self-hosting your agent observability stack",
+      "r": [
+        939,
+        8842,
+        437,
+        250
+      ],
+      "nat": [
+        1312,
+        830
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/h0ej46NDlXvCksM6LvlI4w4Ss.jpg?scale-down-to=2048&width=3936&height=1500",
+      "alt": "",
+      "r": [
+        64,
+        9441,
+        1312,
+        452
+      ],
+      "nat": [
+        1312,
+        499
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/p8ihsATIQW2BpC2j7ekzEF2gA.jpg?width=559&height=661",
+      "alt": "",
+      "r": [
+        64,
+        9960,
+        662,
+        320
+      ],
+      "nat": [
+        1440,
+        1702
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/dkWQcxyRjqORomn3COxNj6KgRl4.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        726,
+        9960,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZsW3C35h6WXWKMkdVHcrVPc.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        1051,
+        9960,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    }
+  ],
+  "links": [
+    {
+      "h": "../",
+      "x": "",
+      "r": [
+        64,
+        -1,
+        149,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        326,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "../blog",
+      "x": "blog",
+      "r": [
+        392,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "../contact",
+      "x": "contact",
+      "r": [
+        457,
+        0,
+        91,
+        40
+      ]
+    },
+    {
+      "h": "../#quickstart",
+      "x": "get_started",
+      "r": [
+        1223,
+        -1,
+        153,
+        42
+      ]
+    },
+    {
+      "h": "../blog",
+      "x": "blog / …",
+      "r": [
+        688,
+        82,
+        65,
+        18
+      ]
+    },
+    {
+      "h": "../rius",
+      "x": "Rius",
+      "r": [
+        359,
+        3123,
+        32,
+        22
+      ]
+    },
+    {
+      "h": "./ai-agent-failure-modes",
+      "x": "common agent failure modes",
+      "r": [
+        728,
+        3986,
+        220,
+        22
+      ]
+    },
+    {
+      "h": "./ai-agent-failure-modes",
+      "x": "",
+      "r": [
+        320,
+        4504,
+        800,
+        407
+      ]
+    },
+    {
+      "h": "./ai-agent-failure-modes",
+      "x": "Check our full taxonomy of agent failure",
+      "r": [
+        320,
+        4936,
+        354,
+        22
+      ]
+    },
+    {
+      "h": "../contact",
+      "x": "get in touch",
+      "r": [
+        867,
+        8422,
+        88,
+        22
+      ]
+    },
+    {
+      "h": "./ai-agent-failure-modes",
+      "x": "Agent InfrastructureAI agent failure mod",
+      "r": [
+        64,
+        8804,
+        437,
+        570
+      ]
+    },
+    {
+      "h": "./agents-in-production-context-failure",
+      "x": "Data for AgentsAgents in production: wha",
+      "r": [
+        501,
+        8804,
+        437,
+        570
+      ]
+    },
+    {
+      "h": "./cost-self-hosting-your-agent-observability-stack",
+      "x": "Agent ObservabilityThe real cost of self",
+      "r": [
+        939,
+        8804,
+        437,
+        570
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "star Tares on GitHub",
+      "r": [
+        192,
+        9777,
+        218,
+        52
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/rius/guides",
+      "x": "read the Rius guides",
+      "r": [
+        418,
+        9777,
+        218,
+        52
+      ]
+    },
+    {
+      "h": "https://console.tares-glassflow.com/",
+      "x": "get_started",
+      "r": [
+        790,
+        10135,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core",
+      "x": "get_started",
+      "r": [
+        1115,
+        10135,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "../tares",
+      "x": "taresFeed your agents the right data. Op",
+      "r": [
+        282,
+        10338,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "../rius",
+      "x": "riusSee what your agents did in producti",
+      "r": [
+        680,
+        10338,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "../contact",
+      "x": "contact",
+      "r": [
+        1085,
+        10288,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        1085,
+        10338,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "../blog",
+      "x": "blog",
+      "r": [
+        1085,
+        10388,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "../about",
+      "x": "about",
+      "r": [
+        1085,
+        10438,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://x.com/glassflowdev",
+      "x": "",
+      "r": [
+        1268,
+        10288,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/company/glassflow-dev/",
+      "x": "",
+      "r": [
+        1268,
+        10355,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "",
+      "r": [
+        1268,
+        10421,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "../terms-of-service",
+      "x": "Terms & Conditions",
+      "r": [
+        707,
+        10512,
+        151,
+        18
+      ]
+    },
+    {
+      "h": "../privacy-policy",
+      "x": "Privacy Policy",
+      "r": [
+        1234,
+        10512,
+        118,
+        18
+      ]
+    }
+  ],
+  "bgimgs": [
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 124.51 15.963%22 ove",
+      "r": [
+        76,
+        12,
+        125,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 48 72%22 overflow=%2",
+      "r": [
+        64,
+        111,
+        48,
+        72
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        10184,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        10154,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        10184,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        10154,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 202 194%22><path d=%",
+      "r": [
+        72,
+        10287,
+        202,
+        194
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 16%22 overflow=%2",
+      "r": [
+        1310,
+        10309,
+        16,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 14.994%22 overflo",
+      "r": [
+        1311,
+        10376,
+        15,
+        15
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16.667 16.264%22 ove",
+      "r": [
+        1310,
+        10442,
+        17,
+        17
+      ]
+    }
+  ],
+  "boxes": [
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        10554
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "nav"
+    },
+    {
+      "r": [
+        213,
+        0,
+        113,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "3.06401px 16px",
+      "gap": "4px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "link"
+    },
+    {
+      "r": [
+        1223,
+        0,
+        111,
+        40
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "3.06401px 9.19203px",
+      "gap": "4px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        0,
+        40,
+        1440,
+        32
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        32,
+        1312,
+        48
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        72,
+        1440,
+        491
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "hero"
+    },
+    {
+      "r": [
+        64,
+        72,
+        1312,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "bar"
+    },
+    {
+      "r": [
+        80,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        90,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        100,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1334,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1344,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1354,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        64,
+        110,
+        1312,
+        453
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "main-wr"
+    },
+    {
+      "r": [
+        64,
+        110,
+        644,
+        382
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 32px",
+      "gap": "15px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "content-wr"
+    },
+    {
+      "r": [
+        96,
+        174,
+        158,
+        24
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "6px 10px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Pill"
+    },
+    {
+      "r": [
+        64,
+        492,
+        322,
+        71
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "12px 32px",
+      "gap": "12px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "author"
+    },
+    {
+      "r": [
+        386,
+        492,
+        322,
+        71
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "12px 32px",
+      "gap": "12px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "date"
+    },
+    {
+      "r": [
+        708,
+        110,
+        668,
+        453
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "12px",
+      "gap": "10px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "right"
+    },
+    {
+      "r": [
+        720,
+        122,
+        644,
+        429
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 24px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Variant 1"
+    },
+    {
+      "r": [
+        0,
+        563,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        563,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        630,
+        1440,
+        7883
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "10px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "rich-text"
+    },
+    {
+      "r": [
+        64,
+        630,
+        1312,
+        7883
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 192px",
+      "gap": "10px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        256,
+        630,
+        928,
+        7883
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px 64px 64px",
+      "gap": "32px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "rich-text"
+    },
+    {
+      "r": [
+        0,
+        8513,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        8513,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        8580,
+        1440,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "share"
+    },
+    {
+      "r": [
+        64,
+        8580,
+        1312,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 192px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        256,
+        8580,
+        928,
+        64
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "12px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        268,
+        8609,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        278,
+        8609,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        288,
+        8609,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        0,
+        8644,
+        1440,
+        160
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "title"
+    },
+    {
+      "r": [
+        64,
+        8644,
+        1312,
+        160
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 24px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        8804,
+        1440,
+        570
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "main-wr"
+    },
+    {
+      "r": [
+        64,
+        8804,
+        437,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "bar"
+    },
+    {
+      "r": [
+        80,
+        8820,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        90,
+        8820,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        100,
+        8820,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        64,
+        9092,
+        437,
+        190
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "16px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "description"
+    },
+    {
+      "r": [
+        88,
+        9116,
+        164,
+        24
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "6px 10px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "tag"
+    },
+    {
+      "r": [
+        64,
+        9282,
+        437,
+        40
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "author"
+    },
+    {
+      "r": [
+        64,
+        9322,
+        437,
+        52
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        64,
+        9322,
+        437,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "left"
+    },
+    {
+      "r": [
+        68,
+        9326,
+        429,
+        44
+      ],
+      "bg": "rgb(241, 239, 223)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        501,
+        8804,
+        437,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "bar"
+    },
+    {
+      "r": [
+        517,
+        8820,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        527,
+        8820,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        537,
+        8820,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        501,
+        9092,
+        437,
+        190
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "16px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "description"
+    },
+    {
+      "r": [
+        525,
+        9116,
+        128,
+        24
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "6px 10px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "tag"
+    },
+    {
+      "r": [
+        501,
+        9282,
+        437,
+        40
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "author"
+    },
+    {
+      "r": [
+        501,
+        9322,
+        437,
+        52
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        501,
+        9322,
+        437,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "left"
+    },
+    {
+      "r": [
+        505,
+        9326,
+        429,
+        44
+      ],
+      "bg": "rgb(241, 239, 223)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        939,
+        8804,
+        437,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "bar"
+    },
+    {
+      "r": [
+        955,
+        8820,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        965,
+        8820,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        975,
+        8820,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        939,
+        9092,
+        437,
+        190
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "16px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "description"
+    },
+    {
+      "r": [
+        963,
+        9116,
+        157,
+        24
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "6px 10px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "tag"
+    },
+    {
+      "r": [
+        939,
+        9282,
+        437,
+        40
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "author"
+    },
+    {
+      "r": [
+        939,
+        9322,
+        437,
+        52
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        939,
+        9322,
+        437,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "left"
+    },
+    {
+      "r": [
+        943,
+        9326,
+        429,
+        44
+      ],
+      "bg": "rgb(241, 239, 223)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        9374,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        9374,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        9441,
+        1440,
+        452
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "cta"
+    },
+    {
+      "r": [
+        64,
+        9441,
+        1312,
+        452
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 128px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        192,
+        9777,
+        218,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        192,
+        9777,
+        218,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "left"
+    },
+    {
+      "r": [
+        196,
+        9781,
+        210,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        418,
+        9777,
+        218,
+        52
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        418,
+        9777,
+        218,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "left"
+    },
+    {
+      "r": [
+        422,
+        9781,
+        210,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        9893,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        9893,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        9960,
+        1440,
+        594
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        9960,
+        1440,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326097"
+    },
+    {
+      "r": [
+        64,
+        9960,
+        662,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        726,
+        9960,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "tares"
+    },
+    {
+      "r": [
+        790,
+        10135,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        790,
+        10135,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "left"
+    },
+    {
+      "r": [
+        794,
+        10139,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        935,
+        10135,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "right"
+    },
+    {
+      "r": [
+        1051,
+        9960,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "rius"
+    },
+    {
+      "r": [
+        1115,
+        10135,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        1115,
+        10135,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "left"
+    },
+    {
+      "r": [
+        1119,
+        10139,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": null
+    },
+    {
+      "r": [
+        1260,
+        10135,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "right"
+    },
+    {
+      "r": [
+        0,
+        10280,
+        1440,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326096"
+    },
+    {
+      "r": [
+        64,
+        10280,
+        1312,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px",
+      "gap": "8px",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        282,
+        10288,
+        795,
+        50
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326098"
+    },
+    {
+      "r": [
+        298,
+        10310,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        308,
+        10310,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        318,
+        10310,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1035,
+        10310,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1045,
+        10310,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1055,
+        10310,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        10306,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        10306,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        10306,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        10356,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        10356,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        10356,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        10406,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        10406,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        10406,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        10456,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        10456,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        10456,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        0,
+        10488,
+        1440,
+        66
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326095"
+    },
+    {
+      "r": [
+        64,
+        10488,
+        1312,
+        66
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "normal",
+      "fd": "row",
+      "pos": "relative",
+      "top": "0px",
+      "n": "Frame 2087326094"
+    }
+  ],
+  "rich": [
+    {
+      "sel": "h2.framer-text",
+      "x": "Why debugging agents is different",
+      "r": [
+        320,
+        1338,
+        800,
+        45
+      ],
+      "f": "Inter, \"Inter Placeholder\", sans-serif",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "40px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(255, 255, 255)",
+      "bl": "0px none rgb(255, 255, 255)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "0px",
+      "td": "none"
+    },
+    {
+      "sel": "h3.framer-text",
+      "x": "Step 1: Pin the symptom precisely",
+      "r": [
+        320,
+        2372,
+        800,
+        36
+      ],
+      "f": "\"Inter Display\", \"Inter Display Placehol",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(250, 250, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "40px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(250, 250, 250)",
+      "bl": "0px none rgb(250, 250, 250)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "0px",
+      "td": "none"
+    },
+    null,
+    {
+      "sel": "p.framer-text",
+      "x": "products",
+      "r": [
+        229,
+        11,
+        67,
+        18
+      ],
+      "f": "Inter, \"Inter Placeholder\", sans-serif",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "0px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bl": "0px none rgb(0, 0, 0)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "0px",
+      "td": "none"
+    },
+    {
+      "sel": "ul.framer-text",
+      "x": "The crash point is not the cause. You ne",
+      "r": [
+        320,
+        1685,
+        800,
+        194
+      ],
+      "f": "Inter, \"Inter Placeholder\", sans-serif",
+      "fs": "16px",
+      "lh": "19.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "16px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bl": "0px none rgb(0, 0, 0)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "0px",
+      "td": "none"
+    },
+    {
+      "sel": "ol.framer-text",
+      "x": "Restarts fragment the story.",
+      "r": [
+        320,
+        6603,
+        800,
+        32
+      ],
+      "f": "Inter, \"Inter Placeholder\", sans-serif",
+      "fs": "16px",
+      "lh": "19.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "16px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bl": "0px none rgb(0, 0, 0)",
+      "rad": "0px",
+      "lst": "decimal",
+      "pl": "0px",
+      "td": "none"
+    },
+    {
+      "sel": "li.framer-text",
+      "x": "The crash point is not the cause. You ne",
+      "r": [
+        320,
+        1685,
+        800,
+        32
+      ],
+      "f": "\"Inter Display\", \"Inter Display Placehol",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "0px",
+      "mb": "0px",
+      "pad": "0px 0px 0px 22.0781px",
+      "bd": "0px none rgb(241, 239, 223)",
+      "bl": "0px none rgb(241, 239, 223)",
+      "rad": "0px",
+      "lst": "\"\"",
+      "pl": "22.0781px",
+      "td": "none"
+    },
+    {
+      "sel": "strong",
+      "x": "caused",
+      "r": [
+        536,
+        784,
+        59,
+        22
+      ],
+      "f": "\"Inter Display\", \"Inter Display Placehol",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "700",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "0px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(241, 239, 223)",
+      "bl": "0px none rgb(241, 239, 223)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "0px",
+      "td": "none"
+    },
+    null,
+    {
+      "sel": "a.framer-text",
+      "x": "blog / …",
+      "r": [
+        688,
+        82,
+        65,
+        18
+      ],
+      "f": "\"Geist Mono\", \"Geist Mono Placeholder\", ",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "300",
+      "ls": "-0.28px",
+      "c": "rgb(153, 153, 153)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "0px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(153, 153, 153)",
+      "bl": "0px none rgb(153, 153, 153)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "0px",
+      "td": "none"
+    },
+    {
+      "sel": "code",
+      "x": "fetch_anomalies",
+      "r": [
+        567,
+        5644,
+        164,
+        27
+      ],
+      "f": "\"Geist Mono\", \"Geist Mono Placeholder\", ",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgba(255, 255, 255, 0.7)",
+      "bg": "rgb(30, 15, 0)",
+      "mt": "0px",
+      "mb": "0px",
+      "pad": "1.8px 3.6px",
+      "bd": "0px none rgba(255, 255, 255, 0.7)",
+      "bl": "0px none rgba(255, 255, 255, 0.7)",
+      "rad": "6px",
+      "lst": "disc",
+      "pl": "3.6px",
+      "td": "none"
+    },
+    null,
+    null,
+    {
+      "sel": "table",
+      "x": "Failure mode Typical fix locationTool mi",
+      "r": [
+        320,
+        4030,
+        800,
+        459
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "0px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "1px solid rgb(95, 62, 31)",
+      "bl": "1px solid rgb(95, 62, 31)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "0px",
+      "td": "none"
+    },
+    null,
+    {
+      "sel": "td",
+      "x": "Failure mode",
+      "r": [
+        321,
+        4031,
+        345,
+        64
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "0px",
+      "mb": "0px",
+      "pad": "16px",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bl": "0px none rgb(0, 0, 0)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "16px",
+      "td": "none"
+    },
+    {
+      "sel": "tr",
+      "x": "Failure mode Typical fix location",
+      "r": [
+        321,
+        4031,
+        798,
+        64
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "0px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "0px none rgb(95, 62, 31)",
+      "bl": "0px none rgb(95, 62, 31)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "0px",
+      "td": "none"
+    },
+    {
+      "sel": "img.framer-image",
+      "x": "",
+      "r": [
+        320,
+        893,
+        720,
+        405
+      ],
+      "f": "sans-serif",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "mt": "16px",
+      "mb": "0px",
+      "pad": "0px",
+      "bd": "1px solid rgb(34, 34, 34)",
+      "bl": "1px solid rgb(34, 34, 34)",
+      "rad": "0px",
+      "lst": "disc",
+      "pl": "0px",
+      "td": "none"
+    },
+    null,
+    null
+  ],
+  "tableWrap": [
+    [
+      [
+        320,
+        4030,
+        800,
+        459
+      ],
+      "rgba(0, 0, 0, 0)",
+      "0px none rgb(0, 0, 0)",
+      "0px",
+      "auto"
+    ],
+    [
+      [
+        320,
+        662,
+        800,
+        7787
+      ],
+      "rgba(0, 0, 0, 0)",
+      "0px none rgb(0, 0, 0)",
+      "0px",
+      "clip"
+    ]
+  ],
+  "thead": [
+    [
+      "TD",
+      "Failure mode",
+      "rgba(0, 0, 0, 0)",
+      "0px none rgb(0, 0, 0)",
+      "16px",
+      "rgb(0, 0, 0)",
+      "sans-serif",
+      "12px",
+      "400"
+    ],
+    [
+      "TD",
+      "Typical fix location",
+      "rgba(0, 0, 0, 0)",
+      "",
+      "16px",
+      "rgb(0, 0, 0)",
+      "sans-serif",
+      "12px",
+      "400"
+    ],
+    [
+      "TD",
+      "Tool misuse (wrong a",
+      "rgba(0, 0, 0, 0)",
+      "",
+      "16px",
+      "rgb(0, 0, 0)",
+      "sans-serif",
+      "12px",
+      "400"
+    ],
+    [
+      "TD",
+      "Tool schema, argumen",
+      "rgba(0, 0, 0, 0)",
+      "",
+      "16px",
+      "rgb(0, 0, 0)",
+      "sans-serif",
+      "12px",
+      "400"
+    ]
+  ]
+}

@@ -1,0 +1,318 @@
+- generic [ref=f293e3]:
+  - banner [ref=f293e4]:
+    - navigation [ref=f293e5]:
+      - generic [ref=f293e6]:
+        - link "GlassFlow home" [ref=f293e7] [cursor=pointer]:
+          - /url: /
+          - img "GlassFlow" [ref=f293e8]
+        - link "products" [ref=f293e10] [cursor=pointer]:
+          - /url: "#"
+        - link "docs" [ref=f293e13] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f293e14] [cursor=pointer]:
+          - /url: /blog
+        - link "contact" [ref=f293e15] [cursor=pointer]:
+          - /url: /contact
+      - link "get_started" [ref=f293e16] [cursor=pointer]:
+        - /url: https://console.rius-glassflow.com/signup?utm_source=framer.com&utm_medium=referral&utm_campaign=hp_start_cta
+  - main [ref=f293e18]:
+    - generic [ref=f293e30]:
+      - heading "Catch agent failures before your customers do" [level=1] [ref=f293e31]:
+        - generic [ref=f293e32]: Catch
+        - generic [ref=f293e33]: agent
+        - generic [ref=f293e34]: failures
+        - generic [ref=f293e35]: before
+        - generic [ref=f293e36]: your
+        - generic [ref=f293e37]: customers
+        - generic [ref=f293e38]: do
+      - paragraph [ref=f293e40]: GlassFlow Rius is the observability layer for AI agents in production. Real-time visibility while your agents are running, not a post-mortem after they crash.
+      - generic [ref=f293e41]:
+        - link "Try 1 month free" [ref=f293e42] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+        - link "talk to the founders" [ref=f293e46] [cursor=pointer]:
+          - /url: https://cal.com/armend-glassflow/30min?utm_source=glassflow&utm_medium=rius_page&utm_campaign=signup
+    - generic [ref=f293e52]:
+      - generic [ref=f293e53]: Long-running agents
+      - generic [ref=f293e55]: Query via MCP
+      - generic [ref=f293e57]: Privacy Controls
+      - generic [ref=f293e59]: Collab with your team
+    - generic [ref=f293e64]:
+      - generic [ref=f293e65]:
+        - generic [ref=f293e66]: "Used by:"
+        - generic [ref=f293e68]:
+          - img "Restack" [ref=f293e70]
+          - img "nubrain" [ref=f293e72]
+          - img "Sentri" [ref=f293e74]
+      - generic [ref=f293e75]:
+        - generic [ref=f293e76]: "Backed by CEOs of:"
+        - generic [ref=f293e78]:
+          - img "Entire" [ref=f293e80]
+          - img "Weaviate" [ref=f293e82]
+          - img "sference" [ref=f293e84]
+    - generic [ref=f293e86]:
+      - blockquote [ref=f293e89]: "\"Rius found agent failures we didn't know existed. Our time to debug went from days to minutes and now we catch issues before they ever reach a customer.\""
+      - generic [ref=f293e90]:
+        - generic [ref=f293e91]:
+          - img "Andres Almansa" [ref=f293e92]
+          - generic [ref=f293e93]:
+            - generic [ref=f293e94]: Andres Almansa
+            - generic [ref=f293e95]: CEO of Restack
+        - img "Restack" [ref=f293e97]
+    - generic [ref=f293e105]:
+      - heading "Retrospective observability is fine for two-second runs. What if yours take six hours?" [level=2] [ref=f293e106]
+      - generic [ref=f293e107]:
+        - paragraph [ref=f293e108]: Most tools give you a post-mortem after the trace closes.
+        - paragraph [ref=f293e109]: That is fine for two-second runs, and useless for six-hour ones.
+        - paragraph [ref=f293e110]: An agent diverges at step 7, burns tokens for 180 more steps and returns a wrong answer at hour six.
+        - paragraph [ref=f293e111]: The failure took seconds. Finding it took a day.
+    - generic [ref=f293e115]:
+      - heading "Agents aren't one length" [level=2] [ref=f293e123]
+      - generic [ref=f293e125]:
+        - generic [ref=f293e126]:
+          - paragraph [ref=f293e129]: How long they run for
+          - paragraph [ref=f293e131]: What they typically do
+        - generic [ref=f293e132]:
+          - generic [ref=f293e133]: "Short:"
+          - paragraph [ref=f293e137]: Typically running for seconds
+          - paragraph [ref=f293e140]: Chat turns, classifiers, RAG lookups.
+        - generic [ref=f293e141]:
+          - generic [ref=f293e142]: "Mid:"
+          - paragraph [ref=f293e146]: Usually run for minutes
+          - paragraph [ref=f293e149]: A content agent drafting a post. An incident summarizer. A nightly sync.
+        - generic [ref=f293e150]:
+          - generic [ref=f293e151]: "Long:"
+          - paragraph [ref=f293e155]: Agents that can run for hours
+          - paragraph [ref=f293e158]: Hour-long calls transcribed and reasoned over. Thousand-page document sets. Deep research that plans, retrieves, verifies,. Optimization loops.
+        - generic [ref=f293e159]:
+          - generic [ref=f293e160]: "Always-on:"
+          - paragraph [ref=f293e164]: Agents that run indefinitelyor are always-on
+          - paragraph [ref=f293e167]: Infra monitors. Ops agents. Live queues that never close.
+    - heading "How it works" [level=2] [ref=f293e172]
+    - generic [ref=f293e174]:
+      - generic [ref=f293e176]:
+        - heading "Instrument" [level=3] [ref=f293e177]
+        - paragraph [ref=f293e179]: two OpenTelemetry lines. Every step streams in as it happens.
+      - generic [ref=f293e181]:
+        - heading "Watch" [level=3] [ref=f293e182]
+        - paragraph [ref=f293e184]: live traces, open-trace metrics, heartbeat detection, alerts mid-run.
+      - generic [ref=f293e186]:
+        - heading "Act" [level=3] [ref=f293e187]
+        - paragraph [ref=f293e189]: query from your coding agent over MCP, find the first divergence, ship the fix.
+    - generic [ref=f293e193]:
+      - heading "What you get" [level=2] [ref=f293e194]
+      - paragraph [ref=f293e195]: Alongside the standard features, such as a dashboard, alerts, traces and span view, you will get unique functionalities.
+    - generic [ref=f293e197]:
+      - generic [ref=f293e198]:
+        - generic [ref=f293e199]: Long-running agents
+        - paragraph [ref=f293e202]: One session across restarts and sub-agents, not thousands of disconnected requests.
+        - link "read more" [ref=f293e203] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+      - generic [ref=f293e205]:
+        - generic [ref=f293e206]: Query via MCP
+        - paragraph [ref=f293e209]: Your coding agent queries traces over MCP and ships the fix. No dashboard.
+        - link "read more" [ref=f293e210] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+      - generic [ref=f293e212]:
+        - generic [ref=f293e213]: Privacy Controls
+        - paragraph [ref=f293e216]: Strip or mask sensitive content in your own process, so PII never reaches our backend.
+        - link "read more" [ref=f293e217] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+      - generic [ref=f293e219]:
+        - generic [ref=f293e220]: Collab with your team
+        - paragraph [ref=f293e223]: Share a window of traces with anyone. They see metadata and rollups. No login or seat required
+        - link "read more" [ref=f293e224] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+    - generic [ref=f293e231]:
+      - generic [ref=f293e232]:
+        - heading "From setup to first trace in minutes." [level=2] [ref=f293e233]
+        - generic [ref=f293e234]:
+          - paragraph [ref=f293e235]: "Follow the quickstart: add the SDK, send your first trace."
+          - paragraph [ref=f293e236]: No infra to run, fully scalable and best value for money.
+      - generic [ref=f293e238]:
+        - generic [ref=f293e239]: glassflow-rius
+        - paragraph [ref=f293e246]:
+          - generic [ref=f293e247]: See your first agent run appear live.
+          - generic [ref=f293e248]: Drop in the OTEL receiver, run your agent, and watch the trace stream in.
+        - list [ref=f293e250]:
+          - listitem [ref=f293e251]:
+            - generic [ref=f293e252]: ">"
+            - generic [ref=f293e253]:
+              - generic [ref=f293e254]: "Long-running agents:"
+              - generic [ref=f293e255]: trace hours-long runs, lose nothing
+          - listitem [ref=f293e256]:
+            - generic [ref=f293e257]: ">"
+            - generic [ref=f293e258]:
+              - generic [ref=f293e259]: "MCP both ways:"
+              - generic [ref=f293e260]: agents send traces; coding agents query back
+          - listitem [ref=f293e261]:
+            - generic [ref=f293e262]: ">"
+            - generic [ref=f293e263]:
+              - generic [ref=f293e264]: "Replay any run:"
+              - generic [ref=f293e265]: reconstruct what happened last week
+        - link "open the rius quickstart" [ref=f293e267] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+    - heading "Rius Pricing" [level=2] [ref=f293e273]
+    - generic [ref=f293e275]:
+      - generic [ref=f293e276]:
+        - generic [ref=f293e282]:
+          - heading "Core" [level=3] [ref=f293e283]
+          - paragraph [ref=f293e284]:
+            - generic [ref=f293e285]: $19
+            - generic [ref=f293e286]: /mo
+          - paragraph [ref=f293e287]: Observe your first agents and send traces in minutes.
+          - generic [ref=f293e288]: try 1 month for free
+        - link "get started" [ref=f293e289] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f293e291]:
+          - generic [ref=f293e292]: spans incl
+          - generic [ref=f293e293]: 500k
+        - generic [ref=f293e294]:
+          - generic [ref=f293e295]: overage per 1m spans
+          - generic [ref=f293e296]: $14
+        - generic [ref=f293e297]:
+          - generic [ref=f293e298]: query retention
+          - generic [ref=f293e299]: 60d
+      - generic [ref=f293e300]:
+        - generic [ref=f293e306]:
+          - heading "Growth" [level=3] [ref=f293e307]
+          - paragraph [ref=f293e308]:
+            - generic [ref=f293e309]: $79
+            - generic [ref=f293e310]: /mo
+          - paragraph [ref=f293e311]: Add more agents and bring the whole team onto one view.
+        - link "get started" [ref=f293e312] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f293e314]:
+          - generic [ref=f293e315]: spans incl.
+          - generic [ref=f293e316]: 2.5m
+        - generic [ref=f293e317]:
+          - generic [ref=f293e318]: overage per 1m spans
+          - generic [ref=f293e319]: $12
+        - generic [ref=f293e320]:
+          - generic [ref=f293e321]: query retention
+          - generic [ref=f293e322]: 180d
+      - generic [ref=f293e323]:
+        - generic [ref=f293e329]:
+          - heading "Pro" [level=3] [ref=f293e330]
+          - paragraph [ref=f293e331]:
+            - generic [ref=f293e332]: $199
+            - generic [ref=f293e333]: /mo
+          - paragraph [ref=f293e334]: Scale to production with the retention and audit trail your SLAs demand.
+        - link "get started" [ref=f293e335] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f293e337]:
+          - generic [ref=f293e338]: spans incl.
+          - generic [ref=f293e339]: 10m
+        - generic [ref=f293e340]:
+          - generic [ref=f293e341]: overage per 1m spans
+          - generic [ref=f293e342]: $10
+        - generic [ref=f293e343]:
+          - generic [ref=f293e344]: query retention
+          - generic [ref=f293e345]: 3y
+      - generic [ref=f293e346]:
+        - generic [ref=f293e352]:
+          - heading "Enterprise" [level=3] [ref=f293e353]
+          - paragraph [ref=f293e354]:
+            - generic [ref=f293e355]: $1,999
+            - generic [ref=f293e356]: /mo
+          - paragraph [ref=f293e357]: Make agent observability a governed part of your stack.
+        - link "get in touch" [ref=f293e358] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f293e360]:
+          - generic [ref=f293e361]: spans incl.
+          - generic [ref=f293e362]: 25m
+        - generic [ref=f293e363]:
+          - generic [ref=f293e364]: overage per 1m spans
+          - generic [ref=f293e365]: $8
+        - generic [ref=f293e366]:
+          - generic [ref=f293e367]: query retention
+          - generic [ref=f293e368]: custom
+    - link "Explore the Rius plans" [ref=f293e371] [cursor=pointer]:
+      - /url: /rius/pricing
+    - heading "Blog" [level=2] [ref=f293e377]
+    - generic [ref=f293e379]:
+      - link "AGENT INFRASTRUCTURE Can a decision model replace an LLM? Tune it on your own data first We ran Cloudflare's Clef-flash next to Claude Haiku for 6 days on production logs. As a filter, it cut LLM calls ~80%. Test it on your own data with Tares. Written by Ashish Bagri read article" [ref=f293e380] [cursor=pointer]:
+        - /url: /blog/decision-model-vs-llm
+        - generic [ref=f293e386]:
+          - generic [ref=f293e387]: AGENT INFRASTRUCTURE
+          - heading "Can a decision model replace an LLM? Tune it on your own data first" [level=3] [ref=f293e388]
+          - paragraph [ref=f293e389]: We ran Cloudflare's Clef-flash next to Claude Haiku for 6 days on production logs. As a filter, it cut LLM calls ~80%. Test it on your own data with Tares.
+        - generic [ref=f293e390]:
+          - generic [ref=f293e391]: Written by
+          - generic [ref=f293e392]: Ashish Bagri
+        - generic [ref=f293e396]:
+          - generic [ref=f293e397]: read article
+          - generic [aria-hidden] [ref=f293e398]: read article
+      - link "AGENT OBSERVABILITY How to detect silent AI agent failures in production Fifteen signals and a five-stage framework for detecting silent AI agent failures while runs are still running Written by Armend Avdijaj read article" [ref=f293e399] [cursor=pointer]:
+        - /url: /blog/how-to-detect-ai-agent-failures-in-production
+        - generic [ref=f293e405]:
+          - generic [ref=f293e406]: AGENT OBSERVABILITY
+          - heading "How to detect silent AI agent failures in production" [level=3] [ref=f293e407]
+          - paragraph [ref=f293e408]: Fifteen signals and a five-stage framework for detecting silent AI agent failures while runs are still running
+        - generic [ref=f293e409]:
+          - generic [ref=f293e410]: Written by
+          - generic [ref=f293e411]: Armend Avdijaj
+        - generic [ref=f293e415]:
+          - generic [ref=f293e416]: read article
+          - generic [aria-hidden] [ref=f293e417]: read article
+    - generic [ref=f293e421]:
+      - heading "Common questions" [level=2] [ref=f293e423]
+      - generic [ref=f293e428]:
+        - button "Why do I need an observability layer for my agents?" [expanded] [ref=f293e429] [cursor=pointer]
+        - paragraph [ref=f293e432]: Agents fail differently from APIs. A run can spend 40 minutes and $12 and still be wrong, or crash at step 190 with its spans lost in memory.
+      - button "Why should I not use an open source solution?" [ref=f293e434] [cursor=pointer]
+      - button "Why should I not vibe code a solution?" [ref=f293e438] [cursor=pointer]
+      - button "What happens when an agent crashes mid-run?" [ref=f293e442] [cursor=pointer]
+  - contentinfo [ref=f293e445]:
+    - generic [ref=f293e449]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f293e451]
+      - generic [ref=f293e453]:
+        - generic [ref=f293e454]:
+          - heading "Start with Tares" [level=3] [ref=f293e455]
+          - paragraph [ref=f293e456]: Feed your agents the right data.
+        - link "get_started" [ref=f293e457] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f293e462]:
+        - generic [ref=f293e463]:
+          - heading "Start with Rius" [level=3] [ref=f293e464]
+          - paragraph [ref=f293e465]: See and debug agents in production.
+        - link "get_started" [ref=f293e466] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f293e471]:
+      - link "GlassFlow home" [ref=f293e472] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f293e473]
+      - generic [ref=f293e474]:
+        - generic [ref=f293e475]: products
+        - generic [ref=f293e481]:
+          - link "tares Feed your agents the right data. Open source" [ref=f293e482] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f293e483]:
+              - generic [ref=f293e484]: tares
+              - generic [ref=f293e485]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f293e486] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f293e487]:
+              - generic [ref=f293e488]: rius
+              - generic [ref=f293e489]: See what your agents did in production.
+      - generic [ref=f293e490]:
+        - link "contact" [ref=f293e491] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f293e497] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f293e503] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f293e509] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f293e515]:
+        - link "X" [ref=f293e516] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f293e517] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f293e518] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f293e520]:
+      - generic [ref=f293e521]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f293e522] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f293e523] [cursor=pointer]:
+        - /url: /privacy-policy

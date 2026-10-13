@@ -1,0 +1,80 @@
+{
+  "id": "alt.logos",
+  "family": "mars",
+  "category": "social-proof",
+  "purpose": "Customer logo row.",
+  "variants": {
+    "arize": "arize data",
+    "langfuse": "langfuse data"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Alternatives.jsx",
+      "lines": "461-467",
+      "quote": "function Logos()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "logos": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "logo.customer"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        },
+        "minItems": 3,
+        "maxItems": 8
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "logos"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "single column, 16px section padding"
+    },
+    "810": {
+      "layout": "64px section padding"
+    },
+    "1200": {
+      "layout": "max 1200 (arize) / 1234 (langfuse)"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "291",
+        "quote": "px-4 md:px-16"
+      }
+    ]
+  },
+  "notes": "Native rebuild of the live iframe template; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
+}

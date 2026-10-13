@@ -1,0 +1,18 @@
+{
+  "id": "case-study-card",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Case-study card: logo cell, title, static 'read more' (card lifts 2px on hover).",
+  "composes": [],
+  "props": {
+    "slug": "text"
+  },
+  "motionPattern": "case-card-hover",
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "328-338",
+      "quote": "export function CaseStudyCards"
+    }
+  ]
+}

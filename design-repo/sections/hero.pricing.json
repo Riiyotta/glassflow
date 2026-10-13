@@ -1,0 +1,120 @@
+{
+  "id": "hero.pricing",
+  "family": "mars",
+  "category": "hero",
+  "purpose": "Pricing hero: centred H1 + lead + 'start free' BigButton + note beside an image.",
+  "variants": {
+    "default": "/rius/pricing"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/RiusPricing.jsx",
+      "lines": "85-110",
+      "quote": "function Hero()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 8
+      },
+      "lead": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 22
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 3
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "note": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 8
+      },
+      "image": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field",
+              "scene.mars-figurative"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "lead",
+      "cta",
+      "note",
+      "image"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "amber-button-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "title": "32/32",
+      "image": "400 tall below"
+    },
+    "810": {
+      "title": "48/48"
+    },
+    "1200": {
+      "columns": 2,
+      "height": 439
+    },
+    "evidence": [
+      {
+        "path": "src/pages/RiusPricing.jsx",
+        "lines": "89",
+        "quote": "grid grid-cols-1 lg:h-[439px] lg:grid-cols-2"
+      }
+    ]
+  }
+}

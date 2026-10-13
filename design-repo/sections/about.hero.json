@@ -1,0 +1,121 @@
+{
+  "id": "about.hero",
+  "family": "mars",
+  "category": "hero",
+  "purpose": "/about hero: per-word H1 + SUMMARY-ONLY story outline (per-char, per-line stagger) + team photo in dithered frame.",
+  "variants": {
+    "default": "/about"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/About.jsx",
+      "lines": "77-127",
+      "quote": "function Hero()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 10
+      },
+      "contentPolicy": {
+        "const": "summary-only"
+      },
+      "storyOutline": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 30
+        },
+        "minItems": 1,
+        "maxItems": 3
+      },
+      "fullTextLink": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "pattern": "^Read the full (story|text) on glassflow\\.ai$"
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^https://www\\.glassflow\\.ai/",
+            "x-linkField": true
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "photo": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "person.real-photo"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "contentPolicy",
+      "storyOutline",
+      "fullTextLink",
+      "photo"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "text-effect"
+    ],
+    "reducedMotionFallback": "opacity-only"
+  },
+  "responsive": {
+    "390": {
+      "stack": "text then photo"
+    },
+    "810": {
+      "stack": "text then photo"
+    },
+    "1200": {
+      "columns": 2
+    },
+    "evidence": [
+      {
+        "path": "src/pages/About.jsx",
+        "lines": "77-81",
+        "quote": "function Hero()"
+      }
+    ]
+  },
+  "policies": [
+    "long-form-summary-only"
+  ]
+}

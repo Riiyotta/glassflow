@@ -1,0 +1,58 @@
+{
+  "$description": "Mars has NO shadows. Its 1px 'hairlines' are inset box-shadows used as zero-space borders, not elevation. Legacy-black uses one backdrop blur.",
+  "mars": {
+    "hairline": {
+      "$value": "inset 0 0 0 1px #5F3E1F",
+      "class": "hairline",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "37",
+          "quote": ".hairline { box-shadow"
+        }
+      ]
+    },
+    "hairline-2": {
+      "$value": "inset 0 0 0 2px #5F3E1F",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "38",
+          "quote": ".hairline-2 {"
+        }
+      ]
+    },
+    "ring-in-4": {
+      "$value": "inset 0 0 0 4px #5F3E1F",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "39",
+          "quote": ".ring-in-4 {"
+        }
+      ]
+    },
+    "line-top": {
+      "$value": "inset 0 1px 0 #5F3E1F",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "42",
+          "quote": ".line-t {"
+        }
+      ]
+    }
+  },
+  "legacy-black": {
+    "nav-blur": {
+      "$value": "backdrop-filter: blur(50px)",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "91",
+          "quote": "backdrop-blur-[50px]"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+() => {
+const r=e=>{const b=e.getBoundingClientRect();return [Math.round(b.x),Math.round(b.y+scrollY),Math.round(b.width),Math.round(b.height)]};
+const out={url:location.href,title:document.title,H:document.documentElement.scrollHeight,W:innerWidth,bodyBg:getComputedStyle(document.body).backgroundColor};
+const vis=e=>{const b=e.getBoundingClientRect();const s=getComputedStyle(e);return b.width>0&&b.height>0&&s.visibility!=='hidden'&&s.opacity!=='0'};
+out.text=[...document.querySelectorAll('h1,h2,h3,h4,h5,h6,p,li,label,input,textarea,select,button,code,pre,blockquote,th,td,time,figcaption')].filter(vis).map(e=>{const s=getComputedStyle(e);return {t:e.tagName,x:(e.value||e.placeholder||e.textContent||'').trim().replace(/\s+/g,' ').slice(0,70),r:r(e),f:s.fontFamily.split(',')[0].replace(/"/g,''),fs:s.fontSize,lh:s.lineHeight,fw:s.fontWeight,ls:s.letterSpacing,c:s.color,bg:s.backgroundColor,tt:s.textTransform,ta:s.textAlign}});
+out.imgs=[...document.querySelectorAll('img')].filter(vis).map(e=>({src:e.currentSrc,alt:e.alt,r:r(e),nat:[e.naturalWidth,e.naturalHeight],of:getComputedStyle(e).objectFit}));
+out.links=[...document.querySelectorAll('a')].filter(vis).map(a=>({h:a.getAttribute('href'),x:a.textContent.trim().replace(/\s+/g,' ').slice(0,40),r:r(a)}));
+out.bgimgs=[...document.querySelectorAll('div,section,span')].map(e=>[e,getComputedStyle(e).backgroundImage]).filter(([e,b])=>b&&b!=='none'&&vis(e)).map(([e,b])=>({b:b.slice(0,150),r:r(e)}));
+let m=document.getElementById('main')||document.body; while(m.children.length===1) m=m.children[0];
+out.sections=[...m.children].filter(vis).map(e=>{const s=getComputedStyle(e);return {r:r(e),bg:s.backgroundColor,pad:s.padding,gap:s.gap,name:e.getAttribute('data-framer-name')}});
+return out}

@@ -1,0 +1,25 @@
+{
+  "id": "blog-card",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Post card: dot bar, cover, amber tag, mono title, 2-line excerpt, author row, rolling 'read article' button.",
+  "composes": [
+    "button-text-roll"
+  ],
+  "props": {
+    "href": "link",
+    "image": "asset",
+    "tag": "text",
+    "title": "text",
+    "description": "text",
+    "author": "text"
+  },
+  "motionPattern": "blog-card-hover",
+  "implementedBy": [
+    {
+      "path": "src/components/BlogCard.jsx",
+      "lines": "16-63",
+      "quote": "export default function BlogCard"
+    }
+  ]
+}

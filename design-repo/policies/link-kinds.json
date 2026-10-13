@@ -1,0 +1,47 @@
+{
+  "$description": "CLOSED link-kind rule. External domains are outbound links only and are never routes (routes.json holds only internal paths).",
+  "kinds": {
+    "internal-route": "starts with '/' (must not be a protocol-relative '//')",
+    "in-page-anchor": "starts with '#'",
+    "outbound": "https:// URL whose host is in outboundHosts",
+    "external-embed": "only the cal.com month view iframe in onboarding.quickstart-band/contact-calendar (calendarEmbed.src, host app.cal.com)",
+    "mailto": "mailto: (imprint only)"
+  },
+  "outboundHosts": [
+    "docs.glassflow.ai",
+    "docs.glassflow.dev",
+    "console.tares-glassflow.com",
+    "console.rius-glassflow.com",
+    "tares.glassflow.ai",
+    "rius.glassflow.ai",
+    "github.com",
+    "x.com",
+    "www.linkedin.com",
+    "cal.com",
+    "www.glassflow.ai",
+    "join.com",
+    "nubrain.com",
+    "www.restack.io",
+    "ec.europa.eu"
+  ],
+  "embedHosts": [
+    "app.cal.com"
+  ],
+  "forbiddenHosts": [
+    "api.hsforms.com",
+    "js-eu1.hsforms.net"
+  ],
+  "notes": "www.glassflow.ai is used only for 'Read the full ... on glassflow.ai' links (long-form policy). Share intents (x/facebook/linkedin/reddit) are generated from blog.share-bar targets, not authored hrefs.",
+  "evidence": [
+    {
+      "path": "src/components/Navbar.jsx",
+      "lines": "63",
+      "quote": "href=\"https://docs.glassflow.ai/\""
+    },
+    {
+      "path": "src/pages/Contact.jsx",
+      "lines": "177",
+      "quote": "src=\"https://app.cal.com/armend-glassflow/engineering-intro-call-with-founder/embed?layout=month_view\""
+    }
+  ]
+}

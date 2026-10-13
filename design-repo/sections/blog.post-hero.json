@@ -1,0 +1,109 @@
+{
+  "id": "blog.post-hero",
+  "family": "mars",
+  "category": "hero",
+  "purpose": "Post hero: 'blog / …' bar, dithered text panel (chip, per-word title, per-char description), meta cells, framed cover.",
+  "variants": {
+    "default": "/blog/:slug"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "128-175",
+      "quote": "export function PostHero"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "category": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 3
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 20
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 40
+      },
+      "author": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 5
+      },
+      "date": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 3
+      },
+      "cover": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "blog.cover"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "category",
+      "title",
+      "description",
+      "author",
+      "date",
+      "cover"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "text-effect"
+    ],
+    "reducedMotionFallback": "opacity-only"
+  },
+  "responsive": {
+    "390": {
+      "text": "centred",
+      "cover": "334 tall below"
+    },
+    "810": {
+      "text": "centred"
+    },
+    "1200": {
+      "columns": "644 + flex",
+      "text": "left"
+    },
+    "evidence": [
+      {
+        "path": "src/components/ContentSections.jsx",
+        "lines": "136",
+        "quote": "flex flex-col bg-deep lg:flex-row"
+      }
+    ]
+  }
+}

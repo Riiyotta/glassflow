@@ -1,0 +1,62 @@
+{
+  "id": "tool.build-vs-buy-calculator",
+  "family": "mars",
+  "category": "tool",
+  "purpose": "Interactive build-vs-buy cost calculator (logic is code-owned; only labels are content).",
+  "variants": {
+    "default": "calculator"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/BuildVsBuyCalculator.jsx",
+      "lines": "177-237",
+      "quote": "export default function BuildVsBuyCalculator"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 12
+      },
+      "inputsHeading": {
+        "const": "Inputs"
+      },
+      "resultsHeading": {
+        "const": "Results"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "inputsHeading",
+      "resultsHeading"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "stacked"
+    },
+    "810": {
+      "layout": "stacked"
+    },
+    "1200": {
+      "layout": "inputs + results columns"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Calculator.jsx",
+        "lines": "13",
+        "quote": "<Shell className=\"px-4\" inner=\"bg-panel\">"
+      }
+    ]
+  },
+  "notes": "Uses system font stacks (fontFamily sys / sys-mono) and calc-* colours: an intentional third sub-palette scoped to this tool."
+}

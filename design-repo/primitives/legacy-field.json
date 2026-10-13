@@ -1,0 +1,19 @@
+{
+  "id": "legacy-field",
+  "kind": "primitive",
+  "family": "legacy",
+  "purpose": "Legacy rounded-xl dark input with required asterisk.",
+  "props": {
+    "label": "text",
+    "required": "bool"
+  },
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/pages/Guide.jsx",
+      "lines": "79",
+      "quote": "rounded-xl border border-[#2A2A2A]"
+    }
+  ]
+}

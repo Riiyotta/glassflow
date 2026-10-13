@@ -1,0 +1,18 @@
+{
+  "id": "investor-card",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Square photo with 32px firm badge, name + firm in mono.",
+  "composes": [],
+  "props": {
+    "investor": "object"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/pages/About.jsx",
+      "lines": "201-220",
+      "quote": "function Investors()"
+    }
+  ]
+}

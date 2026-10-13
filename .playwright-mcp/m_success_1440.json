@@ -1,0 +1,1668 @@
+{
+  "url": "https://www.glassflow.ai/contact/success",
+  "title": "AI Agent Observability & Data Infrastructure | GlassFlow",
+  "H": 1413,
+  "W": 1440,
+  "bodyBg": "rgb(73, 36, 0)",
+  "text": [
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        229,
+        11,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        342,
+        11,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        408,
+        11,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(143, 137, 130)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        473,
+        11,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1232,
+        11,
+        92,
+        18
+      ],
+      "f": "Geist Mono Variable",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(29, 14, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        686,
+        88,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Thanks for reaching out!",
+      "r": [
+        188,
+        230,
+        408,
+        96
+      ],
+      "f": "Inter Display",
+      "fs": "48px",
+      "lh": "48px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "We've got your message. One of our engineers or founders will get back to you shortly.",
+      "r": [
+        188,
+        338,
+        408,
+        54
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "27px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "In the meantime, here's where to poke around:",
+      "r": [
+        188,
+        404,
+        408,
+        27
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "27px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Tares on GitHub ↗",
+      "r": [
+        132,
+        555,
+        556,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Open source. Feed your agents the right data clone it, run it, drop a star.",
+      "r": [
+        132,
+        577,
+        556,
+        17
+      ],
+      "f": "Inter Display",
+      "fs": "14px",
+      "lh": "16.8px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Read the Blog",
+      "r": [
+        132,
+        626,
+        556,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "How we think about agent observability and long-running agents.",
+      "r": [
+        132,
+        648,
+        556,
+        17
+      ],
+      "f": "Inter Display",
+      "fs": "14px",
+      "lh": "16.8px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Rius guides ↗",
+      "r": [
+        132,
+        697,
+        556,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Wire up traces, MCP, and retention: from first span to production.",
+      "r": [
+        132,
+        719,
+        556,
+        17
+      ],
+      "f": "Inter Display",
+      "fs": "14px",
+      "lh": "16.8px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ready to give your agents better data and total recall?",
+      "r": [
+        96,
+        931,
+        271,
+        96
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "32px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Tares",
+      "r": [
+        750,
+        912,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data.",
+      "r": [
+        750,
+        944,
+        277,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        818,
+        1009,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Rius",
+      "r": [
+        1075,
+        912,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "See and debug agents in production.",
+      "r": [
+        1062,
+        944,
+        302,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1143,
+        1009,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        646,
+        1163,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        1143,
+        1159,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    }
+  ],
+  "imgs": [
+    {
+      "src": "https://framerusercontent.com/images/D96xSgDLnqPtPU2OdIebnL9UZYs.jpg?scale-down-to=1024&width=1312&height=1050",
+      "alt": "",
+      "r": [
+        64,
+        122,
+        656,
+        417
+      ],
+      "nat": [
+        656,
+        525
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/rEJrzUhJOm30gvdjvFesntLyB0k.jpg?scale-down-to=1024&width=1968&height=2100",
+      "alt": "",
+      "r": [
+        720,
+        122,
+        656,
+        630
+      ],
+      "nat": [
+        656,
+        700
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/p8ihsATIQW2BpC2j7ekzEF2gA.jpg?width=559&height=661",
+      "alt": "",
+      "r": [
+        64,
+        819,
+        662,
+        320
+      ],
+      "nat": [
+        1440,
+        1702
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/dkWQcxyRjqORomn3COxNj6KgRl4.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        726,
+        819,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZsW3C35h6WXWKMkdVHcrVPc.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        1051,
+        819,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    }
+  ],
+  "links": [
+    {
+      "h": "../",
+      "x": "",
+      "r": [
+        64,
+        -1,
+        149,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        326,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "../blog",
+      "x": "blog",
+      "r": [
+        392,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "../contact",
+      "x": "contact",
+      "r": [
+        457,
+        0,
+        91,
+        40
+      ]
+    },
+    {
+      "h": "../#quickstart",
+      "x": "get_started",
+      "r": [
+        1223,
+        -1,
+        153,
+        42
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "Tares on GitHub ↗",
+      "r": [
+        132,
+        555,
+        143,
+        18
+      ]
+    },
+    {
+      "h": "../blog",
+      "x": "Read the Blog",
+      "r": [
+        132,
+        626,
+        109,
+        18
+      ]
+    },
+    {
+      "h": "https://console.tares-glassflow.com/",
+      "x": "get_started",
+      "r": [
+        790,
+        995,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core",
+      "x": "get_started",
+      "r": [
+        1115,
+        995,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "../tares",
+      "x": "taresFeed your agents the right data. Op",
+      "r": [
+        282,
+        1197,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "../rius",
+      "x": "riusSee what your agents did in producti",
+      "r": [
+        680,
+        1197,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "../contact",
+      "x": "contact",
+      "r": [
+        1085,
+        1147,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        1085,
+        1197,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "../blog",
+      "x": "blog",
+      "r": [
+        1085,
+        1247,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "../about",
+      "x": "about",
+      "r": [
+        1085,
+        1297,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://x.com/glassflowdev",
+      "x": "",
+      "r": [
+        1268,
+        1147,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/company/glassflow-dev/",
+      "x": "",
+      "r": [
+        1268,
+        1214,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "",
+      "r": [
+        1268,
+        1281,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "../terms-of-service",
+      "x": "Terms & Conditions",
+      "r": [
+        707,
+        1371,
+        151,
+        18
+      ]
+    },
+    {
+      "h": "../privacy-policy",
+      "x": "Privacy Policy",
+      "r": [
+        1234,
+        1371,
+        118,
+        18
+      ]
+    }
+  ],
+  "bgimgs": [
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 124.51 15.963%22 ove",
+      "r": [
+        76,
+        12,
+        125,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 24 24%22 overflow=%2",
+      "r": [
+        96,
+        563,
+        24,
+        24
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 24 24%22 overflow=%2",
+      "r": [
+        96,
+        634,
+        24,
+        24
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 24 24%22 overflow=%2",
+      "r": [
+        96,
+        705,
+        24,
+        24
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        1044,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        1014,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        1044,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        1014,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 202 194%22><path d=%",
+      "r": [
+        72,
+        1146,
+        202,
+        194
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 16%22 overflow=%2",
+      "r": [
+        1310,
+        1169,
+        16,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 14.994%22 overflo",
+      "r": [
+        1311,
+        1236,
+        15,
+        15
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16.667 16.264%22 ove",
+      "r": [
+        1310,
+        1301,
+        17,
+        17
+      ]
+    }
+  ],
+  "boxes": [
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        1413
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "nav"
+    },
+    {
+      "r": [
+        64,
+        -1,
+        149,
+        42
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 12px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "A"
+    },
+    {
+      "r": [
+        213,
+        0,
+        113,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "3.06401px 16px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "link"
+    },
+    {
+      "r": [
+        326,
+        0,
+        66,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "3.06401px 16px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        392,
+        0,
+        66,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "3.06401px 16px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        457,
+        0,
+        91,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "3.06401px 16px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        1223,
+        0,
+        111,
+        40
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "3.06401px 9.19203px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        0,
+        40,
+        1440,
+        32
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        23,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        72,
+        1440,
+        680
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "hero"
+    },
+    {
+      "r": [
+        64,
+        72,
+        1312,
+        50
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "bar"
+    },
+    {
+      "r": [
+        80,
+        94,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        90,
+        94,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        100,
+        94,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1334,
+        94,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1344,
+        94,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1354,
+        94,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        64,
+        122,
+        1312,
+        630
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "656px 656px",
+      "n": "content"
+    },
+    {
+      "r": [
+        64,
+        122,
+        656,
+        630
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        64,
+        122,
+        656,
+        417
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px",
+      "gap": "64px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "content"
+    },
+    {
+      "r": [
+        64,
+        539,
+        656,
+        71
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "16px 32px",
+      "gap": "12px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        64,
+        610,
+        656,
+        71
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "16px 32px",
+      "gap": "12px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        64,
+        681,
+        656,
+        71
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "16px 32px",
+      "gap": "12px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        720,
+        122,
+        656,
+        630
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "40px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        0,
+        752,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        752,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        819,
+        1440,
+        594
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        819,
+        1440,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326097"
+    },
+    {
+      "r": [
+        64,
+        819,
+        662,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        726,
+        819,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "tares"
+    },
+    {
+      "r": [
+        790,
+        995,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        790,
+        995,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        794,
+        999,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        935,
+        995,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        1051,
+        819,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "rius"
+    },
+    {
+      "r": [
+        1115,
+        995,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        1115,
+        995,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        1119,
+        999,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        1260,
+        995,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        0,
+        1139,
+        1440,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326096"
+    },
+    {
+      "r": [
+        64,
+        1139,
+        1312,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        282,
+        1147,
+        795,
+        50
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326098"
+    },
+    {
+      "r": [
+        298,
+        1169,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        308,
+        1169,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        318,
+        1169,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1035,
+        1169,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1045,
+        1169,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1055,
+        1169,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        282,
+        1197,
+        398,
+        142
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "20px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "item"
+    },
+    {
+      "r": [
+        680,
+        1197,
+        398,
+        142
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "20px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "item"
+    },
+    {
+      "r": [
+        1085,
+        1147,
+        175,
+        42
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "16px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326068"
+    },
+    {
+      "r": [
+        1101,
+        1165,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        1165,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        1165,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1085,
+        1197,
+        175,
+        42
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "16px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326069"
+    },
+    {
+      "r": [
+        1268,
+        1147,
+        100,
+        59
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "16px",
+      "gap": "16px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326068"
+    }
+  ]
+}

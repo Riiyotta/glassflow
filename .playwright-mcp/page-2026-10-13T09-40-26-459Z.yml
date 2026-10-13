@@ -1,0 +1,192 @@
+- generic [ref=f129e3]:
+  - banner [ref=f129e4]:
+    - navigation [ref=f129e5]:
+      - generic [ref=f129e6]:
+        - link "GlassFlow home" [ref=f129e7] [cursor=pointer]:
+          - /url: /
+          - img "GlassFlow" [ref=f129e8]
+        - link "products" [ref=f129e10] [cursor=pointer]:
+          - /url: "#"
+        - link "docs" [ref=f129e13] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f129e14] [cursor=pointer]:
+          - /url: /blog
+        - link "contact" [ref=f129e15] [cursor=pointer]:
+          - /url: /contact
+      - link "get_started" [ref=f129e16] [cursor=pointer]:
+        - /url: /#quickstart
+  - main [ref=f129e18]:
+    - generic [ref=f129e23]:
+      - link "Case Studies" [ref=f129e24] [cursor=pointer]:
+        - /url: /case-studies
+      - heading "Nubrain fixes the silent errors of AI agents in their pipelines" [level=1] [ref=f129e25]
+    - generic [ref=f129e27]:
+      - generic [ref=f129e28]:
+        - heading "93%" [level=2] [ref=f129e29]
+        - paragraph [ref=f129e30]: Reduction of silently duplicated or corrupted metrics
+      - generic [ref=f129e31]:
+        - heading "3x" [level=2] [ref=f129e32]
+        - paragraph [ref=f129e33]: Improved scalability as agent throughput increased
+      - generic [ref=f129e34]:
+        - heading "7 TB/day" [level=2] [ref=f129e35]
+        - paragraph [ref=f129e36]: Stable processing
+    - generic [ref=f129e38]:
+      - generic [ref=f129e39]:
+        - generic [ref=f129e40]:
+          - blockquote [ref=f129e43]: "\"GlassFlow helped eliminate silent failures in our pipelines. Dead-letter queues and pipeline metrics significantly improved reliability while keeping everything self-hosted.\""
+          - generic [ref=f129e44]:
+            - generic [ref=f129e45]:
+              - img "Ingo Marquardt," [ref=f129e46]
+              - generic [ref=f129e47]:
+                - generic [ref=f129e48]: Ingo Marquardt,
+                - generic [ref=f129e49]: CTO, Nubrain.
+            - img "Nubrain" [ref=f129e51]
+        - generic [ref=f129e52]:
+          - heading "Results" [level=2] [ref=f129e53]
+          - paragraph [ref=f129e54]: Nubrain replaced Kafka table engines and stateless custom code with GlassFlow's stateful transformations, dedup and dead-letter queues, cutting silently corrupted metrics by 93% at about 7 TB/day.
+          - heading "Key takeaways" [level=2] [ref=f129e55]
+          - heading "The Challenge" [level=2] [ref=f129e56]
+          - list [ref=f129e57]:
+            - listitem [ref=f129e58]:
+              - text: •
+              - strong [ref=f129e59]: Stateless transforms
+            - listitem [ref=f129e60]:
+              - text: •
+              - strong [ref=f129e61]: Scalability
+            - listitem [ref=f129e62]:
+              - text: •
+              - strong [ref=f129e63]: Observability
+            - listitem [ref=f129e64]:
+              - text: •
+              - strong [ref=f129e65]: Silent data issues
+            - listitem [ref=f129e66]:
+              - text: •
+              - strong [ref=f129e67]: Operational complexity
+          - heading "Why GlassFlow" [level=2] [ref=f129e68]
+          - heading "Solution" [level=2] [ref=f129e69]
+          - paragraph [ref=f129e70]:
+            - link "Read the full case study on glassflow.ai" [ref=f129e71] [cursor=pointer]:
+              - /url: https://www.glassflow.ai/case-studies/nubrain
+      - complementary [ref=f129e72]:
+        - heading "Company Overview" [level=6] [ref=f129e73]
+        - paragraph [ref=f129e74]: Nubrain is building a Human Mind API for non-invasive brain-computer interfaces. Their platform processes large volumes of AI-driven data produced by autonomous agents and research systems.
+        - paragraph [ref=f129e75]: As Nubrain moved from experimentation to production workloads, they needed streaming pipelines that could handle state, scale reliably, and provide deep observability.
+        - link "Visit Website" [ref=f129e76] [cursor=pointer]:
+          - /url: https://nubrain.com/
+          - generic [ref=f129e77]:
+            - generic [ref=f129e78]: Visit Website
+            - generic [aria-hidden] [ref=f129e79]:
+              - generic [ref=f129e80]: V
+              - generic [ref=f129e81]: V
+            - generic [aria-hidden] [ref=f129e82]:
+              - generic [ref=f129e83]: i
+              - generic [ref=f129e84]: i
+            - generic [aria-hidden] [ref=f129e85]:
+              - generic [ref=f129e86]: s
+              - generic [ref=f129e87]: s
+            - generic [aria-hidden] [ref=f129e88]:
+              - generic [ref=f129e89]: i
+              - generic [ref=f129e90]: i
+            - generic [aria-hidden] [ref=f129e91]:
+              - generic [ref=f129e92]: t
+              - generic [ref=f129e93]: t
+            - generic [aria-hidden] [ref=f129e94]:
+              - generic [ref=f129e95]: W
+              - generic [ref=f129e96]: W
+            - generic [aria-hidden] [ref=f129e97]:
+              - generic [ref=f129e98]: e
+              - generic [ref=f129e99]: e
+            - generic [aria-hidden] [ref=f129e100]:
+              - generic [ref=f129e101]: b
+              - generic [ref=f129e102]: b
+            - generic [aria-hidden] [ref=f129e103]:
+              - generic [ref=f129e104]: s
+              - generic [ref=f129e105]: s
+            - generic [aria-hidden] [ref=f129e106]:
+              - generic [ref=f129e107]: i
+              - generic [ref=f129e108]: i
+            - generic [aria-hidden] [ref=f129e109]:
+              - generic [ref=f129e110]: t
+              - generic [ref=f129e111]: t
+            - generic [aria-hidden] [ref=f129e112]:
+              - generic [ref=f129e113]: e
+              - generic [ref=f129e114]: e
+    - heading "You might also like" [level=2] [ref=f129e125]
+    - generic [ref=f129e127]:
+      - link "restack Restack scales real-time enterprise observability with GlassFlow read more" [ref=f129e128] [cursor=pointer]:
+        - /url: /case-studies/restack
+        - img "restack" [ref=f129e130]
+        - heading "Restack scales real-time enterprise observability with GlassFlow" [level=3] [ref=f129e132]
+        - generic [ref=f129e136]:
+          - generic [ref=f129e137]: read more
+          - generic [aria-hidden] [ref=f129e138]: read more
+      - link "nubrain Nubrain fixes the silent errors of AI agents in their pipelines read more" [ref=f129e139] [cursor=pointer]:
+        - /url: /case-studies/nubrain
+        - img "nubrain" [ref=f129e141]
+        - heading "Nubrain fixes the silent errors of AI agents in their pipelines" [level=3] [ref=f129e143]
+        - generic [ref=f129e147]:
+          - generic [ref=f129e148]: read more
+          - generic [aria-hidden] [ref=f129e149]: read more
+    - generic [ref=f129e155]:
+      - generic [ref=f129e156]:
+        - heading "Two products. Two starting points." [level=2] [ref=f129e157]
+        - paragraph [ref=f129e158]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and retention, from first span to production.
+      - generic [ref=f129e159]:
+        - link "Star Tares on GitHub" [ref=f129e160] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+        - link "Read the Rius guides" [ref=f129e163] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/guides
+  - contentinfo [ref=f129e167]:
+    - generic [ref=f129e171]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f129e173]
+      - generic [ref=f129e175]:
+        - generic [ref=f129e176]:
+          - heading "Start with Tares" [level=3] [ref=f129e177]
+          - paragraph [ref=f129e178]: Feed your agents the right data.
+        - link "get_started" [ref=f129e179] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f129e184]:
+        - generic [ref=f129e185]:
+          - heading "Start with Rius" [level=3] [ref=f129e186]
+          - paragraph [ref=f129e187]: See and debug agents in production.
+        - link "get_started" [ref=f129e188] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f129e193]:
+      - link "GlassFlow home" [ref=f129e194] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f129e195]
+      - generic [ref=f129e196]:
+        - generic [ref=f129e197]: products
+        - generic [ref=f129e203]:
+          - link "tares Feed your agents the right data. Open source" [ref=f129e204] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f129e205]:
+              - generic [ref=f129e206]: tares
+              - generic [ref=f129e207]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f129e208] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f129e209]:
+              - generic [ref=f129e210]: rius
+              - generic [ref=f129e211]: See what your agents did in production.
+      - generic [ref=f129e212]:
+        - link "contact" [ref=f129e213] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f129e219] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f129e225] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f129e231] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f129e237]:
+        - link "X" [ref=f129e238] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f129e239] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f129e240] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f129e242]:
+      - generic [ref=f129e243]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f129e244] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f129e245] [cursor=pointer]:
+        - /url: /privacy-policy

@@ -1,0 +1,103 @@
+{
+  "id": "blog.featured-post",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Featured post panel: 'featured-blog' bar, chip/title/excerpt, static read more, framed cover.",
+  "variants": {
+    "default": "/blog"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/BlogIndex.jsx",
+      "lines": "28-47",
+      "quote": "function Featured({ post })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "href": {
+        "type": "string",
+        "minLength": 1,
+        "x-linkField": true,
+        "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+      },
+      "category": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 3
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 20
+      },
+      "excerpt": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 30
+      },
+      "cover": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "blog.cover"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      },
+      "ctaLabel": {
+        "const": "read more"
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "href",
+      "category",
+      "title",
+      "excerpt",
+      "cover",
+      "ctaLabel"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "image": "245 tall below"
+    },
+    "810": {
+      "image": "245 tall below"
+    },
+    "1200": {
+      "columns": "644 + flex, 412 tall"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/BlogIndex.jsx",
+        "lines": "32",
+        "quote": "flex flex-col lg:h-[412px] lg:flex-row"
+      }
+    ]
+  },
+  "notes": "'read more' is static on the live site (TextRollButton trigger none)."
+}

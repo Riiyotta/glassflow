@@ -1,0 +1,109 @@
+{
+  "id": "legal.single-document",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Single-column legal page (imprint): short factual blocks + link to the full text.",
+  "variants": {
+    "default": "/imprint"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Legal.jsx",
+      "lines": "246-283",
+      "quote": "export function Imprint()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "h1": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 3
+      },
+      "blocks": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "heading": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 8
+            },
+            "lines": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 20
+              },
+              "minItems": 1,
+              "maxItems": 6
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "heading",
+            "lines"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 8
+      },
+      "fullTextLink": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "pattern": "^Read the full text on glassflow\\.ai$"
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^https://www\\.glassflow\\.ai/",
+            "x-linkField": true
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "h1",
+      "blocks",
+      "fullTextLink"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "pad": "32px sides"
+    },
+    "810": {
+      "pad": "32px sides"
+    },
+    "1200": {
+      "article": "620 max centred"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Legal.jsx",
+        "lines": "259-260",
+        "quote": "<Shell inner=\"flex justify-center px-8 pb-16 pt-16 lg:px-0\">"
+      }
+    ]
+  },
+  "policies": [
+    "long-form-summary-only"
+  ]
+}

@@ -1,0 +1,7283 @@
+{
+  "url": "https://www.glassflow.ai/about",
+  "title": "About GlassFlow | Infrastructure for AI Agents",
+  "H": 6749,
+  "W": 1440,
+  "bodyBg": "rgb(73, 36, 0)",
+  "text": [
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        229,
+        11,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        342,
+        11,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        408,
+        11,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(143, 137, 130)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        473,
+        11,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1232,
+        11,
+        92,
+        18
+      ],
+      "f": "Geist Mono Variable",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(29, 14, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "H1",
+      "x": "Developing data infra products for AI agents",
+      "r": [
+        96,
+        174,
+        665,
+        96
+      ],
+      "f": "Inter Display",
+      "fs": "48px",
+      "lh": "48px",
+      "fw": "400",
+      "ls": "-1.92px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "At GlassFlow, we build the infrastructure AI agents need to run reliably in production. Te",
+      "r": [
+        96,
+        285,
+        600,
+        95
+      ],
+      "f": "Inter",
+      "fs": "17px",
+      "lh": "23.8px",
+      "fw": "400",
+      "ls": "-0.68px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "We build two products to fix that. Tares feeds agents correlated, real-time data, so they ",
+      "r": [
+        96,
+        400,
+        600,
+        95
+      ],
+      "f": "Inter",
+      "fs": "17px",
+      "lh": "23.8px",
+      "fw": "400",
+      "ls": "-0.68px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "We're engineers who've built and run systems at scale at Google, Uber, SumUp, Avira and Mi",
+      "r": [
+        96,
+        515,
+        600,
+        71
+      ],
+      "f": "Inter",
+      "fs": "17px",
+      "lh": "23.8px",
+      "fw": "400",
+      "ls": "-0.68px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        686,
+        750,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Simplicity",
+      "r": [
+        229,
+        936,
+        108,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "18px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "We believe in making the complex simple. GlassFlow allows engineers to focus on innovation",
+      "r": [
+        88,
+        962,
+        389,
+        108
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "27px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Empowerment",
+      "r": [
+        661,
+        936,
+        119,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "18px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "GlassFlow is built to empower data engineers and teams to maximize productivity and creati",
+      "r": [
+        525,
+        962,
+        389,
+        108
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "27px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Curiosity",
+      "r": [
+        1109,
+        936,
+        97,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "18px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "In an ever-changing environment, a curious mindset drives us to ask the right questions, e",
+      "r": [
+        963,
+        962,
+        389,
+        108
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "27px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Meet our team",
+      "r": [
+        88,
+        1265,
+        1264,
+        40
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "40px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Armend Avdijaj",
+      "r": [
+        80,
+        1719,
+        118,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Founder & CEO",
+      "r": [
+        80,
+        1741,
+        109,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Vladimir Cutkovic",
+      "r": [
+        516,
+        1719,
+        143,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Senior Frontend Engineer",
+      "r": [
+        516,
+        1741,
+        202,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Kiran Nambiar",
+      "r": [
+        952,
+        1719,
+        109,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Senior Backend Engineer",
+      "r": [
+        952,
+        1741,
+        193,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Petr Nuzhnov",
+      "r": [
+        80,
+        2118,
+        101,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Senior Backend Engineer",
+      "r": [
+        80,
+        2140,
+        193,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Meryem Cebeci",
+      "r": [
+        516,
+        2118,
+        109,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Project Manager",
+      "r": [
+        516,
+        2140,
+        126,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Pablo Pardo Garcia",
+      "r": [
+        952,
+        2118,
+        151,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Senior Solution Engineer",
+      "r": [
+        952,
+        2140,
+        202,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Benjamin Gorski",
+      "r": [
+        80,
+        2516,
+        126,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Head of Operations",
+      "r": [
+        80,
+        2538,
+        151,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ayaan Islam",
+      "r": [
+        516,
+        2516,
+        92,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Accounting & Finance Associate",
+      "r": [
+        516,
+        2538,
+        252,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ashish Bagri",
+      "r": [
+        952,
+        2516,
+        101,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Founder & CTO",
+      "r": [
+        952,
+        2538,
+        109,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Markos Sfikas",
+      "r": [
+        80,
+        2914,
+        109,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Marketing Lead",
+      "r": [
+        80,
+        2937,
+        118,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Bahareh Darbandi",
+      "r": [
+        516,
+        2914,
+        134,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Senior Backend Engineer",
+      "r": [
+        516,
+        2937,
+        193,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Discover more",
+      "r": [
+        500,
+        3098,
+        440,
+        40
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "40px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "careers",
+      "r": [
+        397,
+        3182,
+        144,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "H3",
+      "x": "We are hiring people who want to shape the data streaming future with us.",
+      "r": [
+        311,
+        3508,
+        320,
+        86
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "28.8px",
+      "fw": "500",
+      "ls": "-0.96px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "find out more",
+      "r": [
+        418,
+        3624,
+        105,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        895,
+        3182,
+        135,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "H3",
+      "x": "Check the latest news, product updates and best practices.",
+      "r": [
+        809,
+        3508,
+        320,
+        86
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "28.8px",
+      "fw": "500",
+      "ls": "-0.96px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "find out more",
+      "r": [
+        916,
+        3624,
+        105,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Backed by the best",
+      "r": [
+        88,
+        3857,
+        1264,
+        40
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "40px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Kevin Zhang",
+      "r": [
+        164,
+        4235,
+        86,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Partner at Upfront Ventures",
+      "r": [
+        110,
+        4254,
+        194,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Martin Möllmann",
+      "r": [
+        407,
+        4228,
+        117,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Investor at High-Tech Gründerfonds",
+      "r": [
+        350,
+        4247,
+        230,
+        28
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Philipp Moehring",
+      "r": [
+        662,
+        4235,
+        125,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Partner at TSIC",
+      "r": [
+        670,
+        4254,
+        108,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Robin Haak",
+      "r": [
+        943,
+        4235,
+        78,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Partner at Robin Capital",
+      "r": [
+        896,
+        4254,
+        173,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Serhii Sokolenko",
+      "r": [
+        1178,
+        4235,
+        125,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Ex-Snowflake",
+      "r": [
+        1198,
+        4254,
+        86,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Kamil Mieczakowski",
+      "r": [
+        137,
+        4558,
+        140,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Partner at Notion Capital",
+      "r": [
+        117,
+        4576,
+        180,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Andrew Tymovskyi",
+      "r": [
+        403,
+        4558,
+        125,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Investor at Roosh Ventures",
+      "r": [
+        372,
+        4576,
+        187,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Thomas Dohmke",
+      "r": [
+        673,
+        4558,
+        101,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "CEO at GitHub",
+      "r": [
+        677,
+        4576,
+        94,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Andrei David",
+      "r": [
+        936,
+        4558,
+        94,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Scout at Atomico",
+      "r": [
+        925,
+        4576,
+        115,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Roland Fassauer",
+      "r": [
+        1182,
+        4558,
+        117,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Partner at Fadelia",
+      "r": [
+        1176,
+        4576,
+        130,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Heikki Nousiainen",
+      "r": [
+        141,
+        4880,
+        133,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "CTO & Co-Founder at aiven",
+      "r": [
+        117,
+        4898,
+        180,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Andres Almansa",
+      "r": [
+        411,
+        4880,
+        109,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "CEO at Restack",
+      "r": [
+        415,
+        4898,
+        101,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Philippe Brule",
+      "r": [
+        669,
+        4880,
+        109,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "CTO at Restack",
+      "r": [
+        674,
+        4898,
+        101,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Jernej Strasner",
+      "r": [
+        924,
+        4880,
+        117,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "VP Engineering at sentry.io",
+      "r": [
+        885,
+        4898,
+        194,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Taimur Rashid",
+      "r": [
+        1190,
+        4880,
+        101,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Founding AWS sales manager",
+      "r": [
+        1147,
+        4898,
+        187,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Enrique Sarap",
+      "r": [
+        156,
+        5203,
+        101,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Scout at Sequoia",
+      "r": [
+        150,
+        5221,
+        115,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Eva Spannagl",
+      "r": [
+        419,
+        5203,
+        94,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Ex Moss Lead and scout",
+      "r": [
+        386,
+        5221,
+        158,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Bob van Luijt",
+      "r": [
+        673,
+        5203,
+        101,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "CEO at Weaviate",
+      "r": [
+        670,
+        5221,
+        108,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Keith Grose",
+      "r": [
+        939,
+        5203,
+        86,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Ex Plaid Lead and scout",
+      "r": [
+        900,
+        5221,
+        166,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Mark Maxwell",
+      "r": [
+        1194,
+        5203,
+        94,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Ex dbt labs and fivetran",
+      "r": [
+        1154,
+        5221,
+        173,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Navid Meyer",
+      "r": [
+        164,
+        5525,
+        86,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "13px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Investor at Lakestar",
+      "r": [
+        135,
+        5543,
+        144,
+        14
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "14px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Two products. Two starting points.",
+      "r": [
+        192,
+        5724,
+        420,
+        80
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "40px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius,",
+      "r": [
+        192,
+        5836,
+        420,
+        72
+      ],
+      "f": "Inter Display",
+      "fs": "16px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Star Tares on GitHub",
+      "r": [
+        220,
+        5986,
+        162,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Read the Rius guides",
+      "r": [
+        446,
+        5986,
+        162,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ready to give your agents better data and total recall?",
+      "r": [
+        96,
+        6267,
+        271,
+        96
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "32px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Tares",
+      "r": [
+        750,
+        6248,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data.",
+      "r": [
+        750,
+        6280,
+        277,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        818,
+        6345,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Rius",
+      "r": [
+        1075,
+        6248,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "See and debug agents in production.",
+      "r": [
+        1062,
+        6280,
+        302,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1143,
+        6345,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        646,
+        6499,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "tares",
+      "r": [
+        302,
+        6589,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data. Open source",
+      "r": [
+        302,
+        6613,
+        211,
+        39
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "rius",
+      "r": [
+        700,
+        6589,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "See what your agents did in production.",
+      "r": [
+        700,
+        6613,
+        211,
+        39
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        1143,
+        6495,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        1143,
+        6545,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        1143,
+        6595,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "about",
+      "r": [
+        1143,
+        6645,
+        42,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "2026 - Copyright GlassFlow.ai",
+      "r": [
+        88,
+        6707,
+        244,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Terms & Conditions",
+      "r": [
+        707,
+        6707,
+        151,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Privacy Policy",
+      "r": [
+        1234,
+        6707,
+        118,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    }
+  ],
+  "imgs": [
+    {
+      "src": "https://framerusercontent.com/images/p8ihsATIQW2BpC2j7ekzEF2gA.jpg?width=559&height=661",
+      "alt": "",
+      "r": [
+        64,
+        110,
+        729,
+        557
+      ],
+      "nat": [
+        1440,
+        1702
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/5G4h16OWSlfa4F2lERWRFPE.jpg?width=593&height=593",
+      "alt": "",
+      "r": [
+        793,
+        110,
+        583,
+        557
+      ],
+      "nat": [
+        583,
+        583
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/z5vl4a9tCeiczbox4Aqgzy11Dk.png?scale-down-to=1024&width=1782&height=2700",
+      "alt": "",
+      "r": [
+        793,
+        110,
+        583,
+        557
+      ],
+      "nat": [
+        583,
+        884
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/D96xSgDLnqPtPU2OdIebnL9UZYs.jpg?scale-down-to=512&width=1312&height=1050",
+      "alt": "",
+      "r": [
+        64,
+        784,
+        437,
+        350
+      ],
+      "nat": [
+        437,
+        350
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/D96xSgDLnqPtPU2OdIebnL9UZYs.jpg?scale-down-to=512&width=1312&height=1050",
+      "alt": "",
+      "r": [
+        501,
+        784,
+        437,
+        350
+      ],
+      "nat": [
+        437,
+        350
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/D96xSgDLnqPtPU2OdIebnL9UZYs.jpg?scale-down-to=512&width=1312&height=1050",
+      "alt": "",
+      "r": [
+        939,
+        784,
+        437,
+        350
+      ],
+      "nat": [
+        437,
+        350
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/EUGyjKzZWaJSrr2zu5746RGlI.png?scale-down-to=512&width=640&height=495",
+      "alt": "",
+      "r": [
+        68,
+        1411,
+        432,
+        300
+      ],
+      "nat": [
+        432,
+        334
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/a8QrifheqiMQU26hAsZjchuotX4.jpg?scale-down-to=512&width=2000&height=1546",
+      "alt": "",
+      "r": [
+        504,
+        1411,
+        432,
+        300
+      ],
+      "nat": [
+        432,
+        334
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/0Wpq0XXDfDAIb0DiPfPgV2vRRA.png?scale-down-to=512&width=2000&height=1546",
+      "alt": "",
+      "r": [
+        940,
+        1411,
+        432,
+        300
+      ],
+      "nat": [
+        432,
+        334
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/8zc9wR0jTofmXo1i8oAe7Xd2MU.png?scale-down-to=512&width=2000&height=1546",
+      "alt": "",
+      "r": [
+        68,
+        1810,
+        432,
+        300
+      ],
+      "nat": [
+        432,
+        334
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/d65NdlroOMtoScH1A8upPTXb8.png?scale-down-to=512&width=640&height=495",
+      "alt": "",
+      "r": [
+        504,
+        1810,
+        432,
+        300
+      ],
+      "nat": [
+        432,
+        334
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/lpha0IhXSFfoekFa6Hf7oo59g.png?scale-down-to=512&width=640&height=495",
+      "alt": "",
+      "r": [
+        940,
+        1810,
+        432,
+        300
+      ],
+      "nat": [
+        432,
+        334
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        68,
+        2208,
+        432,
+        300
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        504,
+        2208,
+        432,
+        300
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        940,
+        2208,
+        432,
+        300
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        68,
+        2606,
+        432,
+        300
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        504,
+        2606,
+        432,
+        300
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        64,
+        3034,
+        1312,
+        692
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        226,
+        3212,
+        490,
+        280
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        724,
+        3212,
+        490,
+        280
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        84,
+        3981,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        286,
+        4184,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        342,
+        3981,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        545,
+        4184,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        601,
+        3981,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        803,
+        4184,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        859,
+        3981,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1062,
+        4184,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1118,
+        3981,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1320,
+        4184,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        84,
+        4304,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        286,
+        4506,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        342,
+        4304,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        545,
+        4506,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        601,
+        4304,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        803,
+        4506,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        859,
+        4304,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1062,
+        4506,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1118,
+        4304,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1320,
+        4506,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        84,
+        4626,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        286,
+        4828,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        342,
+        4626,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        545,
+        4828,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        601,
+        4626,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        803,
+        4828,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        859,
+        4626,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1062,
+        4828,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1118,
+        4626,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1320,
+        4828,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        84,
+        4948,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        286,
+        5151,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        342,
+        4948,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        545,
+        5151,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        601,
+        4948,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        803,
+        5151,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        859,
+        4948,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1062,
+        5151,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1118,
+        4948,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        1320,
+        5151,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        84,
+        5271,
+        238,
+        238
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        286,
+        5473,
+        32,
+        32
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/h0ej46NDlXvCksM6LvlI4w4Ss.jpg?scale-down-to=2048&width=3936&height=1500",
+      "alt": "",
+      "r": [
+        64,
+        5660,
+        1312,
+        428
+      ],
+      "nat": [
+        1312,
+        499
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/p8ihsATIQW2BpC2j7ekzEF2gA.jpg?width=559&height=661",
+      "alt": "",
+      "r": [
+        64,
+        6155,
+        662,
+        320
+      ],
+      "nat": [
+        1440,
+        1702
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/dkWQcxyRjqORomn3COxNj6KgRl4.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        726,
+        6155,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZsW3C35h6WXWKMkdVHcrVPc.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        1051,
+        6155,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    }
+  ],
+  "links": [
+    {
+      "h": "./",
+      "x": "",
+      "r": [
+        64,
+        -1,
+        149,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        326,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "./blog",
+      "x": "blog",
+      "r": [
+        392,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "./contact",
+      "x": "contact",
+      "r": [
+        457,
+        0,
+        91,
+        40
+      ]
+    },
+    {
+      "h": "./#quickstart",
+      "x": "get_started",
+      "r": [
+        1223,
+        -1,
+        153,
+        42
+      ]
+    },
+    {
+      "h": "./tares",
+      "x": "Tares",
+      "r": [
+        344,
+        402,
+        42,
+        21
+      ]
+    },
+    {
+      "h": "./rius",
+      "x": "Rius",
+      "r": [
+        649,
+        425,
+        31,
+        21
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/armend-avdijaj/",
+      "x": "",
+      "r": [
+        68,
+        1411,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/armend-avdijaj",
+      "x": "",
+      "r": [
+        444,
+        1713,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/vladimir-cutkovic/",
+      "x": "",
+      "r": [
+        504,
+        1411,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/vladimir-cutkovic",
+      "x": "",
+      "r": [
+        880,
+        1713,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/company/glassflow-dev",
+      "x": "",
+      "r": [
+        940,
+        1411,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/rius/quickstart",
+      "x": "",
+      "r": [
+        1316,
+        1713,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/petrnuzhnov/",
+      "x": "",
+      "r": [
+        68,
+        1810,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/petrnuzhnov",
+      "x": "",
+      "r": [
+        444,
+        2112,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/meryem-cebeci-ba52a661/",
+      "x": "",
+      "r": [
+        504,
+        1810,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/meryem-cebeci-ba52a661",
+      "x": "",
+      "r": [
+        880,
+        2112,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/pablo-pardo-garcia/",
+      "x": "",
+      "r": [
+        940,
+        1810,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/pablo-pardo-garcia",
+      "x": "",
+      "r": [
+        1316,
+        2112,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/ben-gorski/",
+      "x": "",
+      "r": [
+        68,
+        2208,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/ben-gorski",
+      "x": "",
+      "r": [
+        444,
+        2510,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/mohammed-ayaan-islam-262989294/",
+      "x": "",
+      "r": [
+        504,
+        2208,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/mohammed-ayaan-islam-262989294",
+      "x": "",
+      "r": [
+        880,
+        2510,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/ashishbagri/",
+      "x": "",
+      "r": [
+        940,
+        2208,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/ashishbagri",
+      "x": "",
+      "r": [
+        1316,
+        2510,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/msfikas/",
+      "x": "",
+      "r": [
+        68,
+        2606,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/msfikas/",
+      "x": "",
+      "r": [
+        444,
+        2909,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/bahareh-darbandi/",
+      "x": "",
+      "r": [
+        504,
+        2606,
+        432,
+        300
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/in/msfikas/",
+      "x": "",
+      "r": [
+        880,
+        2909,
+        56,
+        52
+      ]
+    },
+    {
+      "h": "https://join.com/companies/getglassflow",
+      "x": "find out more",
+      "r": [
+        226,
+        3610,
+        490,
+        52
+      ]
+    },
+    {
+      "h": "./blog",
+      "x": "find out more",
+      "r": [
+        724,
+        3610,
+        490,
+        52
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "Star Tares on GitHub",
+      "r": [
+        192,
+        5972,
+        218,
+        52
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/rius/guides",
+      "x": "Read the Rius guides",
+      "r": [
+        418,
+        5972,
+        218,
+        52
+      ]
+    },
+    {
+      "h": "https://console.tares-glassflow.com/",
+      "x": "get_started",
+      "r": [
+        790,
+        6331,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core",
+      "x": "get_started",
+      "r": [
+        1115,
+        6331,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "./tares",
+      "x": "taresFeed your agents the right data. Op",
+      "r": [
+        282,
+        6533,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "./rius",
+      "x": "riusSee what your agents did in producti",
+      "r": [
+        680,
+        6533,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "./contact",
+      "x": "contact",
+      "r": [
+        1085,
+        6483,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        1085,
+        6533,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "./blog",
+      "x": "blog",
+      "r": [
+        1085,
+        6583,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "./about",
+      "x": "about",
+      "r": [
+        1085,
+        6633,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://x.com/glassflowdev",
+      "x": "",
+      "r": [
+        1268,
+        6483,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/company/glassflow-dev/",
+      "x": "",
+      "r": [
+        1268,
+        6550,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "",
+      "r": [
+        1268,
+        6617,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "./terms-of-service",
+      "x": "Terms & Conditions",
+      "r": [
+        707,
+        6707,
+        151,
+        18
+      ]
+    },
+    {
+      "h": "./privacy-policy",
+      "x": "Privacy Policy",
+      "r": [
+        1234,
+        6707,
+        118,
+        18
+      ]
+    }
+  ],
+  "bgimgs": [
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 124.51 15.963%22 ove",
+      "r": [
+        76,
+        12,
+        125,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 48 72%22 overflow=%2",
+      "r": [
+        64,
+        111,
+        48,
+        72
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 64 64%22 overflow=%2",
+      "r": [
+        251,
+        848,
+        64,
+        64
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 64 64%22 overflow=%2",
+      "r": [
+        688,
+        848,
+        64,
+        64
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 64 64%22 overflow=%2",
+      "r": [
+        1125,
+        848,
+        64,
+        64
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        462,
+        1729,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        898,
+        1729,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        1334,
+        1729,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        462,
+        2128,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        898,
+        2128,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        1334,
+        2128,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        462,
+        2526,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        898,
+        2526,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        1334,
+        2526,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        462,
+        2925,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 20.125 20%22 overflo",
+      "r": [
+        898,
+        2925,
+        20,
+        20
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        6380,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        6350,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        6380,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        6350,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 202 194%22><path d=%",
+      "r": [
+        72,
+        6482,
+        202,
+        194
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 16%22 overflow=%2",
+      "r": [
+        1310,
+        6505,
+        16,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 14.994%22 overflo",
+      "r": [
+        1311,
+        6572,
+        15,
+        15
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16.667 16.264%22 ove",
+      "r": [
+        1310,
+        6637,
+        17,
+        17
+      ]
+    }
+  ],
+  "boxes": [
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        6749
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "nav"
+    },
+    {
+      "r": [
+        213,
+        0,
+        113,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "3.06401px 16px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "link"
+    },
+    {
+      "r": [
+        1223,
+        0,
+        111,
+        40
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "3.06401px 9.19203px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        0,
+        40,
+        1440,
+        32
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "divider-xs"
+    },
+    {
+      "r": [
+        64,
+        32,
+        1312,
+        48
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        72,
+        1440,
+        595
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "hero"
+    },
+    {
+      "r": [
+        64,
+        72,
+        1312,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        80,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        90,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        100,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1334,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1344,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1354,
+        88,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        64,
+        110,
+        1312,
+        557
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "main-wr"
+    },
+    {
+      "r": [
+        64,
+        110,
+        729,
+        557
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 32px",
+      "gap": "15px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content-wr"
+    },
+    {
+      "r": [
+        0,
+        667,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        667,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        734,
+        1440,
+        400
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "hero"
+    },
+    {
+      "r": [
+        64,
+        734,
+        1312,
+        50
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        80,
+        756,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        90,
+        756,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        100,
+        756,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1334,
+        756,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1344,
+        756,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1354,
+        756,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        64,
+        784,
+        1312,
+        350
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "437.328px 437.336px 437.336px",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        64,
+        784,
+        437,
+        350
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "left"
+    },
+    {
+      "r": [
+        64,
+        784,
+        437,
+        350
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 24px",
+      "gap": "64px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        501,
+        784,
+        437,
+        350
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "left"
+    },
+    {
+      "r": [
+        501,
+        784,
+        437,
+        350
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 24px",
+      "gap": "64px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        939,
+        784,
+        437,
+        350
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "left"
+    },
+    {
+      "r": [
+        939,
+        784,
+        437,
+        350
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 24px",
+      "gap": "64px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        0,
+        1134,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        1134,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        1201,
+        1440,
+        1766
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "what-you-get"
+    },
+    {
+      "r": [
+        64,
+        1201,
+        1312,
+        168
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "title"
+    },
+    {
+      "r": [
+        64,
+        1369,
+        1312,
+        1598
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "432px 432px 432px",
+      "pos": "relative",
+      "n": "cards"
+    },
+    {
+      "r": [
+        68,
+        1373,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        68,
+        1373,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        84,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        94,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        104,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        458,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        468,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        478,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        68,
+        1711,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        504,
+        1373,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        504,
+        1373,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        520,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        530,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        540,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        894,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        904,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        914,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        504,
+        1711,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        940,
+        1373,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        940,
+        1373,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        956,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        966,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        976,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1330,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1340,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1350,
+        1389,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        940,
+        1711,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        68,
+        1772,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        68,
+        1772,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        84,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        94,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        104,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        458,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        468,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        478,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        68,
+        2110,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        504,
+        1772,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        504,
+        1772,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        520,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        530,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        540,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        894,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        904,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        914,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        504,
+        2110,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        940,
+        1772,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        940,
+        1772,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        956,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        966,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        976,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1330,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1340,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1350,
+        1788,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        940,
+        2110,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        68,
+        2170,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        68,
+        2170,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        84,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        94,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        104,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        458,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        468,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        478,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        68,
+        2508,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        504,
+        2170,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        504,
+        2170,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        520,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        530,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        540,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        894,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        904,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        914,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        504,
+        2508,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        940,
+        2170,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        940,
+        2170,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        956,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        966,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        976,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1330,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1340,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1350,
+        2186,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        940,
+        2508,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        68,
+        2568,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        68,
+        2568,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        84,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        94,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        104,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        458,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        468,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        478,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        68,
+        2906,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        504,
+        2568,
+        432,
+        394
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "card"
+    },
+    {
+      "r": [
+        504,
+        2568,
+        432,
+        38
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "bar"
+    },
+    {
+      "r": [
+        520,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        530,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        540,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        894,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        904,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        914,
+        2584,
+        6,
+        6
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        504,
+        2906,
+        376,
+        56
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px 8px 8px 12px",
+      "gap": "4px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "content"
+    },
+    {
+      "r": [
+        0,
+        2967,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        2967,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        3034,
+        1440,
+        692
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "quickstart"
+    },
+    {
+      "r": [
+        64,
+        3034,
+        1312,
+        692
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 24px",
+      "gap": "32px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        226,
+        3170,
+        490,
+        42
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "absolute",
+      "n": "Rectangle 34628322"
+    },
+    {
+      "r": [
+        240,
+        3188,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        250,
+        3188,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        260,
+        3188,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        226,
+        3212,
+        490,
+        280
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "16px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326051"
+    },
+    {
+      "r": [
+        226,
+        3492,
+        490,
+        118
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "16px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326051"
+    },
+    {
+      "r": [
+        230,
+        3614,
+        482,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 12px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        724,
+        3170,
+        490,
+        42
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "absolute",
+      "n": "Rectangle 34628322"
+    },
+    {
+      "r": [
+        738,
+        3188,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        748,
+        3188,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        758,
+        3188,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        724,
+        3212,
+        490,
+        280
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "16px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326051"
+    },
+    {
+      "r": [
+        724,
+        3492,
+        490,
+        118
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "16px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326051"
+    },
+    {
+      "r": [
+        728,
+        3614,
+        482,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 12px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        0,
+        3726,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        3726,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        3793,
+        1440,
+        1800
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "backed-by"
+    },
+    {
+      "r": [
+        64,
+        3793,
+        1312,
+        168
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "title"
+    },
+    {
+      "r": [
+        64,
+        3961,
+        1312,
+        1632
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "20px",
+      "gap": "20px",
+      "fd": "row",
+      "gtc": "238.398px 238.398px 238.398px 238.398px 238.398px",
+      "pos": "relative",
+      "n": "cards"
+    },
+    {
+      "r": [
+        84,
+        4220,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        342,
+        4220,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        601,
+        4220,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        859,
+        4220,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        1118,
+        4220,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        84,
+        4542,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        342,
+        4542,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        601,
+        4542,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        859,
+        4542,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        1118,
+        4542,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        84,
+        4864,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        342,
+        4864,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        601,
+        4864,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        859,
+        4864,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        1118,
+        4864,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        84,
+        5187,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        342,
+        5187,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        601,
+        5187,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        859,
+        5187,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        1118,
+        5187,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        84,
+        5509,
+        238,
+        64
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 0px 0px 8px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        5593,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        5593,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        5660,
+        1440,
+        428
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        64,
+        5660,
+        1312,
+        428
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 128px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        192,
+        5972,
+        218,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        192,
+        5972,
+        218,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "left"
+    },
+    {
+      "r": [
+        196,
+        5976,
+        210,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        418,
+        5972,
+        218,
+        52
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        418,
+        5972,
+        218,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "left"
+    },
+    {
+      "r": [
+        422,
+        5976,
+        210,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        6088,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        6088,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        6155,
+        1440,
+        594
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        6155,
+        1440,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326097"
+    },
+    {
+      "r": [
+        64,
+        6155,
+        662,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        726,
+        6155,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "tares"
+    },
+    {
+      "r": [
+        790,
+        6331,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        790,
+        6331,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "left"
+    },
+    {
+      "r": [
+        794,
+        6335,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        935,
+        6331,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "right"
+    },
+    {
+      "r": [
+        1051,
+        6155,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "rius"
+    },
+    {
+      "r": [
+        1115,
+        6331,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        1115,
+        6331,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "left"
+    },
+    {
+      "r": [
+        1119,
+        6335,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": null
+    },
+    {
+      "r": [
+        1260,
+        6331,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "right"
+    },
+    {
+      "r": [
+        0,
+        6475,
+        1440,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326096"
+    },
+    {
+      "r": [
+        64,
+        6475,
+        1312,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        282,
+        6483,
+        795,
+        50
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326098"
+    },
+    {
+      "r": [
+        298,
+        6505,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        308,
+        6505,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        318,
+        6505,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1035,
+        6505,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1045,
+        6505,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1055,
+        6505,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        6501,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        6501,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        6501,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        6551,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        6551,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        6551,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        6601,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        6601,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        6601,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        6651,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        6651,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        6651,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        0,
+        6683,
+        1440,
+        66
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326095"
+    },
+    {
+      "r": [
+        64,
+        6683,
+        1312,
+        66
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "pos": "relative",
+      "n": "Frame 2087326094"
+    }
+  ],
+  "videos": [
+    [
+      "IFRAME",
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      "about:blank"
+    ],
+    [
+      "IFRAME",
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      "https://tag.trovo-tag.com/hcNVN7qZmF4MVpnw?rurl=https%3A%2F%2Fwww.glassflow.ai%2Fabout&ref=&v=js-0.1.0&aid=123103c7&rid=1b8c4cfe-a1b7-44c5-8568-d75cbca57e41"
+    ]
+  ]
+}

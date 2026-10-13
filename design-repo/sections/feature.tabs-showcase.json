@@ -1,0 +1,115 @@
+{
+  "id": "feature.tabs-showcase",
+  "family": "mars",
+  "category": "feature",
+  "purpose": "Two-column accordion of numbered tabs with the active tab's screenshot.",
+  "variants": {
+    "default": "/tares 'What is in Tares'"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/TabsShowcase.jsx",
+      "lines": "11-78",
+      "quote": "export default function TabsShowcase"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 6
+      },
+      "lead": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 15
+      },
+      "tabs": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 10
+            },
+            "body": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 45
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "product.screenshot"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "title",
+            "body",
+            "image"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 6
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "lead",
+      "tabs"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "product-appear",
+      "tabs-height"
+    ],
+    "reducedMotionFallback": "opacity-only+instant"
+  },
+  "responsive": {
+    "390": {
+      "stack": "copy then 359px image"
+    },
+    "810": {
+      "stack": "same"
+    },
+    "1200": {
+      "columns": 2,
+      "height": 548
+    },
+    "evidence": [
+      {
+        "path": "src/components/TabsShowcase.jsx",
+        "lines": "34",
+        "quote": "lg:h-[548px] lg:grid-cols-2"
+      }
+    ]
+  }
+}

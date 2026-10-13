@@ -1,0 +1,58 @@
+{
+  "id": "product.benefits-strip",
+  "family": "mars",
+  "category": "product",
+  "purpose": "72px strip of 4 pixel-icon benefits on #1E0F00.",
+  "variants": {
+    "default": "/rius"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Rius.jsx",
+      "lines": "93-104",
+      "quote": "function Benefits()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "minItems": 4,
+        "maxItems": 4
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "items"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "columns": 1
+    },
+    "810": {
+      "columns": 1
+    },
+    "1200": {
+      "columns": 4
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "95",
+        "quote": "grid grid-cols-1 bg-card-dark lg:grid-cols-4"
+      }
+    ]
+  }
+}

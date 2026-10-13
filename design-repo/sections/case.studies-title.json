@@ -1,0 +1,80 @@
+{
+  "id": "case.studies-title",
+  "family": "mars",
+  "category": "hero",
+  "purpose": "Bar + dithered-mountain heading panel ('Case Studies' or 'You might also like').",
+  "variants": {
+    "index": "263 tall, H1",
+    "compact": "184 tall, H2 'You might also like'"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "313-327",
+      "quote": "export function CaseStudiesTitle"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 5
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "scene.mars-figurative"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "background"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "title": "32/32"
+    },
+    "810": {
+      "title": "40/40"
+    },
+    "1200": {
+      "height": "263 / 184"
+    },
+    "evidence": [
+      {
+        "path": "src/components/ContentSections.jsx",
+        "lines": "317",
+        "quote": "compact ? 'lg:h-[184px]' : 'lg:h-[263px]'"
+      }
+    ]
+  }
+}

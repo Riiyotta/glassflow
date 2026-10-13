@@ -1,0 +1,115 @@
+{
+  "id": "about.team",
+  "family": "mars",
+  "category": "content",
+  "purpose": "'Meet our team' title row + team cards (real people).",
+  "variants": {
+    "default": "/about"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/About.jsx",
+      "lines": "149-176",
+      "quote": "function Team()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 4
+      },
+      "members": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 4
+            },
+            "role": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "photo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "person.real-photo"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            },
+            "link": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "role",
+            "photo",
+            "link"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 30
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "members"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "columns": 2,
+      "photo": 150
+    },
+    "810": {
+      "columns": 2,
+      "gap": 4
+    },
+    "1200": {
+      "columns": 3,
+      "photo": 300
+    },
+    "evidence": [
+      {
+        "path": "src/pages/About.jsx",
+        "lines": "153",
+        "quote": "grid grid-cols-2 md:gap-1 md:p-1 lg:grid-cols-3"
+      }
+    ]
+  }
+}

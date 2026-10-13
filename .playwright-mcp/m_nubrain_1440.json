@@ -1,0 +1,4125 @@
+{
+  "url": "https://www.glassflow.ai/case-studies/nubrain",
+  "title": "Nubrain fixes the silent errors of AI agents in their pipelines - GlassFlow | Open-Source Kafka to ClickHouse Ingestion",
+  "H": 5274,
+  "W": 1440,
+  "bodyBg": "rgb(73, 36, 0)",
+  "text": [
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        229,
+        11,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        342,
+        11,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        408,
+        11,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(143, 137, 130)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        473,
+        11,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1232,
+        11,
+        92,
+        18
+      ],
+      "f": "Geist Mono Variable",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(29, 14, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Case Studies",
+      "r": [
+        677,
+        142,
+        87,
+        12
+      ],
+      "f": "Inter",
+      "fs": "12px",
+      "lh": "12px",
+      "fw": "500",
+      "ls": "normal",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "uppercase",
+      "ta": "center"
+    },
+    {
+      "t": "H1",
+      "x": "Nubrain fixes the silent errors of AI agents in their pipelines",
+      "r": [
+        410,
+        176,
+        620,
+        96
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "48px",
+      "fw": "400",
+      "ls": "-1.6px",
+      "c": "rgb(250, 250, 250)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "H2",
+      "x": "93%",
+      "r": [
+        116,
+        404,
+        373,
+        38
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "38.4px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Reduction of silently duplicated or corrupted metrics",
+      "r": [
+        116,
+        462,
+        373,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "3x",
+      "r": [
+        533,
+        404,
+        373,
+        38
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "38.4px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Improved scalability as agent throughput increased",
+      "r": [
+        533,
+        462,
+        373,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "7 TB/day",
+      "r": [
+        951,
+        404,
+        373,
+        38
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "38.4px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Stable processing",
+      "r": [
+        951,
+        462,
+        373,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "“GlassFlow helped eliminate silent failures in our pipelines. Dead-let",
+      "r": [
+        242,
+        717,
+        636,
+        128
+      ],
+      "f": "Inter Display",
+      "fs": "32px",
+      "lh": "32px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ingo Marquardt,",
+      "r": [
+        337,
+        915,
+        144,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "16px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "CTO, Nubrain",
+      "r": [
+        337,
+        937,
+        115,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "16px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "H2",
+      "x": "Results",
+      "r": [
+        202,
+        1025,
+        716,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "With GlassFlow in production, Nubrain achieved:",
+      "r": [
+        202,
+        1090,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Correct and consistent metrics due to stateful transformations and ded",
+      "r": [
+        202,
+        1154,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Correct and consistent metrics due to stateful transformations and ded",
+      "r": [
+        224,
+        1154,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "93% reduction of silently duplicated or corrupted metrics that previou",
+      "r": [
+        202,
+        1187,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "93% reduction of silently duplicated or corrupted metrics that previou",
+      "r": [
+        224,
+        1187,
+        694,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Reliable handling of stateful streaming logic at scale.",
+      "r": [
+        202,
+        1252,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Reliable handling of stateful streaming logic at scale.",
+      "r": [
+        224,
+        1252,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "3x improved scalability as agent throughput increased.",
+      "r": [
+        202,
+        1284,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "3x improved scalability as agent throughput increased.",
+      "r": [
+        224,
+        1284,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Clear visibility into pipeline behavior and failures.",
+      "r": [
+        202,
+        1316,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Clear visibility into pipeline behavior and failures.",
+      "r": [
+        224,
+        1316,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Stable processing of approximately 7 TB of data per day.",
+      "r": [
+        202,
+        1349,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Stable processing of approximately 7 TB of data per day.",
+      "r": [
+        224,
+        1349,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "By introducing state into the pipeline, Nubrain was able to trust thei",
+      "r": [
+        202,
+        1401,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "Key takeaways:",
+      "r": [
+        202,
+        1506,
+        716,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "LI",
+      "x": "Eliminated silent metric corruption using stateful streaming transform",
+      "r": [
+        202,
+        1583,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Eliminated silent metric corruption using stateful streaming transform",
+      "r": [
+        224,
+        1583,
+        694,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Scaled AI pipelines 3x with reliable observability while processing 7 ",
+      "r": [
+        202,
+        1648,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Scaled AI pipelines 3x with reliable observability while processing 7 ",
+      "r": [
+        224,
+        1648,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "The Challenge",
+      "r": [
+        202,
+        1720,
+        716,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Nubrain’s initial data infrastructure was built on Kafka, a Kafka tabl",
+      "r": [
+        202,
+        1785,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "While this setup worked for early experimentation, it exposed several ",
+      "r": [
+        202,
+        1870,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "No support for stateful transformations. Custom transformation code wa",
+      "r": [
+        202,
+        1966,
+        716,
+        97
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "No support for stateful transformations. Custom transformation code wa",
+      "r": [
+        224,
+        1966,
+        694,
+        97
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Limited scalability. As agent activity increased, retries and reproces",
+      "r": [
+        202,
+        2064,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Limited scalability. As agent activity increased, retries and reproces",
+      "r": [
+        224,
+        2064,
+        694,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Poor observability. The team had limited insight into what was happeni",
+      "r": [
+        202,
+        2128,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Poor observability. The team had limited insight into what was happeni",
+      "r": [
+        224,
+        2128,
+        694,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Silent data issues. Incorrect metrics could pass through the system wi",
+      "r": [
+        202,
+        2193,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Silent data issues. Incorrect metrics could pass through the system wi",
+      "r": [
+        224,
+        2193,
+        694,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Operational complexity. Debugging required inspecting multiple systems",
+      "r": [
+        202,
+        2258,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Operational complexity. Debugging required inspecting multiple systems",
+      "r": [
+        224,
+        2258,
+        694,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "These limitations made it difficult to operate AI pipelines with confi",
+      "r": [
+        202,
+        2343,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "Why GlassFlow",
+      "r": [
+        202,
+        2415,
+        716,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Nubrain evaluated GlassFlow to address the gaps left by Kafka table en",
+      "r": [
+        202,
+        2480,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "GlassFlow stood out because it provided:",
+      "r": [
+        202,
+        2565,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Native support for stateful streaming transformations.",
+      "r": [
+        202,
+        2629,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Native support for stateful streaming transformations.",
+      "r": [
+        224,
+        2629,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Built-in pipeline-level observability and metrics.",
+      "r": [
+        202,
+        2662,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Built-in pipeline-level observability and metrics.",
+      "r": [
+        224,
+        2662,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Dead-letter queues to isolate and inspect failing records.",
+      "r": [
+        202,
+        2694,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Dead-letter queues to isolate and inspect failing records.",
+      "r": [
+        224,
+        2694,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "A scalable, self-hosted architecture suitable for production workloads",
+      "r": [
+        202,
+        2726,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "A scalable, self-hosted architecture suitable for production workloads",
+      "r": [
+        224,
+        2726,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Full data ownership, with all data remaining inside Nubrain’s infrastr",
+      "r": [
+        202,
+        2759,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Full data ownership, with all data remaining inside Nubrain’s infrastr",
+      "r": [
+        224,
+        2759,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H2",
+      "x": "Solution",
+      "r": [
+        202,
+        2831,
+        716,
+        45
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "44.8px",
+      "fw": "500",
+      "ls": "-1.28px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Nubrain adopted GlassFlow to replace their Kafka table engine and cust",
+      "r": [
+        202,
+        2896,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "GlassFlow was selected because it provided:",
+      "r": [
+        202,
+        2981,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Native support for stateful streaming transformations.",
+      "r": [
+        202,
+        3045,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Native support for stateful streaming transformations.",
+      "r": [
+        224,
+        3045,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Built-in pipeline-level observability and metrics.",
+      "r": [
+        202,
+        3078,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Built-in pipeline-level observability and metrics.",
+      "r": [
+        224,
+        3078,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Dead-letter queues to isolate and inspect failing records.",
+      "r": [
+        202,
+        3110,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Dead-letter queues to isolate and inspect failing records.",
+      "r": [
+        224,
+        3110,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "A scalable, self-hosted architecture suitable for production workloads",
+      "r": [
+        202,
+        3142,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "A scalable, self-hosted architecture suitable for production workloads",
+      "r": [
+        224,
+        3142,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Full data ownership, with all data remaining inside Nubrain’s infrastr",
+      "r": [
+        202,
+        3175,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Full data ownership, with all data remaining inside Nubrain’s infrastr",
+      "r": [
+        224,
+        3175,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "GlassFlow was implemented as the core processing layer of Nubrain’s da",
+      "r": [
+        202,
+        3227,
+        716,
+        65
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Stateful transformations to validate, normalize, and aggregate agent o",
+      "r": [
+        202,
+        3324,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Stateful transformations to validate, normalize, and aggregate agent o",
+      "r": [
+        224,
+        3324,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Deduplication logic to ensure metric correctness.",
+      "r": [
+        202,
+        3356,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Deduplication logic to ensure metric correctness.",
+      "r": [
+        224,
+        3356,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Dead-letter queues to prevent silent propagation of invalid data.",
+      "r": [
+        202,
+        3389,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Dead-letter queues to prevent silent propagation of invalid data.",
+      "r": [
+        224,
+        3389,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "Pipeline metrics to monitor throughput, retries, latency, and failures",
+      "r": [
+        202,
+        3421,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "Pipeline metrics to monitor throughput, retries, latency, and failures",
+      "r": [
+        224,
+        3421,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "LI",
+      "x": "A simpler operational model with fewer custom components.",
+      "r": [
+        202,
+        3454,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "A simpler operational model with fewer custom components.",
+      "r": [
+        224,
+        3454,
+        694,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "GlassFlow was integrated quickly and required minimal ongoing maintena",
+      "r": [
+        202,
+        3506,
+        716,
+        32
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H6",
+      "x": "Company Overview",
+      "r": [
+        974,
+        671,
+        272,
+        22
+      ],
+      "f": "Geist Mono",
+      "fs": "16px",
+      "lh": "22.4px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(171, 171, 186)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "uppercase",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Nubrain is building a Human Mind API for non-invasive brain-computer i",
+      "r": [
+        974,
+        702,
+        272,
+        194
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "As Nubrain moved from experimentation to production workloads, they ne",
+      "r": [
+        974,
+        916,
+        272,
+        194
+      ],
+      "f": "Inter Display",
+      "fs": "18px",
+      "lh": "32.4px",
+      "fw": "400",
+      "ls": "-0.36px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "H1",
+      "x": "You might also like",
+      "r": [
+        96,
+        3739,
+        1248,
+        40
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "40px",
+      "fw": "400",
+      "ls": "-1.6px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "H3",
+      "x": "Restack scales real-time enterprise observability with GlassFlow",
+      "r": [
+        92,
+        3965,
+        602,
+        73
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "read more",
+      "r": [
+        357,
+        4046,
+        73,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "read more",
+      "r": [
+        357,
+        4076,
+        73,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "H3",
+      "x": "Nubrain fixes the silent errors of AI agents in their pipelines",
+      "r": [
+        746,
+        3965,
+        602,
+        73
+      ],
+      "f": "Inter Display",
+      "fs": "26px",
+      "lh": "36.4px",
+      "fw": "500",
+      "ls": "-1.04px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "left"
+    },
+    {
+      "t": "P",
+      "x": "read more",
+      "r": [
+        1011,
+        4046,
+        73,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "read more",
+      "r": [
+        1011,
+        4076,
+        73,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Two products. Two starting points.",
+      "r": [
+        192,
+        4249,
+        420,
+        80
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "40px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Tares is open source. Kick the tires, open an issue, and drop a star i",
+      "r": [
+        192,
+        4361,
+        420,
+        72
+      ],
+      "f": "Inter Display",
+      "fs": "16px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Star Tares on GitHub",
+      "r": [
+        220,
+        4511,
+        162,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Read the Rius guides",
+      "r": [
+        446,
+        4511,
+        162,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ready to give your agents better data and total recall?",
+      "r": [
+        96,
+        4792,
+        271,
+        96
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "32px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Tares",
+      "r": [
+        750,
+        4773,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data.",
+      "r": [
+        750,
+        4805,
+        277,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        818,
+        4870,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Rius",
+      "r": [
+        1075,
+        4773,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "See and debug agents in production.",
+      "r": [
+        1062,
+        4805,
+        302,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        1143,
+        4870,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        646,
+        5024,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "tares",
+      "r": [
+        302,
+        5114,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data. Open source",
+      "r": [
+        302,
+        5138,
+        211,
+        39
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "rius",
+      "r": [
+        700,
+        5114,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "See what your agents did in production.",
+      "r": [
+        700,
+        5138,
+        211,
+        39
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        1143,
+        5020,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        1143,
+        5070,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        1143,
+        5120,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "about",
+      "r": [
+        1143,
+        5170,
+        42,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "2026 - Copyright GlassFlow.ai",
+      "r": [
+        88,
+        5232,
+        244,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Terms & Conditions",
+      "r": [
+        707,
+        5232,
+        151,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Privacy Policy",
+      "r": [
+        1234,
+        5232,
+        118,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    }
+  ],
+  "imgs": [
+    {
+      "src": "https://framerusercontent.com/images/fpSmMnbghTzYJNtWqkUhZjTF1UE.jpg?width=1312&height=693",
+      "alt": "",
+      "r": [
+        64,
+        72,
+        1312,
+        280
+      ],
+      "nat": [
+        1312,
+        693
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/7xhczrFmZXWm4XtTt3xdK5HjPSc.jpg?width=972&height=434",
+      "alt": "",
+      "r": [
+        202,
+        611,
+        716,
+        274
+      ],
+      "nat": [
+        1440,
+        642
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/EB74VMW0V1AQrN80SXS6xOsXPg.jpeg?scale-down-to=1024&width=800&height=1066",
+      "alt": "",
+      "r": [
+        281,
+        911,
+        48,
+        48
+      ],
+      "nat": [
+        48,
+        64
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/hOEgbo26i8shpzvhlvFGZZHDQY.jpeg?width=200&height=200",
+      "alt": "",
+      "r": [
+        715,
+        911,
+        48,
+        48
+      ],
+      "nat": [
+        200,
+        200
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/71EJsST8RQxnFwMo7Alb9eWZXcI.svg?width=89&height=20",
+      "alt": "",
+      "r": [
+        974,
+        619,
+        272,
+        32
+      ],
+      "nat": [
+        89,
+        20
+      ],
+      "of": "contain"
+    },
+    {
+      "src": "https://framerusercontent.com/images/gGgprOgbK8sImEo5X3oHCssBw0w.jpg?width=800&height=160",
+      "alt": "",
+      "r": [
+        64,
+        3675,
+        1312,
+        184
+      ],
+      "nat": [
+        800,
+        160
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/gU6Xy4ekBJSu57RtzjJJ0U3x1Q.svg?scale-down-to=512&width=1000&height=425",
+      "alt": "",
+      "r": [
+        92,
+        3887,
+        71,
+        30
+      ],
+      "nat": [
+        138,
+        59
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/71EJsST8RQxnFwMo7Alb9eWZXcI.svg?width=89&height=20",
+      "alt": "",
+      "r": [
+        746,
+        3887,
+        134,
+        30
+      ],
+      "nat": [
+        89,
+        20
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/h0ej46NDlXvCksM6LvlI4w4Ss.jpg?scale-down-to=2048&width=3936&height=1500",
+      "alt": "",
+      "r": [
+        64,
+        4185,
+        1312,
+        428
+      ],
+      "nat": [
+        1312,
+        499
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/p8ihsATIQW2BpC2j7ekzEF2gA.jpg?width=559&height=661",
+      "alt": "",
+      "r": [
+        64,
+        4680,
+        662,
+        320
+      ],
+      "nat": [
+        1440,
+        1702
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/dkWQcxyRjqORomn3COxNj6KgRl4.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        726,
+        4680,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/ZsW3C35h6WXWKMkdVHcrVPc.jpg?width=319&height=320",
+      "alt": "",
+      "r": [
+        1051,
+        4680,
+        325,
+        320
+      ],
+      "nat": [
+        319,
+        320
+      ],
+      "of": "cover"
+    }
+  ],
+  "links": [
+    {
+      "h": "../",
+      "x": "",
+      "r": [
+        64,
+        -1,
+        149,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        326,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "../blog",
+      "x": "blog",
+      "r": [
+        392,
+        0,
+        66,
+        40
+      ]
+    },
+    {
+      "h": "../contact",
+      "x": "contact",
+      "r": [
+        457,
+        0,
+        91,
+        40
+      ]
+    },
+    {
+      "h": "../#quickstart",
+      "x": "get_started",
+      "r": [
+        1223,
+        -1,
+        153,
+        42
+      ]
+    },
+    {
+      "h": "../case-studies",
+      "x": "Case Studies",
+      "r": [
+        667,
+        136,
+        107,
+        24
+      ]
+    },
+    {
+      "h": "https://nubrain.com/",
+      "x": "Visit WebsiteVisitWebsiteVisitWebsite",
+      "r": [
+        974,
+        1130,
+        125,
+        48
+      ]
+    },
+    {
+      "h": "./restack",
+      "x": "Restack scales real-time enterprise obse",
+      "r": [
+        68,
+        3863,
+        650,
+        251
+      ]
+    },
+    {
+      "h": "./nubrain",
+      "x": "Nubrain fixes the silent errors of AI ag",
+      "r": [
+        722,
+        3863,
+        650,
+        251
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "Star Tares on GitHub",
+      "r": [
+        192,
+        4497,
+        218,
+        52
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/rius/guides",
+      "x": "Read the Rius guides",
+      "r": [
+        418,
+        4497,
+        218,
+        52
+      ]
+    },
+    {
+      "h": "https://console.tares-glassflow.com/",
+      "x": "get_started",
+      "r": [
+        790,
+        4856,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core",
+      "x": "get_started",
+      "r": [
+        1115,
+        4856,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "../tares",
+      "x": "taresFeed your agents the right data. Op",
+      "r": [
+        282,
+        5058,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "../rius",
+      "x": "riusSee what your agents did in producti",
+      "r": [
+        680,
+        5058,
+        398,
+        142
+      ]
+    },
+    {
+      "h": "../contact",
+      "x": "contact",
+      "r": [
+        1085,
+        5008,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        1085,
+        5058,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "../blog",
+      "x": "blog",
+      "r": [
+        1085,
+        5108,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "../about",
+      "x": "about",
+      "r": [
+        1085,
+        5158,
+        175,
+        42
+      ]
+    },
+    {
+      "h": "https://x.com/glassflowdev",
+      "x": "",
+      "r": [
+        1268,
+        5008,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/company/glassflow-dev/",
+      "x": "",
+      "r": [
+        1268,
+        5075,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "",
+      "r": [
+        1268,
+        5141,
+        100,
+        59
+      ]
+    },
+    {
+      "h": "../terms-of-service",
+      "x": "Terms & Conditions",
+      "r": [
+        707,
+        5232,
+        151,
+        18
+      ]
+    },
+    {
+      "h": "../privacy-policy",
+      "x": "Privacy Policy",
+      "r": [
+        1234,
+        5232,
+        118,
+        18
+      ]
+    }
+  ],
+  "bgimgs": [
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 124.51 15.963%22 ove",
+      "r": [
+        76,
+        12,
+        125,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 48 72%22 overflow=%2",
+      "r": [
+        64,
+        3675,
+        48,
+        72
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        4905,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        953,
+        4875,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        4905,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        1278,
+        4875,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 202 194%22><path d=%",
+      "r": [
+        72,
+        5007,
+        202,
+        194
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 16%22 overflow=%2",
+      "r": [
+        1310,
+        5029,
+        16,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 14.994%22 overflo",
+      "r": [
+        1311,
+        5097,
+        15,
+        15
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16.667 16.264%22 ove",
+      "r": [
+        1310,
+        5162,
+        17,
+        17
+      ]
+    }
+  ],
+  "boxes": [
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        5274
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "nav"
+    },
+    {
+      "r": [
+        213,
+        0,
+        113,
+        40
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "3.06401px 16px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "link"
+    },
+    {
+      "r": [
+        1223,
+        0,
+        111,
+        40
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "3.06401px 9.19203px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        0,
+        40,
+        1440,
+        32
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        32,
+        1312,
+        48
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        72,
+        1440,
+        280
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "hero"
+    },
+    {
+      "r": [
+        64,
+        72,
+        1312,
+        280
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 0px",
+      "gap": "16px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "main-wr"
+    },
+    {
+      "r": [
+        0,
+        352,
+        1440,
+        227
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "12px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "cs-results"
+    },
+    {
+      "r": [
+        64,
+        352,
+        1312,
+        227
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "main"
+    },
+    {
+      "r": [
+        96,
+        384,
+        413,
+        163
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "20px",
+      "gap": "20px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "cs-bullet"
+    },
+    {
+      "r": [
+        513,
+        384,
+        413,
+        163
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "20px",
+      "gap": "20px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "cs-bullet"
+    },
+    {
+      "r": [
+        931,
+        384,
+        413,
+        163
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "20px",
+      "gap": "20px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "cs-bullet"
+    },
+    {
+      "r": [
+        0,
+        579,
+        1440,
+        2991
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "10px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "rich-text"
+    },
+    {
+      "r": [
+        170,
+        579,
+        780,
+        2991
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "content"
+    },
+    {
+      "r": [
+        202,
+        611,
+        716,
+        374
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326092"
+    },
+    {
+      "r": [
+        202,
+        611,
+        716,
+        274
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "40px",
+      "gap": "32px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326083"
+    },
+    {
+      "r": [
+        202,
+        885,
+        358,
+        100
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "40px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326012"
+    },
+    {
+      "r": [
+        560,
+        885,
+        358,
+        100
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "40px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326014"
+    },
+    {
+      "r": [
+        950,
+        579,
+        320,
+        639
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "40px 24px",
+      "gap": "20px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "CTA"
+    },
+    {
+      "r": [
+        0,
+        3570,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        3570,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        3637,
+        1440,
+        222
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        64,
+        3637,
+        1312,
+        38
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "bar"
+    },
+    {
+      "r": [
+        80,
+        3653,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        90,
+        3653,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        100,
+        3653,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1334,
+        3653,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1344,
+        3653,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1354,
+        3653,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        64,
+        3675,
+        1312,
+        184
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "heading"
+    },
+    {
+      "r": [
+        64,
+        3675,
+        1312,
+        184
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 32px",
+      "gap": "15px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "content-wr"
+    },
+    {
+      "r": [
+        0,
+        3859,
+        1440,
+        259
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "40px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "listing"
+    },
+    {
+      "r": [
+        64,
+        3859,
+        1312,
+        259
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        68,
+        3863,
+        650,
+        78
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "logo"
+    },
+    {
+      "r": [
+        68,
+        3941,
+        650,
+        121
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "10px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        68,
+        4062,
+        650,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "btn"
+    },
+    {
+      "r": [
+        72,
+        4066,
+        642,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        722,
+        3863,
+        650,
+        78
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "logo"
+    },
+    {
+      "r": [
+        722,
+        3941,
+        650,
+        121
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "10px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        722,
+        4062,
+        650,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "btn"
+    },
+    {
+      "r": [
+        726,
+        4066,
+        642,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        4118,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        4118,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        4185,
+        1440,
+        428
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        64,
+        4185,
+        1312,
+        428
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 128px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        192,
+        4497,
+        218,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        192,
+        4497,
+        218,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        196,
+        4501,
+        210,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        418,
+        4497,
+        218,
+        52
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        418,
+        4497,
+        218,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        422,
+        4501,
+        210,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        0,
+        4613,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "divider"
+    },
+    {
+      "r": [
+        64,
+        4613,
+        1312,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        4680,
+        1440,
+        594
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Desktop"
+    },
+    {
+      "r": [
+        0,
+        4680,
+        1440,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326097"
+    },
+    {
+      "r": [
+        64,
+        4680,
+        662,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        726,
+        4680,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "tares"
+    },
+    {
+      "r": [
+        790,
+        4856,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        790,
+        4856,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        794,
+        4860,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        935,
+        4856,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        1051,
+        4680,
+        325,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "rius"
+    },
+    {
+      "r": [
+        1115,
+        4856,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        1115,
+        4856,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        1119,
+        4860,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": null
+    },
+    {
+      "r": [
+        1260,
+        4856,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        0,
+        5000,
+        1440,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326096"
+    },
+    {
+      "r": [
+        64,
+        5000,
+        1312,
+        208
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        282,
+        5008,
+        795,
+        50
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326098"
+    },
+    {
+      "r": [
+        298,
+        5030,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        308,
+        5030,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        318,
+        5030,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1035,
+        5030,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1045,
+        5030,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1055,
+        5030,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        5026,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        5026,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        5026,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        5076,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        5076,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        5076,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        5126,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        5126,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        5126,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        1101,
+        5176,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        1111,
+        5176,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        1121,
+        5176,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        0,
+        5208,
+        1440,
+        66
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326095"
+    },
+    {
+      "r": [
+        64,
+        5208,
+        1312,
+        66
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    }
+  ],
+  "rich": [
+    "DIV 202,611,716,374 mt0px “GlassFlow helped eliminate silent failures in our",
+    "H2 202,1025,716,45 mt40px Results",
+    "P 202,1090,716,32 mt20px With GlassFlow in production, Nubrain achieved:",
+    "UL 202,1154,716,227 mt32px Correct and consistent metrics due to stateful tra",
+    "P 202,1401,716,65 mt20px By introducing state into the pipeline, Nubrain wa",
+    "H2 202,1506,716,45 mt40px Key takeaways:",
+    "UL 202,1583,716,97 mt32px Eliminated silent metric corruption using stateful",
+    "H2 202,1720,716,45 mt40px The Challenge",
+    "P 202,1785,716,65 mt20px Nubrain’s initial data infrastructure was built on",
+    "P 202,1870,716,65 mt20px While this setup worked for early experimentation,",
+    "UL 202,1966,716,356 mt32px No support for stateful transformations. Custom tr",
+    "P 202,2343,716,32 mt20px These limitations made it difficult to operate AI ",
+    "H2 202,2415,716,45 mt40px Why GlassFlow",
+    "P 202,2480,716,65 mt20px Nubrain evaluated GlassFlow to address the gaps le",
+    "P 202,2565,716,32 mt20px GlassFlow stood out because it provided:",
+    "UL 202,2629,716,162 mt32px Native support for stateful streaming transformati",
+    "H2 202,2831,716,45 mt40px Solution",
+    "P 202,2896,716,65 mt20px Nubrain adopted GlassFlow to replace their Kafka t",
+    "P 202,2981,716,32 mt20px GlassFlow was selected because it provided:",
+    "UL 202,3045,716,162 mt32px Native support for stateful streaming transformati",
+    "P 202,3227,716,65 mt20px GlassFlow was implemented as the core processing l",
+    "UL 202,3324,716,162 mt32px Stateful transformations to validate, normalize, a",
+    "P 202,3506,716,32 mt20px GlassFlow was integrated quickly and required mini"
+  ]
+}

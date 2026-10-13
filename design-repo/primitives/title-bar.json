@@ -1,0 +1,22 @@
+{
+  "id": "title-bar",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "50px bar: dots left (optional right), mono label centred (hidden on product bars).",
+  "props": {
+    "label": "text",
+    "hideLabel": "bool",
+    "dotsRight": "bool"
+  },
+  "tokens": [
+    "component.title-bar"
+  ],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ui.jsx",
+      "lines": "100-108",
+      "quote": "export function TitleBar"
+    }
+  ]
+}

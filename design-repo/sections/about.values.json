@@ -1,0 +1,127 @@
+{
+  "id": "about.values",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Three values cards over dithered texture.",
+  "variants": {
+    "default": "/about"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/About.jsx",
+      "lines": "129-147",
+      "quote": "function Values()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "values": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "icon.pixel"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 2
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 35
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "icon",
+            "title",
+            "text"
+          ]
+        },
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "values",
+      "background"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "columns": 1,
+      "card": "273 tall"
+    },
+    "810": {
+      "columns": 1
+    },
+    "1200": {
+      "columns": 3,
+      "card": "350 tall"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/About.jsx",
+        "lines": "135",
+        "quote": "relative flex h-[273px] flex-col items-center overflow-hidden bg-bar p-8"
+      }
+    ]
+  }
+}

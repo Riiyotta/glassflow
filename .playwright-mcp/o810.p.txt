@@ -1,0 +1,151 @@
+H=6878
+B DIV 0,0,810,6878 rgb(73, 36, 0) pad=0px
+B DIV 0,0,810,40 rgb(29, 14, 0) pad=0px
+B DIV 181,0,113,40 rgb(29, 14, 0) pad=3.06401px 16px
+T products | 197,11,67,18 | 14px/18.2px
+B A 294,0,66,40 rgb(29, 14, 0) pad=3.06401px 16px
+T docs | 310,11,34,18 | 14px/18.2px
+B A 360,0,66,40 rgb(29, 14, 0) pad=3.06401px 16px
+T blog | 376,11,34,18 | 14px/18.2px
+B A 425,0,91,40 rgb(29, 14, 0) pad=3.06401px 16px
+T contact | 441,11,59,18 | 14px/18.2px
+B DIV 625,0,111,40 rgb(255, 172, 0) pad=3.06401px 9.19203px
+T get_started | 634,11,92,18 | 14px/18.2px
+B DIV 32,268,357,38 rgb(45, 24, 4) pad=16px
+T the | 64,346,56,40 | 40px/40px
+T data | 130,346,77,40 | 40px/40px
+T infrastructure | 64,386,231,40 | 40px/40px
+T for | 305,386,47,40 | 40px/40px
+T AI | 64,426,35,40 | 40px/40px
+T Agents | 109,426,122,40 | 40px/40px
+T in | 242,426,30,40 | 40px/40px
+T production | 64,466,187,40 | 40px/40px
+B DIV 421,268,357,38 rgb(45, 24, 4) pad=16px
+T GlassFlow is one data layer  | 453,324,293,135 | 18px/27px
+T GlassFlow Tares | 597,354,124,22 | 18px/27px
+T GlassFlow Rius | 453,408,115,22 | 18px/27px
+B DIV 453,475,197,52 rgb(255, 172, 0) pad=0px
+T get_started | 481,492,89,18 | 14px/24px
+B DIV 32,613,746,50 rgb(45, 24, 4) pad=16px 32px
+T Works with the tools you alr | 64,629,311,18 | 14px/18.2px
+B DIV 32,788,746,550 rgb(45, 24, 4) pad=0px
+T …data is not just an asset b | 96,918,618,256 | 32px/32px
+T Thomas Dohmke | 112,1268,125,18 | 16px/18.2px
+T Co-founder & CEO | 112,1289,154,21 | 16px/18.2px
+T Entire | 485,1278,58,21 | 16px/18.2px
+B DIV 32,1405,746,50 rgb(45, 24, 3) pad=16px
+B DIV 32,1455,746,494 rgb(45, 24, 4) pad=40px
+B DIV 72,1495,134,26 rgb(255, 172, 0) pad=4px
+T GlassFlow Tares | 76,1499,126,18 | 14px/18.2px
+T One correlated read over eve | 72,1554,666,64 | 32px/32px
+T Instead of your agent firing | 72,1650,666,96 | 16px/24px
+T GlassFlow Tares | 72,1676,110,20 | 16px/24px
+T Open source, self-hostable,  | 72,1770,666,24 | 16px/24px
+B DIV 72,1858,80,52 rgb(73, 36, 0) pad=4px
+T github | 88,1875,48,18 | 14px/24px
+B DIV 212,1858,113,52 rgb(45, 24, 4) pad=4px
+T learn_more | 228,1875,81,18 | 14px/24px
+B DIV 32,2688,746,50 rgb(45, 24, 3) pad=16px
+B DIV 32,2738,746,510 rgb(45, 24, 4) pad=40px
+B DIV 72,2778,126,26 rgb(255, 172, 0) pad=4px
+T GlassFlow Rius | 76,2782,118,18 | 14px/18.2px
+T Catch and debug agent failur | 72,2836,666,32 | 32px/32px
+T Once agents are live,  tells | 72,2900,666,192 | 16px/24px
+T GlassFlow Rius | 217,2902,102,20 | 16px/24px
+T Rius | 142,2926,29,20 | 16px/24px
+B DIV 72,3156,121,52 rgb(73, 36, 0) pad=4px
+T get_started | 88,3170,89,24 | 14px/24px
+B DIV 253,3156,113,52 rgb(45, 24, 4) pad=4px
+T learn_more | 269,3170,81,24 | 14px/24px
+T From install to | 193,4045,253,49 | 40px/40px
+T first result | 446,4045,181,49 | 40px/40px
+T in minutes. | 312,4085,187,49 | 40px/40px
+T Pick a product and follow th | 268,4151,274,20 | 16px/24px
+T Both are copy-paste and run  | 194,4175,425,44 | 16px/24px
+B DIV 160,4253,490,42 rgb(45, 24, 3) pad=0px
+T glassflow- | 340,4265,84,18 | 14px/18.2px
+T rius | 424,4265,34,18 | 14px/18.2px
+B DIV 160,4295,490,87 rgb(45, 24, 4) pad=16px
+T See your first agent run app | 245,4311,319,18 | 14px/18.2px
+T Drop in the OTEL receiver, r | 187,4329,445,36 | 14px/18.2px
+B DIV 160,4382,490,179 rgb(29, 14, 0) pad=16px
+T > | 176,4408,8,18 | 14px/18.2px
+T Long-running agents: | 205,4398,429,18 | 14px/18.2px
+T trace hours-long runs, lose  | 205,4418,429,18 | 12px/18.2px
+T > | 176,4462,8,18 | 14px/18.2px
+T MCP both ways: | 205,4452,429,18 | 14px/18.2px
+T agents send traces; coding a | 205,4472,429,18 | 12px/18.2px
+T > | 176,4516,8,18 | 14px/18.2px
+T Replay any run: | 205,4506,429,18 | 14px/18.2px
+T reconstruct what happened la | 205,4527,429,18 | 12px/18.2px
+B A 160,4561,490,104 rgb(29, 14, 0) pad=4px
+B SPAN 164,4565,482,44 rgb(45, 24, 4) pad=10px 12px
+T open the rius quickstart | 308,4575,194,24 | 14px/24px
+B SPAN 164,4617,482,44 rgb(255, 172, 0) pad=10px 12px
+T Start with rius | 344,4627,121,24 | 14px/24px
+B DIV 160,4673,490,42 rgb(45, 24, 3) pad=0px
+T glassflow- | 340,4685,84,18 | 14px/18.2px
+T tares | 424,4685,42,18 | 14px/18.2px
+B DIV 160,4715,490,87 rgb(45, 24, 4) pad=16px
+T Deliver your first correlate | 241,4731,336,54 | 14px/18.2px
+B DIV 160,4801,490,179 rgb(29, 14, 0) pad=16px
+T > | 176,4827,8,18 | 14px/18.2px
+T Cut token spend: | 205,4817,429,18 | 14px/18.2px
+T one clean read, not dozens o | 205,4838,429,18 | 12px/18.2px
+T > | 176,4882,8,18 | 14px/18.2px
+T Kill latency: | 205,4872,429,18 | 14px/18.2px
+T data's ready before the agen | 205,4892,429,18 | 12px/18.2px
+T > | 176,4936,8,18 | 14px/18.2px
+T One connection: | 205,4926,429,18 | 14px/18.2px
+T all your sources, unified | 205,4946,429,18 | 12px/18.2px
+B A 160,4981,490,104 rgb(29, 14, 0) pad=4px
+B SPAN 164,4985,482,44 rgb(45, 24, 4) pad=10px 12px
+T open the tares quickstart | 304,4995,202,24 | 14px/24px
+B SPAN 164,5037,482,44 rgb(255, 172, 0) pad=10px 12px
+T Start with tares | 340,5047,129,24 | 14px/24px
+B DIV 32,5216,746,160 rgb(45, 24, 4) pad=64px 32px
+T Frequently Asked Questions | 209,5276,392,39 | 32px/32px
+B DIV 730,5264,24,24 rgb(73, 36, 0) pad=0px
+B DIV 754,5240,24,24 rgb(73, 36, 0) pad=0px
+B DIV 754,5216,24,24 rgb(73, 36, 0) pad=0px
+B DIV 730,5216,24,24 rgb(73, 36, 0) pad=0px
+B DIV 32,5376,746,140 rgb(73, 36, 0) pad=17px 24px
+T What is GlassFlow? | 56,5404,640,18 | 14px/18.2px
+B DIV 714,5393,40,40 rgb(255, 172, 0) pad=0px
+T GlassFlow is the data infras | 56,5441,640,58 | 16px/19.2px
+B DIV 32,5515,746,74 rgb(73, 36, 0) pad=17px 24px
+T What’s the difference betwee | 56,5543,640,18 | 14px/18.2px
+B DIV 714,5532,40,40 rgb(45, 24, 4) pad=0px
+B DIV 32,5589,746,74 rgb(73, 36, 0) pad=17px 24px
+T Is GlassFlow open source? | 56,5617,640,18 | 14px/18.2px
+B DIV 714,5606,40,40 rgb(45, 24, 4) pad=0px
+B DIV 32,5663,746,74 rgb(73, 36, 0) pad=17px 24px
+T What makes GlassFlow differe | 56,5691,640,18 | 14px/18.2px
+B DIV 714,5680,40,40 rgb(45, 24, 4) pad=0px
+B DIV 0,5804,810,1074 rgb(29, 14, 0) pad=0px
+T Ready to give your agents be | 270,5868,271,96 | 32px/32px
+T Start with Tares | 134,6118,169,30 | 24px/24px
+T Feed your agents the right d | 80,6153,277,18 | 14px/18.2px
+B DIV 120,6204,197,52 rgb(255, 172, 0) pad=0px
+T get_started | 148,6221,89,18 | 14px/24px
+T Start with Rius | 513,6118,157,30 | 24px/24px
+T See and debug agents in prod | 440,6153,302,18 | 14px/18.2px
+B DIV 493,6204,197,52 rgb(255, 172, 0) pad=0px
+T get_started | 521,6221,89,18 | 14px/24px
+B DIV 40,6356,730,50 rgb(45, 24, 3) pad=16px
+T products | 371,6372,67,18 | 14px/18.2px
+T tares | 60,6465,40,18 | 14px/24px
+T Feed your agents the right d | 60,6486,218,38 | 14px/19.6px
+T rius | 425,6465,32,18 | 14px/24px
+T See what your agents did in  | 425,6486,202,38 | 14px/19.6px
+B A 40,6556,730,64 rgb(45, 24, 3) pad=16px
+T contact | 98,6579,59,18 | 14px/18.2px
+B A 40,6628,730,64 rgb(45, 24, 3) pad=16px
+T docs | 98,6651,34,18 | 14px/18.2px
+B A 40,6700,730,64 rgb(45, 24, 3) pad=16px
+T blog | 98,6723,34,18 | 14px/18.2px
+B A 40,6772,730,32 rgb(45, 24, 3) pad=16px
+T about | 98,6779,42,18 | 14px/18.2px
+T 2026 - Copyright GlassFlow.a | 56,6836,244,18 | 14px/18.2px
+T Terms & Conditions | 392,6836,151,18 | 14px/18.2px
+T Privacy Policy | 636,6836,118,18 | 14px/18.2px

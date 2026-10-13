@@ -1,0 +1,1787 @@
+- generic [ref=f115e3]:
+  - generic [ref=f115e8]:
+    - link [ref=f115e9] [cursor=pointer]:
+      - /url: ./
+    - generic [ref=f115e13]:
+      - paragraph [ref=f115e17]: products
+      - link [ref=f115e22] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f115e25]: docs
+      - link [ref=f115e26] [cursor=pointer]:
+        - /url: ./blog
+        - paragraph [ref=f115e29]: blog
+      - link [ref=f115e30] [cursor=pointer]:
+        - /url: ./contact
+        - paragraph [ref=f115e33]: contact
+    - link [ref=f115e35] [cursor=pointer]:
+      - /url: ./#quickstart
+      - paragraph [ref=f115e38]: get_started
+  - generic [ref=f115e47]:
+    - paragraph [ref=f115e52]: BLOG
+    - heading "The GlassFlow blog" [level=1] [ref=f115e55]
+    - paragraph [ref=f115e57]: How we think about agent observability and the data that feeds AI agents. New features, real use cases, tech lessons learned
+  - generic [ref=f115e59]:
+    - paragraph [ref=f115e66]: featured-blog
+    - link "Agent Infrastructure Can a decision model replace an LLM? Tune it on your own data first We ran Cloudflare's Clef-flash next to Claude Haiku for 6 days on production logs. As a filter, it cut LLM calls ~80%. Test it on your own data with Tares. read more read more" [ref=f115e72] [cursor=pointer]:
+      - /url: ./blog/decision-model-vs-llm
+      - generic [ref=f115e73]:
+        - generic [ref=f115e74]:
+          - link [ref=f115e77]:
+            - paragraph [ref=f115e79]: Agent Infrastructure
+          - heading "Can a decision model replace an LLM? Tune it on your own data first" [level=3] [ref=f115e81]
+          - paragraph [ref=f115e83]: We ran Cloudflare's Clef-flash next to Claude Haiku for 6 days on production logs. As a filter, it cut LLM calls ~80%. Test it on your own data with Tares.
+        - generic [ref=f115e87]:
+          - paragraph [ref=f115e89]: read more
+          - paragraph [ref=f115e91]: read more
+  - generic [ref=f115e100]:
+    - generic [ref=f115e103]:
+      - generic [ref=f115e106]:
+        - paragraph [ref=f115e111] [cursor=pointer]: All
+        - paragraph [ref=f115e116] [cursor=pointer]: MCP
+        - paragraph [ref=f115e121] [cursor=pointer]: Data for Agents
+        - paragraph [ref=f115e126] [cursor=pointer]: Agent Infrastructure
+        - paragraph [ref=f115e131] [cursor=pointer]: Agent Observability
+        - paragraph [ref=f115e136] [cursor=pointer]: Use Cases
+        - paragraph [ref=f115e141] [cursor=pointer]: Engineering
+        - paragraph [ref=f115e146] [cursor=pointer]: Product Updates
+        - paragraph [ref=f115e151] [cursor=pointer]: Comparisons
+        - paragraph [ref=f115e156] [cursor=pointer]: Tutorials
+      - textbox [ref=f115e160]:
+        - /placeholder: Search…
+    - generic [ref=f115e161]:
+      - link "Agent Infrastructure Can a decision model replace an LLM? Tune it on your own data first We ran Cloudflare's Clef-flash next to Claude Haiku for 6 days on production logs. As a filter, it cut LLM calls ~80%. Test it on your own data with Tares. Written by Ashish Bagri read article read article" [ref=f115e165] [cursor=pointer]:
+        - /url: ./blog/decision-model-vs-llm
+        - generic [ref=f115e175]:
+          - paragraph [ref=f115e179]: Agent Infrastructure
+          - paragraph [ref=f115e181]: Can a decision model replace an LLM? Tune it on your own data first
+          - paragraph [ref=f115e183]: We ran Cloudflare's Clef-flash next to Claude Haiku for 6 days on production logs. As a filter, it cut LLM calls ~80%. Test it on your own data with Tares.
+        - generic [ref=f115e184]:
+          - paragraph [ref=f115e187]: Written by
+          - paragraph [ref=f115e192]: Ashish Bagri
+        - link [ref=f115e193]:
+          - generic [ref=f115e196]:
+            - paragraph [ref=f115e198]: read article
+            - paragraph [ref=f115e200]: read article
+      - link [ref=f115e204] [cursor=pointer]:
+        - /url: ./blog/how-to-detect-ai-agent-failures-in-production
+        - generic [ref=f115e210]:
+          - img "How to detect silent AI agent failures in production" [ref=f115e214]
+          - generic [ref=f115e215]:
+            - paragraph [ref=f115e219]: Agent Observability
+            - paragraph [ref=f115e221]: How to detect silent AI agent failures in production
+            - paragraph [ref=f115e223]: Fifteen signals and a five-stage framework for detecting silent AI agent failures while runs are still running
+        - generic [ref=f115e224]:
+          - paragraph [ref=f115e227]: Written by
+          - paragraph [ref=f115e232]: Armend Avdijaj
+        - link [ref=f115e233]:
+          - generic [ref=f115e236]:
+            - paragraph [ref=f115e238]: read article
+            - paragraph [ref=f115e240]: read article
+      - link [ref=f115e244] [cursor=pointer]:
+        - /url: ./blog/how-to-debug-an-ai-agent
+        - generic [ref=f115e250]:
+          - 'img "How to Debug an AI Agent: A Step-by-Step Guide" [ref=f115e254]'
+          - generic [ref=f115e255]:
+            - paragraph [ref=f115e259]: Agent Observability
+            - paragraph [ref=f115e261]: "How to Debug an AI Agent: A Step-by-Step Guide"
+            - paragraph [ref=f115e263]: "How to debug an AI agent in production: find the run, trace it to the first divergence, classify the failure mode, and ship a fix. A step-by-step guide.\" slug: \"blog/what-is-agent-observability"
+        - generic [ref=f115e264]:
+          - paragraph [ref=f115e267]: Written by
+          - paragraph [ref=f115e272]: Pablo Pardo Garcia
+        - link [ref=f115e273]:
+          - generic [ref=f115e276]:
+            - paragraph [ref=f115e278]: read article
+            - paragraph [ref=f115e280]: read article
+      - link [ref=f115e284] [cursor=pointer]:
+        - /url: ./blog/ai-agent-failure-modes
+        - generic [ref=f115e290]:
+          - 'img "AI agent failure modes: the seven ways agents fail in production" [ref=f115e294]'
+          - generic [ref=f115e295]:
+            - paragraph [ref=f115e299]: Agent Infrastructure
+            - paragraph [ref=f115e301]: "AI agent failure modes: the seven ways agents fail in production"
+            - paragraph [ref=f115e303]: "The seven ways AI agents fail in production: tool misuse, context loss, goal drift, retry loops, frozen agents, cascading errors & silent degradation."
+        - generic [ref=f115e304]:
+          - paragraph [ref=f115e307]: Written by
+          - paragraph [ref=f115e312]: Pablo Pardo Garcia
+        - link [ref=f115e313]:
+          - generic [ref=f115e316]:
+            - paragraph [ref=f115e318]: read article
+            - paragraph [ref=f115e320]: read article
+      - link [ref=f115e324] [cursor=pointer]:
+        - /url: ./blog/agents-in-production-context-failure
+        - generic [ref=f115e330]:
+          - 'img "Why AI Agents Fail in Production: Context, Not Reasoning" [ref=f115e334]'
+          - generic [ref=f115e335]:
+            - paragraph [ref=f115e339]: Data for Agents
+            - paragraph [ref=f115e341]: "Agents in production: what looks like a reasoning failure is usually a context failure"
+            - paragraph [ref=f115e343]: When an AI agent fails in production, it's usually reasoning correctly over stale, partial, or lossy inputs, not hallucinating. Why, and how context fixes it.
+        - generic [ref=f115e344]:
+          - paragraph [ref=f115e347]: Written by
+          - paragraph [ref=f115e352]: Ashish Bagri
+        - link [ref=f115e353]:
+          - generic [ref=f115e356]:
+            - paragraph [ref=f115e358]: read article
+            - paragraph [ref=f115e360]: read article
+      - link [ref=f115e364] [cursor=pointer]:
+        - /url: ./blog/agent-defined-data-model
+        - generic [ref=f115e370]:
+          - img "Why the Lakehouse Wasn't Built for AI Agents" [ref=f115e374]
+          - generic [ref=f115e375]:
+            - paragraph [ref=f115e379]: Data for Agents
+            - paragraph [ref=f115e381]: The lakehouse organized data for analysts. Nobody has organized it for agents.
+            - paragraph [ref=f115e383]: The modern data stack was built for human analysts. AI agents read, push, and shape the model themselves. Here's why they need a new kind of data layer.
+        - generic [ref=f115e384]:
+          - paragraph [ref=f115e387]: Written by
+          - paragraph [ref=f115e392]: Ashish Bagri
+        - link [ref=f115e393]:
+          - generic [ref=f115e396]:
+            - paragraph [ref=f115e398]: read article
+            - paragraph [ref=f115e400]: read article
+      - link [ref=f115e404] [cursor=pointer]:
+        - /url: ./blog/cost-self-hosting-your-agent-observability-stack
+        - generic [ref=f115e410]:
+          - img "The real cost of self-hosting your agent observability stack" [ref=f115e414]
+          - generic [ref=f115e415]:
+            - paragraph [ref=f115e419]: Agent Observability
+            - paragraph [ref=f115e421]: The real cost of self-hosting your agent observability stack
+            - paragraph [ref=f115e423]: "What it really costs to self-host Langfuse, Phoenix, or Laminar: ClickHouse and infra requirements, engineering hours, and real AWS pricing, single node vs. high availability"
+        - generic [ref=f115e424]:
+          - paragraph [ref=f115e427]: Written by
+          - paragraph [ref=f115e432]: Armend Avdijaj
+        - link [ref=f115e433]:
+          - generic [ref=f115e436]:
+            - paragraph [ref=f115e438]: read article
+            - paragraph [ref=f115e440]: read article
+      - link "Agent Infrastructure Why autonomous agents still can't run on their own (it isn't trust) The barrier to autonomous agents isn't trust. It's the missing infrastructure. Here are the six pieces the short-session era never built for long-running agents. Written by Armend Avdijaj read article read article" [ref=f115e444] [cursor=pointer]:
+        - /url: ./blog/blog-autonomous-agents-infrastructure-not-trust
+        - generic [ref=f115e454]:
+          - paragraph [ref=f115e458]: Agent Infrastructure
+          - paragraph [ref=f115e460]: Why autonomous agents still can't run on their own (it isn't trust)
+          - paragraph [ref=f115e462]: The barrier to autonomous agents isn't trust. It's the missing infrastructure. Here are the six pieces the short-session era never built for long-running agents.
+        - generic [ref=f115e463]:
+          - paragraph [ref=f115e466]: Written by
+          - paragraph [ref=f115e471]: Armend Avdijaj
+        - link [ref=f115e472]:
+          - generic [ref=f115e475]:
+            - paragraph [ref=f115e477]: read article
+            - paragraph [ref=f115e479]: read article
+      - link [ref=f115e483] [cursor=pointer]:
+        - /url: ./blog/ran-signal-quality-opentelemetry-glassflow-clickhouse
+        - generic [ref=f115e489]:
+          - img "5G RAN Signal Quality Monitoring with OTel, GlassFlow & ClickHouse" [ref=f115e493]
+          - generic [ref=f115e494]:
+            - paragraph [ref=f115e498]: Tutorials
+            - paragraph [ref=f115e500]: 5G RAN Signal Quality Monitoring with OTel, GlassFlow & ClickHouse
+            - paragraph [ref=f115e502]: Build a 5G RAN telemetry pipeline with OpenTelemetry and GlassFlow to deduplicate metrics, normalize vendor schemas, and detect signal degradation in ClickHouse
+        - generic [ref=f115e503]:
+          - paragraph [ref=f115e506]: Written by
+          - paragraph [ref=f115e511]: Armend Avdijaj
+        - link [ref=f115e512]:
+          - generic [ref=f115e515]:
+            - paragraph [ref=f115e517]: read article
+            - paragraph [ref=f115e519]: read article
+      - link [ref=f115e523] [cursor=pointer]:
+        - /url: ./blog/glassflow-v3.1.0-v3.2.0-clickhouse-retries-pipeline-observability
+        - generic [ref=f115e529]:
+          - img "backpressure, GlassFlow, ClickHouse retries, Pipeline Observability, ClickHouse, GlassFlow, ClickHouse ingestion" [ref=f115e533]
+          - generic [ref=f115e534]:
+            - paragraph [ref=f115e538]: Product Updates
+            - paragraph [ref=f115e540]: "What's New with GlassFlow: v3.1.0 & v3.2.0"
+            - paragraph [ref=f115e542]: GlassFlow v3.1.0 and v3.2.0 bring end-to-end backpressure handling, resilient ClickHouse retries, and full pipeline observability.
+        - generic [ref=f115e543]:
+          - paragraph [ref=f115e546]: Written by
+          - paragraph [ref=f115e551]: Pablo Pardo Garcia
+        - link [ref=f115e552]:
+          - generic [ref=f115e555]:
+            - paragraph [ref=f115e557]: read article
+            - paragraph [ref=f115e559]: read article
+      - link [ref=f115e563] [cursor=pointer]:
+        - /url: ./blog/opentelemetry-to-clickhouse-do-you-need-kafka
+        - generic [ref=f115e569]:
+          - img "OpenTelemetry to ClickHouse, ClickHouse, Kafka, ClickHouse pipeline, OTel pipeline, telemetry pipeline" [ref=f115e573]
+          - generic [ref=f115e574]:
+            - paragraph [ref=f115e578]: Engineering
+            - paragraph [ref=f115e580]: "OpenTelemetry to ClickHouse: Do You Actually Need Kafka?"
+            - paragraph [ref=f115e582]: A technical comparison of OpenTelemetry → Kafka → ClickHouse vs OpenTelemetry → GlassFlow → ClickHouse. Learn where Kafka adds real value and where it adds operational overhead your observability pipeline doesn't need.
+        - generic [ref=f115e583]:
+          - paragraph [ref=f115e586]: Written by
+          - paragraph [ref=f115e591]: Armend Avdijaj
+        - link [ref=f115e592]:
+          - generic [ref=f115e595]:
+            - paragraph [ref=f115e597]: read article
+            - paragraph [ref=f115e599]: read article
+      - link [ref=f115e603] [cursor=pointer]:
+        - /url: ./blog/clickhouse-mistakes-engineers-make
+        - generic [ref=f115e609]:
+          - img "ClickHouse, ClickHouse Error, ClickHouse Dedupe, JOINs, deduplication ClickHouse, ClickHouse mistakes" [ref=f115e613]
+          - generic [ref=f115e614]:
+            - paragraph [ref=f115e618]: Engineering
+            - paragraph [ref=f115e620]: "ClickHouse Mistakes: The 5 Most Common Errors (And How to Fix Them)"
+            - paragraph [ref=f115e622]: Duplicate rows, broken JOINs, too many parts errors. These ClickHouse mistakes cost teams weeks. Here's what causes them and how to fix them.
+        - generic [ref=f115e623]:
+          - paragraph [ref=f115e626]: Written by
+          - paragraph [ref=f115e631]: Armend Avdijaj
+        - link [ref=f115e632]:
+          - generic [ref=f115e635]:
+            - paragraph [ref=f115e637]: read article
+            - paragraph [ref=f115e639]: read article
+      - link [ref=f115e643] [cursor=pointer]:
+        - /url: ./blog/clickhouse-telemetry-pipeline-with-opentelemetry-and-glassflow
+        - generic [ref=f115e649]:
+          - img "Telemetry pipeline, OpenTelemetry, observability pipeline, GlassFlow, ClickHouse pipeline, ClickHouse observability, OTel, OTel Collector, data masking" [ref=f115e653]
+          - generic [ref=f115e654]:
+            - paragraph [ref=f115e658]: Tutorials
+            - paragraph [ref=f115e660]: Build a ClickHouse Telemetry Pipeline with OpenTelemetry and GlassFlow
+            - paragraph [ref=f115e662]: This guide shows you how to stream OTLP data, perform deduplication and PII masking with GlassFlow and send data directly into ClickHouse for high-performance, low-cost observability.
+        - generic [ref=f115e663]:
+          - paragraph [ref=f115e666]: Written by
+          - paragraph [ref=f115e671]: Armend Avdijaj
+        - link [ref=f115e672]:
+          - generic [ref=f115e675]:
+            - paragraph [ref=f115e677]: read article
+            - paragraph [ref=f115e679]: read article
+      - link "Product Updates Clean, enriched OTel data in ClickHouse — without the glue code GlassFlow now supports native OpenTelemetry ingestion — so your traces, logs, and metrics arrive in ClickHouse deduplicated, enriched, and query-ready Written by Armend Avdijaj read article read article" [ref=f115e683] [cursor=pointer]:
+        - /url: ./blog/clean-enriched-otel-data-in-clickhouse-otel-data-clickhouse
+        - generic [ref=f115e693]:
+          - paragraph [ref=f115e697]: Product Updates
+          - paragraph [ref=f115e699]: Clean, enriched OTel data in ClickHouse — without the glue code
+          - paragraph [ref=f115e701]: GlassFlow now supports native OpenTelemetry ingestion — so your traces, logs, and metrics arrive in ClickHouse deduplicated, enriched, and query-ready
+        - generic [ref=f115e702]:
+          - paragraph [ref=f115e705]: Written by
+          - paragraph [ref=f115e710]: Armend Avdijaj
+        - link [ref=f115e711]:
+          - generic [ref=f115e714]:
+            - paragraph [ref=f115e716]: read article
+            - paragraph [ref=f115e718]: read article
+      - link [ref=f115e722] [cursor=pointer]:
+        - /url: ./blog/fraud-detection-pipelines-kafka-glassflow-clickhouse
+        - generic [ref=f115e728]:
+          - img "Fraud detection pipeline, Fraud detection use case, fraud detection, Kafka, GlassFlow, ClickHouse, stream processing, data pipelines, anomaly detection" [ref=f115e732]
+          - generic [ref=f115e733]:
+            - paragraph [ref=f115e737]: Tutorials
+            - paragraph [ref=f115e739]: Fraud Detection Pipelines with Kafka, Glassflow, and ClickHouse
+            - paragraph [ref=f115e741]: A demo using GlassFlow to deduplicate and filter Kafka events before they reach ClickHouse for real-time fraud detection.
+        - generic [ref=f115e742]:
+          - paragraph [ref=f115e745]: Written by
+          - paragraph [ref=f115e750]: Armend Avdijaj
+        - link [ref=f115e751]:
+          - generic [ref=f115e754]:
+            - paragraph [ref=f115e756]: read article
+            - paragraph [ref=f115e758]: read article
+      - link [ref=f115e762] [cursor=pointer]:
+        - /url: ./blog/glassflow-now-scales-to-500k-events-per-sec
+        - generic [ref=f115e768]:
+          - img "GlassFlow performance, ClickHouse ingestion, Kafka to ClickHouse, data transformations, ClickHouse sink connector" [ref=f115e772]
+          - generic [ref=f115e773]:
+            - paragraph [ref=f115e777]: Product Updates
+            - paragraph [ref=f115e779]: GlassFlow Streaming ETL now scales to 500k+ Events/Sec with zero changes to your existing pipeline
+            - paragraph [ref=f115e781]: Teams kept asking if Glassflow would scale, so we rebuilt it to grow from small to massive workloads without changing your pipeline.
+        - generic [ref=f115e782]:
+          - paragraph [ref=f115e785]: Written by
+          - paragraph [ref=f115e790]: Armend Avdijaj
+        - link [ref=f115e791]:
+          - generic [ref=f115e794]:
+            - paragraph [ref=f115e796]: read article
+            - paragraph [ref=f115e798]: read article
+      - link "Engineering How to Handle Semi-Structured Data in Your Log Pipelines Turn messy logs into analytics-ready data with GlassFlow & ClickHouse. Written by Armend Avdijaj read article read article" [ref=f115e802] [cursor=pointer]:
+        - /url: ./blog/handle-semi-structured-data-log-pipelines
+        - generic [ref=f115e812]:
+          - paragraph [ref=f115e816]: Engineering
+          - paragraph [ref=f115e818]: How to Handle Semi-Structured Data in Your Log Pipelines
+          - paragraph [ref=f115e820]: Turn messy logs into analytics-ready data with GlassFlow & ClickHouse.
+        - generic [ref=f115e821]:
+          - paragraph [ref=f115e824]: Written by
+          - paragraph [ref=f115e829]: Armend Avdijaj
+        - link [ref=f115e830]:
+          - generic [ref=f115e833]:
+            - paragraph [ref=f115e835]: read article
+            - paragraph [ref=f115e837]: read article
+      - 'link "Engineering Load Test GlassFlow for ClickHouse: Real-Time Deduplication at Scale Benchmarking GlassFlow: Fast, reliable deduplication at 20M events Written by Ashish Bagri read article read article" [ref=f115e841] [cursor=pointer]':
+        - /url: ./blog/load-test-glass-flow-for-click-house-real-time-deduplication-at-scale
+        - generic [ref=f115e851]:
+          - paragraph [ref=f115e855]: Engineering
+          - paragraph [ref=f115e857]: "Load Test GlassFlow for ClickHouse: Real-Time Deduplication at Scale"
+          - paragraph [ref=f115e859]: "Benchmarking GlassFlow: Fast, reliable deduplication at 20M events"
+        - generic [ref=f115e860]:
+          - paragraph [ref=f115e863]: Written by
+          - paragraph [ref=f115e868]: Ashish Bagri
+        - link [ref=f115e869]:
+          - generic [ref=f115e872]:
+            - paragraph [ref=f115e874]: read article
+            - paragraph [ref=f115e876]: read article
+      - link [ref=f115e880] [cursor=pointer]:
+        - /url: ./blog/when-vector-becomes-your-streaming-engine
+        - generic [ref=f115e886]:
+          - img "When Vector Becomes Your Streaming Engine" [ref=f115e890]
+          - generic [ref=f115e891]:
+            - paragraph [ref=f115e895]: Agent Observability
+            - paragraph [ref=f115e897]: When Vector Becomes Your Streaming Engine
+            - paragraph [ref=f115e899]: This is what happens when vertical scaling becomes your bottleneck
+        - generic [ref=f115e900]:
+          - paragraph [ref=f115e903]: Written by
+          - paragraph [ref=f115e908]: Armend Avdijaj
+        - link [ref=f115e909]:
+          - generic [ref=f115e912]:
+            - paragraph [ref=f115e914]: read article
+            - paragraph [ref=f115e916]: read article
+      - link [ref=f115e920] [cursor=pointer]:
+        - /url: ./blog/kafka-to-clickhouse-breaks-quietly-in-ai-systems
+        - generic [ref=f115e926]:
+          - img "How ingestion breaks over time" [ref=f115e930]
+          - generic [ref=f115e931]:
+            - paragraph [ref=f115e935]: Engineering
+            - paragraph [ref=f115e937]: Kafka to ClickHouse breaks quietly in AI systems
+            - paragraph [ref=f115e939]: Learn how AI systems push Kafka to ClickHouse beyond what most pipelines were built for.
+        - generic [ref=f115e940]:
+          - paragraph [ref=f115e943]: Written by
+          - paragraph [ref=f115e948]: Armend Avdijaj
+        - link [ref=f115e949]:
+          - generic [ref=f115e952]:
+            - paragraph [ref=f115e954]: read article
+            - paragraph [ref=f115e956]: read article
+      - link "Engineering How to manage backfills for AI systems when using ClickHouse Managing AI backfills safely in ClickHouse clusters. Written by Armend Avdijaj read article read article" [ref=f115e960] [cursor=pointer]:
+        - /url: ./blog/clickhouse-ai-backfills
+        - generic [ref=f115e970]:
+          - paragraph [ref=f115e974]: Engineering
+          - paragraph [ref=f115e976]: How to manage backfills for AI systems when using ClickHouse
+          - paragraph [ref=f115e978]: Managing AI backfills safely in ClickHouse clusters.
+        - generic [ref=f115e979]:
+          - paragraph [ref=f115e982]: Written by
+          - paragraph [ref=f115e987]: Armend Avdijaj
+        - link [ref=f115e988]:
+          - generic [ref=f115e991]:
+            - paragraph [ref=f115e993]: read article
+            - paragraph [ref=f115e995]: read article
+      - link [ref=f115e999] [cursor=pointer]:
+        - /url: ./blog/building-observability-stack-with-opentelemetry-and-kafka
+        - generic [ref=f115e1005]:
+          - img "Build a complete observability pipeline" [ref=f115e1009]
+          - generic [ref=f115e1010]:
+            - paragraph [ref=f115e1014]: Tutorials
+            - paragraph [ref=f115e1016]: Guide to Build an Observability Stack with OpenTelemetry and Kafka
+            - paragraph [ref=f115e1018]: Build a complete observability pipeline from telemetry to insights.
+        - generic [ref=f115e1019]:
+          - paragraph [ref=f115e1022]: Written by
+          - paragraph [ref=f115e1027]: Armend Avdijaj
+        - link [ref=f115e1028]:
+          - generic [ref=f115e1031]:
+            - paragraph [ref=f115e1033]: read article
+            - paragraph [ref=f115e1035]: read article
+      - link "Engineering Real-Time Analytics with ClickHouse and Kafka Build real-time analytics with Kafka and ClickHouse. Written by Armend Avdijaj read article read article" [ref=f115e1039] [cursor=pointer]:
+        - /url: ./blog/real-time-analytics-clickhouse-kafka
+        - generic [ref=f115e1049]:
+          - paragraph [ref=f115e1053]: Engineering
+          - paragraph [ref=f115e1055]: Real-Time Analytics with ClickHouse and Kafka
+          - paragraph [ref=f115e1057]: Build real-time analytics with Kafka and ClickHouse.
+        - generic [ref=f115e1058]:
+          - paragraph [ref=f115e1061]: Written by
+          - paragraph [ref=f115e1066]: Armend Avdijaj
+        - link [ref=f115e1067]:
+          - generic [ref=f115e1070]:
+            - paragraph [ref=f115e1072]: read article
+            - paragraph [ref=f115e1074]: read article
+      - link [ref=f115e1078] [cursor=pointer]:
+        - /url: ./blog/real-time-deduplication-for-clickhouse
+        - generic [ref=f115e1084]:
+          - img "Remove duplicate events before they reach ClickHouse" [ref=f115e1088]
+          - generic [ref=f115e1089]:
+            - paragraph [ref=f115e1093]: Engineering
+            - paragraph [ref=f115e1095]: "Real-Time Deduplication for ClickHouse: Solving Duplicate Events Before Ingestion"
+            - paragraph [ref=f115e1097]: Remove duplicate events before they reach ClickHouse.
+        - generic [ref=f115e1098]:
+          - paragraph [ref=f115e1101]: Written by
+          - paragraph [ref=f115e1106]: Armend Avdijaj
+        - link [ref=f115e1107]:
+          - generic [ref=f115e1110]:
+            - paragraph [ref=f115e1112]: read article
+            - paragraph [ref=f115e1114]: read article
+      - link [ref=f115e1118] [cursor=pointer]:
+        - /url: ./blog/replacingmergetree
+        - generic [ref=f115e1124]:
+          - img "ReplacingMergeTree Limitations" [ref=f115e1128]
+          - generic [ref=f115e1129]:
+            - paragraph [ref=f115e1133]: Engineering
+            - paragraph [ref=f115e1135]: "ClickHouse Deduplication with ReplacingMergeTree: How It Works and Limitations"
+            - paragraph [ref=f115e1137]: ReplacingMergeTree deduplication in ClickHouse – and its limitations.
+        - generic [ref=f115e1138]:
+          - paragraph [ref=f115e1141]: Written by
+          - paragraph [ref=f115e1146]: Armend Avdijaj
+        - link [ref=f115e1147]:
+          - generic [ref=f115e1150]:
+            - paragraph [ref=f115e1152]: read article
+            - paragraph [ref=f115e1154]: read article
+      - link [ref=f115e1158] [cursor=pointer]:
+        - /url: ./blog/clickhouse-deduplication-glassflow-alternative-replacingmergetree
+        - generic [ref=f115e1164]:
+          - img "A Better Alternative to ReplacingMergeTree" [ref=f115e1168]
+          - generic [ref=f115e1169]:
+            - paragraph [ref=f115e1173]: Engineering
+            - paragraph [ref=f115e1175]: "Real-Time Deduplication with GlassFlow: A Better Alternative to ReplacingMergeTree"
+            - paragraph [ref=f115e1177]: "Deduplication with GlassFlow: Fixing the limits of ClickHouse merges"
+        - generic [ref=f115e1178]:
+          - paragraph [ref=f115e1181]: Written by
+          - paragraph [ref=f115e1186]: Armend Avdijaj
+        - link [ref=f115e1187]:
+          - generic [ref=f115e1190]:
+            - paragraph [ref=f115e1192]: read article
+            - paragraph [ref=f115e1194]: read article
+      - link [ref=f115e1198] [cursor=pointer]:
+        - /url: ./blog/glassflow-vs-clickpipes-clickhouse-deduplication
+        - generic [ref=f115e1204]:
+          - img "GlassFlow vs ClickPipes for Deduplication" [ref=f115e1208]
+          - generic [ref=f115e1209]:
+            - paragraph [ref=f115e1213]: Engineering
+            - paragraph [ref=f115e1215]: GlassFlow vs ClickPipes for Deduplication
+            - paragraph [ref=f115e1217]: We compared GlassFlow and ClickPipes for ClickHouse deduplication
+        - generic [ref=f115e1218]:
+          - paragraph [ref=f115e1221]: Written by
+          - paragraph [ref=f115e1226]: Armend Avdijaj
+        - link [ref=f115e1227]:
+          - generic [ref=f115e1230]:
+            - paragraph [ref=f115e1232]: read article
+            - paragraph [ref=f115e1234]: read article
+      - link [ref=f115e1238] [cursor=pointer]:
+        - /url: ./blog/aggregatingmergetree-clickhouse
+        - generic [ref=f115e1244]:
+          - img "AggregatingMergeTree Engine, ClickHouse, GlassFlow, ReplacingMergeTree, Kafka data transformation, deduplication, ClickHouse JOINs" [ref=f115e1248]
+          - generic [ref=f115e1249]:
+            - paragraph [ref=f115e1253]: Engineering
+            - paragraph [ref=f115e1255]: "Understanding ClickHouse’s AggregatingMergeTree Engine: Purpose-Built for High-Performance Aggregations"
+            - paragraph [ref=f115e1257]: Understand and compare ClickHouse’s AggregatingMergeTree engine
+        - generic [ref=f115e1258]:
+          - paragraph [ref=f115e1261]: Written by
+          - paragraph [ref=f115e1266]: Armend Avdijaj
+        - link [ref=f115e1267]:
+          - generic [ref=f115e1270]:
+            - paragraph [ref=f115e1272]: read article
+            - paragraph [ref=f115e1274]: read article
+      - link [ref=f115e1278] [cursor=pointer]:
+        - /url: ./blog/real-time-observability-with-clickhouse-coroot-and-glassflow
+        - generic [ref=f115e1284]:
+          - 'img "Open-source observability stack: ClickHouse, GlassFlow & Coroot" [ref=f115e1288]'
+          - generic [ref=f115e1289]:
+            - paragraph [ref=f115e1293]: Engineering
+            - paragraph [ref=f115e1295]: Real-Time Observability with ClickHouse, Coroot & GlassFlow
+            - paragraph [ref=f115e1297]: "Open-source observability stack: ClickHouse, GlassFlow & Coroot."
+        - generic [ref=f115e1298]:
+          - paragraph [ref=f115e1301]: Written by
+          - paragraph [ref=f115e1306]: Armend Avdijaj
+        - link [ref=f115e1307]:
+          - generic [ref=f115e1310]:
+            - paragraph [ref=f115e1312]: read article
+            - paragraph [ref=f115e1314]: read article
+      - link [ref=f115e1318] [cursor=pointer]:
+        - /url: ./blog/open-source-observability-clickstack-glassflow
+        - generic [ref=f115e1324]:
+          - img "Open source observability with ClickStack and GlassFlow, observability pipeline, ClickStack, GlassFlow, Kafka, open source" [ref=f115e1328]
+          - generic [ref=f115e1329]:
+            - paragraph [ref=f115e1333]: Engineering
+            - paragraph [ref=f115e1335]: "ClickStack: How to Build an Open Source Observability Stack with GlassFlow"
+            - paragraph [ref=f115e1337]: Open source observability with ClickStack and GlassFlow
+        - generic [ref=f115e1338]:
+          - paragraph [ref=f115e1341]: Written by
+          - paragraph [ref=f115e1346]: Armend Avdijaj
+        - link [ref=f115e1347]:
+          - generic [ref=f115e1350]:
+            - paragraph [ref=f115e1352]: read article
+            - paragraph [ref=f115e1354]: read article
+      - link [ref=f115e1358] [cursor=pointer]:
+        - /url: ./blog/observability-in-the-ai-era-scaling-logs-with-clickhouse-glassflow
+        - generic [ref=f115e1364]:
+          - img "AI logging and observability at scale with ClickHouse" [ref=f115e1368]
+          - generic [ref=f115e1369]:
+            - paragraph [ref=f115e1373]: Agent Observability
+            - paragraph [ref=f115e1375]: "Observability in the AI Era: Scaling Logs with ClickHouse & GlassFlow"
+            - paragraph [ref=f115e1377]: "How ClickHouse powers observability at AI scale: Fast, efficient and ready for growth"
+        - generic [ref=f115e1378]:
+          - paragraph [ref=f115e1381]: Written by
+          - paragraph [ref=f115e1386]: Armend Avdijaj
+        - link [ref=f115e1387]:
+          - generic [ref=f115e1390]:
+            - paragraph [ref=f115e1392]: read article
+            - paragraph [ref=f115e1394]: read article
+      - link [ref=f115e1398] [cursor=pointer]:
+        - /url: ./blog/top-kafka-alternatives
+        - generic [ref=f115e1404]:
+          - img "Kafka Alternatives" [ref=f115e1408]
+          - generic [ref=f115e1409]:
+            - paragraph [ref=f115e1413]: Engineering
+            - paragraph [ref=f115e1415]: Top 6 Kafka Alternatives
+            - paragraph [ref=f115e1417]: When Kafka fits and when alternatives make sense.
+        - generic [ref=f115e1418]:
+          - paragraph [ref=f115e1421]: Written by
+          - paragraph [ref=f115e1426]: Armend Avdijaj
+        - link [ref=f115e1427]:
+          - generic [ref=f115e1430]:
+            - paragraph [ref=f115e1432]: read article
+            - paragraph [ref=f115e1434]: read article
+      - link [ref=f115e1438] [cursor=pointer]:
+        - /url: ./blog/snowflake-vs-clickhouse
+        - generic [ref=f115e1444]:
+          - img "Snowflake vs ClickHouse" [ref=f115e1448]
+          - generic [ref=f115e1449]:
+            - paragraph [ref=f115e1453]: Engineering
+            - paragraph [ref=f115e1455]: "Snowflake vs ClickHouse: Choosing the Right Analytics Platform"
+            - paragraph [ref=f115e1457]: Compare Snowflake and ClickHouse for modern analytics.
+        - generic [ref=f115e1458]:
+          - paragraph [ref=f115e1461]: Written by
+          - paragraph [ref=f115e1466]: Armend Avdijaj
+        - link [ref=f115e1467]:
+          - generic [ref=f115e1470]:
+            - paragraph [ref=f115e1472]: read article
+            - paragraph [ref=f115e1474]: read article
+      - link [ref=f115e1478] [cursor=pointer]:
+        - /url: ./blog/migrating-from-snowflake-to-clickhouse
+        - generic [ref=f115e1484]:
+          - img "Migrating from Snowflake to ClickHouse" [ref=f115e1488]
+          - generic [ref=f115e1489]:
+            - paragraph [ref=f115e1493]: Engineering
+            - paragraph [ref=f115e1495]: Migrating from Snowflake to ClickHouse
+            - paragraph [ref=f115e1497]: "Migrating from Snowflake to ClickHouse: Step-by-Step Guide"
+        - generic [ref=f115e1498]:
+          - paragraph [ref=f115e1501]: Written by
+          - paragraph [ref=f115e1506]: Armend Avdijaj
+        - link [ref=f115e1507]:
+          - generic [ref=f115e1510]:
+            - paragraph [ref=f115e1512]: read article
+            - paragraph [ref=f115e1514]: read article
+      - link [ref=f115e1518] [cursor=pointer]:
+        - /url: ./blog/redshift-vs-clickhouse
+        - generic [ref=f115e1524]:
+          - img "Redshift vs ClickHouse" [ref=f115e1528]
+          - generic [ref=f115e1529]:
+            - paragraph [ref=f115e1533]: Engineering
+            - paragraph [ref=f115e1535]: "Redshift vs ClickHouse: Choosing the Right Analytics Platform"
+            - paragraph [ref=f115e1537]: Compare Amazon Redshift and ClickHouse for modern analytics.
+        - generic [ref=f115e1538]:
+          - paragraph [ref=f115e1541]: Written by
+          - paragraph [ref=f115e1546]: Armend Avdijaj
+        - link [ref=f115e1547]:
+          - generic [ref=f115e1550]:
+            - paragraph [ref=f115e1552]: read article
+            - paragraph [ref=f115e1554]: read article
+      - link [ref=f115e1558] [cursor=pointer]:
+        - /url: ./blog/migrating-from-redshift-to-clickhouse
+        - generic [ref=f115e1564]:
+          - img "Migrating from Redshift to ClickHouse" [ref=f115e1568]
+          - generic [ref=f115e1569]:
+            - paragraph [ref=f115e1573]: Engineering
+            - paragraph [ref=f115e1575]: Migrating from Redshift to ClickHouse
+            - paragraph [ref=f115e1577]: "Migrating from Redshift to ClickHouse: Step-by-Step Guide"
+        - generic [ref=f115e1578]:
+          - paragraph [ref=f115e1581]: Written by
+          - paragraph [ref=f115e1586]: Armend Avdijaj
+        - link [ref=f115e1587]:
+          - generic [ref=f115e1590]:
+            - paragraph [ref=f115e1592]: read article
+            - paragraph [ref=f115e1594]: read article
+      - link [ref=f115e1598] [cursor=pointer]:
+        - /url: ./blog/migrating-from-bigquery-to-clickhouse
+        - generic [ref=f115e1604]:
+          - img "Migrating from Bigquery to ClickHouse" [ref=f115e1608]
+          - generic [ref=f115e1609]:
+            - paragraph [ref=f115e1613]: Engineering
+            - paragraph [ref=f115e1615]: Migrating from Bigquery to ClickHouse
+            - paragraph [ref=f115e1617]: "Migrating from Bigquery to ClickHouse: Step-by-Step Guide"
+        - generic [ref=f115e1618]:
+          - paragraph [ref=f115e1621]: Written by
+          - paragraph [ref=f115e1626]: Armend Avdijaj
+        - link [ref=f115e1627]:
+          - generic [ref=f115e1630]:
+            - paragraph [ref=f115e1632]: read article
+            - paragraph [ref=f115e1634]: read article
+      - link [ref=f115e1638] [cursor=pointer]:
+        - /url: ./blog/clickhouse-joins
+        - generic [ref=f115e1644]:
+          - img "ClickHouse JOINs, ClickHouse, clickhouse anti join syntax, clickhouse left anti join" [ref=f115e1648]
+          - generic [ref=f115e1649]:
+            - paragraph [ref=f115e1653]: Engineering
+            - paragraph [ref=f115e1655]: "ClickHouse JOIN Guide: Global Join, Algorithms, Asof, Semi & Anti"
+            - paragraph [ref=f115e1657]: "Learn ClickHouse JOINs step by step: types, examples & best practices."
+        - generic [ref=f115e1658]:
+          - paragraph [ref=f115e1661]: Written by
+          - paragraph [ref=f115e1666]: Armend Avdijaj
+        - link [ref=f115e1667]:
+          - generic [ref=f115e1670]:
+            - paragraph [ref=f115e1672]: read article
+            - paragraph [ref=f115e1674]: read article
+      - link [ref=f115e1678] [cursor=pointer]:
+        - /url: ./blog/clickhouse-limitations-joins
+        - generic [ref=f115e1684]:
+          - img "ClickHouse Joins Limitations, JOINs, JOINs in ClickHouse" [ref=f115e1688]
+          - generic [ref=f115e1689]:
+            - paragraph [ref=f115e1693]: Engineering
+            - paragraph [ref=f115e1695]: "ClickHouse JOIN Limitations: Performance Constraints Explained"
+            - paragraph [ref=f115e1697]: ClickHouse doesn't handle JOINs like traditional databases. We explain why (rule-based planning, no data shuffling, memory limits) and what to do about it.
+        - generic [ref=f115e1698]:
+          - paragraph [ref=f115e1701]: Written by
+          - paragraph [ref=f115e1706]: Armend Avdijaj
+        - link [ref=f115e1707]:
+          - generic [ref=f115e1710]:
+            - paragraph [ref=f115e1712]: read article
+            - paragraph [ref=f115e1714]: read article
+      - link [ref=f115e1718] [cursor=pointer]:
+        - /url: ./blog/denormalization-clickhouse
+        - generic [ref=f115e1724]:
+          - img "Denormalization for reducing Joins in ClickHouse" [ref=f115e1728]
+          - generic [ref=f115e1729]:
+            - paragraph [ref=f115e1733]: Engineering
+            - paragraph [ref=f115e1735]: Why Denormalization is Not the Answer to Reducing Joins in ClickHouse
+            - paragraph [ref=f115e1737]: Why denormalization slows down ClickHouse and what to do instead.
+        - generic [ref=f115e1738]:
+          - paragraph [ref=f115e1741]: Written by
+          - paragraph [ref=f115e1746]: Armend Avdijaj
+        - link [ref=f115e1747]:
+          - generic [ref=f115e1750]:
+            - paragraph [ref=f115e1752]: read article
+            - paragraph [ref=f115e1754]: read article
+      - link [ref=f115e1758] [cursor=pointer]:
+        - /url: ./blog/solve-join-limitations-clickhouse
+        - generic [ref=f115e1764]:
+          - img "Solving ClickHouse Joins" [ref=f115e1768]
+          - generic [ref=f115e1769]:
+            - paragraph [ref=f115e1773]: Engineering
+            - paragraph [ref=f115e1775]: How to Solve JOIN Limitations in ClickHouse
+            - paragraph [ref=f115e1777]: Struggling with JOINs in ClickHouse? Learn how to handle them efficiently.
+        - generic [ref=f115e1778]:
+          - paragraph [ref=f115e1781]: Written by
+          - paragraph [ref=f115e1786]: Armend Avdijaj
+        - link [ref=f115e1787]:
+          - generic [ref=f115e1790]:
+            - paragraph [ref=f115e1792]: read article
+            - paragraph [ref=f115e1794]: read article
+      - link [ref=f115e1798] [cursor=pointer]:
+        - /url: ./blog/solve-clickhouse-join-limitations-with-glassflow
+        - generic [ref=f115e1804]:
+          - 'img "Tutorial: Solve JOIN Limitations in ClickHouse with GlassFlow" [ref=f115e1808]'
+          - generic [ref=f115e1809]:
+            - paragraph [ref=f115e1813]: Tutorials
+            - paragraph [ref=f115e1815]: "Tutorial: How to Solve JOIN Limitations in ClickHouse with GlassFlow"
+            - paragraph [ref=f115e1817]: Solve ClickHouse JOIN limitations with GlassFlow.
+        - generic [ref=f115e1818]:
+          - paragraph [ref=f115e1821]: Written by
+          - paragraph [ref=f115e1826]: Armend Avdijaj
+        - link [ref=f115e1827]:
+          - generic [ref=f115e1830]:
+            - paragraph [ref=f115e1832]: read article
+            - paragraph [ref=f115e1834]: read article
+      - link [ref=f115e1838] [cursor=pointer]:
+        - /url: ./blog/clickhouse-query-optimization
+        - generic [ref=f115e1844]:
+          - img "ClickHouse Query Optimization" [ref=f115e1848]
+          - generic [ref=f115e1849]:
+            - paragraph [ref=f115e1853]: Engineering
+            - paragraph [ref=f115e1855]: "ClickHouse Query Optimization: Best Practices for Faster Queries"
+            - paragraph [ref=f115e1857]: Speed up ClickHouse queries using keys, indexes, dedup & JOIN optimization
+        - generic [ref=f115e1858]:
+          - paragraph [ref=f115e1861]: Written by
+          - paragraph [ref=f115e1866]: Armend Avdijaj
+        - link [ref=f115e1867]:
+          - generic [ref=f115e1870]:
+            - paragraph [ref=f115e1872]: read article
+            - paragraph [ref=f115e1874]: read article
+      - link [ref=f115e1878] [cursor=pointer]:
+        - /url: ./blog/clickhouse-materialized-views
+        - generic [ref=f115e1884]:
+          - img "Materialized Views in ClickHouse" [ref=f115e1888]
+          - generic [ref=f115e1889]:
+            - paragraph [ref=f115e1893]: Engineering
+            - paragraph [ref=f115e1895]: "Materialized Views in ClickHouse: Benefits, Limitations, and Alternatives"
+            - paragraph [ref=f115e1897]: "Materialized Views in ClickHouse: Benefits and Limits"
+        - generic [ref=f115e1898]:
+          - paragraph [ref=f115e1901]: Written by
+          - paragraph [ref=f115e1906]: Armend Avdijaj
+        - link [ref=f115e1907]:
+          - generic [ref=f115e1910]:
+            - paragraph [ref=f115e1912]: read article
+            - paragraph [ref=f115e1914]: read article
+      - link [ref=f115e1918] [cursor=pointer]:
+        - /url: ./blog/alternative-materialized-views
+        - generic [ref=f115e1924]:
+          - img "Fix problems with Materialized Views in ClickHouse" [ref=f115e1928]
+          - generic [ref=f115e1929]:
+            - paragraph [ref=f115e1933]: Engineering
+            - paragraph [ref=f115e1935]: Overcoming the Limits of Materialized Views in ClickHouse with GlassFlow
+            - paragraph [ref=f115e1937]: How to fix common problems with Materialized Views in ClickHouse
+        - generic [ref=f115e1938]:
+          - paragraph [ref=f115e1941]: Written by
+          - paragraph [ref=f115e1946]: Armend Avdijaj
+        - link [ref=f115e1947]:
+          - generic [ref=f115e1950]:
+            - paragraph [ref=f115e1952]: read article
+            - paragraph [ref=f115e1954]: read article
+      - link [ref=f115e1958] [cursor=pointer]:
+        - /url: ./blog/blog-data-lakes-apache-iceberg-clickhouse-data-transformation
+        - generic [ref=f115e1964]:
+          - 'img "From data lakes to ClickHouse: mastering real-time data transformation" [ref=f115e1968]'
+          - generic [ref=f115e1969]:
+            - paragraph [ref=f115e1973]: Engineering
+            - paragraph [ref=f115e1975]: "Data Lakes, Apache Iceberg, and ClickHouse: Solving Data Transformation Challenges"
+            - paragraph [ref=f115e1977]: "From data lakes to ClickHouse: mastering real-time data transformation."
+        - generic [ref=f115e1978]:
+          - paragraph [ref=f115e1981]: Written by
+          - paragraph [ref=f115e1986]: Armend Avdijaj
+        - link [ref=f115e1987]:
+          - generic [ref=f115e1990]:
+            - paragraph [ref=f115e1992]: read article
+            - paragraph [ref=f115e1994]: read article
+      - link [ref=f115e1998] [cursor=pointer]:
+        - /url: ./blog/clickhouse-ecosystem-tools
+        - generic [ref=f115e2004]:
+          - img "Overview of ClickHouse ecosystem and key tools" [ref=f115e2008]
+          - generic [ref=f115e2009]:
+            - paragraph [ref=f115e2013]: Engineering
+            - paragraph [ref=f115e2015]: Best ClickHouse Add-Ons & Ecosystem Tools
+            - paragraph [ref=f115e2017]: A practical overview of the ClickHouse ecosystem and its key tools.
+        - generic [ref=f115e2018]:
+          - paragraph [ref=f115e2021]: Written by
+          - paragraph [ref=f115e2026]: Armend Avdijaj
+        - link [ref=f115e2027]:
+          - generic [ref=f115e2030]:
+            - paragraph [ref=f115e2032]: read article
+            - paragraph [ref=f115e2034]: read article
+      - link [ref=f115e2038] [cursor=pointer]:
+        - /url: ./blog/best-managed-clickhouse-service-2025
+        - generic [ref=f115e2044]:
+          - img "Best managed clickhouse services" [ref=f115e2048]
+          - generic [ref=f115e2049]:
+            - paragraph [ref=f115e2053]: Engineering
+            - paragraph [ref=f115e2055]: Best managed clickhouse services in 2025
+            - paragraph [ref=f115e2057]: Managed ClickHouse services compared by features, pricing and use case.
+        - generic [ref=f115e2058]:
+          - paragraph [ref=f115e2061]: Written by
+          - paragraph [ref=f115e2066]: Armend Avdijaj
+        - link [ref=f115e2067]:
+          - generic [ref=f115e2070]:
+            - paragraph [ref=f115e2072]: read article
+            - paragraph [ref=f115e2074]: read article
+      - link [ref=f115e2078] [cursor=pointer]:
+        - /url: ./blog/clickhouse-etl-with-glassflow
+        - generic [ref=f115e2084]:
+          - img "Set up real-time ETL pipelines to ClickHouse" [ref=f115e2088]
+          - generic [ref=f115e2089]:
+            - paragraph [ref=f115e2093]: Engineering
+            - paragraph [ref=f115e2095]: No-Code Clickhouse ETL with Glassflow
+            - paragraph [ref=f115e2097]: Set up real-time ETL pipelines to ClickHouse with GlassFlow and Docker.
+        - generic [ref=f115e2098]:
+          - paragraph [ref=f115e2101]: Written by
+          - paragraph [ref=f115e2106]: Vimalraj Selvam
+        - link [ref=f115e2107]:
+          - generic [ref=f115e2110]:
+            - paragraph [ref=f115e2112]: read article
+            - paragraph [ref=f115e2114]: read article
+      - link [ref=f115e2118] [cursor=pointer]:
+        - /url: ./blog/clickhouse-etl-with-glassflow-part-2-deduplication
+        - generic [ref=f115e2124]:
+          - img "Deduplicate streaming logs before ClickHouse" [ref=f115e2128]
+          - generic [ref=f115e2129]:
+            - paragraph [ref=f115e2133]: Engineering
+            - paragraph [ref=f115e2135]: No-Code Clickhouse ETL with Glassflow - Dedup
+            - paragraph [ref=f115e2137]: Deduplicate streaming logs before ClickHouse-no code, no duplicates.
+        - generic [ref=f115e2138]:
+          - paragraph [ref=f115e2141]: Written by
+          - paragraph [ref=f115e2146]: Vimalraj Selvam
+        - link [ref=f115e2147]:
+          - generic [ref=f115e2150]:
+            - paragraph [ref=f115e2152]: read article
+            - paragraph [ref=f115e2154]: read article
+      - link [ref=f115e2158] [cursor=pointer]:
+        - /url: ./blog/clickhouse-etl-with-glassflow-part-3-joins
+        - generic [ref=f115e2164]:
+          - img "Joining Kafka Streams Before ClickHouse" [ref=f115e2168]
+          - generic [ref=f115e2169]:
+            - paragraph [ref=f115e2173]: Engineering
+            - paragraph [ref=f115e2175]: No-Code Clickhouse ETL with Glassflow - Join
+            - paragraph [ref=f115e2177]: Joining Kafka Streams Before ClickHouse with GlassFlow
+        - generic [ref=f115e2178]:
+          - paragraph [ref=f115e2181]: Written by
+          - paragraph [ref=f115e2186]: Vimalraj Selvam
+        - link [ref=f115e2187]:
+          - generic [ref=f115e2190]:
+            - paragraph [ref=f115e2192]: read article
+            - paragraph [ref=f115e2194]: read article
+      - link [ref=f115e2198] [cursor=pointer]:
+        - /url: ./blog/simplify-cloudflare-s-log-analytics-setup-with-glassflow
+        - generic [ref=f115e2204]:
+          - img "Simplify Cloudflare’s ClickHouse log analytics" [ref=f115e2208]
+          - generic [ref=f115e2209]:
+            - paragraph [ref=f115e2213]: Engineering
+            - paragraph [ref=f115e2215]: Simplify Cloudflare’s Log Analytics Setup with GlassFlow
+            - paragraph [ref=f115e2217]: "Simplify Cloudflare’s ClickHouse log analytics with GlassFlow: faster, cleaner."
+        - generic [ref=f115e2218]:
+          - paragraph [ref=f115e2221]: Written by
+          - paragraph [ref=f115e2226]: Armend Avdijaj
+        - link [ref=f115e2227]:
+          - generic [ref=f115e2230]:
+            - paragraph [ref=f115e2232]: read article
+            - paragraph [ref=f115e2234]: read article
+      - link [ref=f115e2238] [cursor=pointer]:
+        - /url: ./blog/kafka-to-clickhouse-with-glassflow-and-altinity-cloud
+        - generic [ref=f115e2244]:
+          - img "Kafka to ClickHouse" [ref=f115e2248]
+          - generic [ref=f115e2249]:
+            - paragraph [ref=f115e2253]: Engineering
+            - paragraph [ref=f115e2255]: Kafka to ClickHouse® Made Simple with Glassflow and Altinity.Cloud
+            - paragraph [ref=f115e2257]: Simplify Kafka-to-ClickHouse Pipelines with GlassFlow and Altinity.Cloud
+        - generic [ref=f115e2258]:
+          - paragraph [ref=f115e2261]: Written by
+          - paragraph [ref=f115e2266]: Armend Avdijaj
+        - link [ref=f115e2267]:
+          - generic [ref=f115e2270]:
+            - paragraph [ref=f115e2272]: read article
+            - paragraph [ref=f115e2274]: read article
+      - link [ref=f115e2278] [cursor=pointer]:
+        - /url: ./blog/asynchronous-inserts-clickhouse
+        - generic [ref=f115e2284]:
+          - img "Asynchronous Inserts ClickHouse, ClickHouse, Async inserts, asynchronous inserts ClickHouse, GlassFlow, ClickHouse basics" [ref=f115e2288]
+          - generic [ref=f115e2289]:
+            - paragraph [ref=f115e2293]: Engineering
+            - paragraph [ref=f115e2295]: Asynchronous Inserts in ClickHouse Explained
+            - paragraph [ref=f115e2297]: Understand asynchronous inserts in ClickHouse with a practical example.
+        - generic [ref=f115e2298]:
+          - paragraph [ref=f115e2301]: Written by
+          - paragraph [ref=f115e2306]: Armend Avdijaj
+        - link [ref=f115e2307]:
+          - generic [ref=f115e2310]:
+            - paragraph [ref=f115e2312]: read article
+            - paragraph [ref=f115e2314]: read article
+      - link [ref=f115e2318] [cursor=pointer]:
+        - /url: ./blog/kafka-to-clickhouse
+        - generic [ref=f115e2324]:
+          - img "Kafka to ClickHouse - Integration Methods" [ref=f115e2328]
+          - generic [ref=f115e2329]:
+            - paragraph [ref=f115e2333]: Engineering
+            - paragraph [ref=f115e2335]: "How to Stream Data from Kafka to ClickHouse: Kafka Engine, ClickPipes, and Kafka Connect Compared"
+            - paragraph [ref=f115e2337]: Which Kafka-to-ClickHouse method is right for your stack?
+        - generic [ref=f115e2338]:
+          - paragraph [ref=f115e2341]: Written by
+          - paragraph [ref=f115e2346]: Armend Avdijaj
+        - link [ref=f115e2347]:
+          - generic [ref=f115e2350]:
+            - paragraph [ref=f115e2352]: read article
+            - paragraph [ref=f115e2354]: read article
+      - link [ref=f115e2358] [cursor=pointer]:
+        - /url: ./blog/challenges-connecting-flink-clickhouse
+        - generic [ref=f115e2364]:
+          - img "Challenges of Connecting Flink to ClickHouse, Flink to ClickHouse, ClickHouse connector" [ref=f115e2368]
+          - generic [ref=f115e2369]:
+            - paragraph [ref=f115e2373]: Engineering
+            - paragraph [ref=f115e2375]: Challenges of Connecting Flink to ClickHouse
+            - paragraph [ref=f115e2377]: Why integrating Flink with ClickHouse is difficult – key challenges explained
+        - generic [ref=f115e2378]:
+          - paragraph [ref=f115e2381]: Written by
+          - paragraph [ref=f115e2386]: Armend Avdijaj
+        - link [ref=f115e2387]:
+          - generic [ref=f115e2390]:
+            - paragraph [ref=f115e2392]: read article
+            - paragraph [ref=f115e2394]: read article
+      - link [ref=f115e2398] [cursor=pointer]:
+        - /url: ./blog/limitations-flink-clickhouse
+        - generic [ref=f115e2404]:
+          - img "Limitations of Flink to ClickHouse" [ref=f115e2408]
+          - generic [ref=f115e2409]:
+            - paragraph [ref=f115e2413]: Engineering
+            - paragraph [ref=f115e2415]: Limitations of Flink to ClickHouse Integration – What You Need to Know
+            - paragraph [ref=f115e2417]: "Flink + ClickHouse: Integration challenges explained."
+        - generic [ref=f115e2418]:
+          - paragraph [ref=f115e2421]: Written by
+          - paragraph [ref=f115e2426]: Armend Avdijaj
+        - link [ref=f115e2427]:
+          - generic [ref=f115e2430]:
+            - paragraph [ref=f115e2432]: read article
+            - paragraph [ref=f115e2434]: read article
+      - link [ref=f115e2438] [cursor=pointer]:
+        - /url: ./blog/alternative-flink-clickhouse
+        - generic [ref=f115e2444]:
+          - img "Flink Alternatives for ClickHouse" [ref=f115e2448]
+          - generic [ref=f115e2449]:
+            - paragraph [ref=f115e2453]: Engineering
+            - paragraph [ref=f115e2455]: "Flink Alternatives for ClickHouse: Real-Time Streaming Without the Overhead"
+            - paragraph [ref=f115e2457]: Compares Flink alternatives for real-time ClickHouse integration.
+        - generic [ref=f115e2458]:
+          - paragraph [ref=f115e2461]: Written by
+          - paragraph [ref=f115e2466]: Armend Avdijaj
+        - link [ref=f115e2467]:
+          - generic [ref=f115e2470]:
+            - paragraph [ref=f115e2472]: read article
+            - paragraph [ref=f115e2474]: read article
+      - link [ref=f115e2478] [cursor=pointer]:
+        - /url: ./blog/clickhouse-go-ingestion-service
+        - generic [ref=f115e2484]:
+          - img "Build Custom Go Ingestion Service for ClickHouse" [ref=f115e2488]
+          - generic [ref=f115e2489]:
+            - paragraph [ref=f115e2493]: Engineering
+            - paragraph [ref=f115e2495]: Why Companies Build Custom Go Ingestion Services for ClickHouse
+            - paragraph [ref=f115e2497]: Why companies build custom Go ingestion services for ClickHouse pipelines.
+        - generic [ref=f115e2498]:
+          - paragraph [ref=f115e2501]: Written by
+          - paragraph [ref=f115e2506]: Armend Avdijaj
+        - link [ref=f115e2507]:
+          - generic [ref=f115e2510]:
+            - paragraph [ref=f115e2512]: read article
+            - paragraph [ref=f115e2514]: read article
+      - link [ref=f115e2518] [cursor=pointer]:
+        - /url: ./blog/bitcoin-to-clickhouse
+        - generic [ref=f115e2524]:
+          - img "Bitcoin to ClickHouse" [ref=f115e2528]
+          - generic [ref=f115e2529]:
+            - paragraph [ref=f115e2533]: Engineering
+            - paragraph [ref=f115e2535]: Bitcoin to ClickHouse
+            - paragraph [ref=f115e2537]: Stream Bitcoin to ClickHouse in real time-without duplicate records
+        - generic [ref=f115e2538]:
+          - paragraph [ref=f115e2541]: Written by
+          - paragraph [ref=f115e2546]: "Guest Author: Karolis Ščerbiakas"
+        - link [ref=f115e2547]:
+          - generic [ref=f115e2550]:
+            - paragraph [ref=f115e2552]: read article
+            - paragraph [ref=f115e2554]: read article
+      - link [ref=f115e2558] [cursor=pointer]:
+        - /url: ./blog/glassflow-clickhouse-duplications-and-joins-solved-for-kafka-users
+        - generic [ref=f115e2564]:
+          - img "ClickHouse Duplications and JOINs" [ref=f115e2568]
+          - generic [ref=f115e2569]:
+            - paragraph [ref=f115e2573]: Engineering
+            - paragraph [ref=f115e2575]: "GlassFlow: ClickHouse Duplications and JOINs solved for Kafka Users"
+            - paragraph [ref=f115e2577]: Learn how we will solve the biggest challenges of Kafka users with ClickHouse.
+        - generic [ref=f115e2578]:
+          - paragraph [ref=f115e2581]: Written by
+          - paragraph [ref=f115e2586]: Armend Avdijaj
+        - link [ref=f115e2587]:
+          - generic [ref=f115e2590]:
+            - paragraph [ref=f115e2592]: read article
+            - paragraph [ref=f115e2594]: read article
+      - link [ref=f115e2598] [cursor=pointer]:
+        - /url: ./blog/part-1-kafka-to-clickhouse-data-ingestion
+        - generic [ref=f115e2604]:
+          - img "Ingest data from Kafka to ClickHouse" [ref=f115e2608]
+          - generic [ref=f115e2609]:
+            - paragraph [ref=f115e2613]: Engineering
+            - paragraph [ref=f115e2615]: "Part 1: How do you usually ingest data from Kafka to ClickHouse?"
+            - paragraph [ref=f115e2617]: Deep dive on raw data ingestions from Kafka to ClickHouse.
+        - generic [ref=f115e2618]:
+          - paragraph [ref=f115e2621]: Written by
+          - paragraph [ref=f115e2626]: Armend Avdijaj
+        - link [ref=f115e2627]:
+          - generic [ref=f115e2630]:
+            - paragraph [ref=f115e2632]: read article
+            - paragraph [ref=f115e2634]: read article
+      - link [ref=f115e2638] [cursor=pointer]:
+        - /url: ./blog/part-2-why-duplicates-happen-joins-slow-clickhouse
+        - generic [ref=f115e2644]:
+          - img "Duplicates and JOINs slowing ClickHouse" [ref=f115e2648]
+          - generic [ref=f115e2649]:
+            - paragraph [ref=f115e2653]: Engineering
+            - paragraph [ref=f115e2655]: "Part 2: Why are duplicates happening and JOINs slowing ClickHouse"
+            - paragraph [ref=f115e2657]: Learn the root of the duplication and JOINs issues of Kafka to ClickHouse.
+        - generic [ref=f115e2658]:
+          - paragraph [ref=f115e2661]: Written by
+          - paragraph [ref=f115e2666]: Armend Avdijaj
+        - link [ref=f115e2667]:
+          - generic [ref=f115e2670]:
+            - paragraph [ref=f115e2672]: read article
+            - paragraph [ref=f115e2674]: read article
+      - link [ref=f115e2678] [cursor=pointer]:
+        - /url: ./blog/part-3-clickhouse-replacingmergetree-materialized-views-not-enough
+        - generic [ref=f115e2684]:
+          - img "ClickHouse ReplacingMergeTree and Materialized Views" [ref=f115e2688]
+          - generic [ref=f115e2689]:
+            - paragraph [ref=f115e2693]: Engineering
+            - paragraph [ref=f115e2695]: "Part 3: ClickHouse ReplacingMergeTree and Materialized Views are not enough"
+            - paragraph [ref=f115e2697]: Deep dive on limitations of ReplacingMergeTree and Materialized Views.
+        - generic [ref=f115e2698]:
+          - paragraph [ref=f115e2701]: Written by
+          - paragraph [ref=f115e2706]: Armend Avdijaj
+        - link [ref=f115e2707]:
+          - generic [ref=f115e2710]:
+            - paragraph [ref=f115e2712]: read article
+            - paragraph [ref=f115e2714]: read article
+      - link [ref=f115e2718] [cursor=pointer]:
+        - /url: ./blog/part-4-apache-flink-is-not-the-solution-to-clickhouse-duplications
+        - generic [ref=f115e2724]:
+          - img "Apache Flink for ClickHouse" [ref=f115e2728]
+          - generic [ref=f115e2729]:
+            - paragraph [ref=f115e2733]: Engineering
+            - paragraph [ref=f115e2735]: "Part 4: Can Apache Flink be the solution?"
+            - paragraph [ref=f115e2737]: Apache Flink isn't the solution for duplications and JOINs on ClickHouse.
+        - generic [ref=f115e2738]:
+          - paragraph [ref=f115e2741]: Written by
+          - paragraph [ref=f115e2746]: Armend Avdijaj
+        - link [ref=f115e2747]:
+          - generic [ref=f115e2750]:
+            - paragraph [ref=f115e2752]: read article
+            - paragraph [ref=f115e2754]: read article
+      - link [ref=f115e2758] [cursor=pointer]:
+        - /url: ./blog/part-5-how-glassflow-will-solve-duplications-and-joins-for-clickhouse
+        - generic [ref=f115e2764]:
+          - img "Solve Duplications and JOINs for ClickHouse" [ref=f115e2768]
+          - generic [ref=f115e2769]:
+            - paragraph [ref=f115e2773]: Engineering
+            - paragraph [ref=f115e2775]: "Part 5: How GlassFlow will solve Duplications and JOINs for ClickHouse"
+            - paragraph [ref=f115e2777]: Learn the details on how GlassFlow will solve Duplications and JOINs.
+        - generic [ref=f115e2778]:
+          - paragraph [ref=f115e2781]: Written by
+          - paragraph [ref=f115e2786]: Armend Avdijaj
+        - link [ref=f115e2787]:
+          - generic [ref=f115e2790]:
+            - paragraph [ref=f115e2792]: read article
+            - paragraph [ref=f115e2794]: read article
+      - link [ref=f115e2798] [cursor=pointer]:
+        - /url: ./blog/clickhouse-glossary
+        - generic [ref=f115e2804]:
+          - img "ClickHouse Glossary" [ref=f115e2808]
+          - generic [ref=f115e2809]:
+            - paragraph [ref=f115e2813]: Engineering
+            - paragraph [ref=f115e2815]: ClickHouse Glossary
+            - paragraph [ref=f115e2817]: "ClickHouse Glossary: Key terms for engines, joins & real-time data"
+        - generic [ref=f115e2818]:
+          - paragraph [ref=f115e2821]: Written by
+          - paragraph [ref=f115e2826]: Meryem Cebeci
+        - link [ref=f115e2827]:
+          - generic [ref=f115e2830]:
+            - paragraph [ref=f115e2832]: read article
+            - paragraph [ref=f115e2834]: read article
+      - link [ref=f115e2838] [cursor=pointer]:
+        - /url: ./blog/news-announcing-glassflow-raised-seed-round
+        - generic [ref=f115e2844]:
+          - img "Glassflow raised seed round" [ref=f115e2848]
+          - generic [ref=f115e2849]:
+            - paragraph [ref=f115e2853]: Product Updates
+            - paragraph [ref=f115e2855]: Announcing our $4.8m seed round
+            - paragraph [ref=f115e2857]: GlassFlow has successfully raised its seed round. Learn more about our journey.
+        - generic [ref=f115e2858]:
+          - paragraph [ref=f115e2861]: Written by
+          - paragraph [ref=f115e2866]: Armend Avdijaj
+        - link [ref=f115e2867]:
+          - generic [ref=f115e2870]:
+            - paragraph [ref=f115e2872]: read article
+            - paragraph [ref=f115e2874]: read article
+      - link "Use Cases Real-time AI powered price recommendation Real-time Price Recommendations Using AI and Data Transformation Written by Bobur Umurzokov read article read article" [ref=f115e2878] [cursor=pointer]:
+        - /url: ./blog/real-time-ai-price-recommendations-car-dealerships
+        - generic [ref=f115e2888]:
+          - paragraph [ref=f115e2892]: Use Cases
+          - paragraph [ref=f115e2894]: Real-time AI powered price recommendation
+          - paragraph [ref=f115e2896]: Real-time Price Recommendations Using AI and Data Transformation
+        - generic [ref=f115e2897]:
+          - paragraph [ref=f115e2900]: Written by
+          - paragraph [ref=f115e2905]: Bobur Umurzokov
+        - link [ref=f115e2906]:
+          - generic [ref=f115e2909]:
+            - paragraph [ref=f115e2911]: read article
+            - paragraph [ref=f115e2913]: read article
+      - link "Use Cases Real-time Clickstream Analytics Real-time Clickstream Analytics Using AI and Data Transformation Written by Bobur Umurzokov read article read article" [ref=f115e2917] [cursor=pointer]:
+        - /url: ./blog/real-time-clickstream-analytics
+        - generic [ref=f115e2927]:
+          - paragraph [ref=f115e2931]: Use Cases
+          - paragraph [ref=f115e2933]: Real-time Clickstream Analytics
+          - paragraph [ref=f115e2935]: Real-time Clickstream Analytics Using AI and Data Transformation
+        - generic [ref=f115e2936]:
+          - paragraph [ref=f115e2939]: Written by
+          - paragraph [ref=f115e2944]: Bobur Umurzokov
+        - link [ref=f115e2945]:
+          - generic [ref=f115e2948]:
+            - paragraph [ref=f115e2950]: read article
+            - paragraph [ref=f115e2952]: read article
+      - link "Use Cases Real-time data anomaly detection and alerting Data anomaly detection and alerting using GlassFlow, OpenAI, and Slack. Written by Bobur Umurzokov read article read article" [ref=f115e2956] [cursor=pointer]:
+        - /url: ./blog/real-time-data-anomaly-detection-alerting-glassflow-openai-slack
+        - generic [ref=f115e2966]:
+          - paragraph [ref=f115e2970]: Use Cases
+          - paragraph [ref=f115e2972]: Real-time data anomaly detection and alerting
+          - paragraph [ref=f115e2974]: Data anomaly detection and alerting using GlassFlow, OpenAI, and Slack.
+        - generic [ref=f115e2975]:
+          - paragraph [ref=f115e2978]: Written by
+          - paragraph [ref=f115e2983]: Bobur Umurzokov
+        - link [ref=f115e2984]:
+          - generic [ref=f115e2987]:
+            - paragraph [ref=f115e2989]: read article
+            - paragraph [ref=f115e2991]: read article
+      - link "Use Cases Real-time Fleet Management for Car Sharing Services Car Sharing Fleet Management with Real-time Fuel Monitoring and Discounts Written by Bobur Umurzokov read article read article" [ref=f115e2995] [cursor=pointer]:
+        - /url: ./blog/real-time-fleet-management-car-sharing-fuel-monitoring-discounts
+        - generic [ref=f115e3005]:
+          - paragraph [ref=f115e3009]: Use Cases
+          - paragraph [ref=f115e3011]: Real-time Fleet Management for Car Sharing Services
+          - paragraph [ref=f115e3013]: Car Sharing Fleet Management with Real-time Fuel Monitoring and Discounts
+        - generic [ref=f115e3014]:
+          - paragraph [ref=f115e3017]: Written by
+          - paragraph [ref=f115e3022]: Bobur Umurzokov
+        - link [ref=f115e3023]:
+          - generic [ref=f115e3026]:
+            - paragraph [ref=f115e3028]: read article
+            - paragraph [ref=f115e3030]: read article
+      - link "Use Cases Real-time Generative Feedback Loop Automation with GlassFlow, Supabase, and Weaviate Enhancing Airbnb Listings with Real-time Generative Feedback Loop Automation Written by Ashish Bagri read article read article" [ref=f115e3034] [cursor=pointer]:
+        - /url: ./blog/real-time-generative-feedback-loop-automation-with-glass-flow-supabase-and-weaviate
+        - generic [ref=f115e3044]:
+          - paragraph [ref=f115e3048]: Use Cases
+          - paragraph [ref=f115e3050]: Real-time Generative Feedback Loop Automation with GlassFlow, Supabase, and Weaviate
+          - paragraph [ref=f115e3052]: Enhancing Airbnb Listings with Real-time Generative Feedback Loop Automation
+        - generic [ref=f115e3053]:
+          - paragraph [ref=f115e3056]: Written by
+          - paragraph [ref=f115e3061]: Ashish Bagri
+        - link [ref=f115e3062]:
+          - generic [ref=f115e3065]:
+            - paragraph [ref=f115e3067]: read article
+            - paragraph [ref=f115e3069]: read article
+      - 'link "Use Cases Anomaly Detection: A Beginners Guide Explore this complete anomaly detection guide Written by Armend Avdijaj read article read article" [ref=f115e3073] [cursor=pointer]':
+        - /url: ./blog/anomaly-detection-complete-guide
+        - generic [ref=f115e3083]:
+          - paragraph [ref=f115e3087]: Use Cases
+          - paragraph [ref=f115e3089]: "Anomaly Detection: A Beginners Guide"
+          - paragraph [ref=f115e3091]: Explore this complete anomaly detection guide
+        - generic [ref=f115e3092]:
+          - paragraph [ref=f115e3095]: Written by
+          - paragraph [ref=f115e3100]: Armend Avdijaj
+        - link [ref=f115e3101]:
+          - generic [ref=f115e3104]:
+            - paragraph [ref=f115e3106]: read article
+            - paragraph [ref=f115e3108]: read article
+      - 'link "Use Cases Comparison of Event-Driven Data Pipeline Providers: Why GlassFlow is Built for AI Startups How the most popular tools fit the needs of AI startups Written by Armend Avdijaj read article read article" [ref=f115e3112] [cursor=pointer]':
+        - /url: ./blog/comparison-of-event-driven-data-pipeline-providers-why-glass-flow-is-built-for-ai-startups
+        - generic [ref=f115e3122]:
+          - paragraph [ref=f115e3126]: Use Cases
+          - paragraph [ref=f115e3128]: "Comparison of Event-Driven Data Pipeline Providers: Why GlassFlow is Built for AI Startups"
+          - paragraph [ref=f115e3130]: How the most popular tools fit the needs of AI startups
+        - generic [ref=f115e3131]:
+          - paragraph [ref=f115e3134]: Written by
+          - paragraph [ref=f115e3139]: Armend Avdijaj
+        - link [ref=f115e3140]:
+          - generic [ref=f115e3143]:
+            - paragraph [ref=f115e3145]: read article
+            - paragraph [ref=f115e3147]: read article
+      - link "Use Cases How to enrich classified ads in real-time using AI, GlassFlow, and Langchain Supercharge Your Classified Ads with Real-time Data Enrichment Written by Bobur Umurzokov read article read article" [ref=f115e3151] [cursor=pointer]:
+        - /url: ./blog/how-to-enrich-classified-ads-in-real-time-using-ai-glassflow-and-langchain
+        - generic [ref=f115e3161]:
+          - paragraph [ref=f115e3165]: Use Cases
+          - paragraph [ref=f115e3167]: How to enrich classified ads in real-time using AI, GlassFlow, and Langchain
+          - paragraph [ref=f115e3169]: Supercharge Your Classified Ads with Real-time Data Enrichment
+        - generic [ref=f115e3170]:
+          - paragraph [ref=f115e3173]: Written by
+          - paragraph [ref=f115e3178]: Bobur Umurzokov
+        - link [ref=f115e3179]:
+          - generic [ref=f115e3182]:
+            - paragraph [ref=f115e3184]: read article
+            - paragraph [ref=f115e3186]: read article
+      - link "Use Cases Why event-driven data pipelines are important for AI applications Event-driven data pipeline is the secret sauce for AI application success Written by Armend Avdijaj read article read article" [ref=f115e3190] [cursor=pointer]:
+        - /url: ./blog/why-event-driven-data-pipelines-for-ai-applications
+        - generic [ref=f115e3200]:
+          - paragraph [ref=f115e3204]: Use Cases
+          - paragraph [ref=f115e3206]: Why event-driven data pipelines are important for AI applications
+          - paragraph [ref=f115e3208]: Event-driven data pipeline is the secret sauce for AI application success
+        - generic [ref=f115e3209]:
+          - paragraph [ref=f115e3212]: Written by
+          - paragraph [ref=f115e3217]: Armend Avdijaj
+        - link [ref=f115e3218]:
+          - generic [ref=f115e3221]:
+            - paragraph [ref=f115e3223]: read article
+            - paragraph [ref=f115e3225]: read article
+      - link "Engineering Managed NATS Connectors powered by GlassFlow GlassFlow is offering managed connectors for NATS users Written by Armend Avdijaj read article read article" [ref=f115e3229] [cursor=pointer]:
+        - /url: ./blog/managed-nats-connectors
+        - generic [ref=f115e3239]:
+          - paragraph [ref=f115e3243]: Engineering
+          - paragraph [ref=f115e3245]: Managed NATS Connectors powered by GlassFlow
+          - paragraph [ref=f115e3247]: GlassFlow is offering managed connectors for NATS users
+        - generic [ref=f115e3248]:
+          - paragraph [ref=f115e3251]: Written by
+          - paragraph [ref=f115e3256]: Armend Avdijaj
+        - link [ref=f115e3257]:
+          - generic [ref=f115e3260]:
+            - paragraph [ref=f115e3262]: read article
+            - paragraph [ref=f115e3264]: read article
+      - link "Engineering Real-Time Data Consuming and Streaming with Webhooks Real-time data streaming pipelines with GlassFlow’s managed Webhook connectors Written by Armend Avdijaj read article read article" [ref=f115e3268] [cursor=pointer]:
+        - /url: ./blog/real-time-data-consuming-and-streaming-with-webhooks
+        - generic [ref=f115e3278]:
+          - paragraph [ref=f115e3282]: Engineering
+          - paragraph [ref=f115e3284]: Real-Time Data Consuming and Streaming with Webhooks
+          - paragraph [ref=f115e3286]: Real-time data streaming pipelines with GlassFlow’s managed Webhook connectors
+        - generic [ref=f115e3287]:
+          - paragraph [ref=f115e3290]: Written by
+          - paragraph [ref=f115e3295]: Armend Avdijaj
+        - link [ref=f115e3296]:
+          - generic [ref=f115e3299]:
+            - paragraph [ref=f115e3301]: read article
+            - paragraph [ref=f115e3303]: read article
+      - link "Engineering Real-time event streaming and transformation for ClickHouse Real-time analytics and fast decision-making with GlassFlow and ClickHouse Written by Bobur Umurzokov read article read article" [ref=f115e3307] [cursor=pointer]:
+        - /url: ./blog/real-time-event-streaming-transformation-clickhouse-glassflow
+        - generic [ref=f115e3317]:
+          - paragraph [ref=f115e3321]: Engineering
+          - paragraph [ref=f115e3323]: Real-time event streaming and transformation for ClickHouse
+          - paragraph [ref=f115e3325]: Real-time analytics and fast decision-making with GlassFlow and ClickHouse
+        - generic [ref=f115e3326]:
+          - paragraph [ref=f115e3329]: Written by
+          - paragraph [ref=f115e3334]: Bobur Umurzokov
+        - link [ref=f115e3335]:
+          - generic [ref=f115e3338]:
+            - paragraph [ref=f115e3340]: read article
+            - paragraph [ref=f115e3342]: read article
+      - link "Engineering Connect Google Pub/Sub to GlassFlow Fully Managed Connector Integration for Google Pub/Sub Written by Ashish Bagri read article read article" [ref=f115e3346] [cursor=pointer]:
+        - /url: ./blog/connect-google-pubsub-to-glassflow-data-streaming
+        - generic [ref=f115e3356]:
+          - paragraph [ref=f115e3360]: Engineering
+          - paragraph [ref=f115e3362]: Connect Google Pub/Sub to GlassFlow
+          - paragraph [ref=f115e3364]: Fully Managed Connector Integration for Google Pub/Sub
+        - generic [ref=f115e3365]:
+          - paragraph [ref=f115e3368]: Written by
+          - paragraph [ref=f115e3373]: Ashish Bagri
+        - link [ref=f115e3374]:
+          - generic [ref=f115e3377]:
+            - paragraph [ref=f115e3379]: read article
+            - paragraph [ref=f115e3381]: read article
+      - link "Engineering Connect Amazon SQS to GlassFlow Fully Managed Data Source Integration for Amazon Simple Queue Service Written by Armend Avdijaj read article read article" [ref=f115e3385] [cursor=pointer]:
+        - /url: ./blog/connect-amazon-sqs-to-glassflow-data-integration
+        - generic [ref=f115e3395]:
+          - paragraph [ref=f115e3399]: Engineering
+          - paragraph [ref=f115e3401]: Connect Amazon SQS to GlassFlow
+          - paragraph [ref=f115e3403]: Fully Managed Data Source Integration for Amazon Simple Queue Service
+        - generic [ref=f115e3404]:
+          - paragraph [ref=f115e3407]: Written by
+          - paragraph [ref=f115e3412]: Armend Avdijaj
+        - link [ref=f115e3413]:
+          - generic [ref=f115e3416]:
+            - paragraph [ref=f115e3418]: read article
+            - paragraph [ref=f115e3420]: read article
+      - link "Engineering Connect Zapier to GlassFlow Integrating real-time data processing into Zapier Written by Armend Avdijaj read article read article" [ref=f115e3424] [cursor=pointer]:
+        - /url: ./blog/connect-zapier-to-glassflow-real-time-data-processing
+        - generic [ref=f115e3434]:
+          - paragraph [ref=f115e3438]: Engineering
+          - paragraph [ref=f115e3440]: Connect Zapier to GlassFlow
+          - paragraph [ref=f115e3442]: Integrating real-time data processing into Zapier
+        - generic [ref=f115e3443]:
+          - paragraph [ref=f115e3446]: Written by
+          - paragraph [ref=f115e3451]: Armend Avdijaj
+        - link [ref=f115e3452]:
+          - generic [ref=f115e3455]:
+            - paragraph [ref=f115e3457]: read article
+            - paragraph [ref=f115e3459]: read article
+      - link "Engineering Build real-time applications with AWS Kinesis, DynamoDB, and GlassFlow Leverage real-time data streams for dynamic pricing, location-based offerings Written by Bobur Umurzokov read article read article" [ref=f115e3463] [cursor=pointer]:
+        - /url: ./blog/build-real-time-applications-with-aws-kinesis-dynamodb-and-glassflowbuild-real-time-applications-with-aws-kinesis-dynamodb-and-glassflow
+        - generic [ref=f115e3473]:
+          - paragraph [ref=f115e3477]: Engineering
+          - paragraph [ref=f115e3479]: Build real-time applications with AWS Kinesis, DynamoDB, and GlassFlow
+          - paragraph [ref=f115e3481]: Leverage real-time data streams for dynamic pricing, location-based offerings
+        - generic [ref=f115e3482]:
+          - paragraph [ref=f115e3485]: Written by
+          - paragraph [ref=f115e3490]: Bobur Umurzokov
+        - link [ref=f115e3491]:
+          - generic [ref=f115e3494]:
+            - paragraph [ref=f115e3496]: read article
+            - paragraph [ref=f115e3498]: read article
+      - link "Engineering Overview of Data Pipeline Tools for 2025 An introduction to data pipeline tools and how to choose the right one Written by Armend Avdijaj read article read article" [ref=f115e3502] [cursor=pointer]:
+        - /url: ./blog/data-pipeline-tools
+        - generic [ref=f115e3512]:
+          - paragraph [ref=f115e3516]: Engineering
+          - paragraph [ref=f115e3518]: Overview of Data Pipeline Tools for 2025
+          - paragraph [ref=f115e3520]: An introduction to data pipeline tools and how to choose the right one
+        - generic [ref=f115e3521]:
+          - paragraph [ref=f115e3524]: Written by
+          - paragraph [ref=f115e3529]: Armend Avdijaj
+        - link [ref=f115e3530]:
+          - generic [ref=f115e3533]:
+            - paragraph [ref=f115e3535]: read article
+            - paragraph [ref=f115e3537]: read article
+      - 'link "Engineering Overview of Data Infrastructure Trends Latest trends in data infrastructure: from real-time processing to AI insights Written by Armend Avdijaj read article read article" [ref=f115e3541] [cursor=pointer]':
+        - /url: ./blog/data-infrastructure-trends
+        - generic [ref=f115e3551]:
+          - paragraph [ref=f115e3555]: Engineering
+          - paragraph [ref=f115e3557]: Overview of Data Infrastructure Trends
+          - paragraph [ref=f115e3559]: "Latest trends in data infrastructure: from real-time processing to AI insights"
+        - generic [ref=f115e3560]:
+          - paragraph [ref=f115e3563]: Written by
+          - paragraph [ref=f115e3568]: Armend Avdijaj
+        - link [ref=f115e3569]:
+          - generic [ref=f115e3572]:
+            - paragraph [ref=f115e3574]: read article
+            - paragraph [ref=f115e3576]: read article
+      - link "Engineering What is an ETL Pipeline? Tools, best practices, and real-time use cases for efficient data processing Written by Ashish Bagri read article read article" [ref=f115e3580] [cursor=pointer]:
+        - /url: ./blog/what-is-etl-pipeline
+        - generic [ref=f115e3590]:
+          - paragraph [ref=f115e3594]: Engineering
+          - paragraph [ref=f115e3596]: What is an ETL Pipeline?
+          - paragraph [ref=f115e3598]: Tools, best practices, and real-time use cases for efficient data processing
+        - generic [ref=f115e3599]:
+          - paragraph [ref=f115e3602]: Written by
+          - paragraph [ref=f115e3607]: Ashish Bagri
+        - link [ref=f115e3608]:
+          - generic [ref=f115e3611]:
+            - paragraph [ref=f115e3613]: read article
+            - paragraph [ref=f115e3615]: read article
+      - link "Engineering Introduction to Python ETL Discover how to use Python for ETL processes. Written by Meryem Cebeci read article read article" [ref=f115e3619] [cursor=pointer]:
+        - /url: ./blog/python-etl
+        - generic [ref=f115e3629]:
+          - paragraph [ref=f115e3633]: Engineering
+          - paragraph [ref=f115e3635]: Introduction to Python ETL
+          - paragraph [ref=f115e3637]: Discover how to use Python for ETL processes.
+        - generic [ref=f115e3638]:
+          - paragraph [ref=f115e3641]: Written by
+          - paragraph [ref=f115e3646]: Meryem Cebeci
+        - link [ref=f115e3647]:
+          - generic [ref=f115e3650]:
+            - paragraph [ref=f115e3652]: read article
+            - paragraph [ref=f115e3654]: read article
+      - link "Engineering Introduction to Batch Processing vs Stream Processing Discover the key differences between batch processing and stream processing. Written by Meryem Cebeci read article read article" [ref=f115e3658] [cursor=pointer]:
+        - /url: ./blog/batch-processing-vs-stream-processing
+        - generic [ref=f115e3668]:
+          - paragraph [ref=f115e3672]: Engineering
+          - paragraph [ref=f115e3674]: Introduction to Batch Processing vs Stream Processing
+          - paragraph [ref=f115e3676]: Discover the key differences between batch processing and stream processing.
+        - generic [ref=f115e3677]:
+          - paragraph [ref=f115e3680]: Written by
+          - paragraph [ref=f115e3685]: Meryem Cebeci
+        - link [ref=f115e3686]:
+          - generic [ref=f115e3689]:
+            - paragraph [ref=f115e3691]: read article
+            - paragraph [ref=f115e3693]: read article
+      - link "Engineering What Is Real-Time Analytics? Benefits, Use Cases, and Tools Explained Explore what real-time analytics is. Written by Meryem Cebeci read article read article" [ref=f115e3697] [cursor=pointer]:
+        - /url: ./blog/what-is-real-time-analytics
+        - generic [ref=f115e3707]:
+          - paragraph [ref=f115e3711]: Engineering
+          - paragraph [ref=f115e3713]: What Is Real-Time Analytics? Benefits, Use Cases, and Tools Explained
+          - paragraph [ref=f115e3715]: Explore what real-time analytics is.
+        - generic [ref=f115e3716]:
+          - paragraph [ref=f115e3719]: Written by
+          - paragraph [ref=f115e3724]: Meryem Cebeci
+        - link [ref=f115e3725]:
+          - generic [ref=f115e3728]:
+            - paragraph [ref=f115e3730]: read article
+            - paragraph [ref=f115e3732]: read article
+      - 'link "Engineering What is a Machine Learning Pipeline? Approaches to Data Integration and Analysis Learn what a machine learning pipeline is: best practices, use cases, and tools. Written by Meryem Cebeci read article read article" [ref=f115e3736] [cursor=pointer]':
+        - /url: ./blog/machine-learning-pipeline
+        - generic [ref=f115e3746]:
+          - paragraph [ref=f115e3750]: Engineering
+          - paragraph [ref=f115e3752]: What is a Machine Learning Pipeline? Approaches to Data Integration and Analysis
+          - paragraph [ref=f115e3754]: "Learn what a machine learning pipeline is: best practices, use cases, and tools."
+        - generic [ref=f115e3755]:
+          - paragraph [ref=f115e3758]: Written by
+          - paragraph [ref=f115e3763]: Meryem Cebeci
+        - link [ref=f115e3764]:
+          - generic [ref=f115e3767]:
+            - paragraph [ref=f115e3769]: read article
+            - paragraph [ref=f115e3771]: read article
+      - link "Engineering What is CDC? How Change Data Capture (CDC) enables real-time data replication & integration. Written by Armend Avdijaj read article read article" [ref=f115e3775] [cursor=pointer]:
+        - /url: ./blog/what-is-cdc
+        - generic [ref=f115e3785]:
+          - paragraph [ref=f115e3789]: Engineering
+          - paragraph [ref=f115e3791]: What is CDC?
+          - paragraph [ref=f115e3793]: How Change Data Capture (CDC) enables real-time data replication & integration.
+        - generic [ref=f115e3794]:
+          - paragraph [ref=f115e3797]: Written by
+          - paragraph [ref=f115e3802]: Armend Avdijaj
+        - link [ref=f115e3803]:
+          - generic [ref=f115e3806]:
+            - paragraph [ref=f115e3808]: read article
+            - paragraph [ref=f115e3810]: read article
+      - link "Engineering Real-Time Streaming Basics Learn the real-time streaming basics for your data pipeline. Written by GlassFlow read article read article" [ref=f115e3814] [cursor=pointer]:
+        - /url: ./blog/real-time-streaming-basics-data-pipeline
+        - generic [ref=f115e3824]:
+          - paragraph [ref=f115e3828]: Engineering
+          - paragraph [ref=f115e3830]: Real-Time Streaming Basics
+          - paragraph [ref=f115e3832]: Learn the real-time streaming basics for your data pipeline.
+        - generic [ref=f115e3833]:
+          - paragraph [ref=f115e3836]: Written by
+          - paragraph [ref=f115e3841]: GlassFlow
+        - link [ref=f115e3842]:
+          - generic [ref=f115e3845]:
+            - paragraph [ref=f115e3847]: read article
+            - paragraph [ref=f115e3849]: read article
+      - link "Engineering Revolutionizing Real-Time Alerts with AI, NATs and Streamlit Build a full-stack event-driven chat application using Nats, Streamlit Written by Bobur Umurzokov read article read article" [ref=f115e3853] [cursor=pointer]:
+        - /url: ./blog/revolutionizing-real-time-alerts-with-ai-nats-and-streamlit
+        - generic [ref=f115e3863]:
+          - paragraph [ref=f115e3867]: Engineering
+          - paragraph [ref=f115e3869]: Revolutionizing Real-Time Alerts with AI, NATs and Streamlit
+          - paragraph [ref=f115e3871]: Build a full-stack event-driven chat application using Nats, Streamlit
+        - generic [ref=f115e3872]:
+          - paragraph [ref=f115e3875]: Written by
+          - paragraph [ref=f115e3880]: Bobur Umurzokov
+        - link [ref=f115e3881]:
+          - generic [ref=f115e3884]:
+            - paragraph [ref=f115e3886]: read article
+            - paragraph [ref=f115e3888]: read article
+      - link "Engineering Revolutionizing Real-Time Alerts with AI, GlassFlow and Streamlit Build a real-time AI-powered alerting app using OpenAI, GlassFlow and Streamlit Written by Armend Avdijaj read article read article" [ref=f115e3892] [cursor=pointer]:
+        - /url: ./blog/real-time-alerts-with-ai-and-streamlit
+        - generic [ref=f115e3902]:
+          - paragraph [ref=f115e3906]: Engineering
+          - paragraph [ref=f115e3908]: Revolutionizing Real-Time Alerts with AI, GlassFlow and Streamlit
+          - paragraph [ref=f115e3910]: Build a real-time AI-powered alerting app using OpenAI, GlassFlow and Streamlit
+        - generic [ref=f115e3911]:
+          - paragraph [ref=f115e3914]: Written by
+          - paragraph [ref=f115e3919]: Armend Avdijaj
+        - link [ref=f115e3920]:
+          - generic [ref=f115e3923]:
+            - paragraph [ref=f115e3925]: read article
+            - paragraph [ref=f115e3927]: read article
+      - link "Engineering The Evolution from ETL to Modern Data Stack Explore how GlassFlow fits into the modern data stack Written by Armend Avdijaj read article read article" [ref=f115e3931] [cursor=pointer]:
+        - /url: ./blog/the-evolutions-from-etl-to-modern-data-stack
+        - generic [ref=f115e3941]:
+          - paragraph [ref=f115e3945]: Engineering
+          - paragraph [ref=f115e3947]: The Evolution from ETL to Modern Data Stack
+          - paragraph [ref=f115e3949]: Explore how GlassFlow fits into the modern data stack
+        - generic [ref=f115e3950]:
+          - paragraph [ref=f115e3953]: Written by
+          - paragraph [ref=f115e3958]: Armend Avdijaj
+        - link [ref=f115e3959]:
+          - generic [ref=f115e3962]:
+            - paragraph [ref=f115e3964]: read article
+            - paragraph [ref=f115e3966]: read article
+      - 'link "Engineering Choosing the right language: Java vs Python for AI and Machine Learning Why Java Struggles with AI and Machine Learning, why Python shines. Written by Bobur Umurzokov read article read article" [ref=f115e3970] [cursor=pointer]':
+        - /url: ./blog/choosing-the-right-language-python-vs-java-for-ai-and-machine-learning
+        - generic [ref=f115e3980]:
+          - paragraph [ref=f115e3984]: Engineering
+          - paragraph [ref=f115e3986]: "Choosing the right language: Java vs Python for AI and Machine Learning"
+          - paragraph [ref=f115e3988]: Why Java Struggles with AI and Machine Learning, why Python shines.
+        - generic [ref=f115e3989]:
+          - paragraph [ref=f115e3992]: Written by
+          - paragraph [ref=f115e3997]: Bobur Umurzokov
+        - link [ref=f115e3998]:
+          - generic [ref=f115e4001]:
+            - paragraph [ref=f115e4003]: read article
+            - paragraph [ref=f115e4005]: read article
+      - 'link "Engineering Learn Top techniques for Anomaly Detection and boost the Data Quality for LLMs Understanding Anomaly Detection: Key Techniques and Use Cases Written by Armend Avdijaj read article read article" [ref=f115e4009] [cursor=pointer]':
+        - /url: ./blog/learn-top-techniques-for-anomaly-detection-and-boost-the-data-quality-for-ll-ms
+        - generic [ref=f115e4019]:
+          - paragraph [ref=f115e4023]: Engineering
+          - paragraph [ref=f115e4025]: Learn Top techniques for Anomaly Detection and boost the Data Quality for LLMs
+          - paragraph [ref=f115e4027]: "Understanding Anomaly Detection: Key Techniques and Use Cases"
+        - generic [ref=f115e4028]:
+          - paragraph [ref=f115e4031]: Written by
+          - paragraph [ref=f115e4036]: Armend Avdijaj
+        - link [ref=f115e4037]:
+          - generic [ref=f115e4040]:
+            - paragraph [ref=f115e4042]: read article
+            - paragraph [ref=f115e4044]: read article
+      - link "Engineering Microservices Data Synchronization Using PostgreSQL, Debezium, and NATS A step-by-step guide how you build a data synch stack with popular technology. Written by Armend Avdijaj read article read article" [ref=f115e4048] [cursor=pointer]:
+        - /url: ./blog/microservices-data-synchronization-using-postgresql-debezium-and-nats
+        - generic [ref=f115e4058]:
+          - paragraph [ref=f115e4062]: Engineering
+          - paragraph [ref=f115e4064]: Microservices Data Synchronization Using PostgreSQL, Debezium, and NATS
+          - paragraph [ref=f115e4066]: A step-by-step guide how you build a data synch stack with popular technology.
+        - generic [ref=f115e4067]:
+          - paragraph [ref=f115e4070]: Written by
+          - paragraph [ref=f115e4075]: Armend Avdijaj
+        - link [ref=f115e4076]:
+          - generic [ref=f115e4079]:
+            - paragraph [ref=f115e4081]: read article
+            - paragraph [ref=f115e4083]: read article
+      - 'link "Engineering Change Data Capture (CDC) in Databases: Techniques and Tools What is Change Data Capture (CDC) and how it works? Written by Bobur Umurzokov read article read article" [ref=f115e4087] [cursor=pointer]':
+        - /url: ./blog/change-data-capture-in-databases-techniques-and-tools
+        - generic [ref=f115e4097]:
+          - paragraph [ref=f115e4101]: Engineering
+          - paragraph [ref=f115e4103]: "Change Data Capture (CDC) in Databases: Techniques and Tools"
+          - paragraph [ref=f115e4105]: What is Change Data Capture (CDC) and how it works?
+        - generic [ref=f115e4106]:
+          - paragraph [ref=f115e4109]: Written by
+          - paragraph [ref=f115e4114]: Bobur Umurzokov
+        - link [ref=f115e4115]:
+          - generic [ref=f115e4118]:
+            - paragraph [ref=f115e4120]: read article
+            - paragraph [ref=f115e4122]: read article
+      - 'link "Engineering Database Streaming: Tools, Techniques, and Benefits How to detect and process a constant stream of data Written by Ashish Bagri read article read article" [ref=f115e4126] [cursor=pointer]':
+        - /url: ./blog/database-streaming-tools-techniques-and-benefits
+        - generic [ref=f115e4136]:
+          - paragraph [ref=f115e4140]: Engineering
+          - paragraph [ref=f115e4142]: "Database Streaming: Tools, Techniques, and Benefits"
+          - paragraph [ref=f115e4144]: How to detect and process a constant stream of data
+        - generic [ref=f115e4145]:
+          - paragraph [ref=f115e4148]: Written by
+          - paragraph [ref=f115e4153]: Ashish Bagri
+        - link [ref=f115e4154]:
+          - generic [ref=f115e4157]:
+            - paragraph [ref=f115e4159]: read article
+            - paragraph [ref=f115e4161]: read article
+      - link "Engineering Supercharge your low-code app for your startup project How GlassFlow helps startup builders using low-code and no-code tools Written by Bobur Umurzokov read article read article" [ref=f115e4165] [cursor=pointer]:
+        - /url: ./blog/supercharge-your-low-code-app-for-your-startup-project
+        - generic [ref=f115e4175]:
+          - paragraph [ref=f115e4179]: Engineering
+          - paragraph [ref=f115e4181]: Supercharge your low-code app for your startup project
+          - paragraph [ref=f115e4183]: How GlassFlow helps startup builders using low-code and no-code tools
+        - generic [ref=f115e4184]:
+          - paragraph [ref=f115e4187]: Written by
+          - paragraph [ref=f115e4192]: Bobur Umurzokov
+        - link [ref=f115e4193]:
+          - generic [ref=f115e4196]:
+            - paragraph [ref=f115e4198]: read article
+            - paragraph [ref=f115e4200]: read article
+      - 'link "Engineering How to Build a Data Pipeline: A Step-by-Step Guide Learn how to build data pipelines with this step-by-step guide. Written by Meryem Cebeci read article read article" [ref=f115e4204] [cursor=pointer]':
+        - /url: ./blog/steps-for-building-data-pipelines
+        - generic [ref=f115e4214]:
+          - paragraph [ref=f115e4218]: Engineering
+          - paragraph [ref=f115e4220]: "How to Build a Data Pipeline: A Step-by-Step Guide"
+          - paragraph [ref=f115e4222]: Learn how to build data pipelines with this step-by-step guide.
+        - generic [ref=f115e4223]:
+          - paragraph [ref=f115e4226]: Written by
+          - paragraph [ref=f115e4231]: Meryem Cebeci
+        - link [ref=f115e4232]:
+          - generic [ref=f115e4235]:
+            - paragraph [ref=f115e4237]: read article
+            - paragraph [ref=f115e4239]: read article
+      - link "Engineering How to Predict Equipment Failure for Maintenance in Real-time Leveraging GlassFlow for Real-time Predictive Maintenance Written by GlassFlow read article read article" [ref=f115e4243] [cursor=pointer]:
+        - /url: ./blog/how-to-predict-equipment-failure-for-maintenance-in-real-time
+        - generic [ref=f115e4253]:
+          - paragraph [ref=f115e4257]: Engineering
+          - paragraph [ref=f115e4259]: How to Predict Equipment Failure for Maintenance in Real-time
+          - paragraph [ref=f115e4261]: Leveraging GlassFlow for Real-time Predictive Maintenance
+        - generic [ref=f115e4262]:
+          - paragraph [ref=f115e4265]: Written by
+          - paragraph [ref=f115e4270]: GlassFlow
+        - link [ref=f115e4271]:
+          - generic [ref=f115e4274]:
+            - paragraph [ref=f115e4276]: read article
+            - paragraph [ref=f115e4278]: read article
+      - link "Engineering How to Predict Customer Churn and Implement Retention Strategies in Real-time Predict customer churn and deploy effective retention strategies. Written by Armend Avdijaj read article read article" [ref=f115e4282] [cursor=pointer]:
+        - /url: ./blog/how-to-predict-customer-churn-and-implement-retention-strategies-in-real-time
+        - generic [ref=f115e4292]:
+          - paragraph [ref=f115e4296]: Engineering
+          - paragraph [ref=f115e4298]: How to Predict Customer Churn and Implement Retention Strategies in Real-time
+          - paragraph [ref=f115e4300]: Predict customer churn and deploy effective retention strategies.
+        - generic [ref=f115e4301]:
+          - paragraph [ref=f115e4304]: Written by
+          - paragraph [ref=f115e4309]: Armend Avdijaj
+        - link [ref=f115e4310]:
+          - generic [ref=f115e4313]:
+            - paragraph [ref=f115e4315]: read article
+            - paragraph [ref=f115e4317]: read article
+      - link "Engineering How to Detect and Prevent Credit Card Fraud in Real-Time Leveraging GlassFlow for Real-Time Data Transformation Written by GlassFlow read article read article" [ref=f115e4321] [cursor=pointer]:
+        - /url: ./blog/how-to-detect-and-prevent-credit-card-fraud-in-real-time
+        - generic [ref=f115e4331]:
+          - paragraph [ref=f115e4335]: Engineering
+          - paragraph [ref=f115e4337]: How to Detect and Prevent Credit Card Fraud in Real-Time
+          - paragraph [ref=f115e4339]: Leveraging GlassFlow for Real-Time Data Transformation
+        - generic [ref=f115e4340]:
+          - paragraph [ref=f115e4343]: Written by
+          - paragraph [ref=f115e4348]: GlassFlow
+        - link [ref=f115e4349]:
+          - generic [ref=f115e4352]:
+            - paragraph [ref=f115e4354]: read article
+            - paragraph [ref=f115e4356]: read article
+      - link "Engineering How to Personalize Marketing Campaigns Based on User Behavior in Real-Time Real-time data transformation to enhance your marketing strategies. Written by GlassFlow read article read article" [ref=f115e4360] [cursor=pointer]:
+        - /url: ./blog/how-to-personalize-marketing-campaigns-based-on-user-behavior-in-real-time
+        - generic [ref=f115e4370]:
+          - paragraph [ref=f115e4374]: Engineering
+          - paragraph [ref=f115e4376]: How to Personalize Marketing Campaigns Based on User Behavior in Real-Time
+          - paragraph [ref=f115e4378]: Real-time data transformation to enhance your marketing strategies.
+        - generic [ref=f115e4379]:
+          - paragraph [ref=f115e4382]: Written by
+          - paragraph [ref=f115e4387]: GlassFlow
+        - link [ref=f115e4388]:
+          - generic [ref=f115e4391]:
+            - paragraph [ref=f115e4393]: read article
+            - paragraph [ref=f115e4395]: read article
+      - link "Engineering How to Enhance User Experience with Recommendations in Real-Time Leverage GlassFlow for real-time data transformation to improve user engagement Written by GlassFlow read article read article" [ref=f115e4399] [cursor=pointer]:
+        - /url: ./blog/how-to-enhance-user-experience-with-recommendations-in-real-time
+        - generic [ref=f115e4409]:
+          - paragraph [ref=f115e4413]: Engineering
+          - paragraph [ref=f115e4415]: How to Enhance User Experience with Recommendations in Real-Time
+          - paragraph [ref=f115e4417]: Leverage GlassFlow for real-time data transformation to improve user engagement
+        - generic [ref=f115e4418]:
+          - paragraph [ref=f115e4421]: Written by
+          - paragraph [ref=f115e4426]: GlassFlow
+        - link [ref=f115e4427]:
+          - generic [ref=f115e4430]:
+            - paragraph [ref=f115e4432]: read article
+            - paragraph [ref=f115e4434]: read article
+      - link "Engineering How to Enhance Online Learning with Personalized Content in Real-Time Create personalized online learning experience Written by Ashish Bagri read article read article" [ref=f115e4438] [cursor=pointer]:
+        - /url: ./blog/enhance-online-learning-with-personalized-content-in-real-time-glassflow
+        - generic [ref=f115e4448]:
+          - paragraph [ref=f115e4452]: Engineering
+          - paragraph [ref=f115e4454]: How to Enhance Online Learning with Personalized Content in Real-Time
+          - paragraph [ref=f115e4456]: Create personalized online learning experience
+        - generic [ref=f115e4457]:
+          - paragraph [ref=f115e4460]: Written by
+          - paragraph [ref=f115e4465]: Ashish Bagri
+        - link [ref=f115e4466]:
+          - generic [ref=f115e4469]:
+            - paragraph [ref=f115e4471]: read article
+            - paragraph [ref=f115e4473]: read article
+      - link "Engineering How to hide PII data in real-time Mask Personally Identifiable Information (PII) using GlassFlow Written by Armend Avdijaj read article read article" [ref=f115e4477] [cursor=pointer]:
+        - /url: ./blog/hide-pii-data-in-real-time-with-glassflow
+        - generic [ref=f115e4487]:
+          - paragraph [ref=f115e4491]: Engineering
+          - paragraph [ref=f115e4493]: How to hide PII data in real-time
+          - paragraph [ref=f115e4495]: Mask Personally Identifiable Information (PII) using GlassFlow
+        - generic [ref=f115e4496]:
+          - paragraph [ref=f115e4499]: Written by
+          - paragraph [ref=f115e4504]: Armend Avdijaj
+        - link [ref=f115e4505]:
+          - generic [ref=f115e4508]:
+            - paragraph [ref=f115e4510]: read article
+            - paragraph [ref=f115e4512]: read article
+      - link "Engineering How to Check Data Quality in Real-time Ensuring the integrity and accuracy of your data streams with GlassFlow Written by Armend Avdijaj read article read article" [ref=f115e4516] [cursor=pointer]:
+        - /url: ./blog/check-data-quality-in-real-time-with-glassflow
+        - generic [ref=f115e4526]:
+          - paragraph [ref=f115e4530]: Engineering
+          - paragraph [ref=f115e4532]: How to Check Data Quality in Real-time
+          - paragraph [ref=f115e4534]: Ensuring the integrity and accuracy of your data streams with GlassFlow
+        - generic [ref=f115e4535]:
+          - paragraph [ref=f115e4538]: Written by
+          - paragraph [ref=f115e4543]: Armend Avdijaj
+        - link [ref=f115e4544]:
+          - generic [ref=f115e4547]:
+            - paragraph [ref=f115e4549]: read article
+            - paragraph [ref=f115e4551]: read article
+      - link "Engineering How to Enrich Data in Real-Time with Python Unlock the Power of Real-Time Data Transformation with GlassFlow Written by GlassFlow read article read article" [ref=f115e4555] [cursor=pointer]:
+        - /url: ./blog/how-to-enrich-data-in-real-time
+        - generic [ref=f115e4565]:
+          - paragraph [ref=f115e4569]: Engineering
+          - paragraph [ref=f115e4571]: How to Enrich Data in Real-Time with Python
+          - paragraph [ref=f115e4573]: Unlock the Power of Real-Time Data Transformation with GlassFlow
+        - generic [ref=f115e4574]:
+          - paragraph [ref=f115e4577]: Written by
+          - paragraph [ref=f115e4582]: GlassFlow
+        - link [ref=f115e4583]:
+          - generic [ref=f115e4586]:
+            - paragraph [ref=f115e4588]: read article
+            - paragraph [ref=f115e4590]: read article
+      - link "Engineering How GlassFlow is Defining the Modern Real-Time Data Stack Rethinking the Data Stack for Real-Time Needs Written by Bobur Umurzokov read article read article" [ref=f115e4594] [cursor=pointer]:
+        - /url: ./blog/modern-real-time-data-stack-and-glassflow
+        - generic [ref=f115e4604]:
+          - paragraph [ref=f115e4608]: Engineering
+          - paragraph [ref=f115e4610]: How GlassFlow is Defining the Modern Real-Time Data Stack
+          - paragraph [ref=f115e4612]: Rethinking the Data Stack for Real-Time Needs
+        - generic [ref=f115e4613]:
+          - paragraph [ref=f115e4616]: Written by
+          - paragraph [ref=f115e4621]: Bobur Umurzokov
+        - link [ref=f115e4622]:
+          - generic [ref=f115e4625]:
+            - paragraph [ref=f115e4627]: read article
+            - paragraph [ref=f115e4629]: read article
+      - link "Engineering Move Data from Postgres to Snowflake in Real Time using CDC Stream Postgres data to Snowflake in real time with CDC. Written by Armend Avdijaj read article read article" [ref=f115e4633] [cursor=pointer]:
+        - /url: ./blog/postgres-to-snowflake
+        - generic [ref=f115e4643]:
+          - paragraph [ref=f115e4647]: Engineering
+          - paragraph [ref=f115e4649]: Move Data from Postgres to Snowflake in Real Time using CDC
+          - paragraph [ref=f115e4651]: Stream Postgres data to Snowflake in real time with CDC.
+        - generic [ref=f115e4652]:
+          - paragraph [ref=f115e4655]: Written by
+          - paragraph [ref=f115e4660]: Armend Avdijaj
+        - link [ref=f115e4661]:
+          - generic [ref=f115e4664]:
+            - paragraph [ref=f115e4666]: read article
+            - paragraph [ref=f115e4668]: read article
+      - link "Engineering GlassFlow vs. Other Serverless Solutions Why GlassFlow stands out for event-driven data pipelines Written by Armend Avdijaj read article read article" [ref=f115e4672] [cursor=pointer]:
+        - /url: ./blog/glassflow-vs-other-serverless-solutions
+        - generic [ref=f115e4682]:
+          - paragraph [ref=f115e4686]: Engineering
+          - paragraph [ref=f115e4688]: GlassFlow vs. Other Serverless Solutions
+          - paragraph [ref=f115e4690]: Why GlassFlow stands out for event-driven data pipelines
+        - generic [ref=f115e4691]:
+          - paragraph [ref=f115e4694]: Written by
+          - paragraph [ref=f115e4699]: Armend Avdijaj
+        - link [ref=f115e4700]:
+          - generic [ref=f115e4703]:
+            - paragraph [ref=f115e4705]: read article
+            - paragraph [ref=f115e4707]: read article
+      - link "Engineering Top 10 Common Data Engineers and Scientists Pain Points in 2024 Top 10 challenges Data Engineers and Data Scientists face. Written by GlassFlow read article read article" [ref=f115e4711] [cursor=pointer]:
+        - /url: ./blog/top-10-data-engineers-scientists-pain-points-2024
+        - generic [ref=f115e4721]:
+          - paragraph [ref=f115e4725]: Engineering
+          - paragraph [ref=f115e4727]: Top 10 Common Data Engineers and Scientists Pain Points in 2024
+          - paragraph [ref=f115e4729]: Top 10 challenges Data Engineers and Data Scientists face.
+        - generic [ref=f115e4730]:
+          - paragraph [ref=f115e4733]: Written by
+          - paragraph [ref=f115e4738]: GlassFlow
+        - link [ref=f115e4739]:
+          - generic [ref=f115e4742]:
+            - paragraph [ref=f115e4744]: read article
+            - paragraph [ref=f115e4746]: read article
+      - 'link "Engineering Streaming Databases vs Stream Processing Frameworks in Python: Which One Best Fits Your Needs? Python Streaming Database vs. Stream Processing Frameworks Written by Bobur Umurzokov read article read article" [ref=f115e4750] [cursor=pointer]':
+        - /url: ./blog/choosing-streaming-database-vs-stream-processing-framework-python
+        - generic [ref=f115e4760]:
+          - paragraph [ref=f115e4764]: Engineering
+          - paragraph [ref=f115e4766]: "Streaming Databases vs Stream Processing Frameworks in Python: Which One Best Fits Your Needs?"
+          - paragraph [ref=f115e4768]: Python Streaming Database vs. Stream Processing Frameworks
+        - generic [ref=f115e4769]:
+          - paragraph [ref=f115e4772]: Written by
+          - paragraph [ref=f115e4777]: Bobur Umurzokov
+        - link [ref=f115e4778]:
+          - generic [ref=f115e4781]:
+            - paragraph [ref=f115e4783]: read article
+            - paragraph [ref=f115e4785]: read article
+      - link "Engineering GlassFlow vs AWS Lambda Comparing GlassFlow and AWS Lambda Written by Armend Avdijaj read article read article" [ref=f115e4789] [cursor=pointer]:
+        - /url: ./blog/glassflow-vs-aws-lambda
+        - generic [ref=f115e4799]:
+          - paragraph [ref=f115e4803]: Engineering
+          - paragraph [ref=f115e4805]: GlassFlow vs AWS Lambda
+          - paragraph [ref=f115e4807]: Comparing GlassFlow and AWS Lambda
+        - generic [ref=f115e4808]:
+          - paragraph [ref=f115e4811]: Written by
+          - paragraph [ref=f115e4816]: Armend Avdijaj
+        - link [ref=f115e4817]:
+          - generic [ref=f115e4820]:
+            - paragraph [ref=f115e4822]: read article
+            - paragraph [ref=f115e4824]: read article
+      - link "Product Updates A New Design and Ready-to-Use Jupyter Examples for GlassFlow A fresh new design for the GlassFlow WebApp and Jupyter Notebook examples. Written by Ashish Bagri read article read article" [ref=f115e4828] [cursor=pointer]:
+        - /url: ./blog/new-design-and-ready-to-use-jupyter-examples
+        - generic [ref=f115e4838]:
+          - paragraph [ref=f115e4842]: Product Updates
+          - paragraph [ref=f115e4844]: A New Design and Ready-to-Use Jupyter Examples for GlassFlow
+          - paragraph [ref=f115e4846]: A fresh new design for the GlassFlow WebApp and Jupyter Notebook examples.
+        - generic [ref=f115e4847]:
+          - paragraph [ref=f115e4850]: Written by
+          - paragraph [ref=f115e4855]: Ashish Bagri
+        - link [ref=f115e4856]:
+          - generic [ref=f115e4859]:
+            - paragraph [ref=f115e4861]: read article
+            - paragraph [ref=f115e4863]: read article
+  - generic [ref=f115e4871]:
+    - generic [ref=f115e4872]:
+      - paragraph [ref=f115e4874]: Start free. Upgrade when your agents do.
+      - paragraph [ref=f115e4876]: 100k traces a month, no card required.
+    - generic [ref=f115e4877]:
+      - paragraph [ref=f115e4884] [cursor=pointer]: start from
+      - paragraph [ref=f115e4891] [cursor=pointer]: talk to our team
+  - generic [ref=f115e4896]:
+    - generic [ref=f115e4898]:
+      - paragraph [ref=f115e4902]: Ready to give your agents better data and total recall?
+      - generic [ref=f115e4903]:
+        - generic [ref=f115e4906]:
+          - generic [ref=f115e4907]:
+            - paragraph [ref=f115e4909]: Start with Tares
+            - paragraph [ref=f115e4911]: Feed your agents the right data.
+          - link [ref=f115e4913] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f115e4918]: get_started
+        - generic [ref=f115e4925]:
+          - generic [ref=f115e4926]:
+            - paragraph [ref=f115e4928]: Start with Rius
+            - paragraph [ref=f115e4930]: See and debug agents in production.
+          - link [ref=f115e4932] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f115e4937]: get_started
+    - generic [ref=f115e4943]:
+      - generic [ref=f115e4945]:
+        - paragraph [ref=f115e4952]: products
+        - generic [ref=f115e4957]:
+          - link [ref=f115e4958] [cursor=pointer]:
+            - /url: ./tares
+            - generic [ref=f115e4963]:
+              - paragraph [ref=f115e4965]: tares
+              - paragraph [ref=f115e4967]: Feed your agents the right data. Open source
+          - link [ref=f115e4968] [cursor=pointer]:
+            - /url: ./rius
+            - generic [ref=f115e4973]:
+              - paragraph [ref=f115e4975]: rius
+              - paragraph [ref=f115e4977]: See what your agents did in production.
+      - generic [ref=f115e4978]:
+        - link [ref=f115e4979] [cursor=pointer]:
+          - /url: ./contact
+          - paragraph [ref=f115e4985]: contact
+        - link [ref=f115e4986] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f115e4992]: docs
+        - link [ref=f115e4993] [cursor=pointer]:
+          - /url: ./blog
+          - paragraph [ref=f115e4999]: blog
+        - link [ref=f115e5000] [cursor=pointer]:
+          - /url: ./about
+          - paragraph [ref=f115e5006]: about
+      - generic [ref=f115e5007]:
+        - link [ref=f115e5008] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f115e5010] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f115e5012] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f115e5015]:
+      - paragraph [ref=f115e5017]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f115e5019]:
+        - link "Terms & Conditions" [ref=f115e5020] [cursor=pointer]:
+          - /url: ./terms-of-service
+      - paragraph [ref=f115e5022]:
+        - link "Privacy Policy" [ref=f115e5023] [cursor=pointer]:
+          - /url: ./privacy-policy

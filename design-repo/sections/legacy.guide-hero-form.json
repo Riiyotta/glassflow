@@ -1,0 +1,206 @@
+{
+  "id": "legacy.guide-hero-form",
+  "family": "legacy",
+  "category": "conversion",
+  "purpose": "Gated-ebook landing: pill, gradient H1, lead, checklist, local fake form (inline success), link to full guide page.",
+  "variants": {
+    "kafka": "/kafka-to-clickhouse-pipeline-guide",
+    "mistakes": "/clickhouse-mistakes-guide"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Guide.jsx",
+      "lines": "94-154",
+      "quote": "export default function Guide({ which })"
+    },
+    {
+      "path": "src/pages/Guide.jsx",
+      "lines": "51-93",
+      "quote": "function GuideForm({ fields })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "pill": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 3
+      },
+      "h1": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 14
+      },
+      "lead": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 45
+      },
+      "insideLabel": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 3
+      },
+      "checklist": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 25
+        },
+        "minItems": 1,
+        "maxItems": 5
+      },
+      "form": {
+        "type": "object",
+        "properties": {
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "enum": [
+                    "firstname",
+                    "lastname",
+                    "email"
+                  ]
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 3
+                },
+                "type": {
+                  "enum": [
+                    "text",
+                    "email"
+                  ]
+                },
+                "required": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "label",
+                "type",
+                "required"
+              ]
+            },
+            "minItems": 1,
+            "maxItems": 3
+          },
+          "submitLabel": {
+            "const": "Submit"
+          },
+          "endpointPolicy": {
+            "const": "must-not-reuse-live-endpoint"
+          },
+          "onSuccess": {
+            "const": "inline-status"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "fields",
+          "submitLabel",
+          "endpointPolicy",
+          "onSuccess"
+        ]
+      },
+      "contentPolicy": {
+        "const": "summary-only"
+      },
+      "fullTextLink": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "pattern": "^Read the full guide page on glassflow\\.ai$"
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^https://www\\.glassflow\\.ai/",
+            "x-linkField": true
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "visual": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "product.screenshot"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "pill",
+      "h1",
+      "lead",
+      "checklist",
+      "form",
+      "contentPolicy",
+      "fullTextLink",
+      "visual"
+    ]
+  },
+  "constraints": {
+    "familyOnly": "legacy",
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "visual": "below the form",
+      "gradient": "352deg"
+    },
+    "810": {
+      "visual": "background, right",
+      "gradient": "270deg"
+    },
+    "1200": {
+      "content": "540 max in 1220"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Guide.jsx",
+        "lines": "145",
+        "quote": "{/* mobile: the device visual sits below the form */}"
+      }
+    ]
+  },
+  "policies": [
+    "form-endpoint-pinned",
+    "long-form-summary-only"
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "alt.hero",
+  "family": "mars",
+  "category": "hero",
+  "purpose": "Comparison hero: kicker, H1 'Rius is the <vendor> alternative…', lead, chips, buttons, screenshot.",
+  "variants": {
+    "arize": "arize data",
+    "langfuse": "langfuse data"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Alternatives.jsx",
+      "lines": "407-413",
+      "quote": "function Hero({ d })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "kicker": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 6
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 16
+      },
+      "lead": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 40
+      },
+      "chips": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "minItems": 0,
+        "maxItems": 6
+      },
+      "primary": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 5
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "secondary": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 5
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "image": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "product.screenshot"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "lead",
+      "chips",
+      "primary",
+      "secondary",
+      "image"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "single column, 16px section padding"
+    },
+    "810": {
+      "layout": "64px section padding"
+    },
+    "1200": {
+      "layout": "max 1200 (arize) / 1234 (langfuse)"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "291",
+        "quote": "px-4 md:px-16"
+      }
+    ]
+  },
+  "notes": "Native rebuild of the live iframe template; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
+}

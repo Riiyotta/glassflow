@@ -1,0 +1,67 @@
+{
+  "$description": "Forms NEVER submit to the live endpoint. endpointPolicy is PINNED to must-not-reuse-live-endpoint for every form (enum membership is not sufficient; see verify_all.py PINNED_FORMS and the adversarial suite).",
+  "endpointPolicyEnum": [
+    "must-not-reuse-live-endpoint",
+    "local-stub",
+    "configured-endpoint"
+  ],
+  "forbiddenEndpointPatterns": [
+    "hsforms.com",
+    "hsforms.net",
+    "hubspot",
+    "139646698"
+  ],
+  "forms": {
+    "contact-form": {
+      "section": "contact.signal-form",
+      "endpointPolicy": "must-not-reuse-live-endpoint",
+      "cloneBehaviour": "preventDefault, 900ms fake delay, navigate('/contact/success'); error state only when first/last/email all empty",
+      "liveBehaviour": "POST JSON to HubSpot forms API portal 139646698 (specs/content.md §7.2)",
+      "evidence": [
+        {
+          "path": "src/pages/Contact.jsx",
+          "lines": "2",
+          "quote": "// The form never submits to HubSpot or anywhere else"
+        },
+        {
+          "path": "src/pages/Contact.jsx",
+          "lines": "54",
+          "quote": "navigate('/contact/success')"
+        }
+      ]
+    },
+    "guide-form-kafka": {
+      "section": "legacy.guide-hero-form",
+      "variant": "kafka",
+      "endpointPolicy": "must-not-reuse-live-endpoint",
+      "cloneBehaviour": "preventDefault, 800ms fake delay, inline 'Thanks for submitting the form.' (NOT /contact/success)",
+      "liveBehaviour": "HubSpot embed (js-eu1.hsforms.net shell.js, portal 139646698)",
+      "evidence": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "2",
+          "quote": "// The HubSpot embed is rebuilt as a local form"
+        },
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "66",
+          "quote": "setTimeout(() => setState('done'), 800)"
+        }
+      ]
+    },
+    "guide-form-mistakes": {
+      "section": "legacy.guide-hero-form",
+      "variant": "mistakes",
+      "endpointPolicy": "must-not-reuse-live-endpoint",
+      "cloneBehaviour": "same as guide-form-kafka",
+      "liveBehaviour": "HubSpot embed, portal 139646698",
+      "evidence": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "51",
+          "quote": "function GuideForm({ fields })"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "button-product-dark",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Product-page dark button: #1E0F00 frame, panel inner, 24px side padding.",
+  "props": {
+    "label": "text",
+    "href": "link"
+  },
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ProductSections.jsx",
+      "lines": "29-31",
+      "quote": "export function ProductDarkButton"
+    }
+  ]
+}

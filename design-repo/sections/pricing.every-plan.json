@@ -1,0 +1,69 @@
+{
+  "id": "pricing.every-plan",
+  "family": "mars",
+  "category": "pricing",
+  "purpose": "'In every plan' band with two columns of included features.",
+  "variants": {
+    "default": "/rius/pricing"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/RiusPricing.jsx",
+      "lines": "112-132",
+      "quote": "function EveryPlan()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 3
+      },
+      "columns": {
+        "type": "array",
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 8
+          },
+          "minItems": 1,
+          "maxItems": 10
+        },
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "columns"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "columns": 1
+    },
+    "810": {
+      "columns": 1
+    },
+    "1200": {
+      "columns": 2
+    },
+    "evidence": [
+      {
+        "path": "src/pages/RiusPricing.jsx",
+        "lines": "118",
+        "quote": "grid grid-cols-1 bg-card-dark lg:grid-cols-2"
+      }
+    ]
+  }
+}

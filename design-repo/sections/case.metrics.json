@@ -1,0 +1,73 @@
+{
+  "id": "case.metrics",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Three metric cells (value + label).",
+  "variants": {
+    "default": "/case-studies/:slug"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/CaseStudies.jsx",
+      "lines": "161-166",
+      "quote": "{s.metrics.map(([m, label]) => ("
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "metrics": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 3
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 12
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "value",
+            "label"
+          ]
+        },
+        "minItems": 3,
+        "maxItems": 3
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "metrics"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "columns": 1
+    },
+    "810": {
+      "columns": 1
+    },
+    "1200": {
+      "columns": 3
+    },
+    "evidence": [
+      {
+        "path": "src/pages/CaseStudies.jsx",
+        "lines": "160",
+        "quote": "grid grid-cols-1 gap-1 px-1 py-8 lg:grid-cols-3 lg:gap-8"
+      }
+    ]
+  }
+}

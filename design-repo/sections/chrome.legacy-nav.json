@@ -1,0 +1,68 @@
+{
+  "id": "chrome.legacy-nav",
+  "family": "legacy",
+  "category": "chrome",
+  "purpose": "Legacy black fixed 62px nav (blur), Product/Resources dropdowns, GitHub star; hamburger card below 810.",
+  "variants": {
+    "default": "legacy nav"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/LegacyLayout.jsx",
+      "lines": "78-138",
+      "quote": "function LegacyNav({ tone })"
+    },
+    {
+      "path": "src/components/LegacyLayout.jsx",
+      "lines": "153",
+      "quote": "export default function LegacyLayout"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "linkTone": {
+        "enum": [
+          "#999999",
+          "#A8A3A3"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "linkTone"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true,
+    "familyOnly": "legacy",
+    "fixed": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "legacy-dropdown",
+      "legacy-menu-fade",
+      "legacy-link-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "layout": "logo + hamburger; menu opens as a 342x401 rounded card"
+    },
+    "810": {
+      "layout": "inline links, dropdowns, GitHub star"
+    },
+    "1200": {
+      "layout": "inline, max 1220 centred"
+    },
+    "evidence": [
+      {
+        "path": "src/components/LegacyLayout.jsx",
+        "lines": "122",
+        "quote": "className=\"relative z-10 ml-auto flex h-3 w-4 flex-col justify-between md:hidden\""
+      }
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+- generic [ref=f187e3]:
+  - banner [ref=f187e4]:
+    - navigation [ref=f187e5]:
+      - link "GlassFlow home" [ref=f187e7] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f187e8]
+      - link "get_started" [ref=f187e10] [cursor=pointer]:
+        - /url: /#quickstart
+    - generic [ref=f187e12]:
+      - link "tares" [ref=f187e13] [cursor=pointer]:
+        - /url: /tares
+      - link "rius" [ref=f187e14] [cursor=pointer]:
+        - /url: /rius
+      - link "docs" [ref=f187e15] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+      - link "blog" [ref=f187e16] [cursor=pointer]:
+        - /url: /blog
+      - link "contact" [ref=f187e17] [cursor=pointer]:
+        - /url: /contact
+  - main [ref=f187e18]:
+    - generic [ref=f187e22]:
+      - generic [aria-hidden] [ref=f187e28]: products
+      - generic [ref=f187e30]:
+        - generic [ref=f187e31]:
+          - heading "Easy to start. Scales with usage." [level=1] [ref=f187e32]
+          - paragraph [ref=f187e33]: Four plans, priced per trace, not per seat. Start free, pay for what you actually send.
+        - generic [ref=f187e34]:
+          - link "start free" [ref=f187e35] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=framer.com&utm_medium=referral&utm_campaign=hp_start_cta
+          - paragraph [ref=f187e39]: No credit card required on Core
+    - generic [ref=f187e44]:
+      - generic [ref=f187e46]:
+        - generic [ref=f187e47]: Core
+        - generic [ref=f187e48]:
+          - generic [ref=f187e49]: $19
+          - generic [ref=f187e50]: /mo
+      - generic [ref=f187e51]:
+        - generic [ref=f187e52]: Growth
+        - generic [ref=f187e53]:
+          - generic [ref=f187e54]: $79
+          - generic [ref=f187e55]: /mo
+      - generic [ref=f187e56]:
+        - generic [ref=f187e57]: Pro
+        - generic [ref=f187e58]:
+          - generic [ref=f187e59]: $199
+          - generic [ref=f187e60]: /mo
+      - generic [ref=f187e61]:
+        - generic [ref=f187e62]: Enterprise
+        - generic [ref=f187e63]:
+          - generic [ref=f187e64]: $1999
+          - generic [ref=f187e65]: /mo
+      - link "get started" [ref=f187e68] [cursor=pointer]:
+        - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+        - generic [ref=f187e71]:
+          - generic [ref=f187e72]: get started
+          - generic [aria-hidden] [ref=f187e73]: get started
+      - link "get started" [ref=f187e75] [cursor=pointer]:
+        - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=growth
+        - generic [ref=f187e78]:
+          - generic [ref=f187e79]: get started
+          - generic [aria-hidden] [ref=f187e80]: get started
+      - link "get started" [ref=f187e82] [cursor=pointer]:
+        - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=pro
+        - generic [ref=f187e85]:
+          - generic [ref=f187e86]: get started
+          - generic [aria-hidden] [ref=f187e87]: get started
+      - link "contact us" [ref=f187e89] [cursor=pointer]:
+        - /url: https://cal.com/armend-glassflow/30min?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=enterprise
+        - generic [ref=f187e92]:
+          - generic [ref=f187e93]: contact us
+          - generic [aria-hidden] [ref=f187e94]: contact us
+      - generic [ref=f187e95]: Spans incl.
+      - generic [ref=f187e96]: 500k
+      - generic [ref=f187e97]: 2.5M
+      - generic [ref=f187e98]: 10M
+      - generic [ref=f187e99]: 25M
+      - generic [ref=f187e100]: Overage per 1M spans
+      - generic [ref=f187e101]: $14
+      - generic [ref=f187e102]: $12
+      - generic [ref=f187e103]: $10
+      - generic [ref=f187e104]: $4
+      - generic [ref=f187e105]: Query retention
+      - generic [ref=f187e106]: 60d
+      - generic [ref=f187e107]: 180d
+      - generic [ref=f187e108]: 3y
+      - generic [ref=f187e109]: Custom
+      - generic [ref=f187e110]: Audit logs
+      - img "not included" [ref=f187e112]
+      - img "not included" [ref=f187e114]
+      - generic [ref=f187e115]: 1y
+      - generic [ref=f187e116]: Custom
+      - generic [ref=f187e117]: Ingestion throughput
+      - generic [ref=f187e118]: 5k/min
+      - generic [ref=f187e119]: 10k/min
+      - generic [ref=f187e120]: 20k/min
+      - generic [ref=f187e121]: Custom
+      - generic [ref=f187e122]: Heartbeat
+      - img "included" [ref=f187e124]
+      - img "included" [ref=f187e126]
+      - img "included" [ref=f187e128]
+      - img "included" [ref=f187e130]
+      - generic [ref=f187e131]: RCAs / month
+      - img "included" [ref=f187e133]
+      - img "included" [ref=f187e135]
+      - img "included" [ref=f187e137]
+      - img "included" [ref=f187e139]
+      - generic [ref=f187e140]: Query MCP
+      - img "included" [ref=f187e142]
+      - img "included" [ref=f187e144]
+      - img "included" [ref=f187e146]
+      - img "included" [ref=f187e148]
+      - generic [ref=f187e149]: Alerts
+      - generic [ref=f187e150]: "10"
+      - generic [ref=f187e151]: "25"
+      - generic [ref=f187e152]: "100"
+      - generic [ref=f187e153]: "500"
+      - generic [ref=f187e154]: Workspaces
+      - generic [ref=f187e155]: "2"
+      - generic [ref=f187e156]: "5"
+      - generic [ref=f187e157]: Unlimited
+      - generic [ref=f187e158]: Unlimited
+      - generic [ref=f187e159]: Users
+      - generic [ref=f187e160]: "2"
+      - generic [ref=f187e161]: Unlimited
+      - generic [ref=f187e162]: Unlimited
+      - generic [ref=f187e163]: Unlimited
+      - generic [ref=f187e164]: Data region
+      - generic [ref=f187e165]: EU/US
+      - generic [ref=f187e166]: EU/US
+      - generic [ref=f187e167]: EU/US
+      - generic [ref=f187e168]: Select your own
+      - generic [ref=f187e169]: SUPPORT
+      - generic [ref=f187e170]: SLA
+      - generic [ref=f187e171]: Add-on
+      - generic [ref=f187e172]: Add-on
+      - generic [ref=f187e173]: Add-on
+      - img "included" [ref=f187e175]
+      - generic [ref=f187e176]: Onboarding
+      - img "not included" [ref=f187e178]
+      - img "not included" [ref=f187e180]
+      - img "not included" [ref=f187e182]
+      - img "included" [ref=f187e184]
+      - generic [ref=f187e185]: Support response
+      - generic [ref=f187e186]: 48h/Chat
+      - generic [ref=f187e187]: 48h/Chat
+      - generic [ref=f187e188]: 24h/Chat
+      - generic [ref=f187e189]: Custom
+      - generic [ref=f187e190]: Dedicated Slack
+      - generic [ref=f187e191]: Add-on
+      - generic [ref=f187e192]: Add-on
+      - img "included" [ref=f187e194]
+      - img "included" [ref=f187e196]
+      - generic [ref=f187e197]: BILLING
+      - generic [ref=f187e198]: Credit Card
+      - img "included" [ref=f187e200]
+      - img "included" [ref=f187e202]
+      - img "included" [ref=f187e204]
+      - img "included" [ref=f187e206]
+      - generic [ref=f187e207]: Pay via invoice (30d net)
+      - generic [ref=f187e208]: Add-on
+      - generic [ref=f187e209]: Add-on
+      - generic [ref=f187e210]: Add-on
+      - img "included" [ref=f187e212]
+      - generic [ref=f187e213]: Contract duration
+      - generic [ref=f187e214]: Monthly
+      - generic [ref=f187e215]: Monthly
+      - generic [ref=f187e216]: Monthly
+      - generic [ref=f187e217]: Yearly
+    - generic [ref=f187e221]:
+      - generic [ref=f187e222]: In every plan
+      - generic [ref=f187e223]:
+        - list [ref=f187e224]:
+          - listitem [ref=f187e225]:
+            - generic [ref=f187e226]: Real-time traces and spans
+          - listitem [ref=f187e227]:
+            - generic [ref=f187e228]: Dashboards
+          - listitem [ref=f187e229]:
+            - generic [ref=f187e230]: Agent workflow maps
+          - listitem [ref=f187e231]:
+            - generic [ref=f187e232]: OpenTelemetry ingest in two lines
+        - list [ref=f187e233]:
+          - listitem [ref=f187e234]:
+            - generic [ref=f187e235]: Alerts
+          - listitem [ref=f187e236]:
+            - generic [ref=f187e237]: Cost and token tracking
+          - listitem [ref=f187e238]:
+            - generic [ref=f187e239]: One continuous session across restarts and sub-agents
+    - generic [ref=f187e249]:
+      - heading "Add-ons" [level=2] [ref=f187e251]
+      - generic [ref=f187e252]:
+        - generic [ref=f187e253]:
+          - generic [ref=f187e254]:
+            - generic [ref=f187e255]: Dedicated region
+            - generic [ref=f187e256]:
+              - generic [ref=f187e257]: $199
+              - generic [ref=f187e258]: /mo
+            - paragraph [ref=f187e259]: Your data in a specific regional cluster — Frankfurt, Virginia, London, Singapore
+          - link "Add to your plan" [ref=f187e260] [cursor=pointer]:
+            - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f187e262]:
+          - generic [ref=f187e263]:
+            - generic [ref=f187e264]: Dedicated slack
+            - generic [ref=f187e265]:
+              - generic [ref=f187e266]: $49
+              - generic [ref=f187e267]: /mo
+            - paragraph [ref=f187e268]: Direct channel with GlassFlow team
+          - link "Add to your plan" [ref=f187e269] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=framer.com&utm_medium=referral&utm_campaign=hp_start_cta
+        - generic [ref=f187e271]:
+          - generic [ref=f187e272]:
+            - generic [ref=f187e273]: Pay by invoice
+            - generic [ref=f187e274]:
+              - generic [ref=f187e275]: $49
+              - generic [ref=f187e276]: /mo
+            - paragraph [ref=f187e277]: Net 30 invoicing instead of credit card
+          - link "Add to your plan" [ref=f187e278] [cursor=pointer]:
+            - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f187e280]:
+          - generic [ref=f187e281]:
+            - generic [ref=f187e282]: Extened retention
+            - generic [ref=f187e283]:
+              - generic [ref=f187e284]: $49
+              - generic [ref=f187e285]: /mo
+            - paragraph [ref=f187e286]: Add 1 year beyond your tier limit
+          - link "Add to your plan" [ref=f187e287] [cursor=pointer]:
+            - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f187e289]:
+          - generic [ref=f187e290]:
+            - generic [ref=f187e291]: Audit logs
+            - generic [ref=f187e292]:
+              - generic [ref=f187e293]: $49
+              - generic [ref=f187e294]: /mo
+            - paragraph [ref=f187e295]: Add 1 year beyond your tier limit
+          - link "Add to your plan" [ref=f187e296] [cursor=pointer]:
+            - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f187e298]:
+          - generic [ref=f187e299]:
+            - generic [ref=f187e300]: SLA guarantee
+            - generic [ref=f187e301]:
+              - generic [ref=f187e302]: $299
+              - generic [ref=f187e303]: /mo
+            - paragraph [ref=f187e304]: 99.9% uptime SLA with response commitments
+          - link "Add to your plan" [ref=f187e305] [cursor=pointer]:
+            - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f187e307]:
+          - generic [ref=f187e308]:
+            - generic [ref=f187e309]: Higher ingestion throughput
+            - generic [ref=f187e310]:
+              - generic [ref=f187e311]: $49
+              - generic [ref=f187e312]: /mo
+            - paragraph [ref=f187e313]: Increase to 20k/min
+          - link "Add to your plan" [ref=f187e314] [cursor=pointer]:
+            - /url: https://docs.glassflow.ai/rius/quickstart
+    - generic [ref=f187e321]:
+      - link "Think building your own observability is cheaper?" [ref=f187e322] [cursor=pointer]:
+        - /url: /rius/calculator-building-your-own-agent-observability
+      - link "Most teams underestimate the real cost. Plug in your trace volume and team, and find out in 30 seconds." [ref=f187e323] [cursor=pointer]:
+        - /url: /rius/calculator-building-your-own-agent-observability
+      - link "Calculate my cost" [ref=f187e324] [cursor=pointer]:
+        - /url: /rius/calculator-building-your-own-agent-observability
+    - generic [ref=f187e331]:
+      - heading "Frequently Asked Questions" [level=2] [ref=f187e333]
+      - generic [ref=f187e338]:
+        - button "What counts as a trace?" [expanded] [ref=f187e339] [cursor=pointer]
+        - paragraph [ref=f187e342]: One agent run, regardless of how many steps, tool calls, or sub-agents it contains.
+      - button "What happens if I exceed my included traces?" [ref=f187e344] [cursor=pointer]
+      - button "Do you charge per seat?" [ref=f187e348] [cursor=pointer]
+      - button "What's the difference between \"ingest only\" and \"both ways\"?" [ref=f187e352] [cursor=pointer]
+      - button "What happens to traces after my retention period?" [ref=f187e356] [cursor=pointer]
+      - button "Can I change plans anytime?" [ref=f187e360] [cursor=pointer]
+    - generic [ref=f187e368]:
+      - generic [ref=f187e369]:
+        - heading "Two products. Two starting points." [level=2] [ref=f187e370]
+        - paragraph [ref=f187e371]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and retention, from first span to production.
+      - generic [ref=f187e372]:
+        - link "start today" [ref=f187e373] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+        - link "read the Rius guides" [ref=f187e377] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/guides
+  - contentinfo [ref=f187e381]:
+    - generic [ref=f187e385]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f187e387]
+      - generic [ref=f187e389]:
+        - generic [ref=f187e390]:
+          - heading "Start with Tares" [level=3] [ref=f187e391]
+          - paragraph [ref=f187e392]: Feed your agents the right data.
+        - link "get_started" [ref=f187e393] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f187e398]:
+        - generic [ref=f187e399]:
+          - heading "Start with Rius" [level=3] [ref=f187e400]
+          - paragraph [ref=f187e401]: See and debug agents in production.
+        - link "get_started" [ref=f187e402] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f187e407]:
+      - generic [ref=f187e408]:
+        - generic [ref=f187e409]: products
+        - generic [ref=f187e415]:
+          - link "tares Feed your agents the right data. Open source" [ref=f187e416] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f187e417]:
+              - generic [ref=f187e418]: tares
+              - generic [ref=f187e419]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f187e420] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f187e421]:
+              - generic [ref=f187e422]: rius
+              - generic [ref=f187e423]: See what your agents did in production.
+      - generic [ref=f187e424]:
+        - link "contact" [ref=f187e425] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f187e431] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f187e437] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f187e443] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f187e449]:
+        - link "X" [ref=f187e450] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f187e451] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f187e452] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f187e454]:
+      - generic [ref=f187e455]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f187e456] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f187e457] [cursor=pointer]:
+        - /url: /privacy-policy

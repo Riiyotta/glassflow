@@ -1,0 +1,705 @@
+- generic [ref=f134e3]:
+  - banner [ref=f134e4]:
+    - navigation [ref=f134e5]:
+      - generic [ref=f134e6]:
+        - link "GlassFlow home" [ref=f134e7] [cursor=pointer]:
+          - /url: /
+          - img "GlassFlow" [ref=f134e8]
+        - link "products" [ref=f134e10] [cursor=pointer]:
+          - /url: "#"
+        - link "docs" [ref=f134e13] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f134e14] [cursor=pointer]:
+          - /url: /blog
+        - link "contact" [ref=f134e15] [cursor=pointer]:
+          - /url: /contact
+      - link "get_started" [ref=f134e16] [cursor=pointer]:
+        - /url: /#quickstart
+  - main [ref=f134e18]:
+    - generic [ref=f134e32]:
+      - generic [ref=f134e34]:
+        - heading "Developing data infra products for AI agents" [level=1] [ref=f134e35]:
+          - generic [ref=f134e36]: Developing
+          - generic [ref=f134e37]: data
+          - generic [ref=f134e38]: infra
+          - generic [ref=f134e39]: products
+          - generic [ref=f134e40]: for
+          - generic [ref=f134e41]: AI
+          - generic [ref=f134e42]: agents
+        - generic [ref=f134e43]:
+          - paragraph [ref=f134e44]:
+            - generic [ref=f134e45]:
+              - generic [ref=f134e46]: G
+              - generic [ref=f134e47]: l
+              - generic [ref=f134e48]: a
+              - generic [ref=f134e49]: s
+              - generic [ref=f134e50]: s
+              - generic [ref=f134e51]: F
+              - generic [ref=f134e52]: l
+              - generic [ref=f134e53]: o
+              - generic [ref=f134e54]: w
+            - generic [ref=f134e55]:
+              - generic [ref=f134e56]: b
+              - generic [ref=f134e57]: u
+              - generic [ref=f134e58]: i
+              - generic [ref=f134e59]: l
+              - generic [ref=f134e60]: d
+              - generic [ref=f134e61]: s
+            - generic [ref=f134e62]:
+              - generic [ref=f134e63]: t
+              - generic [ref=f134e64]: h
+              - generic [ref=f134e65]: e
+            - generic [ref=f134e66]:
+              - generic [ref=f134e67]: i
+              - generic [ref=f134e68]: "n"
+              - generic [ref=f134e69]: f
+              - generic [ref=f134e70]: r
+              - generic [ref=f134e71]: a
+              - generic [ref=f134e72]: s
+              - generic [ref=f134e73]: t
+              - generic [ref=f134e74]: r
+              - generic [ref=f134e75]: u
+              - generic [ref=f134e76]: c
+              - generic [ref=f134e77]: t
+              - generic [ref=f134e78]: u
+              - generic [ref=f134e79]: r
+              - generic [ref=f134e80]: e
+            - generic [ref=f134e81]:
+              - generic [ref=f134e82]: A
+              - generic [ref=f134e83]: I
+            - generic [ref=f134e84]:
+              - generic [ref=f134e85]: a
+              - generic [ref=f134e86]: g
+              - generic [ref=f134e87]: e
+              - generic [ref=f134e88]: "n"
+              - generic [ref=f134e89]: t
+              - generic [ref=f134e90]: s
+            - generic [ref=f134e91]:
+              - generic [ref=f134e92]: "n"
+              - generic [ref=f134e93]: e
+              - generic [ref=f134e94]: e
+              - generic [ref=f134e95]: d
+            - generic [ref=f134e96]:
+              - generic [ref=f134e97]: i
+              - generic [ref=f134e98]: "n"
+            - generic [ref=f134e99]:
+              - generic [ref=f134e100]: p
+              - generic [ref=f134e101]: r
+              - generic [ref=f134e102]: o
+              - generic [ref=f134e103]: d
+              - generic [ref=f134e104]: u
+              - generic [ref=f134e105]: c
+              - generic [ref=f134e106]: t
+              - generic [ref=f134e107]: i
+              - generic [ref=f134e108]: o
+              - generic [ref=f134e109]: "n"
+              - generic [ref=f134e110]: .
+            - generic [ref=f134e111]:
+              - generic [ref=f134e112]: A
+              - generic [ref=f134e113]: g
+              - generic [ref=f134e114]: e
+              - generic [ref=f134e115]: "n"
+              - generic [ref=f134e116]: t
+              - generic [ref=f134e117]: s
+            - generic [ref=f134e118]:
+              - generic [ref=f134e119]: a
+              - generic [ref=f134e120]: r
+              - generic [ref=f134e121]: e
+            - generic [ref=f134e122]:
+              - generic [ref=f134e123]: o
+              - generic [ref=f134e124]: "n"
+              - generic [ref=f134e125]: l
+              - generic [ref=f134e126]: "y"
+            - generic [ref=f134e127]:
+              - generic [ref=f134e128]: a
+              - generic [ref=f134e129]: s
+            - generic [ref=f134e130]:
+              - generic [ref=f134e131]: g
+              - generic [ref=f134e132]: o
+              - generic [ref=f134e133]: o
+              - generic [ref=f134e134]: d
+            - generic [ref=f134e135]:
+              - generic [ref=f134e136]: a
+              - generic [ref=f134e137]: s
+            - generic [ref=f134e138]:
+              - generic [ref=f134e139]: t
+              - generic [ref=f134e140]: h
+              - generic [ref=f134e141]: e
+              - generic [ref=f134e142]: i
+              - generic [ref=f134e143]: r
+            - generic [ref=f134e144]:
+              - generic [ref=f134e145]: d
+              - generic [ref=f134e146]: a
+              - generic [ref=f134e147]: t
+              - generic [ref=f134e148]: a
+              - generic [ref=f134e149]: ","
+            - generic [ref=f134e150]:
+              - generic [ref=f134e151]: a
+              - generic [ref=f134e152]: "n"
+              - generic [ref=f134e153]: d
+            - generic [ref=f134e154]:
+              - generic [ref=f134e155]: h
+              - generic [ref=f134e156]: a
+              - generic [ref=f134e157]: r
+              - generic [ref=f134e158]: d
+            - generic [ref=f134e159]:
+              - generic [ref=f134e160]: t
+              - generic [ref=f134e161]: o
+            - generic [ref=f134e162]:
+              - generic [ref=f134e163]: d
+              - generic [ref=f134e164]: e
+              - generic [ref=f134e165]: b
+              - generic [ref=f134e166]: u
+              - generic [ref=f134e167]: g
+            - generic [ref=f134e168]:
+              - generic [ref=f134e169]: o
+              - generic [ref=f134e170]: "n"
+              - generic [ref=f134e171]: c
+              - generic [ref=f134e172]: e
+            - generic [ref=f134e173]:
+              - generic [ref=f134e174]: l
+              - generic [ref=f134e175]: i
+              - generic [ref=f134e176]: v
+              - generic [ref=f134e177]: e
+              - generic [ref=f134e178]: .
+          - paragraph [ref=f134e179]:
+            - generic [ref=f134e180]:
+              - generic [ref=f134e181]: T
+              - generic [ref=f134e182]: w
+              - generic [ref=f134e183]: o
+            - generic [ref=f134e184]:
+              - generic [ref=f134e185]: p
+              - generic [ref=f134e186]: r
+              - generic [ref=f134e187]: o
+              - generic [ref=f134e188]: d
+              - generic [ref=f134e189]: u
+              - generic [ref=f134e190]: c
+              - generic [ref=f134e191]: t
+              - generic [ref=f134e192]: s
+              - generic [ref=f134e193]: ":"
+            - link "T a r e s" [ref=f134e194] [cursor=pointer]:
+              - /url: /tares
+              - generic [ref=f134e195]:
+                - generic [ref=f134e196]: T
+                - generic [ref=f134e197]: a
+                - generic [ref=f134e198]: r
+                - generic [ref=f134e199]: e
+                - generic [ref=f134e200]: s
+            - generic [ref=f134e201]:
+              - generic [ref=f134e202]: f
+              - generic [ref=f134e203]: e
+              - generic [ref=f134e204]: e
+              - generic [ref=f134e205]: d
+              - generic [ref=f134e206]: s
+            - generic [ref=f134e207]:
+              - generic [ref=f134e208]: a
+              - generic [ref=f134e209]: g
+              - generic [ref=f134e210]: e
+              - generic [ref=f134e211]: "n"
+              - generic [ref=f134e212]: t
+              - generic [ref=f134e213]: s
+            - generic [ref=f134e214]:
+              - generic [ref=f134e215]: c
+              - generic [ref=f134e216]: o
+              - generic [ref=f134e217]: r
+              - generic [ref=f134e218]: r
+              - generic [ref=f134e219]: e
+              - generic [ref=f134e220]: l
+              - generic [ref=f134e221]: a
+              - generic [ref=f134e222]: t
+              - generic [ref=f134e223]: e
+              - generic [ref=f134e224]: d
+            - generic [ref=f134e225]:
+              - generic [ref=f134e226]: r
+              - generic [ref=f134e227]: e
+              - generic [ref=f134e228]: a
+              - generic [ref=f134e229]: l
+              - generic [ref=f134e230]: "-"
+            - generic [ref=f134e231]:
+              - generic [ref=f134e232]: t
+              - generic [ref=f134e233]: i
+              - generic [ref=f134e234]: m
+              - generic [ref=f134e235]: e
+            - generic [ref=f134e236]:
+              - generic [ref=f134e237]: d
+              - generic [ref=f134e238]: a
+              - generic [ref=f134e239]: t
+              - generic [ref=f134e240]: a
+              - generic [ref=f134e241]: ;
+            - link "R i u s" [ref=f134e242] [cursor=pointer]:
+              - /url: /rius
+              - generic [ref=f134e243]:
+                - generic [ref=f134e244]: R
+                - generic [ref=f134e245]: i
+                - generic [ref=f134e246]: u
+                - generic [ref=f134e247]: s
+            - generic [ref=f134e248]:
+              - generic [ref=f134e249]: i
+              - generic [ref=f134e250]: s
+            - generic [ref=f134e251]:
+              - generic [ref=f134e252]: t
+              - generic [ref=f134e253]: h
+              - generic [ref=f134e254]: e
+            - generic [ref=f134e255]:
+              - generic [ref=f134e256]: o
+              - generic [ref=f134e257]: b
+              - generic [ref=f134e258]: s
+              - generic [ref=f134e259]: e
+              - generic [ref=f134e260]: r
+              - generic [ref=f134e261]: v
+              - generic [ref=f134e262]: a
+              - generic [ref=f134e263]: b
+              - generic [ref=f134e264]: i
+              - generic [ref=f134e265]: l
+              - generic [ref=f134e266]: i
+              - generic [ref=f134e267]: t
+              - generic [ref=f134e268]: "y"
+            - generic [ref=f134e269]:
+              - generic [ref=f134e270]: l
+              - generic [ref=f134e271]: a
+              - generic [ref=f134e272]: "y"
+              - generic [ref=f134e273]: e
+              - generic [ref=f134e274]: r
+            - generic [ref=f134e275]:
+              - generic [ref=f134e276]: s
+              - generic [ref=f134e277]: h
+              - generic [ref=f134e278]: o
+              - generic [ref=f134e279]: w
+              - generic [ref=f134e280]: i
+              - generic [ref=f134e281]: "n"
+              - generic [ref=f134e282]: g
+            - generic [ref=f134e283]:
+              - generic [ref=f134e284]: w
+              - generic [ref=f134e285]: h
+              - generic [ref=f134e286]: a
+              - generic [ref=f134e287]: t
+            - generic [ref=f134e288]:
+              - generic [ref=f134e289]: a
+              - generic [ref=f134e290]: g
+              - generic [ref=f134e291]: e
+              - generic [ref=f134e292]: "n"
+              - generic [ref=f134e293]: t
+              - generic [ref=f134e294]: s
+            - generic [ref=f134e295]:
+              - generic [ref=f134e296]: d
+              - generic [ref=f134e297]: o
+            - generic [ref=f134e298]:
+              - generic [ref=f134e299]: a
+              - generic [ref=f134e300]: "n"
+              - generic [ref=f134e301]: d
+            - generic [ref=f134e302]:
+              - generic [ref=f134e303]: w
+              - generic [ref=f134e304]: h
+              - generic [ref=f134e305]: "y"
+            - generic [ref=f134e306]:
+              - generic [ref=f134e307]: t
+              - generic [ref=f134e308]: h
+              - generic [ref=f134e309]: e
+              - generic [ref=f134e310]: "y"
+            - generic [ref=f134e311]:
+              - generic [ref=f134e312]: f
+              - generic [ref=f134e313]: a
+              - generic [ref=f134e314]: i
+              - generic [ref=f134e315]: l
+              - generic [ref=f134e316]: .
+          - paragraph [ref=f134e317]:
+            - generic [ref=f134e318]:
+              - generic [ref=f134e319]: T
+              - generic [ref=f134e320]: h
+              - generic [ref=f134e321]: e
+            - generic [ref=f134e322]:
+              - generic [ref=f134e323]: t
+              - generic [ref=f134e324]: e
+              - generic [ref=f134e325]: a
+              - generic [ref=f134e326]: m
+            - generic [ref=f134e327]:
+              - generic [ref=f134e328]: h
+              - generic [ref=f134e329]: a
+              - generic [ref=f134e330]: s
+            - generic [ref=f134e331]:
+              - generic [ref=f134e332]: b
+              - generic [ref=f134e333]: u
+              - generic [ref=f134e334]: i
+              - generic [ref=f134e335]: l
+              - generic [ref=f134e336]: t
+            - generic [ref=f134e337]:
+              - generic [ref=f134e338]: s
+              - generic [ref=f134e339]: "y"
+              - generic [ref=f134e340]: s
+              - generic [ref=f134e341]: t
+              - generic [ref=f134e342]: e
+              - generic [ref=f134e343]: m
+              - generic [ref=f134e344]: s
+            - generic [ref=f134e345]:
+              - generic [ref=f134e346]: a
+              - generic [ref=f134e347]: t
+            - generic [ref=f134e348]:
+              - generic [ref=f134e349]: s
+              - generic [ref=f134e350]: c
+              - generic [ref=f134e351]: a
+              - generic [ref=f134e352]: l
+              - generic [ref=f134e353]: e
+            - generic [ref=f134e354]:
+              - generic [ref=f134e355]: a
+              - generic [ref=f134e356]: t
+            - generic [ref=f134e357]:
+              - generic [ref=f134e358]: G
+              - generic [ref=f134e359]: o
+              - generic [ref=f134e360]: o
+              - generic [ref=f134e361]: g
+              - generic [ref=f134e362]: l
+              - generic [ref=f134e363]: e
+              - generic [ref=f134e364]: ","
+            - generic [ref=f134e365]:
+              - generic [ref=f134e366]: U
+              - generic [ref=f134e367]: b
+              - generic [ref=f134e368]: e
+              - generic [ref=f134e369]: r
+              - generic [ref=f134e370]: ","
+            - generic [ref=f134e371]:
+              - generic [ref=f134e372]: S
+              - generic [ref=f134e373]: u
+              - generic [ref=f134e374]: m
+              - generic [ref=f134e375]: U
+              - generic [ref=f134e376]: p
+              - generic [ref=f134e377]: ","
+            - generic [ref=f134e378]:
+              - generic [ref=f134e379]: A
+              - generic [ref=f134e380]: v
+              - generic [ref=f134e381]: i
+              - generic [ref=f134e382]: r
+              - generic [ref=f134e383]: a
+            - generic [ref=f134e384]:
+              - generic [ref=f134e385]: a
+              - generic [ref=f134e386]: "n"
+              - generic [ref=f134e387]: d
+            - generic [ref=f134e388]:
+              - generic [ref=f134e389]: M
+              - generic [ref=f134e390]: i
+              - generic [ref=f134e391]: s
+              - generic [ref=f134e392]: t
+              - generic [ref=f134e393]: e
+              - generic [ref=f134e394]: r
+            - generic [ref=f134e395]:
+              - generic [ref=f134e396]: S
+              - generic [ref=f134e397]: p
+              - generic [ref=f134e398]: e
+              - generic [ref=f134e399]: x
+              - generic [ref=f134e400]: .
+          - paragraph [ref=f134e401]:
+            - link "Read the full story on glassflow.ai" [ref=f134e402] [cursor=pointer]:
+              - /url: https://www.glassflow.ai/about
+      - img "The GlassFlow team" [ref=f134e404]
+    - generic [ref=f134e418]:
+      - generic [ref=f134e420]:
+        - heading "Simplicity" [level=3] [ref=f134e421]
+        - paragraph [ref=f134e422]: We believe in making the complex simple. GlassFlow allows engineers to focus on innovation without being bogged down by unnecessary setup or management of data pipelines.
+      - generic [ref=f134e424]:
+        - heading "Empowerment" [level=3] [ref=f134e425]
+        - paragraph [ref=f134e426]: GlassFlow is built to empower data engineers and teams to maximize productivity and creativity. We remove technical barriers so that you can focus on developing impactful solutions.
+      - generic [ref=f134e428]:
+        - heading "Curiosity" [level=3] [ref=f134e429]
+        - paragraph [ref=f134e430]: In an ever-changing environment, a curious mindset drives us to ask the right questions, explore possibilities, and uncover creative solutions. We are committed to stay curious
+    - generic [ref=f134e433]:
+      - heading "Meet our team" [level=2] [ref=f134e436]
+      - generic [ref=f134e438]:
+        - generic [ref=f134e439]:
+          - link [ref=f134e445] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/armend-avdijaj/
+            - img "Armend Avdijaj" [ref=f134e446]
+          - generic [ref=f134e447]:
+            - generic [ref=f134e448]:
+              - generic [ref=f134e449]: Armend Avdijaj
+              - generic [ref=f134e450]: Founder & CEO
+            - link "Armend Avdijaj on LinkedIn" [ref=f134e451] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/armend-avdijaj/
+        - generic [ref=f134e452]:
+          - link [ref=f134e458] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/vladimir-cutkovic/
+            - img "Vladimir Cutkovic" [ref=f134e459]
+          - generic [ref=f134e460]:
+            - generic [ref=f134e461]:
+              - generic [ref=f134e462]: Vladimir Cutkovic
+              - generic [ref=f134e463]: Senior Frontend Engineer
+            - link "Vladimir Cutkovic on LinkedIn" [ref=f134e464] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/vladimir-cutkovic/
+        - generic [ref=f134e465]:
+          - link [ref=f134e471] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/glassflow-dev
+            - img "Kiran Nambiar" [ref=f134e472]
+          - generic [ref=f134e473]:
+            - generic [ref=f134e474]:
+              - generic [ref=f134e475]: Kiran Nambiar
+              - generic [ref=f134e476]: Senior Backend Engineer
+            - link "Kiran Nambiar on LinkedIn" [ref=f134e477] [cursor=pointer]:
+              - /url: https://docs.glassflow.ai/rius/quickstart
+        - generic [ref=f134e478]:
+          - link [ref=f134e484] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/petrnuzhnov/
+            - img "Petr Nuzhnov" [ref=f134e485]
+          - generic [ref=f134e486]:
+            - generic [ref=f134e487]:
+              - generic [ref=f134e488]: Petr Nuzhnov
+              - generic [ref=f134e489]: Senior Backend Engineer
+            - link "Petr Nuzhnov on LinkedIn" [ref=f134e490] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/petrnuzhnov/
+        - generic [ref=f134e491]:
+          - link [ref=f134e497] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/meryem-cebeci-ba52a661/
+            - img "Meryem Cebeci" [ref=f134e498]
+          - generic [ref=f134e499]:
+            - generic [ref=f134e500]:
+              - generic [ref=f134e501]: Meryem Cebeci
+              - generic [ref=f134e502]: Project Manager
+            - link "Meryem Cebeci on LinkedIn" [ref=f134e503] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/meryem-cebeci-ba52a661/
+        - generic [ref=f134e504]:
+          - link [ref=f134e510] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/pablo-pardo-garcia/
+            - img "Pablo Pardo Garcia" [ref=f134e511]
+          - generic [ref=f134e512]:
+            - generic [ref=f134e513]:
+              - generic [ref=f134e514]: Pablo Pardo Garcia
+              - generic [ref=f134e515]: Senior Solution Engineer
+            - link "Pablo Pardo Garcia on LinkedIn" [ref=f134e516] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/pablo-pardo-garcia/
+        - generic [ref=f134e517]:
+          - link [ref=f134e523] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ben-gorski/
+            - img "Benjamin Gorski" [ref=f134e524]
+          - generic [ref=f134e525]:
+            - generic [ref=f134e526]:
+              - generic [ref=f134e527]: Benjamin Gorski
+              - generic [ref=f134e528]: Head of Operations
+            - link "Benjamin Gorski on LinkedIn" [ref=f134e529] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ben-gorski/
+        - generic [ref=f134e530]:
+          - link [ref=f134e536] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/mohammed-ayaan-islam-262989294/
+            - img "Ayaan Islam" [ref=f134e537]
+          - generic [ref=f134e538]:
+            - generic [ref=f134e539]:
+              - generic [ref=f134e540]: Ayaan Islam
+              - generic [ref=f134e541]: Accounting & Finance Associate
+            - link "Ayaan Islam on LinkedIn" [ref=f134e542] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/mohammed-ayaan-islam-262989294/
+        - generic [ref=f134e543]:
+          - link [ref=f134e549] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ashishbagri/
+            - img "Ashish Bagri" [ref=f134e550]
+          - generic [ref=f134e551]:
+            - generic [ref=f134e552]:
+              - generic [ref=f134e553]: Ashish Bagri
+              - generic [ref=f134e554]: Founder & CTO
+            - link "Ashish Bagri on LinkedIn" [ref=f134e555] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/ashishbagri/
+        - generic [ref=f134e556]:
+          - link [ref=f134e562] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/msfikas/
+            - img "Markos Sfikas" [ref=f134e563]
+          - generic [ref=f134e564]:
+            - generic [ref=f134e565]:
+              - generic [ref=f134e566]: Markos Sfikas
+              - generic [ref=f134e567]: Marketing Lead
+            - link "Markos Sfikas on LinkedIn" [ref=f134e568] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/msfikas/
+        - generic [ref=f134e569]:
+          - link [ref=f134e575] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bahareh-darbandi/
+            - img "Bahareh Darbandi" [ref=f134e576]
+          - generic [ref=f134e577]:
+            - generic [ref=f134e578]:
+              - generic [ref=f134e579]: Bahareh Darbandi
+              - generic [ref=f134e580]: Senior Backend Engineer
+            - link "Bahareh Darbandi on LinkedIn" [ref=f134e581] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/msfikas/
+    - generic [ref=f134e587]:
+      - heading "Discover more" [level=2] [ref=f134e589]
+      - generic [ref=f134e590]:
+        - generic [ref=f134e591]:
+          - generic [ref=f134e592]: careers
+          - heading "We are hiring people who want to shape the data streaming future with us." [level=3] [ref=f134e599]
+          - link "find out more" [ref=f134e600] [cursor=pointer]:
+            - /url: https://join.com/companies/getglassflow
+            - generic [ref=f134e603]:
+              - generic [ref=f134e604]: find out more
+              - generic [aria-hidden] [ref=f134e605]: find out more
+        - generic [ref=f134e606]:
+          - generic [ref=f134e607]: blog
+          - heading "Check the latest news, product updates and best practices." [level=3] [ref=f134e614]
+          - link "find out more" [ref=f134e615] [cursor=pointer]:
+            - /url: /blog
+            - generic [ref=f134e618]:
+              - generic [ref=f134e619]: find out more
+              - generic [aria-hidden] [ref=f134e620]: find out more
+    - generic [ref=f134e623]:
+      - heading "Backed by the best" [level=2] [ref=f134e626]
+      - generic [ref=f134e628]:
+        - generic [ref=f134e629]:
+          - img "Kevin Zhang" [ref=f134e631]
+          - generic [ref=f134e632]:
+            - generic [ref=f134e633]: Kevin Zhang
+            - generic [ref=f134e634]: Partner at Upfront Ventures
+        - generic [ref=f134e635]:
+          - img "Martin Möllmann" [ref=f134e637]
+          - generic [ref=f134e638]:
+            - generic [ref=f134e639]: Martin Möllmann
+            - generic [ref=f134e640]: Investor at High-Tech Gründerfonds
+        - generic [ref=f134e641]:
+          - img "Philipp Moehring" [ref=f134e643]
+          - generic [ref=f134e644]:
+            - generic [ref=f134e645]: Philipp Moehring
+            - generic [ref=f134e646]: Partner at TSIC
+        - generic [ref=f134e647]:
+          - img "Robin Haak" [ref=f134e649]
+          - generic [ref=f134e650]:
+            - generic [ref=f134e651]: Robin Haak
+            - generic [ref=f134e652]: Partner at Robin Capital
+        - generic [ref=f134e653]:
+          - img "Serhii Sokolenko" [ref=f134e655]
+          - generic [ref=f134e656]:
+            - generic [ref=f134e657]: Serhii Sokolenko
+            - generic [ref=f134e658]: Ex-Snowflake
+        - generic [ref=f134e659]:
+          - img "Kamil Mieczakowski" [ref=f134e661]
+          - generic [ref=f134e662]:
+            - generic [ref=f134e663]: Kamil Mieczakowski
+            - generic [ref=f134e664]: Partner at Notion Capital
+        - generic [ref=f134e665]:
+          - img "Andrew Tymovskyi" [ref=f134e667]
+          - generic [ref=f134e668]:
+            - generic [ref=f134e669]: Andrew Tymovskyi
+            - generic [ref=f134e670]: Investor at Roosh Ventures
+        - generic [ref=f134e671]:
+          - img "Thomas Dohmke" [ref=f134e673]
+          - generic [ref=f134e674]:
+            - generic [ref=f134e675]: Thomas Dohmke
+            - generic [ref=f134e676]: CEO at GitHub
+        - generic [ref=f134e677]:
+          - img "Andrei David" [ref=f134e679]
+          - generic [ref=f134e680]:
+            - generic [ref=f134e681]: Andrei David
+            - generic [ref=f134e682]: Scout at Atomico
+        - generic [ref=f134e683]:
+          - img "Roland Fassauer" [ref=f134e685]
+          - generic [ref=f134e686]:
+            - generic [ref=f134e687]: Roland Fassauer
+            - generic [ref=f134e688]: Partner at Fadelia
+        - generic [ref=f134e689]:
+          - img "Heikki Nousiainen" [ref=f134e691]
+          - generic [ref=f134e692]:
+            - generic [ref=f134e693]: Heikki Nousiainen
+            - generic [ref=f134e694]: CTO & Co-Founder at aiven
+        - generic [ref=f134e695]:
+          - img "Andres Almansa" [ref=f134e697]
+          - generic [ref=f134e698]:
+            - generic [ref=f134e699]: Andres Almansa
+            - generic [ref=f134e700]: CEO at Restack
+        - generic [ref=f134e701]:
+          - img "Philippe Brule" [ref=f134e703]
+          - generic [ref=f134e704]:
+            - generic [ref=f134e705]: Philippe Brule
+            - generic [ref=f134e706]: CTO at Restack
+        - generic [ref=f134e707]:
+          - img "Jernej Strasner" [ref=f134e709]
+          - generic [ref=f134e710]:
+            - generic [ref=f134e711]: Jernej Strasner
+            - generic [ref=f134e712]: VP Engineering at sentry.io
+        - generic [ref=f134e713]:
+          - img "Taimur Rashid" [ref=f134e715]
+          - generic [ref=f134e716]:
+            - generic [ref=f134e717]: Taimur Rashid
+            - generic [ref=f134e718]: Founding AWS sales manager
+        - generic [ref=f134e719]:
+          - img "Enrique Sarap" [ref=f134e721]
+          - generic [ref=f134e722]:
+            - generic [ref=f134e723]: Enrique Sarap
+            - generic [ref=f134e724]: Scout at Sequoia
+        - generic [ref=f134e725]:
+          - img "Eva Spannagl" [ref=f134e727]
+          - generic [ref=f134e728]:
+            - generic [ref=f134e729]: Eva Spannagl
+            - generic [ref=f134e730]: Ex Moss Lead and scout
+        - generic [ref=f134e731]:
+          - img "Bob van Luijt" [ref=f134e733]
+          - generic [ref=f134e734]:
+            - generic [ref=f134e735]: Bob van Luijt
+            - generic [ref=f134e736]: CEO at Weaviate
+        - generic [ref=f134e737]:
+          - img "Keith Grose" [ref=f134e739]
+          - generic [ref=f134e740]:
+            - generic [ref=f134e741]: Keith Grose
+            - generic [ref=f134e742]: Ex Plaid Lead and scout
+        - generic [ref=f134e743]:
+          - img "Mark Maxwell" [ref=f134e745]
+          - generic [ref=f134e746]:
+            - generic [ref=f134e747]: Mark Maxwell
+            - generic [ref=f134e748]: Ex dbt labs and fivetran
+        - generic [ref=f134e749]:
+          - img "Navid Meyer" [ref=f134e751]
+          - generic [ref=f134e752]:
+            - generic [ref=f134e753]: Navid Meyer
+            - generic [ref=f134e754]: Investor at Lakestar
+    - generic [ref=f134e760]:
+      - generic [ref=f134e761]:
+        - heading "Two products. Two starting points." [level=2] [ref=f134e762]
+        - paragraph [ref=f134e763]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and retention, from first span to production.
+      - generic [ref=f134e764]:
+        - link "Star Tares on GitHub" [ref=f134e765] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+        - link "Read the Rius guides" [ref=f134e768] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/guides
+  - contentinfo [ref=f134e772]:
+    - generic [ref=f134e776]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f134e778]
+      - generic [ref=f134e780]:
+        - generic [ref=f134e781]:
+          - heading "Start with Tares" [level=3] [ref=f134e782]
+          - paragraph [ref=f134e783]: Feed your agents the right data.
+        - link "get_started" [ref=f134e784] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f134e789]:
+        - generic [ref=f134e790]:
+          - heading "Start with Rius" [level=3] [ref=f134e791]
+          - paragraph [ref=f134e792]: See and debug agents in production.
+        - link "get_started" [ref=f134e793] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f134e798]:
+      - link "GlassFlow home" [ref=f134e799] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f134e800]
+      - generic [ref=f134e801]:
+        - generic [ref=f134e802]: products
+        - generic [ref=f134e808]:
+          - link "tares Feed your agents the right data. Open source" [ref=f134e809] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f134e810]:
+              - generic [ref=f134e811]: tares
+              - generic [ref=f134e812]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f134e813] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f134e814]:
+              - generic [ref=f134e815]: rius
+              - generic [ref=f134e816]: See what your agents did in production.
+      - generic [ref=f134e817]:
+        - link "contact" [ref=f134e818] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f134e824] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f134e830] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f134e836] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f134e842]:
+        - link "X" [ref=f134e843] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f134e844] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f134e845] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f134e847]:
+      - generic [ref=f134e848]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f134e849] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f134e850] [cursor=pointer]:
+        - /url: /privacy-policy

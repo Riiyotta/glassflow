@@ -1,0 +1,81 @@
+{
+  "id": "alt.stops",
+  "family": "mars",
+  "category": "feature",
+  "purpose": "'Where <vendor> stops' cards.",
+  "variants": {
+    "arize": "arize data",
+    "langfuse": "langfuse data"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Alternatives.jsx",
+      "lines": "582-588",
+      "quote": "function Stops({ s })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 14
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 8
+            },
+            "body": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 30
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "title",
+            "body"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 6
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "items"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "single column, 16px section padding"
+    },
+    "810": {
+      "layout": "64px section padding"
+    },
+    "1200": {
+      "layout": "max 1200 (arize) / 1234 (langfuse)"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "291",
+        "quote": "px-4 md:px-16"
+      }
+    ]
+  },
+  "notes": "Native rebuild of the live iframe template; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
+}

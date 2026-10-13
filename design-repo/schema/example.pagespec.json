@@ -1,0 +1,352 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "template": "home",
+  "theme": "mars",
+  "route": "/",
+  "meta": {
+    "title": "AI Agent Observability & Data Infrastructure | GlassFlow",
+    "description": "Give AI agents the context they need and observe their actions. Built for both short & always-on, long-running agents. Open source, self-hosted."
+  },
+  "nodes": [
+    {
+      "id": "nav",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "#quickstart"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "hero",
+      "section": "hero.home",
+      "variant": "default",
+      "content": {
+        "headline": "the data infrastructure for AI Agents in production",
+        "lead": "GlassFlow is one data layer for both sides of the agent: GlassFlow Tares feeds agents correlated data, and GlassFlow Rius traces and debugs every run.",
+        "leadLinks": [
+          {
+            "label": "GlassFlow Tares",
+            "href": "/tares"
+          },
+          {
+            "label": "GlassFlow Rius",
+            "href": "/rius"
+          }
+        ],
+        "cta": {
+          "label": "get_started",
+          "href": "#quickstart"
+        },
+        "bandImage": {
+          "assetRole": "scene.mars-figurative",
+          "ref": "/assets/8Cuc5KELijZEPw8wCqEqzfspE.png",
+          "alt": ""
+        },
+        "logoStrip": {
+          "caption": "Works with the tools you already use.",
+          "logos": [
+            {
+              "assetRole": "logo.third-party",
+              "ref": "/assets/svg/vercel.svg",
+              "alt": "Vercel"
+            },
+            {
+              "assetRole": "logo.third-party",
+              "ref": "/assets/svg/claude.svg",
+              "alt": "Claude"
+            },
+            {
+              "assetRole": "logo.third-party",
+              "ref": "/assets/svg/cursor.svg",
+              "alt": "Cursor"
+            },
+            {
+              "assetRole": "logo.third-party",
+              "ref": "/assets/svg/openai.svg",
+              "alt": "OpenAI"
+            }
+          ]
+        }
+      },
+      "motion": {
+        "patterns": [
+          "hero-word-blur-in",
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "opacity-only+transitions-disabled"
+      }
+    },
+    {
+      "id": "testimonial",
+      "section": "social-proof.testimonial",
+      "variant": "home",
+      "content": {
+        "quote": "…data is not just an asset but a fundamental building block to a company's success. It’s through this vital resource that systems and teams learn, adapt, innovate, and provide unprecedented value, driving efficiencies and creating new opportunities. GlassFlow offers the tools to harness this data for AI.”",
+        "person": {
+          "name": "Thomas Dohmke",
+          "role": "Co-founder & CEO",
+          "avatar": {
+            "assetRole": "person.real-photo",
+            "ref": "/assets/es2dJiMp9kbISeoLCrGX80lfk.webp",
+            "alt": "Thomas Dohmke"
+          }
+        },
+        "company": {
+          "label": "Entire",
+          "logo": {
+            "assetRole": "logo.customer",
+            "ref": "/assets/19uBUx6oMukcPigAH32CECUiCOU.jpg",
+            "alt": ""
+          }
+        },
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "/assets/7xhczrFmZXWm4XtTt3xdK5HjPSc.jpg",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-1",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "tares",
+      "section": "product.feature-split",
+      "variant": "tares-text-left",
+      "content": {
+        "badge": "GlassFlow Tares",
+        "title": "One correlated read over every system your agents touch.",
+        "body": [
+          "Instead of your agent firing dozens of live tool calls at runtime (slow, expensive, inconsistent), GlassFlow Tares prepares and delivers exactly the data each agent needs, already correlated across every source. One clean read replaces many brittle ones: less latency, fewer tokens, more reliable decisions.",
+          "Open source, self-hostable, and built on a production streaming core."
+        ],
+        "actions": [
+          {
+            "label": "github",
+            "href": "https://github.com/glassflow/tares"
+          },
+          {
+            "label": "learn_more",
+            "href": "https://tares.glassflow.ai/"
+          }
+        ],
+        "screenshot": {
+          "assetRole": "product.screenshot",
+          "ref": "/assets/QbnjXbaRacmtUbQLtN9sy4wEKw.png",
+          "alt": "GlassFlow Tares sources dashboard"
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-2",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "rius",
+      "section": "product.feature-split",
+      "variant": "rius-image-left",
+      "content": {
+        "badge": "GlassFlow Rius",
+        "title": "Catch and debug agent failures in production.",
+        "body": [
+          "Once agents are live, GlassFlow Rius tells you what they did, why they failed, and how quality is changing. Rius is built for any agent, running from short chat sessions to long-running agents that span across hours or days.",
+          "Live metrics on running agents (not just the completed minority), heartbeat detection that flags a frozen agent instead of hiding it, and bidirectional MCP so Claude Code, Cursor or ChatGPT Codex can query a failure and open a PR with the fix.",
+          "Every trace kept as long as you need it, not capped at 30 days"
+        ],
+        "actions": [
+          {
+            "label": "get_started",
+            "href": "https://console.rius-glassflow.com/signin?utm_source=glassflow&utm_medium=homepage&utm_campaign=signup&utm_content=core"
+          },
+          {
+            "label": "learn_more",
+            "href": "https://rius.glassflow.ai/"
+          }
+        ],
+        "screenshot": {
+          "assetRole": "product.screenshot",
+          "ref": "/assets/RBpuXgGdzUNXmLFkFBttmTsnw.jpg",
+          "alt": "GlassFlow Rius metrics dashboard"
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-3",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "quickstart",
+      "section": "onboarding.quickstart-band",
+      "variant": "home-two-cards",
+      "content": {
+        "heading": "From install to first result in minutes.",
+        "highlight": "first result",
+        "sub": [
+          "Pick a product and follow the quickstart.",
+          "Both are copy-paste and run on your own machine, no waitlist. Up and running in minutes."
+        ],
+        "cards": [
+          {
+            "product": "rius",
+            "pitch": [
+              "See your first agent run appear live.",
+              "Drop in the OTEL receiver, run your agent, and watch the trace stream in."
+            ],
+            "bullets": [
+              {
+                "label": "Long-running agents:",
+                "text": "trace hours-long runs, lose nothing"
+              },
+              {
+                "label": "MCP both ways:",
+                "text": "agents send traces; coding agents query back"
+              },
+              {
+                "label": "Replay any run:",
+                "text": "reconstruct what happened last week"
+              }
+            ],
+            "docsLink": {
+              "label": "open the rius quickstart",
+              "href": "https://docs.glassflow.ai/rius/quickstart"
+            },
+            "startLink": {
+              "label": "Start with rius",
+              "href": "https://console.rius-glassflow.com/signup?utm_source=framer.com&utm_medium=referral&utm_campaign=hp_start_cta"
+            }
+          },
+          {
+            "product": "tares",
+            "pitch": [
+              "Deliver your first correlated data package. Install, connect your sources, and serve one clean read to an agent."
+            ],
+            "bullets": [
+              {
+                "label": "Cut token spend:",
+                "text": "one clean read, not dozens of tool calls"
+              },
+              {
+                "label": "Kill latency:",
+                "text": "data's ready before the agent asks"
+              },
+              {
+                "label": "One connection:",
+                "text": "all your sources, unified"
+              }
+            ],
+            "docsLink": {
+              "label": "open the tares quickstart",
+              "href": "https://docs.glassflow.ai/tares/quickstart"
+            },
+            "startLink": {
+              "label": "Start with tares",
+              "href": "https://console.tares-glassflow.com/?utm_source=button&utm_medium=website&utm_campaign=hp_start_cta"
+            }
+          }
+        ],
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "/assets/ARgMqlYnmiFWpdywy7EoO9FO9vI.png",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-4",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "faq",
+      "section": "faq.accordion",
+      "variant": "home",
+      "content": {
+        "heading": "Frequently Asked Questions",
+        "firstOpen": true,
+        "items": [
+          {
+            "question": "What is GlassFlow?",
+            "answer": "GlassFlow is the data infrastructure for AI agents in production. It has two products: GlassFlow Tares, which feeds agents correlated data from every system they touch, and GlassFlow Rius, which traces and debugs what agents do once they’re running."
+          },
+          {
+            "question": "What’s the difference between GlassFlow Tares and GlassFlow Rius?",
+            "answer": "GlassFlow Tares handles the data going into the agent, preparing and delivering exactly what each agent needs. GlassFlow Rius handles the data coming out: tracing, metrics, and debugging for agents in production. You can use either on its own or both together."
+          },
+          {
+            "question": "Is GlassFlow open source?",
+            "answer": "Yes. GlassFlow Tares is open source and self-hostable on your own infrastructure. A managed Cloud tier is available when you’d rather not run it yourself."
+          },
+          {
+            "question": "What makes GlassFlow different for long-running agents?",
+            "answer": "Most observability tools were built for short chat sessions and only compute metrics on completed traces. GlassFlow is built for agents that run for hours or days with live metrics on running agents, heartbeat detection for frozen ones, and unlimited retention so you can always reconstruct what happened."
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [
+          "faq-height"
+        ],
+        "reducedMotionFallback": "instant"
+      }
+    },
+    {
+      "id": "footer",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ]
+}

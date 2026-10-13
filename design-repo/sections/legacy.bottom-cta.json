@@ -1,0 +1,134 @@
+{
+  "id": "legacy.bottom-cta",
+  "family": "legacy",
+  "category": "conversion",
+  "purpose": "Legacy closing CTA over an image: gradient H2, grey sub, two rounded buttons.",
+  "variants": {
+    "default": "/categories/:slug"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Category.jsx",
+      "lines": "23-50",
+      "quote": "function BottomCta()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 10
+      },
+      "sub": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 16
+      },
+      "primary": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "secondary": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "scene.mars-figurative",
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "sub",
+      "primary",
+      "secondary",
+      "background"
+    ]
+  },
+  "constraints": {
+    "familyOnly": "legacy",
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "pad": "16px sides"
+    },
+    "810": {
+      "pad": 0
+    },
+    "1200": {
+      "max": 1400,
+      "height": 900
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Category.jsx",
+        "lines": "25",
+        "quote": "max-w-[1400px] flex-col items-center justify-end px-4 h-[900px]"
+      }
+    ]
+  }
+}

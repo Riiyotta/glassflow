@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'Inter Display';
+  src: url('/fonts/inter-display-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+:root {
+  /* Framer spring { bounce: .2, duration: .4 } (same curve as EASE.springB02D04 in motion.js) */
+  --ease-spring-b02-d04: linear(0.0000 0%, 0.0224 2.5%, 0.0794 5%, 0.1581 7.5%, 0.2486 10%, 0.3435 12.5%, 0.4375 15%, 0.5269 17.5%, 0.6093 20%, 0.6833 22.5%, 0.7484 25%, 0.8044 27.5%, 0.8518 30%, 0.8911 32.5%, 0.9231 35%, 0.9487 37.5%, 0.9688 40%, 0.9841 42.5%, 0.9954 45%, 1.0036 47.5%, 1.0091 50%, 1.0125 52.5%, 1.0144 55%, 1.0151 57.5%, 1.0150 60%, 1.0142 62.5%, 1.0131 65%, 1.0118 67.5%, 1.0104 70%, 1.0089 72.5%, 1.0076 75%, 1.0063 77.5%, 1.0051 80%, 1.0041 82.5%, 1.0032 85%, 1.0024 87.5%, 1.0018 90%, 1.0013 92.5%, 1.0009 95%, 1.0006 97.5%, 1.0003 100%);
+}
+
+body {
+  background: #492400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  /* Framer draws 1px grid lines as overlay borders that take no layout space */
+  .hairline { box-shadow: inset 0 0 0 1px theme('colors.line'); }
+  .hairline-2 { box-shadow: inset 0 0 0 2px theme('colors.line'); }
+  .ring-in-4 { box-shadow: inset 0 0 0 4px theme('colors.line'); }
+  .ring-in-5 { box-shadow: inset 0 0 0 5px theme('colors.line'); }
+  /* zero-space full-width top rule */
+  .line-t { box-shadow: inset 0 1px 0 theme('colors.line'); }
+  .line-b { box-shadow: inset 0 -1px 0 theme('colors.line'); }
+  .t-h1 { @apply font-display text-[32px] leading-[32px] md:text-[40px] md:leading-[40px] lg:text-[50px] lg:leading-[50px] text-cream; }
+  .t-h2 { @apply font-display text-[32px] leading-[32px] lg:text-[40px] lg:leading-[40px] text-cream; }
+  .t-lead { @apply font-display text-[18px] leading-[27px] tracking-[-0.18px] text-cream; }
+  .t-body { @apply font-display text-[16px] leading-[24px] tracking-[-0.18px] text-cream; }
+  .t-mono { @apply font-mono text-[14px] leading-[18.2px] font-bold; }
+  .t-btn { @apply font-mono text-[14px] leading-[24px] font-medium tracking-[-0.32px]; }
+  .inline-link { @apply text-link; }
+}
+
+/* Column edge lines drawn as an overlay (Framer ::after borders take no layout space) */
+@media (min-width: 810px) {
+  .shell-lines::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-left: 1px solid theme('colors.line');
+    border-right: 1px solid theme('colors.line');
+    pointer-events: none;
+  }
+}
+
+/* ---- Article rich text (specs/content.md §2.3, specs/landing.md T1.3): margin-top only ---- */
+.article { color: theme('colors.cream'); }
+.article > :first-child { margin-top: 0; }
+.article p, .article li {
+  font-family: theme('fontFamily.display'); font-size: 18px; line-height: 32.4px; letter-spacing: -0.36px; color: theme('colors.cream');
+}
+.article > p { margin-top: 20px; }
+.article h2 {
+  margin-top: 40px; font-family: theme('fontFamily.inter'); font-size: 32px; line-height: 44.8px; font-weight: 500;
+  letter-spacing: -1.28px; color: #FFFFFF;
+}
+.article h3 {
+  margin-top: 40px; font-family: theme('fontFamily.display'); font-size: 26px; line-height: 36.4px; font-weight: 500;
+  letter-spacing: -1.04px; color: #FAFAFA;
+}
+/* unstyled <h1> inside some bodies on live (joins, part-3): near-invisible black on brown, kept for parity */
+.article .article-h1-quirk { margin-top: 20px; font-family: theme('fontFamily.inter'); font-size: 16px; line-height: 19.2px; color: #000000; }
+.article strong { font-weight: 700; }
+.article em { font-style: italic; }
+.article a { color: theme('colors.amber'); text-decoration: underline; }
+.article code:not(pre code) {
+  font-family: theme('fontFamily.mono'); font-size: 18px; line-height: 32.4px; letter-spacing: -0.36px;
+  color: rgba(255,255,255,0.7); background: #1E0F00; border-radius: 6px; padding: 1.8px 3.6px;
+}
+.article ul, .article ol { margin-top: 16px; padding-left: 0; list-style: none; }
+.article li ul, .article li ol { margin-top: 0; }
+.article li { position: relative; padding-left: 22.08px; }
+.article ul > li::before { content: '\2022'; position: absolute; left: 0; width: 8.64px; color: theme('colors.cream'); }
+.article ol { counter-reset: article-ol; }
+.article ol > li { counter-increment: article-ol; padding-left: 20px; }
+.article ol > li::before { content: counter(article-ol) '.'; position: absolute; left: 0; color: theme('colors.cream'); }
+.article > img, .article > .article-img-link { display: block; margin-top: 16px; }
+.article img { max-width: 100%; height: auto; border: 1px solid #222222; }
+.article > .article-img-link img { display: block; }
+.article blockquote { margin-top: 20px; position: relative; background: #1E0F00; padding: 32px 32px 32px 34px; }
+.article blockquote::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: #1E0F00; }
+.article blockquote p { margin: 0; font-size: 16px; line-height: 28.8px; font-weight: 500; font-style: italic; }
+.article .article-table { margin-top: 16px; overflow-x: auto; }
+.article table { width: 100%; border: 1px solid theme('colors.line'); border-collapse: separate; border-spacing: 0; }
+.article th, .article td {
+  padding: 16px; text-align: left; vertical-align: top; background: transparent;
+  border-top: 1px solid theme('colors.line'); border-left: 1px solid theme('colors.line');
+  font-family: theme('fontFamily.display'); font-size: 18px; line-height: 32.4px; letter-spacing: -0.36px; color: theme('colors.cream');
+}
+.article th { font-weight: 700; }
+.article tr > :first-child { border-left: 0; }
+.article thead tr:first-child > * { border-top: 0; }
+.article .article-code { margin-top: 20px; background: #1E0F00; border: 1px solid rgb(93,60,28); }
+.article .article-code pre {
+  margin: 0; padding: 32px 32px 32px 36px; overflow-x: auto; white-space: pre;
+  font-family: theme('fontFamily.mono'); font-size: 14px; line-height: 21px; font-weight: 600; color: #E6EDF3;
+}
+
+/* ---- Motion (values measured on www.glassflow.ai; see src/components/motion.js) ---- */
+
+/* Hero H1 per-word appear: hidden start state, animated in by revealWords().
+   Framer SSR start: opacity .001, blur(10px), translateY(10px). */
+[data-reveal-words] .reveal-word:not([data-revealed]) { opacity: 0.001; }
+@media (prefers-reduced-motion: no-preference) {
+  [data-reveal-words] .reveal-word:not([data-revealed]) { filter: blur(10px); transform: translateY(10px); }
+}
+
+/* Primary button (Framer "Primary", hover variant): tween 0.4s ease [.44,0,0,1].
+   - outer 1px border rgb(255,172,0) -> rgb(95,62,31)
+   - arrow (top 15px) and arrow-clone (top 45px) both move up 30px, clipped by the 44px cell.
+   Reverses with the same timing on leave. */
+.btn-primary {
+  box-shadow: inset 0 0 0 1px theme('colors.amber');
+  transition: box-shadow 0.4s cubic-bezier(0.44, 0, 0, 1);
+}
+.arrow-track { position: relative; overflow: hidden; }
+/* Framer draws the cell border as an overlay above the arrows */
+.arrow-track::after { content: ''; position: absolute; inset: 0; box-shadow: inset 0 0 0 1px theme('colors.line'); pointer-events: none; }
+.arrow-track > .arrow-a,
+.arrow-track > .arrow-b { transition: transform 0.4s cubic-bezier(0.44, 0, 0, 1); }
+.arrow-track > .arrow-b { position: absolute; inset: 0; margin: auto; transform: translateY(30px); }
+@media (hover: hover) {
+  .btn-primary:hover { box-shadow: inset 0 0 0 1px theme('colors.line'); }
+  .btn-primary:hover .arrow-track > .arrow-a { transform: translateY(-30px); }
+  .btn-primary:hover .arrow-track > .arrow-b { transform: translateY(0); }
+}
+
+/* Nav "products" link whileHover: bg rgb(29,14,0) -> rgb(73,36,0), tween 0.6s ease [.5,0,.88,.77];
+   snaps back instantly on leave. Disabled by Framer on the >=2560px "Big" variant. */
+@media (hover: hover) and (max-width: 2559.98px) {
+  .nav-products:hover { background-color: theme('colors.page'); transition: background-color 0.6s cubic-bezier(0.5, 0, 0.88, 0.77); }
+}
+
+/* Products dropdown: opens on pointer enter of the products link, closes when the pointer leaves
+   link + panel. Opacity only (no slide), Framer spring bounce .2 / .4s both ways (~200ms visible). */
+.dropdown {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s var(--ease-spring-b02-d04), visibility 0s linear 0.4s;
+}
+.has-dropdown:hover .dropdown { opacity: 1; visibility: visible; transition-delay: 0s; }
+
+/* Product pages blur-in text appear (products.md §1.5.1): start state, animated on mount by appear() */
+.appear-part:not([data-revealed]) { opacity: 0.001; }
+@media (prefers-reduced-motion: no-preference) {
+  .appear-part:not([data-revealed]) { filter: blur(10px); transform: translateY(10px); }
+  /* per-character text effect (post description, /about paragraphs): opacity + blur only */
+  .appear-noy .appear-part:not([data-revealed]),
+  .appear-part.appear-noy:not([data-revealed]) { transform: none; }
+}
+
+/* Blog cards, "read article" label (/blog, related posts, category pages): rolls when the CARD is
+   hovered. Both copies move up 30px; the outgoing copy fades to 0, the incoming one to 80% of its
+   rest opacity (live .9 -> .72). Framer spring bounce .2 / .4s both ways, like the rest of the card. */
+.text-roll-group .text-roll-track,
+.text-roll-group .roll-a,
+.text-roll-group .roll-b {
+  transition: transform 0.4s var(--ease-spring-b02-d04), opacity 0.4s var(--ease-spring-b02-d04);
+}
+@media (hover: hover) {
+  .group:hover .text-roll-group .text-roll-track { transform: translateY(-30px); }
+  .group:hover .text-roll-group .roll-a { opacity: 0; }
+  .group:hover .text-roll-group .roll-b { opacity: 0.8; }
+}
+
+/* /case-studies cards: whileHover bg rgb(30,15,0) -> rgb(64,35,6) and y -2px, spring bounce .2 / .4s
+   (peaks at -2.03px). The "read more" label inside does not roll on the live site. */
+.cs-card { transition: background-color 0.4s var(--ease-spring-b02-d04), transform 0.4s var(--ease-spring-b02-d04); }
+@media (hover: hover) {
+  .cs-card:hover { background-color: #402306; transform: translateY(-2px); }
+}
+
+/* /case-studies/:slug "Visit Website" (Framer Secondary, per-character roll):
+   each letter and its copy 25.2px below move up 25.2px, 280ms, 25ms stagger per letter;
+   in: first letter starts ~30ms after the bg, ease cubic-bezier(.45,0,.7,.2);
+   out: time-reversed (last letter first, ~125ms after the bg, cubic-bezier(.3,.8,.55,1)).
+   bg rgba(255,255,255,0) -> .1, ~210ms "ease" both ways. */
+.char-roll-host { transition: background-color 0.21s ease; }
+.char-roll { position: relative; display: inline-block; overflow: hidden; vertical-align: top; }
+.char-roll > span {
+  display: inline-block;
+  transition: transform 0.28s cubic-bezier(0.3, 0.8, 0.55, 1);
+  transition-delay: calc(125ms + var(--r) * 25ms);
+}
+.char-roll > .char-roll-b { position: absolute; left: 0; top: 0; transform: translateY(25.2px); }
+@media (hover: hover) {
+  .char-roll-host:hover { background-color: rgba(255, 255, 255, 0.1); }
+  .char-roll-host:hover .char-roll > span {
+    transform: translateY(-25.2px);
+    transition-timing-function: cubic-bezier(0.45, 0, 0.7, 0.2);
+    transition-delay: calc(30ms + var(--i) * 25ms);
+  }
+  .char-roll-host:hover .char-roll > .char-roll-b { transform: translateY(0); }
+}
+
+/* Legacy black template (/categories/*, guide pages) nav dropdown, measured per frame:
+   panel opacity 0 -> 1 and scale .95 -> 1 (origin top centre) on an overdamped spring
+   (stiffness ~1110, damping ~75; settles in ~330ms); chevron rotates 0 -> -180deg on a spring
+   (stiffness ~580, damping ~39; ~1.2% overshoot). Close is the exact reverse; the panel is
+   removed once faded. */
+:root {
+  --ease-legacy-panel: linear(0 0%, 0.1381 5%, 0.3601 10%, 0.5516 15%, 0.6938 20%, 0.7935 25%, 0.8615 30%, 0.9074 35%, 0.9382 40%, 0.9588 45%, 0.9725 50%, 0.9817 55%, 0.9878 60%, 0.9919 65%, 0.9946 70%, 0.9964 75%, 0.9976 80%, 0.9984 85%, 0.9989 90%, 0.9993 95%, 1 100%);
+  --ease-legacy-chev: linear(0 0%, 0.0536 3.3%, 0.1760 6.7%, 0.3247 10%, 0.4736 13.3%, 0.6079 16.7%, 0.7211 20%, 0.8114 23.3%, 0.8802 26.7%, 0.9302 30%, 0.9649 33.3%, 0.9876 36.7%, 1.0015 40%, 1.0091 43.3%, 1.0124 46.7%, 1.0131 50%, 1.0122 53.3%, 1.0105 56.7%, 1.0085 60%, 1.0066 63.3%, 1.0048 66.7%, 1.0034 70%, 1.0023 73.3%, 1.0014 76.7%, 1.0008 80%, 1.0004 83.3%, 1.0001 86.7%, 1 90%, 0.9999 93.3%, 0.9998 96.7%, 1 100%);
+}
+.legacy-dd { visibility: hidden; transition: visibility 0s linear 0.4s; }
+.legacy-dd-panel {
+  opacity: 0;
+  transform: scale(0.95);
+  transform-origin: 50% 0;
+  transition: opacity 0.4s var(--ease-legacy-panel), transform 0.4s var(--ease-legacy-panel);
+}
+.legacy-chev { transition: transform 0.45s var(--ease-legacy-chev); }
+.legacy-dd-item:hover .legacy-dd { visibility: visible; transition-delay: 0s; }
+.legacy-dd-item:hover .legacy-dd-panel { opacity: 1; transform: none; }
+.legacy-dd-item:hover .legacy-chev { transform: rotate(-180deg); }
+
+/* Text-roll button (products.md §1.4E): label + copy 30px below, both move up ~30px with a 1px overshoot */
+.text-roll-track { transition: transform 0.25s cubic-bezier(0.3, 1.4, 0.5, 1); }
+@media (hover: hover) {
+  .text-roll:hover .text-roll-track { transform: translateY(-30px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-primary, .arrow-track > .arrow-a, .arrow-track > .arrow-b,
+  .nav-products, .dropdown, .faq-motion, .text-roll-track,
+  .text-roll-group .roll-a, .text-roll-group .roll-b, .cs-card, .char-roll-host, .char-roll > span,
+  .legacy-dd, .legacy-dd-panel, .legacy-chev { transition: none !important; }
+}

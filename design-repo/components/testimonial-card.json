@@ -1,0 +1,22 @@
+{
+  "id": "testimonial-card",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Quote over dithered texture + two 100px attribution cells (person, company).",
+  "composes": [],
+  "props": {
+    "quote": "text",
+    "person": "{avatar,name,role}",
+    "company": "{logo,label}",
+    "compact": "bool",
+    "bare": "bool"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/Testimonial.jsx",
+      "lines": "18-65",
+      "quote": "export default function Testimonial"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "feature.retrospective",
+  "family": "mars",
+  "category": "feature",
+  "purpose": "Image + looping Lottie beside a 40px heading and short point list.",
+  "variants": {
+    "default": "/rius"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Rius.jsx",
+      "lines": "127-152",
+      "quote": "function Retrospective()"
+    },
+    {
+      "path": "src/components/LottiePlayer.jsx",
+      "lines": "12",
+      "quote": "loop: true"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 18
+      },
+      "points": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 22
+        },
+        "minItems": 2,
+        "maxItems": 5
+      },
+      "image": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "scene.mars-figurative",
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      },
+      "animation": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "animation.lottie"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "points",
+      "image",
+      "animation"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "lottie-loop"
+    ],
+    "reducedMotionFallback": "no-reduced-motion-handling"
+  },
+  "responsive": {
+    "390": {
+      "image": "372 tall, stacked"
+    },
+    "810": {
+      "image": "372 tall"
+    },
+    "1200": {
+      "columns": 2,
+      "image": "530 tall"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "130",
+        "quote": "relative h-[372px] p-3 lg:h-[530px]"
+      }
+    ]
+  },
+  "notes": "KNOWN GAP: LottiePlayer has no prefers-reduced-motion handling in src; recorded honestly as 'no-reduced-motion-handling'."
+}

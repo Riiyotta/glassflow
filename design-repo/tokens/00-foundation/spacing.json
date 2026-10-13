@@ -1,0 +1,94 @@
+{
+  "$description": "Recurring spacing values (px) from the real components.",
+  "gutter": {
+    "390": 0,
+    "810": 32,
+    "1200": 64,
+    "measuredFrom": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "10",
+        "quote": "w-full md:px-8 lg:px-16"
+      },
+      {
+        "path": "tailwind.config.js",
+        "lines": "61",
+        "quote": "gutter: '64px'"
+      }
+    ]
+  },
+  "spacer-band": {
+    "$value": 65,
+    "note": "65px inner + 1px top/bottom border = 67px band",
+    "measuredFrom": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "18",
+        "quote": "inner = 'h-[65px]'"
+      }
+    ]
+  },
+  "spacer-divider": {
+    "$value": 30,
+    "measuredFrom": [
+      {
+        "path": "src/pages/Tares.jsx",
+        "lines": "155",
+        "quote": "<Spacer inner=\"h-[30px]\" />"
+      }
+    ]
+  },
+  "spacer-top-calculator": {
+    "$value": 64,
+    "measuredFrom": [
+      {
+        "path": "src/pages/Calculator.jsx",
+        "lines": "12",
+        "quote": "<Spacer inner=\"h-[64px]\" />"
+      }
+    ]
+  },
+  "section-pad-y": {
+    "$value": 64,
+    "measuredFrom": [
+      {
+        "path": "src/components/Quickstart.jsx",
+        "lines": "97",
+        "quote": "px-6 py-16"
+      }
+    ]
+  },
+  "copy-panel-pad": {
+    "390": 32,
+    "810": 40,
+    "1200": 64,
+    "measuredFrom": [
+      {
+        "path": "src/components/Product.jsx",
+        "lines": "15",
+        "quote": "p-8 md:p-10 lg:h-[671px] lg:p-16"
+      }
+    ]
+  },
+  "button-frame-pad": {
+    "$value": 4,
+    "measuredFrom": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "47",
+        "quote": "btn-primary inline-flex h-[52px] shrink-0 gap-2 bg-amber p-1"
+      }
+    ]
+  },
+  "inset-column": {
+    "$value": 128,
+    "note": "FAQ/timeline/cta-xs pulled in 128px each side at lg",
+    "measuredFrom": [
+      {
+        "path": "src/components/Faq.jsx",
+        "lines": "51",
+        "quote": "inset ? 'lg:px-[128px]'"
+      }
+    ]
+  }
+}

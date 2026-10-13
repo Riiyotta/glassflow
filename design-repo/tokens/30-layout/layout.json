@@ -1,0 +1,33 @@
+{
+  "shell": {
+    "contentWidthAt1440": 1312,
+    "gutters": "tokens/00-foundation/spacing.json#gutter",
+    "columnLines": "1px line at both column edges >=810 (overlay)",
+    "measuredFrom": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "8",
+        "quote": "export function Shell"
+      },
+      {
+        "path": "src/index.css",
+        "lines": "55",
+        "quote": ".shell-lines::after {"
+      }
+    ]
+  },
+  "grids": {
+    "footer-cta": "1 col / md 2 col / lg 662fr 325fr 325fr",
+    "product-split": "1 col / lg 2 col",
+    "blog-grid": "1 col / md 2 col / lg 3 col, gap 8",
+    "team": "2 col / lg 3 col",
+    "investors": "3 col / lg 5 col",
+    "legacy-category": "1 col / md 2 / lg 3, max 1220"
+  },
+  "maxWidths": {
+    "legal-article": 620,
+    "legacy-content": 1220,
+    "alternatives-arize": 1200,
+    "alternatives-langfuse": 1234
+  }
+}

@@ -1,0 +1,188 @@
+- generic [ref=f241e3]:
+  - heading "Use Cases" [level=1] [ref=f241e9]
+  - generic [ref=f241e13]:
+    - link "Use Cases Real-time AI powered price recommendation Real-time Price Recommendations Using AI and Data Transformation Written by read article read article" [ref=f241e16] [cursor=pointer]:
+      - /url: ../blog/real-time-ai-price-recommendations-car-dealerships
+      - generic [ref=f241e26]:
+        - paragraph [ref=f241e30]: Use Cases
+        - paragraph [ref=f241e32]: Real-time AI powered price recommendation
+        - paragraph [ref=f241e34]: Real-time Price Recommendations Using AI and Data Transformation
+      - paragraph [ref=f241e38]: Written by
+      - link [ref=f241e41]:
+        - generic [ref=f241e44]:
+          - paragraph [ref=f241e46]: read article
+          - paragraph [ref=f241e48]: read article
+    - link "Use Cases Real-time Clickstream Analytics Real-time Clickstream Analytics Using AI and Data Transformation Written by read article read article" [ref=f241e51] [cursor=pointer]:
+      - /url: ../blog/real-time-clickstream-analytics
+      - generic [ref=f241e61]:
+        - paragraph [ref=f241e65]: Use Cases
+        - paragraph [ref=f241e67]: Real-time Clickstream Analytics
+        - paragraph [ref=f241e69]: Real-time Clickstream Analytics Using AI and Data Transformation
+      - paragraph [ref=f241e73]: Written by
+      - link [ref=f241e76]:
+        - generic [ref=f241e79]:
+          - paragraph [ref=f241e81]: read article
+          - paragraph [ref=f241e83]: read article
+    - link "Use Cases Real-time data anomaly detection and alerting Data anomaly detection and alerting using GlassFlow, OpenAI, and Slack. Written by read article read article" [ref=f241e86] [cursor=pointer]:
+      - /url: ../blog/real-time-data-anomaly-detection-alerting-glassflow-openai-slack
+      - generic [ref=f241e96]:
+        - paragraph [ref=f241e100]: Use Cases
+        - paragraph [ref=f241e102]: Real-time data anomaly detection and alerting
+        - paragraph [ref=f241e104]: Data anomaly detection and alerting using GlassFlow, OpenAI, and Slack.
+      - paragraph [ref=f241e108]: Written by
+      - link [ref=f241e111]:
+        - generic [ref=f241e114]:
+          - paragraph [ref=f241e116]: read article
+          - paragraph [ref=f241e118]: read article
+    - link "Use Cases Real-time Fleet Management for Car Sharing Services Car Sharing Fleet Management with Real-time Fuel Monitoring and Discounts Written by read article read article" [ref=f241e121] [cursor=pointer]:
+      - /url: ../blog/real-time-fleet-management-car-sharing-fuel-monitoring-discounts
+      - generic [ref=f241e131]:
+        - paragraph [ref=f241e135]: Use Cases
+        - paragraph [ref=f241e137]: Real-time Fleet Management for Car Sharing Services
+        - paragraph [ref=f241e139]: Car Sharing Fleet Management with Real-time Fuel Monitoring and Discounts
+      - paragraph [ref=f241e143]: Written by
+      - link [ref=f241e146]:
+        - generic [ref=f241e149]:
+          - paragraph [ref=f241e151]: read article
+          - paragraph [ref=f241e153]: read article
+    - link "Use Cases Real-time Generative Feedback Loop Automation with GlassFlow, Supabase, and Weaviate Enhancing Airbnb Listings with Real-time Generative Feedback Loop Automation Written by read article read article" [ref=f241e156] [cursor=pointer]:
+      - /url: ../blog/real-time-generative-feedback-loop-automation-with-glass-flow-supabase-and-weaviate
+      - generic [ref=f241e166]:
+        - paragraph [ref=f241e170]: Use Cases
+        - paragraph [ref=f241e172]: Real-time Generative Feedback Loop Automation with GlassFlow, Supabase, and Weaviate
+        - paragraph [ref=f241e174]: Enhancing Airbnb Listings with Real-time Generative Feedback Loop Automation
+      - paragraph [ref=f241e178]: Written by
+      - link [ref=f241e181]:
+        - generic [ref=f241e184]:
+          - paragraph [ref=f241e186]: read article
+          - paragraph [ref=f241e188]: read article
+    - 'link "Use Cases Anomaly Detection: A Beginners Guide Explore this complete anomaly detection guide Written by read article read article" [ref=f241e191] [cursor=pointer]':
+      - /url: ../blog/anomaly-detection-complete-guide
+      - generic [ref=f241e201]:
+        - paragraph [ref=f241e205]: Use Cases
+        - paragraph [ref=f241e207]: "Anomaly Detection: A Beginners Guide"
+        - paragraph [ref=f241e209]: Explore this complete anomaly detection guide
+      - paragraph [ref=f241e213]: Written by
+      - link [ref=f241e216]:
+        - generic [ref=f241e219]:
+          - paragraph [ref=f241e221]: read article
+          - paragraph [ref=f241e223]: read article
+    - 'link "Use Cases Comparison of Event-Driven Data Pipeline Providers: Why GlassFlow is Built for AI Startups How the most popular tools fit the needs of AI startups Written by read article read article" [ref=f241e226] [cursor=pointer]':
+      - /url: ../blog/comparison-of-event-driven-data-pipeline-providers-why-glass-flow-is-built-for-ai-startups
+      - generic [ref=f241e236]:
+        - paragraph [ref=f241e240]: Use Cases
+        - paragraph [ref=f241e242]: "Comparison of Event-Driven Data Pipeline Providers: Why GlassFlow is Built for AI Startups"
+        - paragraph [ref=f241e244]: How the most popular tools fit the needs of AI startups
+      - paragraph [ref=f241e248]: Written by
+      - link [ref=f241e251]:
+        - generic [ref=f241e254]:
+          - paragraph [ref=f241e256]: read article
+          - paragraph [ref=f241e258]: read article
+    - link "Use Cases How to enrich classified ads in real-time using AI, GlassFlow, and Langchain Supercharge Your Classified Ads with Real-time Data Enrichment Written by read article read article" [ref=f241e261] [cursor=pointer]:
+      - /url: ../blog/how-to-enrich-classified-ads-in-real-time-using-ai-glassflow-and-langchain
+      - generic [ref=f241e271]:
+        - paragraph [ref=f241e275]: Use Cases
+        - paragraph [ref=f241e277]: How to enrich classified ads in real-time using AI, GlassFlow, and Langchain
+        - paragraph [ref=f241e279]: Supercharge Your Classified Ads with Real-time Data Enrichment
+      - paragraph [ref=f241e283]: Written by
+      - link [ref=f241e286]:
+        - generic [ref=f241e289]:
+          - paragraph [ref=f241e291]: read article
+          - paragraph [ref=f241e293]: read article
+    - link "Use Cases Why event-driven data pipelines are important for AI applications Event-driven data pipeline is the secret sauce for AI application success Written by read article read article" [ref=f241e296] [cursor=pointer]:
+      - /url: ../blog/why-event-driven-data-pipelines-for-ai-applications
+      - generic [ref=f241e306]:
+        - paragraph [ref=f241e310]: Use Cases
+        - paragraph [ref=f241e312]: Why event-driven data pipelines are important for AI applications
+        - paragraph [ref=f241e314]: Event-driven data pipeline is the secret sauce for AI application success
+      - paragraph [ref=f241e318]: Written by
+      - link [ref=f241e321]:
+        - generic [ref=f241e324]:
+          - paragraph [ref=f241e326]: read article
+          - paragraph [ref=f241e328]: read article
+  - generic [ref=f241e331]:
+    - link [ref=f241e332] [cursor=pointer]:
+      - /url: ../
+      - link [ref=f241e334]:
+        - /url: ../
+    - generic [ref=f241e337]:
+      - generic [ref=f241e338]:
+        - paragraph [ref=f241e342]:
+          - link "Product" [ref=f241e343] [cursor=pointer]:
+            - /url: ../product
+        - paragraph [ref=f241e350]:
+          - link "Case Studies" [ref=f241e351] [cursor=pointer]:
+            - /url: ../case-studies
+        - paragraph [ref=f241e353]:
+          - link "Pricing" [ref=f241e354] [cursor=pointer]:
+            - /url: ../rius/pricing
+        - paragraph [ref=f241e358]:
+          - link "Resources" [ref=f241e359] [cursor=pointer]:
+            - /url: ../product
+        - paragraph [ref=f241e366]:
+          - link "Contact" [ref=f241e367] [cursor=pointer]:
+            - /url: ../contact
+      - link "Star glassflow/clickhouse-etl on GitHub" [ref=f241e370] [cursor=pointer]:
+        - /url: https://github.com/glassflow/clickhouse-etl
+        - text: clickhouse-etl
+  - generic [ref=f241e376]:
+    - generic [ref=f241e377]:
+      - heading "Data transformations at TB scale for ClickHouse" [level=2] [ref=f241e379]
+      - paragraph [ref=f241e382]: Get query ready data, lower ClickHouse load, and reliable pipelines at enterprise scale.
+    - generic [ref=f241e383]:
+      - link "G e t i n T o u c h G e t i n T o u c h" [ref=f241e385] [cursor=pointer]:
+        - /url: https://cal.com/team/glassflow-founders/founders
+        - generic [ref=f241e386]:
+          - generic [ref=f241e387]: G
+          - generic [ref=f241e389]: e
+          - generic [ref=f241e391]: t
+          - generic [ref=f241e393]: i
+          - generic [ref=f241e395]: "n"
+          - generic [ref=f241e397]: T
+          - generic [ref=f241e399]: o
+          - generic [ref=f241e401]: u
+          - generic [ref=f241e403]: c
+          - generic [ref=f241e405]: h
+        - generic:
+          - generic: G
+          - generic: e
+          - generic: t
+          - generic: i
+          - generic: "n"
+          - generic: T
+          - generic: o
+          - generic: u
+          - generic: c
+          - generic: h
+      - link "E x p l o r e t h e c o d e E x p l o r e t h e c o d e" [ref=f241e408] [cursor=pointer]:
+        - /url: https://github.com/glassflow/clickhouse-etl
+        - generic [ref=f241e409]:
+          - generic [ref=f241e410]: E
+          - generic [ref=f241e412]: x
+          - generic [ref=f241e414]: p
+          - generic [ref=f241e416]: l
+          - generic [ref=f241e418]: o
+          - generic [ref=f241e420]: r
+          - generic [ref=f241e422]: e
+          - generic [ref=f241e424]: t
+          - generic [ref=f241e426]: h
+          - generic [ref=f241e428]: e
+          - generic [ref=f241e430]: c
+          - generic [ref=f241e432]: o
+          - generic [ref=f241e434]: d
+          - generic [ref=f241e436]: e
+        - generic:
+          - generic: E
+          - generic: x
+          - generic: p
+          - generic: l
+          - generic: o
+          - generic: r
+          - generic: e
+          - generic: t
+          - generic: h
+          - generic: e
+          - generic: c
+          - generic: o
+          - generic: d
+          - generic: e

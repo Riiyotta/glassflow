@@ -1,0 +1,601 @@
+{
+  "id": "onboarding.quickstart-band",
+  "family": "mars",
+  "category": "onboarding",
+  "purpose": "Centred heading/sub over the quickstart texture, followed by product cards or custom cards (calendar / discover).",
+  "variants": {
+    "home-two-cards": "home: rius + tares cards",
+    "rius-one-card": "/rius: rius card without start button",
+    "contact-calendar": "/contact: cal.com embed + founder cells",
+    "about-discover": "/about: careers + blog cards"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/Quickstart.jsx",
+      "lines": "92-118",
+      "quote": "export default function Quickstart"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "cards": "stacked full width"
+    },
+    "810": {
+      "cards": "490px cards stacked/centred"
+    },
+    "1200": {
+      "cards": "row, stretch"
+    },
+    "evidence": [
+      {
+        "path": "src/components/Quickstart.jsx",
+        "lines": "109",
+        "quote": "flex w-full flex-col items-center justify-center gap-2 lg:flex-row lg:items-stretch"
+      }
+    ]
+  },
+  "contentByVariant": {
+    "home-two-cards": {
+      "type": "object",
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 10
+        },
+        "highlight": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 3
+        },
+        "sub": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 18
+          },
+          "minItems": 1,
+          "maxItems": 2
+        },
+        "cards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "product": {
+                "enum": [
+                  "rius",
+                  "tares"
+                ]
+              },
+              "pitch": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 20
+                },
+                "minItems": 1,
+                "maxItems": 2
+              },
+              "bullets": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxWords": 4
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxWords": 10
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "text"
+                  ]
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "docsLink": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 5
+                  },
+                  "href": {
+                    "type": "string",
+                    "minLength": 1,
+                    "x-linkField": true,
+                    "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "href"
+                ]
+              },
+              "startLink": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 4
+                  },
+                  "href": {
+                    "type": "string",
+                    "minLength": 1,
+                    "x-linkField": true,
+                    "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "href"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "product",
+              "pitch",
+              "bullets",
+              "docsLink"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "background": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "texture.dither-field"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "heading",
+        "highlight",
+        "sub",
+        "cards",
+        "background"
+      ]
+    },
+    "rius-one-card": {
+      "type": "object",
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 10
+        },
+        "highlight": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 3
+        },
+        "sub": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 18
+          },
+          "minItems": 1,
+          "maxItems": 2
+        },
+        "cards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "product": {
+                "enum": [
+                  "rius",
+                  "tares"
+                ]
+              },
+              "pitch": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "maxWords": 20
+                },
+                "minItems": 1,
+                "maxItems": 2
+              },
+              "bullets": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxWords": 4
+                    },
+                    "text": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxWords": 10
+                    }
+                  },
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "text"
+                  ]
+                },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "docsLink": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 5
+                  },
+                  "href": {
+                    "type": "string",
+                    "minLength": 1,
+                    "x-linkField": true,
+                    "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "href"
+                ]
+              },
+              "startLink": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 4
+                  },
+                  "href": {
+                    "type": "string",
+                    "minLength": 1,
+                    "x-linkField": true,
+                    "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "href"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "product",
+              "pitch",
+              "bullets",
+              "docsLink"
+            ]
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "background": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "texture.dither-field"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "heading",
+        "highlight",
+        "sub",
+        "cards",
+        "background"
+      ]
+    },
+    "contact-calendar": {
+      "type": "object",
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 8
+        },
+        "sub": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 22
+          },
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "calendarEmbed": {
+          "type": "object",
+          "properties": {
+            "linkKind": {
+              "const": "external-embed"
+            },
+            "src": {
+              "type": "string",
+              "pattern": "^https://app\\.cal\\.com/"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "linkKind",
+            "src"
+          ]
+        },
+        "founders": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              },
+              "role": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              },
+              "avatar": {
+                "type": "object",
+                "properties": {
+                  "assetRole": {
+                    "enum": [
+                      "person.real-photo"
+                    ]
+                  },
+                  "ref": {
+                    "type": "string",
+                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                    "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  },
+                  "alt": {
+                    "type": "string",
+                    "maxWords": 14
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "assetRole",
+                  "ref",
+                  "alt"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "role",
+              "avatar"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "background": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "texture.dither-field"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "heading",
+        "sub",
+        "calendarEmbed",
+        "founders",
+        "background"
+      ]
+    },
+    "about-discover": {
+      "type": "object",
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 4
+        },
+        "cards": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 2
+              },
+              "image": {
+                "type": "object",
+                "properties": {
+                  "assetRole": {
+                    "enum": [
+                      "texture.dither-field",
+                      "scene.mars-figurative"
+                    ]
+                  },
+                  "ref": {
+                    "type": "string",
+                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                    "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  },
+                  "alt": {
+                    "type": "string",
+                    "maxWords": 14
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "assetRole",
+                  "ref",
+                  "alt"
+                ]
+              },
+              "text": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 16
+              },
+              "link": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 4
+                  },
+                  "href": {
+                    "type": "string",
+                    "minLength": 1,
+                    "x-linkField": true,
+                    "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "label",
+                  "href"
+                ]
+              }
+            },
+            "additionalProperties": false,
+            "required": [
+              "label",
+              "image",
+              "text",
+              "link"
+            ]
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "background": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "texture.dither-field"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "heading",
+        "cards",
+        "background"
+      ]
+    }
+  }
+}

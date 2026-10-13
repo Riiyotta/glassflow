@@ -1,0 +1,274 @@
+- generic [ref=f32e3]:
+  - generic [ref=f32e8]:
+    - link [ref=f32e9] [cursor=pointer]:
+      - /url: ../
+    - generic [ref=f32e13]:
+      - paragraph [ref=f32e17]: products
+      - link [ref=f32e22] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f32e25]: docs
+      - link [ref=f32e26] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=f32e29]: blog
+      - link [ref=f32e30] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f32e33]: contact
+    - link [ref=f32e35] [cursor=pointer]:
+      - /url: ../#quickstart
+      - paragraph [ref=f32e38]: get_started
+  - generic [ref=f32e43]:
+    - generic [ref=f32e46]:
+      - paragraph [ref=f32e53]:
+        - link "blog / …" [ref=f32e54] [cursor=pointer]:
+          - /url: ../blog
+      - generic [ref=f32e59]:
+        - generic [ref=f32e60]:
+          - generic [ref=f32e64]:
+            - paragraph [ref=f32e68] [cursor=pointer]: Product Updates
+            - heading "Announcing our $4.8m seed round" [level=1] [ref=f32e70]:
+              - generic [ref=f32e71]: Announcing
+              - generic [ref=f32e72]: our
+              - generic [ref=f32e73]: $4.8m
+              - generic [ref=f32e74]: seed
+              - generic [ref=f32e75]: round
+            - paragraph [ref=f32e77]:
+              - generic [ref=f32e78]:
+                - generic [ref=f32e79]: G
+                - generic [ref=f32e80]: l
+                - generic [ref=f32e81]: a
+                - generic [ref=f32e82]: s
+                - generic [ref=f32e83]: s
+                - generic [ref=f32e84]: F
+                - generic [ref=f32e85]: l
+                - generic [ref=f32e86]: o
+                - generic [ref=f32e87]: w
+              - generic [ref=f32e88]:
+                - generic [ref=f32e89]: h
+                - generic [ref=f32e90]: a
+                - generic [ref=f32e91]: s
+              - generic [ref=f32e92]:
+                - generic [ref=f32e93]: s
+                - generic [ref=f32e94]: u
+                - generic [ref=f32e95]: c
+                - generic [ref=f32e96]: c
+                - generic [ref=f32e97]: e
+                - generic [ref=f32e98]: s
+                - generic [ref=f32e99]: s
+                - generic [ref=f32e100]: f
+                - generic [ref=f32e101]: u
+                - generic [ref=f32e102]: l
+                - generic [ref=f32e103]: l
+                - generic [ref=f32e104]: "y"
+              - generic [ref=f32e105]:
+                - generic [ref=f32e106]: r
+                - generic [ref=f32e107]: a
+                - generic [ref=f32e108]: i
+                - generic [ref=f32e109]: s
+                - generic [ref=f32e110]: e
+                - generic [ref=f32e111]: d
+              - generic [ref=f32e112]:
+                - generic [ref=f32e113]: i
+                - generic [ref=f32e114]: t
+                - generic [ref=f32e115]: s
+              - generic [ref=f32e116]:
+                - generic [ref=f32e117]: s
+                - generic [ref=f32e118]: e
+                - generic [ref=f32e119]: e
+                - generic [ref=f32e120]: d
+              - generic [ref=f32e121]:
+                - generic [ref=f32e122]: r
+                - generic [ref=f32e123]: o
+                - generic [ref=f32e124]: u
+                - generic [ref=f32e125]: "n"
+                - generic [ref=f32e126]: d
+                - generic [ref=f32e127]: .
+              - generic [ref=f32e128]:
+                - generic [ref=f32e129]: L
+                - generic [ref=f32e130]: e
+                - generic [ref=f32e131]: a
+                - generic [ref=f32e132]: r
+                - generic [ref=f32e133]: "n"
+              - generic [ref=f32e134]:
+                - generic [ref=f32e135]: m
+                - generic [ref=f32e136]: o
+                - generic [ref=f32e137]: r
+                - generic [ref=f32e138]: e
+              - generic [ref=f32e139]:
+                - generic [ref=f32e140]: a
+                - generic [ref=f32e141]: b
+                - generic [ref=f32e142]: o
+                - generic [ref=f32e143]: u
+                - generic [ref=f32e144]: t
+              - generic [ref=f32e145]:
+                - generic [ref=f32e146]: o
+                - generic [ref=f32e147]: u
+                - generic [ref=f32e148]: r
+              - generic [ref=f32e149]:
+                - generic [ref=f32e150]: j
+                - generic [ref=f32e151]: o
+                - generic [ref=f32e152]: u
+                - generic [ref=f32e153]: r
+                - generic [ref=f32e154]: "n"
+                - generic [ref=f32e155]: e
+                - generic [ref=f32e156]: "y"
+                - generic [ref=f32e157]: .
+          - generic [ref=f32e159]:
+            - generic [ref=f32e165]:
+              - paragraph [ref=f32e167]: Written by
+              - paragraph [ref=f32e171]: Armend Avdijaj
+            - generic [ref=f32e177]:
+              - paragraph [ref=f32e179]: Date added
+              - paragraph [ref=f32e181]:
+                - time [ref=f32e182]: Oct 28, 2024
+        - img "Glassflow raised seed round" [ref=f32e190]
+    - generic [ref=f32e196]:
+      - paragraph [ref=f32e197]:
+        - text: Today, we’re over the moon to share some huge news –
+        - strong [ref=f32e198]: GlassFlow has officially raised its seed round!
+        - text: This journey has been intense, rewarding, and so much bigger than we ever imagined when we first set out. Our round was led by the amazing team at Upfront Ventures, with support from High-Tech Gründerfonds, Robin Capital, TinyVC, and a group of excellent angels from Weaviate, Redis, Sentry, Atlar, Sequence, and many more.
+      - heading "The (Many) Pain Points That Led Us Here" [level=2] [ref=f32e199]
+      - paragraph [ref=f32e200]: "This all started in early 2023 when Ashish and I were in a room with our friend, telling us all the horror stories he experienced when building applications that heavily depend on data streaming. As he shared story after story, we realized that our (painful) experience with event-driven pipelines wasn’t unique. So that was it; we knew we had to tackle this for real, and we poured ourselves into building GlassFlow: The Python solution for event-driven data pipelines."
+      - paragraph [ref=f32e201]: "We knew the pain out there. Data teams everywhere are up against big challenges just to keep up with the demands of event-driven applications: AI recommendations, predictive maintenance, dynamic pricing, and more. Building and maintaining pipelines that can handle this data flow isn’t just a technical challenge – it’s a massive drain on resources and time. Mid-size companies easily spend 6–9 months getting a setup running, with their data engineers spending half their time on maintenance alone."
+      - heading "The Problem? Most Tools aren’t built for data people" [level=2] [ref=f32e202]
+      - paragraph [ref=f32e203]: "Most existing tools are geared for languages like Java and Scala, putting backend engineers and the DevOps team at the pole position in creating event pipelines. That’s totally fine, as long as the pipelines are only focused on event distribution, but when it comes to data-driven use cases, those are mainly built and managed by data teams, and they live clearly in the Python world (the #1 program language in data). Now you can imagine what's happening. Python devs are forced to create their own inefficient, hard-to-maintain solutions. That's the moment GlassFlow enters the room."
+      - 'heading "GlassFlow: The Event-Driven Pipeline Platform Built Just for Python Devs" [level=2] [ref=f32e204]'
+      - paragraph [ref=f32e205]: For us, it was clear. When we build a solution for event-driven data pipelines, it needs to be in Python. Python devs who don’t want to spend months managing infrastructure. With GlassFlow, you get a fully managed, Python-native streaming platform. That means serverless execution, pre-built connectors, and instant setup, which lets data teams get full pipelines up and running in minutes. It’s designed to help Python developers focus on their ideas, not infrastructure headaches.
+      - heading "Users are getting updated from batch to stream in no time" [level=2] [ref=f32e206]
+      - paragraph [ref=f32e207]: When talking to our users, one pattern was very clear. The reason why they want to use GlassFlow is the promise of being able to realize use cases much quicker than ever before. How often have we heard data engineers telling us that they can’t get the approvals from the management because seeing the ROI will take too long? So, their brilliant ideas are getting deprioritized again and again. With a solution built from scratch with simplicity in mind, new possibilities are being created. Nearly everyone in the data team can create event-driven pipelines and realize those use cases. Bringing the data stack of the teams from batch to streaming in no time.
+      - heading "So, What’s Next for Us?" [level=2] [ref=f32e208]
+      - paragraph [ref=f32e209]: "With this new funding and our incredible team, we have what we need to take GlassFlow even further. We’re working on some very cool updates: letting teams host GlassFlow on their own cloud, adding new transformation functions, and rethinking the experience to make event streaming easier than ever. This is just the start, and we can’t wait to share what’s next with you."
+      - paragraph [ref=f32e210]: With all the excitement,
+      - paragraph [ref=f32e211]: GlassFlow Founders
+      - paragraph [ref=f32e212]
+      - img "GlassFlow Founders Armend and Ashish together.jpg" [ref=f32e213]
+    - generic [ref=f32e218]:
+      - heading "Share the article" [level=2] [ref=f32e225]
+      - generic [ref=f32e228]:
+        - button "Share on X" [ref=f32e229] [cursor=pointer]
+        - button "Share on Facebook" [ref=f32e232] [cursor=pointer]
+        - button "Share on LinkedIn" [ref=f32e235] [cursor=pointer]
+        - button "Share on Reddit" [ref=f32e238] [cursor=pointer]
+        - button "Copy link" [ref=f32e241] [cursor=pointer]
+        - button "Share" [ref=f32e245] [cursor=pointer]
+    - generic [ref=f32e251]:
+      - paragraph [ref=f32e255]: You might also like
+      - generic [ref=f32e257]:
+        - link [ref=f32e258] [cursor=pointer]:
+          - /url: ./fraud-detection-pipelines-kafka-glassflow-clickhouse
+          - link [ref=f32e261]:
+            - generic [ref=f32e267]:
+              - img "Fraud detection pipeline, Fraud detection use case, fraud detection, Kafka, GlassFlow, ClickHouse, stream processing, data pipelines, anomaly detection" [ref=f32e271]
+              - generic [ref=f32e272]:
+                - paragraph [ref=f32e276]: Tutorials
+                - paragraph [ref=f32e278]: Fraud Detection Pipelines with Kafka, Glassflow, and ClickHouse
+                - paragraph [ref=f32e280]: A demo using GlassFlow to deduplicate and filter Kafka events before they reach ClickHouse for real-time fraud detection.
+            - generic [ref=f32e281]:
+              - paragraph [ref=f32e284]: Written by
+              - paragraph [ref=f32e289]: Armend Avdijaj
+            - link [ref=f32e290]:
+              - generic [ref=f32e293]:
+                - paragraph [ref=f32e295]: read article
+                - paragraph [ref=f32e297]: read article
+        - link [ref=f32e298] [cursor=pointer]:
+          - /url: ./glassflow-now-scales-to-500k-events-per-sec
+          - link [ref=f32e301]:
+            - generic [ref=f32e307]:
+              - img "GlassFlow performance, ClickHouse ingestion, Kafka to ClickHouse, data transformations, ClickHouse sink connector" [ref=f32e311]
+              - generic [ref=f32e312]:
+                - paragraph [ref=f32e316]: Product Updates
+                - paragraph [ref=f32e318]: GlassFlow Streaming ETL now scales to 500k+ Events/Sec with zero changes to your existing pipeline
+                - paragraph [ref=f32e320]: Teams kept asking if Glassflow would scale, so we rebuilt it to grow from small to massive workloads without changing your pipeline.
+            - generic [ref=f32e321]:
+              - paragraph [ref=f32e324]: Written by
+              - paragraph [ref=f32e329]: Armend Avdijaj
+            - link [ref=f32e330]:
+              - generic [ref=f32e333]:
+                - paragraph [ref=f32e335]: read article
+                - paragraph [ref=f32e337]: read article
+        - link [ref=f32e338] [cursor=pointer]:
+          - /url: ./handle-semi-structured-data-log-pipelines
+          - link "Engineering How to Handle Semi-Structured Data in Your Log Pipelines Turn messy logs into analytics-ready data with GlassFlow & ClickHouse. Written by Armend Avdijaj read article read article" [ref=f32e341]:
+            - generic [ref=f32e351]:
+              - paragraph [ref=f32e355]: Engineering
+              - paragraph [ref=f32e357]: How to Handle Semi-Structured Data in Your Log Pipelines
+              - paragraph [ref=f32e359]: Turn messy logs into analytics-ready data with GlassFlow & ClickHouse.
+            - generic [ref=f32e360]:
+              - paragraph [ref=f32e363]: Written by
+              - paragraph [ref=f32e368]: Armend Avdijaj
+            - link [ref=f32e369]:
+              - generic [ref=f32e372]:
+                - paragraph [ref=f32e374]: read article
+                - paragraph [ref=f32e376]: read article
+    - generic [ref=f32e383]:
+      - generic [ref=f32e384]:
+        - paragraph [ref=f32e386]: Two products. Two starting points.
+        - generic [ref=f32e387]:
+          - paragraph [ref=f32e388]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and
+          - paragraph [ref=f32e389]: retention, from first span to production.
+      - generic [ref=f32e390]:
+        - link [ref=f32e392] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+          - paragraph [ref=f32e397]: star Tares on GitHub
+        - link [ref=f32e399] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/guides
+          - paragraph [ref=f32e404]: read the Rius guides
+  - generic [ref=f32e409]:
+    - generic [ref=f32e411]:
+      - paragraph [ref=f32e415]: Ready to give your agents better data and total recall?
+      - generic [ref=f32e416]:
+        - generic [ref=f32e419]:
+          - generic [ref=f32e420]:
+            - paragraph [ref=f32e422]: Start with Tares
+            - paragraph [ref=f32e424]: Feed your agents the right data.
+          - link [ref=f32e426] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f32e431]: get_started
+        - generic [ref=f32e438]:
+          - generic [ref=f32e439]:
+            - paragraph [ref=f32e441]: Start with Rius
+            - paragraph [ref=f32e443]: See and debug agents in production.
+          - link [ref=f32e445] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f32e450]: get_started
+    - generic [ref=f32e456]:
+      - generic [ref=f32e458]:
+        - paragraph [ref=f32e465]: products
+        - generic [ref=f32e470]:
+          - link [ref=f32e471] [cursor=pointer]:
+            - /url: ../tares
+            - generic [ref=f32e476]:
+              - paragraph [ref=f32e478]: tares
+              - paragraph [ref=f32e480]: Feed your agents the right data. Open source
+          - link [ref=f32e481] [cursor=pointer]:
+            - /url: ../rius
+            - generic [ref=f32e486]:
+              - paragraph [ref=f32e488]: rius
+              - paragraph [ref=f32e490]: See what your agents did in production.
+      - generic [ref=f32e491]:
+        - link [ref=f32e492] [cursor=pointer]:
+          - /url: ../contact
+          - paragraph [ref=f32e498]: contact
+        - link [ref=f32e499] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f32e505]: docs
+        - link [ref=f32e506] [cursor=pointer]:
+          - /url: ../blog
+          - paragraph [ref=f32e512]: blog
+        - link [ref=f32e513] [cursor=pointer]:
+          - /url: ../about
+          - paragraph [ref=f32e519]: about
+      - generic [ref=f32e520]:
+        - link [ref=f32e521] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f32e523] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f32e525] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f32e528]:
+      - paragraph [ref=f32e530]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f32e532]:
+        - link "Terms & Conditions" [ref=f32e533] [cursor=pointer]:
+          - /url: ../terms-of-service
+      - paragraph [ref=f32e535]:
+        - link "Privacy Policy" [ref=f32e536] [cursor=pointer]:
+          - /url: ../privacy-policy

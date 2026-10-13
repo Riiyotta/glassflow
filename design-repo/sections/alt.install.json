@@ -1,0 +1,80 @@
+{
+  "id": "alt.install",
+  "family": "mars",
+  "category": "onboarding",
+  "purpose": "Install steps (arize only).",
+  "variants": {
+    "arize": "arize data",
+    "langfuse": "langfuse data"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Alternatives.jsx",
+      "lines": "633-639",
+      "quote": "function Install({ slug })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 10
+      },
+      "steps": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 8
+            },
+            "code": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 30
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "title"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 6
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "steps"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "single column, 16px section padding"
+    },
+    "810": {
+      "layout": "64px section padding"
+    },
+    "1200": {
+      "layout": "max 1200 (arize) / 1234 (langfuse)"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "291",
+        "quote": "px-4 md:px-16"
+      }
+    ]
+  },
+  "notes": "Native rebuild of the live iframe template; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
+}

@@ -1,0 +1,222 @@
+- generic [ref=f58e3]:
+  - banner [ref=f58e4]:
+    - navigation [ref=f58e5]:
+      - generic [ref=f58e6]:
+        - link "GlassFlow home" [ref=f58e7] [cursor=pointer]:
+          - /url: /
+          - img "GlassFlow" [ref=f58e8]
+        - link "products" [ref=f58e10] [cursor=pointer]:
+          - /url: "#"
+        - link "docs" [ref=f58e13] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f58e14] [cursor=pointer]:
+          - /url: /blog
+        - link "contact" [ref=f58e15] [cursor=pointer]:
+          - /url: /contact
+      - link "get_started" [ref=f58e16] [cursor=pointer]:
+        - /url: https://console.tares-glassflow.com/?utm_source=button&utm_medium=website&utm_campaign=hp_start_cta
+  - main [ref=f58e18]:
+    - generic [ref=f58e30]:
+      - heading "Tares is open-source platform for always-on AI agents" [level=1] [ref=f58e31]:
+        - generic [ref=f58e32]: Tares
+        - generic [ref=f58e33]: is
+        - generic [ref=f58e34]: open-source
+        - generic [ref=f58e35]: platform
+        - generic [ref=f58e36]: for
+        - generic [ref=f58e37]: always-on
+        - generic [ref=f58e38]: AI
+        - generic [ref=f58e39]: agents
+      - paragraph [ref=f58e41]: "Chat agents wait for a prompt. Tares agents wait for an event: every event from you systems lands on the timeline per thing, a trigger wakes an agent the moment it matters, and the finding it writes back is there for the next reader."
+      - generic [ref=f58e42]:
+        - link "sart on the cloud" [ref=f58e43] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+        - link "run it yourself" [ref=f58e47] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/tares/quickstart
+    - heading "What teams build with it" [level=2] [ref=f58e56]
+    - generic [ref=f58e58]:
+      - generic [ref=f58e60]:
+        - heading "An AI SRE" [level=3] [ref=f58e61]
+        - paragraph [ref=f58e63]: An alert fires; the agent reads the service's whole timeline and writes the diagnosis before anyone opens a dashboard.
+      - generic [ref=f58e65]:
+        - heading "A context repo that stays current" [level=3] [ref=f58e66]
+        - paragraph [ref=f58e68]: Commits land; when a change matters to the team, the agent opens a pull request against the shared context repository.
+      - generic [ref=f58e70]:
+        - heading "A triage agent for anything that runs" [level=3] [ref=f58e71]
+        - paragraph [ref=f58e73]: "Failed jobs, sandbox runs, voice calls: each gets a timeline, a trigger on failure, and a finding that says what broke."
+      - generic [ref=f58e75]:
+        - heading "A better read path for the agents you have" [level=3] [ref=f58e76]
+        - paragraph [ref=f58e78]: Claude Code, Cursor, or your own loop asks one question and gets the correlated history of an entity instead of ten tool calls.
+    - generic [ref=f58e89]:
+      - heading "What is in Tares" [level=2] [ref=f58e90]:
+        - generic [ref=f58e91]: What
+        - generic [ref=f58e92]: is
+        - generic [ref=f58e93]: in
+        - generic [ref=f58e94]: Tares
+      - paragraph [ref=f58e96]: Everything here is a page in the console, editable there.
+      - generic [ref=f58e97]:
+        - button "01 Connect anything that emits events. Prometheus, logs, alert webhooks, GitHub, Postgres, Vercel, OpenTelemetry, or any webhook. Every event is keyed to the thing it is about, from a connector card or a pasted snippet of YAML connectors." [expanded] [ref=f58e98] [cursor=pointer]:
+          - generic [ref=f58e99]: "01"
+          - generic [ref=f58e100]:
+            - generic [ref=f58e101]: Connect anything that emits events.
+            - generic [ref=f58e102]: Prometheus, logs, alert webhooks, GitHub, Postgres, Vercel, OpenTelemetry, or any webhook. Every event is keyed to the thing it is about, from a connector card or a pasted snippet of YAML connectors.
+        - button "02 One timeline per entity, with triggers watching it." [ref=f58e103] [cursor=pointer]:
+          - generic [ref=f58e104]: "02"
+          - generic [ref=f58e105]: One timeline per entity, with triggers watching it.
+        - button "03 Agents that run inside Tares" [ref=f58e107] [cursor=pointer]:
+          - generic [ref=f58e108]: "03"
+          - generic [ref=f58e109]: Agents that run inside Tares
+        - button "04 Everything is available over MCP" [ref=f58e111] [cursor=pointer]:
+          - generic [ref=f58e112]: "04"
+          - generic [ref=f58e113]: Everything is available over MCP
+    - generic [ref=f58e122]:
+      - heading "From event to finding" [level=2] [ref=f58e123]
+      - generic [ref=f58e124]: One real incident on one service's timeline, minute by minute
+    - generic [ref=f58e126]:
+      - generic [ref=f58e128]:
+        - generic [ref=f58e129]:
+          - generic [ref=f58e130]: 02:03
+          - generic [ref=f58e131]: An event lands
+        - generic [ref=f58e133]:
+          - generic [ref=f58e134]: ">"
+          - generic [ref=f58e135]: logs POST /charge 600 “upstream retry limit” x214
+      - generic [ref=f58e137]:
+        - generic [ref=f58e138]:
+          - generic [ref=f58e139]: 02:11
+          - generic [ref=f58e140]:
+            - generic [ref=f58e141]: Your alerting decides
+            - generic [ref=f58e142]: Prometheus keeps owning the thresholds. Tares only reacts to what fired.
+        - generic [ref=f58e143]:
+          - generic [ref=f58e144]: ">"
+          - generic [ref=f58e145]: alerts HighCheckoutLatency firing saverity=page
+      - generic [ref=f58e147]:
+        - generic [ref=f58e148]:
+          - generic [ref=f58e149]: 02:11
+          - generic [ref=f58e150]:
+            - generic [ref=f58e151]: An event lands
+            - generic [ref=f58e152]: It saw the alert event land on the view it watches. A cooldown holds it there
+        - generic [ref=f58e153]:
+          - generic [ref=f58e154]: ">"
+          - generic [ref=f58e155]: logs POST /charge 600 “upstream retry limit” x214
+      - generic [ref=f58e157]:
+        - generic [ref=f58e158]:
+          - generic [ref=f58e159]: 02:11
+          - generic [ref=f58e160]:
+            - generic [ref=f58e161]: An event lands
+            - generic [ref=f58e162]: "One read: the last 90 seconds of metrics, logs, deploys and alerts for this service. Not the alert one."
+        - generic [ref=f58e163]:
+          - generic [ref=f58e164]: ">"
+          - generic [ref=f58e165]: read(api-server) → 47 events - 4 sources
+      - generic [ref=f58e167]:
+        - generic [ref=f58e168]:
+          - generic [ref=f58e169]: 02:14
+          - generic [ref=f58e170]:
+            - generic [ref=f58e171]: An event lands
+            - generic [ref=f58e172]: "Written back onto the timeline next to the evidence, and delivered to #incidents."
+        - generic [ref=f58e173]:
+          - generic [ref=f58e174]: ">"
+          - generic [ref=f58e175]:
+            - generic [ref=f58e176]: "Uncapped retries from the 01:50 deploy (PR #482)."
+            - generic [ref=f58e177]: Error rate and p99 follow the rollout window exactly.
+            - generic [ref=f58e178]: "Next: cap retries at 3, or roll back."
+      - generic [ref=f58e181]:
+        - generic [ref=f58e182]: Later
+        - generic [ref=f58e183]:
+          - generic [ref=f58e184]: An event lands
+          - generic [ref=f58e185]: The finding is an event too. The next investigation, humar or agent, opens with the last one’s conclusion.
+    - generic [ref=f58e191]:
+      - generic [ref=f58e192]:
+        - heading "Run it in two commands" [level=2] [ref=f58e193]
+        - generic [ref=f58e194]:
+          - paragraph [ref=f58e195]: The quickstart takes it from here. Rather not host it?
+          - paragraph [ref=f58e196]: Use the cloud.
+      - generic [ref=f58e197]:
+        - generic [ref=f58e204]:
+          - generic [ref=f58e205]:
+            - generic [ref=f58e206]: "#"
+            - generic [ref=f58e207]: daemon + console → http://127.0.0.1:8787
+          - generic [ref=f58e208]:
+            - generic [ref=f58e209]: ">"
+            - generic [ref=f58e210]: uv tool install tares
+          - generic [ref=f58e211]:
+            - generic [ref=f58e212]: ">"
+            - generic [ref=f58e213]: tares up
+        - generic [ref=f58e220]:
+          - generic [ref=f58e221]:
+            - generic [ref=f58e222]: "#"
+            - generic [ref=f58e223]: agent endpoint →http://localhost:8788/mcp
+          - generic [ref=f58e224]:
+            - generic [ref=f58e225]: ">"
+            - generic [ref=f58e226]: tares mcp
+          - generic [ref=f58e227]:
+            - generic [ref=f58e228]: ">"
+            - generic [ref=f58e229]:
+              - text: claude mcp add --transport http \
+              - generic [ref=f58e230]: tares http://localhost:8788/mcp
+    - generic [ref=f58e234]:
+      - heading "Common questions" [level=2] [ref=f58e236]
+      - generic [ref=f58e241]:
+        - button "Does this replace my warehouse or my pipelines?" [expanded] [ref=f58e242] [cursor=pointer]
+        - paragraph [ref=f58e245]: No. Your pipelines keep landing data in Postgres or Redshift for BI. Tares sits beside them as the read path for agents, and treats the warehouse itself as one more source. Analysts keep SQL; agents get MCP.
+      - button "Is this only for logs and metrics?" [ref=f58e247] [cursor=pointer]
+      - button "Do my agents query my sources directly?" [ref=f58e251] [cursor=pointer]
+    - generic [ref=f58e259]:
+      - heading "Connect any source. Query it from an agent minutes later." [level=2] [ref=f58e261]
+      - generic [ref=f58e262]:
+        - link "start on the cloud" [ref=f58e263] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+        - link "star on github" [ref=f58e267] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+  - contentinfo [ref=f58e271]:
+    - generic [ref=f58e275]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f58e277]
+      - generic [ref=f58e279]:
+        - generic [ref=f58e280]:
+          - heading "Start with Tares" [level=3] [ref=f58e281]
+          - paragraph [ref=f58e282]: Feed your agents the right data.
+        - link "get_started" [ref=f58e283] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f58e288]:
+        - generic [ref=f58e289]:
+          - heading "Start with Rius" [level=3] [ref=f58e290]
+          - paragraph [ref=f58e291]: See and debug agents in production.
+        - link "get_started" [ref=f58e292] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f58e297]:
+      - link "GlassFlow home" [ref=f58e298] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f58e299]
+      - generic [ref=f58e300]:
+        - generic [ref=f58e301]: products
+        - generic [ref=f58e307]:
+          - link "tares Feed your agents the right data. Open source" [ref=f58e308] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f58e309]:
+              - generic [ref=f58e310]: tares
+              - generic [ref=f58e311]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f58e312] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f58e313]:
+              - generic [ref=f58e314]: rius
+              - generic [ref=f58e315]: See what your agents did in production.
+      - generic [ref=f58e316]:
+        - link "contact" [ref=f58e317] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f58e323] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f58e329] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f58e335] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f58e341]:
+        - link "X" [ref=f58e342] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f58e343] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f58e344] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f58e346]:
+      - generic [ref=f58e347]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f58e348] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f58e349] [cursor=pointer]:
+        - /url: /privacy-policy

@@ -1,0 +1,16 @@
+{
+  "id": "pixel-corner",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "48x72 pixel step in the top-left corner of hero/title panels.",
+  "props": {},
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "20-22",
+      "quote": "export function PixelCorner"
+    }
+  ]
+}

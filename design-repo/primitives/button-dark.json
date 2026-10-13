@@ -1,0 +1,22 @@
+{
+  "id": "button-dark",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Dark secondary button, optional 52px cream-arrow cell. Static: no hover motion on the original.",
+  "props": {
+    "label": "text",
+    "withArrow": "bool",
+    "outlined": "bool"
+  },
+  "tokens": [
+    "component.button.dark"
+  ],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ui.jsx",
+      "lines": "68-86",
+      "quote": "export function DarkButton"
+    }
+  ]
+}

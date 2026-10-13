@@ -1,0 +1,137 @@
+{
+  "id": "product.feature-split",
+  "family": "mars",
+  "category": "product",
+  "purpose": "Home product split: titled panel with badge/H2/body/actions beside a 671px product screenshot.",
+  "variants": {
+    "tares-text-left": "copy left, image right",
+    "rius-image-left": "image left, copy right"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/Product.jsx",
+      "lines": "36-71",
+      "quote": "export function Tares()"
+    },
+    {
+      "path": "src/components/Product.jsx",
+      "lines": "73-113",
+      "quote": "export function Rius()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "badge": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 3
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 12
+      },
+      "body": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 50
+        },
+        "minItems": 1,
+        "maxItems": 4
+      },
+      "actions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 3
+            },
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "href"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 2
+      },
+      "screenshot": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "product.screenshot"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "badge",
+      "title",
+      "body",
+      "actions",
+      "screenshot"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "order": "image first, then copy",
+      "image": "400 tall"
+    },
+    "810": {
+      "order": "copy first, then image",
+      "image": "671 tall"
+    },
+    "1200": {
+      "columns": 2,
+      "copyPanel": "671 tall, 64px pad"
+    },
+    "evidence": [
+      {
+        "path": "src/components/Product.jsx",
+        "lines": "41",
+        "quote": "{/* mobile: image first; tablet: text first; desktop: text left */}"
+      },
+      {
+        "path": "src/components/Product.jsx",
+        "lines": "31",
+        "quote": "block h-[400px] w-full object-cover md:h-[671px]"
+      }
+    ]
+  }
+}

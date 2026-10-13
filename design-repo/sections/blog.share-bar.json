@@ -1,0 +1,67 @@
+{
+  "id": "blog.share-bar",
+  "family": "mars",
+  "category": "content",
+  "purpose": "'Share the article' bar with 6 share buttons.",
+  "variants": {
+    "default": "/blog/:slug"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "226-254",
+      "quote": "export function ShareBar"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "heading": {
+        "const": "Share the article"
+      },
+      "targets": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "x",
+            "facebook",
+            "linkedin",
+            "reddit",
+            "copy",
+            "share"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 6
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "heading",
+      "targets"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "stacked centred"
+    },
+    "810": {
+      "layout": "row, 64 tall"
+    },
+    "1200": {
+      "inset": "192px"
+    },
+    "evidence": [
+      {
+        "path": "src/components/ContentSections.jsx",
+        "lines": "228",
+        "quote": "<Shell inner=\"lg:px-[192px]\">"
+      }
+    ]
+  }
+}

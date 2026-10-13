@@ -1,0 +1,18 @@
+{
+  "id": "timeline-row",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Pixel icon + time chip + title/sub + optional log line or amber finding.",
+  "composes": [],
+  "props": {
+    "row": "object"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/pages/Tares.jsx",
+      "lines": "58-95",
+      "quote": "function Timeline()"
+    }
+  ]
+}

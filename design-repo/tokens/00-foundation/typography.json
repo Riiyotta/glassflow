@@ -1,0 +1,280 @@
+{
+  "$description": "Font stacks from tailwind.config.js; type roles are the .t-* component classes in src/index.css plus the recurring arbitrary sizes measured in CLONE_SPEC.md §0.",
+  "fontFamily": {
+    "display": {
+      "$value": "\"Inter Display\", \"Inter Display Placeholder\", sans-serif",
+      "weights": [
+        400
+      ],
+      "source": "public/fonts/inter-display-400.woff2 (Framer woff2)",
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "54",
+          "quote": "display: ["
+        },
+        {
+          "path": "src/index.css",
+          "lines": "3",
+          "quote": "src: url('/fonts/inter-display-400.woff2')"
+        }
+      ]
+    },
+    "inter": {
+      "$value": "\"Inter\", \"Inter Placeholder\", sans-serif",
+      "weights": [
+        400
+      ],
+      "note": "weights 300/500 appear in src (font-light/font-medium) and render as faux/fallback weights: only the 400 woff2 ships",
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "55",
+          "quote": "inter: ["
+        },
+        {
+          "path": "src/index.css",
+          "lines": "10",
+          "quote": "src: url('/fonts/inter-400.woff2')"
+        }
+      ]
+    },
+    "mono": {
+      "$value": "\"Geist Mono\", monospace",
+      "weights": [
+        400,
+        500,
+        700
+      ],
+      "source": "Google Fonts Geist Mono wght 100..900",
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "56",
+          "quote": "mono: ["
+        },
+        {
+          "path": "index.html",
+          "lines": "14",
+          "quote": "family=Geist+Mono"
+        }
+      ]
+    },
+    "sys": {
+      "$value": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+      "scope": "legacy guide form + calculator only",
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "57",
+          "quote": "sys: ["
+        }
+      ]
+    },
+    "sys-mono": {
+      "$value": "\"SF Mono\", Menlo, Consolas, monospace",
+      "scope": "calculator only",
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "58",
+          "quote": "'sys-mono'"
+        }
+      ]
+    }
+  },
+  "roles": {
+    "h1": {
+      "class": "t-h1",
+      "font": "display",
+      "size": {
+        "390": "32/32",
+        "810": "40/40",
+        "1200": "50/50"
+      },
+      "weight": 400,
+      "color": "cream",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "44",
+          "quote": ".t-h1 {"
+        },
+        {
+          "path": ".playwright-mcp/o1440.txt",
+          "lines": "6",
+          "quote": "the | 96,549,70,50"
+        }
+      ]
+    },
+    "h2": {
+      "class": "t-h2",
+      "font": "display",
+      "size": {
+        "390": "32/32",
+        "1200": "40/40"
+      },
+      "weight": 400,
+      "color": "cream",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "45",
+          "quote": ".t-h2 {"
+        }
+      ]
+    },
+    "lead": {
+      "class": "t-lead",
+      "font": "display",
+      "size": "18/27",
+      "tracking": "-0.18px",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "46",
+          "quote": ".t-lead {"
+        }
+      ]
+    },
+    "body": {
+      "class": "t-body",
+      "font": "display",
+      "size": "16/24",
+      "tracking": "-0.18px",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "47",
+          "quote": ".t-body {"
+        }
+      ]
+    },
+    "mono-label": {
+      "class": "t-mono",
+      "font": "mono",
+      "size": "14/18.2",
+      "weight": 700,
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "48",
+          "quote": ".t-mono {"
+        },
+        {
+          "path": ".playwright-mcp/o1440.txt",
+          "lines": "1",
+          "quote": "products | 229,11,67,18"
+        }
+      ]
+    },
+    "button": {
+      "class": "t-btn",
+      "font": "mono",
+      "size": "14/24",
+      "weight": 500,
+      "tracking": "-0.32px",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "49",
+          "quote": ".t-btn {"
+        }
+      ]
+    },
+    "product-hero-h1": {
+      "font": "display",
+      "size": "48/48",
+      "tracking": "-1.92px",
+      "measuredFrom": [
+        {
+          "path": "src/components/ProductSections.jsx",
+          "lines": "48",
+          "quote": "text-[48px] leading-[48px] tracking-[-1.92px]"
+        }
+      ]
+    },
+    "product-hero-lead": {
+      "font": "display",
+      "size": "21/29.4",
+      "tracking": "-0.84px",
+      "opacity": 0.64,
+      "measuredFrom": [
+        {
+          "path": "src/components/ProductSections.jsx",
+          "lines": "53",
+          "quote": "text-[21px] leading-[29.4px] tracking-[-0.84px]"
+        }
+      ]
+    },
+    "article-p": {
+      "font": "display",
+      "size": "18/32.4",
+      "tracking": "-0.36px",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "68-70",
+          "quote": ".article p, .article li {"
+        }
+      ]
+    },
+    "article-h2": {
+      "font": "inter",
+      "size": "32/44.8",
+      "weight": 500,
+      "tracking": "-1.28px",
+      "color": "#FFFFFF",
+      "measuredFrom": [
+        {
+          "path": "src/index.css",
+          "lines": "72-75",
+          "quote": ".article h2 {"
+        }
+      ]
+    },
+    "blog-card-title": {
+      "font": "mono",
+      "size": "16/20.8",
+      "weight": 500,
+      "tracking": "-0.64px",
+      "color": "blog-title",
+      "measuredFrom": [
+        {
+          "path": "src/components/BlogCard.jsx",
+          "lines": "49",
+          "quote": "text-[16px] font-medium leading-[20.8px]"
+        }
+      ]
+    },
+    "legacy-heading": {
+      "font": "inter",
+      "size": "56/67.2",
+      "weight": 500,
+      "tracking": "-2.24px",
+      "fill": "legacy-black.heading-gradient",
+      "theme": "legacy-black",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Category.jsx",
+          "lines": "21",
+          "quote": "const HEADING ="
+        }
+      ]
+    },
+    "legacy-nav-link": {
+      "font": "inter",
+      "size": "14/16.8",
+      "weight": 500,
+      "tracking": "-0.28px",
+      "theme": "legacy-black",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "33",
+          "quote": "font-inter text-[14px] font-medium leading-[16.8px]"
+        }
+      ]
+    }
+  }
+}

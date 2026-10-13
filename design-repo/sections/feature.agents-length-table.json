@@ -1,0 +1,157 @@
+{
+  "id": "feature.agents-length-table",
+  "family": "mars",
+  "category": "feature",
+  "purpose": "'Agents aren't one length' image header + 3-column table of agent durations.",
+  "variants": {
+    "default": "/rius"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Rius.jsx",
+      "lines": "153-213",
+      "quote": "function AgentsLength()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 5
+      },
+      "columns": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 5
+        },
+        "minItems": 2,
+        "maxItems": 2
+      },
+      "rows": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "icon.pixel"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            },
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 2
+            },
+            "howLong": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 10
+            },
+            "typical": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 25
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "icon",
+            "label",
+            "howLong",
+            "typical"
+          ]
+        },
+        "minItems": 3,
+        "maxItems": 5
+      },
+      "images": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "assetRole": {
+              "enum": [
+                "texture.dither-field",
+                "scene.mars-figurative"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            },
+            "alt": {
+              "type": "string",
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "assetRole",
+            "ref",
+            "alt"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "columns",
+      "rows",
+      "images"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "product-appear"
+    ],
+    "reducedMotionFallback": "opacity-only"
+  },
+  "responsive": {
+    "390": {
+      "table": "single column cells, 20px side pad"
+    },
+    "810": {
+      "table": "single column"
+    },
+    "1200": {
+      "table": "3 columns",
+      "header": "525px + image, 490 tall"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "157",
+        "quote": "grid grid-cols-1 bg-card-dark lg:h-[490px] lg:grid-cols-[525px_1fr]"
+      }
+    ]
+  }
+}

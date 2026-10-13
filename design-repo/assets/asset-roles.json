@@ -1,0 +1,150 @@
+{
+  "$description": "CLOSED assetRole vocabulary. GlassFlow is a real, live company: every role carries AI-generation + licensing guidance. pinned=true roles are checked against an independent pinned table in extraction/verify_all.py (membership in the enum is not enough).",
+  "generationPolicyEnum": [
+    "may-generate-new",
+    "must-reuse-exact",
+    "must-not-fabricate"
+  ],
+  "roles": {
+    "logo.third-party": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "guidance": "Real third-party trademarks (Vercel, Claude, Cursor, OpenAI in the logo strip; investor firm badges). Reuse the exact clone files, unaltered, only where the source shows them. NEVER generate, redraw, recolour or add any other third-party logo; nominative use only, no implied endorsement beyond the source page.",
+      "evidence": [
+        {
+          "path": "src/components/Hero.jsx",
+          "lines": "72",
+          "quote": "{ n: 'vercel', w: 101, h: 21, alt: 'Vercel' }"
+        }
+      ]
+    },
+    "logo.customer": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "guidance": "Real customer / backer logos (Restack, nubrain, Sentri, Entire, Weaviate, sference, case-study logos). Exact files only; never fabricate a customer logo or a customer relationship.",
+      "evidence": [
+        {
+          "path": "src/pages/Rius.jsx",
+          "lines": "19",
+          "quote": "{ label: 'Used by:'"
+        }
+      ]
+    },
+    "brand.glassflow-mark": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "guidance": "GlassFlow's own wordmark, product bar graphics, favicon. Exact files only; never redraw or generate a variant mark.",
+      "evidence": [
+        {
+          "path": "src/components/Navbar.jsx",
+          "lines": "52",
+          "quote": "SVG('wordmark')"
+        }
+      ]
+    },
+    "brand.dither-mark": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "guidance": "Dithered backgrounds that contain the GlassFlow stripe mark (e.g. the 'Two products' band image, inspected). Reuse exactly; generating lookalikes would counterfeit the mark.",
+      "evidence": [
+        {
+          "path": "src/components/ProductSections.jsx",
+          "lines": "103",
+          "quote": "image = A('tares/h0ej46NDlXvCksM6LvlI4w4Ss.jpg')"
+        }
+      ]
+    },
+    "scene.mars-figurative": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "guidance": "Figurative dithered Mars photography/illustration (astronaut hero band, mountain panels). GlassFlow brand art of unknown provenance/licence: reuse the existing files only, never generate new GlassFlow-branded scenes.",
+      "evidence": [
+        {
+          "path": "src/components/Hero.jsx",
+          "lines": "22",
+          "quote": "src={A('8Cuc5KELijZEPw8wCqEqzfspE.png')}"
+        }
+      ]
+    },
+    "texture.dither-field": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "guidance": "Abstract dithered pixel fields used as decorative backgrounds (alt=\"\"): no figures, no marks, no text. New ones MAY be generated using only Mars palette tokens (page/panel/deep/amber) and a square pixel dither; never imitate a specific GlassFlow scene.",
+      "evidence": [
+        {
+          "path": "src/components/ContentSections.jsx",
+          "lines": "13",
+          "quote": "export const DITHER_BG"
+        }
+      ]
+    },
+    "icon.pixel": {
+      "generationPolicy": "may-generate-new",
+      "pinned": false,
+      "guidance": "Square pixel-grid UI glyphs (benefit, card, value icons). May be generated on a strict pixel grid in palette colours; never a third-party or GlassFlow logo.",
+      "evidence": [
+        {
+          "path": "src/pages/Rius.jsx",
+          "lines": "98",
+          "quote": "R('benefit.svg')"
+        }
+      ]
+    },
+    "person.real-photo": {
+      "generationPolicy": "must-not-fabricate",
+      "pinned": true,
+      "guidance": "Real people: testimonial avatars, founders, /about team and investors, team group photo. NEVER generate likenesses or substitute stock faces; use the exact clone file for that named person or omit the image.",
+      "evidence": [
+        {
+          "path": "src/components/Testimonial.jsx",
+          "lines": "12",
+          "quote": "name: 'Thomas Dohmke'"
+        },
+        {
+          "path": "src/pages/About.jsx",
+          "lines": "32",
+          "quote": "const TEAM = ["
+        }
+      ]
+    },
+    "product.screenshot": {
+      "generationPolicy": "must-not-fabricate",
+      "pinned": true,
+      "guidance": "Real GlassFlow product UI (Tares/Rius dashboards, alert views, device visuals). Never generate or mock UI that claims to be the product; use exact files.",
+      "evidence": [
+        {
+          "path": "src/components/Product.jsx",
+          "lines": "66",
+          "quote": "alt=\"GlassFlow Tares sources dashboard\""
+        }
+      ]
+    },
+    "blog.cover": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "guidance": "Covers belonging to real posts (posts.json thumb/cover). Reuse the post's own cover only; never generate a cover for a real post.",
+      "evidence": [
+        {
+          "path": "src/pages/BlogPost.jsx",
+          "lines": "64",
+          "quote": "cover={post.cover}"
+        }
+      ]
+    },
+    "animation.lottie": {
+      "generationPolicy": "must-reuse-exact",
+      "pinned": true,
+      "guidance": "The /rius retrospective Lottie JSON. Reuse exactly.",
+      "evidence": [
+        {
+          "path": "src/pages/Rius.jsx",
+          "lines": "133",
+          "quote": "R('vUQ6vAk7qnGO0kq09zG3qaBBo.json')"
+        }
+      ]
+    }
+  },
+  "decisionNotes": {
+    "dithered-mars-photography": "Split by evidence after inspecting the files: figurative scenes (astronaut hero band 8Cuc5..., mountain panel) and mark-bearing backgrounds (h0ej46... stripe mark) are must-reuse-exact; abstract pixel fields with no subject (D96x..., 7xhcz...) are may-generate-new within palette tokens. Files not individually inspected (e.g. ARgMq... quickstart bg, p8ih..., 5G4h...) are classified from their asset-manifest descriptions (specs/content-assets.md, specs/landing-assets.md): INFERRED."
+  }
+}

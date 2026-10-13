@@ -1,0 +1,148 @@
+{
+  "id": "legal.toc-document",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Legal doc with TOC sidebar: H1, meta, numbered sections rendered as heading + one-line summary, link to full text.",
+  "variants": {
+    "terms": "/terms-of-service",
+    "privacy": "/privacy-policy"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Legal.jsx",
+      "lines": "160-204",
+      "quote": "function LegalDoc({ doc })"
+    },
+    {
+      "path": "src/pages/Legal.jsx",
+      "lines": "113-133",
+      "quote": "function Toc({ doc })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "contentPolicy": {
+        "const": "summary-only"
+      },
+      "h1": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 4
+      },
+      "intro": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 30
+      },
+      "toc": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 14
+            },
+            "anchor": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 1
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "anchor"
+          ]
+        },
+        "minItems": 0,
+        "maxItems": 30
+      },
+      "sections": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "heading": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 14
+            },
+            "summary": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 30
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "heading",
+            "summary"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 30
+      },
+      "fullTextLink": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "pattern": "^Read the full text on glassflow\\.ai$"
+          },
+          "href": {
+            "type": "string",
+            "pattern": "^https://www\\.glassflow\\.ai/",
+            "x-linkField": true
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "contentPolicy",
+      "h1",
+      "toc",
+      "sections",
+      "fullTextLink"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "legal-toc-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "toc": "hidden"
+    },
+    "810": {
+      "toc": "hidden"
+    },
+    "1200": {
+      "toc": "306px sidebar",
+      "article": "620 max"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Legal.jsx",
+        "lines": "116",
+        "quote": "hidden w-[306px] shrink-0 flex-col"
+      }
+    ]
+  },
+  "policies": [
+    "long-form-summary-only"
+  ]
+}

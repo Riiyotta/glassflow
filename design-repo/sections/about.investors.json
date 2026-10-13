@@ -1,0 +1,132 @@
+{
+  "id": "about.investors",
+  "family": "mars",
+  "category": "content",
+  "purpose": "'Backed by the best' title row + investor cards (real people + firm badges).",
+  "variants": {
+    "default": "/about"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/About.jsx",
+      "lines": "201-220",
+      "quote": "function Investors()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 4
+      },
+      "investors": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 4
+            },
+            "firm": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 8
+            },
+            "photo": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "person.real-photo"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            },
+            "badge": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "logo.third-party"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "firm",
+            "photo",
+            "badge"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 40
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "investors"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "columns": 3
+    },
+    "810": {
+      "columns": 3,
+      "gap": 20
+    },
+    "1200": {
+      "columns": 5
+    },
+    "evidence": [
+      {
+        "path": "src/pages/About.jsx",
+        "lines": "205",
+        "quote": "grid grid-cols-3 md:gap-5 md:p-5 lg:grid-cols-5"
+      }
+    ]
+  }
+}

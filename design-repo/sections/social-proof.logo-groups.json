@@ -1,0 +1,98 @@
+{
+  "id": "social-proof.logo-groups",
+  "family": "mars",
+  "category": "social-proof",
+  "purpose": "Two captioned groups of three customer/backer logos.",
+  "variants": {
+    "default": "/rius"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Rius.jsx",
+      "lines": "106-126",
+      "quote": "function Logos()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "groups": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 4
+            },
+            "logos": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "assetRole": {
+                    "enum": [
+                      "logo.customer"
+                    ]
+                  },
+                  "ref": {
+                    "type": "string",
+                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                    "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  },
+                  "alt": {
+                    "type": "string",
+                    "maxWords": 14
+                  }
+                },
+                "additionalProperties": false,
+                "required": [
+                  "assetRole",
+                  "ref",
+                  "alt"
+                ]
+              },
+              "minItems": 3,
+              "maxItems": 3
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "logos"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 2
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "groups"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "groups": "stacked"
+    },
+    "810": {
+      "groups": "stacked"
+    },
+    "1200": {
+      "groups": "2 columns"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "106-108",
+        "quote": "function Logos()"
+      }
+    ]
+  }
+}

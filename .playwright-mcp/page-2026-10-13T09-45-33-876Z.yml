@@ -1,0 +1,681 @@
+- generic [ref=f188e3]:
+  - generic [ref=f188e6]:
+    - generic [ref=f188e7]:
+      - link [ref=f188e8] [cursor=pointer]:
+        - /url: ../tares
+        - paragraph [ref=f188e11]: tares
+      - link [ref=f188e12] [cursor=pointer]:
+        - /url: ../rius
+        - paragraph [ref=f188e15]: rius
+      - link [ref=f188e16] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=f188e19]: blog
+      - link [ref=f188e20] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f188e23]: contact
+      - link [ref=f188e24] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f188e27]: docs
+    - generic [ref=f188e29]:
+      - link [ref=f188e30] [cursor=pointer]:
+        - /url: ../
+      - link [ref=f188e35] [cursor=pointer]:
+        - /url: ../#quickstart
+        - paragraph [ref=f188e38]: get_started
+  - generic [ref=f188e45]:
+    - paragraph [ref=f188e52]: products
+    - generic [ref=f188e59]:
+      - generic [ref=f188e60]:
+        - paragraph [ref=f188e63]: Easy to start. Scales with usage.
+        - paragraph [ref=f188e66]: Four plans, priced per trace, not per seat. Start free, pay for what you actually send.
+      - link [ref=f188e69] [cursor=pointer]:
+        - /url: https://console.rius-glassflow.com/signup?utm_source=framer.com&utm_medium=referral&utm_campaign=hp_start_cta
+        - paragraph [ref=f188e74]: start free
+      - paragraph [ref=f188e80]: No credit card required on Core
+  - generic [ref=f188e87]:
+    - generic [ref=f188e88]:
+      - generic [ref=f188e93] [cursor=pointer]:
+        - generic [ref=f188e96]:
+          - paragraph [ref=f188e98]: Core
+          - generic [ref=f188e99]:
+            - generic [ref=f188e100]:
+              - paragraph [ref=f188e102]: $
+              - paragraph [ref=f188e104]: "19"
+            - paragraph [ref=f188e106]: /mo
+        - link [ref=f188e109]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+          - generic [ref=f188e111]:
+            - paragraph [ref=f188e113]: get started
+            - paragraph [ref=f188e115]: get started
+      - generic [ref=f188e118] [cursor=pointer]:
+        - generic [ref=f188e121]:
+          - paragraph [ref=f188e123]: Growth
+          - generic [ref=f188e124]:
+            - generic [ref=f188e125]:
+              - paragraph [ref=f188e127]: $
+              - paragraph [ref=f188e129]: "79"
+            - paragraph [ref=f188e131]: /mo
+        - link [ref=f188e134]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=growth
+          - generic [ref=f188e136]:
+            - paragraph [ref=f188e138]: get started
+            - paragraph [ref=f188e140]: get started
+      - generic [ref=f188e143] [cursor=pointer]:
+        - generic [ref=f188e146]:
+          - paragraph [ref=f188e148]: Pro
+          - generic [ref=f188e149]:
+            - generic [ref=f188e150]:
+              - paragraph [ref=f188e152]: $
+              - paragraph [ref=f188e154]: "199"
+            - paragraph [ref=f188e156]: /mo
+        - link [ref=f188e159]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=pro
+          - generic [ref=f188e161]:
+            - paragraph [ref=f188e163]: get started
+            - paragraph [ref=f188e165]: get started
+      - generic [ref=f188e168] [cursor=pointer]:
+        - generic [ref=f188e171]:
+          - paragraph [ref=f188e173]: Enterprise
+          - generic [ref=f188e174]:
+            - generic [ref=f188e175]:
+              - paragraph [ref=f188e177]: $
+              - paragraph [ref=f188e179]: "1999"
+            - paragraph [ref=f188e181]: /mo
+        - link [ref=f188e184]:
+          - /url: https://cal.com/armend-glassflow/30min?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=enterprise
+          - generic [ref=f188e186]:
+            - paragraph [ref=f188e188]: contact us
+            - paragraph [ref=f188e190]: contact us
+    - generic [ref=f188e191]:
+      - generic [ref=f188e192]:
+        - paragraph [ref=f188e195]: Spans incl.
+        - paragraph [ref=f188e198]: 500k
+        - paragraph [ref=f188e201]: 2.5M
+        - paragraph [ref=f188e204]: 10M
+        - paragraph [ref=f188e207]: 25M
+      - generic [ref=f188e208]:
+        - paragraph [ref=f188e211]: Overage per 1M spans
+        - paragraph [ref=f188e214]: $14
+        - paragraph [ref=f188e217]: $12
+        - paragraph [ref=f188e220]: $10
+        - paragraph [ref=f188e223]: $4
+      - generic [ref=f188e224]:
+        - paragraph [ref=f188e227]: Query retention
+        - paragraph [ref=f188e230]: 60d
+        - paragraph [ref=f188e233]: 180d
+        - paragraph [ref=f188e236]: 3y
+        - paragraph [ref=f188e239]: Custom
+      - generic [ref=f188e240]:
+        - paragraph [ref=f188e243]: Audit logs
+        - paragraph [ref=f188e248]: 1y
+        - paragraph [ref=f188e251]: Custom
+      - generic [ref=f188e252]:
+        - paragraph [ref=f188e255]: Ingestion throughput
+        - paragraph [ref=f188e258]: 5k/min
+        - paragraph [ref=f188e261]: 10k/min
+        - paragraph [ref=f188e264]: 20k/min
+        - paragraph [ref=f188e267]: Custom
+      - paragraph [ref=f188e271]: Heartbeat
+      - paragraph [ref=f188e283]: RCAs / month
+      - paragraph [ref=f188e295]: Query MCP
+      - generic [ref=f188e304]:
+        - paragraph [ref=f188e307]: Alerts
+        - paragraph [ref=f188e310]: "10"
+        - paragraph [ref=f188e313]: "25"
+        - paragraph [ref=f188e316]: "100"
+        - paragraph [ref=f188e319]: "500"
+      - generic [ref=f188e320]:
+        - paragraph [ref=f188e323]: Workspaces
+        - paragraph [ref=f188e326]: "2"
+        - paragraph [ref=f188e329]: "5"
+        - paragraph [ref=f188e332]: Unlimited
+        - paragraph [ref=f188e335]: Unlimited
+      - generic [ref=f188e336]:
+        - paragraph [ref=f188e339]: Users
+        - paragraph [ref=f188e342]: "2"
+        - paragraph [ref=f188e345]: Unlimited
+        - paragraph [ref=f188e348]: Unlimited
+        - paragraph [ref=f188e351]: Unlimited
+      - generic [ref=f188e352]:
+        - paragraph [ref=f188e355]: Data region
+        - paragraph [ref=f188e358]: EU/US
+        - paragraph [ref=f188e361]: EU/US
+        - paragraph [ref=f188e364]: EU/US
+        - paragraph [ref=f188e367]: Select your own
+    - paragraph [ref=f188e371]: SUPPORT
+    - generic [ref=f188e372]:
+      - generic [ref=f188e373]:
+        - paragraph [ref=f188e376]: SLA
+        - paragraph [ref=f188e379]: Add-on
+        - paragraph [ref=f188e382]: Add-on
+        - paragraph [ref=f188e385]: Add-on
+      - paragraph [ref=f188e391]: Onboarding
+      - generic [ref=f188e397]:
+        - paragraph [ref=f188e400]: Support response
+        - paragraph [ref=f188e403]: 48h/Chat
+        - paragraph [ref=f188e406]: 48h/Chat
+        - paragraph [ref=f188e409]: 24h/Chat
+        - paragraph [ref=f188e412]: Custom
+      - generic [ref=f188e413]:
+        - paragraph [ref=f188e416]: Dedicated Slack
+        - paragraph [ref=f188e419]: Add-on
+        - paragraph [ref=f188e422]: Add-on
+    - paragraph [ref=f188e430]: BILLING
+    - generic [ref=f188e431]:
+      - paragraph [ref=f188e435]: Credit Card
+      - generic [ref=f188e444]:
+        - paragraph [ref=f188e447]: Pay via invoice (30d net)
+        - paragraph [ref=f188e450]: Add-on
+        - paragraph [ref=f188e453]: Add-on
+        - paragraph [ref=f188e456]: Add-on
+      - generic [ref=f188e459]:
+        - paragraph [ref=f188e462]: Contract duration
+        - paragraph [ref=f188e465]: Monthly
+        - paragraph [ref=f188e468]: Monthly
+        - paragraph [ref=f188e471]: Monthly
+        - paragraph [ref=f188e474]: Yearly
+  - generic [ref=f188e478]:
+    - paragraph [ref=f188e481]: In every plan
+    - generic [ref=f188e482]:
+      - paragraph [ref=f188e486]: Real-time traces and spans
+      - paragraph [ref=f188e490]: Alerts
+      - paragraph [ref=f188e494]: Dashboards
+      - paragraph [ref=f188e498]: Cost and token tracking
+      - paragraph [ref=f188e502]: Agent workflow maps
+      - paragraph [ref=f188e506]: One continuous session across restarts and sub-agents
+      - paragraph [ref=f188e510]: OpenTelemetry ingest in two lines
+  - generic [ref=f188e525]:
+    - heading "Add-ons" [level=1] [ref=f188e532]
+    - generic [ref=f188e534]:
+      - generic [ref=f188e535]:
+        - generic [ref=f188e536]:
+          - generic [ref=f188e541]:
+            - paragraph [ref=f188e543]: Dedicated region
+            - generic [ref=f188e544]:
+              - generic [ref=f188e545]:
+                - paragraph [ref=f188e547]: $
+                - paragraph [ref=f188e549]: "199"
+              - paragraph [ref=f188e551]: /mo
+          - paragraph [ref=f188e553]:
+            - generic [ref=f188e554]:
+              - generic [ref=f188e555]: "Y"
+              - generic [ref=f188e556]: o
+              - generic [ref=f188e557]: u
+              - generic [ref=f188e558]: r
+            - generic [ref=f188e559]:
+              - generic [ref=f188e560]: d
+              - generic [ref=f188e561]: a
+              - generic [ref=f188e562]: t
+              - generic [ref=f188e563]: a
+            - generic [ref=f188e564]:
+              - generic [ref=f188e565]: i
+              - generic [ref=f188e566]: "n"
+            - generic [ref=f188e567]: a
+            - generic [ref=f188e569]:
+              - generic [ref=f188e570]: s
+              - generic [ref=f188e571]: p
+              - generic [ref=f188e572]: e
+              - generic [ref=f188e573]: c
+              - generic [ref=f188e574]: i
+              - generic [ref=f188e575]: f
+              - generic [ref=f188e576]: i
+              - generic [ref=f188e577]: c
+            - generic [ref=f188e578]:
+              - generic [ref=f188e579]: r
+              - generic [ref=f188e580]: e
+              - generic [ref=f188e581]: g
+              - generic [ref=f188e582]: i
+              - generic [ref=f188e583]: o
+              - generic [ref=f188e584]: "n"
+              - generic [ref=f188e585]: a
+              - generic [ref=f188e586]: l
+            - generic [ref=f188e587]:
+              - generic [ref=f188e588]: c
+              - generic [ref=f188e589]: l
+              - generic [ref=f188e590]: u
+              - generic [ref=f188e591]: s
+              - generic [ref=f188e592]: t
+              - generic [ref=f188e593]: e
+              - generic [ref=f188e594]: r
+            - generic [ref=f188e595]: —
+            - generic [ref=f188e597]:
+              - generic [ref=f188e598]: F
+              - generic [ref=f188e599]: r
+              - generic [ref=f188e600]: a
+              - generic [ref=f188e601]: "n"
+              - generic [ref=f188e602]: k
+              - generic [ref=f188e603]: f
+              - generic [ref=f188e604]: u
+              - generic [ref=f188e605]: r
+              - generic [ref=f188e606]: t
+              - generic [ref=f188e607]: ","
+            - generic [ref=f188e608]:
+              - generic [ref=f188e609]: V
+              - generic [ref=f188e610]: i
+              - generic [ref=f188e611]: r
+              - generic [ref=f188e612]: g
+              - generic [ref=f188e613]: i
+              - generic [ref=f188e614]: "n"
+              - generic [ref=f188e615]: i
+              - generic [ref=f188e616]: a
+              - generic [ref=f188e617]: ","
+            - generic [ref=f188e618]:
+              - generic [ref=f188e619]: L
+              - generic [ref=f188e620]: o
+              - generic [ref=f188e621]: "n"
+              - generic [ref=f188e622]: d
+              - generic [ref=f188e623]: o
+              - generic [ref=f188e624]: "n"
+              - generic [ref=f188e625]: ","
+            - generic [ref=f188e626]:
+              - generic [ref=f188e627]: S
+              - generic [ref=f188e628]: i
+              - generic [ref=f188e629]: "n"
+              - generic [ref=f188e630]: g
+              - generic [ref=f188e631]: a
+              - generic [ref=f188e632]: p
+              - generic [ref=f188e633]: o
+              - generic [ref=f188e634]: r
+              - generic [ref=f188e635]: e
+        - link [ref=f188e636] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+          - link [ref=f188e637]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f188e640]: Add to your plan
+      - generic [ref=f188e641]:
+        - generic [ref=f188e642]:
+          - generic [ref=f188e647]:
+            - paragraph [ref=f188e649]: Dedicated slack
+            - generic [ref=f188e650]:
+              - generic [ref=f188e651]:
+                - paragraph [ref=f188e653]: $
+                - paragraph [ref=f188e655]: "49"
+              - paragraph [ref=f188e657]: /mo
+          - generic [ref=f188e658]:
+            - paragraph [ref=f188e659]:
+              - generic [ref=f188e660]:
+                - generic [ref=f188e661]: D
+                - generic [ref=f188e662]: i
+                - generic [ref=f188e663]: r
+                - generic [ref=f188e664]: e
+                - generic [ref=f188e665]: c
+                - generic [ref=f188e666]: t
+              - generic [ref=f188e667]:
+                - generic [ref=f188e668]: c
+                - generic [ref=f188e669]: h
+                - generic [ref=f188e670]: a
+                - generic [ref=f188e671]: "n"
+                - generic [ref=f188e672]: "n"
+                - generic [ref=f188e673]: e
+                - generic [ref=f188e674]: l
+              - generic [ref=f188e675]:
+                - generic [ref=f188e676]: w
+                - generic [ref=f188e677]: i
+                - generic [ref=f188e678]: t
+                - generic [ref=f188e679]: h
+              - generic [ref=f188e680]:
+                - generic [ref=f188e681]: G
+                - generic [ref=f188e682]: l
+                - generic [ref=f188e683]: a
+                - generic [ref=f188e684]: s
+                - generic [ref=f188e685]: s
+                - generic [ref=f188e686]: F
+                - generic [ref=f188e687]: l
+                - generic [ref=f188e688]: o
+                - generic [ref=f188e689]: w
+              - generic [ref=f188e690]:
+                - generic [ref=f188e691]: t
+                - generic [ref=f188e692]: e
+                - generic [ref=f188e693]: a
+                - generic [ref=f188e694]: m
+            - paragraph [ref=f188e695]
+        - link [ref=f188e696] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=framer.com&utm_medium=referral&utm_campaign=hp_start_cta
+          - link [ref=f188e697]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f188e700]: Add to your plan
+      - generic [ref=f188e701]:
+        - generic [ref=f188e702]:
+          - generic [ref=f188e707]:
+            - paragraph [ref=f188e709]: Pay by invoice
+            - generic [ref=f188e710]:
+              - generic [ref=f188e711]:
+                - paragraph [ref=f188e713]: $
+                - paragraph [ref=f188e715]: "49"
+              - paragraph [ref=f188e717]: /mo
+          - generic [ref=f188e719]:
+            - paragraph [ref=f188e720]:
+              - generic [ref=f188e721]:
+                - generic [ref=f188e722]: "N"
+                - generic [ref=f188e723]: e
+                - generic [ref=f188e724]: t
+              - generic [ref=f188e725]:
+                - generic [ref=f188e726]: "3"
+                - generic [ref=f188e727]: "0"
+              - generic [ref=f188e728]:
+                - generic [ref=f188e729]: i
+                - generic [ref=f188e730]: "n"
+                - generic [ref=f188e731]: v
+                - generic [ref=f188e732]: o
+                - generic [ref=f188e733]: i
+                - generic [ref=f188e734]: c
+                - generic [ref=f188e735]: i
+                - generic [ref=f188e736]: "n"
+                - generic [ref=f188e737]: g
+              - generic [ref=f188e738]:
+                - generic [ref=f188e739]: i
+                - generic [ref=f188e740]: "n"
+                - generic [ref=f188e741]: s
+                - generic [ref=f188e742]: t
+                - generic [ref=f188e743]: e
+                - generic [ref=f188e744]: a
+                - generic [ref=f188e745]: d
+              - generic [ref=f188e746]:
+                - generic [ref=f188e747]: o
+                - generic [ref=f188e748]: f
+              - generic [ref=f188e749]:
+                - generic [ref=f188e750]: c
+                - generic [ref=f188e751]: r
+                - generic [ref=f188e752]: e
+                - generic [ref=f188e753]: d
+                - generic [ref=f188e754]: i
+                - generic [ref=f188e755]: t
+              - generic [ref=f188e756]:
+                - generic [ref=f188e757]: c
+                - generic [ref=f188e758]: a
+                - generic [ref=f188e759]: r
+                - generic [ref=f188e760]: d
+            - paragraph [ref=f188e761]
+        - link [ref=f188e762] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+          - link [ref=f188e763]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=framer.com&utm_medium=referral&utm_campaign=hp_start_cta
+            - paragraph [ref=f188e766]: Add to your plan
+      - generic [ref=f188e767]:
+        - generic [ref=f188e768]:
+          - generic [ref=f188e773]:
+            - paragraph [ref=f188e775]: Extened retention
+            - generic [ref=f188e776]:
+              - generic [ref=f188e777]:
+                - paragraph [ref=f188e779]: $
+                - paragraph [ref=f188e781]: "49"
+              - paragraph [ref=f188e783]: /mo
+          - generic [ref=f188e784]:
+            - paragraph [ref=f188e785]:
+              - generic [ref=f188e786]:
+                - generic [ref=f188e787]: A
+                - generic [ref=f188e788]: d
+                - generic [ref=f188e789]: d
+              - generic [ref=f188e790]: "1"
+              - generic [ref=f188e792]:
+                - generic [ref=f188e793]: "y"
+                - generic [ref=f188e794]: e
+                - generic [ref=f188e795]: a
+                - generic [ref=f188e796]: r
+              - generic [ref=f188e797]:
+                - generic [ref=f188e798]: b
+                - generic [ref=f188e799]: e
+                - generic [ref=f188e800]: "y"
+                - generic [ref=f188e801]: o
+                - generic [ref=f188e802]: "n"
+                - generic [ref=f188e803]: d
+              - generic [ref=f188e804]:
+                - generic [ref=f188e805]: "y"
+                - generic [ref=f188e806]: o
+                - generic [ref=f188e807]: u
+                - generic [ref=f188e808]: r
+              - generic [ref=f188e809]:
+                - generic [ref=f188e810]: t
+                - generic [ref=f188e811]: i
+                - generic [ref=f188e812]: e
+                - generic [ref=f188e813]: r
+              - generic [ref=f188e814]:
+                - generic [ref=f188e815]: l
+                - generic [ref=f188e816]: i
+                - generic [ref=f188e817]: m
+                - generic [ref=f188e818]: i
+                - generic [ref=f188e819]: t
+            - paragraph [ref=f188e820]
+            - paragraph [ref=f188e821]
+        - link [ref=f188e822] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+          - link [ref=f188e823]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f188e826]: Add to your plan
+      - generic [ref=f188e827]:
+        - generic [ref=f188e828]:
+          - generic [ref=f188e833]:
+            - generic [ref=f188e835]:
+              - paragraph [ref=f188e836]: Audit logs
+              - paragraph [ref=f188e837]
+            - generic [ref=f188e838]:
+              - generic [ref=f188e839]:
+                - paragraph [ref=f188e841]: $
+                - paragraph [ref=f188e843]: "49"
+              - paragraph [ref=f188e845]: /mo
+          - paragraph [ref=f188e848]:
+            - generic [ref=f188e849]:
+              - generic [ref=f188e850]: A
+              - generic [ref=f188e851]: d
+              - generic [ref=f188e852]: d
+            - generic [ref=f188e853]: "1"
+            - generic [ref=f188e855]:
+              - generic [ref=f188e856]: "y"
+              - generic [ref=f188e857]: e
+              - generic [ref=f188e858]: a
+              - generic [ref=f188e859]: r
+            - generic [ref=f188e860]:
+              - generic [ref=f188e861]: b
+              - generic [ref=f188e862]: e
+              - generic [ref=f188e863]: "y"
+              - generic [ref=f188e864]: o
+              - generic [ref=f188e865]: "n"
+              - generic [ref=f188e866]: d
+            - generic [ref=f188e867]:
+              - generic [ref=f188e868]: "y"
+              - generic [ref=f188e869]: o
+              - generic [ref=f188e870]: u
+              - generic [ref=f188e871]: r
+            - generic [ref=f188e872]:
+              - generic [ref=f188e873]: t
+              - generic [ref=f188e874]: i
+              - generic [ref=f188e875]: e
+              - generic [ref=f188e876]: r
+            - generic [ref=f188e877]:
+              - generic [ref=f188e878]: l
+              - generic [ref=f188e879]: i
+              - generic [ref=f188e880]: m
+              - generic [ref=f188e881]: i
+              - generic [ref=f188e882]: t
+        - link [ref=f188e883] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+          - link [ref=f188e884]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f188e887]: Add to your plan
+      - generic [ref=f188e888]:
+        - generic [ref=f188e889]:
+          - generic [ref=f188e894]:
+            - generic [ref=f188e896]:
+              - paragraph [ref=f188e897]: SLA guarantee
+              - paragraph [ref=f188e898]
+            - generic [ref=f188e899]:
+              - generic [ref=f188e900]:
+                - paragraph [ref=f188e902]: $
+                - paragraph [ref=f188e904]: "299"
+              - paragraph [ref=f188e906]: /mo
+          - paragraph [ref=f188e908]:
+            - generic [ref=f188e909]:
+              - generic [ref=f188e910]: "9"
+              - generic [ref=f188e911]: "9"
+              - generic [ref=f188e912]: .
+              - generic [ref=f188e913]: "9"
+              - generic [ref=f188e914]: "%"
+            - generic [ref=f188e915]:
+              - generic [ref=f188e916]: u
+              - generic [ref=f188e917]: p
+              - generic [ref=f188e918]: t
+              - generic [ref=f188e919]: i
+              - generic [ref=f188e920]: m
+              - generic [ref=f188e921]: e
+            - generic [ref=f188e922]:
+              - generic [ref=f188e923]: S
+              - generic [ref=f188e924]: L
+              - generic [ref=f188e925]: A
+            - generic [ref=f188e926]:
+              - generic [ref=f188e927]: w
+              - generic [ref=f188e928]: i
+              - generic [ref=f188e929]: t
+              - generic [ref=f188e930]: h
+            - generic [ref=f188e931]:
+              - generic [ref=f188e932]: r
+              - generic [ref=f188e933]: e
+              - generic [ref=f188e934]: s
+              - generic [ref=f188e935]: p
+              - generic [ref=f188e936]: o
+              - generic [ref=f188e937]: "n"
+              - generic [ref=f188e938]: s
+              - generic [ref=f188e939]: e
+            - generic [ref=f188e940]:
+              - generic [ref=f188e941]: c
+              - generic [ref=f188e942]: o
+              - generic [ref=f188e943]: m
+              - generic [ref=f188e944]: m
+              - generic [ref=f188e945]: i
+              - generic [ref=f188e946]: t
+              - generic [ref=f188e947]: m
+              - generic [ref=f188e948]: e
+              - generic [ref=f188e949]: "n"
+              - generic [ref=f188e950]: t
+              - generic [ref=f188e951]: s
+        - link [ref=f188e952] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+          - link [ref=f188e953]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f188e956]: Add to your plan
+      - generic [ref=f188e957]:
+        - generic [ref=f188e958]:
+          - generic [ref=f188e963]:
+            - paragraph [ref=f188e965]: Higher ingestion throughput
+            - generic [ref=f188e966]:
+              - generic [ref=f188e967]:
+                - paragraph [ref=f188e969]: $
+                - paragraph [ref=f188e971]: "49"
+              - paragraph [ref=f188e973]: /mo
+          - generic [ref=f188e974]:
+            - paragraph [ref=f188e975]:
+              - generic [ref=f188e976]:
+                - generic [ref=f188e977]: I
+                - generic [ref=f188e978]: "n"
+                - generic [ref=f188e979]: c
+                - generic [ref=f188e980]: r
+                - generic [ref=f188e981]: e
+                - generic [ref=f188e982]: a
+                - generic [ref=f188e983]: s
+                - generic [ref=f188e984]: e
+              - generic [ref=f188e985]:
+                - generic [ref=f188e986]: t
+                - generic [ref=f188e987]: o
+              - generic [ref=f188e988]:
+                - generic [ref=f188e989]: "2"
+                - generic [ref=f188e990]: "0"
+                - generic [ref=f188e991]: k
+                - generic [ref=f188e992]: /
+                - generic [ref=f188e993]: m
+                - generic [ref=f188e994]: i
+                - generic [ref=f188e995]: "n"
+            - paragraph [ref=f188e996]
+        - link [ref=f188e997] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/quickstart
+          - link [ref=f188e998]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f188e1001]: Add to your plan
+  - link "Think building your own observability is cheaper? Four plans, priced per trace, not per seat. Start free, pay for what you actually send. Calculate my cost" [ref=f188e1008] [cursor=pointer]:
+    - /url: https://rius.glassflow.ai/calculator-building-your-own-agent-observability
+    - generic [ref=f188e1011]:
+      - paragraph [ref=f188e1014]: Think building your own observability is cheaper?
+      - paragraph [ref=f188e1016]: Four plans, priced per trace, not per seat. Start free, pay for what you actually send.
+      - link [ref=f188e1018]:
+        - /url: http://glassflow.ai/rius/calculator-building-your-own-agent-observability
+        - paragraph [ref=f188e1023]: Calculate my cost
+  - generic [ref=f188e1031]:
+    - paragraph [ref=f188e1034]: Frequently Asked Questions
+    - generic [ref=f188e1044]:
+      - generic [ref=f188e1048]:
+        - paragraph [ref=f188e1051] [cursor=pointer]: What counts as a trace?
+        - paragraph [ref=f188e1056]: One agent run, regardless of how many steps, tool calls, or sub-agents it contains.
+      - paragraph [ref=f188e1063] [cursor=pointer]: What happens if I exceed my included traces?
+      - paragraph [ref=f188e1072] [cursor=pointer]: Do you charge per seat?
+      - paragraph [ref=f188e1081] [cursor=pointer]: What's the difference between "ingest only" and "both ways"?
+      - paragraph [ref=f188e1090] [cursor=pointer]: What happens to traces after my retention period?
+      - paragraph [ref=f188e1099] [cursor=pointer]: Can I change plans anytime?
+  - generic [ref=f188e1109]:
+    - generic [ref=f188e1110]:
+      - paragraph [ref=f188e1112]: Two products. Two starting points.
+      - paragraph [ref=f188e1114]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and retention, from first span to production.
+    - generic [ref=f188e1115]:
+      - link [ref=f188e1117] [cursor=pointer]:
+        - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=pricing_page&utm_campaign=signup&utm_content=core
+        - paragraph [ref=f188e1122]: start today
+      - link [ref=f188e1124] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/rius/guides
+        - paragraph [ref=f188e1129]: read the Rius guides
+  - generic [ref=f188e1134]:
+    - generic [ref=f188e1136]:
+      - paragraph [ref=f188e1140]: Ready to give your agents better data and total recall?
+      - generic [ref=f188e1141]:
+        - generic [ref=f188e1144]:
+          - generic [ref=f188e1145]:
+            - paragraph [ref=f188e1147]: Start with Tares
+            - paragraph [ref=f188e1149]: Feed your agents the right data.
+          - link [ref=f188e1151] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f188e1156]: get_started
+        - generic [ref=f188e1163]:
+          - generic [ref=f188e1164]:
+            - paragraph [ref=f188e1166]: Start with Rius
+            - paragraph [ref=f188e1168]: See and debug agents in production.
+          - link [ref=f188e1170] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f188e1175]: get_started
+    - generic [ref=f188e1181]:
+      - generic [ref=f188e1182]:
+        - paragraph [ref=f188e1189]: products
+        - generic [ref=f188e1194]:
+          - link [ref=f188e1195] [cursor=pointer]:
+            - /url: ../tares
+            - generic [ref=f188e1200]:
+              - paragraph [ref=f188e1202]: tares
+              - paragraph [ref=f188e1204]: Feed your agents the right data. Open source
+          - link [ref=f188e1205] [cursor=pointer]:
+            - /url: ../rius
+            - generic [ref=f188e1210]:
+              - paragraph [ref=f188e1212]: rius
+              - paragraph [ref=f188e1214]: See what your agents did in production.
+      - generic [ref=f188e1215]:
+        - link [ref=f188e1216] [cursor=pointer]:
+          - /url: ../contact
+          - paragraph [ref=f188e1222]: contact
+        - link [ref=f188e1223] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f188e1229]: docs
+        - link [ref=f188e1230] [cursor=pointer]:
+          - /url: ../blog
+          - paragraph [ref=f188e1236]: blog
+        - link [ref=f188e1237] [cursor=pointer]:
+          - /url: ../about
+          - paragraph [ref=f188e1243]: about
+      - generic [ref=f188e1244]:
+        - link [ref=f188e1245] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f188e1247] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f188e1249] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f188e1252]:
+      - paragraph [ref=f188e1254]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f188e1256]:
+        - link "Terms & Conditions" [ref=f188e1257] [cursor=pointer]:
+          - /url: ../terms-of-service
+      - paragraph [ref=f188e1259]:
+        - link "Privacy Policy" [ref=f188e1260] [cursor=pointer]:
+          - /url: ../privacy-policy

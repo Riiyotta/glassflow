@@ -1,0 +1,116 @@
+- generic [ref=e3]:
+  - generic [ref=e8]:
+    - link [ref=e9] [cursor=pointer]:
+      - /url: ./
+    - generic [ref=e13]:
+      - paragraph [ref=e17]: products
+      - link [ref=e22] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=e25]: docs
+      - link [ref=e26] [cursor=pointer]:
+        - /url: ./blog
+        - paragraph [ref=e29]: blog
+      - link [ref=e30] [cursor=pointer]:
+        - /url: ./contact
+        - paragraph [ref=e33]: contact
+    - link [ref=e35] [cursor=pointer]:
+      - /url: ./#quickstart
+      - paragraph [ref=e38]: get_started
+  - generic [ref=e47]:
+    - paragraph [ref=e52]: BLOG
+    - heading "The GlassFlow blog" [level=1] [ref=e55]
+    - paragraph [ref=e57]: How we think about agent observability and the data that feeds AI agents. New features, real use cases, tech lessons learned
+  - generic [ref=e59]:
+    - paragraph [ref=e66]: featured-blog
+    - link "Agent Infrastructure Can a decision model replace an LLM? Tune it on your own data first We ran Cloudflare's Clef-flash next to Claude Haiku for 6 days on production logs. As a filter, it cut LLM calls ~80%. Test it on your own data with Tares. read more read more" [ref=e72] [cursor=pointer]:
+      - /url: ./blog/decision-model-vs-llm
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - link [ref=e77]:
+            - paragraph [ref=e79]: Agent Infrastructure
+          - heading "Can a decision model replace an LLM? Tune it on your own data first" [level=3] [ref=e81]
+          - paragraph [ref=e83]: We ran Cloudflare's Clef-flash next to Claude Haiku for 6 days on production logs. As a filter, it cut LLM calls ~80%. Test it on your own data with Tares.
+        - generic [ref=e87]:
+          - paragraph [ref=e89]: read more
+          - paragraph [ref=e91]: read more
+  - generic [ref=e103]:
+    - generic [ref=e106]:
+      - paragraph [ref=e111] [cursor=pointer]: All
+      - paragraph [ref=e116] [cursor=pointer]: MCP
+      - paragraph [ref=e121] [cursor=pointer]: Data for Agents
+      - paragraph [ref=e126] [cursor=pointer]: Agent Infrastructure
+      - paragraph [ref=e131] [cursor=pointer]: Agent Observability
+      - paragraph [ref=e136] [cursor=pointer]: Use Cases
+      - paragraph [ref=e141] [cursor=pointer]: Engineering
+      - paragraph [ref=e146] [cursor=pointer]: Product Updates
+      - paragraph [ref=e151] [cursor=pointer]: Comparisons
+      - paragraph [ref=e156] [cursor=pointer]: Tutorials
+    - textbox [ref=e160]:
+      - /placeholder: Search…
+  - generic [ref=e169]:
+    - generic [ref=e170]:
+      - paragraph [ref=e172]: Start free. Upgrade when your agents do.
+      - paragraph [ref=e174]: 100k traces a month, no card required.
+    - generic [ref=e175]:
+      - paragraph [ref=e182] [cursor=pointer]: start from
+      - paragraph [ref=e189] [cursor=pointer]: talk to our team
+  - generic [ref=e194]:
+    - generic [ref=e196]:
+      - paragraph [ref=e200]: Ready to give your agents better data and total recall?
+      - generic [ref=e201]:
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - paragraph [ref=e207]: Start with Tares
+            - paragraph [ref=e209]: Feed your agents the right data.
+          - link [ref=e211] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=e216]: get_started
+        - generic [ref=e223]:
+          - generic [ref=e224]:
+            - paragraph [ref=e226]: Start with Rius
+            - paragraph [ref=e228]: See and debug agents in production.
+          - link [ref=e230] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=e235]: get_started
+    - generic [ref=e241]:
+      - generic [ref=e243]:
+        - paragraph [ref=e250]: products
+        - generic [ref=e255]:
+          - link [ref=e256] [cursor=pointer]:
+            - /url: ./tares
+            - generic [ref=e261]:
+              - paragraph [ref=e263]: tares
+              - paragraph [ref=e265]: Feed your agents the right data. Open source
+          - link [ref=e266] [cursor=pointer]:
+            - /url: ./rius
+            - generic [ref=e271]:
+              - paragraph [ref=e273]: rius
+              - paragraph [ref=e275]: See what your agents did in production.
+      - generic [ref=e276]:
+        - link [ref=e277] [cursor=pointer]:
+          - /url: ./contact
+          - paragraph [ref=e283]: contact
+        - link [ref=e284] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=e290]: docs
+        - link [ref=e291] [cursor=pointer]:
+          - /url: ./blog
+          - paragraph [ref=e297]: blog
+        - link [ref=e298] [cursor=pointer]:
+          - /url: ./about
+          - paragraph [ref=e304]: about
+      - generic [ref=e305]:
+        - link [ref=e306] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=e308] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=e310] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=e313]:
+      - paragraph [ref=e315]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=e317]:
+        - link "Terms & Conditions" [ref=e318] [cursor=pointer]:
+          - /url: ./terms-of-service
+      - paragraph [ref=e320]:
+        - link "Privacy Policy" [ref=e321] [cursor=pointer]:
+          - /url: ./privacy-policy

@@ -1,0 +1,20 @@
+{
+  "id": "terminal",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Bar + deep body with '#'/'>' prefixed mono rows.",
+  "composes": [
+    "dots"
+  ],
+  "props": {
+    "rows": "[mark,text][]"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/pages/Tares.jsx",
+      "lines": "97-116",
+      "quote": "function Terminal({ rows })"
+    }
+  ]
+}

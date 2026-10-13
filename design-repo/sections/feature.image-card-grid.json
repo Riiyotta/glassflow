@@ -1,0 +1,129 @@
+{
+  "id": "feature.image-card-grid",
+  "family": "mars",
+  "category": "feature",
+  "purpose": "Row of 300px full-bleed dithered cards with icon, mono title and appear body.",
+  "variants": {
+    "cols-4": "/tares 'What teams build with it'",
+    "cols-3": "/rius 'How it works'"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ProductSections.jsx",
+      "lines": "73-92",
+      "quote": "export function ImageCardGrid"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "icon": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "icon.pixel"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 9
+            },
+            "body": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 30
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "texture.dither-field",
+                    "scene.mars-figurative"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "icon",
+            "title",
+            "body",
+            "image"
+          ]
+        },
+        "minItems": 3,
+        "maxItems": 4
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "cards"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "product-appear"
+    ],
+    "reducedMotionFallback": "opacity-only"
+  },
+  "responsive": {
+    "390": {
+      "columns": 1
+    },
+    "810": {
+      "columns": 1
+    },
+    "1200": {
+      "columns": "3 or 4"
+    },
+    "evidence": [
+      {
+        "path": "src/components/ProductSections.jsx",
+        "lines": "73",
+        "quote": "cols = 'lg:grid-cols-4'"
+      }
+    ]
+  }
+}

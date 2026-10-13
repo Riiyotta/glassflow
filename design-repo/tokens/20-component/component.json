@@ -1,0 +1,87 @@
+{
+  "button.big-amber": {
+    "surface": "surface.brand",
+    "frame": "inset 0 0 0 1px amber -> line on hover",
+    "height": 52,
+    "cellHeight": 44,
+    "label": "typography.roles.button",
+    "measuredFrom": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "43",
+        "quote": "export function BigButton"
+      }
+    ]
+  },
+  "button.dark": {
+    "surface": "surface.page",
+    "height": 52,
+    "label": "typography.roles.button",
+    "measuredFrom": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "68",
+        "quote": "export function DarkButton"
+      }
+    ]
+  },
+  "button.product-dark": {
+    "frame": "surface.card-dark",
+    "inner": "surface.panel",
+    "pad": "px-6",
+    "measuredFrom": [
+      {
+        "path": "src/components/ProductSections.jsx",
+        "lines": "29",
+        "quote": "export function ProductDarkButton"
+      }
+    ]
+  },
+  "title-bar": {
+    "height": 50,
+    "surface": "surface.bar",
+    "label": "text.secondary",
+    "measuredFrom": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "100",
+        "quote": "export function TitleBar"
+      }
+    ]
+  },
+  "deep-bar": {
+    "height": 38,
+    "surface": "surface.deep",
+    "measuredFrom": [
+      {
+        "path": "src/components/ProductSections.jsx",
+        "lines": "9",
+        "quote": "export function DeepBar"
+      }
+    ]
+  },
+  "blog-card": {
+    "surface": "surface.panel",
+    "hover": "surface.card-dark",
+    "imageScaleHover": 1.1,
+    "measuredFrom": [
+      {
+        "path": "src/components/BlogCard.jsx",
+        "lines": "16",
+        "quote": "export default function BlogCard"
+      }
+    ]
+  },
+  "nav-cell": {
+    "height": 40,
+    "surface": "surface.deep",
+    "text": "text.muted",
+    "measuredFrom": [
+      {
+        "path": "src/components/Navbar.jsx",
+        "lines": "4",
+        "quote": "const cell ="
+      }
+    ]
+  }
+}

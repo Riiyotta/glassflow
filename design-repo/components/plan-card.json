@@ -1,0 +1,20 @@
+{
+  "id": "plan-card",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Rius plan card: deep bar, icon, name, price /mo, description, promo, CTA, spec rows.",
+  "composes": [
+    "deep-bar"
+  ],
+  "props": {
+    "plan": "object"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/PlanCards.jsx",
+      "lines": "6-47",
+      "quote": "export default function PlanCards"
+    }
+  ]
+}

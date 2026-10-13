@@ -1,0 +1,346 @@
+{
+  "url": "https://www.glassflow.ai/categories/mcp",
+  "title": "AI Agent Observability & Data Infrastructure | GlassFlow",
+  "H": 1419,
+  "W": 1440,
+  "bodyBg": "rgb(0, 0, 0)",
+  "text": [
+    {
+      "t": "H1",
+      "x": "MCP",
+      "r": [
+        110,
+        140,
+        1220,
+        67
+      ],
+      "f": "Inter",
+      "fs": "56px",
+      "lh": "67.2px",
+      "fw": "500",
+      "ls": "-2.24px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Product",
+      "r": [
+        272,
+        23,
+        51,
+        17
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "16.8px",
+      "fw": "500",
+      "ls": "-0.28px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Case Studies",
+      "r": [
+        363,
+        23,
+        85,
+        17
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "16.8px",
+      "fw": "500",
+      "ls": "-0.28px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Pricing",
+      "r": [
+        472,
+        23,
+        45,
+        17
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "16.8px",
+      "fw": "500",
+      "ls": "-0.28px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Resources",
+      "r": [
+        541,
+        23,
+        68,
+        17
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "16.8px",
+      "fw": "500",
+      "ls": "-0.28px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Contact",
+      "r": [
+        649,
+        23,
+        51,
+        17
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "16.8px",
+      "fw": "500",
+      "ls": "-0.28px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "H2",
+      "x": "Data transformations at TB scale for ClickHouse",
+      "r": [
+        320,
+        869,
+        800,
+        134
+      ],
+      "f": "Inter",
+      "fs": "56px",
+      "lh": "67.2px",
+      "fw": "500",
+      "ls": "-2.24px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Get query ready data, lower ClickHouse load, and reliable pipelines at",
+      "r": [
+        44,
+        1020,
+        1352,
+        28
+      ],
+      "f": "Inter",
+      "fs": "20px",
+      "lh": "28px",
+      "fw": "400",
+      "ls": "-0.8px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    }
+  ],
+  "imgs": [
+    {
+      "src": "https://framerusercontent.com/images/uJSz4vz8ntpPgNuLAZrGGPBhGFo.svg?width=128&height=18",
+      "alt": "",
+      "r": [
+        110,
+        23,
+        114,
+        16
+      ],
+      "nat": [
+        300,
+        42
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/IXfpuu2qaDEHssgxdeU5Z0pWoI.jpeg?scale-down-to=2048&width=3840&height=1590",
+      "alt": "",
+      "r": [
+        20,
+        461,
+        1400,
+        818
+      ],
+      "nat": [
+        1400,
+        579
+      ],
+      "of": "cover"
+    }
+  ],
+  "links": [
+    {
+      "h": "../",
+      "x": "",
+      "r": [
+        110,
+        23,
+        114,
+        16
+      ]
+    },
+    {
+      "h": "../product",
+      "x": "Product",
+      "r": [
+        272,
+        22,
+        51,
+        17
+      ]
+    },
+    {
+      "h": "../case-studies",
+      "x": "Case Studies",
+      "r": [
+        363,
+        22,
+        85,
+        17
+      ]
+    },
+    {
+      "h": "../rius/pricing",
+      "x": "Pricing",
+      "r": [
+        472,
+        22,
+        45,
+        17
+      ]
+    },
+    {
+      "h": "../product",
+      "x": "Resources",
+      "r": [
+        541,
+        22,
+        68,
+        17
+      ]
+    },
+    {
+      "h": "../contact",
+      "x": "Contact",
+      "r": [
+        649,
+        22,
+        51,
+        17
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/clickhouse-etl",
+      "x": "clickhouse-etl",
+      "r": [
+        1257,
+        24,
+        73,
+        14
+      ]
+    },
+    {
+      "h": "https://cal.com/team/glassflow-founders/founders",
+      "x": "Get in TouchGetinTouchGetinTouch",
+      "r": [
+        579,
+        1072,
+        123,
+        48
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/clickhouse-etl",
+      "x": "Explore the codeExplorethecodeExplorethe",
+      "r": [
+        712,
+        1072,
+        150,
+        48
+      ]
+    }
+  ],
+  "bgimgs": [
+    {
+      "b": "linear-gradient(278524deg, rgb(168, 168, 168) 0%, rgb(255, 255, 255) 100%)",
+      "r": [
+        659,
+        140,
+        121,
+        67
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 14 14%22><path d=%22",
+      "r": [
+        325,
+        24,
+        14,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 14 14%22><path d=%22",
+      "r": [
+        611,
+        24,
+        14,
+        14
+      ]
+    },
+    {
+      "b": "linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(168, 168, 168) 100%)",
+      "r": [
+        320,
+        869,
+        800,
+        134
+      ]
+    },
+    {
+      "b": "linear-gradient(rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%)",
+      "r": [
+        -33,
+        461,
+        1506,
+        194
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "r": [
+        0,
+        0,
+        1440,
+        1420
+      ],
+      "bg": "rgb(0, 0, 0)",
+      "pad": "140px 20px",
+      "gap": "86px",
+      "name": null
+    }
+  ]
+}

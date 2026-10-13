@@ -1,0 +1,1601 @@
+{
+  "$description": "One entry per distinct page shape, derived from src/pages/*.jsx. nodes are matched in order; required/repeatable are machine-enforced by schema/semantic_validate.py keyed on (section, variant).",
+  "templates": {
+    "home": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "Home: hero, testimonial, two product splits, quickstart, FAQ.",
+      "implementedBy": [
+        {
+          "path": "src/pages/Home.jsx",
+          "lines": "8-22",
+          "quote": "export default function Home()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.home",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "social-proof.testimonial",
+          "variants": [
+            "home"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "product.feature-split",
+          "variants": [
+            "tares-text-left"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "product.feature-split",
+          "variants": [
+            "rius-image-left"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "onboarding.quickstart-band",
+          "variants": [
+            "home-two-cards"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "home"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "product-tares": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/tares product page.",
+      "implementedBy": [
+        {
+          "path": "src/pages/Tares.jsx",
+          "lines": "149-196",
+          "quote": "export default function Tares()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product",
+          "variants": [
+            "tares"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.title-row",
+          "variants": [
+            "product-160"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.image-card-grid",
+          "variants": [
+            "cols-4"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.tabs-showcase",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.heading-band",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.timeline",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "onboarding.run-it-terminals",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "product-inset"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.image-cta",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "product-rius": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/rius product page (differs from /tares in node sequence: benefits, logos, retrospective, agents table, plans, blog row).",
+      "implementedBy": [
+        {
+          "path": "src/pages/Rius.jsx",
+          "lines": "259-319",
+          "quote": "export default function Rius()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.product",
+          "variants": [
+            "rius"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "product.benefits-strip",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "social-proof.logo-groups",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "social-proof.testimonial",
+          "variants": [
+            "compact"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.retrospective",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.agents-length-table",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.title-row",
+          "variants": [
+            "product-160"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.image-card-grid",
+          "variants": [
+            "cols-3"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "feature.what-you-get",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "onboarding.quickstart-band",
+          "variants": [
+            "rius-one-card"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.title-row",
+          "variants": [
+            "product-160"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "pricing.plan-cards",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-xs",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.title-row",
+          "variants": [
+            "product-160"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.blog-card-row",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "product-inset"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "pricing": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/rius/pricing (also the /enterprise redirect target).",
+      "implementedBy": [
+        {
+          "path": "src/pages/RiusPricing.jsx",
+          "lines": "190-215",
+          "quote": "export default function RiusPricing()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.pricing",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "pricing.comparison-table",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "pricing.every-plan",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "pricing.add-ons",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.calculator-banner",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "faq.accordion",
+          "variants": [
+            "product-inset"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.image-cta",
+          "variants": [
+            "product"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "alternatives": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "Arize and Langfuse comparison pages: ONE template, per-vendor data; install / side-by-side / better-pick are optional, split repeats.",
+      "implementedBy": [
+        {
+          "path": "src/pages/Alternatives.jsx",
+          "lines": "1047-1078",
+          "quote": "export default function Alternatives({ vendor })"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "alt.hero",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "alt.logos",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "alt.quote",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "alt.comparison",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "alt.stops",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "alt.silent",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "alt.install",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "alt.split",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": true,
+          "repeatable": true
+        },
+        {
+          "section": "alt.side-by-side",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "alt.self-host-calc",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "alt.better-pick",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "alt.faq",
+          "variants": [
+            "arize",
+            "langfuse"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "calculator": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "Build-vs-buy calculator.",
+      "implementedBy": [
+        {
+          "path": "src/pages/Calculator.jsx",
+          "lines": "6-17",
+          "quote": "export default function Calculator()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "top-64"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "tool.build-vs-buy-calculator",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "blog-index": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/blog index.",
+      "implementedBy": [
+        {
+          "path": "src/pages/BlogIndex.jsx",
+          "lines": "97-132",
+          "quote": "export default function BlogIndex()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "blog.title-block",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "blog.featured-post",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "blog.filter-bar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "blog.post-grid",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.two-products-band",
+          "variants": [
+            "blog"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "blog-post": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/blog/:slug (one template for every live post; related posts omitted when none).",
+      "implementedBy": [
+        {
+          "path": "src/pages/BlogPost.jsx",
+          "lines": "39-75",
+          "quote": "export default function BlogPost()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "blog.post-hero",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.article-summary-body",
+          "variants": [
+            "post"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "blog.share-bar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "blog.related-posts",
+          "variants": [
+            "default"
+          ],
+          "required": false,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.two-products-band",
+          "variants": [
+            "posts"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "case-studies-index": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/case-studies index (no two-products band).",
+      "implementedBy": [
+        {
+          "path": "src/pages/CaseStudies.jsx",
+          "lines": "17-28",
+          "quote": "export function CaseStudiesIndex()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "case.studies-title",
+          "variants": [
+            "index"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "case.study-cards",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "case-study-detail": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/case-studies/:slug.",
+      "implementedBy": [
+        {
+          "path": "src/pages/CaseStudies.jsx",
+          "lines": "139-182",
+          "quote": "export function CaseStudy({ slug })"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "case.detail-hero",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "case.metrics",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "case.detail-body",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "case.studies-title",
+          "variants": [
+            "compact"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "case.study-cards",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.two-products-band",
+          "variants": [
+            "cases"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "about": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/about.",
+      "implementedBy": [
+        {
+          "path": "src/pages/About.jsx",
+          "lines": "223-243",
+          "quote": "export default function About()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "about.hero",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "about.values",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "about.team",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "onboarding.quickstart-band",
+          "variants": [
+            "about-discover"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "about.investors",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.two-products-band",
+          "variants": [
+            "pages"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "contact": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/contact.",
+      "implementedBy": [
+        {
+          "path": "src/pages/Contact.jsx",
+          "lines": "201-235",
+          "quote": "export default function Contact()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "contact.signal-form",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "onboarding.quickstart-band",
+          "variants": [
+            "contact-calendar"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.two-products-band",
+          "variants": [
+            "pages"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "contact-success": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "/contact/success (no two-products band).",
+      "implementedBy": [
+        {
+          "path": "src/pages/Contact.jsx",
+          "lines": "247-287",
+          "quote": "export function ContactSuccess()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "divider-30"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "contact.success-panel",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "legal-with-sidebar": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "Terms and Privacy: TOC sidebar + summary-only sections; ends with a spacer before the footer.",
+      "implementedBy": [
+        {
+          "path": "src/pages/Legal.jsx",
+          "lines": "160-204",
+          "quote": "function LegalDoc({ doc })"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "legal.toc-document",
+          "variants": [
+            "terms",
+            "privacy"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "legal-single": {
+      "theme": "mars",
+      "chromeFamily": "mars",
+      "description": "Imprint: single column.",
+      "implementedBy": [
+        {
+          "path": "src/pages/Legal.jsx",
+          "lines": "246-283",
+          "quote": "export function Imprint()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.navbar",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "legal.single-document",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "layout.spacer",
+          "variants": [
+            "band-65"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "chrome.footer",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "category-legacy": {
+      "theme": "legacy-black",
+      "chromeFamily": "legacy",
+      "description": "LEGACY /categories/:slug: own nav, no global footer/CTA band.",
+      "implementedBy": [
+        {
+          "path": "src/pages/Category.jsx",
+          "lines": "52-80",
+          "quote": "export default function Category()"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.legacy-nav",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "legacy.category-grid",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "legacy.bottom-cta",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    },
+    "legacy-guide": {
+      "theme": "legacy-black",
+      "chromeFamily": "legacy",
+      "description": "LEGACY gated-guide pages (kafka, mistakes): own nav, no footer.",
+      "implementedBy": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "94-154",
+          "quote": "export default function Guide({ which })"
+        }
+      ],
+      "nodes": [
+        {
+          "section": "chrome.legacy-nav",
+          "variants": [
+            "default"
+          ],
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "legacy.guide-hero-form",
+          "variants": [
+            "kafka",
+            "mistakes"
+          ],
+          "required": true,
+          "repeatable": false
+        }
+      ]
+    }
+  }
+}

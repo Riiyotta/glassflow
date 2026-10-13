@@ -1,0 +1,2784 @@
+{
+  "url": "https://www.glassflow.ai/contact",
+  "title": "GlassFlow | Contact",
+  "H": 4508,
+  "W": 390,
+  "bodyBg": "rgb(73, 36, 0)",
+  "text": [
+    {
+      "t": "P",
+      "x": "tares",
+      "r": [
+        18,
+        51,
+        42,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(143, 137, 130)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "rius",
+      "r": [
+        100,
+        51,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(143, 137, 130)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        256,
+        51,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(143, 137, 130)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        322,
+        51,
+        59,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(143, 137, 130)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        178,
+        51,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        246,
+        11,
+        92,
+        18
+      ],
+      "f": "Geist Mono Variable",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(29, 14, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        161,
+        128,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Send us a signal",
+      "r": [
+        -9,
+        194,
+        408,
+        96
+      ],
+      "f": "Inter Display",
+      "fs": "48px",
+      "lh": "48px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(255, 172, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Four plans, priced per trace, not per seat. Start free, pay for what you actually send.",
+      "r": [
+        -9,
+        302,
+        408,
+        63
+      ],
+      "f": "Inter Display",
+      "fs": "21px",
+      "lh": "31.5px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Works with the tools you already use.",
+      "r": [
+        32,
+        413,
+        326,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "LABEL",
+      "x": "First Name",
+      "r": [
+        40,
+        737,
+        310,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "INPUT",
+      "x": "e.g. John",
+      "r": [
+        40,
+        766,
+        310,
+        43
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "43px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "LABEL",
+      "x": "Last Name",
+      "r": [
+        40,
+        825,
+        310,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "INPUT",
+      "x": "e.g. Doe",
+      "r": [
+        40,
+        853,
+        310,
+        43
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "43px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "LABEL",
+      "x": "E-Mail",
+      "r": [
+        40,
+        912,
+        310,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "INPUT",
+      "x": "e.g. john@example.com",
+      "r": [
+        40,
+        940,
+        310,
+        43
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "43px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "LABEL",
+      "x": "Tares",
+      "r": [
+        40,
+        1045,
+        88,
+        34
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "LABEL",
+      "x": "Rius",
+      "r": [
+        136,
+        1045,
+        80,
+        34
+      ],
+      "f": "Geist Mono",
+      "fs": "12px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "LABEL",
+      "x": "Message",
+      "r": [
+        40,
+        1095,
+        310,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "TEXTAREA",
+      "x": "Your message...",
+      "r": [
+        40,
+        1124,
+        310,
+        139
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "21px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgb(255, 255, 255)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "BUTTON",
+      "x": "submit",
+      "r": [
+        40,
+        1282,
+        258,
+        52
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "normal",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgb(255, 172, 0)",
+      "tt": "lowercase",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Stuck on something?Let's talk.",
+      "r": [
+        24,
+        1505,
+        342,
+        120
+      ],
+      "f": "Inter Display",
+      "fs": "40px",
+      "lh": "40px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Sometimes the docs don't cut it. That's what the founder's calendar is for. Grab 30 minute",
+      "r": [
+        24,
+        1644,
+        342,
+        48
+      ],
+      "f": "Inter Display",
+      "fs": "16px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "calendar-app",
+      "r": [
+        127,
+        1735,
+        136,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Armend Avdijaj",
+      "r": [
+        84,
+        2335,
+        136,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Founder & CEO",
+      "r": [
+        84,
+        2355,
+        136,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ashish Bagri",
+      "r": [
+        255,
+        2335,
+        136,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Founder & CTO",
+      "r": [
+        255,
+        2355,
+        136,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Two products. Two starting points.",
+      "r": [
+        32,
+        2577,
+        326,
+        126
+      ],
+      "f": "Inter Display",
+      "fs": "42px",
+      "lh": "42px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius,",
+      "r": [
+        32,
+        2735,
+        326,
+        96
+      ],
+      "f": "Inter Display",
+      "fs": "16px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "-0.18px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Star Tares on GitHub",
+      "r": [
+        60,
+        2877,
+        162,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Read the Rius guides",
+      "r": [
+        60,
+        2937,
+        162,
+        24
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "500",
+      "ls": "-0.32px",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Ready to give your agents better data and total recall?",
+      "r": [
+        32,
+        3138,
+        271,
+        96
+      ],
+      "f": "Inter",
+      "fs": "32px",
+      "lh": "32px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Tares",
+      "r": [
+        57,
+        3359,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data.",
+      "r": [
+        57,
+        3391,
+        277,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        125,
+        3456,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Start with Rius",
+      "r": [
+        57,
+        3679,
+        277,
+        24
+      ],
+      "f": "Inter",
+      "fs": "24px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "See and debug agents in production.",
+      "r": [
+        44,
+        3711,
+        302,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "get_started",
+      "r": [
+        125,
+        3776,
+        89,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "products",
+      "r": [
+        161,
+        3930,
+        67,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "tares",
+      "r": [
+        28,
+        4016,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Feed your agents the right data. Open source",
+      "r": [
+        28,
+        4040,
+        147,
+        59
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "rius",
+      "r": [
+        215,
+        4016,
+        211,
+        24
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "24px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "See what your agents did in production.",
+      "r": [
+        215,
+        4040,
+        147,
+        59
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "19.6px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "contact",
+      "r": [
+        66,
+        4137,
+        59,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "docs",
+      "r": [
+        66,
+        4209,
+        34,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "blog",
+      "r": [
+        66,
+        4281,
+        34,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "about",
+      "r": [
+        66,
+        4337,
+        42,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgba(241, 239, 223, 0.64)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "2026 - Copyright GlassFlow.ai",
+      "r": [
+        24,
+        4466,
+        244,
+        18
+      ],
+      "f": "Inter",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "400",
+      "ls": "normal",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "start"
+    },
+    {
+      "t": "P",
+      "x": "Terms & Conditions",
+      "r": [
+        268,
+        4466,
+        151,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    },
+    {
+      "t": "P",
+      "x": "Privacy Policy",
+      "r": [
+        419,
+        4466,
+        118,
+        18
+      ],
+      "f": "Geist Mono",
+      "fs": "14px",
+      "lh": "18.2px",
+      "fw": "700",
+      "ls": "normal",
+      "c": "rgb(241, 239, 223)",
+      "bg": "rgba(0, 0, 0, 0)",
+      "tt": "none",
+      "ta": "center"
+    }
+  ],
+  "imgs": [
+    {
+      "src": "https://framerusercontent.com/images/D96xSgDLnqPtPU2OdIebnL9UZYs.jpg?scale-down-to=512&width=1312&height=1050",
+      "alt": "",
+      "r": [
+        0,
+        162,
+        390,
+        235
+      ],
+      "nat": [
+        390,
+        312
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "https://framerusercontent.com/images/ARgMqlYnmiFWpdywy7EoO9FO9vI.png?scale-down-to=512&width=2652&height=1566",
+      "alt": "",
+      "r": [
+        0,
+        1441,
+        390,
+        1005
+      ],
+      "nat": [
+        390,
+        230
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        28,
+        2330,
+        48,
+        48
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        199,
+        2330,
+        48,
+        48
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        0,
+        2513,
+        390,
+        526
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        0,
+        3106,
+        390,
+        160
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        0,
+        3266,
+        390,
+        320
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    },
+    {
+      "src": "",
+      "alt": "",
+      "r": [
+        0,
+        3586,
+        390,
+        320
+      ],
+      "nat": [
+        0,
+        0
+      ],
+      "of": "cover"
+    }
+  ],
+  "links": [
+    {
+      "h": "./tares",
+      "x": "tares",
+      "r": [
+        0,
+        40,
+        78,
+        40
+      ]
+    },
+    {
+      "h": "./rius",
+      "x": "rius",
+      "r": [
+        78,
+        40,
+        78,
+        40
+      ]
+    },
+    {
+      "h": "./blog",
+      "x": "blog",
+      "r": [
+        234,
+        40,
+        78,
+        40
+      ]
+    },
+    {
+      "h": "./contact",
+      "x": "contact",
+      "r": [
+        312,
+        40,
+        78,
+        40
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        156,
+        40,
+        78,
+        40
+      ]
+    },
+    {
+      "h": "./",
+      "x": "",
+      "r": [
+        0,
+        -1,
+        149,
+        42
+      ]
+    },
+    {
+      "h": "./#quickstart",
+      "x": "get_started",
+      "r": [
+        237,
+        -1,
+        153,
+        42
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "Star Tares on GitHub",
+      "r": [
+        32,
+        2863,
+        218,
+        52
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/rius/guides",
+      "x": "Read the Rius guides",
+      "r": [
+        32,
+        2923,
+        218,
+        52
+      ]
+    },
+    {
+      "h": "https://console.tares-glassflow.com/",
+      "x": "get_started",
+      "r": [
+        97,
+        3442,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core",
+      "x": "get_started",
+      "r": [
+        97,
+        3762,
+        197,
+        52
+      ]
+    },
+    {
+      "h": "./tares",
+      "x": "taresFeed your agents the right data. Op",
+      "r": [
+        8,
+        3964,
+        187,
+        155
+      ]
+    },
+    {
+      "h": "./rius",
+      "x": "riusSee what your agents did in producti",
+      "r": [
+        195,
+        3964,
+        187,
+        155
+      ]
+    },
+    {
+      "h": "./contact",
+      "x": "contact",
+      "r": [
+        8,
+        4114,
+        374,
+        64
+      ]
+    },
+    {
+      "h": "https://docs.glassflow.ai/",
+      "x": "docs",
+      "r": [
+        8,
+        4186,
+        374,
+        64
+      ]
+    },
+    {
+      "h": "./blog",
+      "x": "blog",
+      "r": [
+        8,
+        4258,
+        374,
+        64
+      ]
+    },
+    {
+      "h": "./about",
+      "x": "about",
+      "r": [
+        8,
+        4330,
+        374,
+        32
+      ]
+    },
+    {
+      "h": "https://x.com/glassflowdev",
+      "x": "",
+      "r": [
+        8,
+        4370,
+        119,
+        64
+      ]
+    },
+    {
+      "h": "https://www.linkedin.com/company/glassflow-dev/",
+      "x": "",
+      "r": [
+        135,
+        4370,
+        119,
+        64
+      ]
+    },
+    {
+      "h": "https://github.com/glassflow/tares",
+      "x": "",
+      "r": [
+        263,
+        4370,
+        119,
+        64
+      ]
+    },
+    {
+      "h": "./terms-of-service",
+      "x": "Terms & Conditions",
+      "r": [
+        268,
+        4466,
+        151,
+        18
+      ]
+    },
+    {
+      "h": "./privacy-policy",
+      "x": "Privacy Policy",
+      "r": [
+        419,
+        4466,
+        118,
+        18
+      ]
+    }
+  ],
+  "bgimgs": [
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 124.51 15.963%22 ove",
+      "r": [
+        12,
+        12,
+        125,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 101 21%22 overflow=%",
+      "r": [
+        47,
+        499,
+        101,
+        21
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 111.71 24%22 overflo",
+      "r": [
+        237,
+        498,
+        112,
+        24
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 100.978 24%22 overfl",
+      "r": [
+        47,
+        623,
+        101,
+        24
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 97.53 24%22 overflow",
+      "r": [
+        244,
+        623,
+        98,
+        24
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        259,
+        3491,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        259,
+        3461,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        259,
+        3811,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 14%22 overflow=%2",
+      "r": [
+        259,
+        3781,
+        16,
+        14
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16 16%22 overflow=%2",
+      "r": [
+        60,
+        4394,
+        16,
+        16
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 15 14.994%22 overflo",
+      "r": [
+        187,
+        4395,
+        15,
+        15
+      ]
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 xmlns:xlink=%22http://www.w3.org/1999/xlink%22 viewBox=%220 0 16.667 16.264%22 ove",
+      "r": [
+        314,
+        4394,
+        17,
+        17
+      ]
+    }
+  ],
+  "boxes": [
+    {
+      "r": [
+        0,
+        0,
+        390,
+        4508
+      ],
+      "bg": "rgb(73, 36, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        0,
+        0,
+        390,
+        80
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Phone"
+    },
+    {
+      "r": [
+        237,
+        0,
+        111,
+        40
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "3.06401px 9.19203px",
+      "gap": "4px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Overlay"
+    },
+    {
+      "r": [
+        0,
+        63,
+        390,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        112,
+        390,
+        50
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "bar"
+    },
+    {
+      "r": [
+        16,
+        134,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        26,
+        134,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        36,
+        134,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        348,
+        134,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        358,
+        134,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        368,
+        134,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        0,
+        162,
+        390,
+        535
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        0,
+        162,
+        390,
+        235
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px",
+      "gap": "64px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "content"
+    },
+    {
+      "r": [
+        0,
+        397,
+        390,
+        50
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "16px 32px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "title"
+    },
+    {
+      "r": [
+        0,
+        447,
+        390,
+        250
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "195px 195px",
+      "n": "logos"
+    },
+    {
+      "r": [
+        0,
+        447,
+        195,
+        125
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326014"
+    },
+    {
+      "r": [
+        195,
+        447,
+        195,
+        125
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326012"
+    },
+    {
+      "r": [
+        0,
+        572,
+        195,
+        125
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326010"
+    },
+    {
+      "r": [
+        195,
+        572,
+        195,
+        125
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326010"
+    },
+    {
+      "r": [
+        0,
+        697,
+        390,
+        677
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        0,
+        697,
+        390,
+        677
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "40px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        298,
+        1282,
+        52,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        0,
+        1374,
+        390,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        1441,
+        390,
+        1005
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 24px",
+      "gap": "32px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        24,
+        1724,
+        342,
+        42
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628322"
+    },
+    {
+      "r": [
+        38,
+        1742,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        48,
+        1742,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        58,
+        1742,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        24,
+        1766,
+        342,
+        560
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "4px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326051"
+    },
+    {
+      "r": [
+        24,
+        2326,
+        171,
+        56
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "4px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087325991"
+    },
+    {
+      "r": [
+        195,
+        2326,
+        171,
+        56
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "4px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087325991"
+    },
+    {
+      "r": [
+        0,
+        2446,
+        390,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        2513,
+        390,
+        526
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "64px 32px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        32,
+        2863,
+        218,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        32,
+        2863,
+        218,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        36,
+        2867,
+        210,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        32,
+        2923,
+        218,
+        52
+      ],
+      "bg": "rgb(30, 15, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        32,
+        2923,
+        218,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        36,
+        2927,
+        210,
+        44
+      ],
+      "bg": "rgb(45, 24, 4)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        0,
+        3039,
+        390,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        3106,
+        390,
+        1402
+      ],
+      "bg": "rgb(29, 14, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Phone"
+    },
+    {
+      "r": [
+        0,
+        3106,
+        390,
+        160
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "32px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        0,
+        3266,
+        390,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "tares"
+    },
+    {
+      "r": [
+        97,
+        3442,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        97,
+        3442,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        101,
+        3446,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        241,
+        3442,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        0,
+        3586,
+        390,
+        320
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "8px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "rius"
+    },
+    {
+      "r": [
+        97,
+        3762,
+        197,
+        52
+      ],
+      "bg": "rgb(255, 172, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        97,
+        3762,
+        145,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "left"
+    },
+    {
+      "r": [
+        101,
+        3766,
+        137,
+        44
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "10px 24px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "DIV"
+    },
+    {
+      "r": [
+        241,
+        3762,
+        52,
+        52
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "4px",
+      "gap": "10px",
+      "fd": "row",
+      "gtc": "none",
+      "n": "right"
+    },
+    {
+      "r": [
+        0,
+        3906,
+        390,
+        536
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "8px",
+      "gap": "8px",
+      "fd": "column",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    },
+    {
+      "r": [
+        8,
+        3914,
+        374,
+        50
+      ],
+      "bg": "rgb(45, 24, 3)",
+      "pad": "16px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326098"
+    },
+    {
+      "r": [
+        24,
+        3936,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        34,
+        3936,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        44,
+        3936,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        340,
+        3936,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        350,
+        3936,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        360,
+        3936,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        24,
+        4143,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        34,
+        4143,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        44,
+        4143,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        24,
+        4215,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        34,
+        4215,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        44,
+        4215,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        24,
+        4287,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        34,
+        4287,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        44,
+        4287,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        24,
+        4343,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628278"
+    },
+    {
+      "r": [
+        34,
+        4343,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628279"
+    },
+    {
+      "r": [
+        44,
+        4343,
+        6,
+        6
+      ],
+      "bg": "rgb(85, 54, 25)",
+      "pad": "0px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Rectangle 34628280"
+    },
+    {
+      "r": [
+        0,
+        4442,
+        390,
+        66
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "24px",
+      "gap": "normal",
+      "fd": "row",
+      "gtc": "none",
+      "n": "Frame 2087326094"
+    }
+  ],
+  "form": {
+    "action": null,
+    "method": null,
+    "novalidate": true,
+    "attrs": [
+      "style=width:100%;font-family:\"Geist Mono\", \"JetBrains Mono\", ui-monospace, SFMono-Regu",
+      "novalidate="
+    ],
+    "fields": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "firstname",
+        "id": "gf-firstname",
+        "ph": "e.g. John",
+        "req": true,
+        "min": -1,
+        "max": -1,
+        "pattern": "",
+        "auto": "",
+        "value": "",
+        "label": null,
+        "r": [
+          40,
+          766,
+          310,
+          43
+        ],
+        "st": {
+          "f": "\"Geist Mono\", \"JetBr",
+          "fs": "14px",
+          "lh": "43px",
+          "fw": "400",
+          "c": "rgb(30, 15, 0)",
+          "bg": "rgb(255, 255, 255)",
+          "bd": "0px none rgb(30, 15, 0)",
+          "bb": "0px none rgb(30, 15, 0)",
+          "pad": "0px 16px",
+          "rad": "0px",
+          "h": "43px",
+          "ph": "rgb(30, 15, 0)"
+        }
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "lastname",
+        "id": "gf-lastname",
+        "ph": "e.g. Doe",
+        "req": true,
+        "min": -1,
+        "max": -1,
+        "pattern": "",
+        "auto": "",
+        "value": "",
+        "label": null,
+        "r": [
+          40,
+          853,
+          310,
+          43
+        ],
+        "st": {
+          "f": "\"Geist Mono\", \"JetBr",
+          "fs": "14px",
+          "lh": "43px",
+          "fw": "400",
+          "c": "rgb(30, 15, 0)",
+          "bg": "rgb(255, 255, 255)",
+          "bd": "0px none rgb(30, 15, 0)",
+          "bb": "0px none rgb(30, 15, 0)",
+          "pad": "0px 16px",
+          "rad": "0px",
+          "h": "43px",
+          "ph": "rgb(30, 15, 0)"
+        }
+      },
+      {
+        "tag": "INPUT",
+        "type": "email",
+        "name": "email",
+        "id": "gf-email",
+        "ph": "e.g. john@example.com",
+        "req": true,
+        "min": -1,
+        "max": -1,
+        "pattern": "",
+        "auto": "",
+        "value": "",
+        "label": null,
+        "r": [
+          40,
+          940,
+          310,
+          43
+        ],
+        "st": {
+          "f": "\"Geist Mono\", \"JetBr",
+          "fs": "14px",
+          "lh": "43px",
+          "fw": "400",
+          "c": "rgb(30, 15, 0)",
+          "bg": "rgb(255, 255, 255)",
+          "bd": "0px none rgb(30, 15, 0)",
+          "bb": "0px none rgb(30, 15, 0)",
+          "pad": "0px 16px",
+          "rad": "0px",
+          "h": "43px",
+          "ph": "rgb(30, 15, 0)"
+        }
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "which_glassflow_solution_are_you_interested_in",
+        "id": "",
+        "ph": "",
+        "req": false,
+        "min": -1,
+        "max": -1,
+        "pattern": "",
+        "auto": "",
+        "value": "GlassFlow Tares",
+        "label": "Tares",
+        "r": [
+          45,
+          1048,
+          0,
+          0
+        ],
+        "st": {
+          "f": "sans-serif",
+          "fs": "12px",
+          "lh": "normal",
+          "fw": "400",
+          "c": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bd": "0px none rgb(0, 0, 0)",
+          "bb": "0px none rgb(0, 0, 0)",
+          "pad": "0px",
+          "rad": "0px",
+          "h": "0px",
+          "ph": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "tag": "INPUT",
+        "type": "radio",
+        "name": "which_glassflow_solution_are_you_interested_in",
+        "id": "",
+        "ph": "",
+        "req": false,
+        "min": -1,
+        "max": -1,
+        "pattern": "",
+        "auto": "",
+        "value": "GlassFlow Rius",
+        "label": "Rius",
+        "r": [
+          141,
+          1048,
+          0,
+          0
+        ],
+        "st": {
+          "f": "sans-serif",
+          "fs": "12px",
+          "lh": "normal",
+          "fw": "400",
+          "c": "rgb(0, 0, 0)",
+          "bg": "rgba(0, 0, 0, 0)",
+          "bd": "0px none rgb(0, 0, 0)",
+          "bb": "0px none rgb(0, 0, 0)",
+          "pad": "0px",
+          "rad": "0px",
+          "h": "0px",
+          "ph": "rgb(0, 0, 0)"
+        }
+      },
+      {
+        "tag": "TEXTAREA",
+        "type": "textarea",
+        "name": "message",
+        "id": "gf-message",
+        "ph": "Your message...",
+        "req": false,
+        "min": -1,
+        "max": -1,
+        "auto": "",
+        "value": "",
+        "label": null,
+        "r": [
+          40,
+          1124,
+          310,
+          139
+        ],
+        "st": {
+          "f": "\"Geist Mono\", \"JetBr",
+          "fs": "14px",
+          "lh": "21px",
+          "fw": "400",
+          "c": "rgb(30, 15, 0)",
+          "bg": "rgb(255, 255, 255)",
+          "bd": "0px none rgb(30, 15, 0)",
+          "bb": "0px none rgb(30, 15, 0)",
+          "pad": "14px 16px",
+          "rad": "0px",
+          "h": "139px",
+          "ph": "rgb(30, 15, 0)"
+        }
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "name": "",
+        "id": "",
+        "value": "",
+        "label": null,
+        "r": [
+          40,
+          1282,
+          258,
+          52
+        ],
+        "st": {
+          "f": "\"Geist Mono\", \"JetBr",
+          "fs": "14px",
+          "lh": "normal",
+          "fw": "400",
+          "c": "rgb(30, 15, 0)",
+          "bg": "rgb(255, 172, 0)",
+          "bd": "0px none rgb(30, 15, 0)",
+          "bb": "0px none rgb(30, 15, 0)",
+          "pad": "0px",
+          "rad": "0px",
+          "h": "52px",
+          "ph": "rgb(30, 15, 0)"
+        }
+      }
+    ],
+    "labels": [
+      {
+        "txt": "First Name",
+        "r": [
+          40,
+          737,
+          310,
+          18
+        ],
+        "gap": "normal",
+        "fd": "row",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bd": "0px none rgb(241, 239, 223)",
+        "pad": "0px"
+      },
+      {
+        "txt": "Last Name",
+        "r": [
+          40,
+          825,
+          310,
+          18
+        ],
+        "gap": "normal",
+        "fd": "row",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bd": "0px none rgb(241, 239, 223)",
+        "pad": "0px"
+      },
+      {
+        "txt": "E-Mail",
+        "r": [
+          40,
+          912,
+          310,
+          18
+        ],
+        "gap": "normal",
+        "fd": "row",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bd": "0px none rgb(241, 239, 223)",
+        "pad": "0px"
+      },
+      {
+        "txt": "Tares",
+        "r": [
+          40,
+          1045,
+          88,
+          34
+        ],
+        "gap": "normal",
+        "fd": "row",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bd": "0px none rgb(0, 0, 0)",
+        "pad": "0px"
+      },
+      {
+        "txt": "Rius",
+        "r": [
+          136,
+          1045,
+          80,
+          34
+        ],
+        "gap": "normal",
+        "fd": "row",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bd": "0px none rgb(0, 0, 0)",
+        "pad": "0px"
+      },
+      {
+        "txt": "Message",
+        "r": [
+          40,
+          1095,
+          310,
+          18
+        ],
+        "gap": "normal",
+        "fd": "row",
+        "bg": "rgba(0, 0, 0, 0)",
+        "bd": "0px none rgb(241, 239, 223)",
+        "pad": "0px"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "team-card",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Team card: dot bar, 300px photo (150 mobile), amber name, role, LinkedIn cell.",
+  "composes": [
+    "dots"
+  ],
+  "props": {
+    "member": "object"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/pages/About.jsx",
+      "lines": "149-176",
+      "quote": "function Team()"
+    }
+  ]
+}

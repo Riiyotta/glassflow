@@ -1,0 +1,3234 @@
+{
+  "featuredCard": {
+    "tag": "A",
+    "r": [
+      64,
+      432,
+      1312,
+      412
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "pad": "0px",
+    "gap": "0px",
+    "disp": "flex",
+    "gtc": "none",
+    "fd": "row",
+    "jc": "center",
+    "ai": "center",
+    "bd": "0px none rgb(0, 0, 238)",
+    "bimg": "none",
+    "pos": "relative",
+    "ov": "visible",
+    "cursor": "pointer",
+    "trans": "all",
+    "kids": [
+      {
+        "tag": "DIV",
+        "r": [
+          64,
+          432,
+          644,
+          412
+        ],
+        "bg": "rgba(0, 0, 0, 0)",
+        "pad": "0px",
+        "gap": "0px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "column",
+        "jc": "center",
+        "ai": "center",
+        "bd": "0px none rgb(0, 0, 238)",
+        "bimg": "none",
+        "pos": "relative",
+        "ov": "clip",
+        "cursor": "pointer",
+        "trans": "all",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              64,
+              432,
+              644,
+              360
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "24px",
+            "gap": "16px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "column",
+            "jc": "center",
+            "ai": "flex-start",
+            "bd": "0px none rgb(0, 0, 238)",
+            "bimg": "none",
+            "pos": "relative",
+            "ov": "hidden",
+            "cursor": "pointer",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "contents",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "static",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      88,
+                      522,
+                      173,
+                      24
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "normal",
+                    "ai": "normal",
+                    "bd": "0px none rgb(0, 0, 238)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "SPAN",
+                        "r": [
+                          88,
+                          522,
+                          173,
+                          24
+                        ],
+                        "bg": "rgb(255, 172, 0)",
+                        "pad": "6px 10px",
+                        "gap": "0px",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "row",
+                        "jc": "center",
+                        "ai": "center",
+                        "bd": "0px none rgb(0, 0, 238)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "hidden",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "DIV",
+                            "r": [
+                              98,
+                              528,
+                              153,
+                              12
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "flex",
+                            "gtc": "none",
+                            "fd": "column",
+                            "jc": "flex-start",
+                            "ai": "normal",
+                            "bd": "0px none rgb(0, 0, 238)",
+                            "bimg": "none",
+                            "pos": "relative",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "kids": [
+                              {
+                                "tag": "P",
+                                "r": [
+                                  98,
+                                  528,
+                                  153,
+                                  12
+                                ],
+                                "bg": "rgba(0, 0, 0, 0)",
+                                "pad": "0px",
+                                "gap": "normal",
+                                "disp": "block",
+                                "gtc": "none",
+                                "fd": "row",
+                                "jc": "normal",
+                                "ai": "normal",
+                                "bd": "0px none rgb(30, 15, 0)",
+                                "bimg": "none",
+                                "pos": "static",
+                                "ov": "visible",
+                                "cursor": "pointer",
+                                "trans": "all",
+                                "txt": "Agent Infrastructure"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  88,
+                  562,
+                  596,
+                  77
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "column",
+                "jc": "flex-start",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "H3",
+                    "r": [
+                      88,
+                      562,
+                      596,
+                      77
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "normal",
+                    "ai": "normal",
+                    "bd": "0px none rgb(255, 255, 255)",
+                    "bimg": "none",
+                    "pos": "static",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "txt": "Can a decision model replace an LLM? Tun",
+                    "kids": []
+                  }
+                ]
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  88,
+                  655,
+                  596,
+                  48
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "column",
+                "jc": "flex-start",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "P",
+                    "r": [
+                      88,
+                      655,
+                      596,
+                      48
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "normal",
+                    "ai": "normal",
+                    "bd": "0px none rgb(241, 239, 223)",
+                    "bimg": "none",
+                    "pos": "static",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "txt": "We ran Cloudflare's Clef-flash next to C",
+                    "kids": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              64,
+              793,
+              644,
+              52
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "8px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "flex-start",
+            "ai": "center",
+            "bd": "0px none rgb(0, 0, 238)",
+            "bimg": "none",
+            "pos": "relative",
+            "ov": "visible",
+            "cursor": "pointer",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  64,
+                  793,
+                  644,
+                  52
+                ],
+                "bg": "rgb(30, 15, 0)",
+                "pad": "0px",
+                "gap": "0px",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "center",
+                "ai": "center",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "clip",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      64,
+                      793,
+                      644,
+                      52
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "4px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "center",
+                    "ai": "center",
+                    "bd": "0px none rgb(0, 0, 238)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "clip",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          68,
+                          797,
+                          636,
+                          44
+                        ],
+                        "bg": "rgb(45, 24, 4)",
+                        "pad": "10px 24px",
+                        "gap": "10px",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "row",
+                        "jc": "center",
+                        "ai": "center",
+                        "bd": "0px none rgb(0, 0, 238)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "clip",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "DIV",
+                            "r": [
+                              350,
+                              777,
+                              73,
+                              24
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "flex",
+                            "gtc": "none",
+                            "fd": "column",
+                            "jc": "center",
+                            "ai": "normal",
+                            "bd": "0px none rgb(0, 0, 238)",
+                            "bimg": "none",
+                            "pos": "absolute",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "kids": [
+                              {
+                                "tag": "P",
+                                "r": [
+                                  350,
+                                  777,
+                                  73,
+                                  24
+                                ],
+                                "bg": "rgba(0, 0, 0, 0)",
+                                "pad": "0px",
+                                "gap": "normal",
+                                "disp": "block",
+                                "gtc": "none",
+                                "fd": "row",
+                                "jc": "normal",
+                                "ai": "normal",
+                                "bd": "0px none rgb(241, 239, 223)",
+                                "bimg": "none",
+                                "pos": "static",
+                                "ov": "visible",
+                                "cursor": "pointer",
+                                "trans": "all",
+                                "txt": "read more"
+                              }
+                            ]
+                          },
+                          {
+                            "tag": "DIV",
+                            "r": [
+                              350,
+                              807,
+                              73,
+                              24
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "flex",
+                            "gtc": "none",
+                            "fd": "column",
+                            "jc": "center",
+                            "ai": "normal",
+                            "bd": "0px none rgb(0, 0, 238)",
+                            "bimg": "none",
+                            "pos": "absolute",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "kids": [
+                              {
+                                "tag": "P",
+                                "r": [
+                                  350,
+                                  807,
+                                  73,
+                                  24
+                                ],
+                                "bg": "rgba(0, 0, 0, 0)",
+                                "pad": "0px",
+                                "gap": "normal",
+                                "disp": "block",
+                                "gtc": "none",
+                                "fd": "row",
+                                "jc": "normal",
+                                "ai": "normal",
+                                "bd": "0px none rgb(241, 239, 223)",
+                                "bimg": "none",
+                                "pos": "static",
+                                "ov": "visible",
+                                "cursor": "pointer",
+                                "trans": "all",
+                                "txt": "read more"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "r": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "bg": "rgba(0, 0, 0, 0)",
+        "pad": "0px",
+        "gap": "normal",
+        "disp": "contents",
+        "gtc": "none",
+        "fd": "row",
+        "jc": "normal",
+        "ai": "normal",
+        "bd": "0px none rgb(0, 0, 238)",
+        "bimg": "none",
+        "pos": "static",
+        "ov": "visible",
+        "cursor": "pointer",
+        "trans": "all",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              708,
+              432,
+              668,
+              412
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "12px",
+            "gap": "0px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "center",
+            "ai": "center",
+            "bd": "0px none rgb(0, 0, 238)",
+            "bimg": "none",
+            "pos": "relative",
+            "ov": "visible",
+            "cursor": "pointer",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  708,
+                  432,
+                  668,
+                  412
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "absolute",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "IMG",
+                    "r": [
+                      708,
+                      432,
+                      668,
+                      412
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "normal",
+                    "ai": "normal",
+                    "bd": "0px none rgb(0, 0, 238)",
+                    "bimg": "none",
+                    "pos": "static",
+                    "ov": "clip",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "txt": "",
+                    "src": "https://framerusercontent.com/images/YiSYWMdzERJyLVRZRpiutPwoGI.jpg?width=559&height=661",
+                    "kids": []
+                  }
+                ]
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  720,
+                  444,
+                  644,
+                  388
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      720,
+                      444,
+                      644,
+                      388
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "normal",
+                    "ai": "normal",
+                    "bd": "0px none rgb(0, 0, 238)",
+                    "bimg": "none",
+                    "pos": "absolute",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "IMG",
+                        "r": [
+                          720,
+                          444,
+                          644,
+                          388
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "block",
+                        "gtc": "none",
+                        "fd": "row",
+                        "jc": "normal",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 238)",
+                        "bimg": "none",
+                        "pos": "static",
+                        "ov": "clip",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "txt": "",
+                        "src": "https://framerusercontent.com/images/mFirefQhQKw3QXF3cpXhF7l4sLw.png?scale-down-to=1024&width=1300&height=784",
+                        "kids": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "card": {
+    "tag": "A",
+    "r": [
+      508,
+      1012,
+      424,
+      562
+    ],
+    "bg": "rgb(45, 24, 4)",
+    "pad": "0px",
+    "gap": "0px",
+    "disp": "flex",
+    "gtc": "none",
+    "fd": "column",
+    "jc": "flex-start",
+    "ai": "center",
+    "bd": "0px none rgb(0, 0, 238)",
+    "bimg": "none",
+    "pos": "relative",
+    "ov": "clip",
+    "cursor": "pointer",
+    "trans": "all",
+    "kids": [
+      {
+        "tag": "DIV",
+        "r": [
+          508,
+          1012,
+          424,
+          38
+        ],
+        "bg": "rgb(29, 14, 0)",
+        "pad": "16px",
+        "gap": "8px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "column",
+        "jc": "flex-start",
+        "ai": "flex-start",
+        "bd": "0px none rgb(0, 0, 238)",
+        "bimg": "none",
+        "pos": "relative",
+        "ov": "visible",
+        "cursor": "pointer",
+        "trans": "all",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              524,
+              1028,
+              26,
+              6
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "4px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "flex-start",
+            "ai": "center",
+            "bd": "0px none rgb(0, 0, 238)",
+            "bimg": "none",
+            "pos": "relative",
+            "ov": "visible",
+            "cursor": "pointer",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  524,
+                  1028,
+                  6,
+                  6
+                ],
+                "bg": "rgb(73, 36, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "txt": "",
+                "kids": []
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  534,
+                  1028,
+                  6,
+                  6
+                ],
+                "bg": "rgb(73, 36, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "txt": "",
+                "kids": []
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  544,
+                  1028,
+                  6,
+                  6
+                ],
+                "bg": "rgb(73, 36, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "txt": "",
+                "kids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "r": [
+          508,
+          1050,
+          424,
+          432
+        ],
+        "bg": "rgba(0, 0, 0, 0)",
+        "pad": "0px",
+        "gap": "0px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "column",
+        "jc": "flex-start",
+        "ai": "center",
+        "bd": "0px none rgb(0, 0, 238)",
+        "bimg": "none",
+        "pos": "relative",
+        "ov": "visible",
+        "cursor": "pointer",
+        "trans": "all",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              508,
+              1050,
+              424,
+              242
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "10px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "center",
+            "ai": "center",
+            "bd": "0px none rgb(0, 0, 238)",
+            "bimg": "none",
+            "pos": "relative",
+            "ov": "clip",
+            "cursor": "pointer",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  508,
+                  1050,
+                  424,
+                  242
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      508,
+                      1050,
+                      424,
+                      242
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "normal",
+                    "ai": "normal",
+                    "bd": "0px none rgb(0, 0, 238)",
+                    "bimg": "none",
+                    "pos": "absolute",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "IMG",
+                        "r": [
+                          508,
+                          1050,
+                          424,
+                          242
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "block",
+                        "gtc": "none",
+                        "fd": "row",
+                        "jc": "normal",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 238)",
+                        "bimg": "none",
+                        "pos": "static",
+                        "ov": "clip",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "txt": "",
+                        "src": "https://framerusercontent.com/images/DK46aveL39yduU5qMbUqGPAWoI.png?scale-down-to=512&width=1300&height=784",
+                        "kids": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              508,
+              1292,
+              424,
+              190
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "24px",
+            "gap": "16px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "column",
+            "jc": "flex-start",
+            "ai": "flex-start",
+            "bd": "0px none rgb(0, 0, 238)",
+            "bimg": "none",
+            "pos": "relative",
+            "ov": "hidden",
+            "cursor": "pointer",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  532,
+                  1316,
+                  376,
+                  24
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "10px",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "flex-start",
+                "ai": "center",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      532,
+                      1316,
+                      157,
+                      24
+                    ],
+                    "bg": "rgb(255, 172, 0)",
+                    "pad": "6px 10px",
+                    "gap": "0px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "center",
+                    "ai": "center",
+                    "bd": "0px none rgb(0, 0, 238)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "hidden",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          542,
+                          1322,
+                          137,
+                          12
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 238)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              542,
+                              1322,
+                              137,
+                              12
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(73, 36, 0)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Agent Observability",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  532,
+                  1356,
+                  376,
+                  42
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "flow-root",
+                "gtc": "none",
+                "fd": "column",
+                "jc": "flex-start",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "clip",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "P",
+                    "r": [
+                      532,
+                      1356,
+                      376,
+                      42
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "normal",
+                    "ai": "normal",
+                    "bd": "0px none rgb(224, 224, 224)",
+                    "bimg": "none",
+                    "pos": "static",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "txt": "How to detect silent AI agent failures i",
+                    "kids": []
+                  }
+                ]
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  532,
+                  1414,
+                  376,
+                  44
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "flow-root",
+                "gtc": "none",
+                "fd": "column",
+                "jc": "flex-start",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "clip",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "P",
+                    "r": [
+                      532,
+                      1414,
+                      376,
+                      44
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "normal",
+                    "ai": "normal",
+                    "bd": "0px none rgba(230, 230, 230, 0.8)",
+                    "bimg": "none",
+                    "pos": "static",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "txt": "Fifteen signals and a five-stage framewo",
+                    "kids": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "r": [
+          508,
+          1482,
+          424,
+          40
+        ],
+        "bg": "rgb(30, 15, 0)",
+        "pad": "0px",
+        "gap": "0px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "row",
+        "jc": "center",
+        "ai": "center",
+        "bd": "0px none rgb(0, 0, 238)",
+        "bimg": "none",
+        "pos": "relative",
+        "ov": "hidden",
+        "cursor": "pointer",
+        "trans": "all",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              508,
+              1482,
+              212,
+              40
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "10px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "column",
+            "jc": "center",
+            "ai": "center",
+            "bd": "0px none rgb(0, 0, 238)",
+            "bimg": "none",
+            "pos": "relative",
+            "ov": "visible",
+            "cursor": "pointer",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  574,
+                  1491,
+                  81,
+                  21
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "column",
+                "jc": "flex-start",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "P",
+                    "r": [
+                      574,
+                      1491,
+                      81,
+                      21
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "normal",
+                    "ai": "normal",
+                    "bd": "0px none rgba(230, 230, 230, 0.8)",
+                    "bimg": "none",
+                    "pos": "static",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "txt": "Written by",
+                    "kids": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              720,
+              1482,
+              212,
+              40
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "10px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "center",
+            "ai": "center",
+            "bd": "0px none rgb(0, 0, 238)",
+            "bimg": "none",
+            "pos": "relative",
+            "ov": "visible",
+            "cursor": "pointer",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  720,
+                  1482,
+                  212,
+                  40
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "12px",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "flex-start",
+                "ai": "center",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      720,
+                      1491,
+                      212,
+                      21
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px",
+                    "gap": "0px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "center",
+                    "bd": "0px none rgb(0, 0, 238)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          720,
+                          1491,
+                          212,
+                          21
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 238)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              720,
+                              1491,
+                              212,
+                              21
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgba(230, 230, 230, 0.8)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Armend Avdijaj",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "SPAN",
+        "r": [
+          508,
+          1522,
+          424,
+          52
+        ],
+        "bg": "rgba(0, 0, 0, 0)",
+        "pad": "0px",
+        "gap": "8px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "row",
+        "jc": "flex-start",
+        "ai": "center",
+        "bd": "0px none rgb(0, 0, 238)",
+        "bimg": "none",
+        "pos": "relative",
+        "ov": "visible",
+        "cursor": "pointer",
+        "trans": "all",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              508,
+              1522,
+              424,
+              52
+            ],
+            "bg": "rgb(30, 15, 0)",
+            "pad": "0px",
+            "gap": "0px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "center",
+            "ai": "center",
+            "bd": "0px none rgb(0, 0, 238)",
+            "bimg": "none",
+            "pos": "relative",
+            "ov": "clip",
+            "cursor": "pointer",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  508,
+                  1522,
+                  424,
+                  52
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "4px",
+                "gap": "10px",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "center",
+                "ai": "center",
+                "bd": "0px none rgb(0, 0, 238)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "clip",
+                "cursor": "pointer",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      512,
+                      1526,
+                      416,
+                      44
+                    ],
+                    "bg": "rgb(241, 239, 223)",
+                    "pad": "10px 24px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "center",
+                    "ai": "center",
+                    "bd": "0px none rgb(0, 0, 238)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "clip",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          672,
+                          1536,
+                          97,
+                          24
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "center",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 238)",
+                        "bimg": "none",
+                        "pos": "absolute",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              672,
+                              1536,
+                              97,
+                              24
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(30, 15, 0)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "read article",
+                            "kids": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          672,
+                          1566,
+                          97,
+                          24
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "center",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 238)",
+                        "bimg": "none",
+                        "pos": "absolute",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              672,
+                              1566,
+                              97,
+                              24
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(30, 15, 0)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "read article",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "grid": {
+    "tag": "DIV",
+    "r": [
+      64,
+      1000,
+      1312,
+      22814
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "pad": "12px",
+    "gap": "8px",
+    "disp": "grid",
+    "gtc": "424px 424px 424px",
+    "fd": "row",
+    "jc": "center",
+    "ai": "normal",
+    "bd": "0px none rgb(0, 0, 0)",
+    "bimg": "none",
+    "pos": "relative",
+    "ov": "visible",
+    "cursor": "auto",
+    "trans": "all"
+  },
+  "gridGrand": [
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        912,
+        1440,
+        22903
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "disp": "flex",
+      "gtc": "none",
+      "fd": "column",
+      "jc": "center",
+      "ai": "center",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "visible",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        912,
+        1440,
+        22903
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "disp": "flex",
+      "gtc": "none",
+      "fd": "column",
+      "jc": "center",
+      "ai": "center",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "hidden",
+      "cursor": "auto",
+      "trans": "all"
+    }
+  ],
+  "filterBar": {
+    "tag": "DIV",
+    "r": [
+      77,
+      913,
+      1098,
+      86
+    ],
+    "bg": "rgba(0, 0, 0, 0)",
+    "pad": "0px",
+    "gap": "10px",
+    "disp": "flex",
+    "gtc": "none",
+    "fd": "column",
+    "jc": "flex-start",
+    "ai": "flex-start",
+    "bd": "0px none rgb(0, 0, 0)",
+    "bimg": "none",
+    "pos": "relative",
+    "ov": "auto",
+    "cursor": "auto",
+    "trans": "all",
+    "kids": [
+      {
+        "tag": "DIV",
+        "r": [
+          1144,
+          925,
+          32,
+          68
+        ],
+        "bg": "rgba(0, 0, 0, 0)",
+        "pad": "0px",
+        "gap": "normal",
+        "disp": "block",
+        "gtc": "none",
+        "fd": "row",
+        "jc": "normal",
+        "ai": "normal",
+        "bd": "0px none rgb(0, 0, 0)",
+        "bimg": "linear-gradient(90deg, rgba(73, 36, 0, 0) 0%, rgb(73, 36, 0) 100%)",
+        "pos": "absolute",
+        "ov": "visible",
+        "cursor": "auto",
+        "trans": "all",
+        "txt": "",
+        "kids": []
+      },
+      {
+        "tag": "DIV",
+        "r": [
+          77,
+          913,
+          1228,
+          86
+        ],
+        "bg": "rgba(0, 0, 0, 0)",
+        "pad": "32px 32px 32px 12px",
+        "gap": "10px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "row",
+        "jc": "flex-start",
+        "ai": "center",
+        "bd": "0px none rgb(0, 0, 0)",
+        "bimg": "none",
+        "pos": "relative",
+        "ov": "visible",
+        "cursor": "auto",
+        "trans": "all",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  89,
+                  945,
+                  40,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      89,
+                      945,
+                      40,
+                      22
+                    ],
+                    "bg": "rgb(255, 172, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          97,
+                          945,
+                          24,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              97,
+                              945,
+                              24,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(30, 15, 0)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "All",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  139,
+                  945,
+                  40,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      139,
+                      945,
+                      40,
+                      22
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          147,
+                          945,
+                          24,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              147,
+                              945,
+                              24,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(255, 255, 255)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "MCP",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  190,
+                  945,
+                  138,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      190,
+                      945,
+                      138,
+                      22
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          198,
+                          945,
+                          122,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              198,
+                              945,
+                              122,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(255, 255, 255)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Data for Agents",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  338,
+                  945,
+                  178,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      338,
+                      945,
+                      178,
+                      22
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          346,
+                          945,
+                          162,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              346,
+                              945,
+                              162,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(255, 255, 255)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Agent Infrastructure",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  526,
+                  945,
+                  170,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      526,
+                      945,
+                      170,
+                      22
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          534,
+                          945,
+                          154,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              534,
+                              945,
+                              154,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(255, 255, 255)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Agent Observability",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  706,
+                  945,
+                  89,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      706,
+                      945,
+                      89,
+                      22
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          714,
+                          945,
+                          73,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              714,
+                              945,
+                              73,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(255, 255, 255)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Use Cases",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  805,
+                  945,
+                  105,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      805,
+                      945,
+                      105,
+                      22
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          813,
+                          945,
+                          89,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              813,
+                              945,
+                              89,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(255, 255, 255)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Engineering",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  921,
+                  945,
+                  138,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      921,
+                      945,
+                      138,
+                      22
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          929,
+                          945,
+                          122,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              929,
+                              945,
+                              122,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(255, 255, 255)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Product Updates",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  1068,
+                  945,
+                  105,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      1068,
+                      945,
+                      105,
+                      22
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          1076,
+                          945,
+                          89,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              1076,
+                              945,
+                              89,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(255, 255, 255)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Comparisons",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "pad": "0px",
+            "gap": "normal",
+            "disp": "contents",
+            "gtc": "none",
+            "fd": "row",
+            "jc": "normal",
+            "ai": "normal",
+            "bd": "0px none rgb(0, 0, 0)",
+            "bimg": "none",
+            "pos": "static",
+            "ov": "visible",
+            "cursor": "auto",
+            "trans": "all",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  1184,
+                  945,
+                  89,
+                  22
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "jc": "normal",
+                "ai": "normal",
+                "bd": "0px none rgb(0, 0, 0)",
+                "bimg": "none",
+                "pos": "relative",
+                "ov": "visible",
+                "cursor": "auto",
+                "trans": "all",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      1184,
+                      945,
+                      89,
+                      22
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "pad": "0px 8px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "jc": "flex-start",
+                    "ai": "flex-start",
+                    "bd": "0px none rgb(0, 0, 0)",
+                    "bimg": "none",
+                    "pos": "relative",
+                    "ov": "visible",
+                    "cursor": "pointer",
+                    "trans": "all",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          1192,
+                          945,
+                          73,
+                          22
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "jc": "flex-start",
+                        "ai": "normal",
+                        "bd": "0px none rgb(0, 0, 0)",
+                        "bimg": "none",
+                        "pos": "relative",
+                        "ov": "visible",
+                        "cursor": "pointer",
+                        "trans": "all",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              1192,
+                              945,
+                              73,
+                              22
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "jc": "normal",
+                            "ai": "normal",
+                            "bd": "0px none rgb(255, 255, 255)",
+                            "bimg": "none",
+                            "pos": "static",
+                            "ov": "visible",
+                            "cursor": "pointer",
+                            "trans": "all",
+                            "txt": "Tutorials",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "counts": {
+    "links": 120,
+    "uniq": 119
+  },
+  "sections": [
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        0,
+        1440,
+        40
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "disp": "block",
+      "gtc": "none",
+      "fd": "row",
+      "jc": "normal",
+      "ai": "normal",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "visible",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        40,
+        1440,
+        32
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "disp": "flex",
+      "gtc": "none",
+      "fd": "column",
+      "jc": "center",
+      "ai": "center",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "clip",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        72,
+        1440,
+        310
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "0px",
+      "disp": "flex",
+      "gtc": "none",
+      "fd": "column",
+      "jc": "center",
+      "ai": "center",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "clip",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        382,
+        1440,
+        463
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "10px",
+      "disp": "flex",
+      "gtc": "none",
+      "fd": "column",
+      "jc": "center",
+      "ai": "center",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "clip",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        845,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "disp": "flex",
+      "gtc": "none",
+      "fd": "column",
+      "jc": "center",
+      "ai": "center",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "visible",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        912,
+        1440,
+        22903
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "0px",
+      "disp": "flex",
+      "gtc": "none",
+      "fd": "column",
+      "jc": "center",
+      "ai": "center",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "hidden",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        23814,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "disp": "flex",
+      "gtc": "none",
+      "fd": "column",
+      "jc": "center",
+      "ai": "center",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "visible",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "disp": "contents",
+      "gtc": "none",
+      "fd": "row",
+      "jc": "normal",
+      "ai": "normal",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "static",
+      "ov": "visible",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        24261,
+        1440,
+        67
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px 64px",
+      "gap": "8px",
+      "disp": "flex",
+      "gtc": "none",
+      "fd": "column",
+      "jc": "center",
+      "ai": "center",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "relative",
+      "ov": "visible",
+      "cursor": "auto",
+      "trans": "all"
+    },
+    {
+      "tag": "DIV",
+      "r": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "bg": "rgba(0, 0, 0, 0)",
+      "pad": "0px",
+      "gap": "normal",
+      "disp": "contents",
+      "gtc": "none",
+      "fd": "row",
+      "jc": "normal",
+      "ai": "normal",
+      "bd": "0px none rgb(0, 0, 0)",
+      "bimg": "none",
+      "pos": "static",
+      "ov": "visible",
+      "cursor": "auto",
+      "trans": "all"
+    }
+  ]
+}

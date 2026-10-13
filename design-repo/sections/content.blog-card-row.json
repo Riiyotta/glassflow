@@ -1,0 +1,120 @@
+{
+  "id": "content.blog-card-row",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Row of three blog cards (product pages).",
+  "variants": {
+    "default": "/rius"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Rius.jsx",
+      "lines": "314-318",
+      "quote": "<Shell inner=\"flex flex-col gap-6 md:flex-row md:gap-2\">"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "cards": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "href": {
+              "type": "string",
+              "minLength": 1,
+              "x-linkField": true,
+              "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+            },
+            "tag": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 3
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 20
+            },
+            "description": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 30
+            },
+            "author": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "blog.cover"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "href",
+            "tag",
+            "title",
+            "description",
+            "author",
+            "image"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 3
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "cards"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "blog-card-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "cards": "stacked gap 24"
+    },
+    "810": {
+      "cards": "row gap 8"
+    },
+    "1200": {
+      "cards": "row"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Rius.jsx",
+        "lines": "314",
+        "quote": "flex flex-col gap-6 md:flex-row md:gap-2"
+      }
+    ]
+  }
+}

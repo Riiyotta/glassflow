@@ -1,0 +1,162 @@
+{
+  "id": "hero.product",
+  "family": "mars",
+  "category": "hero",
+  "purpose": "Product hero: deep bar, dithered left column with per-word appear H1 + lead + two buttons, product image right.",
+  "variants": {
+    "tares": "/tares",
+    "rius": "/rius"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ProductSections.jsx",
+      "lines": "36-69",
+      "quote": "export function ProductHero"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 10
+      },
+      "lead": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 45
+      },
+      "primary": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 5
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "secondary": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 5
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "image": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "product.screenshot",
+              "scene.mars-figurative"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      },
+      "barGraphic": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "brand.glassflow-mark"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "lead",
+      "primary",
+      "secondary",
+      "image",
+      "barGraphic"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "product-appear",
+      "amber-button-hover"
+    ],
+    "reducedMotionFallback": "opacity-only+transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "stack": "text then 360px image"
+    },
+    "810": {
+      "stack": "same as 390"
+    },
+    "1200": {
+      "columns": "644px text + flex image, 592 tall"
+    },
+    "evidence": [
+      {
+        "path": "src/components/ProductSections.jsx",
+        "lines": "40",
+        "quote": "flex flex-col lg:h-[592px] lg:flex-row"
+      }
+    ]
+  }
+}

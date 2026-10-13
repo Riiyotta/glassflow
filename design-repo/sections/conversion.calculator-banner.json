@@ -1,0 +1,110 @@
+{
+  "id": "conversion.calculator-banner",
+  "family": "mars",
+  "category": "conversion",
+  "purpose": "450px image banner linking to the build-vs-buy calculator.",
+  "variants": {
+    "default": "/rius/pricing"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/RiusPricing.jsx",
+      "lines": "170-190",
+      "quote": "function CalculatorBanner()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 10
+      },
+      "sub": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 25
+      },
+      "cta": {
+        "type": "object",
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 4
+          },
+          "href": {
+            "type": "string",
+            "minLength": 1,
+            "x-linkField": true,
+            "description": "internal path (/..., #...) or https URL on an allowed outbound domain (policies/link-kinds.json)"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "label",
+          "href"
+        ]
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field",
+              "scene.mars-figurative"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "sub",
+      "cta",
+      "background"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [
+      "amber-button-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "text": "max 326"
+    },
+    "810": {
+      "text": "max 990"
+    },
+    "1200": {
+      "text": "max 990"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/RiusPricing.jsx",
+        "lines": "175",
+        "quote": "max-w-[326px] flex-col items-center gap-6 text-center md:max-w-[990px]"
+      }
+    ]
+  }
+}

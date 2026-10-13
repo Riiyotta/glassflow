@@ -1,0 +1,19 @@
+{
+  "id": "hero-bar",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "38px hero bar with page-tone dots (left/right) and an optional centred child.",
+  "props": {
+    "bg": "classes",
+    "dotsRight": "bool"
+  },
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ContentSections.jsx",
+      "lines": "38-46",
+      "quote": "export function HeroBar"
+    }
+  ]
+}

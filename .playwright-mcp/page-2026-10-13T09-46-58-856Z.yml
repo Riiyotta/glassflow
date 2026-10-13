@@ -1,0 +1,129 @@
+- main [ref=f245e4]:
+  - generic [ref=f245e5]:
+    - generic [ref=f245e6]:
+      - generic [ref=f245e7]:
+        - link "GlassFlow home" [ref=f245e8] [cursor=pointer]:
+          - /url: /
+          - img "GlassFlow" [ref=f245e9]
+        - button "Close menu" [expanded] [active] [ref=f245e196] [cursor=pointer]
+      - generic [ref=f245e197]:
+        - generic [ref=f245e198]:
+          - img "GlassFlow" [ref=f245e199]
+          - button "Close menu" [ref=f245e200] [cursor=pointer]: ×
+        - link "Product" [ref=f245e201] [cursor=pointer]:
+          - /url: /product
+        - link "Case Studies" [ref=f245e202] [cursor=pointer]:
+          - /url: /case-studies
+        - link "Pricing" [ref=f245e203] [cursor=pointer]:
+          - /url: /rius/pricing
+        - link "Resources" [ref=f245e204] [cursor=pointer]:
+          - /url: /product
+        - link "Contact" [ref=f245e205] [cursor=pointer]:
+          - /url: /contact
+        - link "Start building" [ref=f245e206] [cursor=pointer]:
+          - /url: https://github.com/glassflow/clickhouse-etl
+        - link "Star glassflow/clickhouse-etl on GitHub" [ref=f245e207] [cursor=pointer]:
+          - /url: https://github.com/glassflow/clickhouse-etl
+          - generic [ref=f245e208]: clickhouse-etl
+          - generic [ref=f245e211]: "504"
+    - main [ref=f245e14]:
+      - heading "Use Cases" [level=1] [ref=f245e15]
+      - generic [ref=f245e16]:
+        - link "Use Cases Real-time AI powered price recommendation Real-time Price Recommendations Using AI and Data Transformation Written by read article" [ref=f245e17] [cursor=pointer]:
+          - /url: /blog/real-time-ai-price-recommendations-car-dealerships
+          - generic [ref=f245e23]:
+            - generic [ref=f245e24]: Use Cases
+            - heading "Real-time AI powered price recommendation" [level=3] [ref=f245e25]
+            - paragraph [ref=f245e26]: Real-time Price Recommendations Using AI and Data Transformation
+          - generic [ref=f245e27]: Written by
+          - generic [ref=f245e33]:
+            - generic [ref=f245e34]: read article
+            - generic [aria-hidden] [ref=f245e35]: read article
+        - link "Use Cases Real-time Clickstream Analytics Real-time Clickstream Analytics Using AI and Data Transformation Written by read article" [ref=f245e36] [cursor=pointer]:
+          - /url: /blog/real-time-clickstream-analytics
+          - generic [ref=f245e42]:
+            - generic [ref=f245e43]: Use Cases
+            - heading "Real-time Clickstream Analytics" [level=3] [ref=f245e44]
+            - paragraph [ref=f245e45]: Real-time Clickstream Analytics Using AI and Data Transformation
+          - generic [ref=f245e46]: Written by
+          - generic [ref=f245e52]:
+            - generic [ref=f245e53]: read article
+            - generic [aria-hidden] [ref=f245e54]: read article
+        - link "Use Cases Real-time data anomaly detection and alerting Data anomaly detection and alerting using GlassFlow, OpenAI, and Slack. Written by read article" [ref=f245e55] [cursor=pointer]:
+          - /url: /blog/real-time-data-anomaly-detection-alerting-glassflow-openai-slack
+          - generic [ref=f245e61]:
+            - generic [ref=f245e62]: Use Cases
+            - heading "Real-time data anomaly detection and alerting" [level=3] [ref=f245e63]
+            - paragraph [ref=f245e64]: Data anomaly detection and alerting using GlassFlow, OpenAI, and Slack.
+          - generic [ref=f245e65]: Written by
+          - generic [ref=f245e71]:
+            - generic [ref=f245e72]: read article
+            - generic [aria-hidden] [ref=f245e73]: read article
+        - link "Use Cases Real-time Fleet Management for Car Sharing Services Car Sharing Fleet Management with Real-time Fuel Monitoring and Discounts Written by read article" [ref=f245e74] [cursor=pointer]:
+          - /url: /blog/real-time-fleet-management-car-sharing-fuel-monitoring-discounts
+          - generic [ref=f245e80]:
+            - generic [ref=f245e81]: Use Cases
+            - heading "Real-time Fleet Management for Car Sharing Services" [level=3] [ref=f245e82]
+            - paragraph [ref=f245e83]: Car Sharing Fleet Management with Real-time Fuel Monitoring and Discounts
+          - generic [ref=f245e84]: Written by
+          - generic [ref=f245e90]:
+            - generic [ref=f245e91]: read article
+            - generic [aria-hidden] [ref=f245e92]: read article
+        - link "Use Cases Real-time Generative Feedback Loop Automation with GlassFlow, Supabase, and Weaviate Enhancing Airbnb Listings with Real-time Generative Feedback Loop Automation Written by read article" [ref=f245e93] [cursor=pointer]:
+          - /url: /blog/real-time-generative-feedback-loop-automation-with-glass-flow-supabase-and-weaviate
+          - generic [ref=f245e99]:
+            - generic [ref=f245e100]: Use Cases
+            - heading "Real-time Generative Feedback Loop Automation with GlassFlow, Supabase, and Weaviate" [level=3] [ref=f245e101]
+            - paragraph [ref=f245e102]: Enhancing Airbnb Listings with Real-time Generative Feedback Loop Automation
+          - generic [ref=f245e103]: Written by
+          - generic [ref=f245e109]:
+            - generic [ref=f245e110]: read article
+            - generic [aria-hidden] [ref=f245e111]: read article
+        - 'link "Use Cases Anomaly Detection: A Beginners Guide Explore this complete anomaly detection guide Written by read article" [ref=f245e112] [cursor=pointer]':
+          - /url: /blog/anomaly-detection-complete-guide
+          - generic [ref=f245e118]:
+            - generic [ref=f245e119]: Use Cases
+            - 'heading "Anomaly Detection: A Beginners Guide" [level=3] [ref=f245e120]'
+            - paragraph [ref=f245e121]: Explore this complete anomaly detection guide
+          - generic [ref=f245e122]: Written by
+          - generic [ref=f245e128]:
+            - generic [ref=f245e129]: read article
+            - generic [aria-hidden] [ref=f245e130]: read article
+        - 'link "Use Cases Comparison of Event-Driven Data Pipeline Providers: Why GlassFlow is Built for AI Startups How the most popular tools fit the needs of AI startups Written by read article" [ref=f245e131] [cursor=pointer]':
+          - /url: /blog/comparison-of-event-driven-data-pipeline-providers-why-glass-flow-is-built-for-ai-startups
+          - generic [ref=f245e137]:
+            - generic [ref=f245e138]: Use Cases
+            - 'heading "Comparison of Event-Driven Data Pipeline Providers: Why GlassFlow is Built for AI Startups" [level=3] [ref=f245e139]'
+            - paragraph [ref=f245e140]: How the most popular tools fit the needs of AI startups
+          - generic [ref=f245e141]: Written by
+          - generic [ref=f245e147]:
+            - generic [ref=f245e148]: read article
+            - generic [aria-hidden] [ref=f245e149]: read article
+        - link "Use Cases How to enrich classified ads in real-time using AI, GlassFlow, and Langchain Supercharge Your Classified Ads with Real-time Data Enrichment Written by read article" [ref=f245e150] [cursor=pointer]:
+          - /url: /blog/how-to-enrich-classified-ads-in-real-time-using-ai-glassflow-and-langchain
+          - generic [ref=f245e156]:
+            - generic [ref=f245e157]: Use Cases
+            - heading "How to enrich classified ads in real-time using AI, GlassFlow, and Langchain" [level=3] [ref=f245e158]
+            - paragraph [ref=f245e159]: Supercharge Your Classified Ads with Real-time Data Enrichment
+          - generic [ref=f245e160]: Written by
+          - generic [ref=f245e166]:
+            - generic [ref=f245e167]: read article
+            - generic [aria-hidden] [ref=f245e168]: read article
+        - link "Use Cases Why event-driven data pipelines are important for AI applications Event-driven data pipeline is the secret sauce for AI application success Written by read article" [ref=f245e169] [cursor=pointer]:
+          - /url: /blog/why-event-driven-data-pipelines-for-ai-applications
+          - generic [ref=f245e175]:
+            - generic [ref=f245e176]: Use Cases
+            - heading "Why event-driven data pipelines are important for AI applications" [level=3] [ref=f245e177]
+            - paragraph [ref=f245e178]: Event-driven data pipeline is the secret sauce for AI application success
+          - generic [ref=f245e179]: Written by
+          - generic [ref=f245e185]:
+            - generic [ref=f245e186]: read article
+            - generic [aria-hidden] [ref=f245e187]: read article
+      - generic [ref=f245e188]:
+        - heading "Data transformations at TB scale for ClickHouse" [level=2] [ref=f245e191]
+        - paragraph [ref=f245e192]: Get query ready data, lower ClickHouse load, and reliable pipelines at enterprise scale.
+        - generic [ref=f245e193]:
+          - link "Get in Touch" [ref=f245e194] [cursor=pointer]:
+            - /url: https://cal.com/team/glassflow-founders/founders
+          - link "Explore the code" [ref=f245e195] [cursor=pointer]:
+            - /url: https://github.com/glassflow/clickhouse-etl

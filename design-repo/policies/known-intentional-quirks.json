@@ -1,0 +1,189 @@
+{
+  "$description": "Live-site quirks the clone keeps ON PURPOSE. They are not defects to normalise; a generator must not 'fix' them when reproducing these specific pages, and must not copy them into new pages.",
+  "quirks": [
+    {
+      "id": "tares-typos",
+      "where": "/tares hero + timeline",
+      "what": "'sart on the cloud', 'you systems', 'saverity', 'humar', repeated 'An event lands' titles",
+      "evidence": [
+        {
+          "path": "src/pages/Tares.jsx",
+          "lines": "28",
+          "quote": "// live copy kept verbatim, including typos and repeated titles"
+        },
+        {
+          "path": "src/pages/Tares.jsx",
+          "lines": "160",
+          "quote": "label: 'sart on the cloud'"
+        }
+      ]
+    },
+    {
+      "id": "tares-tab-bodies",
+      "where": "/tares tabs 03/04",
+      "what": "reuse tab 01's body",
+      "evidence": [
+        {
+          "path": "src/pages/Tares.jsx",
+          "lines": "23",
+          "quote": "// tabs 03 and 04 reuse tab 01's body"
+        }
+      ]
+    },
+    {
+      "id": "privacy-toc",
+      "where": "/privacy-policy",
+      "what": "TOC misses 5 items and 8 entries point at the wrong anchor",
+      "evidence": [
+        {
+          "path": "src/pages/Legal.jsx",
+          "lines": "54",
+          "quote": "// TOC entries as live (5 missing, 8 points at the wrong anchor)"
+        }
+      ]
+    },
+    {
+      "id": "blog-dead-buttons",
+      "where": "/blog two-products band",
+      "what": "'start from' / 'talk to our team' have no href",
+      "evidence": [
+        {
+          "path": "src/components/ContentSections.jsx",
+          "lines": "58",
+          "quote": "primary={{ label: 'start from', href: null }}"
+        }
+      ]
+    },
+    {
+      "id": "success-dead-link",
+      "where": "/contact/success",
+      "what": "'Rius guides' row has no href",
+      "evidence": [
+        {
+          "path": "src/pages/Contact.jsx",
+          "lines": "243",
+          "quote": "// no href on live"
+        }
+      ]
+    },
+    {
+      "id": "contact-mobile-copy",
+      "where": "/contact at 390",
+      "what": "lead shows the pricing sentence 'Four plans, priced per trace…'",
+      "evidence": [
+        {
+          "path": "src/pages/Contact.jsx",
+          "lines": "217",
+          "quote": "<p className=\"md:hidden\">Four plans"
+        }
+      ]
+    },
+    {
+      "id": "article-h1-quirk",
+      "where": "some post bodies",
+      "what": "unstyled black <h1> on brown",
+      "evidence": [
+        {
+          "path": "src/index.css",
+          "lines": "80",
+          "quote": "/* unstyled <h1> inside some bodies on live"
+        }
+      ]
+    },
+    {
+      "id": "stray-description",
+      "where": "how-to-debug-an-ai-agent",
+      "what": "description ends with stray front-matter text (card + hero)",
+      "evidence": [
+        {
+          "path": "src/data/blog.js",
+          "lines": "8",
+          "quote": "// the stray-text live bug"
+        }
+      ]
+    },
+    {
+      "id": "about-team-links",
+      "where": "/about team",
+      "what": "CMS mistakes in LinkedIn links kept",
+      "evidence": [
+        {
+          "path": "src/pages/About.jsx",
+          "lines": "31",
+          "quote": "(live CMS mistakes kept"
+        }
+      ]
+    },
+    {
+      "id": "pricing-values",
+      "where": "/rius/pricing",
+      "what": "plan values disagree with /rius (e.g. Enterprise overage $4 vs $8)",
+      "evidence": [
+        {
+          "path": "src/pages/RiusPricing.jsx",
+          "lines": "36",
+          "quote": "// live values kept verbatim"
+        }
+      ]
+    },
+    {
+      "id": "legal-double-band",
+      "where": "legal pages",
+      "what": "a 67px spacer sits directly before the footer's own 67px band",
+      "evidence": [
+        {
+          "path": "src/pages/Legal.jsx",
+          "lines": "204",
+          "quote": "<Spacer />"
+        }
+      ]
+    },
+    {
+      "id": "nonlive-post-cards",
+      "where": "/blog",
+      "what": "12 index cards link to posts that redirect to /blog",
+      "evidence": [
+        {
+          "path": "src/pages/BlogPost.jsx",
+          "lines": "48",
+          "quote": "// 12 index cards point at posts that 308 to /blog on live"
+        }
+      ]
+    }
+  ],
+  "deliberateCloneDeviations": [
+    {
+      "id": "category-mobile-columns",
+      "what": "live squeezes 3 columns at 390; clone uses 1 column",
+      "evidence": [
+        {
+          "path": "src/pages/Category.jsx",
+          "lines": "70",
+          "quote": "{/* live squeezes 3 columns at 390 (defect)"
+        }
+      ]
+    },
+    {
+      "id": "legacy-menu-close",
+      "what": "live X does not close the legacy mobile menu; clone closes instantly",
+      "evidence": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "84",
+          "quote": "close the menu at all"
+        }
+      ]
+    },
+    {
+      "id": "forms-never-submit",
+      "what": "contact + guide forms are local fakes",
+      "evidence": [
+        {
+          "path": "src/pages/Contact.jsx",
+          "lines": "13",
+          "quote": "const FAKE_DELAY = 900"
+        }
+      ]
+    }
+  ]
+}

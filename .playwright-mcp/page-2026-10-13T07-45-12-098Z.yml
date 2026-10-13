@@ -1,0 +1,939 @@
+- generic [ref=f36e3]:
+  - generic [ref=f36e7]:
+    - link [ref=f36e8] [cursor=pointer]:
+      - /url: ../
+    - generic [ref=f36e12]:
+      - paragraph [ref=f36e16]: products
+      - link [ref=f36e21] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f36e24]: docs
+      - link [ref=f36e25] [cursor=pointer]:
+        - /url: ../blog
+        - paragraph [ref=f36e28]: blog
+      - link [ref=f36e29] [cursor=pointer]:
+        - /url: ../contact
+        - paragraph [ref=f36e32]: contact
+    - link [ref=f36e34] [cursor=pointer]:
+      - /url: ../#quickstart
+      - paragraph [ref=f36e37]: get_started
+  - generic [ref=f36e42]:
+    - generic [ref=f36e45]:
+      - paragraph [ref=f36e52]:
+        - link "blog / …" [ref=f36e53] [cursor=pointer]:
+          - /url: ../blog
+      - generic [ref=f36e58]:
+        - generic [ref=f36e59]:
+          - generic [ref=f36e62]:
+            - paragraph [ref=f36e66] [cursor=pointer]: Tutorials
+            - heading "5G RAN Signal Quality Monitoring with OTel, GlassFlow & ClickHouse" [level=1] [ref=f36e68]:
+              - generic [ref=f36e69]: 5G
+              - generic [ref=f36e70]: RAN
+              - generic [ref=f36e71]: Signal
+              - generic [ref=f36e72]: Quality
+              - generic [ref=f36e73]: Monitoring
+              - generic [ref=f36e74]: with
+              - generic [ref=f36e75]: OTel,
+              - generic [ref=f36e76]: GlassFlow
+              - generic [ref=f36e77]: "&"
+              - generic [ref=f36e78]: ClickHouse
+            - paragraph [ref=f36e80]:
+              - generic [ref=f36e81]:
+                - generic [ref=f36e82]: B
+                - generic [ref=f36e83]: u
+                - generic [ref=f36e84]: i
+                - generic [ref=f36e85]: l
+                - generic [ref=f36e86]: d
+              - generic [ref=f36e87]: a
+              - generic [ref=f36e89]:
+                - generic [ref=f36e90]: "5"
+                - generic [ref=f36e91]: G
+              - generic [ref=f36e92]:
+                - generic [ref=f36e93]: R
+                - generic [ref=f36e94]: A
+                - generic [ref=f36e95]: "N"
+              - generic [ref=f36e96]:
+                - generic [ref=f36e97]: t
+                - generic [ref=f36e98]: e
+                - generic [ref=f36e99]: l
+                - generic [ref=f36e100]: e
+                - generic [ref=f36e101]: m
+                - generic [ref=f36e102]: e
+                - generic [ref=f36e103]: t
+                - generic [ref=f36e104]: r
+                - generic [ref=f36e105]: "y"
+              - generic [ref=f36e106]:
+                - generic [ref=f36e107]: p
+                - generic [ref=f36e108]: i
+                - generic [ref=f36e109]: p
+                - generic [ref=f36e110]: e
+                - generic [ref=f36e111]: l
+                - generic [ref=f36e112]: i
+                - generic [ref=f36e113]: "n"
+                - generic [ref=f36e114]: e
+              - generic [ref=f36e115]:
+                - generic [ref=f36e116]: w
+                - generic [ref=f36e117]: i
+                - generic [ref=f36e118]: t
+                - generic [ref=f36e119]: h
+              - generic [ref=f36e120]:
+                - generic [ref=f36e121]: O
+                - generic [ref=f36e122]: p
+                - generic [ref=f36e123]: e
+                - generic [ref=f36e124]: "n"
+                - generic [ref=f36e125]: T
+                - generic [ref=f36e126]: e
+                - generic [ref=f36e127]: l
+                - generic [ref=f36e128]: e
+                - generic [ref=f36e129]: m
+                - generic [ref=f36e130]: e
+                - generic [ref=f36e131]: t
+                - generic [ref=f36e132]: r
+                - generic [ref=f36e133]: "y"
+              - generic [ref=f36e134]:
+                - generic [ref=f36e135]: a
+                - generic [ref=f36e136]: "n"
+                - generic [ref=f36e137]: d
+              - generic [ref=f36e138]:
+                - generic [ref=f36e139]: G
+                - generic [ref=f36e140]: l
+                - generic [ref=f36e141]: a
+                - generic [ref=f36e142]: s
+                - generic [ref=f36e143]: s
+                - generic [ref=f36e144]: F
+                - generic [ref=f36e145]: l
+                - generic [ref=f36e146]: o
+                - generic [ref=f36e147]: w
+              - generic [ref=f36e148]:
+                - generic [ref=f36e149]: t
+                - generic [ref=f36e150]: o
+              - generic [ref=f36e151]:
+                - generic [ref=f36e152]: d
+                - generic [ref=f36e153]: e
+                - generic [ref=f36e154]: d
+                - generic [ref=f36e155]: u
+                - generic [ref=f36e156]: p
+                - generic [ref=f36e157]: l
+                - generic [ref=f36e158]: i
+                - generic [ref=f36e159]: c
+                - generic [ref=f36e160]: a
+                - generic [ref=f36e161]: t
+                - generic [ref=f36e162]: e
+              - generic [ref=f36e163]:
+                - generic [ref=f36e164]: m
+                - generic [ref=f36e165]: e
+                - generic [ref=f36e166]: t
+                - generic [ref=f36e167]: r
+                - generic [ref=f36e168]: i
+                - generic [ref=f36e169]: c
+                - generic [ref=f36e170]: s
+                - generic [ref=f36e171]: ","
+              - generic [ref=f36e172]:
+                - generic [ref=f36e173]: "n"
+                - generic [ref=f36e174]: o
+                - generic [ref=f36e175]: r
+                - generic [ref=f36e176]: m
+                - generic [ref=f36e177]: a
+                - generic [ref=f36e178]: l
+                - generic [ref=f36e179]: i
+                - generic [ref=f36e180]: z
+                - generic [ref=f36e181]: e
+              - generic [ref=f36e182]:
+                - generic [ref=f36e183]: v
+                - generic [ref=f36e184]: e
+                - generic [ref=f36e185]: "n"
+                - generic [ref=f36e186]: d
+                - generic [ref=f36e187]: o
+                - generic [ref=f36e188]: r
+              - generic [ref=f36e189]:
+                - generic [ref=f36e190]: s
+                - generic [ref=f36e191]: c
+                - generic [ref=f36e192]: h
+                - generic [ref=f36e193]: e
+                - generic [ref=f36e194]: m
+                - generic [ref=f36e195]: a
+                - generic [ref=f36e196]: s
+                - generic [ref=f36e197]: ","
+              - generic [ref=f36e198]:
+                - generic [ref=f36e199]: a
+                - generic [ref=f36e200]: "n"
+                - generic [ref=f36e201]: d
+              - generic [ref=f36e202]:
+                - generic [ref=f36e203]: d
+                - generic [ref=f36e204]: e
+                - generic [ref=f36e205]: t
+                - generic [ref=f36e206]: e
+                - generic [ref=f36e207]: c
+                - generic [ref=f36e208]: t
+              - generic [ref=f36e209]:
+                - generic [ref=f36e210]: s
+                - generic [ref=f36e211]: i
+                - generic [ref=f36e212]: g
+                - generic [ref=f36e213]: "n"
+                - generic [ref=f36e214]: a
+                - generic [ref=f36e215]: l
+              - generic [ref=f36e216]:
+                - generic [ref=f36e217]: d
+                - generic [ref=f36e218]: e
+                - generic [ref=f36e219]: g
+                - generic [ref=f36e220]: r
+                - generic [ref=f36e221]: a
+                - generic [ref=f36e222]: d
+                - generic [ref=f36e223]: a
+                - generic [ref=f36e224]: t
+                - generic [ref=f36e225]: i
+                - generic [ref=f36e226]: o
+                - generic [ref=f36e227]: "n"
+              - generic [ref=f36e228]:
+                - generic [ref=f36e229]: i
+                - generic [ref=f36e230]: "n"
+              - generic [ref=f36e231]:
+                - generic [ref=f36e232]: C
+                - generic [ref=f36e233]: l
+                - generic [ref=f36e234]: i
+                - generic [ref=f36e235]: c
+                - generic [ref=f36e236]: k
+                - generic [ref=f36e237]: H
+                - generic [ref=f36e238]: o
+                - generic [ref=f36e239]: u
+                - generic [ref=f36e240]: s
+                - generic [ref=f36e241]: e
+          - generic [ref=f36e243]:
+            - generic [ref=f36e249]:
+              - paragraph [ref=f36e251]: Written by
+              - paragraph [ref=f36e255]: Armend Avdijaj
+            - generic [ref=f36e261]:
+              - paragraph [ref=f36e263]: Date added
+              - paragraph [ref=f36e265]:
+                - time [ref=f36e266]: Jun 15, 2026
+        - img "5G RAN Signal Quality Monitoring with OTel, GlassFlow & ClickHouse" [ref=f36e273]
+    - generic [ref=f36e279]:
+      - link [ref=f36e280] [cursor=pointer]:
+        - /url: https://www.glassflow.ai/
+      - blockquote [ref=f36e281]:
+        - paragraph [ref=f36e282]:
+          - emphasis [ref=f36e283]: "TL;DR: This tutorial shows how to process 5G RAN telemetry from OpenTelemetry Collectors through GlassFlow (deduplication + schema normalization) into ClickHouse for real-time signal quality analytics using a real-world dataset of 188,711 measurements across 274 cells"
+          - text: .
+      - paragraph [ref=f36e284]: Modern 5G networks generate an enormous volume of telemetry. Every cell continuously reports signal-quality indicators such as Reference Signal Received Power (RSRP), Reference Signal Received Quality (RSRQ), Signal-to-Noise Ratio (SNR), and throughput measurements that operators use to monitor network health. These metrics power everything from SLA reporting and capacity planning to anomaly detection and troubleshooting degraded user experiences.
+      - paragraph [ref=f36e285]: The challenge is that telemetry rarely arrives as a single clean stream.
+      - paragraph [ref=f36e286]: Large telecom deployments often use redundant OpenTelemetry Collectors to improve reliability, but this can result in duplicate metric emissions reaching the analytics backend. At the same time, multi-vendor environments introduce inconsistent attribute naming, while synthetic health checks add operational noise. Together, these issues can distort the telemetry operators rely on.
+      - paragraph [ref=f36e287]:
+        - strong [ref=f36e288]: For radio access network (RAN) monitoring, the impact is significant
+        - text: . Duplicate measurements can inflate counts and skew throughput calculations, making it harder to accurately identify signal degradation, capacity issues, and other network problems.
+      - paragraph [ref=f36e289]: In this article, we'll build an end-to-end pipeline that ingests 5G signal-quality metrics through OpenTelemetry, processes them with GlassFlow, and stores the cleaned stream in ClickHouse for real-time analytics.
+      - paragraph [ref=f36e290]:
+        - strong [ref=f36e291]: GlassFlow
+        - text: is a stream processing platform that sits between your telemetry sources and analytics backends. It accepts OTLP metrics natively and lets you apply transformations (deduplication, filtering, schema normalization) before data reaches storage. Check our open source repository
+        - link "here" [ref=f36e292] [cursor=pointer]:
+          - /url: https://github.com/glassflow/clickhouse-etl
+        - text: .
+      - paragraph [ref=f36e293]: "Using a real-world 5G dataset containing nearly 189,000 measurements across 274 cells, we'll simulate a production-style collector topology and demonstrate how GlassFlow can:"
+      - list [ref=f36e294]:
+        - listitem [ref=f36e295]:
+          - text: •
+          - paragraph [ref=f36e296]: Deduplicate overlapping metric emissions from redundant collectors
+        - listitem [ref=f36e297]:
+          - text: •
+          - paragraph [ref=f36e298]: Normalize vendor-specific attribute schemas into a canonical format
+        - listitem [ref=f36e299]:
+          - text: •
+          - paragraph [ref=f36e300]: Filter synthetic health-check traffic before it reaches storage
+        - listitem [ref=f36e301]:
+          - text: •
+          - paragraph [ref=f36e302]: Deliver clean, trustworthy telemetry to ClickHouse with sub-minute latency
+      - paragraph [ref=f36e303]: The result is a per-cell observability dashboard that highlights genuine signal degradation trends without double-counting metrics or forcing expensive cleanup operations inside the database.
+      - heading "What you’ll learn" [level=3] [ref=f36e304]
+      - paragraph [ref=f36e305]: "By the end of this article, you will know how to:"
+      - list [ref=f36e306]:
+        - listitem [ref=f36e307]:
+          - text: •
+          - paragraph [ref=f36e308]: Remove duplicate metric emissions from redundant OpenTelemetry Collectors
+        - listitem [ref=f36e309]:
+          - text: •
+          - paragraph [ref=f36e310]: Normalize vendor-specific attribute schemas using GlassFlow stateless transforms
+        - listitem [ref=f36e311]:
+          - text: •
+          - paragraph [ref=f36e312]: Filter health-check noise from your telemetry stream
+        - listitem [ref=f36e313]:
+          - text: •
+          - paragraph [ref=f36e314]: Store clean, analysis-ready metrics in ClickHouse using a simple MergeTree table
+        - listitem [ref=f36e315]:
+          - text: •
+          - paragraph [ref=f36e316]: Detect signal degradation events with ClickHouse SQL queries
+      - heading "Why OpenTelemetry Alone Doesn't Solve This" [level=2] [ref=f36e317]
+      - paragraph [ref=f36e318]: OpenTelemetry makes it easy to collect and transport telemetry, but it doesn't guarantee that the data arriving at your analytics platform is clean (check out the figure below).
+      - img "Diagram showing redundant OpenTelemetry Collectors forwarding duplicate 5G RAN telemetry to downstream analytics systems" [ref=f36e319]
+      - paragraph [ref=f36e320]:
+        - emphasis [ref=f36e321]:
+          - strong [ref=f36e322]: Figure 1.
+          - text: Redundant OpenTelemetry Collectors forwarding identical RAN telemetry to downstream analytics systems.
+      - paragraph [ref=f36e323]: In telecom environments, redundant OpenTelemetry Collectors are commonly deployed to prevent data loss. The same 5G signal-quality measurement can be forwarded by multiple collectors, creating duplicate records downstream. For metrics such as RSRP, RSRQ, SNR, and throughput, these duplicates can distort aggregations, dashboards, and SLA reporting.
+      - paragraph [ref=f36e324]: There's also the challenge of consistency. Different network vendors often use different attribute names for the same entities, making cross-network analysis more difficult than it should be.
+      - paragraph [ref=f36e325]: These issues aren't unique to the telecommunications industry. They're common in large observability deployments. OpenTelemetry standardizes telemetry collection, but tasks such as deduplication, schema normalization, and noise filtering still need to happen somewhere in the pipeline.
+      - paragraph [ref=f36e326]: In this article, we'll clean the telemetry stream before it reaches ClickHouse using GlassFlow, ensuring that downstream analytics are built on accurate and consistent data.
+      - 'heading "The Architecture: OpenTelemetry → GlassFlow → ClickHouse" [level=2] [ref=f36e327]'
+      - paragraph [ref=f36e328]: For this demo, we'll simulate a fleet of 5G cells continuously reporting signal-quality metrics such as RSRP, RSRQ, SNR, and throughput. The telemetry is exported through two OpenTelemetry Collectors configured as a high-availability pair, mirroring the redundant collector topologies commonly used in production environments.
+      - paragraph [ref=f36e329]:
+        - strong [ref=f36e330]: Both collectors forward metrics to GlassFlow using the OpenTelemetry Protocol (OTLP)
+        - text: . Rather than storing the data immediately, GlassFlow processes the stream first, removing duplicate observations, filtering unwanted telemetry, and standardizing attributes into a consistent schema.
+      - paragraph [ref=f36e331]:
+        - strong [ref=f36e332]: "Behind the Scenes: How GlassFlow Processes OTLP Metrics"
+      - blockquote [ref=f36e333]:
+        - paragraph [ref=f36e334]: "When OTLP metrics arrive, GlassFlow converts each metric data point into a stream record that can be processed by transformations. The pipeline we'll build applies four operations in sequence:"
+        - list [ref=f36e335]:
+          - listitem [ref=f36e336]:
+            - paragraph [ref=f36e337]:
+              - strong [ref=f36e338]: Create a deduplication key
+              - text: from the metric identity.
+          - listitem [ref=f36e339]:
+            - paragraph [ref=f36e340]:
+              - strong [ref=f36e341]: Remove duplicate observations
+              - text: arriving from redundant collectors.
+          - listitem [ref=f36e342]:
+            - paragraph [ref=f36e343]:
+              - strong [ref=f36e344]: Filter health-check telemetry
+              - text: that adds noise but no analytical value.
+          - listitem [ref=f36e345]:
+            - paragraph [ref=f36e346]:
+              - strong [ref=f36e347]: Normalize vendor-specific attributes
+              - text: into a common schema.
+        - paragraph [ref=f36e348]: The final result is a clean stream of per-cell metrics that can be written directly into ClickHouse for analytics.
+      - paragraph [ref=f36e349]: Once the stream has been cleaned, the resulting records are written to ClickHouse, where they can be queried in near real time and visualized through Grafana dashboards.
+      - paragraph [ref=f36e350]: "The resulting architecture will be as follows:"
+      - paragraph [ref=f36e351]:
+        - emphasis [ref=f36e352]:
+          - strong [ref=f36e353]: Figure 2. End-to-end OpenTelemetry pipeline for processing 5G signal-quality metrics.
+          - text: GlassFlow sits between OpenTelemetry and ClickHouse, applying deduplication, filtering, and schema normalization before the data reaches storage.
+      - paragraph [ref=f36e354]:
+        - text: Processing the stream before it reaches ClickHouse allows us to store clean telemetry from the start. Unlike relying on ClickHouse's
+        - code [ref=f36e355]: ReplacingMergeTree
+        - text: engine to clean duplicates post-ingestion, GlassFlow removes them upstream, reducing write amplification and simplifying ClickHouse table design. As metrics flow through GlassFlow, duplicate observations are removed, irrelevant telemetry is filtered out, and vendor-specific attributes are normalized into a consistent schema.
+      - paragraph [ref=f36e356]: By performing these operations in the streaming layer, we ensure that only high-quality, analysis-ready data is written to ClickHouse, reducing storage overhead and simplifying downstream queries.
+      - 'heading "The Dataset: Real 5G Traces, Real Signal Degradation" [level=2] [ref=f36e357]'
+      - paragraph [ref=f36e358]: To make the demo realistic, we'll use the publicly available 5G dataset from the University College Cork Mobile and Internet Systems Laboratory (UCCMISL). The dataset contains real-world mobile network measurements collected using G-NetTrack Pro across Cork, Ireland and includes nearly 189,000 observations spanning 83 CSV files.
+      - paragraph [ref=f36e359]:
+        - text: Dataset repository
+        - link "here" [ref=f36e360] [cursor=pointer]:
+          - /url: https://github.com/uccmisl/5Gdataset
+        - text: ":"
+      - paragraph [ref=f36e361]: What makes this dataset useful for observability demonstrations is that it captures real-world variations in mobile network quality, including changes in signal strength, throughput, and network conditions. The traces include both static and driving scenarios, allowing us to observe realistic degradation events, handovers, and transitions between 5G and LTE.
+      - paragraph [ref=f36e362]: For this article, we'll replay the measurements as a live telemetry stream. Each row is converted into OpenTelemetry metrics and emitted through a pair of OpenTelemetry Collectors, creating realistic duplicate telemetry patterns. We also inject a small amount of synthetic noise and schema variation to show how GlassFlow performs deduplication and data cleaning before the data reaches ClickHouse.
+      - paragraph [ref=f36e363]:
+        - strong [ref=f36e364]: "Table 1: Dataset At a Glance"
+      - figure [ref=f36e365]:
+        - table [ref=f36e366]:
+          - rowgroup [ref=f36e367]:
+            - row [ref=f36e368]:
+              - columnheader [ref=f36e369]:
+                - paragraph [ref=f36e370]: Workload
+              - columnheader [ref=f36e371]:
+                - paragraph [ref=f36e372]: Mobility
+              - columnheader [ref=f36e373]:
+                - paragraph [ref=f36e374]: File Count
+              - columnheader [ref=f36e375]:
+                - paragraph [ref=f36e376]: Total Rows
+              - columnheader [ref=f36e377]:
+                - paragraph [ref=f36e378]: Cols
+              - columnheader [ref=f36e379]:
+                - paragraph [ref=f36e380]: Use in Article
+            - row [ref=f36e381]:
+              - cell [ref=f36e382]:
+                - paragraph [ref=f36e383]: Video Streaming — Amazon Prime
+              - cell [ref=f36e384]:
+                - paragraph [ref=f36e385]: Static
+              - cell [ref=f36e386]:
+                - paragraph [ref=f36e387]: "8"
+              - cell [ref=f36e388]:
+                - paragraph [ref=f36e389]: 34,941
+              - cell [ref=f36e390]:
+                - paragraph [ref=f36e391]: "26"
+              - cell [ref=f36e392]:
+                - paragraph [ref=f36e393]: Baseline QoE; RSRP/RSRQ vs. bitrate; ABR algorithm emulation
+            - row [ref=f36e394]:
+              - cell [ref=f36e395]:
+                - paragraph [ref=f36e396]: Video Streaming — Amazon Prime
+              - cell [ref=f36e397]:
+                - paragraph [ref=f36e398]: Car (in-vehicle)
+              - cell [ref=f36e399]:
+                - paragraph [ref=f36e400]: "21"
+              - cell [ref=f36e401]:
+                - paragraph [ref=f36e402]: 37,730
+              - cell [ref=f36e403]:
+                - paragraph [ref=f36e404]: "26"
+              - cell [ref=f36e405]:
+                - paragraph [ref=f36e406]: Mobility-induced throughput variability; handover impact on DASH segment fetches
+            - row [ref=f36e407]:
+              - cell [ref=f36e408]:
+                - paragraph [ref=f36e409]: Video Streaming — Netflix
+              - cell [ref=f36e410]:
+                - paragraph [ref=f36e411]: Static
+              - cell [ref=f36e412]:
+                - paragraph [ref=f36e413]: "10"
+              - cell [ref=f36e414]:
+                - paragraph [ref=f36e415]: 34,608
+              - cell [ref=f36e416]:
+                - paragraph [ref=f36e417]: "26"
+              - cell [ref=f36e418]:
+                - paragraph [ref=f36e419]: Cross-platform streaming comparison; CDN behaviour difference vs. Amazon Prime
+            - row [ref=f36e420]:
+              - cell [ref=f36e421]:
+                - paragraph [ref=f36e422]: Video Streaming — Netflix
+              - cell [ref=f36e423]:
+                - paragraph [ref=f36e424]: Car (in-vehicle)
+              - cell [ref=f36e425]:
+                - paragraph [ref=f36e426]: "23"
+              - cell [ref=f36e427]:
+                - paragraph [ref=f36e428]: 38,224
+              - cell [ref=f36e429]:
+                - paragraph [ref=f36e430]: "26"
+              - cell [ref=f36e431]:
+                - paragraph [ref=f36e432]: Speed vs. RSSNR mobility analysis; multi-platform driving comparison
+            - row [ref=f36e433]:
+              - cell [ref=f36e434]:
+                - paragraph [ref=f36e435]: File Download
+              - cell [ref=f36e436]:
+                - paragraph [ref=f36e437]: Static
+              - cell [ref=f36e438]:
+                - paragraph [ref=f36e439]: "5"
+              - cell [ref=f36e440]:
+                - paragraph [ref=f36e441]: 15,617
+              - cell [ref=f36e442]:
+                - paragraph [ref=f36e443]: "26"
+              - cell [ref=f36e444]:
+                - paragraph [ref=f36e445]: Peak capacity benchmarking; CQI / throughput ceiling; link saturation
+            - row [ref=f36e446]:
+              - cell [ref=f36e447]:
+                - paragraph [ref=f36e448]: File Download
+              - cell [ref=f36e449]:
+                - paragraph [ref=f36e450]: Car (in-vehicle)
+              - cell [ref=f36e451]:
+                - paragraph [ref=f36e452]: "16"
+              - cell [ref=f36e453]:
+                - paragraph [ref=f36e454]: 27,591
+              - cell [ref=f36e455]:
+                - paragraph [ref=f36e456]: "26"
+              - cell [ref=f36e457]:
+                - paragraph [ref=f36e458]: Real-world worst-case throughput; ML throughput prediction benchmark
+            - row [ref=f36e459]:
+              - cell [ref=f36e460]:
+                - paragraph [ref=f36e461]:
+                  - strong [ref=f36e462]: Total
+              - cell [ref=f36e463]:
+                - paragraph [ref=f36e464]
+              - cell [ref=f36e465]:
+                - paragraph [ref=f36e466]:
+                  - strong [ref=f36e467]: "83"
+              - cell [ref=f36e468]:
+                - paragraph [ref=f36e469]:
+                  - strong [ref=f36e470]: 188,711
+              - cell [ref=f36e471]:
+                - paragraph [ref=f36e472]:
+                  - strong [ref=f36e473]: "26"
+              - cell [ref=f36e474]:
+                - paragraph [ref=f36e475]
+      - paragraph [ref=f36e476]
+      - img "Converting a 5G dataset CSV record into an OpenTelemetry OTLP metric during replay" [ref=f36e477]
+      - paragraph [ref=f36e478]:
+        - emphasis [ref=f36e479]:
+          - strong [ref=f36e480]: Figure 3.
+          - text: Converting a 5G dataset CSV record into an OpenTelemetry OTLP metric during replay
+      - heading "How Duplicate Telemetry Distorts 5G RAN Analytics" [level=2] [ref=f36e481]
+      - paragraph [ref=f36e482]: Our 5G telemetry stream flows through two OpenTelemetry Collectors configured for high availability. While this improves reliability, it also means the same metric can be exported twice.
+      - paragraph [ref=f36e483]:
+        - text: For example, both collectors may observe and forward the same signal-quality measurement. Although both exports are valid, they represent a single observation and should only be counted once (
+        - emphasis [ref=f36e484]: Refer to Figure 1 for a visual explanation of this concept
+        - text: ).
+      - paragraph [ref=f36e485]: Hence, without deduplication, these duplicates can skew aggregations and add noise to dashboards. To address this, we'll use GlassFlow to remove duplicate observations before they reach ClickHouse. Because collectors may export data at slightly different times due to batching, retries, or network delays, we'll use a 30-second deduplication window to catch delayed duplicates.
+      - paragraph [ref=f36e486]: In the next section, we'll build the GlassFlow pipeline that performs this deduplication and prepares the data for storage.
+      - 'heading "Deploying the Demo: Kubernetes + Helm Setup" [level=2] [ref=f36e487]'
+      - paragraph [ref=f36e488]: To demonstrate the complete workflow, we'll deploy a local environment containing GlassFlow, ClickHouse, Grafana, two OpenTelemetry Collectors, and a telemetry emitter that replays the 5G dataset as live OTLP metrics.
+      - paragraph [ref=f36e489]: "All components run inside a local Kubernetes cluster and can be deployed with a few commands from the demo directory:"
+      - generic [ref=f36e493]:
+        - tabpanel [ref=f36e495]:
+          - textbox "Code Editor for example.sh" [ref=f36e496]:
+            - generic [ref=f36e497]: cd
+        - button "Copy code" [ref=f36e498] [cursor=pointer]: Copy
+      - heading "Prerequisites" [level=3] [ref=f36e499]
+      - paragraph [ref=f36e500]: "Before starting, make sure the following tools are installed:"
+      - list [ref=f36e501]:
+        - listitem [ref=f36e502]:
+          - text: •
+          - paragraph [ref=f36e503]: Docker
+        - listitem [ref=f36e504]:
+          - text: •
+          - paragraph [ref=f36e505]: Kind
+        - listitem [ref=f36e506]:
+          - text: •
+          - paragraph [ref=f36e507]: kubectl
+        - listitem [ref=f36e508]:
+          - text: •
+          - paragraph [ref=f36e509]: Helm
+      - paragraph [ref=f36e510]: The 5G dataset is downloaded automatically by the replay emitter, so no manual dataset preparation is required.
+      - heading "Deploy the Environment" [level=3] [ref=f36e511]
+      - paragraph [ref=f36e512]: "Create the local Kubernetes cluster and install the required components:"
+      - generic [ref=f36e516]:
+        - tabpanel [ref=f36e518]:
+          - textbox "Code Editor for example.sh" [ref=f36e519]:
+            - generic [ref=f36e520]: make cluster make repos make
+        - button "Copy code" [ref=f36e521] [cursor=pointer]: Copy
+      - paragraph [ref=f36e522]: "Next, create the ClickHouse tables used by the demo:"
+      - generic [ref=f36e526]:
+        - tabpanel [ref=f36e528]:
+          - textbox "Code Editor for example.sh" [ref=f36e529]:
+            - generic [ref=f36e530]: make
+        - button "Copy code" [ref=f36e531] [cursor=pointer]: Copy
+      - paragraph [ref=f36e532]: "Finally, deploy the GlassFlow pipeline:"
+      - generic [ref=f36e536]:
+        - tabpanel [ref=f36e538]:
+          - textbox "Code Editor for example.sh" [ref=f36e539]:
+            - generic [ref=f36e540]: "# In a separate terminal make pf-glassflow-api # Main terminal make"
+        - button "Copy code" [ref=f36e541] [cursor=pointer]: Copy
+      - paragraph [ref=f36e542]: At this point, the entire environment is ready. The OpenTelemetry Collectors are configured to forward telemetry into GlassFlow, ClickHouse is ready to receive cleaned metrics, and Grafana is available for visualization.
+      - paragraph [ref=f36e543]: Now let's examine the GlassFlow pipeline responsible for filtering, deduplicating, and normalizing the telemetry stream before it reaches storage.
+      - heading "The GlassFlow Pipeline, End to End" [level=2] [ref=f36e544]
+      - paragraph [ref=f36e545]: With the infrastructure in place, let's build the pipeline that processes the telemetry stream before it reaches ClickHouse.
+      - paragraph [ref=f36e546]: The replay emitter sends every observation through two OpenTelemetry Collectors configured as a high-availability pair. Each collector exports the same signal-quality metrics to GlassFlow using OTLP. This creates the duplicate-emission pattern we discussed in the previous section and gives us a realistic stream to process.
+      - heading "The OTLP Source" [level=3] [ref=f36e547]
+      - paragraph [ref=f36e548]:
+        - text: Both collectors export directly to
+        - link "GlassFlow's OTLP endpoint" [ref=f36e549] [cursor=pointer]:
+          - /url: https://docs.glassflow.dev/sources/otlp?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - text: . Because OTLP metrics have a predefined schema, GlassFlow automatically exposes fields such as metric names, timestamps, resource attributes, metric attributes, and values to downstream transformations.
+      - paragraph [ref=f36e550]: Metrics flow directly from OpenTelemetry into GlassFlow using standard OTLP endpoints.
+      - generic [ref=f36e554]:
+        - tabpanel [ref=f36e556]:
+          - textbox "Code Editor for example.yaml" [ref=f36e557]:
+            - generic [ref=f36e558]: "exporters: otlp: endpoint: glassflow-glassflow:4317 headers: x-glassflow-pipeline-id: ran-5g-telemetry service: pipelines: metrics: exporters"
+        - button "Copy code" [ref=f36e559] [cursor=pointer]: Copy
+      - 'heading "6.2. Filter: Remove Health-Check Noise" [level=3] [ref=f36e560]'
+      - paragraph [ref=f36e561]: The replay process injects synthetic health-check metrics alongside the real signal-quality telemetry. These metrics are useful for validating pipeline health but add no value to downstream analytics.
+      - paragraph [ref=f36e562]: The first stage removes these records before they consume storage or processing resources.
+      - generic [ref=f36e566]:
+        - tabpanel [ref=f36e568]:
+          - textbox "Code Editor for example.js" [ref=f36e569]:
+            - generic [ref=f36e570]: "{ \"type\": \"filter\", \"source_id\": \"ran_metrics\", \"config\": { \"expression\": \"metric_name != 'ran.healthcheck'\" } }"
+        - button "Copy code" [ref=f36e571] [cursor=pointer]: Copy
+      - 'heading "6.3. Deduplication: Remove Duplicate Observations" [level=3] [ref=f36e572]'
+      - paragraph [ref=f36e573]:
+        - text: Each replayed observation carries a unique
+        - code [ref=f36e574]: measurement_id
+        - text: attribute. Since both collectors forward the same observation, the resulting metrics share the same identifier even though they arrive through different collection paths.
+      - paragraph [ref=f36e575]:
+        - text: GlassFlow uses this identifier to
+        - link "remove duplicate observations" [ref=f36e576] [cursor=pointer]:
+          - /url: https://docs.glassflow.dev/transformations/deduplication?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - text: within a 30-second window, ensuring that each measurement is written only once.
+      - generic [ref=f36e580]:
+        - tabpanel [ref=f36e582]:
+          - textbox "Code Editor for example.js" [ref=f36e583]:
+            - generic [ref=f36e584]: "{ \"type\": \"dedup\", \"source_id\": \"ran_metrics\", \"config\": { \"key\": \"attributes.measurement_id\", \"time_window\": \"30s\" } }"
+        - button "Copy code" [ref=f36e585] [cursor=pointer]: Copy
+      - 'heading "6.4. Stateless Transformation: Normalize Vendor Attributes" [level=3] [ref=f36e586]'
+      - paragraph [ref=f36e587]: To simulate a multi-vendor environment, the two collectors intentionally emit different attribute names for the same cell identifier.
+      - paragraph [ref=f36e588]: "For example:"
+      - generic [ref=f36e592]:
+        - tabpanel [ref=f36e594]:
+          - textbox "Code Editor for example.md" [ref=f36e595]
+        - button "Copy code" [ref=f36e597] [cursor=pointer]: Copy
+      - paragraph [ref=f36e598]:
+        - text: A
+        - link "stateless transformation" [ref=f36e599] [cursor=pointer]:
+          - /url: https://docs.glassflow.dev/transformations/stateless-transformation?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - text: reconciles these variations into a single canonical field that downstream systems can query consistently.
+      - generic [ref=f36e603]:
+        - tabpanel [ref=f36e605]:
+          - textbox "Code Editor for example.js" [ref=f36e606]:
+            - generic [ref=f36e607]: "{ \"type\": \"stateless\", \"source_id\": \"ran_metrics\", \"config\": { \"transforms\": [ { \"expression\": \"resource_attributes['cell.id'] ?? resource_attributes['ran.cell.id'] ?? resource_attributes['network.element.id']\", \"output_name\": \"canonical_cell_id\", \"output_type\": \"string\" } ] } }"
+        - button "Copy code" [ref=f36e608] [cursor=pointer]: Copy
+      - paragraph [ref=f36e609]: In addition to standardizing cell identifiers, the pipeline extracts commonly queried fields such as network mode, geographic coordinates, timestamps, and metric values into strongly typed columns that can be mapped directly into ClickHouse.
+      - heading "6.5. ClickHouse Sink" [level=3] [ref=f36e610]
+      - paragraph [ref=f36e611]: After filtering, deduplication, and normalization, the cleaned telemetry stream is written into ClickHouse.
+      - paragraph [ref=f36e612]:
+        - text: The
+        - link "GlassFlow ClickHouse sink" [ref=f36e613] [cursor=pointer]:
+          - /url: https://docs.glassflow.dev/configuration/clickhouse-sink?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - text: maps OpenTelemetry fields into typed ClickHouse columns while preserving the original attributes for ad-hoc analysis. This allows us to run efficient analytical queries without sacrificing access to the underlying telemetry context.
+      - generic [ref=f36e617]:
+        - tabpanel [ref=f36e619]:
+          - textbox "Code Editor for example.js" [ref=f36e620]:
+            - generic [ref=f36e621]: "{ \"type\": \"clickhouse\", \"table\": \"ran_metrics\", \"max_batch_size\": 1000, \"max_delay_time\": \"1s\", \"mapping\": [ { \"name\": \"canonical_cell_id\", \"column_name\": \"CellID\" }, { \"name\": \"metric_name\", \"column_name\": \"MetricName\" }, { \"name\": \"value_double\", \"column_name\": \"Value\" }, { \"name\": \"timestamp\", \"column_name\": \"TimeUnix\" } ] }"
+        - button "Copy code" [ref=f36e622] [cursor=pointer]: Copy
+      - heading "6.6. The Complete Pipeline" [level=3] [ref=f36e623]
+      - paragraph [ref=f36e624]: "The complete processing flow consists of four transformations applied to every incoming metric:"
+      - generic [ref=f36e628]:
+        - tabpanel [ref=f36e630]:
+          - textbox "Code Editor for example.md" [ref=f36e631]
+        - button "Copy code" [ref=f36e633] [cursor=pointer]: Copy
+      - paragraph [ref=f36e634]: "The full pipeline definition used in this demo is available in the repository:"
+      - paragraph [ref=f36e635]: At this point, the environment is ready. The OpenTelemetry Collectors are forwarding telemetry into GlassFlow, ClickHouse is prepared to store the processed metrics, and Grafana is available for visualization. The next step is to examine how GlassFlow transforms the incoming stream—filtering noise, removing duplicate observations, and normalizing attributes before the data reaches storage.
+      - 'heading "The ClickHouse Side: Queries, Validation, and Results" [level=2] [ref=f36e636]'
+      - paragraph [ref=f36e637]: With the pipeline deployed and telemetry flowing, it's time to validate that the data arriving in ClickHouse is clean and ready for analysis.
+      - paragraph [ref=f36e638]:
+        - text: One of the advantages of performing deduplication upstream is that ClickHouse can use a simple
+        - code [ref=f36e639]: MergeTree
+        - text: table rather than relying on engines such as
+        - code [ref=f36e640]: ReplacingMergeTree
+        - text: to clean up duplicates after ingestion. The database receives already-processed telemetry, allowing queries to operate directly on the data rather than compensating for inconsistencies.
+      - paragraph [ref=f36e641]: "Now, let’s port forward the desired ClickHouse services:"
+      - generic [ref=f36e645]:
+        - tabpanel [ref=f36e647]:
+          - textbox "Code Editor for example.sh" [ref=f36e648]:
+            - generic [ref=f36e649]: make
+        - button "Copy code" [ref=f36e650] [cursor=pointer]: Copy
+      - paragraph [ref=f36e651]:
+        - text: Running this will port forward the client and the HTTP API services within Kubernetes. Now, you can open your browser and go to
+        - link "http://localhost:8123" [ref=f36e652] [cursor=pointer]:
+          - /url: http://localhost:8123/
+        - text: and click on the Web SQL UI to execute queries and get your results.
+      - img "ClickHouse Web SQL UI showing RAN metrics query results at localhost:8123" [ref=f36e653]
+      - paragraph [ref=f36e654]:
+        - emphasis [ref=f36e655]:
+          - strong [ref=f36e656]: Figure 4
+          - text: . ClickHouse Web SQL UI showing RAN metrics query results at localhost:8123
+      - heading "Verify Deduplication" [level=3] [ref=f36e657]
+      - paragraph [ref=f36e658]: The first validation step is confirming that duplicate observations have been removed successfully.
+      - paragraph [ref=f36e659]: "Run the following query:"
+      - generic [ref=f36e663]:
+        - tabpanel [ref=f36e665]:
+          - textbox "Code Editor for example.sql" [ref=f36e666]:
+            - generic [ref=f36e667]: SELECT count() AS total_rows, uniqExact(Attributes['measurement_id']) AS unique_measurements, count() - uniqExact(Attributes['measurement_id']) AS surviving_dupes FROM
+        - button "Copy code" [ref=f36e668] [cursor=pointer]: Copy
+      - paragraph [ref=f36e669]:
+        - text: If the pipeline is functioning correctly,
+        - code [ref=f36e670]: surviving_dupes
+        - text: "should be zero or very close to zero, confirming that duplicate observations emitted by the redundant collectors were removed before storage. You should see an output similar to this on your ClickHouse execution output:"
+      - generic [ref=f36e674]:
+        - tabpanel [ref=f36e676]:
+          - textbox "Code Editor for example.sh" [ref=f36e677]:
+            - generic [ref=f36e678]: "Query id: 2eb122ef-2ff7-41f0-a55b-f41307246024 ┌─total_rows─┬─unique_measurements─┬─surviving_dupes─┐ 1. │ 14219 │ 14219 │ 0"
+        - button "Copy code" [ref=f36e679] [cursor=pointer]: Copy
+      - heading "Detect Signal Degradation" [level=3] [ref=f36e680]
+      - paragraph [ref=f36e681]: One of the primary goals of the pipeline is to identify cells experiencing poor radio conditions.
+      - paragraph [ref=f36e682]: "The following query calculates a rolling average RSRP value for each cell:"
+      - paragraph [ref=f36e683]: "Cells appearing in this result set are experiencing very weak signal conditions and may be candidates for further investigation. For the purposes of this demo, we just took a subset of the full dataset, so it will return only a few matching results. You should see an output similar to this:"
+      - generic [ref=f36e687]:
+        - tabpanel [ref=f36e689]:
+          - textbox "Code Editor for example.sh" [ref=f36e690]:
+            - generic [ref=f36e691]: "Query id: 74324bee-e7a5-40d9-ac38-3319397423ad ┌──────────────minute─┬─CellID─┬────────────avg_rsrp─┐ 1. │ 2019-12-16 12:33:00 │ 3 │ -111 │ 2. │ 2019-12-16 12:33:00 │ 41 │ -114 │ 3. │ 2019-12-14 10:27:00 │ 3 │ -110.14285714285714 │ 4. │ 2019-12-14 10:26:00 │ 3 │ -111.06451612903226 │ 5. │ 2019-12-14 10:25:00 │ 3 │ -200 │ 6. │ 2019-11-29 10:17:00 │ 12 │ -113.81818181818181 │ 7. │ 2019-11-29 09:57:00 │ 1 │ -112.63636363636364 │ 8. │ 2019-11-29 09:56:00 │ 1 │ -111.79069767441861 │ 9. │ 2019-11-29 09:55:00 │ 1 │ -111 │ 10. │ 2019-11-29 09:46:00 │ 1 │ -112"
+        - button "Copy code" [ref=f36e692] [cursor=pointer]: Copy
+      - heading "Throughput SLA Validation" [level=3] [ref=f36e693]
+      - paragraph [ref=f36e694]: Signal strength alone doesn't tell the whole story. Operators also care about the user experience delivered by the network.
+      - paragraph [ref=f36e695]: "The following query calculates the 95th percentile downlink throughput for each cell:"
+      - generic [ref=f36e699]:
+        - tabpanel [ref=f36e701]:
+          - textbox "Code Editor for example.sql" [ref=f36e702]:
+            - generic [ref=f36e703]: SELECT CellID, quantile(0.95)(Value) AS p95_throughput FROM ran_metrics WHERE MetricName = 'ran.dl_bitrate' GROUP BY CellID ORDER BY p95_throughput DESC
+        - button "Copy code" [ref=f36e704] [cursor=pointer]: Copy
+      - paragraph [ref=f36e705]:
+        - text: This type of query is commonly used for capacity planning, SLA reporting, and identifying underperforming cells. The demo will return the following output (
+        - emphasis [ref=f36e706]: numbers may vary a bit due to the randomness of the emitter
+        - text: "):"
+      - generic [ref=f36e710]:
+        - tabpanel [ref=f36e712]:
+          - textbox "Code Editor for example.sh" [ref=f36e713]:
+            - generic [ref=f36e714]: "Query id: 549a5b0d-f536-4fdc-af73-0a4f9a7ec353 ┌─CellID─┬─────p95_throughput─┐ 1. │ 11 │ 156207.79999999996 │ 2. │ 12 │ 50498.99999999996 │ 3. │ 13 │ 22450.25 │ 4. │ 2 │ 13869 │ 5. │ 41001 │ 11309.499999999998 │ 6. │ 52106 │ 8713.25 │ 7. │ 3 │ 6615.449999999997 │ 8. │ 20504 │ 4286 │ 9. │ 40504 │ 3533.5999999999876 │ 10. │ 8643 │ 3188.8999999999996 │ 11. │ 10692 │ 2733.7 │ 12. │ 40506 │ 1580.25 │ 13. │ 30504 │ 1562.5 │ 14. │ 1 │ 1403.8999999999996 │ 15. │ 57034 │ 398.6 │ 16. │ 52103 │ 340.79999999999995 │ 17. │ 57031 │ 136.7 │ 18. │ 57185 │ 37.75 │ 19. │ 52089 │ 15.59999999999999 │ 20. │ 52083 │ 4.249999999999998 │ 21. │ 57099 │ 1 │ 22. │ 52086 │ 0 │ 23. │ 56991 │ 0 │ 24. │ 10504 │ 0 │ 25. │ 41 │ 0"
+        - button "Copy code" [ref=f36e715] [cursor=pointer]: Copy
+      - heading "Measuring the Impact of Deduplication (Optional)" [level=3] [ref=f36e716]
+      - paragraph [ref=f36e717]: To demonstrate why deduplication matters, the demo includes a second pipeline that intentionally preserves duplicate observations.
+      - paragraph [ref=f36e718]: "Deploy the no-dedup pipeline:"
+      - generic [ref=f36e722]:
+        - tabpanel [ref=f36e724]:
+          - textbox "Code Editor for example.sh" [ref=f36e725]:
+            - generic [ref=f36e726]: make deploy-pipeline-no-dedup make switch-collectors-no-dedup make
+        - button "Copy code" [ref=f36e727] [cursor=pointer]: Copy
+      - paragraph [ref=f36e728]: "Then compare row counts against unique measurements:"
+      - generic [ref=f36e732]:
+        - tabpanel [ref=f36e734]:
+          - textbox "Code Editor for example.sql" [ref=f36e735]:
+            - generic [ref=f36e736]: SELECT CellID, count() AS rows, uniqExact(Attributes['measurement_id']) AS unique_measurements, count() / greatest(uniqExact(Attributes['measurement_id']), 1) AS inflation_factor FROM ran_metrics WHERE MetricName = 'ran.rsrp' GROUP BY CellID ORDER BY inflation_factor DESC LIMIT 6
+        - button "Copy code" [ref=f36e737] [cursor=pointer]: Copy
+      - paragraph [ref=f36e738]:
+        - text: With deduplication disabled, the inflation factor approaches
+        - code [ref=f36e739]: "2.0"
+        - text: because both collectors write the same observation. Once the deduplicated pipeline is restored, the inflation factor returns to
+        - code [ref=f36e740]: "1.0"
+        - text: .
+      - paragraph [ref=f36e741]: "This comparison illustrates the core value of the pipeline: analytics are only as trustworthy as the telemetry feeding them"
+      - heading "Visualizing the Results in Grafana" [level=3] [ref=f36e742]
+      - paragraph [ref=f36e743]: The demo includes a pre-configured Grafana dashboard connected directly to ClickHouse.
+      - paragraph [ref=f36e744]: "Launch Grafana:"
+      - generic [ref=f36e748]:
+        - tabpanel [ref=f36e750]:
+          - textbox "Code Editor for example.sh" [ref=f36e751]:
+            - generic [ref=f36e752]: make
+        - button "Copy code" [ref=f36e753] [cursor=pointer]: Copy
+      - paragraph [ref=f36e754]:
+        - text: Then open
+        - code [ref=f36e755]: http://localhost:3000
+        - text: and log in using
+        - code [ref=f36e756]: admin/admin
+        - text: . You will be asked to set a new password on first login so please do so. Then, you can navigate to the Dashboards section where you should see the preconfigured dashboard.
+      - paragraph [ref=f36e757]: "The dashboard provides a real-time view of the processed telemetry stream, including:"
+      - list [ref=f36e758]:
+        - listitem [ref=f36e759]:
+          - text: •
+          - paragraph [ref=f36e760]: Per-cell RSRP trends
+        - listitem [ref=f36e761]:
+          - text: •
+          - paragraph [ref=f36e762]: Throughput heatmaps
+        - listitem [ref=f36e763]:
+          - text: •
+          - paragraph [ref=f36e764]: SLA breach indicators
+        - listitem [ref=f36e765]:
+          - text: •
+          - paragraph [ref=f36e766]: Deduplication comparison panels
+      - paragraph [ref=f36e767]: As the replay progresses, signal degradation events from the dataset become visible in near real time. Because GlassFlow has already filtered noise, removed duplicate observations, and normalized attributes, the dashboard reflects actual network conditions rather than artifacts introduced by the telemetry pipeline.
+      - paragraph [ref=f36e768]:
+        - strong [ref=f36e769]: Figure 5.
+        - text: Grafana dashboard showing per-cell RSRP signal quality trends, throughput heatmaps, and deduplication comparison panels
+      - 'heading "Results: What Upstream Deduplication Achieves" [level=2] [ref=f36e770]'
+      - paragraph [ref=f36e771]: "This demo demonstrates three things:"
+      - list [ref=f36e772]:
+        - listitem [ref=f36e773]:
+          - text: •
+          - paragraph [ref=f36e774]: Duplicate observations emitted by redundant OpenTelemetry Collectors can be removed before they reach the analytics layer.
+        - listitem [ref=f36e775]:
+          - text: •
+          - paragraph [ref=f36e776]: Vendor-specific attribute naming can be normalized into a consistent schema during stream processing.
+        - listitem [ref=f36e777]:
+          - text: •
+          - paragraph [ref=f36e778]: An OTLP-native architecture is sufficient for real-time telemetry processing, eliminating the need for additional messaging infrastructure in this workflow.
+      - paragraph [ref=f36e779]: It also demonstrates the operational value of upstream processing. By the time telemetry reaches ClickHouse, it is already filtered, deduplicated, and normalized, allowing dashboards and analytical queries to operate on clean data.
+      - paragraph [ref=f36e780]:
+        - text: At the same time, this is not the only valid approach. ClickHouse features such as
+        - code [ref=f36e781]: ReplacingMergeTree
+        - text: can also be used to address duplicate records in some workloads. This article focuses on upstream stream processing as an alternative that is particularly well-suited to high-volume telemetry pipelines.
+      - paragraph [ref=f36e782]: Finally, while the telemetry traces come from a real-world 5G dataset, the dual-collector deployment is intentionally simulated. The goal is to reproduce the duplicate-emission patterns commonly seen in production high-availability collector topologies.
+      - heading "Production Considerations for RAN Telemetry Pipelines" [level=2] [ref=f36e783]
+      - paragraph [ref=f36e784]: "A few practical considerations are worth keeping in mind when adapting this pattern to production environments:"
+      - list [ref=f36e785]:
+        - listitem [ref=f36e786]:
+          - text: •
+          - paragraph [ref=f36e787]: Choose a deduplication window that comfortably covers collector batching, retries, and network latency.
+        - listitem [ref=f36e788]:
+          - text: •
+          - paragraph [ref=f36e789]: Apply deduplication selectively. It provides the most value for high-volume telemetry streams where duplicate observations can significantly impact analytics.
+        - listitem [ref=f36e790]:
+          - text: •
+          - paragraph [ref=f36e791]: Normalize attributes as early as possible to avoid carrying vendor-specific complexity into dashboards and queries.
+        - listitem [ref=f36e792]:
+          - text: •
+          - paragraph [ref=f36e793]: "Treat stream processing and analytics as separate concerns: GlassFlow prepares the data, while ClickHouse focuses on storing and querying it efficiently."
+      - 'heading "Conclusion: Clean Telemetry Starts at the Source" [level=2] [ref=f36e794]'
+      - paragraph [ref=f36e795]: 5G observability pipelines generate large volumes of telemetry, but volume alone does not create useful insights. Duplicate observations, inconsistent schemas, and operational noise can all reduce the accuracy of downstream analytics.
+      - paragraph [ref=f36e796]: In this tutorial, we used GlassFlow to process OpenTelemetry metrics before they reached ClickHouse. A simple pipeline—filtering health checks, removing duplicate observations, and normalizing attributes—turned a noisy telemetry stream into a trustworthy one.
+      - paragraph [ref=f36e797]: "The broader lesson extends beyond telecommunications: cleaning data before it reaches the database is often simpler and more efficient than compensating for data quality issues afterward."
+      - paragraph [ref=f36e798]:
+        - text: If you'd like to try it yourself,
+        - link "clone the demo repository" [ref=f36e799] [cursor=pointer]:
+          - /url: https://github.com/glassflow/clickhouse-etl?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - text: ", replay the dataset, and compare the results with deduplication enabled and disabled. The difference becomes apparent almost immediately."
+      - paragraph [ref=f36e800]:
+        - text: Want to run GlassFlow in your own pipeline?
+        - link "Get started here" [ref=f36e801] [cursor=pointer]:
+          - /url: https://docs.glassflow.dev/getting-started?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - text: .
+      - heading "References" [level=2] [ref=f36e802]
+      - list [ref=f36e803]:
+        - listitem [ref=f36e804]:
+          - text: •
+          - paragraph [ref=f36e805]:
+            - link "GlassFlow OTLP Source Documentation" [ref=f36e806] [cursor=pointer]:
+              - /url: https://docs.glassflow.dev/sources/otlp?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - listitem [ref=f36e807]:
+          - text: •
+          - paragraph [ref=f36e808]:
+            - link "GlassFlow Deduplication Transformation" [ref=f36e809] [cursor=pointer]:
+              - /url: https://docs.glassflow.dev/transformations/deduplication?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - listitem [ref=f36e810]:
+          - text: •
+          - paragraph [ref=f36e811]:
+            - link "GlassFlow Stateless Transformation" [ref=f36e812] [cursor=pointer]:
+              - /url: https://docs.glassflow.dev/transformations/stateless-transformation?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - listitem [ref=f36e813]:
+          - text: •
+          - paragraph [ref=f36e814]:
+            - link "GlassFlow Pipeline Configuration Reference (v3)" [ref=f36e815] [cursor=pointer]:
+              - /url: https://docs.glassflow.dev/configuration/pipeline-config-reference?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - listitem [ref=f36e816]:
+          - text: •
+          - paragraph [ref=f36e817]:
+            - link "GlassFlow ClickHouse Sink" [ref=f36e818] [cursor=pointer]:
+              - /url: https://docs.glassflow.dev/configuration/clickhouse-sink?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - listitem [ref=f36e819]:
+          - text: •
+          - paragraph [ref=f36e820]:
+            - link "GlassFlow Data Flow Architecture" [ref=f36e821] [cursor=pointer]:
+              - /url: https://docs.glassflow.dev/architecture/data-flow?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - listitem [ref=f36e822]:
+          - text: •
+          - paragraph [ref=f36e823]:
+            - link "GlassFlow ClickHouse ETL Repository" [ref=f36e824] [cursor=pointer]:
+              - /url: https://github.com/glassflow/clickhouse-etl?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+        - listitem [ref=f36e825]:
+          - text: •
+          - paragraph [ref=f36e826]:
+            - link "uccmisl/5Gdataset" [ref=f36e827] [cursor=pointer]:
+              - /url: https://github.com/uccmisl/5Gdataset
+        - listitem [ref=f36e828]:
+          - text: •
+          - paragraph [ref=f36e829]:
+            - link "OpenTelemetry Metrics Data Model Specification" [ref=f36e830] [cursor=pointer]:
+              - /url: https://opentelemetry.io/docs/specs/otel/metrics/data-model/
+        - listitem [ref=f36e831]:
+          - text: •
+          - paragraph [ref=f36e832]:
+            - link "Solving the \"Latest State\" Problem in ClickHouse with Real-Time Deduplication" [ref=f36e833] [cursor=pointer]:
+              - /url: https://www.glassflow.dev/blog/real-time-deduplication-for-clickhouse?utm_source=blog&utm_medium=website&utm_campaign=ran_5G_demo
+      - heading [level=2] [ref=f36e834]
+      - heading "Frequently Asked Questions" [level=2] [ref=f36e835]
+      - paragraph [ref=f36e836]:
+        - strong [ref=f36e837]: What is OpenTelemetry (OTel)?
+        - text: OpenTelemetry is an open-source observability framework that standardizes how telemetry data (metrics, logs, traces) is collected, instrumented, and exported. It's vendor-neutral and supported by all major cloud providers and observability vendors.
+      - paragraph [ref=f36e838]:
+        - strong [ref=f36e839]: What causes duplicate metrics in OpenTelemetry pipelines?
+        - text: Duplicate metrics occur when redundant OpenTelemetry Collectors, deployed for high availability, each forward the same observation to the downstream backend. Without deduplication, a single measurement appears twice in storage, inflating counts and skewing aggregations.
+      - paragraph [ref=f36e840]:
+        - strong [ref=f36e841]: Why use GlassFlow instead of deduplicating in ClickHouse?
+        - text: Deduplicating in ClickHouse (via ReplacingMergeTree) requires extra storage for duplicate rows before merges run, complicates query logic, and adds operational overhead. GlassFlow removes duplicates in the streaming layer before any data reaches ClickHouse, keeping the database simple and queries accurate from the start.
+      - paragraph [ref=f36e842]:
+        - strong [ref=f36e843]: What is RAN signal quality degradation?
+        - text: RAN (Radio Access Network) signal quality degradation refers to a deterioration in the radio signal between a 5G base station (gNB) and a user device. It's measured via metrics such as RSRP (Reference Signal Received Power), RSRQ (Reference Signal Received Quality), and SNR (Signal-to-Noise Ratio). Degradation can indicate interference, coverage gaps, or hardware issues.
+      - paragraph [ref=f36e844]:
+        - strong [ref=f36e845]: What is OTLP?
+        - text: OTLP (OpenTelemetry Protocol) is the native wire protocol used to transmit telemetry data between OpenTelemetry Collectors and backends. GlassFlow accepts OTLP natively, meaning no additional message queue (Kafka, Pulsar) is needed to connect OTel to GlassFlow.
+      - paragraph [ref=f36e846]:
+        - strong [ref=f36e847]: Can this pipeline work in production with real 5G infrastructure?
+        - text: Yes. The architecture dual OTel Collectors → GlassFlow → ClickHouse mirrors production high-availability collector topologies. The main adjustments for production are sizing the deduplication window to match your collector batching intervals and tuning ClickHouse batch sizes.
+    - generic [ref=f36e852]:
+      - heading "Share the article" [level=2] [ref=f36e859]
+      - generic [ref=f36e862]:
+        - button "Share on X" [ref=f36e863] [cursor=pointer]
+        - button "Share on Facebook" [ref=f36e866] [cursor=pointer]
+        - button "Share on LinkedIn" [ref=f36e869] [cursor=pointer]
+        - button "Share on Reddit" [ref=f36e872] [cursor=pointer]
+        - button "Copy link" [ref=f36e875] [cursor=pointer]
+        - button "Share" [ref=f36e879] [cursor=pointer]
+    - generic [ref=f36e885]:
+      - paragraph [ref=f36e889]: You might also like
+      - generic [ref=f36e891]:
+        - link [ref=f36e892] [cursor=pointer]:
+          - /url: ./clickhouse-telemetry-pipeline-with-opentelemetry-and-glassflow
+          - link [ref=f36e894]:
+            - generic [ref=f36e900]:
+              - img "Telemetry pipeline, OpenTelemetry, observability pipeline, GlassFlow, ClickHouse pipeline, ClickHouse observability, OTel, OTel Collector, data masking" [ref=f36e904]
+              - generic [ref=f36e905]:
+                - paragraph [ref=f36e909]: Tutorials
+                - paragraph [ref=f36e911]: Build a ClickHouse Telemetry Pipeline with OpenTelemetry and GlassFlow
+                - paragraph [ref=f36e913]: This guide shows you how to stream OTLP data, perform deduplication and PII masking with GlassFlow and send data directly into ClickHouse for high-performance, low-cost observability.
+            - generic [ref=f36e914]:
+              - paragraph [ref=f36e917]: Written by
+              - paragraph [ref=f36e922]: Armend Avdijaj
+            - link [ref=f36e923]:
+              - generic [ref=f36e926]:
+                - paragraph [ref=f36e928]: read article
+                - paragraph [ref=f36e930]: read article
+        - link [ref=f36e931] [cursor=pointer]:
+          - /url: ./opentelemetry-to-clickhouse-do-you-need-kafka
+          - link [ref=f36e933]:
+            - generic [ref=f36e939]:
+              - img "OpenTelemetry to ClickHouse, ClickHouse, Kafka, ClickHouse pipeline, OTel pipeline, telemetry pipeline" [ref=f36e943]
+              - generic [ref=f36e944]:
+                - paragraph [ref=f36e948]: Engineering
+                - paragraph [ref=f36e950]: "OpenTelemetry to ClickHouse: Do You Actually Need Kafka?"
+                - paragraph [ref=f36e952]: A technical comparison of OpenTelemetry → Kafka → ClickHouse vs OpenTelemetry → GlassFlow → ClickHouse. Learn where Kafka adds real value and where it adds operational overhead your observability pipeline doesn't need.
+            - generic [ref=f36e953]:
+              - paragraph [ref=f36e956]: Written by
+              - paragraph [ref=f36e961]: Armend Avdijaj
+            - link [ref=f36e962]:
+              - generic [ref=f36e965]:
+                - paragraph [ref=f36e967]: read article
+                - paragraph [ref=f36e969]: read article
+        - link [ref=f36e970] [cursor=pointer]:
+          - /url: ./fraud-detection-pipelines-kafka-glassflow-clickhouse
+          - link [ref=f36e972]:
+            - generic [ref=f36e978]:
+              - img "Fraud detection pipeline, Fraud detection use case, fraud detection, Kafka, GlassFlow, ClickHouse, stream processing, data pipelines, anomaly detection" [ref=f36e982]
+              - generic [ref=f36e983]:
+                - paragraph [ref=f36e987]: Tutorials
+                - paragraph [ref=f36e989]: Fraud Detection Pipelines with Kafka, Glassflow, and ClickHouse
+                - paragraph [ref=f36e991]: A demo using GlassFlow to deduplicate and filter Kafka events before they reach ClickHouse for real-time fraud detection.
+            - generic [ref=f36e992]:
+              - paragraph [ref=f36e995]: Written by
+              - paragraph [ref=f36e1000]: Armend Avdijaj
+            - link [ref=f36e1001]:
+              - generic [ref=f36e1004]:
+                - paragraph [ref=f36e1006]: read article
+                - paragraph [ref=f36e1008]: read article
+    - generic [ref=f36e1014]:
+      - generic [ref=f36e1015]:
+        - paragraph [ref=f36e1017]: Two products. Two starting points.
+        - generic [ref=f36e1018]:
+          - paragraph [ref=f36e1019]: Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and
+          - paragraph [ref=f36e1020]: retention, from first span to production.
+      - generic [ref=f36e1021]:
+        - link [ref=f36e1023] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+          - paragraph [ref=f36e1028]: star Tares on GitHub
+        - link [ref=f36e1030] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/rius/guides
+          - paragraph [ref=f36e1035]: read the Rius guides
+  - generic [ref=f36e1039]:
+    - generic [ref=f36e1041]:
+      - paragraph [ref=f36e1045]: Ready to give your agents better data and total recall?
+      - generic [ref=f36e1046]:
+        - generic [ref=f36e1049]:
+          - generic [ref=f36e1050]:
+            - paragraph [ref=f36e1052]: Start with Tares
+            - paragraph [ref=f36e1054]: Feed your agents the right data.
+          - link [ref=f36e1056] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f36e1061]: get_started
+        - generic [ref=f36e1068]:
+          - generic [ref=f36e1069]:
+            - paragraph [ref=f36e1071]: Start with Rius
+            - paragraph [ref=f36e1073]: See and debug agents in production.
+          - link [ref=f36e1075] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f36e1080]: get_started
+    - generic [ref=f36e1086]:
+      - generic [ref=f36e1088]:
+        - paragraph [ref=f36e1095]: products
+        - generic [ref=f36e1100]:
+          - link [ref=f36e1101] [cursor=pointer]:
+            - /url: ../tares
+            - generic [ref=f36e1106]:
+              - paragraph [ref=f36e1108]: tares
+              - paragraph [ref=f36e1110]: Feed your agents the right data. Open source
+          - link [ref=f36e1111] [cursor=pointer]:
+            - /url: ../rius
+            - generic [ref=f36e1116]:
+              - paragraph [ref=f36e1118]: rius
+              - paragraph [ref=f36e1120]: See what your agents did in production.
+      - generic [ref=f36e1121]:
+        - link [ref=f36e1122] [cursor=pointer]:
+          - /url: ../contact
+          - paragraph [ref=f36e1128]: contact
+        - link [ref=f36e1129] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f36e1135]: docs
+        - link [ref=f36e1136] [cursor=pointer]:
+          - /url: ../blog
+          - paragraph [ref=f36e1142]: blog
+        - link [ref=f36e1143] [cursor=pointer]:
+          - /url: ../about
+          - paragraph [ref=f36e1149]: about
+      - generic [ref=f36e1150]:
+        - link [ref=f36e1151] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f36e1153] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f36e1155] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f36e1158]:
+      - paragraph [ref=f36e1160]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f36e1162]:
+        - link "Terms & Conditions" [ref=f36e1163] [cursor=pointer]:
+          - /url: ../terms-of-service
+      - paragraph [ref=f36e1165]:
+        - link "Privacy Policy" [ref=f36e1166] [cursor=pointer]:
+          - /url: ../privacy-policy

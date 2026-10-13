@@ -1,0 +1,111 @@
+- generic [ref=f152e3]:
+  - generic [ref=f152e8]:
+    - link [ref=f152e9] [cursor=pointer]:
+      - /url: ./
+    - generic [ref=f152e13]:
+      - paragraph [ref=f152e17]: products
+      - link [ref=f152e22] [cursor=pointer]:
+        - /url: https://docs.glassflow.ai/
+        - paragraph [ref=f152e25]: docs
+      - link [ref=f152e26] [cursor=pointer]:
+        - /url: ./blog
+        - paragraph [ref=f152e29]: blog
+      - link [ref=f152e30] [cursor=pointer]:
+        - /url: ./contact
+        - paragraph [ref=f152e33]: contact
+    - link [ref=f152e35] [cursor=pointer]:
+      - /url: ./#quickstart
+      - paragraph [ref=f152e38]: get_started
+  - generic [ref=f152e47]:
+    - heading "Imprint" [level=1] [ref=f152e49]
+    - generic [ref=f152e51]:
+      - paragraph [ref=f152e52]: Information according to §5 TMG (Telemedia Act)
+      - paragraph [ref=f152e53]
+      - paragraph [ref=f152e54]: "Legal form, registration, registered office:"
+      - paragraph [ref=f152e55]: GlassFlow GmbH is a limited liability company according to the GmbH Act with its registered office at Prinzessinnenstraße 19/20, 10969 Berlin, registered in the Commercial Register of the Berlin (Charlottenburg) Local Court under the number HRB252594 B.
+      - paragraph [ref=f152e56]: "VAT identification number according to §27a UstG: DE361405627"
+      - paragraph [ref=f152e57]: "Tax number: 37/308/50336"
+      - paragraph [ref=f152e58]: "Authorized representative/Owner: Armend Avdijaj, Ashish Bagri"
+      - paragraph [ref=f152e59]: "Contact details: e-mail"
+      - paragraph [ref=f152e60]:
+        - link "info@glassflow.dev" [ref=f152e61] [cursor=pointer]:
+          - /url: mailto:info@glassflow.dev
+    - generic [ref=f152e62]:
+      - paragraph [ref=f152e63]: Further Information
+      - paragraph [ref=f152e64]
+      - paragraph [ref=f152e65]: "Information according to § 2 of the Service Information Regulation:"
+      - paragraph [ref=f152e66]: Our terms and conditions apply to the services we provide. They stipulate that German law applies and that, where permissible, Berlin is agreed upon as the place of jurisdiction.
+      - paragraph [ref=f152e67]:
+        - text: According to Article 14(1) of Regulation (EU) 524/2013 on online dispute resolution for consumer disputes (ODR Regulation), we are legally obliged to inform you about the European Online Dispute Resolution Platform (OS Platform) of the European Commission. You can reach it at
+        - link "http://ec.europa.eu/odr" [ref=f152e68] [cursor=pointer]:
+          - /url: http://ec.europa.eu/odr
+        - text: "Further information on out-of-court dispute resolution according to § 36 of the Consumer Dispute Resolution Act: we do not participate in a dispute resolution procedure before a consumer arbitration board, nor are we obliged to do so."
+    - generic [ref=f152e69]:
+      - paragraph [ref=f152e70]: Liability
+      - paragraph [ref=f152e71]
+      - paragraph [ref=f152e72]: We are responsible for the content of our website in accordance with the provisions of general laws, in particular § 7 (1) of the Telemedia Act. All content is created with due care and to the best of our knowledge. However, we cannot guarantee the ongoing currency, accuracy, and completeness of the linked content on our website via hyperlinks to third-party websites, as this content is outside our sphere of responsibility and we have no influence on its future design. If you believe that content violates applicable law or is inappropriate, please inform us.
+      - paragraph [ref=f152e73]: The legal notices on this page, as well as all questions and disputes relating to the design of this website, are subject to the law of the Federal Republic of Germany.
+    - generic [ref=f152e74]:
+      - paragraph [ref=f152e75]: Copyright Notice
+      - paragraph [ref=f152e76]
+      - paragraph [ref=f152e77]: The texts, images, photos, videos, or graphics available on our website are generally protected by copyright. Any unauthorized use (in particular reproduction, editing, or distribution) of these copyrighted contents is therefore prohibited. If you intend to use these contents or parts thereof, please contact us in advance using the above information. If we are not the rights holder of the required copyright usage rights, we will endeavor to provide contact with the rights holder.
+  - generic [ref=f152e84]:
+    - generic [ref=f152e86]:
+      - paragraph [ref=f152e90]: Ready to give your agents better data and total recall?
+      - generic [ref=f152e91]:
+        - generic [ref=f152e94]:
+          - generic [ref=f152e95]:
+            - paragraph [ref=f152e97]: Start with Tares
+            - paragraph [ref=f152e99]: Feed your agents the right data.
+          - link [ref=f152e101] [cursor=pointer]:
+            - /url: https://console.tares-glassflow.com/
+            - paragraph [ref=f152e106]: get_started
+        - generic [ref=f152e113]:
+          - generic [ref=f152e114]:
+            - paragraph [ref=f152e116]: Start with Rius
+            - paragraph [ref=f152e118]: See and debug agents in production.
+          - link [ref=f152e120] [cursor=pointer]:
+            - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+            - paragraph [ref=f152e125]: get_started
+    - generic [ref=f152e131]:
+      - generic [ref=f152e133]:
+        - paragraph [ref=f152e140]: products
+        - generic [ref=f152e145]:
+          - link [ref=f152e146] [cursor=pointer]:
+            - /url: ./tares
+            - generic [ref=f152e151]:
+              - paragraph [ref=f152e153]: tares
+              - paragraph [ref=f152e155]: Feed your agents the right data. Open source
+          - link [ref=f152e156] [cursor=pointer]:
+            - /url: ./rius
+            - generic [ref=f152e161]:
+              - paragraph [ref=f152e163]: rius
+              - paragraph [ref=f152e165]: See what your agents did in production.
+      - generic [ref=f152e166]:
+        - link [ref=f152e167] [cursor=pointer]:
+          - /url: ./contact
+          - paragraph [ref=f152e173]: contact
+        - link [ref=f152e174] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+          - paragraph [ref=f152e180]: docs
+        - link [ref=f152e181] [cursor=pointer]:
+          - /url: ./blog
+          - paragraph [ref=f152e187]: blog
+        - link [ref=f152e188] [cursor=pointer]:
+          - /url: ./about
+          - paragraph [ref=f152e194]: about
+      - generic [ref=f152e195]:
+        - link [ref=f152e196] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link [ref=f152e198] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link [ref=f152e200] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f152e203]:
+      - paragraph [ref=f152e205]: 2026 - Copyright GlassFlow.ai
+      - paragraph [ref=f152e207]:
+        - link "Terms & Conditions" [ref=f152e208] [cursor=pointer]:
+          - /url: ./terms-of-service
+      - paragraph [ref=f152e210]:
+        - link "Privacy Policy" [ref=f152e211] [cursor=pointer]:
+          - /url: ./privacy-policy

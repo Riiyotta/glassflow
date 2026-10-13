@@ -1,0 +1,50 @@
+{
+  "id": "layout.spacer",
+  "family": "mars",
+  "category": "layout",
+  "purpose": "Bordered blank band separating sections.",
+  "variants": {
+    "band-65": "default 67px band",
+    "divider-30": "30px divider directly under the nav",
+    "top-64": "64px band (calculator)"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ui.jsx",
+      "lines": "18-22",
+      "quote": "export function Spacer"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  },
+  "constraints": {
+    "repeatable": true,
+    "noConsecutive": true,
+    "familyOnly": "mars"
+  },
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "height": "same"
+    },
+    "810": {
+      "height": "same"
+    },
+    "1200": {
+      "height": "same"
+    },
+    "evidence": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "18",
+        "quote": "inner = 'h-[65px]'"
+      }
+    ]
+  }
+}

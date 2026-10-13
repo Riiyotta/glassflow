@@ -1,0 +1,714 @@
+{
+  "url": "https://www.glassflow.ai/kafka-to-clickhouse-pipeline-guide",
+  "title": "Kafka to ClickHouse: A Practical Guide to Data Pipelines | GlassFlow",
+  "desc": "Master Kafka to ClickHouse data pipelines. Learn strategies for handling duplicates, late events, and JOINs with real-world examples. Download your free GlassFlow ebook.",
+  "og": "https://framerusercontent.com/assets/m5c9zhRXC5QD84a464obnLQ2vno.jpg",
+  "H": 1011,
+  "W": 1440,
+  "texts": [
+    {
+      "t": "a",
+      "x": "Product",
+      "r": [
+        272,
+        22,
+        51,
+        17
+      ],
+      "f": "Inter 14px/16.8px w500 ls-0.28px",
+      "c": "rgb(153, 153, 153)",
+      "bg": "rgba(0, 0, 0, 0.8)",
+      "a": "./product"
+    },
+    {
+      "t": "a",
+      "x": "Case Studies",
+      "r": [
+        363,
+        22,
+        85,
+        17
+      ],
+      "f": "Inter 14px/16.8px w500 ls-0.28px",
+      "c": "rgb(153, 153, 153)",
+      "bg": "rgba(0, 0, 0, 0.8)",
+      "a": "./case-studies"
+    },
+    {
+      "t": "a",
+      "x": "Pricing",
+      "r": [
+        472,
+        22,
+        45,
+        17
+      ],
+      "f": "Inter 14px/16.8px w500 ls-0.28px",
+      "c": "rgb(153, 153, 153)",
+      "bg": "rgba(0, 0, 0, 0.8)",
+      "a": "./rius/pricing"
+    },
+    {
+      "t": "a",
+      "x": "Resources",
+      "r": [
+        541,
+        22,
+        68,
+        17
+      ],
+      "f": "Inter 14px/16.8px w500 ls-0.28px",
+      "c": "rgb(153, 153, 153)",
+      "bg": "rgba(0, 0, 0, 0.8)",
+      "a": "./product"
+    },
+    {
+      "t": "a",
+      "x": "Contact",
+      "r": [
+        649,
+        22,
+        51,
+        17
+      ],
+      "f": "Inter 14px/16.8px w500 ls-0.28px",
+      "c": "rgb(153, 153, 153)",
+      "bg": "rgba(0, 0, 0, 0.8)",
+      "a": "./contact"
+    },
+    {
+      "t": "a",
+      "x": "clickhouse-etl",
+      "r": [
+        1257,
+        24,
+        73,
+        14
+      ],
+      "f": "sans-serif 12px/normal w400",
+      "c": "rgb(0, 0, 238)",
+      "bg": "rgba(0, 0, 0, 0.8)",
+      "a": "https://github.com/glassflow/clickhouse-etl"
+    },
+    {
+      "t": "p",
+      "x": "Free eBook",
+      "r": [
+        120,
+        134,
+        74,
+        12
+      ],
+      "f": "Inter 12px/12px w500 ttuppercase center",
+      "c": "rgb(30, 15, 0)",
+      "bg": "rgb(255, 172, 0)",
+      "a": null
+    },
+    {
+      "t": "span",
+      "x": "A practical guide on how to build Kafka to ClickHouse pipelines",
+      "r": [
+        110,
+        168,
+        540,
+        151
+      ],
+      "f": "Inter 42px/50.4px w500 ls-1.68px",
+      "c": "rgb(0, 0, 0)",
+      "bg": "rgb(0, 0, 0)"
+    },
+    {
+      "t": "p",
+      "x": "This ebook covers everything you need to know about building dependable  pipelines.",
+      "r": [
+        110,
+        335,
+        540,
+        56
+      ],
+      "f": "Inter 20px/28px w400 ls-0.8px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgb(0, 0, 0)"
+    },
+    {
+      "t": "span",
+      "x": "Kafka → ClickHouse",
+      "r": [
+        292,
+        365,
+        180,
+        25
+      ],
+      "f": "Inter 20px/28px w400 ls-0.8px",
+      "c": "rgb(255, 255, 255)",
+      "bg": "rgb(0, 0, 0)"
+    },
+    {
+      "t": "p",
+      "x": "Walks you through building a reliable pipeline with strategies for handling duplicates, late events, and JOINs",
+      "r": [
+        144,
+        424,
+        506,
+        50
+      ],
+      "f": "Inter 18px/25.2px w400 ls-0.72px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgb(0, 0, 0)"
+    },
+    {
+      "t": "p",
+      "x": "Gives real-world examples from finance, e-commerce, and observability",
+      "r": [
+        144,
+        487,
+        506,
+        50
+      ],
+      "f": "Inter 18px/25.2px w400 ls-0.72px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgb(0, 0, 0)"
+    },
+    {
+      "t": "p",
+      "x": "Offers practical insights and best practices for both beginners and those looking to improve existing setups",
+      "r": [
+        144,
+        549,
+        506,
+        50
+      ],
+      "f": "Inter 18px/25.2px w400 ls-0.72px",
+      "c": "rgb(168, 163, 163)",
+      "bg": "rgb(0, 0, 0)"
+    }
+  ],
+  "imgs": [
+    {
+      "src": "https://framerusercontent.com/images/uJSz4vz8ntpPgNuLAZrGGPBhGFo.svg?width=128&height=18",
+      "r": [
+        110,
+        23,
+        114,
+        16
+      ],
+      "n": [
+        300,
+        42
+      ],
+      "fit": "cover",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/i7Uti49dVPGVtAs2iCwnJBnuWso.png?scale-down-to=1024&width=1226&height=1018",
+      "r": [
+        -35,
+        -122,
+        432,
+        509
+      ],
+      "n": [
+        601,
+        498
+      ],
+      "fit": "cover",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/k68ifFtfMbT8As7lCeihZaxTO6w.png?width=48&height=48",
+      "r": [
+        110,
+        437,
+        24,
+        24
+      ],
+      "n": [
+        48,
+        48
+      ],
+      "fit": "cover",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/k68ifFtfMbT8As7lCeihZaxTO6w.png?width=48&height=48",
+      "r": [
+        110,
+        500,
+        24,
+        24
+      ],
+      "n": [
+        48,
+        48
+      ],
+      "fit": "cover",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/k68ifFtfMbT8As7lCeihZaxTO6w.png?width=48&height=48",
+      "r": [
+        110,
+        562,
+        24,
+        24
+      ],
+      "n": [
+        48,
+        48
+      ],
+      "fit": "cover",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/eMUNSXzDARdSsMat78pTslrdn4.png?width=1742&height=1344",
+      "r": [
+        -150,
+        178,
+        1740,
+        833
+      ],
+      "n": [
+        1740,
+        1342
+      ],
+      "fit": "contain",
+      "alt": ""
+    },
+    {
+      "src": "https://framerusercontent.com/images/i7Uti49dVPGVtAs2iCwnJBnuWso.png?scale-down-to=1024&width=1226&height=1018",
+      "r": [
+        839,
+        0,
+        601,
+        509
+      ],
+      "n": [
+        601,
+        498
+      ],
+      "fit": "cover",
+      "alt": ""
+    }
+  ],
+  "bgimgs": [
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000...len312",
+      "r": [
+        325,
+        24,
+        14,
+        14
+      ],
+      "name": "Icon"
+    },
+    {
+      "b": "url(\"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000...len312",
+      "r": [
+        611,
+        24,
+        14,
+        14
+      ],
+      "name": "Icon"
+    },
+    {
+      "b": "linear-gradient(278524deg, rgb(168, 168, 168) 0%, rgb(255, 255, 255) 100%)",
+      "r": [
+        110,
+        168,
+        540,
+        151
+      ],
+      "name": null
+    },
+    {
+      "b": "linear-gradient(270deg, rgba(0, 0, 0, 0) 49%, rgb(0, 0, 0) 100%)",
+      "r": [
+        0,
+        -39,
+        1440,
+        1050
+      ],
+      "name": "gradient"
+    }
+  ],
+  "svgs": [],
+  "blocks": [
+    {
+      "n": null,
+      "tag": "div",
+      "r": [
+        0,
+        0,
+        1440,
+        1011
+      ],
+      "bg": "rgb(0, 0, 0)",
+      "p": "0px",
+      "gap": "0px",
+      "d": "flex column"
+    },
+    {
+      "n": "Desktop",
+      "tag": "div",
+      "r": [
+        0,
+        0,
+        1440,
+        62
+      ],
+      "bg": "rgba(0, 0, 0, 0.8)",
+      "p": "0px 24px",
+      "gap": "0px",
+      "d": "flex row"
+    },
+    {
+      "n": "Hero",
+      "tag": "div",
+      "r": [
+        0,
+        0,
+        1440,
+        1011
+      ],
+      "bg": null,
+      "p": "128px 24px",
+      "gap": "40px",
+      "d": "flex column"
+    },
+    {
+      "n": "main",
+      "tag": "div",
+      "r": [
+        110,
+        128,
+        1220,
+        608
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "10px",
+      "d": "flex row"
+    },
+    {
+      "n": "Image",
+      "tag": "div",
+      "r": [
+        -35,
+        -122,
+        432,
+        509
+      ],
+      "bg": null,
+      "p": "0px",
+      "d": "block"
+    },
+    {
+      "n": "content",
+      "tag": "div",
+      "r": [
+        110,
+        128,
+        540,
+        608
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "33px",
+      "d": "flex column"
+    },
+    {
+      "n": "Works with your preferred data stack",
+      "tag": "div",
+      "r": [
+        110,
+        168,
+        540,
+        151
+      ],
+      "bg": null,
+      "p": "0px",
+      "d": "flex column"
+    },
+    {
+      "n": "list",
+      "tag": "div",
+      "r": [
+        110,
+        424,
+        540,
+        175
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "12px",
+      "d": "flex column"
+    },
+    {
+      "n": "bullet",
+      "tag": "div",
+      "r": [
+        110,
+        424,
+        540,
+        50
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "10px",
+      "d": "flex row"
+    },
+    {
+      "n": "text",
+      "tag": "div",
+      "r": [
+        144,
+        424,
+        506,
+        50
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "10px",
+      "d": "flex column"
+    },
+    {
+      "n": "bullet",
+      "tag": "div",
+      "r": [
+        110,
+        487,
+        540,
+        50
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "10px",
+      "d": "flex row"
+    },
+    {
+      "n": "text",
+      "tag": "div",
+      "r": [
+        144,
+        487,
+        506,
+        50
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "10px",
+      "d": "flex column"
+    },
+    {
+      "n": "bullet",
+      "tag": "div",
+      "r": [
+        110,
+        549,
+        540,
+        50
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "10px",
+      "d": "flex row"
+    },
+    {
+      "n": "text",
+      "tag": "div",
+      "r": [
+        144,
+        549,
+        506,
+        50
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "10px",
+      "d": "flex column"
+    },
+    {
+      "n": "Background Image",
+      "tag": "div",
+      "r": [
+        0,
+        178,
+        1440,
+        833
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "10px",
+      "d": "block"
+    },
+    {
+      "n": "Tablet",
+      "tag": "div",
+      "r": [
+        -150,
+        178,
+        1740,
+        833
+      ],
+      "bg": null,
+      "p": "0px",
+      "gap": "10px",
+      "d": "block"
+    },
+    {
+      "n": "Image",
+      "tag": "div",
+      "r": [
+        839,
+        0,
+        601,
+        509
+      ],
+      "bg": null,
+      "p": "0px",
+      "d": "block"
+    },
+    {
+      "n": "gradient",
+      "tag": "div",
+      "r": [
+        0,
+        -39,
+        1440,
+        1050
+      ],
+      "bg": null,
+      "p": "0px",
+      "d": "block"
+    }
+  ],
+  "links": [
+    [
+      "./",
+      "",
+      [
+        110,
+        23,
+        114,
+        16
+      ]
+    ],
+    [
+      "./product",
+      "Product",
+      [
+        272,
+        22,
+        51,
+        17
+      ]
+    ],
+    [
+      "./case-studies",
+      "Case Studies",
+      [
+        363,
+        22,
+        85,
+        17
+      ]
+    ],
+    [
+      "./rius/pricing",
+      "Pricing",
+      [
+        472,
+        22,
+        45,
+        17
+      ]
+    ],
+    [
+      "./product",
+      "Resources",
+      [
+        541,
+        22,
+        68,
+        17
+      ]
+    ],
+    [
+      "./contact",
+      "Contact",
+      [
+        649,
+        22,
+        51,
+        17
+      ]
+    ],
+    [
+      "https://github.com/glassflow/clickhouse-etl",
+      "clickhouse-etl",
+      [
+        1257,
+        24,
+        73,
+        14
+      ]
+    ],
+    [
+      null,
+      "Free eBook",
+      [
+        110,
+        128,
+        94,
+        24
+      ]
+    ]
+  ],
+  "forms": [
+    {
+      "t": "IFRAME",
+      "name": "",
+      "r": [
+        110,
+        632,
+        480,
+        104
+      ],
+      "src": "",
+      "val": "",
+      "s": "rgba(0, 0, 0, 0) rgb(0, 0, 0) sans-serif 12px bd:0px none rgb(0, 0, 0) pad:0px"
+    }
+  ],
+  "anim": [],
+  "sticky": [
+    {
+      "n": null,
+      "r": [
+        0,
+        0,
+        1440,
+        62
+      ],
+      "pos": "fixed",
+      "top": "0px"
+    }
+  ],
+  "trans": [
+    "all",
+    "color 0.3s cubic-bezier(0.44, 0, 0.56, 1)"
+  ],
+  "hidden": [
+    {
+      "n": null,
+      "r": [
+        0,
+        0,
+        1440,
+        62
+      ],
+      "o": "1",
+      "tf": "matrix(1, 0, 0, 1, -720, 0)"
+    }
+  ]
+}

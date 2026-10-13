@@ -1,0 +1,128 @@
+{
+  "id": "contact.success-panel",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Thanks panel with 'where to poke around' links beside an image.",
+  "variants": {
+    "default": "/contact/success"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Contact.jsx",
+      "lines": "247-287",
+      "quote": "export function ContactSuccess()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 5
+      },
+      "lines": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 16
+        },
+        "minItems": 1,
+        "maxItems": 2
+      },
+      "next": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 5
+            },
+            "href": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "x-linkField": true
+            },
+            "text": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 14
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "title",
+            "href",
+            "text"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 3
+      },
+      "image": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field",
+              "scene.mars-figurative"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "lines",
+      "next",
+      "image"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "columns": 1
+    },
+    "810": {
+      "columns": 1
+    },
+    "1200": {
+      "columns": 2,
+      "image": "630 tall"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Contact.jsx",
+        "lines": "280",
+        "quote": "relative h-[630px] p-10"
+      }
+    ]
+  }
+}

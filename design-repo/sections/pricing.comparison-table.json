@@ -1,0 +1,99 @@
+{
+  "id": "pricing.comparison-table",
+  "family": "mars",
+  "category": "pricing",
+  "purpose": "Plan comparison table with check / dimmed-minus cells; horizontal scroll below lg.",
+  "variants": {
+    "default": "/rius/pricing"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ComparisonTable.jsx",
+      "lines": "13-58",
+      "quote": "export default function ComparisonTable"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "plans": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 2
+        },
+        "minItems": 4,
+        "maxItems": 4
+      },
+      "rows": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 8
+            },
+            "values": {
+              "type": "array",
+              "items": {
+                "anyOf": [
+                  {
+                    "enum": [
+                      "check",
+                      "minus"
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "maxWords": 4
+                  }
+                ]
+              },
+              "minItems": 4,
+              "maxItems": 4
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "label",
+            "values"
+          ]
+        },
+        "minItems": 1,
+        "maxItems": 40
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "plans",
+      "rows"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "columns": "160px + 4x140 (scrolls)"
+    },
+    "810": {
+      "columns": "160px + 4x140"
+    },
+    "1200": {
+      "columns": "200px + 4x278"
+    },
+    "evidence": [
+      {
+        "path": "src/components/ComparisonTable.jsx",
+        "lines": "11",
+        "quote": "const COLS ="
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "alt.faq",
+  "family": "mars",
+  "category": "faq",
+  "purpose": "FAQ as native <details>, one open at a time across the page.",
+  "variants": {
+    "arize": "arize data",
+    "langfuse": "langfuse data"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Alternatives.jsx",
+      "lines": "1030-1036",
+      "quote": "function FaqBlock({ items, acc })"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "question": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 16
+            },
+            "answer": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 60
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "question",
+            "answer"
+          ]
+        },
+        "minItems": 2,
+        "maxItems": 10
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "items"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "layout": "single column, 16px section padding"
+    },
+    "810": {
+      "layout": "64px section padding"
+    },
+    "1200": {
+      "layout": "max 1200 (arize) / 1234 (langfuse)"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Alternatives.jsx",
+        "lines": "291",
+        "quote": "px-4 md:px-16"
+      }
+    ]
+  },
+  "notes": "Native rebuild of the live iframe template; the iframe CSS/script quoted in specs/products.md appendices is deliberately NOT copied here."
+}

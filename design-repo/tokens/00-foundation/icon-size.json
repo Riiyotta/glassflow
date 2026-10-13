@@ -1,0 +1,73 @@
+{
+  "dots": {
+    "$value": 6,
+    "gap": 4,
+    "measuredFrom": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "31",
+        "quote": "block h-[6px] w-[6px]"
+      }
+    ]
+  },
+  "pixel-arrow": {
+    "$value": "16x14",
+    "measuredFrom": [
+      {
+        "path": "src/components/ui.jsx",
+        "lines": "37",
+        "quote": "export function Arrow"
+      }
+    ]
+  },
+  "icon-24": {
+    "$value": 24,
+    "measuredFrom": [
+      {
+        "path": "src/components/Footer.jsx",
+        "lines": "46",
+        "quote": "className=\"h-6 w-6\""
+      }
+    ]
+  },
+  "icon-40": {
+    "$value": 40,
+    "measuredFrom": [
+      {
+        "path": "src/components/PlanCards.jsx",
+        "lines": "13",
+        "quote": "className=\"h-10 w-10\""
+      }
+    ]
+  },
+  "card-icon-64": {
+    "$value": 64,
+    "measuredFrom": [
+      {
+        "path": "src/components/ProductSections.jsx",
+        "lines": "79",
+        "quote": "relative h-16 w-16"
+      }
+    ]
+  },
+  "avatar-48": {
+    "$value": 48,
+    "measuredFrom": [
+      {
+        "path": "src/components/Testimonial.jsx",
+        "lines": "46",
+        "quote": "h-12 w-12 object-cover"
+      }
+    ]
+  },
+  "meta-23": {
+    "$value": 23,
+    "measuredFrom": [
+      {
+        "path": "src/components/ContentSections.jsx",
+        "lines": "118",
+        "quote": "h-[23px] w-[23px]"
+      }
+    ]
+  }
+}

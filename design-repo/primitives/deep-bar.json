@@ -1,0 +1,20 @@
+{
+  "id": "deep-bar",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "38px deep bar with dots and an optional 58x12 graphic.",
+  "props": {
+    "graphic": "asset"
+  },
+  "tokens": [
+    "component.deep-bar"
+  ],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ProductSections.jsx",
+      "lines": "9-16",
+      "quote": "export function DeepBar"
+    }
+  ]
+}

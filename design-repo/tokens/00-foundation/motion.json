@@ -1,0 +1,368 @@
+{
+  "$description": "CLOSED set of real motion patterns (src/components/motion.js + src/index.css). Section contracts and the PageSpec schema may only reference these names.",
+  "patterns": {
+    "hero-word-blur-in": {
+      "scope": "hero.home H1",
+      "trigger": "in-view-once (IntersectionObserver amount 0)",
+      "durationMs": 1000,
+      "staggerMs": 50,
+      "easing": "EASE.springB0D1 (Framer spring bounce 0, duration 1)",
+      "from": "opacity .001, blur(10px), translateY(10px)",
+      "reduced": "opacity-only",
+      "evidence": [
+        {
+          "path": "src/components/motion.js",
+          "lines": "62",
+          "quote": "export function revealWords(root, { stagger = 50, duration = 1000 } = {})"
+        },
+        {
+          "path": "src/components/motion.js",
+          "lines": "75",
+          "quote": "easing: EASE.springB0D1,"
+        },
+        {
+          "path": "src/index.css",
+          "lines": "122",
+          "quote": "[data-reveal-words] .reveal-word:not([data-revealed]) { opacity: 0.001; }"
+        }
+      ]
+    },
+    "product-appear": {
+      "scope": "product hero H1/lead, image-card bodies, tabs title/lead, agents table cells, add-on descriptions",
+      "trigger": "mount",
+      "durationMs": 600,
+      "staggerMs": 50,
+      "easing": "cubic-bezier(0.44, 0, 0.56, 1)",
+      "delayLeadMs": 70,
+      "reduced": "opacity-only",
+      "evidence": [
+        {
+          "path": "src/components/motion.js",
+          "lines": "93",
+          "quote": "export const APPEAR = { duration: 600, stagger: 50, easing: 'cubic-bezier(0.44, 0, 0.56, 1)' }"
+        },
+        {
+          "path": "src/index.css",
+          "lines": "163",
+          "quote": ".appear-part:not([data-revealed]) { opacity: 0.001; }"
+        }
+      ]
+    },
+    "text-effect": {
+      "scope": "blog post title/description, /about H1 + story",
+      "trigger": "mount",
+      "durationMs": 600,
+      "staggerMs": 50,
+      "easing": "cubic-bezier(0.5, 0, 0.88, 0.77)",
+      "split": "title per word with y; description per character no y; /about paragraphs per char, delay = visual line x 50ms",
+      "reduced": "opacity-only",
+      "evidence": [
+        {
+          "path": "src/components/motion.js",
+          "lines": "29",
+          "quote": "export const TEXT_EFFECT = { duration: 600, stagger: 50, easing: EASE.easeInish }"
+        },
+        {
+          "path": "src/components/motion.js",
+          "lines": "15",
+          "quote": "easeInish: 'cubic-bezier(0.5, 0, 0.88, 0.77)'"
+        },
+        {
+          "path": "src/components/AppearText.jsx",
+          "lines": "47",
+          "quote": "if (split === 'char') {"
+        }
+      ]
+    },
+    "amber-button-hover": {
+      "scope": "BigButton (amber)",
+      "trigger": "hover",
+      "durationMs": 400,
+      "easing": "cubic-bezier(0.44, 0, 0, 1)",
+      "effect": "arrow + clone roll up 30px; outer frame amber -> line",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/index.css",
+          "lines": "139",
+          "quote": ".arrow-track > .arrow-b { transition: transform 0.4s cubic-bezier(0.44, 0, 0, 1); }"
+        },
+        {
+          "path": "src/components/motion.js",
+          "lines": "13",
+          "quote": "primary: 'cubic-bezier(0.44, 0, 0, 1)'"
+        }
+      ]
+    },
+    "products-dropdown-fade": {
+      "scope": "nav products menu",
+      "trigger": "hover",
+      "durationMs": 400,
+      "easing": "--ease-spring-b02-d04 (Framer spring bounce .2 / .4s)",
+      "effect": "opacity only, no slide",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/index.css",
+          "lines": "158",
+          "quote": "transition: opacity 0.4s var(--ease-spring-b02-d04), visibility 0s linear 0.4s;"
+        }
+      ]
+    },
+    "nav-products-hover": {
+      "scope": "nav products cell",
+      "trigger": "hover",
+      "durationMs": 600,
+      "easing": "cubic-bezier(0.5, 0, 0.88, 0.77)",
+      "effect": "bg deep -> page; instant on leave",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/index.css",
+          "lines": "150",
+          "quote": ".nav-products:hover { background-color: theme('colors.page'); transition: background-color 0.6s cubic-bezier(0.5, 0, 0.88, 0.77); }"
+        }
+      ]
+    },
+    "faq-height": {
+      "scope": "FAQ rows",
+      "trigger": "click",
+      "durationMs": 200,
+      "easing": "cubic-bezier(0.5, 0, 0.88, 0.77)",
+      "effect": "row height tween; answer mounts instantly; toggle bg/rotate same tween",
+      "reduced": "instant",
+      "evidence": [
+        {
+          "path": "src/components/motion.js",
+          "lines": "151",
+          "quote": "export function animateHeight(el, from, to, { duration = 200, easing = EASE.easeInish } = {}) {"
+        },
+        {
+          "path": "src/components/Faq.jsx",
+          "lines": "19",
+          "quote": "const tween = 'faq-motion duration-200 ease-[cubic-bezier(0.5,0,0.88,0.77)]'"
+        }
+      ]
+    },
+    "tabs-height": {
+      "scope": "/tares tabs accordion",
+      "trigger": "click",
+      "durationMs": 450,
+      "easing": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "reduced": "instant",
+      "evidence": [
+        {
+          "path": "src/components/TabsShowcase.jsx",
+          "lines": "26",
+          "quote": "animateHeight(el, before.current[i], to, { duration: 450, easing: EASE.tabs })"
+        },
+        {
+          "path": "src/components/motion.js",
+          "lines": "18",
+          "quote": "tabs: 'cubic-bezier(0.16, 1, 0.3, 1)'"
+        }
+      ]
+    },
+    "blog-card-hover": {
+      "scope": "blog cards (index, related, product row, category)",
+      "trigger": "hover (whole card)",
+      "durationMs": 400,
+      "easing": "--ease-spring-b02-d04",
+      "effect": "bg panel -> card-dark; bar squares -> traffic lights; image scale 1.1; 'read article' label rolls 30px",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/components/BlogCard.jsx",
+          "lines": "14",
+          "quote": "const EASE = 'duration-[400ms] ease-[var(--ease-spring-b02-d04)] motion-reduce:transition-none'"
+        },
+        {
+          "path": "src/components/BlogCard.jsx",
+          "lines": "42",
+          "quote": "group-hover:scale-110"
+        },
+        {
+          "path": "src/index.css",
+          "lines": "180",
+          "quote": ".group:hover .text-roll-group .text-roll-track { transform: translateY(-30px); }"
+        }
+      ]
+    },
+    "text-roll": {
+      "scope": "TextRollButton trigger=self",
+      "trigger": "hover",
+      "durationMs": 250,
+      "easing": "cubic-bezier(0.3, 1.4, 0.5, 1)",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/index.css",
+          "lines": "237",
+          "quote": ".text-roll-track { transition: transform 0.25s cubic-bezier(0.3, 1.4, 0.5, 1); }"
+        }
+      ]
+    },
+    "case-card-hover": {
+      "scope": "case-study cards",
+      "trigger": "hover",
+      "durationMs": 400,
+      "easing": "--ease-spring-b02-d04",
+      "effect": "bg #1E0F00 -> #402306, translateY -2px; label static",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/index.css",
+          "lines": "187",
+          "quote": ".cs-card { transition: background-color 0.4s var(--ease-spring-b02-d04), transform 0.4s var(--ease-spring-b02-d04); }"
+        }
+      ]
+    },
+    "char-roll": {
+      "scope": "case-study 'Visit Website'",
+      "trigger": "hover",
+      "durationMs": 280,
+      "staggerMs": 25,
+      "easing": "in cubic-bezier(0.45, 0, 0.7, 0.2); out cubic-bezier(0.3, 0.8, 0.55, 1)",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/index.css",
+          "lines": "201",
+          "quote": "transition: transform 0.28s cubic-bezier(0.3, 0.8, 0.55, 1);"
+        },
+        {
+          "path": "src/index.css",
+          "lines": "210",
+          "quote": "transition-delay: calc(30ms + var(--i) * 25ms);"
+        }
+      ]
+    },
+    "legal-toc-hover": {
+      "scope": "legal sidebar links",
+      "trigger": "hover",
+      "durationMs": 400,
+      "easing": "--ease-spring-b02-d04",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/pages/Legal.jsx",
+          "lines": "125",
+          "quote": "transition-colors duration-[400ms] ease-[var(--ease-spring-b02-d04)]"
+        }
+      ]
+    },
+    "legacy-dropdown": {
+      "scope": "legacy nav dropdowns",
+      "trigger": "hover",
+      "durationMs": 400,
+      "chevronMs": 450,
+      "easing": "--ease-legacy-panel / --ease-legacy-chev (springs)",
+      "effect": "panel opacity 0->1, scale .95->1 from top centre; chevron rotate -180deg",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/index.css",
+          "lines": "229",
+          "quote": "transition: opacity 0.4s var(--ease-legacy-panel), transform 0.4s var(--ease-legacy-panel);"
+        },
+        {
+          "path": "src/index.css",
+          "lines": "231",
+          "quote": ".legacy-chev { transition: transform 0.45s var(--ease-legacy-chev); }"
+        }
+      ]
+    },
+    "legacy-menu-fade": {
+      "scope": "legacy mobile menu open",
+      "trigger": "click",
+      "durationMs": 600,
+      "easing": "EASE.legacyMenu (exponential ease-out)",
+      "effect": "opacity 0 -> 1; close is instant",
+      "reduced": "transitions-disabled",
+      "evidence": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "88",
+          "quote": "el.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 600, easing: EASE.legacyMenu })"
+        }
+      ]
+    },
+    "legacy-link-hover": {
+      "scope": "legacy nav links",
+      "trigger": "hover",
+      "durationMs": 300,
+      "easing": "cubic-bezier(0.44, 0, 0.56, 1)",
+      "reduced": "none-implemented (no motion-reduce class on these links)",
+      "evidence": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "33",
+          "quote": "transition-colors duration-300 ease-[cubic-bezier(0.44,0,0.56,1)]"
+        }
+      ]
+    },
+    "lottie-loop": {
+      "scope": "/rius retrospective",
+      "trigger": "autoplay loop",
+      "reduced": "no-reduced-motion-handling",
+      "evidence": [
+        {
+          "path": "src/components/LottiePlayer.jsx",
+          "lines": "12",
+          "quote": "loop: true"
+        }
+      ]
+    }
+  },
+  "absentOnOriginal": {
+    "scroll-reveal": "none on the original (CLONE_SPEC §11; products.md §1.5 'no scroll-triggered replay')",
+    "parallax": "none",
+    "marquee": "none (logo strip static)",
+    "evidence": [
+      {
+        "path": "CLONE_SPEC.md",
+        "lines": "175",
+        "quote": "No marquee (logo strip is static)"
+      },
+      {
+        "path": "specs/products.md",
+        "lines": "104",
+        "quote": "Trigger: mount, not viewport."
+      }
+    ]
+  },
+  "pageLevel": {
+    "lenis-smooth-scroll": {
+      "duration": 1.4,
+      "easing": "min(1, 1.001 - 2^(-10t))",
+      "evidence": [
+        {
+          "path": "src/App.jsx",
+          "lines": "34",
+          "quote": "duration: 1.4,"
+        }
+      ]
+    }
+  },
+  "reducedMotionFallbacks": {
+    "opacity-only": "text appears by opacity only (Framer drops blur/y under reduced motion)",
+    "transitions-disabled": "CSS @media (prefers-reduced-motion: reduce) sets transition none",
+    "instant": "height change applied without tween (animateHeight returns early)",
+    "opacity-only+transitions-disabled": "both of the above",
+    "opacity-only+instant": "both of the above",
+    "none-needed": "section has no motion",
+    "no-reduced-motion-handling": "KNOWN GAP: source does not handle reduced motion for this pattern"
+  },
+  "reducedMotionEvidence": [
+    {
+      "path": "src/index.css",
+      "lines": "242-247",
+      "quote": "@media (prefers-reduced-motion: reduce) {"
+    },
+    {
+      "path": "src/components/motion.js",
+      "lines": "31",
+      "quote": "export const prefersReducedMotion = () =>"
+    }
+  ]
+}

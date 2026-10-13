@@ -1,0 +1,18 @@
+{
+  "id": "badge",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Amber product badge: Geist Mono 14/18.2 bold on amber, 4px padding.",
+  "props": {
+    "label": "text"
+  },
+  "tokens": [],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/Product.jsx",
+      "lines": "3-9",
+      "quote": "function Badge"
+    }
+  ]
+}

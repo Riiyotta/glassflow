@@ -1,0 +1,79 @@
+{
+  "id": "content.heading-band",
+  "family": "mars",
+  "category": "content",
+  "purpose": "Centred heading + sub over the quickstart texture, with no cards (/tares 'From event to finding').",
+  "variants": {
+    "default": "/tares"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Tares.jsx",
+      "lines": "179",
+      "quote": "<HeadingBand title=\"From event to finding\""
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 6
+      },
+      "sub": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 16
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "sub",
+      "background"
+    ]
+  },
+  "constraints": {},
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {},
+    "810": {},
+    "1200": {},
+    "evidence": [
+      {
+        "path": "src/pages/Tares.jsx",
+        "lines": "49-55",
+        "quote": "function HeadingBand"
+      }
+    ]
+  }
+}

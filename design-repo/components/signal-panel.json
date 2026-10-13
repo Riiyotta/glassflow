@@ -1,0 +1,18 @@
+{
+  "id": "signal-panel",
+  "kind": "component",
+  "family": "mars",
+  "purpose": "Dithered image panel with centred heading/lead, then extras below (contact + success).",
+  "composes": [],
+  "props": {
+    "imageH": "class"
+  },
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/pages/Contact.jsx",
+      "lines": "189-199",
+      "quote": "function SignalPanel"
+    }
+  ]
+}

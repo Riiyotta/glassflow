@@ -1,0 +1,515 @@
+Source: https://www.glassflow.ai/
+
+# Content pages: image and SVG asset manifest
+
+Every raster/SVG URL loaded (or referenced in SSR HTML) by /blog, /blog/*, /categories/*, /case-studies, /case-studies/{nubrain,restack}, /about, /contact, /contact/success. Measured 2026-10-13. framerusercontent URLs accept `?scale-down-to=512|1024|2048` and `?width=&height=`; strip query strings when downloading the original. Assets already shipped for the home page are marked "(already in public/assets/)". Intrinsic sizes are the `width`/`height` attributes Framer emits (the original pixel size).
+
+## 1. Shared template images (used on several content pages)
+
+| URL | intrinsic | where |
+|---|---|---|
+| https://framerusercontent.com/images/p8ihsATIQW2BpC2j7ekzEF2gA.jpg  (already in public/assets/) | 1440x1702 (Framer reports 559x661) | CTA band left cell (Footer). Also the dithered backdrop behind the left hero panel on blog posts and /about |
+| https://framerusercontent.com/images/dkWQcxyRjqORomn3COxNj6KgRl4.jpg  (already in public/assets/) | 319x320 | CTA band "Start with Tares" cell (Footer) |
+| https://framerusercontent.com/images/ZsW3C35h6WXWKMkdVHcrVPc.jpg  (already in public/assets/) | 319x320 | CTA band "Start with Rius" cell (Footer) |
+| https://framerusercontent.com/images/fpSmMnbghTzYJNtWqkUhZjTF1UE.jpg | 1312x693 | Hero backdrop behind the /blog title block (1312x310 cover) and the case-study detail hero (1312x280) |
+| https://framerusercontent.com/images/5G4h16OWSlfa4F2lERWRFPE.jpg | 593x593 | Dithered frame/backdrop behind the cover image in the blog-post hero right cell, and behind the /about hero photo |
+| https://framerusercontent.com/images/h0ej46NDlXvCksM6LvlI4w4Ss.jpg | 3936x1500 | Background of the new "pricing / Two products" CTA band (1312 wide, 380 to 452 tall, cover). Used on /blog, posts, case studies, /about, /contact |
+| https://framerusercontent.com/images/D96xSgDLnqPtPU2OdIebnL9UZYs.jpg | 1312x1050 | Left hero image on /contact and /contact/success (656x563 / 656x417 cover); bg of the 3 value cells on /about (437x350 cover) |
+| https://framerusercontent.com/images/ARgMqlYnmiFWpdywy7EoO9FO9vI.png  (already in public/assets/) | 2652x1566 | Background of the /contact "Stuck on something?" calendar section and the /about "Discover more" section (same image as home Quickstart) |
+| https://framerusercontent.com/images/7xhczrFmZXWm4XtTt3xdK5HjPSc.jpg  (already in public/assets/) | 972x434 (1440x642 natural) | Case-study quote card background (same image as home Testimonial) |
+| https://framerusercontent.com/images/gGgprOgbK8sImEo5X3oHCssBw0w.jpg | 800x160 | Case-studies index title-panel background (1312x263, object-fit contain) and the "You might also like" title panel on case-study pages (1312x184 cover) |
+| https://framerusercontent.com/images/YiSYWMdzERJyLVRZRpiutPwoGI.jpg | 559x661 (656x775 natural) | /blog featured card right cell backdrop (668x412 cover); the post cover sits on top inset 12px |
+
+## 2. Page-specific images
+
+### /blog (index)
+- https://framerusercontent.com/images/fpSmMnbghTzYJNtWqkUhZjTF1UE.jpg title backdrop (see 1)
+- Featured card: backdrop https://framerusercontent.com/images/YiSYWMdzERJyLVRZRpiutPwoGI.jpg plus cover https://framerusercontent.com/images/mFirefQhQKw3QXF3cpXhF7l4sLw.png (1300x784)
+- Card thumbnails: one per post. See section 4 and the `thumbnail` field in specs/posts.json.
+
+### /categories/* (legacy black template)
+- https://framerusercontent.com/images/uJSz4vz8ntpPgNuLAZrGGPBhGFo.svg legacy GlassFlow wordmark (300x42 natural, shown 114x16) in the legacy nav
+- https://framerusercontent.com/images/IXfpuu2qaDEHssgxdeU5Z0pWoI.jpeg (3840x1590) "meteor + logo" background for the bottom ClickHouse CTA (1400x818 at x=20)
+- Card thumbnails are the post thumbnails (same URLs as in posts.json)
+
+### /case-studies and /case-studies/*
+- https://framerusercontent.com/images/gU6Xy4ekBJSu57RtzjJJ0U3x1Q.svg Restack logo (1000x425 viewBox, shown 71x30 on cards, 272x32 contain in the sidebar)
+- https://framerusercontent.com/images/71EJsST8RQxnFwMo7Alb9eWZXcI.svg Nubrain logo (89x20, shown 134x30 on cards, 272x32 contain in the sidebar)
+- https://framerusercontent.com/images/EB74VMW0V1AQrN80SXS6xOsXPg.jpeg (800x1066) Ingo Marquardt avatar, 48x48 cover (Nubrain quote)
+- https://framerusercontent.com/images/hOEgbo26i8shpzvhlvFGZZHDQY.jpeg (200x200) Nubrain company tile, 48x48 (Nubrain quote)
+- https://framerusercontent.com/images/AvNQPA2KLw0PJ8qQYPYqet4URQ.png Andres Tapia avatar, 48x48 (Restack quote)
+- https://framerusercontent.com/images/oIbDPvgphfWTFE1bRAFoKFR51po.jpeg Restack company tile, 48x48 (Restack quote)
+- https://framerusercontent.com/images/7xhczrFmZXWm4XtTt3xdK5HjPSc.jpg quote-card background (see 1)
+
+### /about
+- https://framerusercontent.com/images/z5vl4a9tCeiczbox4Aqgzy11Dk.png (1782x2700) team group photo, hero right cell (583x557 cover), over the https://framerusercontent.com/images/5G4h16OWSlfa4F2lERWRFPE.jpg backdrop
+- https://framerusercontent.com/images/Yy6NoHsJ7UfvnNcSHJxz58bQwwc.jpeg (2048x1365) and https://framerusercontent.com/images/Q7hLQZi2iSjmRi59hn1eXorDKXE.png (1782x1948): referenced in SSR HTML; these appear to be the tablet/mobile variants of the hero photo (not visible at 1440)
+- https://framerusercontent.com/images/D96xSgDLnqPtPU2OdIebnL9UZYs.jpg value-cell background (x3)
+- Team photos (432x300 cover in each card, LinkedIn link per card):
+  - Armend Avdijaj (Founder & CEO): https://framerusercontent.com/images/EUGyjKzZWaJSrr2zu5746RGlI.png (640x495); link https://www.linkedin.com/in/armend-avdijaj/
+  - Vladimir Cutkovic (Senior Frontend Engineer): https://framerusercontent.com/images/a8QrifheqiMQU26hAsZjchuotX4.jpg (2000x1546); link https://www.linkedin.com/in/vladimir-cutkovic/
+  - Kiran Nambiar (Senior Backend Engineer): https://framerusercontent.com/images/0Wpq0XXDfDAIb0DiPfPgV2vRRA.png (2000x1546); link https://www.linkedin.com/company/glassflow-dev (the small LinkedIn button links to https://docs.glassflow.ai/rius/quickstart on live; a CMS mistake)
+  - Petr Nuzhnov (Senior Backend Engineer): https://framerusercontent.com/images/8zc9wR0jTofmXo1i8oAe7Xd2MU.png (2000x1546); link https://www.linkedin.com/in/petrnuzhnov/
+  - Meryem Cebeci (Project Manager): https://framerusercontent.com/images/d65NdlroOMtoScH1A8upPTXb8.png (640x495); link https://www.linkedin.com/in/meryem-cebeci-ba52a661/
+  - Pablo Pardo Garcia (Senior Solution Engineer): https://framerusercontent.com/images/lpha0IhXSFfoekFa6Hf7oo59g.png (640x495); link https://www.linkedin.com/in/pablo-pardo-garcia/
+  - Benjamin Gorski (Head of Operations): https://framerusercontent.com/images/XMHbUNPYeGTlBu1aUXVMArMHbU.png (640x494); link https://www.linkedin.com/in/ben-gorski/
+  - Ayaan Islam (Accounting & Finance Associate): https://framerusercontent.com/images/pD35PRSoov4c8UIATVFvGxLrlaM.png (640x494); link https://www.linkedin.com/in/mohammed-ayaan-islam-262989294/
+  - Ashish Bagri (Founder & CTO): https://framerusercontent.com/images/DB3bD8VT0ZS16UjkMaAxJLygnY.png (640x494); link https://www.linkedin.com/in/ashishbagri/
+  - Markos Sfikas (Marketing Lead): https://framerusercontent.com/images/rtXd2ytZLtaZn27qCwW8CWuEq8U.png (3588x2768); link https://www.linkedin.com/in/msfikas/
+  - Bahareh Darbandi (Senior Backend Engineer): https://framerusercontent.com/images/R7aawS3JnIfXekAPqaHQj2vuM.jpg (3000x2319); link https://www.linkedin.com/in/bahareh-darbandi/ (the small LinkedIn button links to /in/msfikas/ on live; a CMS mistake)
+- "Discover more" cards: careers https://framerusercontent.com/images/gheBrKCK3Ciu5xEcHzMBCgSv3o.jpg (1000x560), blog https://framerusercontent.com/images/HzF3suL0qSMigUGajw02x3z6U98.jpg (1000x560); section bg https://framerusercontent.com/images/ARgMqlYnmiFWpdywy7EoO9FO9vI.png
+- Investor cards (photo 238x238, plus a 32x32 firm/logo badge at the bottom-right corner of the photo):
+  - Kevin Zhang (Partner at Upfront Ventures): photo https://framerusercontent.com/images/JiliIFrGIyU4RGZuTxKeYxh7DQ.png, badge https://framerusercontent.com/images/4oleiMNaudwxchFVqLImKac0auc.png
+  - Martin Möllmann (Investor at High-Tech Gründerfonds): photo https://framerusercontent.com/images/FoPBrtleqX1ce176xv0YS3j4W0.png, badge https://framerusercontent.com/images/CXst4OR2O985lBTM5ibgX12Wtc.png
+  - Philipp Moehring (Partner at TSIC): photo https://framerusercontent.com/images/3AGKfdRAKG1v7ccDw0V3EaHWm0.png, badge https://framerusercontent.com/images/3Cm6ni1BPkx8Q0JymitfQUCCs4.png
+  - Robin Haak (Partner at Robin Capital): photo https://framerusercontent.com/images/uS1znUn97WlyMoFXWFtPGIshyk.png, badge https://framerusercontent.com/images/fMBTWzeitdWxIwFBV36LRI5qdo.png
+  - Serhii Sokolenko (Ex-Snowflake): photo https://framerusercontent.com/images/QMtkvlVkrYiybq2CSUSFXF3rJMA.png, badge https://framerusercontent.com/images/SjaPDSaCHajUqC3XdU84pW8EOW0.png
+  - Kamil Mieczakowski (Partner at Notion Capital): photo https://framerusercontent.com/images/tLR9h5tUzZiWHO0Los4w2tNstY.png, badge https://framerusercontent.com/images/XGAAuzcsFEqYzM3j1LJqYitOak0.png
+  - Andrew Tymovskyi (Investor at Roosh Ventures): photo https://framerusercontent.com/images/H8QJsfhu37466mTH0WMnuNqTeI8.png, badge https://framerusercontent.com/images/85wU63KCXc4893uYwwvfQ8gxTC0.png
+  - Thomas Dohmke (CEO at GitHub): photo https://framerusercontent.com/images/iUIlmZAduir00xwi2SMlqcX69Jo.png, badge https://framerusercontent.com/images/2Mw17NBfyrGzcOTrPhI5bl4EyM.png
+  - Andrei David (Scout at Atomico): photo https://framerusercontent.com/images/D0XOroKd1s9H0nt07hqmPB3M.png, badge https://framerusercontent.com/images/3BqdtlasfD6uaBRyRf5LGk1YCgc.png
+  - Roland Fassauer (Partner at Fadelia): photo https://framerusercontent.com/images/i3ukHgVFY4RTUzCy553BJsGeA.png, badge https://framerusercontent.com/images/AiPN40AwXUL8x5AQ0d57nDE3tPY.png
+  - Heikki Nousiainen (CTO & Co-Founder at aiven): photo https://framerusercontent.com/images/cPnCYoQZG8dkiKrpCZbqwqqgK4.png, badge https://framerusercontent.com/images/TvUYeSYOO7LtUfaXjkdBmx3os80.png
+  - Andres Almansa (CEO at Restack): photo https://framerusercontent.com/images/ZLIFSkJg706gnwxEV3MkJnOlumc.png, badge https://framerusercontent.com/images/Tv7cEjjHcXj4nybHnFTOhLgBw.png
+  - Philippe Brule (CTO at Restack): photo https://framerusercontent.com/images/oiZUe7HfFwDIXMbyfTuimI78PfU.png, badge https://framerusercontent.com/images/Tv7cEjjHcXj4nybHnFTOhLgBw.png
+  - Jernej Strasner (VP Engineering at sentry.io): photo https://framerusercontent.com/images/q2AicIpi7Llo1iuEx3aaQ4WBOMs.png, badge https://framerusercontent.com/images/2k0dUASyTHGBQoL3HA7TL0In8o.png
+  - Taimur Rashid (Founding AWS sales manager): photo https://framerusercontent.com/images/evSnrDo2QYBm78SDfy9ilzBeM3g.png, badge https://framerusercontent.com/images/JGPPwh2QXVllCmQldWoIkZBkk.png
+  - Enrique Sarap (Scout at Sequoia): photo https://framerusercontent.com/images/aDo9Hte9NPY53vETjexM8ycuSNM.png, badge https://framerusercontent.com/images/1K3G4ZQS8rc8i3JFwJcEHSU3vlc.png
+  - Eva Spannagl (Ex Moss Lead and scout): photo https://framerusercontent.com/images/iWA3iPWbeWjyvypf5WdjlqWbG8.png, badge https://framerusercontent.com/images/1K3G4ZQS8rc8i3JFwJcEHSU3vlc.png
+  - Bob van Luijt (CEO at Weaviate): photo https://framerusercontent.com/images/PstB3qULwi1EcrHHlNCciiYzw.png, badge https://framerusercontent.com/images/JGPPwh2QXVllCmQldWoIkZBkk.png
+  - Keith Grose (Ex Plaid Lead and scout): photo https://framerusercontent.com/images/7PoRa0Kj0LTzOeqmff8RvcAYQo8.png, badge https://framerusercontent.com/images/lxA3Al9BSGFk9PzPQIa0XzooVc.png
+  - Mark Maxwell (Ex dbt labs and fivetran): photo https://framerusercontent.com/images/DDrzHAUMEGcpCT69X3IOvz0eU.png, badge https://framerusercontent.com/images/zXa6f2hTb7YXrnlzJBdkJHF1yp8.png
+  - Navid Meyer (Investor at Lakestar): photo https://framerusercontent.com/images/DSYCxCftRcSFmBTyGexvwoTbEk.png, badge https://framerusercontent.com/images/mTjI1dfSM1JRjjY8y5D2zABVfo.png
+  (photos and badges are 256x256 PNG except Robin Haak photo 238x238, Heikki Nousiainen photo 235x235, Mark Maxwell photo 200x200 / badge 225x225, Philipp Moehring badge and Andres Almansa photo 256x255, Navid Meyer badge 256x257)
+
+### /contact
+- https://framerusercontent.com/images/D96xSgDLnqPtPU2OdIebnL9UZYs.jpg hero left image
+- https://framerusercontent.com/images/ARgMqlYnmiFWpdywy7EoO9FO9vI.png calendar section background
+- https://framerusercontent.com/images/WAFKEfbmGfI9qoFOrWqjmuTXaA.png (64x64) Armend Avdijaj avatar, shown 48x48 under the calendar
+- https://framerusercontent.com/images/XBoPSI1HguCHrjBDJQJk79wM7oU.png (64x64) Ashish Bagri avatar, shown 48x48
+- Logo strip "Works with the tools you already use." reuses the home inline SVGs vercel/claude/cursor/openai (public/assets/svg/*.svg)
+- Embedded iframe (external, do not clone, just embed or link): https://app.cal.com/armend-glassflow/engineering-intro-call-with-founder/embed?layout=month_view&the... (query string truncated in the measurement; base path is exact)
+
+### /contact/success
+- https://framerusercontent.com/images/D96xSgDLnqPtPU2OdIebnL9UZYs.jpg left hero image (656x417)
+- https://framerusercontent.com/images/rEJrzUhJOm30gvdjvFesntLyB0k.jpg (1968x2100) right cell image (656x630 cover)
+
+## 3. Inline SVGs (data-URI or inline; no network file) that are new on these pages
+
+Copy into public/assets/svg/ as needed. Colours are exact.
+
+- **pixel-corner-48x72** (top-left of every hero/title panel on posts, /about, case-study "You might also like"; 48x72 at panel x=0,y=1): `<svg viewBox="0 0 48 72"><path d="M24 72h24V48H24zM0 48h24V24H0zM0 24h24V0H0zM24 24h24V0H24z" fill="#492400"/></svg>`
+- **icon-author 23x23** (post meta row): `<svg viewBox="0 0 23 23"><path d="M0 0h23v23H0z" fill="none" stroke="#5F3E1F"/><path d="M9.25 4h4.5v1.5h-4.5zM9.25 10h4.5v1.5h-4.5zM13.75 5.5h1.5V10h-1.5zM7.75 5.5h1.5V10h-1.5zM5.5 16H7v3H5.5zM16 16h1.5v3H16zM8.5 13h6v1.5h-6zM7 14.5h1.5V16H7zM14.5 14.5H16V16h-1.5z" fill="#F1EFDF"/></svg>`
+- **icon-date 23x23** (post meta row): `<svg viewBox="0 0 23 23"><path d="M0 0h23v23H0z" fill="none" stroke="#5F3E1F"/><path d="M6.25 5.5h10.5V7H6.25zM6.25 17.5h10.5V19H6.25zM4.75 10h1.5v7.5h-1.5zM4.75 7h1.5v1.5h-1.5zM16.75 7h1.5v1.5h-1.5zM16.75 10h1.5v7.5h-1.5zM4.75 8.5h13.5V10H4.75zM13.75 4h1.5v1.5h-1.5zM7.75 4h1.5v1.5h-1.5z" fill="#F1EFDF"/></svg>`
+- **share icons 22x22, fill/stroke currentColor (white)**: X, Facebook, LinkedIn, Reddit (Simple-Icons paths, viewBox 0 0 24 24), Copy link (Feather "copy": `<rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>` stroke-width 2), Share (Feather "share-2": three circles r=3 at (18,5),(6,12),(18,19) + `M8.59 13.51l6.83 3.98M15.41 6.51L8.59 10.49`). X path: `M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z`.
+- **check-24** (/contact/success link rows): amber square with dark pixel tick: `<svg viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="#FFAC00"/><path d="M10.5 16.5H9V15h1.5zM9 15H7.5v-1.5H9zM12 13.5V15h-1.5v-1.5zM7.5 13.5H6V12h1.5zM13.5 13.5H12V12h1.5zM15 12h-1.5v-1.5H15zM16.5 10.5H15V9h1.5zM18 9h-1.5V7.5H18z" fill="#1E0F00"/></svg>`
+- **value icons 64x64** (/about Simplicity / Empowerment / Curiosity): amber `#FFAC00` 64x64 square with a dark `#1E0F00` pixel glyph (Simplicity: wand/sparkle; Empowerment: lamp with rays; Curiosity: eye). Full path data is in the measurement dump /Users/riyaghosh/V3/GLASSFLOW/.playwright-mcp (re-extract with getComputedStyle(el).backgroundImage on the 64x64 divs at y=848) or redraw as pixel art on a 2.667px grid.
+- **linkedin-20** (/about team cards, rgba(255,255,255,.8)): rounded-square LinkedIn glyph, viewBox 0 0 20.125 20.
+- **Pill / tag** chips, dots, title bars: CSS only (no asset).
+- Form arrow on /contact submit: the same 16x14 pixel arrow as home (`public/assets/svg/arrow.svg`), drawn inline with viewBox "462 507 16 14", fill #492400.
+
+## 4. Blog post images (covers, card thumbnails, in-body images)
+
+For every post the card thumbnail equals the post cover image (verified on all 107 live posts), so one file per post. In-body images (`img.framer-image`, 720 or 800px wide in the 800px column) are listed per post. 12 cards point to posts that 308-redirect to /blog: their thumbnails still show on the index.
+
+- `decision-model-vs-llm`: cover https://framerusercontent.com/images/mFirefQhQKw3QXF3cpXhF7l4sLw.png
+  - body: https://framerusercontent.com/images/laN30IL2THQj31DG6J6vFn5I0w.webp
+  - body: https://framerusercontent.com/images/bGeaUruZbW6BpRVZaWemd7TdNXc.webp
+- `how-to-detect-ai-agent-failures-in-production`: cover https://framerusercontent.com/images/DK46aveL39yduU5qMbUqGPAWoI.png
+  - body: https://framerusercontent.com/images/LNH2XvAkPCI8xkaw6ThUtPvlafc.png
+- `how-to-debug-an-ai-agent`: cover https://framerusercontent.com/images/ZYFgdipfUsSImL2VBbWVD01uk.png
+  - body: https://framerusercontent.com/images/e1GBOoa1KWkIprdcpJiOxWCl3s.png
+  - body: https://framerusercontent.com/images/L8FrQxUxtX5yVP13PWL998SBMg.png
+  - body: https://framerusercontent.com/images/cw2js3MZEP5caHDCuqQ6au0FQc.png
+- `ai-agent-failure-modes`: cover https://framerusercontent.com/images/z1DrJYJtJHmNIa3BOuyaEjNlg.png
+- `agents-in-production-context-failure`: cover https://framerusercontent.com/images/yQiqS09uklcObImhiL1e2IQtoV4.png
+  - body: https://framerusercontent.com/images/kddk6kUAt7NRcib80AH6U87HSRI.png
+  - body: https://framerusercontent.com/images/DhTPpZmd3WiFsEPLNNJdmmBzJRk.png
+- `agent-defined-data-model`: cover https://framerusercontent.com/images/XLoyOWQxNLQ1m8WaDVr5nEpTlk.png
+- `cost-self-hosting-your-agent-observability-stack`: cover https://framerusercontent.com/images/nrwkOaP6b1IEXSFQSnUhEiYv9jU.png
+  - body: https://framerusercontent.com/images/F7cCghIOHst3PbHfiVl1wRButgk.png
+- `blog-autonomous-agents-infrastructure-not-trust`: cover https://framerusercontent.com/images/OAkPQfBSeptWiPhuaT4AimnsDE.png
+  - body: https://framerusercontent.com/images/TqMY6XG5C12mNfmu9hFdRZpbjM.jpg
+- `ran-signal-quality-opentelemetry-glassflow-clickhouse`: cover https://framerusercontent.com/images/oW8HtFXGtzks2rB7GwF0N7Rg4X0.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/xVKK3AfBJ8paTqfgbdUbqeALv8.png
+  - body: https://framerusercontent.com/images/ZbM1OYouMbfbcaCVoO8lqlc9HA.png
+  - body: https://framerusercontent.com/images/0UVCtIrBk4h1LTbe6IDlpYjvU0.png
+  - body: https://framerusercontent.com/images/DGFvRrLBMi2DVUULh23zWWiNvuE.png
+  - body: https://framerusercontent.com/images/pFPsr5ZbohTpwk8Q4jSK0HE2HY.png
+- `glassflow-v3.1.0-v3.2.0-clickhouse-retries-pipeline-observability`: cover https://framerusercontent.com/images/Ji3myb9FcOIh1JIUr0wFXiwgm6k.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+- `opentelemetry-to-clickhouse-do-you-need-kafka`: cover https://framerusercontent.com/images/sdIDmwcSQQPbmnXyOD6nce8xI.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/dR4kQbn1fLAAttNiRtQkUumSH30.png
+  - body: https://framerusercontent.com/images/ynoxPdzkQHtrGfndMrtqTTYAeh8.png
+  - body: https://framerusercontent.com/images/jIT6AnyAgx8An6ndCnMzaVTRdQ.png
+  - body: https://framerusercontent.com/images/uEefLLvIcidbWGGWT83wBMLw8.png
+  - body: https://framerusercontent.com/images/XdvkUZYAjCEv00MCEXmKBSfGuQ.png
+  - body: https://framerusercontent.com/images/C0MLPxYBwKMEvEBAGVOy8zZwQw.png
+  - body: https://framerusercontent.com/images/ifENggQEiN0CDHnl1rDxcqUeDI.png
+- `clickhouse-mistakes-engineers-make`: cover https://framerusercontent.com/images/RoIhztkUun28Mv2rYfYfC7HMws.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+- `clickhouse-telemetry-pipeline-with-opentelemetry-and-glassflow`: cover https://framerusercontent.com/images/ldRrHWUtF2CL0XwSwXOdbVF7Tzc.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/Iy3EMJ9ij75Vc1yVOzaqAZvmaSQ.jpg
+  - body: https://framerusercontent.com/images/Iy3EMJ9ij75Vc1yVOzaqAZvmaSQ.jpg
+  - body: https://framerusercontent.com/images/SEOQwBw1lf3ILVVf3YJe2sq7k.png
+  - body: https://framerusercontent.com/images/kWCJ5i2cKXNHJ9rSQRlrL0dqZc.png
+  - body: https://framerusercontent.com/images/oNzri6ZD8IR9oiIbPLRasUXU.png
+  - body: https://framerusercontent.com/images/P1g61gKwLE1jRDoKONisMnpeSVU.png
+- `clean-enriched-otel-data-in-clickhouse-otel-data-clickhouse`: cover https://framerusercontent.com/images/zZ6v9MJGc5UuGfhheI5IW6Ee48.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+- `fraud-detection-pipelines-kafka-glassflow-clickhouse`: cover https://framerusercontent.com/images/wNMHfmYf3kJCGkAltRIs1mwpuLw.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/sx20L7jAFbSCcjaNiMWvLuiPFu0.png
+  - body: https://framerusercontent.com/images/3bnmUGpgzjr3IWWLQH1EPJ51Pxc.png
+  - body: https://framerusercontent.com/images/dESpalQ0bd63Z56WxHxVYi8XQ.png
+- `glassflow-now-scales-to-500k-events-per-sec`: cover https://framerusercontent.com/images/f9lCjIJTOy8RiKh5PayI7bJO4I.jpg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/DxtUFm0XfbWwrIjtl1JULN9bbQ.png
+  - body: https://framerusercontent.com/images/8X4bDBQqCx2RGZ9B1VejHw8SpMA.png
+  - body: https://framerusercontent.com/images/EZD4iScwffMKkPUrTjjBdKvqw6M.png
+- `handle-semi-structured-data-log-pipelines`: cover https://framerusercontent.com/images/BKXmb5NAzSTCwwy7rjAkhT2W448.jpeg (post URL redirects; thumbnail only)
+- `load-test-glass-flow-for-click-house-real-time-deduplication-at-scale`: cover https://framerusercontent.com/images/zsGrRVy3HxrATbjapH9V4bXGyA.svg (post URL redirects; thumbnail only)
+- `when-vector-becomes-your-streaming-engine`: cover https://framerusercontent.com/images/An04fpR6GVV6jHuH4S5T3Z6jGE.png
+- `kafka-to-clickhouse-breaks-quietly-in-ai-systems`: cover https://framerusercontent.com/images/wqA44Brrrlfzvro5wWVsLipAE.jpg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/YCo3jOzY2HqUgop91n8ulyhkxk.jpg
+- `clickhouse-ai-backfills`: cover https://framerusercontent.com/images/5Pxl6nxsyPMNlAXSCSkoLdEEBaQ.png
+  - body: https://framerusercontent.com/images/zgn8ohRV5F4tqeCdb50T3Ja6szw.png
+- `building-observability-stack-with-opentelemetry-and-kafka`: cover https://framerusercontent.com/images/Aj8nX6IQ0PxLeWDZLKqjS7tIXk.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/I1z1Ri1vrgRbQmzYICTAJchQ.png
+  - body: https://framerusercontent.com/images/aesvATXkFksQr1M7l5FFPIVRc.png
+  - body: https://framerusercontent.com/images/7JbSCPo48BzoJme5TtworDLIc8.png
+  - body: https://framerusercontent.com/images/NvTfPOx9YwKi0Gj4De1KFH1TX8.png
+  - body: https://framerusercontent.com/images/2ymisaKmjnGYbia9k3nzpGa5Xk.png
+  - body: https://framerusercontent.com/images/lqWtCL8LYEUp9sFINAGXxLJxLQ.png
+  - body: https://framerusercontent.com/images/QU5pYaGMKNcyyufomxJTtWZpqIU.png
+  - body: https://framerusercontent.com/images/Hv5cX40MBSd9JbSrCfbfzZEQBHI.png
+  - body: https://framerusercontent.com/images/NWHJJmN6ngzoHm2pyI00wEDWfGg.png
+  - body: https://framerusercontent.com/images/wwqrLXF1hYGeqP85bf9zVKIHq8.png
+- `real-time-analytics-clickhouse-kafka`: cover https://framerusercontent.com/images/OkEhS2cOwoi156fSj2S6hkJCs0.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/KY0L4sxDTQAmGfmPbF6zXX66W4E.png
+  - body: https://framerusercontent.com/images/dih4kPwh7G34aA66YGacYH3c2kw.png
+  - body: https://framerusercontent.com/images/Y9mz5HmyqM44fAXs5VEeOFq1Ag.png
+  - body: https://framerusercontent.com/images/xRBcKA1B1rZ1JDII9I5ag56yaQ.png
+- `real-time-deduplication-for-clickhouse`: cover https://framerusercontent.com/images/YRl4RvE50Pj4yuj4aC1tv5IpNdg.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/RlppZk3V6hokglvGSr7uzlR79d0.png
+- `replacingmergetree`: cover https://framerusercontent.com/images/kFiuMBowCtYgd6vYOJ4pijryNvU.png
+  - body: https://framerusercontent.com/images/CsNRSiNwIsUCPQKXmleKl3zyzPY.png
+  - body: https://framerusercontent.com/images/uogrJVE2vvwXDLU5hWIHidm6uWw.jpg
+  - body: https://framerusercontent.com/images/ZnaI5j4NUEJuPQTaEEe9hRS8Vcs.jpg
+- `clickhouse-deduplication-glassflow-alternative-replacingmergetree`: cover https://framerusercontent.com/images/RbwSGOmGqoLoaPaXft7AxYvyiA.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/Z6QbB7TjsrJxK4XcvOmP8PDrVE.png
+  - body: https://framerusercontent.com/images/yIr1sysAwYKsR87JUOh7WCLUsw.png
+  - body: https://framerusercontent.com/images/NJOpFybWhI2VLKMf2mmxIkSg7s.png
+  - body: https://framerusercontent.com/images/mVm0SA4IvPKsF2QYlX0V2tWIpVM.png
+  - body: https://framerusercontent.com/images/yczRcj9KIVVmMGJ7PILX3AuVE.png
+  - body: https://framerusercontent.com/images/xaNfgJW207WXZAAlI2bwIIVb1IU.png
+  - body: https://framerusercontent.com/images/viVKp5VSu1kPqbVHV1lgpB4og.png
+  - body: https://framerusercontent.com/images/PbilZ4aXrwrDC5jyvKC1VqnDZzc.png
+  - body: https://framerusercontent.com/images/XAUG2tXJiBV1gslQXKybfU8HmQ.png
+  - body: https://framerusercontent.com/images/MCfGAZs9YqcaUQ1L7JnrcBpIss.png
+  - body: https://framerusercontent.com/images/wuOr97Qw1QXBZzuIQsmwbMDL7c.png
+  - body: https://framerusercontent.com/images/7dxXUNIs5cqFf3blyTgaVqtOc.png
+  - body: https://framerusercontent.com/images/eC3B7LvLTuRURB520Jnq5f4.png
+  - body: https://framerusercontent.com/images/Wi8BS6U8VDiswGKgNIjqhlIlm8.png
+  - body: https://framerusercontent.com/images/TXUM9hwW2e9ESAVxH6qa7qorh10.png
+  - body: https://framerusercontent.com/images/HBNAXFBne9SJqIQ0Ju7OVLIaKdY.png
+  - body: https://framerusercontent.com/images/00WMCUyYkSxWIPywdnVmvR6PPYU.png
+  - body: https://framerusercontent.com/images/8zOMUUQz7BqT740hvWxDC1C9oHM.png
+  - body: https://framerusercontent.com/images/elqff1HYhG20R9JrpSDe7VuXeWg.png
+  - body: https://framerusercontent.com/images/h5h2IS5ikLiWyWbMbKJOZURBNhw.png
+  - body: https://framerusercontent.com/images/FIwj5KfQbUwlj6RlV6iY6hQfO8.png
+  - body: https://framerusercontent.com/images/motQEgJeFfjD7K2aWHx2UxBDPA.png
+  - body: https://framerusercontent.com/images/vdxo3wszQPxbUAsLykW1nzi60.png
+  - body: https://framerusercontent.com/images/V88cpwR55Ira5G93Ad8xtsm9ons.png
+  - body: https://framerusercontent.com/images/qVd1UpGJds7oqGFaJDaLv91HNus.png
+  - body: https://framerusercontent.com/images/9NeRzktGAoQm191lQMmbIUtCrI.png
+  - body: https://framerusercontent.com/images/xxcJ3enCbAytzuLXfDQKlsmSAg.png
+  - body: https://framerusercontent.com/images/yQsDMEkHRiyNcbTlQ123gmgQFBA.png
+- `glassflow-vs-clickpipes-clickhouse-deduplication`: cover https://framerusercontent.com/images/ITfUG80Xf13b50BrDSsuP4ouqfE.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/U1AaX3bTZVzrtzIxnAhSkHTZs.png
+  - body: https://framerusercontent.com/images/I6rSB7OHXZ5INecoTgAtSvkmt0E.jpg
+  - body: https://framerusercontent.com/images/QOynZljDKJ805YGc5Juo3924E.png
+  - body: https://framerusercontent.com/images/oqrWzzQvkPaJ2tfgsGrQEJJ2Fk.jpg
+  - body: https://framerusercontent.com/images/oYT3BPfUrzKU0rmaQKvfvQlDIFA.jpg
+  - body: https://framerusercontent.com/images/K2QgzNnTAXtxvwJS1XcybUauo.png
+  - body: https://framerusercontent.com/images/lSMMDvADUswgMMKIDhKYmFrVdo.jpg
+- `aggregatingmergetree-clickhouse`: cover https://framerusercontent.com/images/19050CdpkPLZN3Fr4P5GZOxA8k.png
+- `real-time-observability-with-clickhouse-coroot-and-glassflow`: cover https://framerusercontent.com/images/Wc6Kn9x9TDjY0bYoBIsyNvZ1y0A.jpeg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/r7T9ZZlSGCS8pbOFczpJQD25nKQ.jpg
+- `open-source-observability-clickstack-glassflow`: cover https://framerusercontent.com/images/2H7CSL9l0NoquN1PyW3SwMuFE2Q.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/s07Dw6dDDI2JqlU5BZtJBN6r8MI.jpg
+  - body: https://framerusercontent.com/images/kVGsZWOm65XSmGPNZNHVie8590.jpg
+- `observability-in-the-ai-era-scaling-logs-with-clickhouse-glassflow`: cover https://framerusercontent.com/images/G49SxnbP3CKLAEnbxzQ3eYh5YjU.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/EjwMf7rSXex0F9CladC0o96bTfs.png
+  - body: https://framerusercontent.com/images/pZ6M3KtsUgJYNJiYLiemaJKgrw8.png
+  - body: https://framerusercontent.com/images/jGL2Rf2el1LrQBkCDfdkUgNjiY.jpg
+  - body: https://framerusercontent.com/images/JkCsU7fqbrtLltbkwf14fLQzo.png
+  - body: https://framerusercontent.com/images/pPIqtmAtEVVRh075we7KKSZpAc.png
+- `top-kafka-alternatives`: cover https://framerusercontent.com/images/05RQU933FjHONzAXtpNEz5YcwI.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/m020wyDM0A206OdC2dDhRZes.png
+- `snowflake-vs-clickhouse`: cover https://framerusercontent.com/images/863gNYTXqPTVFqjVQ9b1rmsEg.png
+  - body: https://framerusercontent.com/images/pKFjtMyhMj9DO5zkeIuN2fgA.png
+  - body: https://framerusercontent.com/images/Kve2NqMmoMIwySrxvKQQ7PSxrFc.png
+  - body: https://framerusercontent.com/images/QV0COZtl39UixUfzfNgxpf5JeOM.png
+- `migrating-from-snowflake-to-clickhouse`: cover https://framerusercontent.com/images/zvdGaUjmfOmLgi1VOryDip1Wn4.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/MORjy5HnbwxgtabqpTjkwJtF8.jpg
+  - body: https://framerusercontent.com/images/D6gOgUov5tc2aISOb06dL5qVQ.jpg
+  - body: https://framerusercontent.com/images/JlZE0861DP0l5nuHRUSnPU5pba4.jpg
+- `redshift-vs-clickhouse`: cover https://framerusercontent.com/images/brBb1x7HVEaUB8wabVE8UCqRxw.png
+  - body: https://framerusercontent.com/images/92FLUCdli5oDszxWydNxU7hBc.jpg
+  - body: https://framerusercontent.com/images/7nGUUpEuLmu3BSB4JcvvYIIBGw.jpg
+  - body: https://framerusercontent.com/images/vddibYVdUpGOOVTWDbadgUWJdgU.png
+  - body: https://framerusercontent.com/images/xTArhRzkQNvH27rtjVjsFdmvgMc.png
+- `migrating-from-redshift-to-clickhouse`: cover https://framerusercontent.com/images/byMafzygI24DGS10R05qQYMVg.jpeg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/1PLsvqQxEmQRziCycxgq0zPOWKQ.png
+  - body: https://framerusercontent.com/images/XnZonLifcPQ3fCzfcPS75u7Jyb8.jpg
+  - body: https://framerusercontent.com/images/n4brhqoRb4b3kftdAHp7uWzNVYY.jpg
+  - body: https://framerusercontent.com/images/ZTqo5t12XU6oMCQ20D5taWcQ1Q.jpg
+- `migrating-from-bigquery-to-clickhouse`: cover https://framerusercontent.com/images/WdUAPSa30f04WmItUSPBBVBdcs.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/2evNqKsnx4ujxFHzizdUveXiuh4.jpg
+  - body: https://framerusercontent.com/images/bTroDNfWFIF43xCoSRkgJZOD5s.jpg
+  - body: https://framerusercontent.com/images/vyLVLc1n6ozd8jC1EtDI8Y07Ojg.jpg
+- `clickhouse-joins`: cover https://framerusercontent.com/images/3hxsOE4L7XVTLV87Sf9Txk54M.jpeg
+  - body: https://framerusercontent.com/images/M5NeIIAwz6q2OtuL3OiMfnebIcg.png
+  - body: https://framerusercontent.com/images/g2R8mBOVpAcZydsCwIuGTnvCEk.png
+  - body: https://framerusercontent.com/images/HEdg8B9Z8O21Ua22w0smqF687eE.png
+  - body: https://framerusercontent.com/images/MjTjALrSvKUqooOp90MFFrEWpzs.png
+- `clickhouse-limitations-joins`: cover https://framerusercontent.com/images/I3QpeMEHgo9E218lVs2k6vMxjk.png
+  - body: https://framerusercontent.com/images/2BURJIFBQ9of8Pob8y99oSxh7M.jpg
+  - body: https://framerusercontent.com/images/nepAVlTCx6rtjg3BFxcn7CSD4.png
+  - body: https://framerusercontent.com/images/vceBqYkPRoSlJv0BZXvlcr8.png
+  - body: https://framerusercontent.com/images/JXuGXQ4YxpJ0mrC7tb2cQb8rQnQ.jpg
+  - body: https://framerusercontent.com/images/t6dNvEQIHGwBYRLeJ5wPua1Yb0.jpg
+- `denormalization-clickhouse`: cover https://framerusercontent.com/images/zIVf6tZuOdWI3pGCYy3xWYKzqY.png
+- `solve-join-limitations-clickhouse`: cover https://framerusercontent.com/images/7vPe2Ja9QxreTkJVcpl2B4WO5l4.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/tyvfDug7fTr2enxr3PkoIoEs.jpg
+  - body: https://framerusercontent.com/images/rsn28dmOE1guUSrg3vfGrN0Kfs.png
+  - body: https://framerusercontent.com/images/2NwfSmsX1XU7pllU9w07ANeJc.jpg
+  - body: https://framerusercontent.com/images/SjORvyQX1f4Ylc0bPu7H8RuSM.jpg
+  - body: https://framerusercontent.com/images/Pp3oBScy16iIMOo8tDRjMr4LOCc.jpg
+  - body: https://framerusercontent.com/images/SPX8p0FIGbHRWPVkDn5sC8nOWUE.png
+- `solve-clickhouse-join-limitations-with-glassflow`: cover https://framerusercontent.com/images/Sb81Te4TU6nJ2EggRpJptG88GI.jpeg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/zPWS2RW5kmSJ2645ttNEVRr8ik.png
+  - body: https://framerusercontent.com/images/0xqehaOxAwjRHyYTFnzQomawsmk.jpg
+  - body: https://framerusercontent.com/images/LQRHFB0LinrA7im2GCtlPl0Fzs.jpg
+  - body: https://framerusercontent.com/images/4GUk7TxygvPm9IOjuYpyiDxsgyI.jpg
+  - body: https://framerusercontent.com/images/P0ShhEKlIwDObiUeGMAhUGxgzf4.jpg
+  - body: https://framerusercontent.com/images/JTYNZeGdzT5Cf4ozXTOlW7Y0POo.jpg
+  - body: https://framerusercontent.com/images/fl8D4tcTynFWyR8TzeJqFfmcuBI.png
+- `clickhouse-query-optimization`: cover https://framerusercontent.com/images/SgQ4aUHOJRzgAtyQEQGJdFdxbc.jpeg
+  - body: https://framerusercontent.com/images/4rzMeiurPYLpkyoXs7qqK1gGo.png
+  - body: https://framerusercontent.com/images/1ce2uAJCMTxUrLvbEB0CPovOwD4.png
+  - body: https://framerusercontent.com/images/jcjYtikODLU4sMjUI1CoAhMnsvk.png
+  - body: https://framerusercontent.com/images/VOxKWRP0INt36VWjq8AEj3roMGw.png
+  - body: https://framerusercontent.com/images/fZ2Usw4SnXz93AEwh0KRJmAzm6M.png
+  - body: https://framerusercontent.com/images/MfWWZLuYNn9r1PGC1qx9GYshA.png
+- `clickhouse-materialized-views`: cover https://framerusercontent.com/images/ITTfOh8NIEs5Pwv5JBuibxZhnc.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+- `alternative-materialized-views`: cover https://framerusercontent.com/images/JC4fctYw1uQKMs50acYNxl2cKU.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/ktPbSMFSdpFTb4fY5BuNCCg3Gt0.png
+- `blog-data-lakes-apache-iceberg-clickhouse-data-transformation`: cover https://framerusercontent.com/images/dYIaXikbY7DwVeQJOeoXHUEe9k.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/bV71QgLHBgf3csueCBhg3UVVlA.png
+- `clickhouse-ecosystem-tools`: cover https://framerusercontent.com/images/6S99kMPnYG8Cs1REXEZnTqUbRvY.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+- `best-managed-clickhouse-service-2025`: cover https://framerusercontent.com/images/iGr9AXXtiMLFEXeh92QsnR4UZoY.png
+  - body: https://framerusercontent.com/images/Z7K4JEiodiYIjzhIsXlVO3ZMKIY.png
+  - body: https://framerusercontent.com/images/TDeTe8zMNY9W7RUGEWgzUrEtAic.jpeg
+  - body: https://framerusercontent.com/images/wQIlzi7F5NH2RyVRlRAK6laGhw.png
+- `clickhouse-etl-with-glassflow`: cover https://framerusercontent.com/images/Kio1I42fb3yLjigAyONbYoWjjlk.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/q8iWsLXdneJoWNgb52zDIPKcjU.jpg
+  - body: https://framerusercontent.com/images/sYs42SFb8ODqNbagwB1Pbip3BRk.jpg
+  - body: https://framerusercontent.com/images/QqVuwo8Fysbyy6O7JHj6X2ns.jpg
+  - body: https://framerusercontent.com/images/Utci39gpCxGTc8cfVwYPLw3m9w.jpg
+  - body: https://framerusercontent.com/images/kmD3qVjpqZlf7vPnG4NA1qBcLo.jpg
+  - body: https://framerusercontent.com/images/8qoR0bR5VLveYmVPbXCufpsaDU.webp
+- `clickhouse-etl-with-glassflow-part-2-deduplication`: cover https://framerusercontent.com/images/IBl3oFlr5r61qkDPSN87hQf8YIk.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/q8iWsLXdneJoWNgb52zDIPKcjU.jpg
+  - body: https://framerusercontent.com/images/sYs42SFb8ODqNbagwB1Pbip3BRk.jpg
+  - body: https://framerusercontent.com/images/QqVuwo8Fysbyy6O7JHj6X2ns.jpg
+  - body: https://framerusercontent.com/images/koVkeMX0JEOc858g75T5RPcYM.jpg
+  - body: https://framerusercontent.com/images/YtiOrmm1ef5csY5yrU7WDQBOgc8.jpg
+  - body: https://framerusercontent.com/images/LWrIHEJrXCFQu16pSrNpOOMEsQ.jpg
+  - body: https://framerusercontent.com/images/Sf1uGrsOzS5xU0KP4caYlOaIN2g.jpg
+  - body: https://framerusercontent.com/images/gTowwqAmiHHeG7HmL1WNsfReSA8.webp
+- `clickhouse-etl-with-glassflow-part-3-joins`: cover https://framerusercontent.com/images/T2nCbtROQttd7NhZ31ervLVC7o.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/Q7247dlLivb8hGnfVlKIrV7s1ZQ.jpg
+  - body: https://framerusercontent.com/images/co9PvoSaPOKPC0KFssqzpYrnWg.jpg
+  - body: https://framerusercontent.com/images/0KadkCDpa7G0aidrxaQhTEhfuI.jpg
+  - body: https://framerusercontent.com/images/kFz9V4NCXPgnDJT9tEZrCydv8.jpg
+  - body: https://framerusercontent.com/images/MwzQae4QEhf3cVHizHVwdYZ4QI.jpg
+  - body: https://framerusercontent.com/images/zVqCNVRXJVXuZzpk5DOyDa86iUU.jpg
+  - body: https://framerusercontent.com/images/W1b2tINL7LzQqhP1Eklp56mjygQ.jpg
+  - body: https://framerusercontent.com/images/gHeUnWffEmygA9cOB96sgZCqF8.jpg
+  - body: https://framerusercontent.com/images/yVV1crSzoRDA9wYCpVM5HToO5E.jpg
+- `simplify-cloudflare-s-log-analytics-setup-with-glassflow`: cover https://framerusercontent.com/images/cSX9lKqbEhL02SFQxt9g45f7Mr8.jpeg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/pmnfsIC3nj71iBuULSbuM2OEes.png
+  - body: https://framerusercontent.com/images/cH2aDxQX5avIC2qa0eUlrRfxuw.png
+  - body: https://framerusercontent.com/images/gAgWpr9H4V3dGETnuODmaimCC4M.png
+- `kafka-to-clickhouse-with-glassflow-and-altinity-cloud`: cover https://framerusercontent.com/images/4h2J7OFajQaSibcWoQsqdSx6CNo.jpg (post URL redirects; thumbnail only)
+- `asynchronous-inserts-clickhouse`: cover https://framerusercontent.com/images/Yz1EjEmKtLCeQPHrng157IKf4Vc.png
+  - body: https://framerusercontent.com/images/yU3dUPzGPqzdpke7emjsaUUwPM0.jpg
+  - body: https://framerusercontent.com/images/0iUijeylNKIzwkOPyzdssxuAJc.png
+  - body: https://framerusercontent.com/images/LL6Y9ueGFI7CBeyoea1SFo8KE.jpg
+  - body: https://framerusercontent.com/images/jVShKVL9pNRZu2WmD6dTtwg2c.jpg
+- `kafka-to-clickhouse`: cover https://framerusercontent.com/images/UOMrYc1lPRmXEtXOanqVzpY0Rs.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/vSuYAn3dPhNnInE8OiXsoQJsIio.png
+  - body: https://framerusercontent.com/images/EuoQ2jmJ8vDOtWb3xO7iFPoBIT4.png
+  - body: https://framerusercontent.com/images/bTblM5Sny6MKqhXhPEQZy4SB1Cw.png
+  - body: https://framerusercontent.com/images/r3mchvDdgK4cbooAjGjFIvmcDU.png
+  - body: https://framerusercontent.com/images/CubgYIidmpeH7pOcT7UUXwdCv4.png
+  - body: https://framerusercontent.com/images/3FldCRJVUcAZIjjL7GMVrb4Xyds.png
+  - body: https://framerusercontent.com/images/3lG0w195L5IljzXA7EzzMEXLRyc.png
+- `challenges-connecting-flink-clickhouse`: cover https://framerusercontent.com/images/tR4awQW3vxvUPmujTkA0jnUo.png
+  - body: https://framerusercontent.com/images/TBRn1CTfu7QFoxa4aoybySln7U.png
+  - body: https://framerusercontent.com/images/FUgfe8mo5fhyhZGfmpHPCeOnxI.png
+  - body: https://framerusercontent.com/images/lHEQVPzmyr0TMzTe3fo9phx5qCw.png
+- `limitations-flink-clickhouse`: cover https://framerusercontent.com/images/TJyBX27TJXQ8XXje8Kaqi6jFgsc.png
+  - body: https://framerusercontent.com/images/ucXQu0ZaZvkznmAiLL1p2UPbqjs.png
+  - body: https://framerusercontent.com/images/kY8LTrCxYNDmeX00KRBMvNZ6A.png
+  - body: https://framerusercontent.com/images/Tp34Y88lWWJbQu6KdrZghRhv8.png
+  - body: https://framerusercontent.com/images/YlsVU5zysMQc6u2ZpYptQOsN39A.png
+  - body: https://framerusercontent.com/images/9Yru6p9dot9TQ2t3um4rpMN1Sg.png
+- `alternative-flink-clickhouse`: cover https://framerusercontent.com/images/IxXcPBJC7kWbIEKMI5FC87FO1Y.png
+  - body: https://framerusercontent.com/images/mIUqmxvutGVdYgYYv2jHflhn8k.png
+  - body: https://framerusercontent.com/images/n07P3Az8SrpSM3G2fPZTaOKPjwk.png
+  - body: https://framerusercontent.com/images/O0AHwIyPsCPYvpRgBHHpsso3i4.png
+  - body: https://framerusercontent.com/images/Sdo8rZoPRJ3LZdJLqQ2LSIMQkI.png
+  - body: https://framerusercontent.com/images/F1Wjq04t2BI2soQMbL7idasXU.png
+- `clickhouse-go-ingestion-service`: cover https://framerusercontent.com/images/SVOaKge0gdcWa34hfXwNFM7IE.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/MvVe6OP7aPyzFIOK80WisDnxTwE.jpg
+  - body: https://framerusercontent.com/images/ReM9Le5s1mcZpUtToGEuSlzXZXw.jpg
+  - body: https://framerusercontent.com/images/9nDwlv7xW2tXJBXvpFFRDzqOTE.jpg
+  - body: https://framerusercontent.com/images/CIR0BQq2XXzL5RL2k1BiI211Z0.jpg
+  - body: https://framerusercontent.com/images/H3u2eDPFcwzQybHpoVfLrerCk.jpg
+- `bitcoin-to-clickhouse`: cover https://framerusercontent.com/images/0PfBE1HhDj4KkiWXkgCwSqiywh4.png
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+- `glassflow-clickhouse-duplications-and-joins-solved-for-kafka-users`: cover https://framerusercontent.com/images/i0HMqN8aFSFotLIs1ZonpjfHg.svg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/45KtnwQQdwZQlurejTNfdr9QyM.svg
+- `part-1-kafka-to-clickhouse-data-ingestion`: cover https://framerusercontent.com/images/Z10KYVADMB8kEjoJ8xijUdyDPg.svg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/f2NiznOl7WL20XjaVnQ5GvJbsA.png
+- `part-2-why-duplicates-happen-joins-slow-clickhouse`: cover https://framerusercontent.com/images/hJBWTV8BrXh7KmbSsNlrKiFdgzA.svg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+- `part-3-clickhouse-replacingmergetree-materialized-views-not-enough`: cover https://framerusercontent.com/images/bmoCJ0qMNk3pOZHS9O1RgkELr2g.svg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+- `part-4-apache-flink-is-not-the-solution-to-clickhouse-duplications`: cover https://framerusercontent.com/images/RmJ3sOaVWRor8iSWUxcuKaKNF40.svg (post URL redirects; thumbnail only)
+- `part-5-how-glassflow-will-solve-duplications-and-joins-for-clickhouse`: cover https://framerusercontent.com/images/BYo7ip2IOi5pdeNoxYM1Vfj0x8M.svg
+  - body: https://framerusercontent.com/images/tUJLrWUiAaxxMQEGHnoT5vE1w.png
+  - body: https://framerusercontent.com/images/45KtnwQQdwZQlurejTNfdr9QyM.svg
+  - body: https://framerusercontent.com/images/hl15w4084yeb2PJiTVL3h5hgYzA.png
+  - body: https://framerusercontent.com/images/oZpsfJtsjKjKNoWSln4Gq6e2I.jpg
+  - body: https://framerusercontent.com/images/CuTVzjrNxyEyryLAwXMOdVkBUs.png
+  - body: https://framerusercontent.com/images/To7n3chNGqKqyoHsnKDt6hZZgu0.png
+  - body: https://framerusercontent.com/images/gek6Deag5OAR5HKXz0nc8ZlA0.png
+  - body: https://framerusercontent.com/images/SOtC0mSlGS2DGjT6GTnR1Hb9c0.png
+- `clickhouse-glossary`: cover https://framerusercontent.com/images/h0k3QhBHV9q0dFuNB5IbCu6o.jpg
+- `news-announcing-glassflow-raised-seed-round`: cover https://framerusercontent.com/images/63g8ickbcSVM8azszVBa574J8.png
+  - body: https://framerusercontent.com/images/iDO1DdR9JYTIWyDM5r0KAQMqJkI.jpg
+- `real-time-ai-price-recommendations-car-dealerships`: cover https://framerusercontent.com/images/o44ElbDDyRzlQIs2HwOpOzQagQ.png
+  - body: https://framerusercontent.com/images/Z1LVcs7ZzajyTCZQHc7bt456kD8.png
+- `real-time-clickstream-analytics`: cover https://framerusercontent.com/images/aP9nNAIeRmZDsENT7aFaimdvKnw.png
+  - body: https://framerusercontent.com/images/yFCnYar6iAilAbL9H4YufKvKWGs.avif
+- `real-time-data-anomaly-detection-alerting-glassflow-openai-slack`: cover https://framerusercontent.com/images/BxlPsmOQ07LhdlMw5ChsCoGCg.png
+  - body: https://framerusercontent.com/images/qQi9VIIRlT4NjgfCdPvt5aeTcE.png
+  - body: https://framerusercontent.com/images/z70Oc6MuRKSCcHrzoJKBQNyKE.png
+  - body: https://framerusercontent.com/images/QeIyAZ4womKnVT1Lso15Ffo3hG8.png
+  - body: https://framerusercontent.com/images/LE9CuW1YDJJLphRomQLaJwlI.webp
+  - body: https://framerusercontent.com/images/mHdr0Mp2MM8VOWdONS9RGEtTjM.png
+  - body: https://framerusercontent.com/images/fJYDd1ApK5yTAQ5nxAXF6U0z8.png
+  - body: https://framerusercontent.com/images/sUXM7j902jTUdPz2EliUgHnKCk.png
+- `real-time-fleet-management-car-sharing-fuel-monitoring-discounts`: cover https://framerusercontent.com/images/aMUr7BWBZrM0YPTJw3wqvFGTMY.png
+  - body: https://framerusercontent.com/images/4jClQzWq1JnDDGa7q2r3pJj30.avif
+- `real-time-generative-feedback-loop-automation-with-glass-flow-supabase-and-weaviate`: cover https://framerusercontent.com/images/N2hPyx3pAaegrFF1tUiC76nDLM8.png
+  - body: https://framerusercontent.com/images/Ex9gAjt2S7aqTCE3gybIaGjD5M0.png
+- `anomaly-detection-complete-guide`: cover https://framerusercontent.com/images/h0L8i76dA6KpTVYZSZj06DtKvU0.png
+  - body: https://framerusercontent.com/images/ZjFFkxxSiANjdcJlIgtsEEwjUCE.png
+- `comparison-of-event-driven-data-pipeline-providers-why-glass-flow-is-built-for-ai-startups`: cover https://framerusercontent.com/images/7u2cPjk7lh5Pnc31bGfjQZtDRx4.png
+- `how-to-enrich-classified-ads-in-real-time-using-ai-glassflow-and-langchain`: cover https://framerusercontent.com/images/JQdpvkAscw7YlJjJwi1jzpLUI.png
+  - body: https://framerusercontent.com/images/gpSbAvjLNiSQTgKTnkYJu3mfQdk.png
+  - body: https://framerusercontent.com/images/YLjwioHQXfAeRqNxUnhOXds80tU.png
+- `why-event-driven-data-pipelines-for-ai-applications`: cover https://framerusercontent.com/images/ZgMqsf9gzrvwVSwkwcgXojpi80.png
+- `managed-nats-connectors`: cover https://framerusercontent.com/images/xKZy1tnZRrmzJ4Y9WXKFUwT4LI.png
+- `real-time-data-consuming-and-streaming-with-webhooks`: cover https://framerusercontent.com/images/oWKsbaBeaKVAdiLxXiAoMViWI.png
+- `real-time-event-streaming-transformation-clickhouse-glassflow`: cover https://framerusercontent.com/images/Pr2To9OAei8LkA2zDJEeZJrkycs.png
+  - body: https://framerusercontent.com/images/YBgC18ZXm0bY4pX9gkuT04Sz7w.png
+- `connect-google-pubsub-to-glassflow-data-streaming`: cover https://framerusercontent.com/images/L3jwiwdPU7dMFem7qaSzQELQ.png (post URL redirects; thumbnail only)
+- `connect-amazon-sqs-to-glassflow-data-integration`: cover https://framerusercontent.com/images/jZK0xXfU8D8xlL0a1edRhAcl1K0.png (post URL redirects; thumbnail only)
+- `connect-zapier-to-glassflow-real-time-data-processing`: cover https://framerusercontent.com/images/fzVP6lrWVCqcK87DLtmqGcZk.png (post URL redirects; thumbnail only)
+- `build-real-time-applications-with-aws-kinesis-dynamodb-and-glassflowbuild-real-time-applications-with-aws-kinesis-dynamodb-and-glassflow`: cover https://framerusercontent.com/images/YEWjfyjUVynkHW9x4P4TAVQk64.png (post URL redirects; thumbnail only)
+- `data-pipeline-tools`: cover https://framerusercontent.com/images/8Baf5DYGiH5jDN2PnsYziLlJw.png
+- `data-infrastructure-trends`: cover https://framerusercontent.com/images/urGDfzsoucTg0f7XXZ38MNfFTU.png
+- `what-is-etl-pipeline`: cover https://framerusercontent.com/images/YfZqy5PjKflSkDilpFU4mr3YKM.webp
+- `python-etl`: cover https://framerusercontent.com/images/JYEiiw8H6eFm7NmhH7U6WdOZzk.png
+- `batch-processing-vs-stream-processing`: cover https://framerusercontent.com/images/otUBzNYnFr7sicikrJCrjlTTc.png
+- `what-is-real-time-analytics`: cover https://framerusercontent.com/images/u1AFqhWoHmRJt77Daf98DnhS0Q.png
+- `machine-learning-pipeline`: cover https://framerusercontent.com/images/DdzwdW2vSmHaOMZFucKHTpgc758.png
+- `what-is-cdc`: cover https://framerusercontent.com/images/SYCuwB7AZ8sDNPwgh7tC9Kd6J0.png
+- `real-time-streaming-basics-data-pipeline`: cover https://framerusercontent.com/images/VxkUmmrdhDhZShVqWklS3BPShTY.jpeg
+  - body: https://framerusercontent.com/images/uuHnhMCBR94XqBG22gdWHeGEwSU.png
+- `revolutionizing-real-time-alerts-with-ai-nats-and-streamlit`: cover https://framerusercontent.com/images/WTgZ41iL319HXc9sN0FTAnbeY.jpeg (post URL redirects; thumbnail only)
+- `real-time-alerts-with-ai-and-streamlit`: cover https://framerusercontent.com/images/bMyJ2sdcGwFA0MFQ4Sl8Iop5thI.png (post URL redirects; thumbnail only)
+- `the-evolutions-from-etl-to-modern-data-stack`: cover https://framerusercontent.com/images/jEeIOvaDNNKpytvVW7kYUmglE.png
+  - body: https://framerusercontent.com/images/ErhAxf0Ga1BMUgDeYZ48yVGPIig.png
+- `choosing-the-right-language-python-vs-java-for-ai-and-machine-learning`: cover https://framerusercontent.com/images/oWPe54ipIGgqZREyhMaPf55ZqCg.png
+- `learn-top-techniques-for-anomaly-detection-and-boost-the-data-quality-for-ll-ms`: cover https://framerusercontent.com/images/HTwpbzhekXaVV8M30bgxeGnZDw.png
+- `microservices-data-synchronization-using-postgresql-debezium-and-nats`: cover https://framerusercontent.com/images/fxG4coiy2LbnbJKX3Em5NS7osg.jpeg
+  - body: https://framerusercontent.com/images/8LEW9XDCmgNp1kvSu5wwqGSsnr8.png
+- `change-data-capture-in-databases-techniques-and-tools`: cover https://framerusercontent.com/images/QaKEFjlV00CfJ2Cqpeua2CSibNg.png
+- `database-streaming-tools-techniques-and-benefits`: cover https://framerusercontent.com/images/g09RnWI30xpUIHBBazqYG0EROns.png
+- `supercharge-your-low-code-app-for-your-startup-project`: cover https://framerusercontent.com/images/ySsSLgWzapmYyw9Hbu61WGyzoQ.png
+- `steps-for-building-data-pipelines`: cover https://framerusercontent.com/images/ubdqKVoBcBmVsUp7VUTYcEe1c.png
+  - body: https://framerusercontent.com/images/aG7k70xkO1KMgaXVEOoYVrWKEr8.png
+- `how-to-predict-equipment-failure-for-maintenance-in-real-time`: cover https://framerusercontent.com/images/6Z00WrAac98yLpxBzkSnusoQ.jpeg
+- `how-to-predict-customer-churn-and-implement-retention-strategies-in-real-time`: cover https://framerusercontent.com/images/8FqWOlENVmRL1U67PckzeEKZGh4.jpeg
+- `how-to-detect-and-prevent-credit-card-fraud-in-real-time`: cover https://framerusercontent.com/images/8FqWOlENVmRL1U67PckzeEKZGh4.jpeg
+- `how-to-personalize-marketing-campaigns-based-on-user-behavior-in-real-time`: cover https://framerusercontent.com/images/dub3drG05jedV9bVgdeYTfVuyo.jpeg
+- `how-to-enhance-user-experience-with-recommendations-in-real-time`: cover https://framerusercontent.com/images/ITenVuoABWE4j22RotYmqdp9kU.jpeg
+- `enhance-online-learning-with-personalized-content-in-real-time-glassflow`: cover https://framerusercontent.com/images/0JNkHVZMQR0Q5c0UaeQq8KRsQk0.jpeg
+- `hide-pii-data-in-real-time-with-glassflow`: cover https://framerusercontent.com/images/NTgstJ2THk9uYyqhuR13jGvL0q8.jpeg
+- `check-data-quality-in-real-time-with-glassflow`: cover https://framerusercontent.com/images/ljDpAPDbKPrXVL0G3Wh9KKu4tWE.png
+- `how-to-enrich-data-in-real-time`: cover https://framerusercontent.com/images/L6lQoWKZXLmEk8uh2LzVHGDzzE.jpeg
+- `modern-real-time-data-stack-and-glassflow`: cover https://framerusercontent.com/images/PWVKjC7T3oIVhwLoXtxxxniNTM.png
+  - body: https://framerusercontent.com/images/5HidWShReSJ97X973xoW3XCRz80.png
+- `postgres-to-snowflake`: cover https://framerusercontent.com/images/aSN3U7FcyGaiG3M0avuPPTfmmI.png (post URL redirects; thumbnail only)
+- `glassflow-vs-other-serverless-solutions`: cover https://framerusercontent.com/images/PlARixGocTmwxHlgIZjnbNJh7s.png
+  - body: https://framerusercontent.com/images/bN5MRGqVy6GGzglqblJdRmzThRQ.png
+  - body: https://framerusercontent.com/images/OY6QWN7dbkjglIvhk2XVgTfSz8.png
+- `top-10-data-engineers-scientists-pain-points-2024`: cover https://framerusercontent.com/images/P4aAqIZDhDwPMQ25HJn60V9XU.jpeg
+- `choosing-streaming-database-vs-stream-processing-framework-python`: cover https://framerusercontent.com/images/SP2PjfzWxFkVE4zBkqaVgJpXM.jpeg
+  - body: https://framerusercontent.com/images/I9Am7w2FxwgmHpuPK0FpeecHqc.webp
+  - body: https://framerusercontent.com/images/bSMczEoa9NZAS5VliZpuQLrG3G0.webp
+  - body: https://framerusercontent.com/images/o8wHcEz0xAQuloNawKEwVTNXtk.webp
+  - body: https://framerusercontent.com/images/gR0AT0X8Im1czYlMhtiLgzs7E.webp
+- `glassflow-vs-aws-lambda`: cover https://framerusercontent.com/images/9LShZd2QuBOnUAxeEQ5a20NBdVA.png (post URL redirects; thumbnail only)
+- `new-design-and-ready-to-use-jupyter-examples`: cover https://framerusercontent.com/images/VCT5NjxTxetq08JD80S8C5vL9IY.png
+  - body: https://framerusercontent.com/images/DqxtZCnZgLv34uJ7xoFoyjNJkmc.png
+  - body: https://framerusercontent.com/images/RHjOiODvkUIkNy4nA3k6q4Mr8.png
+
+Featured card (/blog) uses an extra backdrop: https://framerusercontent.com/images/YiSYWMdzERJyLVRZRpiutPwoGI.jpg

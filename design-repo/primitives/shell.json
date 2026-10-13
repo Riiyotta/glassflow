@@ -1,0 +1,22 @@
+{
+  "id": "shell",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Full-width row: 1312px content column at 1440 (64px gutters), 32px gutters at 810, full-bleed at 390; vertical column hairlines drawn as an overlay >=810.",
+  "props": {
+    "inner": "classes for the inner column",
+    "as": "element tag"
+  },
+  "tokens": [
+    "spacing.gutter",
+    "border.default"
+  ],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ui.jsx",
+      "lines": "8-14",
+      "quote": "export function Shell"
+    }
+  ]
+}

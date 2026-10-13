@@ -1,0 +1,621 @@
+{
+  "$description": "Every colour token in tailwind.config.js (the real implementation). usageCount = Tailwind class + theme() references across src/ at build time (a source-usage histogram; live computed-colour evidence is CLONE_SPEC.md §0).",
+  "mars": {
+    "page": {
+      "$type": "color",
+      "$value": "#492400",
+      "group": "mars",
+      "usageCount": 21,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "11",
+          "quote": "page:"
+        }
+      ]
+    },
+    "panel": {
+      "$type": "color",
+      "$value": "#2D1804",
+      "group": "mars",
+      "usageCount": 43,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "12",
+          "quote": "panel:"
+        }
+      ]
+    },
+    "bar": {
+      "$type": "color",
+      "$value": "#2D1803",
+      "group": "mars",
+      "usageCount": 9,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "13",
+          "quote": "bar:"
+        }
+      ]
+    },
+    "deep": {
+      "$type": "color",
+      "$value": "#1D0E00",
+      "group": "mars",
+      "usageCount": 54,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "14",
+          "quote": "deep:"
+        }
+      ]
+    },
+    "line": {
+      "$type": "color",
+      "$value": "#5F3E1F",
+      "group": "mars",
+      "usageCount": 27,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "15",
+          "quote": "line:"
+        }
+      ]
+    },
+    "amber": {
+      "$type": "color",
+      "$value": "#FFAC00",
+      "group": "mars",
+      "usageCount": 75,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "16",
+          "quote": "amber:"
+        }
+      ]
+    },
+    "link": {
+      "$type": "color",
+      "$value": "#D48F04",
+      "group": "mars",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "17",
+          "quote": "link:"
+        }
+      ]
+    },
+    "cream": {
+      "$type": "color",
+      "$value": "#F1EFDF",
+      "group": "mars",
+      "usageCount": 126,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "18",
+          "quote": "cream:"
+        }
+      ]
+    },
+    "cream-64": {
+      "$type": "color",
+      "$value": "rgba(241,239,223,0.64)",
+      "group": "mars",
+      "usageCount": 9,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "19",
+          "quote": "'cream-64'"
+        }
+      ]
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "#8F8982",
+      "group": "mars",
+      "usageCount": 5,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "20",
+          "quote": "muted:"
+        }
+      ]
+    },
+    "on-amber": {
+      "$type": "color",
+      "$value": "#1D0E00",
+      "group": "mars",
+      "usageCount": 3,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "21",
+          "quote": "'on-amber'"
+        }
+      ]
+    },
+    "btn-ink": {
+      "$type": "color",
+      "$value": "#341D03",
+      "group": "mars",
+      "usageCount": 2,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "22",
+          "quote": "'btn-ink'"
+        }
+      ]
+    },
+    "card-dark": {
+      "$type": "color",
+      "$value": "#1E0F00",
+      "group": "mars.product",
+      "usageCount": 41,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "24",
+          "quote": "'card-dark'"
+        }
+      ]
+    },
+    "amber-2": {
+      "$type": "color",
+      "$value": "#FFAA00",
+      "group": "mars.product",
+      "usageCount": 2,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "25",
+          "quote": "'amber-2'"
+        }
+      ]
+    },
+    "amber-tint": {
+      "$type": "color",
+      "$value": "rgba(255,172,0,0.05)",
+      "group": "mars.product",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "26",
+          "quote": "'amber-tint'"
+        }
+      ]
+    },
+    "table-band": {
+      "$type": "color",
+      "$value": "#54310F",
+      "group": "mars.product",
+      "usageCount": 2,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "27",
+          "quote": "'table-band'"
+        }
+      ]
+    },
+    "promo": {
+      "$type": "color",
+      "$value": "#5B3200",
+      "group": "mars.product",
+      "usageCount": 3,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "28",
+          "quote": "promo:"
+        }
+      ]
+    },
+    "blog-title": {
+      "$type": "color",
+      "$value": "#E0E0E0",
+      "group": "mars.content",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "29",
+          "quote": "'blog-title'"
+        }
+      ]
+    },
+    "blog-muted": {
+      "$type": "color",
+      "$value": "rgba(230,230,230,0.8)",
+      "group": "mars.content",
+      "usageCount": 3,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "30",
+          "quote": "'blog-muted'"
+        }
+      ]
+    },
+    "traffic-red": {
+      "$type": "color",
+      "$value": "#FE5F57",
+      "group": "mars.content",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "31",
+          "quote": "'traffic-red'"
+        }
+      ]
+    },
+    "traffic-yellow": {
+      "$type": "color",
+      "$value": "#FEBC2E",
+      "group": "mars.content",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "32",
+          "quote": "'traffic-yellow'"
+        }
+      ]
+    },
+    "traffic-green": {
+      "$type": "color",
+      "$value": "#27C840",
+      "group": "mars.content",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "33",
+          "quote": "'traffic-green'"
+        }
+      ]
+    },
+    "embed-line": {
+      "$type": "color",
+      "$value": "#553619",
+      "group": "mars.alternatives",
+      "usageCount": 13,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "35",
+          "quote": "'embed-line'"
+        }
+      ]
+    },
+    "amber-hover": {
+      "$type": "color",
+      "$value": "#FFBD33",
+      "group": "mars.alternatives",
+      "usageCount": 2,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "36",
+          "quote": "'amber-hover'"
+        }
+      ]
+    },
+    "embed-hi": {
+      "$type": "color",
+      "$value": "#26140A",
+      "group": "mars.alternatives",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "37",
+          "quote": "'embed-hi'"
+        }
+      ]
+    },
+    "ok-bg": {
+      "$type": "color",
+      "$value": "#1F3A1A",
+      "group": "mars.alternatives",
+      "usageCount": 2,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "38",
+          "quote": "'ok-bg'"
+        }
+      ]
+    },
+    "ok-text": {
+      "$type": "color",
+      "$value": "#A6E3B8",
+      "group": "mars.alternatives",
+      "usageCount": 2,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "39",
+          "quote": "'ok-text'"
+        }
+      ]
+    },
+    "no-bg": {
+      "$type": "color",
+      "$value": "#4A1607",
+      "group": "mars.alternatives",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "40",
+          "quote": "'no-bg'"
+        }
+      ]
+    },
+    "no-text": {
+      "$type": "color",
+      "$value": "#FFB199",
+      "group": "mars.alternatives",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "41",
+          "quote": "'no-text'"
+        }
+      ]
+    },
+    "strike": {
+      "$type": "color",
+      "$value": "#FF6A3D",
+      "group": "mars.alternatives",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "42",
+          "quote": "strike:"
+        }
+      ]
+    },
+    "calc-secondary": {
+      "$type": "color",
+      "$value": "#C9BBA0",
+      "group": "mars.calculator",
+      "usageCount": 10,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "44",
+          "quote": "'calc-secondary'"
+        }
+      ]
+    },
+    "calc-muted": {
+      "$type": "color",
+      "$value": "#8F8672",
+      "group": "mars.calculator",
+      "usageCount": 17,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "45",
+          "quote": "'calc-muted'"
+        }
+      ]
+    },
+    "calc-danger": {
+      "$type": "color",
+      "$value": "#FF6B4A",
+      "group": "mars.calculator",
+      "usageCount": 2,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "46",
+          "quote": "'calc-danger'"
+        }
+      ]
+    },
+    "calc-warning": {
+      "$type": "color",
+      "$value": "#FFC15C",
+      "group": "mars.calculator",
+      "usageCount": 2,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "47",
+          "quote": "'calc-warning'"
+        }
+      ]
+    },
+    "calc-success": {
+      "$type": "color",
+      "$value": "#4ADE80",
+      "group": "mars.calculator",
+      "usageCount": 6,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "48",
+          "quote": "'calc-success'"
+        }
+      ]
+    },
+    "calc-border": {
+      "$type": "color",
+      "$value": "rgba(255,220,180,0.14)",
+      "group": "mars.calculator",
+      "usageCount": 10,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "49",
+          "quote": "'calc-border'"
+        }
+      ]
+    },
+    "calc-accent-bg": {
+      "$type": "color",
+      "$value": "rgba(255,172,0,0.16)",
+      "group": "mars.calculator",
+      "usageCount": 5,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "50",
+          "quote": "'calc-accent-bg'"
+        }
+      ]
+    },
+    "calc-success-bg": {
+      "$type": "color",
+      "$value": "rgba(74,222,128,0.14)",
+      "group": "mars.calculator",
+      "usageCount": 1,
+      "measuredFrom": [
+        {
+          "path": "tailwind.config.js",
+          "lines": "51",
+          "quote": "'calc-success-bg'"
+        }
+      ]
+    }
+  },
+  "legacy-black": {
+    "canvas": {
+      "$type": "color",
+      "$value": "#000000",
+      "use": "nav bar black at 80% + 50px backdrop blur",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "63",
+          "quote": "bg-black/80"
+        }
+      ]
+    },
+    "link": {
+      "$type": "color",
+      "$value": "#999999",
+      "use": "guide nav links",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "31",
+          "quote": "link colour: #999999 on the guide pages"
+        }
+      ]
+    },
+    "link-category": {
+      "$type": "color",
+      "$value": "#A8A3A3",
+      "use": "category nav links + body",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Category.jsx",
+          "lines": "31",
+          "quote": "text-[#A8A3A3]"
+        }
+      ]
+    },
+    "text-strong": {
+      "$type": "color",
+      "$value": "#FAFAFA",
+      "use": "link hover",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "33",
+          "quote": "hover:text-[#FAFAFA]"
+        }
+      ]
+    },
+    "divider": {
+      "$type": "color",
+      "$value": "#333333",
+      "use": "nav divider, secondary button border",
+      "measuredFrom": [
+        {
+          "path": "src/components/LegacyLayout.jsx",
+          "lines": "96",
+          "quote": "bg-[#333333]"
+        }
+      ]
+    },
+    "heading-gradient": {
+      "$type": "color",
+      "$value": "linear-gradient(244deg,#A8A8A8 0%,#FFFFFF 100%)",
+      "use": "gradient-clipped H1/H2",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Category.jsx",
+          "lines": "20",
+          "quote": "export const GRADIENT_TEXT"
+        }
+      ]
+    },
+    "field-bg": {
+      "$type": "color",
+      "$value": "#1A1A1A",
+      "use": "guide form inputs",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "79",
+          "quote": "bg-[#1A1A1A]"
+        }
+      ]
+    },
+    "field-border": {
+      "$type": "color",
+      "$value": "#2A2A2A",
+      "use": "guide form inputs",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "79",
+          "quote": "border-[#2A2A2A]"
+        }
+      ]
+    },
+    "required-mark": {
+      "$type": "color",
+      "$value": "#FF0000",
+      "use": "required asterisk",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "73",
+          "quote": "text-[#FF0000]"
+        }
+      ]
+    },
+    "pill-bg": {
+      "$type": "color",
+      "$value": "#FFAC00",
+      "use": "Free eBook pill (reuses Mars amber)",
+      "measuredFrom": [
+        {
+          "path": "src/pages/Guide.jsx",
+          "lines": "125",
+          "quote": "bg-amber px-[10px]"
+        }
+      ]
+    }
+  }
+}

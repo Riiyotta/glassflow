@@ -1,0 +1,687 @@
+{
+  "url": "https://www.glassflow.ai/categories/observability",
+  "H": 2531,
+  "n": 5,
+  "list": [
+    [
+      "../blog/how-to-detect-ai-agent-failures-in-production",
+      [
+        110,
+        327,
+        385,
+        540
+      ]
+    ],
+    [
+      "../blog/how-to-debug-an-ai-agent",
+      [
+        527,
+        327,
+        385,
+        540
+      ]
+    ],
+    [
+      "../blog/cost-self-hosting-your-agent-observability-stack",
+      [
+        945,
+        327,
+        385,
+        540
+      ]
+    ],
+    [
+      "../blog/when-vector-becomes-your-streaming-engine",
+      [
+        110,
+        899,
+        385,
+        540
+      ]
+    ],
+    [
+      "../blog/observability-in-the-ai-era-scaling-logs-with-clickhouse-glassflow",
+      [
+        527,
+        899,
+        385,
+        540
+      ]
+    ]
+  ],
+  "card": {
+    "tag": "A",
+    "r": [
+      110,
+      327,
+      385,
+      540
+    ],
+    "bg": "rgb(45, 24, 4)",
+    "rad": "0px",
+    "pad": "0px",
+    "gap": "0px",
+    "disp": "flex",
+    "gtc": "none",
+    "fd": "column",
+    "kids": [
+      {
+        "tag": "DIV",
+        "r": [
+          110,
+          327,
+          385,
+          38
+        ],
+        "bg": "rgb(29, 14, 0)",
+        "rad": "0px",
+        "pad": "16px",
+        "gap": "8px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "column",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              126,
+              343,
+              26,
+              6
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "rad": "0px",
+            "pad": "0px",
+            "gap": "4px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  126,
+                  343,
+                  6,
+                  6
+                ],
+                "bg": "rgb(73, 36, 0)",
+                "rad": "0px",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "txt": "",
+                "font": "sans-serif 12px/normal w400 lsnormal rgb(0, 0, 238) none",
+                "kids": []
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  136,
+                  343,
+                  6,
+                  6
+                ],
+                "bg": "rgb(73, 36, 0)",
+                "rad": "0px",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "txt": "",
+                "font": "sans-serif 12px/normal w400 lsnormal rgb(0, 0, 238) none",
+                "kids": []
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  146,
+                  343,
+                  6,
+                  6
+                ],
+                "bg": "rgb(73, 36, 0)",
+                "rad": "0px",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "txt": "",
+                "font": "sans-serif 12px/normal w400 lsnormal rgb(0, 0, 238) none",
+                "kids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "r": [
+          110,
+          365,
+          385,
+          410
+        ],
+        "bg": "rgba(0, 0, 0, 0)",
+        "rad": "0px",
+        "pad": "0px",
+        "gap": "0px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "column",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              110,
+              365,
+              385,
+              220
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "rad": "0px",
+            "pad": "0px",
+            "gap": "10px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  110,
+                  365,
+                  385,
+                  220
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "rad": "0px",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "block",
+                "gtc": "none",
+                "fd": "row",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      110,
+                      365,
+                      385,
+                      220
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "rad": "0px",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "kids": [
+                      {
+                        "tag": "IMG",
+                        "r": [
+                          110,
+                          365,
+                          385,
+                          220
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "rad": "0px",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "block",
+                        "gtc": "none",
+                        "fd": "row",
+                        "txt": "",
+                        "font": "sans-serif 12px/normal w400 lsnormal rgb(0, 0, 238) none",
+                        "src": "https://framerusercontent.com/images/DK46aveL39yduU5qMbUqGPAWoI.png?scale-down-to=512&width=1300&height=784",
+                        "kids": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              110,
+              585,
+              385,
+              190
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "rad": "0px",
+            "pad": "24px",
+            "gap": "16px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "column",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  134,
+                  609,
+                  337,
+                  24
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "rad": "0px",
+                "pad": "0px",
+                "gap": "10px",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "row",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      134,
+                      609,
+                      157,
+                      24
+                    ],
+                    "bg": "rgb(255, 172, 0)",
+                    "rad": "0px",
+                    "pad": "6px 10px",
+                    "gap": "0px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          144,
+                          615,
+                          137,
+                          12
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "rad": "0px",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              144,
+                              615,
+                              137,
+                              12
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "rad": "0px",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "txt": "Agent Observability",
+                            "font": "\"Geist Mono\" 12px/12px w500 lsnormal rgb(73, 36, 0) uppercase",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  134,
+                  649,
+                  337,
+                  42
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "rad": "0px",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "flow-root",
+                "gtc": "none",
+                "fd": "column",
+                "kids": [
+                  {
+                    "tag": "P",
+                    "r": [
+                      134,
+                      649,
+                      337,
+                      42
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "rad": "0px",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "txt": "How to detect silent AI agent failures in producti",
+                    "font": "\"Geist Mono\" 16px/20.8px w500 ls-0.64px rgb(224, 224, 224) none",
+                    "kids": []
+                  }
+                ]
+              },
+              {
+                "tag": "DIV",
+                "r": [
+                  134,
+                  707,
+                  337,
+                  44
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "rad": "0px",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "flow-root",
+                "gtc": "none",
+                "fd": "column",
+                "kids": [
+                  {
+                    "tag": "P",
+                    "r": [
+                      134,
+                      707,
+                      337,
+                      44
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "rad": "0px",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "txt": "Fifteen signals and a five-stage framework for det",
+                    "font": "\"Inter Display\" 16px/22px w400 ls-0.32px rgba(230, 230, 230, 0.8) none",
+                    "kids": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "r": [
+          110,
+          775,
+          385,
+          40
+        ],
+        "bg": "rgb(30, 15, 0)",
+        "rad": "0px",
+        "pad": "0px",
+        "gap": "0px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "row",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              110,
+              775,
+              193,
+              40
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "rad": "0px",
+            "pad": "0px",
+            "gap": "10px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "column",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  166,
+                  785,
+                  81,
+                  21
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "rad": "0px",
+                "pad": "0px",
+                "gap": "normal",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "column",
+                "kids": [
+                  {
+                    "tag": "P",
+                    "r": [
+                      166,
+                      785,
+                      81,
+                      21
+                    ],
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "rad": "0px",
+                    "pad": "0px",
+                    "gap": "normal",
+                    "disp": "block",
+                    "gtc": "none",
+                    "fd": "row",
+                    "txt": "Written by",
+                    "font": "\"Geist Mono\" 14px/21px w400 ls-0.32px rgba(230, 230, 230, 0.8) none",
+                    "kids": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "r": [
+              303,
+              775,
+              193,
+              40
+            ],
+            "bg": "rgba(0, 0, 0, 0)",
+            "rad": "0px",
+            "pad": "0px",
+            "gap": "10px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  303,
+                  775,
+                  193,
+                  40
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "rad": "0px",
+                "pad": "0px",
+                "gap": "12px",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "row",
+                "txt": "",
+                "font": "sans-serif 12px/normal w400 lsnormal rgb(0, 0, 238) none",
+                "kids": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "SPAN",
+        "r": [
+          110,
+          815,
+          385,
+          52
+        ],
+        "bg": "rgba(0, 0, 0, 0)",
+        "rad": "0px",
+        "pad": "0px",
+        "gap": "8px",
+        "disp": "flex",
+        "gtc": "none",
+        "fd": "row",
+        "kids": [
+          {
+            "tag": "DIV",
+            "r": [
+              110,
+              815,
+              385,
+              52
+            ],
+            "bg": "rgb(30, 15, 0)",
+            "rad": "0px",
+            "pad": "0px",
+            "gap": "0px",
+            "disp": "flex",
+            "gtc": "none",
+            "fd": "row",
+            "kids": [
+              {
+                "tag": "DIV",
+                "r": [
+                  110,
+                  815,
+                  385,
+                  52
+                ],
+                "bg": "rgba(0, 0, 0, 0)",
+                "rad": "0px",
+                "pad": "4px",
+                "gap": "10px",
+                "disp": "flex",
+                "gtc": "none",
+                "fd": "row",
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "r": [
+                      114,
+                      819,
+                      377,
+                      44
+                    ],
+                    "bg": "rgb(241, 239, 223)",
+                    "rad": "0px",
+                    "pad": "10px 24px",
+                    "gap": "10px",
+                    "disp": "flex",
+                    "gtc": "none",
+                    "fd": "row",
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          254,
+                          829,
+                          97,
+                          24
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "rad": "0px",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              254,
+                              829,
+                              97,
+                              24
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "rad": "0px",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "txt": "read article",
+                            "font": "\"Geist Mono\" 14px/24px w500 ls-0.32px rgb(30, 15, 0) none",
+                            "kids": []
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "DIV",
+                        "r": [
+                          254,
+                          859,
+                          97,
+                          24
+                        ],
+                        "bg": "rgba(0, 0, 0, 0)",
+                        "rad": "0px",
+                        "pad": "0px",
+                        "gap": "normal",
+                        "disp": "flex",
+                        "gtc": "none",
+                        "fd": "column",
+                        "kids": [
+                          {
+                            "tag": "P",
+                            "r": [
+                              254,
+                              859,
+                              97,
+                              24
+                            ],
+                            "bg": "rgba(0, 0, 0, 0)",
+                            "rad": "0px",
+                            "pad": "0px",
+                            "gap": "normal",
+                            "disp": "block",
+                            "gtc": "none",
+                            "fd": "row",
+                            "txt": "read article",
+                            "font": "\"Geist Mono\" 14px/24px w500 ls-0.32px rgb(30, 15, 0) none",
+                            "kids": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "grid": {
+    "r": [
+      110,
+      327,
+      1220,
+      1112
+    ],
+    "gtc": "385.328px 385.336px 385.336px",
+    "gap": "32px",
+    "pad": "0px"
+  }
+}

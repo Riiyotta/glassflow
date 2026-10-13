@@ -1,0 +1,64 @@
+{
+  "id": "chrome.footer",
+  "family": "mars",
+  "category": "chrome",
+  "purpose": "Global footer: 67px band, CTA band (heading + Start with Tares / Start with Rius), link row, legal bar.",
+  "variants": {
+    "default": "single global footer incl. CTA band"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/Footer.jsx",
+      "lines": "69-117",
+      "quote": "export default function Footer"
+    },
+    {
+      "path": "src/components/Footer.jsx",
+      "lines": "3-41",
+      "quote": "function CtaBand()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLast": true,
+    "familyOnly": "mars"
+  },
+  "motion": {
+    "allowedPatterns": [
+      "amber-button-hover"
+    ],
+    "reducedMotionFallback": "transitions-disabled"
+  },
+  "responsive": {
+    "390": {
+      "ctaBand": "1 column, heading cell 160 tall",
+      "linkRow": "stacked; social row visible",
+      "logoCell": "hidden"
+    },
+    "810": {
+      "ctaBand": "2 columns, heading spans 2 (224 tall, centred)",
+      "linkRow": "stacked; social row hidden"
+    },
+    "1200": {
+      "ctaBand": "662fr 325fr 325fr, 320 tall",
+      "linkRow": "single 208px row with 202x194 logo cell; social column 100px"
+    },
+    "evidence": [
+      {
+        "path": "src/components/Footer.jsx",
+        "lines": "19",
+        "quote": "lg:grid-cols-[662fr_325fr_325fr]"
+      },
+      {
+        "path": "src/components/Footer.jsx",
+        "lines": "102",
+        "quote": "flex gap-2 md:hidden lg:flex"
+      }
+    ]
+  }
+}

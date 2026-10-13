@@ -1,0 +1,200 @@
+{
+  "id": "contact.signal-form",
+  "family": "mars",
+  "category": "conversion",
+  "purpose": "'Send us a signal' panel (dithered, with in-panel logo strip) beside the contact form. The form NEVER submits to HubSpot.",
+  "variants": {
+    "default": "/contact"
+  },
+  "implementedBy": [
+    {
+      "path": "src/pages/Contact.jsx",
+      "lines": "201-235",
+      "quote": "export default function Contact()"
+    },
+    {
+      "path": "src/pages/Contact.jsx",
+      "lines": "37-59",
+      "quote": "function ContactForm()"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 4
+      },
+      "lead": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 16
+        },
+        "minItems": 1,
+        "maxItems": 3
+      },
+      "logoStrip": {
+        "type": "object",
+        "properties": {
+          "caption": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 8
+          },
+          "logos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "assetRole": {
+                  "enum": [
+                    "logo.third-party"
+                  ]
+                },
+                "ref": {
+                  "type": "string",
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                },
+                "alt": {
+                  "type": "string",
+                  "maxWords": 14
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "assetRole",
+                "ref",
+                "alt"
+              ]
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "caption",
+          "logos"
+        ]
+      },
+      "form": {
+        "type": "object",
+        "properties": {
+          "fields": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "firstname",
+                "lastname",
+                "email",
+                "which_glassflow_solution_are_you_interested_in",
+                "message"
+              ]
+            },
+            "minItems": 3,
+            "maxItems": 5
+          },
+          "solutions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxWords": 2
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "submitLabel": {
+            "const": "submit"
+          },
+          "endpointPolicy": {
+            "const": "must-not-reuse-live-endpoint"
+          },
+          "onSuccess": {
+            "const": "navigate:/contact/success"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "fields",
+          "solutions",
+          "submitLabel",
+          "endpointPolicy",
+          "onSuccess"
+        ]
+      },
+      "background": {
+        "type": "object",
+        "properties": {
+          "assetRole": {
+            "enum": [
+              "texture.dither-field"
+            ]
+          },
+          "ref": {
+            "type": "string",
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
+            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+          },
+          "alt": {
+            "type": "string",
+            "maxWords": 14
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "assetRole",
+          "ref",
+          "alt"
+        ]
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title",
+      "lead",
+      "logoStrip",
+      "form",
+      "background"
+    ]
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {
+      "lead": "mobile shows a different (pricing) sentence - live quirk",
+      "columns": 1
+    },
+    "810": {
+      "columns": 1
+    },
+    "1200": {
+      "columns": 2,
+      "panel": "563 tall"
+    },
+    "evidence": [
+      {
+        "path": "src/pages/Contact.jsx",
+        "lines": "217",
+        "quote": "<p className=\"md:hidden\">Four plans, priced per trace"
+      },
+      {
+        "path": "src/pages/Contact.jsx",
+        "lines": "210",
+        "quote": "<div className=\"grid grid-cols-1 lg:grid-cols-2\">"
+      }
+    ]
+  },
+  "policies": [
+    "form-endpoint-pinned"
+  ]
+}

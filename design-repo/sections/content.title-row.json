@@ -1,0 +1,50 @@
+{
+  "id": "content.title-row",
+  "family": "mars",
+  "category": "content",
+  "purpose": "160px (168 on /about) heading band introducing the next block.",
+  "variants": {
+    "product-160": "32px title",
+    "about-168": "40px title"
+  },
+  "implementedBy": [
+    {
+      "path": "src/components/ProductSections.jsx",
+      "lines": "20-27",
+      "quote": "export function TitleRow"
+    }
+  ],
+  "content": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxWords": 6
+      }
+    },
+    "additionalProperties": false,
+    "required": [
+      "title"
+    ]
+  },
+  "constraints": {
+    "repeatable": true
+  },
+  "motion": {
+    "allowedPatterns": [],
+    "reducedMotionFallback": "none-needed"
+  },
+  "responsive": {
+    "390": {},
+    "810": {},
+    "1200": {},
+    "evidence": [
+      {
+        "path": "src/components/ProductSections.jsx",
+        "lines": "20",
+        "quote": "height = 'h-[160px]'"
+      }
+    ]
+  }
+}

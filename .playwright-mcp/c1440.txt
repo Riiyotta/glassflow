@@ -1,0 +1,215 @@
+H=5036
+products | 213,0,113,40 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(143, 137, 130) | 1
+docs | 326,0,66,40 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(143, 137, 130) | 1
+blog | 392,0,66,40 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(143, 137, 130) | 1
+contact | 457,0,91,40 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(143, 137, 130) | 1
+get_started | 1223,0,111,40 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(29, 14, 0) | 1
+the | 97,550,82,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+data | 179,550,109,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+infrastructure | 288,550,301,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+for | 589,550,71,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+AI | 97,600,57,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+Agents | 154,600,165,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+in | 319,600,50,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+production | 369,600,234,50 | "Inter Display" | 50px | 50px | 400 | normal | rgb(241, 239, 223) | 1
+GlassFlow is one data layer for both sid | 768,520,575,81 | "Inter Display" | 18px | 27px | 400 | -0.18px | rgb(241, 239, 223) | 1
+GlassFlow Tares | 1187,522,124,22 | "Inter Display" | 18px | 27px | 400 | -0.18px | rgb(212, 143, 4) | 1
+GlassFlow Rius | 1027,549,115,22 | "Inter Display" | 18px | 27px | 400 | -0.18px | rgb(212, 143, 4) | 1
+get_started | 772,633,137,44 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(29, 14, 0) | 1
+Works with the tools you already use. | 97,831,216,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+…data is not just an asset but a fundame | 129,1041,800,192 | "Inter Display" | 32px | 32px | 400 | normal | rgb(241, 239, 223) | 1
+Thomas Dohmke | 238,1327,154,18 | "Geist Mono" | 16px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+Co-founder & CEO | 238,1349,154,18 | "Geist Mono" | 16px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Entire | 1047,1338,58,18 | "Geist Mono" | 16px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+products | 686,1480,67,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+GlassFlow Tares | 129,1578,134,26 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(29, 14, 0) | 1
+One correlated read over every system yo | 129,1636,527,120 | "Inter Display" | 40px | 40px | 400 | normal | rgb(241, 239, 223) | 1
+Instead of your agent firing dozens of l | 129,1788,527,120 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+GlassFlow Tares | 298,1814,110,20 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(212, 143, 4) | 1
+Open source, self-hostable, and built on | 129,1932,527,24 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+github | 133,2073,96,44 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(241, 239, 223) | 1
+learn_more | 297,2073,129,44 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(241, 239, 223) | 1
+products | 686,2268,67,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+GlassFlow Rius | 784,2366,126,26 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(29, 14, 0) | 1
+Catch and debug agent failures in produc | 784,2424,527,80 | "Inter Display" | 40px | 40px | 400 | normal | rgb(241, 239, 223) | 1
+Once agents are live,  tells you what th | 784,2536,527,168 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+GlassFlow Rius | 929,2538,102,20 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(212, 143, 4) | 1
+Rius | 979,2562,29,20 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(212, 143, 4) | 1
+Every trace kept as long as you need it, | 784,2728,527,24 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+get_started | 788,2861,137,44 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(29, 14, 0) | 1
+learn_more | 993,2861,129,44 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(241, 239, 223) | 1
+From install to  in minutes. | 500,3104,440,80 | "Inter Display" | 40px | 40px | 400 | normal | rgb(241, 239, 223) | 1
+first result | 761,3100,171,49 | "Inter Display" | 40px | 40px | 400 | normal | rgb(255, 172, 0) | 1
+Pick a product and follow the quickstart | 500,3200,440,24 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+Both are copy-paste and run on your own  | 500,3224,440,48 | "Inter Display" | 16px | 24px | 400 | -0.18px | rgb(241, 239, 223) | 1
+glassflow-rius | 412,3316,118,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+See your first agent run appear live. | 242,3363,458,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+Drop in the OTEL receiver, run your agen | 242,3381,458,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+> | 242,3453,8,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Long-running agents: | 258,3453,252,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+trace hours-long runs, lose nothing | 258,3472,252,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+> | 242,3506,8,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+MCP both ways: | 258,3506,317,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+agents send traces; coding agents query  | 258,3524,317,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+> | 242,3558,8,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Replay any run: | 258,3558,252,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+reconstruct what happened last week | 258,3576,252,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+open the rius quickstart | 230,3619,482,44 | "Geist Mono" | 14px | 24px | 400 | -0.32px | rgb(241, 239, 223) | 1
+Start with rius | 230,3671,482,44 | "Geist Mono" | 14px | 24px | 700 | -0.32px | rgb(52, 29, 3) | 1
+glassflow-tares | 906,3316,126,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+Deliver your first correlated data packa | 740,3363,458,55 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 172, 0) | 1
+> | 740,3453,8,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Cut token spend: | 756,3453,288,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+one clean read, not dozens of tool calls | 756,3472,288,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+> | 740,3506,8,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Kill latency: | 756,3506,245,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+data’s ready before the agent asks | 756,3524,245,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+> | 740,3558,8,36 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+One connection: | 756,3558,180,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+all your sources, unified | 756,3576,180,18 | "Geist Mono" | 12px | 18.2px | 400 | normal | rgb(241, 239, 223) | 1
+open the tares quickstart | 728,3619,482,44 | "Geist Mono" | 14px | 24px | 400 | -0.32px | rgb(241, 239, 223) | 1
+Start with tares | 728,3671,482,44 | "Geist Mono" | 14px | 24px | 700 | -0.32px | rgb(52, 29, 3) | 1
+Frequently Asked Questions | 524,3914,392,32 | "Inter Display" | 32px | 32px | 400 | normal | rgb(241, 239, 223) | 1
+What is GlassFlow? | 89,4038,151,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+GlassFlow is the data infrastructure for | 89,4067,640,66 | "Inter Display" | 16px | 19.2px | 400 | normal | rgb(241, 239, 223) | 1
+What’s the difference between GlassFlow  | 89,4178,546,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+GlassFlow Tares handles the data going i | 89,4207,640,66 | "Inter Display" | 16px | 19.2px | 400 | normal | rgb(241, 239, 223) | 1
+Is GlassFlow open source? | 89,4252,210,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+Yes. GlassFlow Tares is open source and  | 89,4281,640,46 | "Inter Display" | 16px | 19.2px | 400 | normal | rgb(241, 239, 223) | 1
+What makes GlassFlow different for long- | 89,4326,462,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(255, 255, 255) | 1
+Most observability tools were built for  | 89,4355,640,85 | "Inter Display" | 16px | 19.2px | 400 | normal | rgb(241, 239, 223) | 1
+Ready to give your agents better data an | 65,4439,400,320 | "Inter Display" | 32px | 32px | 400 | normal | rgb(241, 239, 223) | 1
+Start with Tares | 807,4530,163,24 | "Inter Display" | 24px | 24px | 400 | normal | rgb(241, 239, 223) | 1
+Feed your agents the right data. | 773,4566,230,18 | "Geist Mono" | 12px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+get_started | 794,4620,137,44 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(29, 14, 0) | 1
+Start with Rius | 1137,4530,151,24 | "Inter Display" | 24px | 24px | 400 | normal | rgb(241, 239, 223) | 1
+See and debug agents in production. | 1087,4566,252,18 | "Geist Mono" | 12px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+get_started | 1118,4620,137,44 | "Geist Mono" | 14px | 24px | 500 | -0.32px | rgb(29, 14, 0) | 1
+products | 646,4784,67,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+tares | 295,4870,365,24 | "Geist Mono" | 14px | 24px | 700 | -0.32px | rgb(255, 255, 255) | 1
+feed your agents the right data. open so | 295,4902,220,39 | "Geist Mono" | 14px | 19.6px | 500 | -0.32px | rgb(255, 255, 255) | 1
+rius | 700,4870,365,24 | "Geist Mono" | 14px | 24px | 700 | -0.32px | rgb(255, 255, 255) | 1
+see what your agents did in production. | 700,4902,220,39 | "Geist Mono" | 14px | 19.6px | 500 | -0.32px | rgb(255, 255, 255) | 1
+contact | 1139,4780,59,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+docs | 1139,4830,34,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+blog | 1139,4880,34,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+about | 1139,4930,42,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgba(241, 239, 223, 0.64) | 1
+2026 - Copyright GlassFlow.ai | 97,4995,244,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Terms & Conditions | 707,4995,151,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+Privacy Policy | 1225,4995,118,18 | "Geist Mono" | 14px | 18.2px | 700 | normal | rgb(241, 239, 223) | 1
+=====BOXES
+A | hairline flex h-[40px] w-[149px] items-c | 64,0,149,40 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 12px
+A | hairline flex h-[40px] items-center bg-d | 213,0,113,40 | rgb(29, 14, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+A | hairline flex h-[40px] items-center bg-d | 326,0,66,40 | rgb(29, 14, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+A | hairline flex h-[40px] items-center bg-d | 392,0,66,40 | rgb(29, 14, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+A | hairline flex h-[40px] items-center bg-d | 457,0,91,40 | rgb(29, 14, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | hairline flex h-[40px] w-[111px] items-c | 1223,0,111,40 | rgb(255, 172, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline flex flex-1 flex-col bg-panel | 65,442,639,278 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline flex h-[38px] items-center bg-b | 65,442,639,38 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 81,460,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 87,460,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 93,460,3,3 | rgb(241, 239, 223) |  |  | 0px
+DIV | hairline flex flex-1 flex-col bg-panel m | 736,442,639,278 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline flex h-[38px] items-center bg-b | 736,442,639,38 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 752,460,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 758,460,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 764,460,3,3 | rgb(241, 239, 223) |  |  | 0px
+A | group inline-flex h-[52px] shrink-0 gap- | 768,629,197,52 | rgb(255, 172, 0) |  |  | 4px
+SPAN | hairline flex h-[44px] items-center px-6 | 772,633,137,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 24px
+SPAN | hairline arrow-track flex h-[44px] w-[44 | 917,633,44,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline col-span-2 flex h-[124px] items | 65,787,280,124 | rgb(29, 14, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 16px 32px
+DIV | hairline flex h-[124px] items-center jus | 345,787,258,124 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline flex h-[124px] items-center jus | 603,787,258,124 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline flex h-[124px] items-center jus | 860,787,258,124 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline flex h-[124px] items-center jus | 1118,787,258,124 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | relative md:border-x md:border-line bg-p | 64,911,1312,486 | rgb(45, 24, 4) |  |  | 0px
+DIV | hairline flex h-[100px] items-center gap | 65,1297,655,100 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 24px 0px 117px
+DIV | hairline flex h-[100px] items-center gap | 720,1297,655,100 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 24px
+DIV | relative md:border-x md:border-line bg-p | 64,1464,1312,721 | rgb(45, 24, 4) |  |  | 0px
+DIV | hairline relative flex h-[50px] items-ce | 65,1464,1310,50 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 81,1488,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 87,1488,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 93,1488,3,3 | rgb(241, 239, 223) |  |  | 0px
+DIV | hairline order-2 flex flex-col justify-b | 65,1514,655,671 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 64px
+SPAN | inline-block self-start bg-amber p-1 fon | 129,1578,134,26 | rgb(255, 172, 0) |  |  | 4px
+SPAN | flex h-[52px] items-center p-1 bg-page | 129,2069,104,52 | rgb(73, 36, 0) |  |  | 4px
+SPAN | hairline flex h-[44px] items-center px-6 | 133,2073,96,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 24px
+SPAN | flex h-[52px] w-[52px] items-center just | 233,2069,52,52 | rgb(73, 36, 0) |  |  | 4px
+SPAN | hairline arrow-track flex h-[44px] w-[44 | 237,2073,44,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+SPAN | flex h-[52px] items-center p-1 bg-panel | 293,2069,137,52 | rgb(45, 24, 4) |  |  | 4px
+SPAN | hairline flex h-[44px] items-center px-6 | 297,2073,129,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 24px
+DIV | relative md:border-x md:border-line bg-p | 64,2252,1312,721 | rgb(45, 24, 4) |  |  | 0px
+DIV | hairline relative flex h-[50px] items-ce | 65,2252,1310,50 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 81,2276,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 87,2276,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 93,2276,3,3 | rgb(241, 239, 223) |  |  | 0px
+DIV | hairline flex flex-col justify-between g | 720,2302,655,671 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 64px
+SPAN | inline-block self-start bg-amber p-1 fon | 784,2366,126,26 | rgb(255, 172, 0) |  |  | 4px
+A | group inline-flex h-[52px] shrink-0 gap- | 784,2857,197,52 | rgb(255, 172, 0) |  |  | 4px
+SPAN | hairline flex h-[44px] items-center px-6 | 788,2861,137,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 24px
+SPAN | hairline arrow-track flex h-[44px] w-[44 | 933,2861,44,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+SPAN | flex h-[52px] items-center p-1 bg-panel | 989,2857,137,52 | rgb(45, 24, 4) |  |  | 4px
+SPAN | hairline flex h-[44px] items-center px-6 | 993,2861,129,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 24px
+DIV | hairline relative flex h-[42px] items-ce | 226,3304,490,42 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 242,3324,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 248,3324,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 254,3324,3,3 | rgb(241, 239, 223) |  |  | 0px
+DIV | hairline flex min-h-[105px] items-center | 226,3346,490,87 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 16px
+UL | hairline flex flex-col gap-2 bg-deep p-4 | 226,3433,490,181 | rgb(29, 14, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 16px
+DIV | hairline flex flex-col gap-2 bg-deep p-1 | 226,3615,490,104 | rgb(29, 14, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 4px
+A | hairline flex h-[44px] items-center just | 230,3619,482,44 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 12px
+A | flex h-[44px] items-center justify-cente | 230,3671,482,44 | rgb(255, 172, 0) |  |  | 0px 12px
+DIV | hairline relative flex h-[42px] items-ce | 724,3304,490,42 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 740,3324,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 746,3324,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 752,3324,3,3 | rgb(241, 239, 223) |  |  | 0px
+DIV | hairline flex min-h-[105px] items-center | 724,3346,490,87 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 16px
+UL | hairline flex flex-col gap-2 bg-deep p-4 | 724,3433,490,181 | rgb(29, 14, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 16px
+DIV | hairline flex flex-col gap-2 bg-deep p-1 | 724,3615,490,104 | rgb(29, 14, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 4px
+A | hairline flex h-[44px] items-center just | 728,3619,482,44 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 12px
+A | flex h-[44px] items-center justify-cente | 728,3671,482,44 | rgb(255, 172, 0) |  |  | 0px 12px
+DIV | hairline relative flex h-[160px] items-c | 65,3850,1310,160 | rgb(45, 24, 4) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 64px 32px
+DIV | hairline bg-page px-6 py-[17px] | 65,4010,1310,140 | rgb(73, 36, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 17px 24px
+SPAN | flex h-10 w-10 shrink-0 items-center jus | 1311,4027,40,40 | rgb(255, 172, 0) |  |  | 0px
+DIV | hairline bg-page px-6 py-[17px] | 65,4150,1310,74 | rgb(73, 36, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 17px 24px
+SPAN | flex h-10 w-10 shrink-0 items-center jus | 1311,4167,40,40 | rgb(73, 36, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline bg-page px-6 py-[17px] | 65,4224,1310,74 | rgb(73, 36, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 17px 24px
+SPAN | flex h-10 w-10 shrink-0 items-center jus | 1311,4241,40,40 | rgb(73, 36, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline bg-page px-6 py-[17px] | 65,4298,1310,74 | rgb(73, 36, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 17px 24px
+SPAN | flex h-10 w-10 shrink-0 items-center jus | 1311,4315,40,40 | rgb(73, 36, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline relative h-[160px] overflow-hid | 65,4439,661,320 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline relative h-[320px] overflow-hid | 726,4439,325,320 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+A | group inline-flex h-[52px] shrink-0 gap- | 790,4616,197,52 | rgb(255, 172, 0) |  |  | 4px
+SPAN | hairline flex h-[44px] items-center px-6 | 794,4620,137,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 24px
+SPAN | hairline arrow-track flex h-[44px] w-[44 | 939,4620,44,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline relative h-[320px] overflow-hid | 1050,4439,325,320 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+A | group inline-flex h-[52px] shrink-0 gap- | 1114,4616,197,52 | rgb(255, 172, 0) |  |  | 4px
+SPAN | hairline flex h-[44px] items-center px-6 | 1118,4620,137,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 24px
+SPAN | hairline arrow-track flex h-[44px] w-[44 | 1263,4620,44,44 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+A | hairline relative flex h-[194px] items-c | 65,4768,202,194 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+DIV | hairline relative flex h-[50px] items-ce | 275,4768,809,50 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 291,4791,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 297,4791,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 303,4791,3,3 | rgb(241, 239, 223) |  |  | 0px
+DIV | grid grid-cols-1 bg-panel md:grid-cols-2 | 275,4818,809,142 | rgb(45, 24, 4) |  |  | 0px
+A | hairline flex h-[142px] flex-col gap-2 p | 275,4818,405,142 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 20px
+A | hairline flex h-[142px] flex-col gap-2 p | 680,4818,405,142 | rgba(0, 0, 0, 0) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 20px
+A | hairline flex h-[42px] items-center gap- | 1092,4768,175,42 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1108,4787,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1114,4787,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1120,4787,3,3 | rgb(241, 239, 223) |  |  | 0px
+A | hairline flex h-[42px] items-center gap- | 1092,4818,175,42 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1108,4837,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1114,4837,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1120,4837,3,3 | rgb(241, 239, 223) |  |  | 0px
+A | hairline flex h-[42px] items-center gap- | 1092,4868,175,42 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1108,4887,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1114,4887,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1120,4887,3,3 | rgb(241, 239, 223) |  |  | 0px
+A | hairline flex h-[42px] items-center gap- | 1092,4918,175,42 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px 16px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1108,4937,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1114,4937,3,3 | rgb(241, 239, 223) |  |  | 0px
+SPAN | block h-[3px] w-[3px] bg-cream opacity-3 | 1120,4937,3,3 | rgb(241, 239, 223) |  |  | 0px
+A | hairline flex h-[59px] flex-1 items-cent | 1275,4768,100,59 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+A | hairline flex h-[59px] flex-1 items-cent | 1275,4835,100,59 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px
+A | hairline flex h-[59px] flex-1 items-cent | 1275,4902,100,59 | rgb(45, 24, 3) |  | rgb(95, 62, 31) 0px 0px 0px 1px inset | 0px

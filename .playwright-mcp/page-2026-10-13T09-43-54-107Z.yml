@@ -1,0 +1,42 @@
+- main [ref=f167e4]:
+  - generic [ref=f167e5]:
+    - generic [ref=f167e7]:
+      - link "GlassFlow home" [ref=f167e8] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f167e9]
+      - navigation [ref=f167e11]:
+        - link "Product" [ref=f167e13] [cursor=pointer]:
+          - /url: /product
+        - link "Case Studies" [ref=f167e14] [cursor=pointer]:
+          - /url: /case-studies
+        - link "Pricing" [ref=f167e15] [cursor=pointer]:
+          - /url: /rius/pricing
+        - link "Resources" [ref=f167e17] [cursor=pointer]:
+          - /url: /product
+        - link "Contact" [ref=f167e18] [cursor=pointer]:
+          - /url: /contact
+      - link "Star glassflow/clickhouse-etl on GitHub" [ref=f167e20] [cursor=pointer]:
+        - /url: https://github.com/glassflow/clickhouse-etl
+        - generic [ref=f167e21]: clickhouse-etl
+        - generic [ref=f167e24]: "504"
+    - generic [ref=f167e28]:
+      - generic [ref=f167e29]: Free eBook
+      - heading "A practical guide on how to build Kafka to ClickHouse pipelines" [level=1] [ref=f167e30]
+      - paragraph [ref=f167e31]: This ebook covers everything you need to know about building dependable Kafka → ClickHouse pipelines.
+      - list [ref=f167e32]:
+        - listitem [ref=f167e33]:
+          - generic [ref=f167e34]: Walks you through building a reliable pipeline with strategies for handling duplicates, late events, and JOINs
+        - listitem [ref=f167e35]:
+          - generic [ref=f167e36]: Gives real-world examples from finance, e-commerce, and observability
+        - listitem [ref=f167e37]:
+          - generic [ref=f167e38]: Offers practical insights and best practices for both beginners and those looking to improve existing setups
+      - generic [ref=f167e39]:
+        - generic [ref=f167e40]:
+          - generic [ref=f167e41]: First name*
+          - textbox "First name*" [ref=f167e42]
+        - generic [ref=f167e43]:
+          - generic [ref=f167e44]: Email*
+          - textbox "Email*" [ref=f167e45]
+        - button "Submit" [ref=f167e46] [cursor=pointer]
+      - link "Read the full guide page on glassflow.ai" [ref=f167e47] [cursor=pointer]:
+        - /url: https://www.glassflow.ai/kafka-to-clickhouse-pipeline-guide

@@ -1,0 +1,20 @@
+{
+  "id": "spacer",
+  "kind": "primitive",
+  "family": "mars",
+  "purpose": "Bordered blank band between sections (65px default, 30px under-nav divider, 64px calculator top).",
+  "props": {
+    "inner": "h-[65px] | h-[30px] | h-[64px]"
+  },
+  "tokens": [
+    "spacing.spacer-band"
+  ],
+  "motionPattern": "none",
+  "implementedBy": [
+    {
+      "path": "src/components/ui.jsx",
+      "lines": "18-22",
+      "quote": "export function Spacer"
+    }
+  ]
+}
