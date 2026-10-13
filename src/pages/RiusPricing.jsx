@@ -63,6 +63,8 @@ const EVERY_PLAN = [
   ['Alerts', 'Cost and token tracking', 'One continuous session across restarts and sub-agents'],
 ]
 
+const EVERY_PLAN_ROWS = EVERY_PLAN[0].flatMap((t, i) => (EVERY_PLAN[1][i] ? [t, EVERY_PLAN[1][i]] : [t]))
+
 const ADDONS = [
   ['Dedicated region', '199', 'Your data in a specific regional cluster — Frankfurt, Virginia, London, Singapore', DOCS_QS],
   ['Dedicated slack', '49', 'Direct channel with GlassFlow team', HP_SIGNUP],
@@ -87,9 +89,10 @@ function Hero() {
     <Shell as="section">
       <TitleBar label="products" hideLabel />
       <div className="grid grid-cols-1 lg:h-[439px] lg:grid-cols-2">
-        <div className="flex flex-col items-center justify-center gap-16 bg-panel p-8 text-center md:p-16">
-          <div className="flex flex-col items-center gap-[6px]">
-            <h1 className="font-display text-[32px] leading-[32px] text-cream md:text-[48px] md:leading-[48px]">
+        {/* live: 48px heading at every width; text / button / note 32px apart; 32 / 40 / 64 padding */}
+        <div className="flex flex-col items-center justify-center gap-8 bg-panel p-8 text-center md:px-10 md:py-10 lg:p-16">
+          <div className="flex flex-col items-center gap-3">
+            <h1 className="font-display text-[48px] leading-[48px] text-cream">
               Easy to start. <br />
               Scales with usage.
             </h1>
@@ -98,12 +101,10 @@ function Hero() {
               Start free, pay for what you actually send.
             </p>
           </div>
-          <div className="flex flex-col items-center gap-[6px]">
-            <BigButton label="start free" href={HP_SIGNUP} />
-            <p className="t-body text-[16px] opacity-80">No credit card required on Core</p>
-          </div>
+          <BigButton label="start free" href={HP_SIGNUP} />
+          <p className="t-body text-[16px] opacity-80">No credit card required on Core</p>
         </div>
-        <img src={P('JNirgiJudYykrpH4soF4CcOqbI.jpg')} alt="" className="h-[400px] w-full object-cover lg:h-full" />
+        <img src={P('JNirgiJudYykrpH4soF4CcOqbI.jpg')} alt="" className="h-[400px] w-full object-cover md:h-[671px] lg:h-full" />
       </div>
     </Shell>
   )
@@ -115,18 +116,15 @@ function EveryPlan() {
       <div className="hairline flex h-[38px] items-center bg-table-band px-5 py-3 font-mono text-[14px] font-bold leading-[14px] text-cream">
         In every plan
       </div>
-      <div className="grid grid-cols-1 bg-card-dark lg:grid-cols-2">
-        {EVERY_PLAN.map((col, i) => (
-          <ul key={i} className="flex flex-col">
-            {col.map((t) => (
-              <li key={t} className="flex min-h-[72px] items-center gap-2 px-6 py-3">
-                <img src={A('rius/benefit.svg')} alt="" className="h-6 w-6 shrink-0" />
-                <span className="t-mono text-cream">{t}</span>
-              </li>
-            ))}
-          </ul>
+      {/* live: one 2-column grid filled row by row (mobile reads Real-time, Alerts, Dashboards, ...) */}
+      <ul className="grid grid-cols-1 items-start bg-card-dark md:grid-cols-2">
+        {EVERY_PLAN_ROWS.map((t) => (
+          <li key={t} className="flex items-center gap-2 p-6">
+            <img src={A('rius/benefit.svg')} alt="" className="h-6 w-6 shrink-0" />
+            <span className="t-mono text-cream">{t}</span>
+          </li>
         ))}
-      </div>
+      </ul>
     </Shell>
   )
 }
@@ -135,24 +133,31 @@ function AddOns() {
   return (
     <Shell as="section">
       <DeepBar />
-      <div className="grid grid-cols-1 bg-card-dark lg:h-[642px] lg:grid-cols-[394px_1fr]">
-        <div className="relative flex h-[120px] items-center overflow-hidden px-8 lg:h-auto lg:items-start lg:pt-[317px]">
+      {/* live: 24px card-dark strips above and below; heading centred (an empty 1px layer + 15px gap
+          sit below it); the card grid is 642.3 tall from tablet up with rows sized to content */}
+      <div className="grid grid-cols-1 bg-card-dark py-6 lg:grid-cols-[394px_1fr]">
+        <div className="relative flex h-[120px] items-center overflow-hidden px-8 md:h-[184px] lg:h-auto lg:justify-center">
           <img src={A('rius/CF2a8yg6rUJQ9kRH8Qk75fHGhhk.jpg')} alt="" className="absolute inset-0 h-full w-full object-cover" />
-          <h2 className="relative font-display text-[40px] leading-[40px] tracking-[-1.6px] text-cream">Add-ons</h2>
+          <h2 className="relative mb-4 font-display text-[40px] leading-[40px] tracking-[-1.6px] text-cream lg:w-full">Add-ons</h2>
         </div>
-        <div className="flex gap-1 overflow-x-auto p-1 lg:grid lg:grid-cols-4 lg:grid-rows-[315px_293px] lg:overflow-visible">
+        <div className="flex items-start gap-1 overflow-x-auto p-1 md:grid md:h-[642.3px] md:grid-cols-4 md:content-start md:items-stretch md:overflow-visible">
           {ADDONS.map(([name, price, desc, href], i) => (
-            <div key={name} className="hairline flex w-[240px] shrink-0 flex-col items-center text-center lg:w-auto">
-              <div className="flex flex-1 flex-col items-center gap-4 px-4 py-5">
+            <div key={name} className="hairline flex w-[240px] shrink-0 flex-col items-center md:w-auto">
+              <div className="flex w-[183px] flex-1 flex-col items-start gap-5 p-5">
                 <img src={P(`addon-${i + 1}.svg`)} alt="" className="h-10 w-10" />
-                <span className="font-display text-[14px] leading-[16.8px] text-cream">{name}</span>
-                <span className="flex items-baseline font-display text-cream">
-                  <span className="text-[32px] leading-[48px]">${price}</span>
-                  <span className="text-[16px] leading-[24px]">/mo</span>
-                </span>
-                <AppearText className="max-w-[143px] font-display text-[14px] leading-[19.6px] tracking-[-0.56px] text-cream">
-                  {desc}
-                </AppearText>
+                <div className="flex flex-col">
+                  {/* live: the second-row cards (5-7) reserve two name lines */}
+                  <span className={`font-display text-[14px] leading-[16.8px] text-cream ${i >= 4 ? 'min-h-[33.6px]' : ''}`}>{name}</span>
+                  <span className="flex items-center gap-1 whitespace-nowrap font-display text-cream">
+                    <span className="text-[32px] leading-[48px]">${price}</span>
+                    <span className="text-[16px] leading-[24px]">/mo</span>
+                  </span>
+                </div>
+                <div className="opacity-80">
+                  <AppearText className="max-w-[143px] font-display text-[14px] leading-[19.6px] tracking-[-0.56px] text-cream">
+                    {desc}
+                  </AppearText>
+                </div>
               </div>
               <a href={href} className="flex h-[52px] w-full bg-deep p-1">
                 <span className="t-btn flex h-[44px] w-full items-center justify-center bg-panel px-3 py-[10px] text-cream">
@@ -170,13 +175,17 @@ function AddOns() {
 function CalculatorBanner() {
   return (
     <Shell as="section">
-      <div className="relative flex h-[450px] items-center justify-center overflow-hidden px-8">
+      {/* live (tablet / desktop): content stack padded 66px, 38px gaps, led by an empty 24px row;
+          420 wide at tablet (banner 610 tall), 990 at desktop (450, content centred) */}
+      <div className="relative flex h-[450px] items-center justify-center overflow-hidden px-8 md:h-[610px] lg:h-[450px]">
         <img src={P('VKjI50ZtcspgwHCXdPDhyKc3A0.png')} alt="" className="absolute inset-0 h-full w-full object-cover" />
-        <div className="relative flex max-w-[326px] flex-col items-center gap-6 text-center md:max-w-[990px]">
+        <div className="relative flex max-w-[326px] flex-col items-center gap-6 text-center md:max-w-[420px] md:gap-[38px] md:py-[66px] lg:max-w-[990px]">
+          <span aria-hidden="true" className="hidden h-6 md:block" />
           <a href={CALCULATOR_PATH} className="font-display text-[32px] font-medium leading-[32px] text-white">
             Think building your own observability is cheaper?
           </a>
-          <a href={CALCULATOR_PATH} className="font-display text-[24px] font-semibold leading-[36px] tracking-[-0.18px] text-white">
+          {/* pre-wrap as live: the space kept before the tablet line break adds a line at 810 */}
+          <a href={CALCULATOR_PATH} className="whitespace-pre-wrap font-display text-[24px] font-semibold leading-[36px] tracking-[-0.18px] text-white">
             Most teams underestimate the real cost. <br className="hidden md:inline" />
             Plug in your trace volume and team, and find out in 30 seconds.
           </a>
@@ -201,7 +210,8 @@ export default function RiusPricing() {
       <EveryPlan />
       <Spacer />
       <AddOns />
-      <Spacer />
+      {/* live band before the calculator is 72 tall (70 + borders), the others 67 */}
+      <Spacer inner="h-[70px]" />
       <CalculatorBanner />
       <Spacer />
       <Faq items={FAQS} inset />
@@ -209,6 +219,8 @@ export default function RiusPricing() {
       <ImageCTA
         title="Two products. Two starting points."
         body="Tares is open source. Kick the tires, open an issue, and drop a star if it's useful. Rius, end to end. Guides for wiring up traces, MCP, and retention, from first span to production."
+        textClass="max-w-[420px] gap-8"
+        gapClass="gap-8 md:gap-16"
         primary={{ label: 'start today', href: SIGNUP('core') }}
         secondary={{ label: 'read the Rius guides', href: 'https://docs.glassflow.ai/rius/guides' }}
       />

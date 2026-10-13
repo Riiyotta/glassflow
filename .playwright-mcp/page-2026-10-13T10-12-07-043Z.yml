@@ -1,0 +1,255 @@
+- generic [ref=f379e3]:
+  - banner [ref=f379e4]:
+    - navigation [ref=f379e5]:
+      - generic [ref=f379e6]:
+        - link "GlassFlow home" [ref=f379e7] [cursor=pointer]:
+          - /url: /
+          - img "GlassFlow" [ref=f379e8]
+        - link "products" [ref=f379e10] [cursor=pointer]:
+          - /url: "#"
+        - link "docs" [ref=f379e13] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f379e14] [cursor=pointer]:
+          - /url: /blog
+        - link "contact" [ref=f379e15] [cursor=pointer]:
+          - /url: /contact
+      - link "get_started" [ref=f379e16] [cursor=pointer]:
+        - /url: /#quickstart
+  - main [ref=f379e18]:
+    - generic [ref=f379e20]:
+      - complementary [ref=f379e21]:
+        - generic [ref=f379e22]: Table of contents
+        - generic [ref=f379e23]: Summary of key points
+        - link [ref=f379e24] [cursor=pointer]:
+          - /url: /privacy-policy#What%20information%20do%20we%20collect%3F
+          - strong [ref=f379e25]: 1. What information do we collect?
+        - link [ref=f379e26] [cursor=pointer]:
+          - /url: /privacy-policy#How%20do%20we%20process%20your%20information%3F
+          - strong [ref=f379e27]: 2. How do we process your information
+        - link [ref=f379e28] [cursor=pointer]:
+          - /url: /privacy-policy#What%20legal%20bases%20do%20we%20rely%20on%20to%20process%20your%20information%3F
+          - strong [ref=f379e29]: 3. What legal bases do we rely on to process your information?
+        - link [ref=f379e30] [cursor=pointer]:
+          - /url: /privacy-policy#When%20and%20with%20whom%20do%20we%20share%20your%20personal%20information%3F
+          - strong [ref=f379e31]: 4. When and with whom do we share your personal information?
+        - link [ref=f379e32] [cursor=pointer]:
+          - /url: /privacy-policy#How%20do%20we%20handle%20your%20social%20logins%3F
+          - strong [ref=f379e33]: 6. How do we handle your social logins?
+        - link [ref=f379e34] [cursor=pointer]:
+          - /url: /privacy-policy#How%20long%20do%20we%20keep%20your%20information%3F
+          - strong [ref=f379e35]: 7. How long do we keep your information?
+        - link [ref=f379e36] [cursor=pointer]:
+          - /url: /privacy-policy#How%20long%20do%20we%20keep%20your%20information%3F
+          - strong [ref=f379e37]: 8. How do we keep your information safe?
+        - link [ref=f379e38] [cursor=pointer]:
+          - /url: /privacy-policy#Do%20we%20collect%20information%20from%20minors%3F
+          - strong [ref=f379e39]: 9. Do we collect information from minors?
+        - link [ref=f379e40] [cursor=pointer]:
+          - /url: /privacy-policy#What%20are%20your%20privacy%20rights%3F
+          - strong [ref=f379e41]: 10. What are your privacy rights?
+        - link [ref=f379e42] [cursor=pointer]:
+          - /url: /privacy-policy#Controls%20for%20Do-Not-Track%20Features
+          - strong [ref=f379e43]: 11. Controls for do-not-track features
+        - link [ref=f379e44] [cursor=pointer]:
+          - /url: /privacy-policy#Do%20United%20States%20residents%20have%20specific%20privacy%20rights%3F
+          - strong [ref=f379e45]: 12. Do United States residents have specific privacy rights?
+        - link [ref=f379e46] [cursor=pointer]:
+          - /url: /privacy-policy#Do%20we%20make%20updates%20to%20this%20notice%3F
+          - strong [ref=f379e47]: 13. Do we make updates to this notice?
+        - link [ref=f379e48] [cursor=pointer]:
+          - /url: /privacy-policy#How%20can%20you%20contact%20us%20about%20this%20notice%3F
+          - strong [ref=f379e49]: 14. How can you contact us about this notice?
+        - link [ref=f379e50] [cursor=pointer]:
+          - /url: /privacy-policy#how-can-you-review-update-or-delete-the-data-we-collect-from-you
+          - strong [ref=f379e51]: 15. How can you review, update, or delete the data we collect from you?
+      - article [ref=f379e53]:
+        - generic [ref=f379e54]:
+          - heading "Privacy Policy" [level=1] [ref=f379e55]
+          - paragraph [ref=f379e56]: This privacy notice for GlassFlow GmbH ('we', 'us', or 'our'), describes how and why we might collect, store, use, and/or share…
+        - generic [ref=f379e57]:
+          - heading "Summary of key points" [level=1] [ref=f379e58]
+          - paragraph [ref=f379e59]: A bullet summary of the notice, with links to the sections.
+        - list [ref=f379e60]:
+          - listitem [ref=f379e61]:
+            - generic [ref=f379e62]:
+              - heading "What information do we collect?" [level=1] [ref=f379e63]:
+                - generic [aria-hidden] [ref=f379e64]: "1."
+                - text: What information do we collect?
+              - paragraph [ref=f379e65]:
+                - strong [ref=f379e66]: "In Short:"
+                - text: Data you provide, plus product telemetry.
+          - listitem [ref=f379e67]:
+            - generic [ref=f379e68]:
+              - heading "How do we process your information?" [level=1] [ref=f379e69]:
+                - generic [aria-hidden] [ref=f379e70]: "2."
+                - text: How do we process your information?
+              - paragraph [ref=f379e71]:
+                - strong [ref=f379e72]: "In Short:"
+                - text: To provide and improve the services, communicate, for security and for legal compliance.
+          - listitem [ref=f379e73]:
+            - generic [ref=f379e74]:
+              - heading "What legal bases do we rely on to process your information?" [level=1] [ref=f379e75]:
+                - generic [aria-hidden] [ref=f379e76]: "3."
+                - text: What legal bases do we rely on to process your information?
+              - paragraph [ref=f379e77]:
+                - strong [ref=f379e78]: "In Short:"
+                - text: GDPR / UK bases (consent, contract, legal obligation, legitimate interests) and Canada.
+          - listitem [ref=f379e79]:
+            - generic [ref=f379e80]:
+              - heading "When and with whom do we share your personal information?" [level=1] [ref=f379e81]:
+                - generic [aria-hidden] [ref=f379e82]: "4."
+                - text: When and with whom do we share your personal information?
+              - paragraph [ref=f379e83]:
+                - strong [ref=f379e84]: "In Short:"
+                - text: Business transfers and service providers.
+          - listitem [ref=f379e85]:
+            - generic [ref=f379e86]:
+              - heading "Do we use cookies and other tracking technologies?" [level=1] [ref=f379e87]:
+                - generic [aria-hidden] [ref=f379e88]: "5."
+                - text: Do we use cookies and other tracking technologies?
+              - paragraph [ref=f379e89]:
+                - strong [ref=f379e90]: "In Short:"
+                - text: Cookies and trackers.
+          - listitem [ref=f379e91]:
+            - generic [ref=f379e92]:
+              - heading "How do we handle your social logins?" [level=1] [ref=f379e93]:
+                - generic [aria-hidden] [ref=f379e94]: "6."
+                - text: How do we handle your social logins?
+              - paragraph [ref=f379e95]:
+                - strong [ref=f379e96]: "In Short:"
+                - text: Data received from social providers.
+          - listitem [ref=f379e97]:
+            - generic [ref=f379e98]:
+              - heading "How long do we keep your information?" [level=1] [ref=f379e99]:
+                - generic [aria-hidden] [ref=f379e100]: "7."
+                - text: How long do we keep your information?
+              - paragraph [ref=f379e101]:
+                - strong [ref=f379e102]: "In Short:"
+                - text: Retention as long as necessary.
+          - listitem [ref=f379e103]:
+            - generic [ref=f379e104]:
+              - heading "How do we keep your information safe?" [level=1] [ref=f379e105]:
+                - generic [aria-hidden] [ref=f379e106]: "8."
+                - text: How do we keep your information safe?
+              - paragraph [ref=f379e107]:
+                - strong [ref=f379e108]: "In Short:"
+                - text: Organisational and technical measures.
+          - listitem [ref=f379e109]:
+            - generic [ref=f379e110]:
+              - heading "Do we collect information from minors?" [level=1] [ref=f379e111]:
+                - generic [aria-hidden] [ref=f379e112]: "9."
+                - text: Do we collect information from minors?
+              - paragraph [ref=f379e113]:
+                - strong [ref=f379e114]: "In Short:"
+                - text: No under-18s.
+          - listitem [ref=f379e115]:
+            - generic [ref=f379e116]:
+              - heading "What are your privacy rights?" [level=1] [ref=f379e117]:
+                - generic [aria-hidden] [ref=f379e118]: "10."
+                - text: What are your privacy rights?
+              - paragraph [ref=f379e119]:
+                - strong [ref=f379e120]: "In Short:"
+                - text: EEA / UK / CH / CA rights, withdrawing consent, account information.
+          - listitem [ref=f379e121]:
+            - generic [ref=f379e122]:
+              - heading "Controls for Do-Not-Track Features" [level=1] [ref=f379e123]:
+                - generic [aria-hidden] [ref=f379e124]: "11."
+                - text: Controls for Do-Not-Track Features
+              - paragraph [ref=f379e125]:
+                - strong [ref=f379e126]: "In Short:"
+                - text: DNT signals are not honoured (there is no standard).
+          - listitem [ref=f379e127]:
+            - generic [ref=f379e128]:
+              - heading "Do United States residents have specific privacy rights?" [level=1] [ref=f379e129]:
+                - generic [aria-hidden] [ref=f379e130]: "12."
+                - text: Do United States residents have specific privacy rights?
+              - paragraph [ref=f379e131]:
+                - strong [ref=f379e132]: "In Short:"
+                - text: California, Colorado and Virginia.
+              - heading "What categories of personal information do we collect?" [level=2] [ref=f379e133]
+              - heading "Category Examples Collected" [level=2] [ref=f379e134]
+              - heading "How do we use and share your personal information?" [level=2] [ref=f379e135]
+              - heading "Will your information be shared with anyone else?" [level=2] [ref=f379e136]
+              - heading "CCPA Privacy Notice" [level=2] [ref=f379e137]
+              - heading "Right to request deletion of the data - Request to delete" [level=2] [ref=f379e138]
+          - listitem [ref=f379e139]:
+            - generic [ref=f379e140]:
+              - heading "Do we make updates to this notice?" [level=1] [ref=f379e141]:
+                - generic [aria-hidden] [ref=f379e142]: "13."
+                - text: Do we make updates to this notice?
+              - paragraph [ref=f379e143]:
+                - strong [ref=f379e144]: "In Short:"
+                - text: The notice is updated as needed.
+          - listitem [ref=f379e145]:
+            - generic [ref=f379e146]:
+              - heading "How can you contact us about this notice?" [level=1] [ref=f379e147]:
+                - generic [aria-hidden] [ref=f379e148]: "14."
+                - text: How can you contact us about this notice?
+              - paragraph [ref=f379e149]:
+                - strong [ref=f379e150]: "In Short:"
+                - text: Contact details.
+          - listitem [ref=f379e151]:
+            - generic [ref=f379e152]:
+              - heading "How can you review, update, or delete the data we collect from you?" [level=1] [ref=f379e153]:
+                - generic [aria-hidden] [ref=f379e154]: "15."
+                - text: How can you review, update, or delete the data we collect from you?
+              - paragraph [ref=f379e155]:
+                - strong [ref=f379e156]: "In Short:"
+                - text: The data-subject request process.
+        - paragraph [ref=f379e158]:
+          - link "Read the full text on glassflow.ai" [ref=f379e159] [cursor=pointer]:
+            - /url: https://www.glassflow.ai/privacy-policy
+  - contentinfo [ref=f379e162]:
+    - generic [ref=f379e166]:
+      - heading "Ready to give your agents better data and total recall?" [level=2] [ref=f379e168]
+      - generic [ref=f379e170]:
+        - generic [ref=f379e171]:
+          - heading "Start with Tares" [level=3] [ref=f379e172]
+          - paragraph [ref=f379e173]: Feed your agents the right data.
+        - link "get_started" [ref=f379e174] [cursor=pointer]:
+          - /url: https://console.tares-glassflow.com/
+      - generic [ref=f379e179]:
+        - generic [ref=f379e180]:
+          - heading "Start with Rius" [level=3] [ref=f379e181]
+          - paragraph [ref=f379e182]: See and debug agents in production.
+        - link "get_started" [ref=f379e183] [cursor=pointer]:
+          - /url: https://console.rius-glassflow.com/signup?utm_source=glassflow&utm_medium=footer&utm_campaign=signup&utm_content=core
+    - generic [ref=f379e188]:
+      - link "GlassFlow home" [ref=f379e189] [cursor=pointer]:
+        - /url: /
+        - img "GlassFlow" [ref=f379e190]
+      - generic [ref=f379e191]:
+        - generic [ref=f379e192]: products
+        - generic [ref=f379e198]:
+          - link "tares Feed your agents the right data. Open source" [ref=f379e199] [cursor=pointer]:
+            - /url: /tares
+            - generic [ref=f379e200]:
+              - generic [ref=f379e201]: tares
+              - generic [ref=f379e202]: Feed your agents the right data. Open source
+          - link "rius See what your agents did in production." [ref=f379e203] [cursor=pointer]:
+            - /url: /rius
+            - generic [ref=f379e204]:
+              - generic [ref=f379e205]: rius
+              - generic [ref=f379e206]: See what your agents did in production.
+      - generic [ref=f379e207]:
+        - link "contact" [ref=f379e208] [cursor=pointer]:
+          - /url: /contact
+        - link "docs" [ref=f379e214] [cursor=pointer]:
+          - /url: https://docs.glassflow.ai/
+        - link "blog" [ref=f379e220] [cursor=pointer]:
+          - /url: /blog
+        - link "about" [ref=f379e226] [cursor=pointer]:
+          - /url: /about
+      - generic [ref=f379e232]:
+        - link "X" [ref=f379e233] [cursor=pointer]:
+          - /url: https://x.com/glassflowdev
+        - link "LinkedIn" [ref=f379e234] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/glassflow-dev/
+        - link "GitHub" [ref=f379e235] [cursor=pointer]:
+          - /url: https://github.com/glassflow/tares
+    - generic [ref=f379e237]:
+      - generic [ref=f379e238]: 2026 - Copyright GlassFlow.ai
+      - link "Terms & Conditions" [ref=f379e239] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy Policy" [ref=f379e240] [cursor=pointer]:
+        - /url: /privacy-policy

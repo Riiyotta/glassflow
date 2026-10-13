@@ -18,16 +18,24 @@ const META = {
 }
 
 export const GRADIENT_TEXT = 'bg-[linear-gradient(244deg,#A8A8A8_0%,#FFFFFF_100%)] bg-clip-text text-transparent'
-const HEADING = `font-inter text-[56px] font-medium leading-[67.2px] tracking-[-2.24px] ${GRADIENT_TEXT}`
+const HEADING = 'font-inter text-[56px] font-medium leading-[67.2px] tracking-[-2.24px]'
+// Live paints the gradients on an inline <span> inside each heading (not the block), so the
+// 244deg title gradient spans only the word and the CTA's 0deg white->grey restarts on every line.
+const CTA_GRADIENT = 'bg-[linear-gradient(0deg,#FFFFFF_0%,#A8A8A8_100%)] bg-clip-text text-transparent'
 
 function BottomCta() {
   return (
-    <section className="relative flex w-full max-w-[1400px] flex-col items-center justify-end px-4 h-[900px] pb-[159px] text-center md:px-0">
-      <div className="absolute inset-x-0 bottom-0 h-[818px] overflow-hidden">
+    // live: copy sits 408px into the image box, 24px side padding and 160px below, so the box grows
+    // when the subtitle wraps (tablet: 846 vs 818).
+    <section className="relative flex w-full max-w-[1400px] flex-col items-center px-6 pb-[159px] pt-[408px] text-center">
+      <div className="absolute inset-0 overflow-hidden">
         <img src={L('IXfpuu2qaDEHssgxdeU5Z0pWoI.jpeg')} alt="" className="h-full w-full object-cover" />
         <div className="absolute inset-0 bg-[linear-gradient(180deg,#000000_0%,rgba(0,0,0,0)_40%)]" aria-hidden="true" />
       </div>
-      <h2 className={`relative max-w-[800px] ${HEADING}`}>Data transformations at TB scale for ClickHouse</h2>
+      {/* live (Inter 500) breaks after "TB"; the clone only ships Inter 400, so cap the width to keep that break */}
+      <h2 className={`relative w-full max-w-[720px] break-words ${HEADING}`}>
+        <span className={CTA_GRADIENT}>Data transformations at TB scale for ClickHouse</span>
+      </h2>
       <p className="relative mt-[17px] font-inter text-[20px] leading-[28px] tracking-[-0.8px] text-[#A8A3A3]">
         Get query ready data, lower ClickHouse load, and reliable pipelines at enterprise scale.
       </p>
@@ -66,12 +74,17 @@ export default function Category() {
   return (
     <LegacyLayout tone="text-[#A8A3A3]">
       <main className="flex flex-col items-center gap-[86px] px-4 pb-[140px] pt-[140px] md:px-5">
-        <h1 className={`w-full max-w-[1220px] text-center ${HEADING}`}>{cat.label}</h1>
-        {/* live squeezes 3 columns at 390 (defect); recommended fix: one column with 16px gutters */}
-        <div className="grid w-full max-w-[1220px] grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {posts.map((p) => (
-            <PostCard key={p.slug} post={p} size="category" />
-          ))}
+        <h1 className={`w-full max-w-[1220px] text-center ${HEADING}`}>
+          <span className={GRADIENT_TEXT}>{cat.label}</span>
+        </h1>
+        {/* live grid block: 34px top / 48px bottom padding (82px even when empty), 24px sides, 3 columns
+            from tablet up. Live squeezes 3 columns at 390 (defect); clone fix: one column, 16px gutters. */}
+        <div className="w-full pt-[34px] md:px-6">
+          <div className="mx-auto grid w-full max-w-[1220px] grid-cols-1 gap-8 pb-12 md:grid-cols-3">
+            {posts.map((p) => (
+              <PostCard key={p.slug} post={p} size="category" />
+            ))}
+          </div>
         </div>
         <BottomCta />
       </main>

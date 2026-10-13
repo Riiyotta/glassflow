@@ -127,7 +127,7 @@ function Sidebar({ s }) {
           {p}
         </p>
       ))}
-      <a href={s.site} className="char-roll-host hairline inline-flex h-12 items-center self-start px-5 py-1 font-inter text-[14px] font-medium text-white">
+      <a href={s.site} target="_blank" rel="noopener noreferrer" className="char-roll-host hairline inline-flex h-12 items-center self-start px-5 py-1 font-inter text-[14px] font-medium text-white">
         <span className="relative block h-6 overflow-hidden whitespace-nowrap leading-6">
           <CharRoll text="Visit Website" />
         </span>

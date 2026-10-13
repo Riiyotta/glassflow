@@ -57,7 +57,7 @@ function HeadingBand({ title, sub, className = '' }) {
 
 function Timeline() {
   return (
-    <Shell inner="pl-6 lg:px-[128px]">
+    <Shell inner="lg:px-[128px]">
       {TIMELINE.map((r, i) => (
         <div key={i} className="flex">
           <img src={T(`timeline-${i + 1}.svg`)} alt="" className="h-6 w-6 shrink-0" />
@@ -106,7 +106,8 @@ function Terminal({ rows }) {
             <span className="t-mono">{mark}</span>
             <span className={`min-w-0 break-words font-mono text-[12px] leading-[18.2px] ${mark === '#' ? 'opacity-80' : ''}`}>
               {text}
-              {cont && <span className="block lg:pl-[58px]">{cont}</span>}
+              {/* live: the continuation line never wraps and is centred in the column (overflows on mobile) */}
+              {cont && <span className="flex justify-center whitespace-nowrap">{cont}</span>}
             </span>
           </div>
         ))}
@@ -125,8 +126,10 @@ function RunIt() {
             title="Run it in two commands"
             sub={
               <>
-                <p>The quickstart takes it from here. Rather not host it?</p>
-                <p>Use the cloud.</p>
+                <p>
+                  The quickstart takes it from here. Rather not host it? <br className="hidden md:inline" />
+                  Use the cloud.
+                </p>
               </>
             }
           />
@@ -163,7 +166,7 @@ export default function Tares() {
       />
       <Spacer />
       <TitleRow title="What teams build with it" />
-      <ImageCardGrid cards={CARDS} />
+      <ImageCardGrid cards={CARDS} cols="md:grid-cols-2 lg:grid-cols-4" />
       <Spacer />
       <TabsShowcase
         barGraphic={T('bar-graphic.svg')}
@@ -188,6 +191,7 @@ export default function Tares() {
       <Spacer />
       <ImageCTA
         title="Connect any source. Query it from an agent minutes later."
+        gapClass="gap-8 md:gap-16"
         primary={{ label: 'start on the cloud', href: CONSOLE }}
         secondary={{ label: 'star on github', href: 'https://github.com/glassflow/tares' }}
       />

@@ -106,7 +106,10 @@ export function TwoProductsBand({ variant = 'pages' }) {
       arrow={false}
       textClass="max-w-[640px] gap-8"
       titleClass="max-w-[420px]"
-      bodyClass={`t-body ${posts || variant === 'cases' ? 'max-w-[420px]' : 'max-w-[640px]'}`}
+      // live: the body wraps at 420px for every variant (pages/posts/cases), e.g. /contact and /about
+      bodyClass="t-body max-w-[420px]"
+      // live phone variant: 32px between copy and buttons (64px from tablet up)
+      gapClass="gap-8 md:gap-16"
     />
   )
 }
@@ -257,7 +260,8 @@ export function ShareBar() {
 const CARD_IMAGE = {
   index: 'h-[209px] lg:h-[242px]',
   related: 'h-[223px] lg:h-[250px]',
-  category: 'h-[220px]',
+  // live: 385x220 at desktop, scales with the 3-column grid on tablet (219 -> 125); phone keeps 220
+  category: 'h-[220px] md:h-auto md:aspect-[385/220]',
 }
 export function PostCard({ post, size = 'index', className = '' }) {
   return (
@@ -314,12 +318,14 @@ export function CaseStudiesTitle({ as: Tag = 'h1', title = 'Case Studies', compa
   return (
     <Shell as="section">
       <HeroBar bg="bg-bar" />
-      <div className={`relative flex items-center justify-center overflow-hidden bg-panel p-8 lg:px-8 lg:py-16 ${compact ? 'lg:h-[184px]' : 'lg:h-[263px]'}`}>
+      {/* live: centred column [title, 15px gap, 1px rule] padded 32 (phone) / 64x32 (tablet+) */}
+      <div className={`relative flex flex-col items-center justify-center gap-[15px] overflow-hidden bg-panel p-8 md:py-16 ${compact ? 'lg:h-[184px]' : 'lg:h-[263px]'}`}>
         <img src={MOUNTAIN_BG} alt="" className={`absolute inset-0 h-full w-full ${compact ? 'object-cover' : 'object-contain'}`} />
         <PixelCorner />
         <Tag className="relative text-center font-display text-[32px] leading-[32px] tracking-[-1.28px] text-cream md:text-[40px] md:leading-[40px] md:tracking-[-1.6px]">
           {title}
         </Tag>
+        <span aria-hidden="true" className="relative block h-px w-px" />
       </div>
     </Shell>
   )
@@ -327,14 +333,14 @@ export function CaseStudiesTitle({ as: Tag = 'h1', title = 'Case Studies', compa
 
 export function CaseStudyCards() {
   return (
-    <Shell inner="grid grid-cols-1 md:grid-cols-2 md:gap-1 md:p-1">
+    <Shell inner="grid grid-cols-1 md:gap-1 md:p-1 lg:grid-cols-2">
       {CASE_STUDIES.map((c) => (
         <a key={c.slug} href={`/case-studies/${c.slug}`} className="cs-card flex flex-col bg-deep">
           <div className="hairline flex h-[78px] items-center p-6">
             <img src={c.logo} alt={c.slug} className="h-[30px]" style={{ width: c.logoW }} />
           </div>
           <div className="hairline flex h-[121px] p-6">
-            <h3 className="max-w-[602px] font-display text-[26px] font-medium leading-[36.4px] tracking-[-1.04px] text-cream">
+            <h3 className="max-w-[602px] font-display md:max-w-[497px] lg:max-w-[602px] text-[26px] font-medium leading-[36.4px] tracking-[-1.04px] text-cream">
               {c.title}
             </h3>
           </div>

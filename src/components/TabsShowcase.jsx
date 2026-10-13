@@ -36,12 +36,12 @@ export default function TabsShowcase({ title, lead, tabs, barGraphic }) {
           <AppearText as="h2" split="word" className="font-display text-[40px] leading-[40px] tracking-[-1.6px] text-cream">
             {title}
           </AppearText>
-          <div className="opacity-[0.64]">
+          <div className="max-w-[600px] opacity-[0.64]">
             <AppearText delay={70} className="font-display text-[21px] leading-[29.4px] tracking-[-0.84px] text-cream">
               {lead}
             </AppearText>
           </div>
-          <div className="flex max-w-[592px] flex-col gap-1">
+          <div className="flex flex-col gap-1 lg:max-w-[592px]">
             {tabs.map((t, i) => {
               const on = i === active
               return (
@@ -69,7 +69,8 @@ export default function TabsShowcase({ title, lead, tabs, barGraphic }) {
             })}
           </div>
         </div>
-        <div className="h-[359px] p-3 lg:h-[548px]">
+        {/* live: the image fills its cell on mobile / desktop; tablet insets it 64px in a 500 band */}
+        <div className="h-[359px] md:h-[500px] md:p-16 lg:h-[548px] lg:p-0">
           <img src={tabs[active].image} alt="" className="h-full w-full object-cover" />
         </div>
       </div>

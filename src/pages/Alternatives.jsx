@@ -72,7 +72,10 @@ const PAGES = {
   arize: {
     slug: 'arize',
     docTitle: 'Arize Alternative for AI Agents | Rius vs Arize Phoenix',
-    width: 'max-w-[1200px]',
+    // Live page is a fixed-size centered iframe box per breakpoint (420 / 918 / 1200 wide);
+    // heights are the iframe's fixed heights minus the footer's 67px top spacer.
+    width: 'w-[420px] ml-[calc(50%-210px)] md:w-[918px] md:ml-[calc(50%-459px)] lg:w-[1200px] lg:ml-[calc(50%-600px)]',
+    frame: 'min-h-[12801px] md:min-h-[9209px] lg:min-h-[8425px]',
     h1: 'Rius is an Arize alternative built for companies shipping agents every day.',
     lead: 'Phoenix means running your own stack. AX includes 25k–50k spans a month. Rius is managed, real-time and includes 500k spans for $19/mo.',
     smallPrint: '1 month free, then $19/mo · managed · 500k spans included',
@@ -196,7 +199,8 @@ const PAGES = {
   langfuse: {
     slug: 'langfuse',
     docTitle: 'Langfuse Alternative for AI Agents | Rius by GlassFlow',
-    width: 'max-w-[1234px]',
+    width: 'w-[420px] ml-[calc(50%-210px)] md:w-[918px] md:ml-[calc(50%-459px)] lg:w-[1234px] lg:ml-[calc(50%-617px)]',
+    frame: 'min-h-[11415px] md:min-h-[8052px] lg:min-h-[7560px]',
     h1: 'Rius is the Langfuse alternative that does the debugging for you.',
     lead: 'Rius is managed observability for AI agents in prod. Unlike Langfuse, which gives you traces to dig through, Rius detects silent failures like tool loops and crashed runs and points you to the root cause.',
     smallPrint: '1 month free, then $19/mo · managed · no ClickHouse to run',
@@ -349,9 +353,9 @@ function SecondaryButton({ label, href }) {
   )
 }
 
-function Num({ children }) {
+function Num({ children, className = '' }) {
   return (
-    <span className="inline-flex h-6 w-6 shrink-0 items-center justify-center bg-amber font-mono text-[12px] font-medium leading-[12px] text-deep">
+    <span className={`${className} inline-flex h-6 w-6 shrink-0 items-center justify-center bg-amber font-mono text-[12px] font-medium leading-[12px] text-deep`}>
       {children}
     </span>
   )
@@ -386,7 +390,7 @@ function Details({ title, open, onToggle, small = false, children }) {
         type="button"
         aria-expanded={open}
         onClick={onToggle}
-        className={`flex w-full items-center justify-between gap-4 text-left font-mono font-bold leading-[18.2px] ${
+        className={`flex w-full items-center justify-between gap-4 text-left font-mono font-bold leading-[18.2px] tracking-normal ${
           small ? 'px-3 py-[14px] text-[13px] text-cream' : 'px-6 py-5 text-[14px] text-white'
         } focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-amber`}
       >
@@ -409,7 +413,7 @@ function Hero({ d }) {
     <Section>
       <Panel tag="rius">
         <div className="grid grid-cols-1">
-          <div className="flex flex-col justify-center px-5 py-10 md:px-8 md:pb-10 md:pt-16">
+          <div className="flex flex-col justify-center px-8 pb-10 pt-16">
             <div className="flex max-w-[860px] flex-col gap-[15px]">
               <h1 className={H1}>{d.h1}</h1>
               <p className={LEAD}>{d.lead}</p>
@@ -561,12 +565,12 @@ function Comparison({ d }) {
                     </span>
                   </th>
                   <td className={`block w-full border-b ${LINE} bg-panel px-4 py-[14px] md:table-cell md:w-[39%] md:border md:px-6 md:py-5`}>
-                    <span className={`mb-1 block md:hidden ${ML} text-amber`}>Rius</span>
+                    <span className={`mb-1 block md:hidden ${ML} leading-[18px] text-amber`}>Rius</span>
                     <b className="font-bold">{d.rius[i][0]}</b>
                     {d.rius[i][1]}
                   </td>
                   <td className={`block w-full border-b ${LINE} px-4 py-[14px] md:table-cell md:w-[39%] md:border md:px-6 md:py-5`}>
-                    <span className={`mb-1 block md:hidden ${ML} text-amber`}>{colText}</span>
+                    <span className={`mb-1 block md:hidden ${ML} leading-[18px] text-amber`}>{colText}</span>
                     {v.cells[i]}
                   </td>
                 </tr>
@@ -610,7 +614,7 @@ function Silent() {
     <Section>
       <Panel tag="rius">
         <div className="grid grid-cols-1 gap-px bg-embed-line md:grid-cols-[minmax(0,1fr)_minmax(0,2fr)]">
-          <div className="bg-card-dark px-5 py-10 md:px-8 md:py-16">
+          <div className="flex items-center bg-card-dark px-5 py-10 md:px-8 md:py-16">
             <h2 className={H2}>
               <span className="text-amber">Some of the silent failures</span> that Rius would have caught for you.
             </h2>
@@ -619,8 +623,8 @@ function Silent() {
             {SILENT.map(([kick, title, text]) => (
               <div key={title} className="flex flex-col gap-3 bg-card-dark p-6">
                 <span className={KICK}>{kick}</span>
-                <p className="text-[20px] leading-[26px]">{title}</p>
-                <p className={`text-[14px] leading-[19.6px] ${MU}`}>{text}</p>
+                <p className="text-[20px] leading-[26px] tracking-[-0.96px]">{title}</p>
+                <p className={`${SM} ${MU}`}>{text}</p>
               </div>
             ))}
           </div>
@@ -761,18 +765,20 @@ function SideBySide() {
   return (
     <Section>
       <Panel tag="rius">
-        <div className="flex flex-col gap-[15px] p-8">
-          <h2 className={H2}>
-            Run both side by side. <span className="text-amber">Compare what each catches.</span>
-          </h2>
-          <p className={MU}>Route the same traces to Langfuse and Rius for a week. Langfuse keeps running until you decide.</p>
-        </div>
+        <Header
+          heading={
+            <>
+              Run both side by side. <span className="text-amber">Compare what each catches.</span>
+            </>
+          }
+          sub="Route the same traces to Langfuse and Rius for a week. Langfuse keeps running until you decide."
+        />
         <div className={`grid grid-cols-1 gap-px border-t ${LINE} bg-embed-line md:grid-cols-2`}>
           <div className="flex flex-col bg-card-dark">
             <Bar tag="01" />
             <div className="flex flex-1 flex-col gap-[10px] p-6">
               <p className={MT}>Already on OpenTelemetry? Dual-export.</p>
-              <p className={MU}>Using OpenLLMetry, OpenInference or a vanilla OTel SDK? Add Rius as a second exporter in your OpenTelemetry Collector. Langfuse keeps receiving every trace.</p>
+              <p className={`${SM} ${MU}`}>Using OpenLLMetry, OpenInference or a vanilla OTel SDK? Add Rius as a second exporter in your OpenTelemetry Collector. Langfuse keeps receiving every trace.</p>
               <pre className={code}>
                 <span className="text-muted"># otel-collector.yaml</span>
                 {'\n'}
@@ -787,7 +793,7 @@ function SideBySide() {
             <Bar tag="02" />
             <div className="flex flex-1 flex-col gap-[10px] p-6">
               <p className={MT}>On the Langfuse SDK? Swap the decorators.</p>
-              <p className={MU}>The Langfuse SDK can't send to Rius directly. The Rius SDK uses the same patterns, so the switch is mechanical.</p>
+              <p className={`${SM} ${MU}`}>The Langfuse SDK can't send to Rius directly. The Rius SDK uses the same patterns, so the switch is mechanical.</p>
               <pre className={code}>
                 <span className="text-muted">{'# Langfuse SDK'.padEnd(34)}# Rius SDK</span>
                 {SDK_MAP.map(([a, b]) => (
@@ -1010,9 +1016,7 @@ function BetterPick({ b, slug }) {
         <div className={`grid grid-cols-1 gap-px border-t ${LINE} bg-embed-line md:grid-cols-3`}>
           {b.cards.map(([t, p], i) => (
             <div key={t} className="flex flex-col gap-[10px] bg-card-dark p-6">
-              <span className="self-start">
-                <Num>{String(i + 1).padStart(2, '0')}</Num>
-              </span>
+              <Num className="self-start">{String(i + 1).padStart(2, '0')}</Num>
               <p className={MT}>{t}</p>
               <p className={MU}>{p}</p>
             </div>
@@ -1056,8 +1060,8 @@ export default function Alternatives({ vendor }) {
   }, [d])
 
   return (
-    <div className="lg:px-16">
-      <div className={`mx-auto ${d.width} bg-page font-inter text-[16px] leading-[22.4px] tracking-[-0.64px] text-cream antialiased`}>
+    <div className={`overflow-x-clip ${d.frame}`}>
+      <div className={`${d.width} bg-page font-display text-[16px] leading-[22.4px] tracking-[-0.64px] text-cream antialiased`}>
         <Hero d={d} />
         <Logos />
         <Quote />

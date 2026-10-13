@@ -133,10 +133,20 @@ export function appear(
     const done = () => el.setAttribute('data-revealed', '')
     if (!el.animate) return done()
     const a = el.animate([from, to], { duration, delay: delays[i], easing, fill: 'both' })
+    // Mount-only, never scroll-gated: the live effects all run once on load. If the document
+    // timeline stalls (hidden/backgrounded tab, offscreen parts not ticked), force the end state on
+    // a timer so below-the-fold text is never left at its .001 start opacity waiting for a scroll.
+    const fallback = setTimeout(() => {
+      if (a.playState !== 'finished') a.finish()
+    }, delays[i] + duration + 50)
     a.finished.then(() => {
+      clearTimeout(fallback)
       done()
       a.cancel()
-    }).catch(() => {})
+    }).catch(() => {
+      clearTimeout(fallback)
+      done()
+    })
   })
 }
 

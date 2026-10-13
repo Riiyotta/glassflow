@@ -34,7 +34,7 @@ const AGENTS = [
   { icon: 'agents-short', label: 'Short:', how: ['Typically running for ', 'seconds', ''], what: 'Chat turns, classifiers, RAG lookups.' },
   { icon: 'agents-mid', minH: 'lg:min-h-[107px]', label: 'Mid:', how: ['Usually run for ', 'minutes', ''], what: 'A content agent drafting a post. An incident summarizer. A nightly sync.' },
   { icon: 'agents-long', label: 'Long:', how: ['Agents that can run for ', 'hours', ''], what: 'Hour-long calls transcribed and reasoned over. Thousand-page document sets. Deep research that plans, retrieves, verifies,. Optimization loops.' },
-  { icon: 'agents-always', minH: 'lg:min-h-[96px]', label: 'Always-on:', how: ['Agents that run ', 'indefinitely', 'or are always-on'], what: 'Infra monitors. Ops agents. Live queues that never close.' },
+  { icon: 'agents-always', minH: 'md:min-h-[96px]', label: 'Always-on:', how: ['Agents that run ', 'indefinitely', <>or are <b className="font-bold">always-on</b></>], what: 'Infra monitors. Ops agents. Live queues that never close.' },
 ]
 
 const HOW = [
@@ -44,10 +44,10 @@ const HOW = [
 ]
 
 const FEATURES = [
-  { title: 'Long-running agents', text: 'One session across restarts and sub-agents, not thousands of disconnected requests.', image: R('ypPPtAmKs7GN5EUUsnZFHaup5fU.png') },
-  { title: 'Query via MCP', text: <>Your coding agent queries traces over MCP <br />and ships the fix. No dashboard.</>, image: R('C30wyrelJdoqD8SJLxqY6WaUMQ.png') },
+  { fs: 'md:text-[13px] lg:text-[14px]', title: 'Long-running agents', text: 'One session across restarts and sub-agents, not thousands of disconnected requests.', image: R('ypPPtAmKs7GN5EUUsnZFHaup5fU.png') },
+  { fs: 'md:text-[13px] lg:text-[14px]', title: 'Query via MCP', text: <>Your coding agent queries traces over MCP <br />and ships the fix. No dashboard.</>, image: R('C30wyrelJdoqD8SJLxqY6WaUMQ.png') },
   { title: 'Privacy Controls', text: 'Strip or mask sensitive content in your own process, so PII never reaches our backend.', image: R('RO233ORpmhdwm5ELT37gnlWU3Y.png') },
-  { title: 'Collab with your team', text: 'Share a window of traces with anyone. They see metadata and rollups. No login or seat required', image: R('VE4uzuRtCj4sgehabFjku1AR1k.png') },
+  { fs: 'md:text-[13px] lg:text-[14px]', title: 'Collab with your team', text: 'Share a window of traces with anyone. They see metadata and rollups. No login or seat required', image: R('VE4uzuRtCj4sgehabFjku1AR1k.png') },
 ]
 
 const PLANS = [
@@ -92,7 +92,7 @@ const FAQS = [
 
 function Benefits() {
   return (
-    <Shell inner="grid grid-cols-1 bg-card-dark lg:grid-cols-4">
+    <Shell inner="grid grid-cols-1 bg-card-dark md:grid-cols-2 lg:grid-cols-4">
       {BENEFITS.map((b) => (
         <div key={b} className="flex h-[72px] items-center justify-center gap-2">
           <img src={R('benefit.svg')} alt="" className="h-6 w-6" />
@@ -105,7 +105,7 @@ function Benefits() {
 
 function Logos() {
   return (
-    <Shell inner="grid grid-cols-1 lg:grid-cols-2">
+    <Shell inner="grid grid-cols-1 md:grid-cols-2">
       {LOGOS.map((half) => (
         <div key={half.label}>
           <div className="hairline flex h-[50px] items-center bg-panel px-8 py-4">
@@ -126,23 +126,27 @@ function Logos() {
 
 function Retrospective() {
   return (
+    // live order: image first on mobile, text first on tablet, image left on desktop.
+    // The text column is top-aligned (32px padding / 32px gap below lg, 64/32 and 15px at lg).
     <Shell inner="grid grid-cols-1 lg:grid-cols-2">
-      <div className="relative h-[372px] p-3 lg:h-[530px]">
+      <div className="relative h-[372px] md:order-2 md:h-[600px] lg:order-1 lg:h-[530px]">
         <img src={R('cz4OCmAigDhK3lTGZTCj6JubaE0.jpg')} alt="" className="h-full w-full object-cover" />
         <LottiePlayer
           src={R('vUQ6vAk7qnGO0kq09zG3qaBBo.json')}
-          className="absolute left-1/2 top-1/2 h-[278px] w-[275px] -translate-x-1/2 -translate-y-1/2 lg:h-[405px] lg:w-[400px]"
+          className="absolute left-1/2 top-1/2 h-[278px] w-[275px] -translate-x-1/2 -translate-y-1/2 md:h-[281px] md:w-[562px] lg:h-[405px] lg:w-[400px]"
         />
       </div>
-      <div className="flex flex-col justify-center gap-[15px] px-8 py-16">
+      <div className="flex flex-col gap-[15px] p-8 md:order-1 md:gap-8 lg:order-2 lg:gap-[15px] lg:px-8 lg:py-16">
         <h2 className="font-display text-[40px] leading-[48px] tracking-[-1.6px] text-cream">
           Retrospective observability is fine for two-second runs. What if yours take six hours?
         </h2>
-        <div className="flex flex-col font-display text-[18px] leading-[25.2px] tracking-[-0.72px] text-cream opacity-[0.64]">
+        <div className="flex max-w-[600px] flex-col font-display text-[18px] leading-[25.2px] tracking-[-0.72px] text-cream opacity-[0.64]">
           {RETRO.map((p) => (
             <p key={p}>{p}</p>
           ))}
         </div>
+        {/* live stack ends with an empty 1x1 layer (adds one more gap below the body) */}
+        <span aria-hidden="true" className="block h-px w-px shrink-0" />
       </div>
     </Shell>
   )
@@ -154,21 +158,25 @@ function AgentsLength() {
   return (
     <Shell as="section">
       <DeepBar />
-      <div className="grid grid-cols-1 bg-card-dark lg:h-[490px] lg:grid-cols-[525px_1fr]">
-        <div className="relative flex h-[144px] items-center justify-center overflow-hidden lg:h-auto">
+      <div className="grid grid-cols-1 bg-card-dark lg:h-[490px] lg:grid-cols-[525px_1fr] lg:items-center">
+        {/* live: 450 tall and vertically centred in the 490 row at lg; the heading sits 7.5px above
+            centre (an empty 15px-gap sibling in the live stack) */}
+        <div className="relative flex h-[144px] items-center justify-center overflow-hidden px-8 md:h-[224px] lg:h-[450px]">
           <img src={R('CF2a8yg6rUJQ9kRH8Qk75fHGhhk.jpg')} alt="" className="absolute inset-0 h-full w-full object-cover" />
-          <h2 className="relative text-center font-display text-[32px] leading-[32px] tracking-[-1.28px] text-cream lg:text-[40px] lg:leading-[40px] lg:tracking-[-1.6px]">
+          <h2 className="relative mb-[15px] w-full text-center font-display text-[32px] leading-[32px] tracking-[-1.28px] text-cream md:text-[40px] md:leading-[40px] md:tracking-[-1.6px]">
             Agents aren't <br />
             one length
           </h2>
         </div>
-        <div className="h-[347px] p-3 lg:h-auto">
+        <div className="h-[347px] md:h-[413px] lg:h-full">
           <img src={R('kwNUTQWIQPqbu8DejioFKvDd4k.jpg')} alt="" className="h-full w-full object-cover" />
         </div>
       </div>
       <div className="bg-card-dark">
-        <div className="grid grid-cols-1 px-5 lg:grid-cols-3 lg:px-0">
-          <div className="hairline hidden lg:block" />
+        {/* mobile: the live header row collapses to an empty 262px band (its cells are overlapped) */}
+        <div className="hairline h-[262px] md:hidden" />
+        <div className="hidden grid-cols-3 md:grid">
+          <div className="hairline" />
           {['How long they run for', 'What they typically do'].map((h) => (
             <div key={h} className="hairline flex items-center justify-center p-5 lg:h-[96px]">
               <AppearText className="text-center font-display text-[20px] font-medium leading-[28px] tracking-[-0.8px] text-amber">
@@ -177,9 +185,12 @@ function AgentsLength() {
             </div>
           ))}
         </div>
-        {AGENTS.map((a) => (
-          // live row heights: header and Always-on are min 96, Mid and Long share a 2-row grid (107 each)
-          <div key={a.label} className={`grid grid-cols-1 px-5 lg:grid-cols-3 lg:px-0 ${a.minH || ''}`}>
+        {[AGENTS.slice(0, 1), AGENTS.slice(1, 3), AGENTS.slice(3)].map((group) => (
+          // live row heights: Always-on is min 96; Mid and Long share a 2-row grid with equal rows
+          // (107 each at 1440, 152 at 810)
+          <div key={group[0].label} className="md:grid md:auto-rows-fr">
+            {group.map((a) => (
+          <div key={a.label} className={`grid grid-cols-1 md:grid-cols-3 ${a.minH || ''}`}>
             <div className="hairline flex items-center gap-5 p-5">
               <img src={R(`${a.icon}.svg`)} alt="" className="h-8 w-8" />
               <AppearText as="span" className="font-mono text-[16px] font-medium leading-[24px] text-cream">
@@ -206,6 +217,8 @@ function AgentsLength() {
               </div>
             </div>
           </div>
+            ))}
+          </div>
         ))}
       </div>
     </Shell>
@@ -215,13 +228,14 @@ function AgentsLength() {
 function WhatYouGet() {
   return (
     <>
-      <Shell inner="hairline flex flex-col gap-4 px-6 py-16 lg:h-[178px] lg:flex-row lg:items-center lg:justify-between lg:gap-0">
-        <h2 className="font-display text-[32px] leading-[32px] text-cream lg:w-[656px]">What you get</h2>
-        <p className="font-display text-[18px] leading-[25.2px] tracking-[-0.72px] text-cream opacity-[0.64] lg:w-[600px]">
+      <Shell inner="hairline flex flex-col gap-2 px-6 py-16 md:flex-row md:items-center lg:h-[178px] lg:justify-between lg:gap-0">
+        <h2 className="font-display text-[32px] leading-[32px] text-cream md:flex-1 lg:w-[656px] lg:flex-none">What you get</h2>
+        <p className="font-display text-[18px] leading-[25.2px] tracking-[-0.72px] text-cream opacity-[0.64] md:flex-1 lg:w-[600px] lg:flex-none">
           Alongside the standard features, such as a dashboard, alerts, traces and span view, you will get unique functionalities.
         </p>
       </Shell>
-      <Shell inner="grid grid-cols-1 gap-2 lg:grid-cols-2">
+      {/* tablet: equal-height rows, cards keep their own height at the top of each row */}
+      <Shell inner="grid grid-cols-1 gap-2 md:grid-cols-2 md:auto-rows-fr md:items-start">
         {FEATURES.map((f) => (
           <div key={f.title} className="flex flex-col bg-card-dark">
             <div className="hairline flex h-[38px] items-center justify-center bg-deep p-4">
@@ -229,7 +243,7 @@ function WhatYouGet() {
             </div>
             <img src={f.image} alt="" className="h-[300px] w-full object-cover" />
             <div className="flex min-h-[76px] items-center justify-center px-4 py-5">
-              <p className="t-mono max-w-[420px] text-center text-cream">{f.text}</p>
+              <p className={`t-mono max-w-[420px] text-center text-cream ${f.fs || ''}`}>{f.text}</p>
             </div>
             <a href={DOCS_QS} className="flex h-[52px] bg-deep p-1">
               <span className="t-btn flex h-[44px] w-full items-center justify-center bg-panel px-3 py-[10px] text-cream">read more</span>
@@ -244,10 +258,10 @@ function WhatYouGet() {
 function CtaXs() {
   return (
     <Shell inner="pt-8 lg:px-[128px]">
-      <a href="/rius/pricing" className="relative flex h-[200px] flex-col justify-center gap-6 overflow-hidden p-8 md:h-[104px] md:flex-row md:items-center md:justify-start">
+      <a href="/rius/pricing" className="relative flex h-[200px] flex-col justify-between overflow-hidden p-8 md:h-auto md:flex-row md:items-center md:justify-start md:gap-6 md:py-16 lg:h-[104px] lg:py-8">
         <img src={R('h5Uv5LSjJ15Dll5BV8VwMsW3oo.jpg')} alt="" className="absolute inset-0 h-full w-full object-cover" />
         <img src={R('cta-xs.svg')} alt="" className="relative h-10 w-10" />
-        <span className="relative font-display text-[32px] leading-[32px] text-cream md:text-[24px] md:leading-[24px]">
+        <span className="relative font-display text-[32px] leading-[32px] text-cream md:flex-1 md:text-[24px] md:leading-[24px]">
           Explore the <br className="md:hidden" />
           Rius plans
         </span>
@@ -262,7 +276,8 @@ export default function Rius() {
   }, [])
   return (
     <>
-      <Spacer inner="h-[30px]" />
+      {/* live /rius has no divider under the nav on mobile (the hero bar sits at y80) */}
+      <Spacer className="hidden bg-page md:block" inner="h-[30px]" />
       <ProductHero
         barGraphic={R('rBnv8VCnmqKbBweg6ki6cG0pAQ.svg')}
         title="Catch agent failures before your customers do"
@@ -282,6 +297,7 @@ export default function Rius() {
       <Logos />
       <Testimonial
         compact
+        bleed
         quote={RIUS_QUOTE}
         person={{ avatar: R('AvNQPA2KLw0PJ8qQYPYqet4URQ.png'), name: 'Andres Almansa', role: 'CEO of Restack' }}
         company={{ logo: R('oIbDPvgphfWTFE1bRAFoKFR51po.jpeg'), alt: 'Restack' }}
@@ -292,7 +308,7 @@ export default function Rius() {
       <AgentsLength />
       <Spacer />
       <TitleRow title="How it works" />
-      <ImageCardGrid cards={HOW} cols="lg:grid-cols-3" />
+      <ImageCardGrid cards={HOW} cols="md:grid-cols-3" />
       <Spacer />
       <WhatYouGet />
       <Spacer />
@@ -311,9 +327,15 @@ export default function Rius() {
       <CtaXs />
       <Spacer />
       <TitleRow title="Blog" />
-      <Shell inner="flex flex-col gap-6 md:flex-row md:gap-2">
+      <Shell inner="flex flex-col gap-6 md:gap-2 lg:flex-row">
         {BLOG_POSTS.map((p) => (
-          <BlogCard key={p.href} {...p} className="md:flex-1" />
+          <BlogCard
+            key={p.href}
+            {...p}
+            className="lg:flex-1"
+            imageClass="h-[223px] md:h-[426px] lg:h-[373px]"
+            titleClass="line-clamp-2 lg:line-clamp-1"
+          />
         ))}
       </Shell>
       <Spacer />

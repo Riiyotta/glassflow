@@ -27,7 +27,9 @@ export default function Hero() {
 
       {/* Panels are transparent (page bg shows through); only the 38px bars are panel-coloured */}
       <Shell className="line-t" inner="flex flex-col md:flex-row md:gap-8">
-        <div className="hairline flex flex-1 flex-col">
+        {/* live phone stack: the shared edge between the two panels has no rule (top panel drops its
+            bottom edge, bottom panel its top edge); tablet/desktop keep the full 1px hairline */}
+        <div className="hairline flex flex-1 flex-col max-md:shadow-[inset_1px_1px_0_0_#5F3E1F,inset_-1px_0_0_0_#5F3E1F]">
           <PanelBar />
           <div className="flex flex-col justify-center gap-4 p-8 md:h-[240px]">
             <h1 ref={h1} className="t-h1 max-w-[576px]" data-reveal-words>
@@ -43,7 +45,7 @@ export default function Hero() {
             </h1>
           </div>
         </div>
-        <div className="hairline flex flex-1 flex-col">
+        <div className="hairline flex flex-1 flex-col max-md:shadow-[inset_1px_-1px_0_0_#5F3E1F,inset_-1px_0_0_0_#5F3E1F]">
           <PanelBar className="hidden md:flex" />
           <div className="flex flex-col justify-center gap-4 px-8 pb-8 md:h-[240px] md:pt-8">
             <p className="t-lead max-w-[576px] opacity-80">

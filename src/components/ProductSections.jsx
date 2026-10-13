@@ -38,7 +38,8 @@ export function ProductHero({ title, lead, primary, secondary, image, barGraphic
     <Shell as="section">
       <DeepBar graphic={barGraphic} />
       <div className="flex flex-col lg:h-[592px] lg:flex-row">
-        <div className="relative lg:w-[644px] lg:shrink-0">
+        {/* overflow-hidden: the live button row never wraps; at 390 the second button runs past the edge */}
+        <div className="relative overflow-hidden lg:w-[644px] lg:shrink-0">
           <img src={HERO_LEFT} alt="" className="absolute inset-0 h-full w-full object-cover" />
           <img src={HERO_CORNER} alt="" className="absolute left-0 top-0 h-[72px] w-12" />
           <div className="relative flex h-full flex-col justify-center gap-[15px] px-8 py-16">
@@ -49,18 +50,19 @@ export function ProductHero({ title, lead, primary, secondary, image, barGraphic
             >
               {title}
             </AppearText>
-            <div className="opacity-[0.64]">
+            <div className="max-w-[600px] opacity-[0.64]">
               <AppearText delay={70} className="font-display text-[21px] leading-[29.4px] tracking-[-0.84px] text-cream">
                 {lead}
               </AppearText>
             </div>
-            <div className="mt-4 flex flex-wrap gap-2">
+            <div className="mt-4 flex gap-2 [&>*]:shrink-0">
               <BigButton label={primary.label} href={primary.href} />
               <ProductDarkButton label={secondary.label} href={secondary.href} />
             </div>
           </div>
         </div>
-        <div className="h-[360px] p-3 lg:h-auto lg:flex-1">
+        {/* live image fills its cell (the 12px padded wrapper does not inset the img) */}
+        <div className="h-[360px] md:h-[672px] lg:h-auto lg:flex-1">
           <img src={image} alt="" className="h-full w-full object-cover" />
         </div>
       </div>
@@ -95,6 +97,7 @@ export function ImageCardGrid({ cards, cols = 'lg:grid-cols-4' }) {
 // props: title, body (optional), primary {label, href}, secondary {label, href}, image
 // Content pages' "Two products" band (specs/content.md §0.2B) reuses this with:
 //   arrow={false} (label-only primary), textClass (text group width/gap), titleClass, bodyClass.
+// gapClass: text-to-buttons gap (product pages: 32 on mobile, 64 from tablet up).
 export function ImageCTA({
   title,
   body,
@@ -105,12 +108,13 @@ export function ImageCTA({
   textClass = 'max-w-[420px] gap-2',
   titleClass = '',
   bodyClass = 't-body opacity-80',
+  gapClass = 'gap-16',
 }) {
   return (
     <Shell>
       <div className="relative overflow-hidden">
         <img src={image} alt="" className="absolute inset-0 h-full w-full object-cover" />
-        <div className="relative flex max-w-[896px] flex-col gap-16 px-8 py-16 lg:px-[128px]">
+        <div className={`relative flex max-w-[896px] flex-col ${gapClass} px-8 py-16 lg:px-[128px]`}>
           <div className={`flex flex-col ${textClass}`}>
             <h2 className={`font-display text-[42px] leading-[42px] text-cream md:text-[40px] md:leading-[40px] ${titleClass}`}>{title}</h2>
             {body && <p className={bodyClass}>{body}</p>}

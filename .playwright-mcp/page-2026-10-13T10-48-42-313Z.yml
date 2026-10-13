@@ -1,0 +1,84 @@
+- generic [ref=f380e3]:
+  - heading "MCP" [level=1] [ref=f380e9]
+  - generic [ref=f380e15]:
+    - link [ref=f380e16] [cursor=pointer]:
+      - /url: ../
+      - link [ref=f380e18]:
+        - /url: ../
+    - generic [ref=f380e22]:
+      - paragraph [ref=f380e26]:
+        - link "Product" [ref=f380e27] [cursor=pointer]:
+          - /url: ../product
+      - paragraph [ref=f380e34]:
+        - link "Case Studies" [ref=f380e35] [cursor=pointer]:
+          - /url: ../case-studies
+      - paragraph [ref=f380e37]:
+        - link "Pricing" [ref=f380e38] [cursor=pointer]:
+          - /url: ../rius/pricing
+      - paragraph [ref=f380e42]:
+        - link "Resources" [ref=f380e43] [cursor=pointer]:
+          - /url: ../product
+      - paragraph [ref=f380e50]:
+        - link "Contact" [ref=f380e51] [cursor=pointer]:
+          - /url: ../contact
+  - generic [ref=f380e60]:
+    - generic [ref=f380e61]:
+      - heading "Data transformations at TB scale for ClickHouse" [level=2] [ref=f380e63]
+      - paragraph [ref=f380e66]: Get query ready data, lower ClickHouse load, and reliable pipelines at enterprise scale.
+    - generic [ref=f380e67]:
+      - link "G e t i n T o u c h G e t i n T o u c h" [ref=f380e69] [cursor=pointer]:
+        - /url: https://cal.com/team/glassflow-founders/founders
+        - generic [ref=f380e70]:
+          - generic [ref=f380e71]: G
+          - generic [ref=f380e73]: e
+          - generic [ref=f380e75]: t
+          - generic [ref=f380e77]: i
+          - generic [ref=f380e79]: "n"
+          - generic [ref=f380e81]: T
+          - generic [ref=f380e83]: o
+          - generic [ref=f380e85]: u
+          - generic [ref=f380e87]: c
+          - generic [ref=f380e89]: h
+        - generic:
+          - generic: G
+          - generic: e
+          - generic: t
+          - generic: i
+          - generic: "n"
+          - generic: T
+          - generic: o
+          - generic: u
+          - generic: c
+          - generic: h
+      - link "E x p l o r e t h e c o d e E x p l o r e t h e c o d e" [ref=f380e92] [cursor=pointer]:
+        - /url: https://github.com/glassflow/clickhouse-etl
+        - generic [ref=f380e93]:
+          - generic [ref=f380e94]: E
+          - generic [ref=f380e96]: x
+          - generic [ref=f380e98]: p
+          - generic [ref=f380e100]: l
+          - generic [ref=f380e102]: o
+          - generic [ref=f380e104]: r
+          - generic [ref=f380e106]: e
+          - generic [ref=f380e108]: t
+          - generic [ref=f380e110]: h
+          - generic [ref=f380e112]: e
+          - generic [ref=f380e114]: c
+          - generic [ref=f380e116]: o
+          - generic [ref=f380e118]: d
+          - generic [ref=f380e120]: e
+        - generic:
+          - generic: E
+          - generic: x
+          - generic: p
+          - generic: l
+          - generic: o
+          - generic: r
+          - generic: e
+          - generic: t
+          - generic: h
+          - generic: e
+          - generic: c
+          - generic: o
+          - generic: d
+          - generic: e

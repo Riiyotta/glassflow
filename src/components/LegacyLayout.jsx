@@ -36,21 +36,22 @@ function Chevron({ className = '' }) {
   return <img src={SVG('chevron-legacy')} alt="" className={`h-[14px] w-[14px] ${className}`} />
 }
 
-// Static stand-in for the buttons.js GitHub star widget ("clickhouse-etl | 504"); the live widget is a third-party iframe.
+// Static stand-in for the buttons.js GitHub star widget (live: a 170x28 buttons.github.io iframe,
+// data-size="large", light scheme): mark-github + "clickhouse-etl" button, then the "504" count.
+const GH_MARK =
+  'M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656'
+const GH_PART = 'inline-flex h-7 items-center whitespace-nowrap border border-[#d1d9e0] px-[10px] py-[5px] font-sys text-[12px] font-semibold leading-4 text-[#25292e]'
+
 function GithubStar() {
   return (
-    <a
-      href={GH_ETL}
-      className="flex h-7 items-stretch overflow-hidden rounded-md bg-white font-sys text-[12px] font-semibold leading-none text-[#24292f]"
-      aria-label="Star glassflow/clickhouse-etl on GitHub"
-    >
-      <span className="flex items-center gap-1.5 px-3">
-        <svg viewBox="0 0 16 16" className="h-4 w-4" fill="currentColor" aria-hidden="true">
-          <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" />
+    <a href={GH_ETL} className="inline-flex h-7 align-bottom" aria-label="Star glassflow/clickhouse-etl on GitHub">
+      <span className={`${GH_PART} rounded-l-[3px] bg-[linear-gradient(180deg,#f6f8fa,#ebf0f4_90%)] hover:bg-[linear-gradient(180deg,#eff2f5,#e5eaee_90%)]`}>
+        <svg viewBox="0 0 16 16" width="16" height="16" className="mr-[3.2px] h-4 w-4 shrink-0 fill-current" aria-hidden="true">
+          <path d={GH_MARK} />
         </svg>
         clickhouse-etl
       </span>
-      <span className="flex items-center border-l border-black/15 px-3">504</span>
+      <span className={`${GH_PART} rounded-r-[3px] border-l-0 bg-white hover:text-[#0969da]`}>504</span>
     </a>
   )
 }
@@ -93,12 +94,13 @@ function LegacyNav({ tone }) {
         <a href="/" aria-label="GlassFlow home" className="shrink-0">
           <img src={L('uJSz4vz8ntpPgNuLAZrGGPBhGFo.svg')} alt="GlassFlow" className="h-4 w-[114px]" />
         </a>
-        <span className="mx-6 hidden h-4 w-px bg-[#333333] md:block" aria-hidden="true" />
-        <nav className="hidden items-center gap-5 md:flex">
+        {/* live: 1x26 #3B3B3B rule at logo+24, first link at logo+48; links 24px apart, chevron 2px after text */}
+        <span className="ml-6 mr-[23px] hidden h-[26px] w-px bg-[#3B3B3B] md:block" aria-hidden="true" />
+        <nav className="hidden items-center gap-6 md:flex">
           {LINKS.map(([label, href]) =>
             MENUS[label] ? (
               <div key={label} className="legacy-dd-item relative flex h-[62px] items-center">
-                <a href={href} className={`flex items-center gap-1 ${linkCls(tone)}`}>
+                <a href={href} className={`flex items-center gap-0.5 ${linkCls(tone)}`}>
                   {label}
                   <Chevron className="legacy-chev" />
                 </a>

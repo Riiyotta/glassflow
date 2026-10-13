@@ -101,19 +101,20 @@ function ContactForm() {
           <label htmlFor="gf-message" className={LABEL}>
             Message
           </label>
+          {/* live textarea is inline: 4px baseline gap below it */}
           <textarea
             id="gf-message"
             name="message"
             placeholder="Your message..."
-            className={`${FIELD} h-[139px] resize-none px-4 py-[14px] leading-[1.5]`}
+            className={`${FIELD} mb-1 block h-[139px] resize-none px-4 py-[14px] leading-[1.5]`}
           />
         </div>
       </div>
-      <div className="mt-5 flex h-[52px]">
+      <div className="mt-4 flex h-[52px]">
         <button
           type="submit"
           disabled={sending}
-          className="gf-submit flex-1 bg-amber text-[14px] text-deep shadow-[inset_0_0_0_4px_#FFAC00,inset_0_0_0_5px_#5F3E1F] disabled:opacity-60"
+          className="gf-submit flex-1 bg-amber text-[14px] leading-[normal] text-deep shadow-[inset_0_0_0_4px_#FFAC00,inset_0_0_0_5px_#5F3E1F] disabled:opacity-60"
         >
           <span className="opacity-90">{sending ? 'sending' : 'submit'}</span>
         </button>
@@ -139,11 +140,11 @@ function Founders() {
     ['XBoPSI1HguCHrjBDJQJk79wM7oU.png', 'Ashish Bagri', 'Founder & CTO'],
   ]
   return (
-    <div className="grid w-full max-w-[800px] grid-cols-1 md:grid-cols-2">
+    <div className="grid w-full max-w-[800px] grid-cols-2">
       {people.map(([img, name, role]) => (
         <div key={name} className="flex h-14 items-center gap-2 bg-deep p-1">
           <img src={CT(img)} alt={name} className="h-12 w-12 object-cover" />
-          <div className="flex flex-col font-mono text-[14px] font-bold leading-[18.2px]">
+          <div className="flex min-w-0 flex-col gap-[2px] whitespace-nowrap font-mono text-[14px] font-bold leading-[18.2px]">
             <span className="text-cream">{name}</span>
             <span className="text-cream-64">{role}</span>
           </div>
@@ -167,17 +168,21 @@ function Calendar() {
       sub={["Sometimes the docs don't cut it. That's what the founder's calendar is for. Grab 30 minutes below."]}
     >
       <div className="flex w-full flex-col items-center">
-        <div className="flex w-full max-w-[800px] flex-col gap-2 bg-panel p-1">
+        {/* live: 42px bar flush with the frame, then a 4px-padded 560px box around the 552px embed */}
+        <div className="flex w-full max-w-[800px] flex-col">
           <div className="hairline relative flex h-[42px] items-center justify-center bg-bar">
             <Dots className="absolute left-[14px] top-[18px]" />
-            <span className="t-mono text-cream-64">calendar-app</span>
+            {/* live desktop label box sits 7.5px left of centre */}
+            <span className="t-mono text-cream-64 lg:-translate-x-[7.5px]">calendar-app</span>
           </div>
-          <iframe
-            title="Book an intro call with the founders"
-            src="https://app.cal.com/armend-glassflow/engineering-intro-call-with-founder/embed?layout=month_view"
-            loading="lazy"
-            className="h-[571px] w-full border-0 bg-white"
-          />
+          <div className="bg-panel p-1">
+            <iframe
+              title="Book an intro call with the founders"
+              src="https://app.cal.com/armend-glassflow/engineering-intro-call-with-founder/embed?layout=month_view"
+              loading="lazy"
+              className="block h-[552px] w-full border-0 bg-white"
+            />
+          </div>
         </div>
         <Founders />
       </div>
@@ -186,12 +191,14 @@ function Calendar() {
 }
 
 // Left hero panel shared by /contact and /contact/success: dithered image with centred text, then extras.
-function SignalPanel({ imageH, children, below }) {
+// pad: live /contact steps 32/40/64 by breakpoint; /contact/success keeps 64 everywhere.
+function SignalPanel({ imageH, pad = 'p-8 md:p-10 lg:p-16', children, below }) {
   return (
     <div className="flex flex-col bg-bar">
-      <div className={`relative flex flex-col items-center justify-center gap-16 overflow-hidden p-8 text-center md:p-16 ${imageH}`}>
+      <div className={`relative flex flex-col items-center justify-center gap-16 overflow-hidden text-center ${pad} ${imageH}`}>
         <img src={DITHER_BG} alt="" className="absolute inset-0 h-full w-full object-cover" />
-        <div className="relative flex max-w-[408px] flex-col items-center gap-3">{children}</div>
+        {/* live copy column is a fixed 408px, centred and allowed to overflow the clipped panel on phones */}
+        <div className="relative flex w-[408px] shrink-0 flex-col items-center gap-3">{children}</div>
       </div>
       {below}
     </div>
@@ -208,21 +215,25 @@ export default function Contact() {
       <Shell as="section">
         <TitleBar label="" />
         <div className="grid grid-cols-1 lg:grid-cols-2">
-          <SignalPanel imageH="lg:h-[563px]" below={<LogoStrip inPanel />}>
+          <SignalPanel imageH="lg:h-[564px]" below={<LogoStrip inPanel />}>
             <h1 className="font-display text-[48px] leading-[48px] text-amber">
               Send us
               <br />a signal
             </h1>
             <div className="font-display text-[21px] leading-[31.5px] tracking-[-0.18px] text-cream">
               <p className="md:hidden">Four plans, priced per trace, not per seat. Start free, pay for what you actually send.</p>
-              <div className="hidden md:block">
-                <p>Two products, one platform.</p>
-                <p>Feed your agents the right data with Tares, see what they did in production with Rius.</p>
-                <p>Tell us what you&apos;re building.</p>
-              </div>
+              {/* live: one paragraph with <br>s and an empty line before the last sentence (5 x 31.5px) */}
+              <p className="hidden md:block">
+                Two products, one platform.
+                <br />
+                Feed your agents the right data with Tares, see what they did in production with Rius.
+                <br />
+                <br />
+                Tell us what you&apos;re building.
+              </p>
             </div>
           </SignalPanel>
-          <div className="bg-deep md:p-10">
+          <div className="bg-deep md:p-6 lg:p-10">
             <div className="bg-panel p-10">
               <ContactForm />
             </div>
@@ -255,13 +266,14 @@ export function ContactSuccess() {
         <TitleBar label="" />
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <SignalPanel
-            imageH="lg:h-[417px]"
+            imageH="h-[367px] md:h-[417px]"
+            pad="p-16"
             below={
               <div className="flex flex-col">
                 {NEXT.map(([title, href, text]) => {
                   const Tag = href ? 'a' : 'div'
                   return (
-                    <Tag key={title} href={href || undefined} className="hairline flex h-[71px] items-center gap-3 px-8 py-4">
+                    <Tag key={title} href={href || undefined} className="hairline flex min-h-[71px] items-center gap-3 px-8 py-4">
                       <img src={SVG('check-24')} alt="" className="h-6 w-6 shrink-0" />
                       <span className="flex flex-col gap-1">
                         <span className="t-mono text-cream">{title}</span>
@@ -277,7 +289,8 @@ export function ContactSuccess() {
             <p className="t-lead">We&apos;ve got your message. One of our engineers or founders will get back to you shortly.</p>
             <p className="t-lead">In the meantime, here&apos;s where to poke around:</p>
           </SignalPanel>
-          <div className="relative h-[630px] p-10">
+          {/* live shows the photo column on desktop only */}
+          <div className="relative hidden h-[630px] p-10 lg:block">
             <img src={CT('rEJrzUhJOm30gvdjvFesntLyB0k.jpg')} alt="" className="absolute inset-0 h-full w-full object-cover" />
           </div>
         </div>

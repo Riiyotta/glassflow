@@ -9,8 +9,12 @@ export default function Calculator() {
   }, [])
   return (
     <>
-      <Spacer inner="h-[64px]" />
-      <Shell className="px-4" inner="bg-panel">
+      {/* Live: the 66px band exists only on desktop; tablet/phone put the calculator straight under the
+          nav in a 64px / 16px gutter. */}
+      <div className="hidden lg:block">
+        <Spacer inner="h-[64px]" />
+      </div>
+      <Shell className="px-4 md:!px-16" inner="bg-panel">
         <BuildVsBuyCalculator />
       </Shell>
     </>

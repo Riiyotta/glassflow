@@ -52,12 +52,13 @@ export default function Navbar({ ctaHref }) {
             <img src={SVG('wordmark')} alt="GlassFlow" className="h-4 w-[125px]" />
           </a>
           <div className="has-dropdown relative hidden md:flex">
-            <a href="#" className={`${cell} nav-products gap-1`}>
+            {/* dropdown trigger only: not a navigation anchor on the original */}
+            <span tabIndex={0} aria-haspopup="true" className={`${cell} nav-products cursor-pointer gap-1`}>
               products
               <svg viewBox="0 0 10 6" className="h-[6px] w-[10px]" aria-hidden="true">
                 <path d="M10 0V2H8V4H6V6H4V4H2V2H0V0H10Z" fill="#8F8982" />
               </svg>
-            </a>
+            </span>
             <ProductsMenu />
           </div>
           <a href="https://docs.glassflow.ai/" className={`${cell} hidden md:flex`}>docs</a>
