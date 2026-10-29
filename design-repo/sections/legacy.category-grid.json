@@ -2,7 +2,12 @@
   "id": "legacy.category-grid",
   "family": "legacy",
   "category": "content",
+  "retrievalEligible": true,
   "purpose": "Legacy category page body: gradient H1 + 3-column post cards (empty author cell).",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "illustration.generated"
+  ],
   "variants": {
     "default": "/categories/:slug"
   },
@@ -13,6 +18,16 @@
       "quote": "export default function Category()"
     }
   ],
+  "source": {
+    "id": "src:Category@src/pages/Category.jsx:60-88",
+    "tag": "Category",
+    "file": "src/pages/Category.jsx",
+    "lines": "60-88"
+  },
+  "semantic": {
+    "id": "legacy.category-grid",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -57,13 +72,15 @@
               "properties": {
                 "assetRole": {
                   "enum": [
-                    "blog.cover"
+                    "blog.cover",
+                    "illustration.generated",
+                    "asset.user-supplied"
                   ]
                 },
                 "ref": {
                   "type": "string",
-                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                  "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                 },
                 "alt": {
                   "type": "string",

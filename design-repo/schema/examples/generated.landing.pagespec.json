@@ -1,0 +1,369 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "home",
+  "theme": "mars",
+  "route": "/",
+  "meta": {
+    "title": "Northwind Relay | Event pipelines that explain themselves",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "navbar-0",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "/pricing"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "home-1",
+      "section": "hero.home",
+      "variant": "default",
+      "content": {
+        "headline": "streaming plumbing for teams who sleep at night",
+        "lead": "Relay runs next to your data and never copies it elsewhere.",
+        "leadLinks": [
+          {
+            "label": "start_free",
+            "href": "/docs"
+          },
+          {
+            "label": "read_docs",
+            "href": "https://docs.northwind.example/start"
+          }
+        ],
+        "cta": {
+          "label": "see_plans",
+          "href": "/contact"
+        },
+        "bandImage": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        },
+        "logoStrip": {
+          "caption": "Fictional customers, for illustration",
+          "logos": [
+            {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            },
+            {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            },
+            {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            },
+            {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            }
+          ]
+        }
+      },
+      "motion": {
+        "patterns": [
+          "hero-word-blur-in",
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "opacity-only+transitions-disabled"
+      }
+    },
+    {
+      "id": "testimonial-2",
+      "section": "social-proof.testimonial",
+      "variant": "home",
+      "content": {
+        "quote": "Relay turned our late-night pager into a morning checklist. We replay, we fix, we move on, and nobody has to rebuild tables by hand anymore.",
+        "person": {
+          "name": "Ilse Varga",
+          "role": "Head of Data, Fernwick Labs",
+          "avatar": {
+            "assetRole": "person.fictional-avatar",
+            "ref": "generate:initials avatar tile for a fictional person",
+            "alt": "Initials avatar for a fictional person"
+          }
+        },
+        "company": {
+          "label": "Fernwick Labs",
+          "logo": {
+            "assetRole": "logo.placeholder-company",
+            "ref": "placeholder:company-monogram",
+            "alt": "Fictional company monogram"
+          }
+        },
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "generate:abstract amber pixel dither field",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-3",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "feature-split-4",
+      "section": "product.feature-split",
+      "variant": "tares-text-left",
+      "content": {
+        "badge": "Relay",
+        "title": "Pipelines that explain themselves",
+        "body": [
+          "Relay validates each event against the contract you wrote, routes rejects to a holding table and keeps the good rows flowing.",
+          "Every stream gets a seven-day replay window, so analysts can rebuild a table after a schema fix in minutes.",
+          "Runs inside your own account with a single container and a small config file."
+        ],
+        "actions": [
+          {
+            "label": "talk_to_us",
+            "href": "#faq"
+          },
+          {
+            "label": "open_console",
+            "href": "/pricing"
+          }
+        ],
+        "screenshot": {
+          "assetRole": "screenshot.placeholder",
+          "ref": "placeholder:dashboard-wireframe",
+          "alt": "Placeholder dashboard wireframe"
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-5",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "feature-split-6",
+      "section": "product.feature-split",
+      "variant": "rius-image-left",
+      "content": {
+        "badge": "Relay",
+        "title": "Every event, accounted for",
+        "body": [
+          "Relay validates each event against the contract you wrote, routes rejects to a holding table and keeps the good rows flowing.",
+          "Every stream gets a seven-day replay window, so analysts can rebuild a table after a schema fix in minutes.",
+          "Runs inside your own account with a single container and a small config file."
+        ],
+        "actions": [
+          {
+            "label": "view_example",
+            "href": "/docs"
+          },
+          {
+            "label": "start_free",
+            "href": "https://docs.northwind.example/start"
+          }
+        ],
+        "screenshot": {
+          "assetRole": "screenshot.placeholder",
+          "ref": "placeholder:dashboard-wireframe",
+          "alt": "Placeholder dashboard wireframe"
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-7",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "quickstart-band-8",
+      "section": "onboarding.quickstart-band",
+      "variant": "home-two-cards",
+      "content": {
+        "heading": "Why teams move their streams to Relay",
+        "highlight": "Late data, handled",
+        "sub": [
+          "Pick a stream, point it at a table, watch it fill.",
+          "Start with one stream and grow from there."
+        ],
+        "cards": [
+          {
+            "product": "stream",
+            "pitch": [
+              "Send your first event and watch it land.",
+              "Connect one queue, map one table, done."
+            ],
+            "bullets": [
+              {
+                "label": "Replay:",
+                "text": "Replays that finish before the coffee does."
+              },
+              {
+                "label": "Contracts:",
+                "text": "Holding tables instead of silent drops."
+              },
+              {
+                "label": "Alerts:",
+                "text": "Curious engineers who read the logs before guessing."
+              }
+            ],
+            "docsLink": {
+              "label": "read_docs",
+              "href": "/contact"
+            },
+            "startLink": {
+              "label": "see_plans",
+              "href": "#faq"
+            }
+          },
+          {
+            "product": "watch",
+            "pitch": [
+              "Send your first event and watch it land.",
+              "Connect one queue, map one table, done."
+            ],
+            "bullets": [
+              {
+                "label": "Lineage:",
+                "text": "Ask the quiet question early."
+              },
+              {
+                "label": "Replay:",
+                "text": "Ask the quiet question early."
+              },
+              {
+                "label": "Contracts:",
+                "text": "Replays that finish before the coffee does."
+              }
+            ],
+            "docsLink": {
+              "label": "talk_to_us",
+              "href": "/pricing"
+            },
+            "startLink": {
+              "label": "open_console",
+              "href": "/docs"
+            }
+          }
+        ],
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "generate:abstract amber pixel dither field",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-9",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "accordion-10",
+      "section": "faq.accordion",
+      "variant": "home",
+      "content": {
+        "heading": "Where the time goes today",
+        "items": [
+          {
+            "question": "Does Relay copy my data anywhere?",
+            "answer": "No. Relay runs inside your account and writes only to the destinations you configure."
+          },
+          {
+            "question": "What happens to rows that fail a check?",
+            "answer": "They land in a holding table with the reason attached, so you can fix and replay them."
+          },
+          {
+            "question": "Can I run it on my own cloud?",
+            "answer": "Yes, one container and a small config file are enough to start."
+          }
+        ],
+        "firstOpen": true
+      },
+      "motion": {
+        "patterns": [
+          "faq-height"
+        ],
+        "reducedMotionFallback": "instant"
+      }
+    },
+    {
+      "id": "footer-11",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

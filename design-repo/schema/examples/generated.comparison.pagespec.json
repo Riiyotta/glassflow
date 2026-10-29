@@ -1,0 +1,357 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "alternatives",
+  "theme": "mars",
+  "route": "/compare/streamline",
+  "meta": {
+    "title": "Relay vs Streamline | Northwind Relay",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "navbar-0",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "#faq"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "hero-1",
+      "section": "alt.hero",
+      "variant": "arize",
+      "content": {
+        "kicker": "Northwind Relay",
+        "title": "Backfills without the drama",
+        "lead": "Relay keeps a short replay log for each stream, so a bad deploy becomes a rewind instead of a weekend.",
+        "chips": [
+          "beta",
+          "beta",
+          "beta"
+        ],
+        "primary": {
+          "label": "view_example",
+          "href": "/pricing"
+        },
+        "secondary": {
+          "label": "start_free",
+          "href": "/docs"
+        },
+        "image": {
+          "assetRole": "screenshot.placeholder",
+          "ref": "placeholder:dashboard-wireframe",
+          "alt": "Placeholder dashboard wireframe"
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "logos-2",
+      "section": "alt.logos",
+      "variant": "arize",
+      "content": {
+        "logos": [
+          {
+            "assetRole": "logo.placeholder-company",
+            "ref": "placeholder:company-monogram",
+            "alt": "Fictional company monogram"
+          },
+          {
+            "assetRole": "logo.placeholder-company",
+            "ref": "placeholder:company-monogram",
+            "alt": "Fictional company monogram"
+          },
+          {
+            "assetRole": "logo.placeholder-company",
+            "ref": "placeholder:company-monogram",
+            "alt": "Fictional company monogram"
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "quote-3",
+      "section": "alt.quote",
+      "variant": "arize",
+      "content": {
+        "quote": "Relay turned our late-night pager into a morning checklist. We replay, we fix, we move on, and nobody has to rebuild tables by hand anymore.",
+        "person": {
+          "name": "Dario Kestrel",
+          "role": "Staff Engineer",
+          "avatar": {
+            "assetRole": "person.fictional-avatar",
+            "ref": "generate:initials avatar tile for a fictional person",
+            "alt": "Initials avatar for a fictional person"
+          }
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "comparison-4",
+      "section": "alt.comparison",
+      "variant": "arize",
+      "content": {
+        "heading": "Pick the plan that fits",
+        "rows": [
+          {
+            "label": "read_docs",
+            "rius": "Relay",
+            "vendor": "Streamline"
+          },
+          {
+            "label": "see_plans",
+            "rius": "Relay",
+            "vendor": "Streamline"
+          },
+          {
+            "label": "talk_to_us",
+            "rius": "Relay",
+            "vendor": "Streamline"
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "stops-5",
+      "section": "alt.stops",
+      "variant": "arize",
+      "content": {
+        "heading": "Why teams move their streams to Relay",
+        "items": [
+          {
+            "title": "Pipelines that explain themselves",
+            "body": "Runs inside your own account with a single container and a small config file."
+          },
+          {
+            "title": "Every event, accounted for",
+            "body": "Relay validates each event against the contract you wrote, routes rejects to a holding table and keeps the good rows flowing."
+          },
+          {
+            "title": "Replay any hour of traffic",
+            "body": "Every stream gets a seven-day replay window, so analysts can rebuild a table after a schema fix in minutes."
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "silent-6",
+      "section": "alt.silent",
+      "variant": "arize",
+      "content": {
+        "heading": "What a calm pipeline looks like",
+        "items": [
+          {
+            "kind": "guide",
+            "title": "Alerts your on-call can trust",
+            "body": "Runs inside your own account with a single container and a small config file."
+          },
+          {
+            "kind": "guide",
+            "title": "Ship schema changes calmly",
+            "body": "Relay validates each event against the contract you wrote, routes rejects to a holding table and keeps the good rows flowing."
+          },
+          {
+            "kind": "guide",
+            "title": "One console for every stream",
+            "body": "Every stream gets a seven-day replay window, so analysts can rebuild a table after a schema fix in minutes."
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "install-7",
+      "section": "alt.install",
+      "variant": "arize",
+      "content": {
+        "heading": "From raw event to clean table",
+        "steps": [
+          {
+            "title": "Late data, handled",
+            "code": "relay init --stream orders"
+          },
+          {
+            "title": "Cost you can predict",
+            "code": "relay replay orders --since 2h"
+          },
+          {
+            "title": "Built for night shifts",
+            "code": "relay init --stream orders"
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "split-8",
+      "section": "alt.split",
+      "variant": "arize",
+      "content": {
+        "heading": "Where the time goes today",
+        "body": [
+          "Runs inside your own account with a single container and a small config file.",
+          "Relay validates each event against the contract you wrote, routes rejects to a holding table and keeps the good rows flowing.",
+          "Every stream gets a seven-day replay window, so analysts can rebuild a table after a schema fix in minutes."
+        ],
+        "flow": [
+          "ingest",
+          "ingest",
+          "ingest"
+        ],
+        "image": {
+          "assetRole": "screenshot.placeholder",
+          "ref": "placeholder:dashboard-wireframe",
+          "alt": "Placeholder dashboard wireframe"
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "side-by-side-9",
+      "section": "alt.side-by-side",
+      "variant": "arize",
+      "content": {
+        "heading": "How replay changes incident review",
+        "rows": [
+          {
+            "from": "Kafka topic",
+            "to": "Warehouse table"
+          },
+          {
+            "from": "Kafka topic",
+            "to": "Warehouse table"
+          },
+          {
+            "from": "Kafka topic",
+            "to": "Warehouse table"
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "self-host-calc-10",
+      "section": "alt.self-host-calc",
+      "variant": "arize",
+      "content": {
+        "heading": "What stays on your servers",
+        "sub": "Start with one stream and grow from there."
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "better-pick-11",
+      "section": "alt.better-pick",
+      "variant": "arize",
+      "content": {
+        "heading": "Questions we hear every week",
+        "points": [
+          "Contract checks on every event, a replay window per stream and alerts that name the producer at fault.",
+          "Contract checks on every event, a replay window per stream and alerts that name the producer at fault.",
+          "Contract checks on every event, a replay window per stream and alerts that name the producer at fault."
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "faq-12",
+      "section": "alt.faq",
+      "variant": "arize",
+      "content": {
+        "items": [
+          {
+            "question": "What happens to rows that fail a check?",
+            "answer": "They land in a holding table with the reason attached, so you can fix and replay them."
+          },
+          {
+            "question": "Can I run it on my own cloud?",
+            "answer": "Yes, one container and a small config file are enough to start."
+          },
+          {
+            "question": "How long is the replay window?",
+            "answer": "Seven days on every plan; longer windows are available on request."
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "footer-13",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

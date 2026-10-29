@@ -2,7 +2,9 @@
   "id": "alt.comparison",
   "family": "mars",
   "category": "pricing",
+  "retrievalEligible": true,
   "purpose": "Rius vs vendor comparison table.",
+  "generatedAssetRoles": [],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +16,16 @@
       "quote": "function Comparison({ d })"
     }
   ],
+  "source": {
+    "id": "src:Comparison@src/pages/Alternatives.jsx:509-515",
+    "tag": "Comparison",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "509-515"
+  },
+  "semantic": {
+    "id": "alt.comparison",
+    "category": "pricing"
+  },
   "content": {
     "type": "object",
     "properties": {

@@ -1,0 +1,49 @@
+{
+  "$description": "Binding of this design-repo to the N0 common design policy (Common Composition IR v0.5). Classification is decided from evidence in the clone source; every citation is resolved by extraction/verify_all.py (citation-validity). registry.manifest.json designPolicy points here and carries the contentHash of the files the policy is enforced by (checked by verify_all policy-binding).",
+  "policyId": "n0-saas-design-constraints-common",
+  "policyVersion": "0.1.0",
+  "commonIrVersion": "0.5",
+  "enforcementMode": "hard-and-soft",
+  "classification": {
+    "productCategory": "saas",
+    "productDomain": "b2b-data-and-agent-observability-infrastructure",
+    "isSaaS": true,
+    "surfaces": ["marketing-site", "pricing", "product-pages", "comparison-pages", "cost-calculator", "blog", "case-studies", "legal", "legacy-guides"],
+    "audiences": ["AI/agent engineering teams", "data and platform engineers", "engineering leaders evaluating observability"],
+    "decision": "B2B SaaS: tiered self-serve subscription plans with console sign-up, an Enterprise tier sold through a sales call, and Terms of Service that govern 'the SaaS platform'. The open-source / self-hosted Tares product does not change the category: the commercial offer (Rius) is a hosted, plan-priced service for businesses.",
+    "evidence": [
+      {"path": "src/pages/Rius.jsx", "lines": "54", "quote": "{ name: 'Core', icon: R('plan-core.svg'), price: '$19'"},
+      {"path": "src/pages/Rius.jsx", "lines": "57", "quote": "{ name: 'Enterprise', icon: R('plan-enterprise.svg'), price: '$1,999'"},
+      {"path": "src/pages/RiusPricing.jsx", "lines": "10", "quote": "const SIGNUP = (plan) =>"},
+      {"path": "src/pages/RiusPricing.jsx", "lines": "1", "quote": "// /rius/pricing, also the /enterprise redirect target"},
+      {"path": "src/pages/Legal.jsx", "lines": "21", "quote": "ToS govern the SaaS platform"},
+      {"path": "src/components/Product.jsx", "lines": "61", "quote": "Open source, self-hostable, and built on a production streaming core."}
+    ],
+    "classifiedBy": "design-repo build agent (agent attestation, not a human sign-off)"
+  },
+  "generationRules": [
+    "A PageSpec declares mode: clone | generation (schema-required, closed).",
+    "mode=generation must carry spec.brand (the operator's brand) and is rejected on any GlassFlow brand, person, customer, third-party mark, product screenshot, source asset, source URL/embed, source numeric claim or 5-word source-copy shingle (GENERATION_MODE_* rules, patterns in policies/source-identity.json).",
+    "Asset roles carry a closed availability (clone-only | generation-safe | blocked-for-generation) pinned in code in two places (PINNED_AVAILABILITY).",
+    "Tokens are referenced by name only and resolved against tokens/llm/token-catalog.json (TOKEN_* rules).",
+    "Templates, chrome families (mars vs legacy-black) and compatibility rules in compatibility/graph.json apply to both modes."
+  ],
+  "enforcedBy": [
+    "schema/pagespec.schema.json",
+    "schema/semantic_validate.py",
+    "schema/section-contract.schema.json",
+    "compatibility/graph.json",
+    "assets/asset-roles.json",
+    "policies/source-identity.json",
+    "tokens/llm/token-catalog.json",
+    "tokens/llm/token-policy.json",
+    "templates/templates.json",
+    "extraction/wrapper_gate.py",
+    "policy/design-policy.json"
+  ],
+  "approval": {
+    "policyDecision": "bound-pending-architecture-review",
+    "architectureDecisionRecorded": false,
+    "note": "Bound by the build agent from source evidence; no human architecture review has confirmed the binding."
+  }
+}

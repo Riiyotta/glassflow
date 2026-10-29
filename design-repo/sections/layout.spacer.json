@@ -2,7 +2,10 @@
   "id": "layout.spacer",
   "family": "mars",
   "category": "layout",
+  "retrievalEligible": false,
+  "retrievalReason": "Pure layout utility: an empty fixed-height band between sections with no content of its own; retrieving it as a design exemplar teaches nothing and would only add noise.",
   "purpose": "Bordered blank band separating sections.",
+  "generatedAssetRoles": [],
   "variants": {
     "band-65": "default 67px band",
     "band-70": "72px band (/rius/pricing, before the calculator banner)",
@@ -32,6 +35,16 @@
       "quote": "<div className=\"hidden lg:block\">"
     }
   ],
+  "source": {
+    "id": "src:Spacer@src/components/ui.jsx:18-22",
+    "tag": "Spacer",
+    "file": "src/components/ui.jsx",
+    "lines": "18-22"
+  },
+  "semantic": {
+    "id": "layout.spacer",
+    "category": "layout"
+  },
   "content": {
     "type": "object",
     "properties": {},

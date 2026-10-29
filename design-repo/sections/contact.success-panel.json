@@ -2,7 +2,14 @@
   "id": "contact.success-panel",
   "family": "mars",
   "category": "content",
+  "retrievalEligible": false,
+  "retrievalReason": "Post-submit runtime state: a confirmation panel reached only after the contact form's fake submit (Contact.jsx navigates to /contact/success); a status screen, not a reusable content pattern.",
   "purpose": "Thanks panel with 'where to poke around' links beside an image.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "illustration.generated",
+    "texture.dither-field"
+  ],
   "variants": {
     "default": "/contact/success"
   },
@@ -13,6 +20,16 @@
       "quote": "export function ContactSuccess()"
     }
   ],
+  "source": {
+    "id": "src:ContactSuccess@src/pages/Contact.jsx:258-298",
+    "tag": "ContactSuccess",
+    "file": "src/pages/Contact.jsx",
+    "lines": "258-298"
+  },
+  "semantic": {
+    "id": "contact.success-panel",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -70,13 +87,15 @@
           "assetRole": {
             "enum": [
               "texture.dither-field",
-              "scene.mars-figurative"
+              "scene.mars-figurative",
+              "illustration.generated",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",

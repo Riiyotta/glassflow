@@ -2,7 +2,14 @@
   "id": "feature.image-card-grid",
   "family": "mars",
   "category": "feature",
+  "retrievalEligible": true,
   "purpose": "Row of 300px full-bleed dithered cards with icon, mono title and appear body.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "icon.pixel",
+    "illustration.generated",
+    "texture.dither-field"
+  ],
   "variants": {
     "cols-4": "/tares 'What teams build with it'",
     "cols-3": "/rius 'How it works'"
@@ -14,6 +21,16 @@
       "quote": "export function ImageCardGrid"
     }
   ],
+  "source": {
+    "id": "src:ImageCardGrid@src/components/ProductSections.jsx:75-94",
+    "tag": "ImageCardGrid",
+    "file": "src/components/ProductSections.jsx",
+    "lines": "75-94"
+  },
+  "semantic": {
+    "id": "feature.image-card-grid",
+    "category": "feature"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -27,13 +44,14 @@
               "properties": {
                 "assetRole": {
                   "enum": [
-                    "icon.pixel"
+                    "icon.pixel",
+                    "asset.user-supplied"
                   ]
                 },
                 "ref": {
                   "type": "string",
-                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                  "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                 },
                 "alt": {
                   "type": "string",
@@ -63,13 +81,15 @@
                 "assetRole": {
                   "enum": [
                     "texture.dither-field",
-                    "scene.mars-figurative"
+                    "scene.mars-figurative",
+                    "illustration.generated",
+                    "asset.user-supplied"
                   ]
                 },
                 "ref": {
                   "type": "string",
-                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                  "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                 },
                 "alt": {
                   "type": "string",

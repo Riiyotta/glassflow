@@ -121,12 +121,12 @@
     {
       "id": "LINK_KINDS",
       "severity": "error",
-      "rule": "every link field is internal-route, in-page-anchor, mailto, or https on an allowed outbound host (policies/link-kinds.json); null only on known dead-button fields."
+      "rule": "every link field is internal-route, in-page-anchor, mailto, or https on an allowed outbound host (policies/link-kinds.json); null only on known dead-button fields. In mode=generation absolute URLs are judged by GENERATION_MODE_URL instead (placeholder .example/.invalid hosts only)."
     },
     {
       "id": "ASSET_ROLE_POLICY",
       "severity": "error",
-      "rule": "generate:<brief> refs only for roles with generationPolicy may-generate-new; all other roles must reference an existing /assets/ file."
+      "rule": "clone mode: refs other than an existing /assets/ file only for roles whose cloneModePolicy is may-generate-new or operator-supplied. generation mode: asset.user-supplied needs a user-supplied:<id> ref (role availability itself is judged by the GENERATION_MODE_* rules)."
     },
     {
       "id": "REDUCED_MOTION_FALLBACK",
@@ -142,6 +142,86 @@
       "id": "HERO_TEXT_MOTION_BUDGET",
       "severity": "warn",
       "rule": "at most one node per page uses a hero text appear (hero-word-blur-in / text-effect)."
+    },
+    {
+      "id": "CONTRACT_INTEGRITY",
+      "severity": "error",
+      "rule": "Registry integrity, checked on every validation: assets/asset-roles.json availability/generationModePolicy must equal PINNED_AVAILABILITY and every section's retrievalEligible must equal the RETRIEVAL_INELIGIBLE pin (both pins live in this validator AND extraction/verify_all.py). Editing a registry alone cannot loosen generation safety."
+    },
+    {
+      "id": "TOKEN_UNKNOWN",
+      "severity": "error",
+      "rule": "node.tokens.* and content x-tokenField values must name a token in tokens/llm/token-catalog.json."
+    },
+    {
+      "id": "TOKEN_RAW_VALUE",
+      "severity": "error",
+      "rule": "No raw hex / rgb() / hsl() colour in a token slot or in any non-link content string; reference semantic token names."
+    },
+    {
+      "id": "TOKEN_ARBITRARY_SPACING",
+      "severity": "error",
+      "rule": "node.tokens.spacingY must be one of token-policy slots.node.tokens.spacingY.allowed; px/rem/bare numbers are rejected."
+    },
+    {
+      "id": "TOKEN_UNSUPPORTED_FONT",
+      "severity": "error",
+      "rule": "node.tokens.font must be a typography.fontFamily token used by the template's chrome family."
+    },
+    {
+      "id": "TOKEN_THEME_MISMATCH",
+      "severity": "error",
+      "rule": "A semantic token must exist in the PageSpec's theme (mars vs legacy-black) and match its slot prefix (surface./text./border.)."
+    },
+    {
+      "id": "GENERATION_MODE_BRAND",
+      "severity": "error",
+      "rule": "mode=generation: no GlassFlow brand, product names (Tares, Rius), legal entity/address, brand e-mail, wordmark or mark-bearing asset (policies/source-identity.json brand; roles brand.glassflow-mark, brand.dither-mark)."
+    },
+    {
+      "id": "GENERATION_MODE_PERSON",
+      "severity": "error",
+      "rule": "mode=generation: no real person (team, investors, testimonial and post authors) by name or photo (source-identity persons; role person.real-photo)."
+    },
+    {
+      "id": "GENERATION_MODE_CUSTOMER",
+      "severity": "error",
+      "rule": "mode=generation: no real customer/backer company names or logos (source-identity customers; role logo.customer)."
+    },
+    {
+      "id": "GENERATION_MODE_THIRD_PARTY",
+      "severity": "error",
+      "rule": "mode=generation: no third-party company marks: logo-strip/vendor names and investor firms (source-identity thirdPartyMarks; role logo.third-party)."
+    },
+    {
+      "id": "GENERATION_MODE_SCREENSHOT",
+      "severity": "error",
+      "rule": "mode=generation: no GlassFlow product screenshots or mocked product UI (role product.screenshot); use screenshot.placeholder."
+    },
+    {
+      "id": "GENERATION_MODE_ASSET",
+      "severity": "error",
+      "rule": "mode=generation: no source asset file (/assets/... or an opaque source file id) and no clone-only role; refs must be generate:/placeholder:/user-supplied: on a generation-safe role."
+    },
+    {
+      "id": "GENERATION_MODE_URL",
+      "severity": "error",
+      "rule": "mode=generation: every absolute URL, bare domain or e-mail host must be a reserved placeholder (.example / .invalid); source hosts and paths are named in the message."
+    },
+    {
+      "id": "GENERATION_MODE_EMBED",
+      "severity": "error",
+      "rule": "mode=generation: embeds (x-embedField, e.g. the calendar) must use a placeholder host; the source cal.com founder embed is rejected anywhere."
+    },
+    {
+      "id": "GENERATION_MODE_CLAIM",
+      "severity": "error",
+      "rule": "mode=generation: no source-specific numeric product claims (number+unit+next-word fingerprints and >=3-digit prices derived from src/)."
+    },
+    {
+      "id": "GENERATION_MODE_COPY",
+      "severity": "error",
+      "rule": "mode=generation: no 5-word shingle of source copy (hashed, normalised) in authored strings; schema-fixed strings (const/enum/pattern) are exempt."
     }
   ],
   "recommendedAdjacency": {

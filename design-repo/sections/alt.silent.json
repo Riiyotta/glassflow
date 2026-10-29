@@ -2,7 +2,9 @@
   "id": "alt.silent",
   "family": "mars",
   "category": "feature",
+  "retrievalEligible": true,
   "purpose": "Silent-failure taxonomy cards.",
+  "generatedAssetRoles": [],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +16,16 @@
       "quote": "function Silent()"
     }
   ],
+  "source": {
+    "id": "src:Silent@src/pages/Alternatives.jsx:612-618",
+    "tag": "Silent",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "612-618"
+  },
+  "semantic": {
+    "id": "alt.silent",
+    "category": "feature"
+  },
   "content": {
     "type": "object",
     "properties": {

@@ -2,7 +2,9 @@
   "id": "alt.install",
   "family": "mars",
   "category": "onboarding",
+  "retrievalEligible": true,
   "purpose": "Install steps (arize only).",
+  "generatedAssetRoles": [],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +16,16 @@
       "quote": "function Install({ slug })"
     }
   ],
+  "source": {
+    "id": "src:Install@src/pages/Alternatives.jsx:637-643",
+    "tag": "Install",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "637-643"
+  },
+  "semantic": {
+    "id": "alt.install",
+    "category": "onboarding"
+  },
   "content": {
     "type": "object",
     "properties": {

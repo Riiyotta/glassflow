@@ -2,7 +2,12 @@
   "id": "social-proof.logo-groups",
   "family": "mars",
   "category": "social-proof",
+  "retrievalEligible": true,
   "purpose": "Two captioned groups of three customer/backer logos.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "logo.placeholder-company"
+  ],
   "variants": {
     "default": "/rius"
   },
@@ -13,6 +18,16 @@
       "quote": "function Logos()"
     }
   ],
+  "source": {
+    "id": "src:Logos@src/pages/Rius.jsx:106-126",
+    "tag": "Logos",
+    "file": "src/pages/Rius.jsx",
+    "lines": "106-126"
+  },
+  "semantic": {
+    "id": "social-proof.logo-groups",
+    "category": "social-proof"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -33,13 +48,15 @@
                 "properties": {
                   "assetRole": {
                     "enum": [
-                      "logo.customer"
+                      "logo.customer",
+                      "logo.placeholder-company",
+                      "asset.user-supplied"
                     ]
                   },
                   "ref": {
                     "type": "string",
-                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                    "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                    "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                   },
                   "alt": {
                     "type": "string",

@@ -2,7 +2,14 @@
   "id": "hero.product",
   "family": "mars",
   "category": "hero",
+  "retrievalEligible": true,
   "purpose": "Product hero: deep bar, dithered left column with per-word appear H1 + lead + two buttons, product image right.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "brand.placeholder-mark",
+    "illustration.generated",
+    "screenshot.placeholder"
+  ],
   "variants": {
     "tares": "/tares",
     "rius": "/rius"
@@ -14,6 +21,16 @@
       "quote": "export function ProductHero"
     }
   ],
+  "source": {
+    "id": "src:ProductHero@src/components/ProductSections.jsx:36-69",
+    "tag": "ProductHero",
+    "file": "src/components/ProductSections.jsx",
+    "lines": "36-69"
+  },
+  "semantic": {
+    "id": "hero.product",
+    "category": "hero"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -75,13 +92,16 @@
           "assetRole": {
             "enum": [
               "product.screenshot",
-              "scene.mars-figurative"
+              "scene.mars-figurative",
+              "screenshot.placeholder",
+              "illustration.generated",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",
@@ -100,13 +120,15 @@
         "properties": {
           "assetRole": {
             "enum": [
-              "brand.glassflow-mark"
+              "brand.glassflow-mark",
+              "brand.placeholder-mark",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",

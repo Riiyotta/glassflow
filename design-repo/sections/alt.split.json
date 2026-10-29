@@ -2,7 +2,12 @@
   "id": "alt.split",
   "family": "mars",
   "category": "feature",
+  "retrievalEligible": true,
   "purpose": "Image + heading + body + flow chips split (repeatable: 4 on arize, 1 on langfuse).",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "screenshot.placeholder"
+  ],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +19,16 @@
       "quote": "function Split({ s })"
     }
   ],
+  "source": {
+    "id": "src:Split@src/pages/Alternatives.jsx:699-705",
+    "tag": "Split",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "699-705"
+  },
+  "semantic": {
+    "id": "alt.split",
+    "category": "feature"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -47,13 +62,15 @@
         "properties": {
           "assetRole": {
             "enum": [
-              "product.screenshot"
+              "product.screenshot",
+              "screenshot.placeholder",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",

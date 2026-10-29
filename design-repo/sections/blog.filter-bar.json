@@ -2,7 +2,9 @@
   "id": "blog.filter-bar",
   "family": "mars",
   "category": "navigation",
+  "retrievalEligible": true,
   "purpose": "Category tabs (?category=) + title search (?title=).",
+  "generatedAssetRoles": [],
   "variants": {
     "default": "/blog"
   },
@@ -13,6 +15,16 @@
       "quote": "function FilterBar("
     }
   ],
+  "source": {
+    "id": "src:FilterBar@src/pages/BlogIndex.jsx:50-80",
+    "tag": "FilterBar",
+    "file": "src/pages/BlogIndex.jsx",
+    "lines": "50-80"
+  },
+  "semantic": {
+    "id": "blog.filter-bar",
+    "category": "navigation"
+  },
   "content": {
     "type": "object",
     "properties": {

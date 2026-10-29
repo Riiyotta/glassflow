@@ -6,7 +6,9 @@ Checks (each proven to catch drift by extraction/prove_drift.py):
   manifest-counts, citation-validity (range AND quoted content), graph-validator-parity,
   pinned-forms, pinned-roles, role-closure, template-integrity, route-coverage,
   route-source-drift, motion-closure, section-completeness, no-absolute-paths,
-  manifest-entrypoints, asset-refs.
+  manifest-entrypoints, asset-refs, pinned-availability, substitute-closure, contract-schema,
+  contract-provenance, retrieval-pin, wrapper-gate, token-catalog-in-sync, token-policy-resolves,
+  source-identity, generated-examples, policy-binding.
 
 The repo root is derived from __file__. Source-dependent checks (citation content, route
 re-derivation, asset existence) look for the sibling project at <repo>/.. and DEGRADE TO A
@@ -23,10 +25,40 @@ HAVE_SRC = os.path.isfile(os.path.join(SRC_ROOT, "src", "routes.jsx")) and os.pa
 
 # Independent pinned table (second source of truth; the registries must agree with it).
 PINNED_FORMS = {"contact-form": "must-not-reuse-live-endpoint", "guide-form-kafka": "must-not-reuse-live-endpoint", "guide-form-mistakes": "must-not-reuse-live-endpoint"}
+# cloneModePolicy pins (what clone mode may do with each source role)
 PINNED_ROLES = {"person.real-photo": "must-not-fabricate", "product.screenshot": "must-not-fabricate", "logo.third-party": "must-reuse-exact",
                 "logo.customer": "must-reuse-exact", "brand.glassflow-mark": "must-reuse-exact", "brand.dither-mark": "must-reuse-exact",
                 "scene.mars-figurative": "must-reuse-exact", "blog.cover": "must-reuse-exact", "animation.lottie": "must-reuse-exact"}
-ROLE_POLICIES = {"may-generate-new", "must-reuse-exact", "must-not-fabricate"}
+ROLE_POLICIES = {"may-generate-new", "must-reuse-exact", "must-not-fabricate", "operator-supplied", "not-applicable"}
+GEN_POLICIES = {"blocked", "substitute-required", "may-generate-new", "operator-supplied", "placeholder-only", "must-be-original"}
+AVAILABILITY = {"clone-only", "generation-safe", "blocked-for-generation"}
+# (availability, generationModePolicy) pins. Same table as schema/semantic_validate.py PINNED_AVAILABILITY;
+# check pinned-availability fails if the two tables, or the registry, disagree.
+PINNED_AVAILABILITY = {
+    "logo.third-party": ("blocked-for-generation", "blocked"),
+    "logo.customer": ("blocked-for-generation", "blocked"),
+    "brand.glassflow-mark": ("blocked-for-generation", "blocked"),
+    "brand.dither-mark": ("blocked-for-generation", "blocked"),
+    "person.real-photo": ("blocked-for-generation", "blocked"),
+    "product.screenshot": ("blocked-for-generation", "blocked"),
+    "scene.mars-figurative": ("clone-only", "substitute-required"),
+    "blog.cover": ("clone-only", "substitute-required"),
+    "animation.lottie": ("clone-only", "substitute-required"),
+    "texture.dither-field": ("generation-safe", "may-generate-new"),
+    "icon.pixel": ("generation-safe", "may-generate-new"),
+    "brand.placeholder-mark": ("generation-safe", "may-generate-new"),
+    "asset.user-supplied": ("generation-safe", "operator-supplied"),
+    "illustration.generated": ("generation-safe", "may-generate-new"),
+    "screenshot.placeholder": ("generation-safe", "may-generate-new"),
+    "person.fictional-avatar": ("generation-safe", "may-generate-new"),
+    "logo.placeholder-company": ("generation-safe", "may-generate-new"),
+    "url.placeholder": ("generation-safe", "placeholder-only"),
+    "copy.original": ("generation-safe", "must-be-original"),
+}
+REAL_MARK_ROLES = {"brand.glassflow-mark", "brand.dither-mark", "logo.third-party", "logo.customer"}
+# Runtime/utility UI that is not a retrieval exemplar (baseline R8); same pin as semantic_validate.py.
+RETRIEVAL_INELIGIBLE = {"layout.spacer", "contact.success-panel"}
+RUNTIME_UI_NAME = re.compile(r"cookie|consent|modal|dialog|drawer|popup|overlay|preload|toast|banner-notice|success|spacer|cursor", re.I)
 COUNT_SKIP = {"absentOnOriginal", "reducedMotionFallbacks", "reducedMotionEvidence"}
 
 
@@ -83,6 +115,9 @@ def compute_counts(root=REPO):
         "assetRoles": len(load("assets/asset-roles.json", root)["roles"]),
         "motionPatterns": len(load("tokens/00-foundation/motion.json", root)["patterns"]),
         "graphRules": len(load("compatibility/graph.json", root)["rules"]),
+        "templateFamilies": len(load("templates/templates.json", root)["templateFamilies"]["families"]),
+        "generatedExamples": len([f for f in os.listdir(os.path.join(root, "schema/examples")) if f.endswith(".pagespec.json")]),
+        "retrievalIneligibleSections": sum(s.get("retrievalEligible") is False for s in secs),
     }
 
 
@@ -104,9 +139,9 @@ def check_pinned_forms(forms):
 def check_pinned_roles(roles):
     errs = []
     for r, want in PINNED_ROLES.items():
-        got = roles["roles"].get(r, {}).get("generationPolicy")
+        got = roles["roles"].get(r, {}).get("cloneModePolicy")
         if got != want:
-            errs.append(f"role {r} generationPolicy {got!r} != pinned {want!r}")
+            errs.append(f"role {r} cloneModePolicy {got!r} != pinned {want!r}")
         if not roles["roles"].get(r, {}).get("pinned"):
             errs.append(f"role {r} must be marked pinned")
     return errs
@@ -114,7 +149,7 @@ def check_pinned_roles(roles):
 
 def check_role_closure(roles, root=REPO):
     errs = []
-    reg = set(roles["roles"])
+    reg = {r for r, d in roles["roles"].items() if d.get("kind") == "media"}
     allow = set(load("tokens/llm/component-allowlist.json", root)["assetRoles"])
     schema = load("schema/pagespec.schema.json", root)
     sch = set(schema["definitions"]["assetRole"]["enum"])
@@ -128,8 +163,115 @@ def check_role_closure(roles, root=REPO):
     if not used <= reg:
         errs.append(f"sections use unregistered roles {sorted(used - reg)}")
     for r, d in roles["roles"].items():
-        if d.get("generationPolicy") not in ROLE_POLICIES or not d.get("guidance"):
-            errs.append(f"role {r} lacks a valid generationPolicy/guidance")
+        if d.get("cloneModePolicy") not in ROLE_POLICIES or not d.get("guidance"):
+            errs.append(f"role {r} lacks a valid cloneModePolicy/guidance")
+        if d.get("kind") not in ("media", "url", "copy"):
+            errs.append(f"role {r} kind must be media|url|copy")
+    return errs
+
+
+def check_pinned_availability(roles, sv_table=None):
+    """registry vs code pin (verify_all) vs code pin (semantic_validate); substitutes; guidance."""
+    errs = []
+    R = roles["roles"]
+    if sv_table is not None and sv_table != PINNED_AVAILABILITY:
+        errs.append("PINNED_AVAILABILITY differs between extraction/verify_all.py and schema/semantic_validate.py")
+    if set(R) != set(PINNED_AVAILABILITY):
+        errs.append(f"roles without a pin / pins without a role: {sorted(set(R) ^ set(PINNED_AVAILABILITY))}")
+    for r, d in R.items():
+        av, gm = d.get("availability"), d.get("generationModePolicy")
+        if av not in AVAILABILITY:
+            errs.append(f"role {r} availability {av!r} not in {sorted(AVAILABILITY)}")
+        if gm not in GEN_POLICIES:
+            errs.append(f"role {r} generationModePolicy {gm!r} not in closed set")
+        if r in PINNED_AVAILABILITY and (av, gm) != PINNED_AVAILABILITY[r]:
+            errs.append(f"role {r} ({av}, {gm}) != pinned {PINNED_AVAILABILITY[r]}")
+        if not d.get("generatedModeGuidance"):
+            errs.append(f"role {r} has no generatedModeGuidance")
+        subs = d.get("generationSafeSubstitutes")
+        if not isinstance(subs, list):
+            errs.append(f"role {r} has no generationSafeSubstitutes list")
+            continue
+        if av != "generation-safe" and not subs:
+            errs.append(f"role {r} is {av} but names no generation-safe substitute")
+        for x in subs:
+            if R.get(x, {}).get("availability") != "generation-safe":
+                errs.append(f"role {r} substitute {x} is not a generation-safe role")
+        if r in REAL_MARK_ROLES and (av == "generation-safe" or gm != "blocked"):
+            errs.append(f"real mark/logo role {r} must be blocked-for-generation (never reusable in generation mode)")
+    return errs
+
+
+def check_substitute_closure(roles, root=REPO):
+    """Every media field that accepts a non-generation-safe role also accepts all of its substitutes,
+    and each section's generatedAssetRoles equals the generation-safe roles its fields accept."""
+    errs = []
+    R = roles["roles"]
+    for sid in ids_in("sections", root):
+        sec = load(f"sections/{sid}.json", root)
+        found = set()
+
+        def walk(o, path):
+            if isinstance(o, dict):
+                ar = o.get("assetRole")
+                if isinstance(ar, dict) and "enum" in ar:
+                    en = set(ar["enum"])
+                    for r in en:
+                        miss = set(R.get(r, {}).get("generationSafeSubstitutes", [])) - en
+                        if miss:
+                            errs.append(f"{sid}{path}: accepts {r} but not its substitutes {sorted(miss)}")
+                    found.update(x for x in en if R.get(x, {}).get("availability") == "generation-safe")
+                for k, v in o.items():
+                    walk(v, f"{path}.{k}")
+            elif isinstance(o, list):
+                for i, v in enumerate(o):
+                    walk(v, f"{path}[{i}]")
+        walk(sec.get("content"), ".content")
+        walk(sec.get("contentByVariant"), ".contentByVariant")
+        if set(sec.get("generatedAssetRoles", [])) != found:
+            errs.append(f"{sid}: generatedAssetRoles {sorted(sec.get('generatedAssetRoles', []))} != generation-safe roles its fields accept {sorted(found)}")
+    return errs
+
+
+def check_retrieval(secs):
+    errs = []
+    for sid, s in secs.items():
+        want = sid not in RETRIEVAL_INELIGIBLE
+        if s.get("retrievalEligible") is not want:
+            errs.append(f"{sid}: retrievalEligible {s.get('retrievalEligible')!r} != pin {want}")
+        if not want and len(s.get("retrievalReason", "")) < 30:
+            errs.append(f"{sid}: retrievalReason must be >= 30 chars")
+        if RUNTIME_UI_NAME.search(sid + " " + s.get("purpose", "")[:40]) and sid not in RETRIEVAL_INELIGIBLE:
+            errs.append(f"{sid}: id/purpose looks like runtime/utility UI but is not in RETRIEVAL_INELIGIBLE")
+    return errs
+
+
+def check_provenance(secs):
+    errs = []
+    for sid, s in secs.items():
+        src, sem = s.get("source"), s.get("semantic")
+        if not isinstance(src, dict) or not isinstance(sem, dict):
+            errs.append(f"{sid}: missing source/semantic object")
+            continue
+        if sem.get("id") != sid:
+            errs.append(f"{sid}: semantic.id {sem.get('id')!r} != contract id")
+        if src.get("id") == sem.get("id"):
+            errs.append(f"{sid}: source.id must differ from semantic.id")
+        if sem.get("category") != s.get("category"):
+            errs.append(f"{sid}: semantic.category {sem.get('category')!r} != category {s.get('category')!r}")
+        if not HAVE_SRC:
+            continue
+        p = os.path.join(SRC_ROOT, src["file"])
+        if not os.path.isfile(p):
+            errs.append(f"{sid}: source.file missing {src['file']}")
+            continue
+        m = re.fullmatch(r"(\d+)(?:-(\d+))?", src["lines"])
+        ls = open(p, encoding="utf-8").read().split("\n")
+        a, b = int(m.group(1)), int(m.group(2) or m.group(1))
+        if b > len(ls):
+            errs.append(f"{sid}: source {src['file']}:{src['lines']} exceeds file length {len(ls)}")
+        elif not any(src["tag"] in l for l in ls[a - 1:b]):
+            errs.append(f"{sid}: source.tag {src['tag']!r} not found in {src['file']}:{src['lines']}")
     return errs
 
 
@@ -185,6 +327,7 @@ class Run:
 
 def main():
     sys.path.insert(0, os.path.join(REPO, "schema"))
+    sys.path.insert(0, os.path.join(REPO, "extraction"))
     run = Run()
 
     errs = []
@@ -263,6 +406,8 @@ def main():
     roles = load("assets/asset-roles.json")
     run.check("pinned-roles", check_pinned_roles(roles))
     run.check("role-closure", check_role_closure(roles))
+    run.check("pinned-availability", check_pinned_availability(roles, sv.PINNED_AVAILABILITY))
+    run.check("substitute-closure", check_substitute_closure(roles))
 
     T = load("templates/templates.json")["templates"]
     secs = {s: load(f"sections/{s}.json") for s in ids_in("sections")}
@@ -326,6 +471,16 @@ def main():
         blog_src = {f"/blog/{p['slug']}" for p in posts["posts"]}
         if blog_mine != blog_src:
             errs.append(f"blog routes differ from src/data/posts.json: {len(blog_mine ^ blog_src)} paths")
+        cat_src = open(os.path.join(SRC_ROOT, "src/pages/Category.jsx"), encoding="utf-8").read()
+        meta = cat_src[cat_src.index("const META = {"):cat_src.index("}", cat_src.index("const META = {"))]
+        live_cats = {f"/categories/{k}" for k in re.findall(r"^\s+'?([a-z-]+)'?:", meta, re.M)}
+        cat_mine = {r["path"] for r in routes if r["path"].startswith("/categories/") and r["kind"] == "page"}
+        if live_cats != cat_mine:
+            errs.append(f"live category pages differ from Category.jsx META: {sorted(live_cats ^ cat_mine)}")
+        served = static_paths | blog_src | live_cats
+        extra = set(paths) - served
+        if extra:
+            errs.append(f"routes.json maps paths the clone's router does not serve: {sorted(extra)}")
     else:
         warns.append("sibling source tree absent: route re-derivation skipped")
     run.check("route-source-drift", errs, warns)
@@ -362,14 +517,130 @@ def main():
             errs.append(f"{sid}: responsive evidence empty")
     run.check("section-completeness", errs)
 
+    cschema = load("schema/section-contract.schema.json")
+    v = jsonschema.Draft7Validator(cschema)
+    errs = [f"{sid}: {'/'.join(map(str, e.absolute_path)) or '<root>'}: {e.message[:140]}" for sid, s in secs.items() for e in v.iter_errors(s)]
+    run.check("contract-schema", errs)
+    errs = check_provenance(secs)
+    import build_contract_provenance as bcp
+    errs += [f"{sid}: source/semantic differ from build_contract_provenance.py output" for sid, s in secs.items() if bcp.apply(s) != s]
+    run.check("contract-provenance", errs)
+    errs = check_retrieval(secs)
+    if sv.RETRIEVAL_INELIGIBLE != RETRIEVAL_INELIGIBLE:
+        errs.append("RETRIEVAL_INELIGIBLE differs between verify_all.py and semantic_validate.py")
+    run.check("retrieval-pin", errs)
+
+    import wrapper_gate
+    gerrs, gwarns, _ = wrapper_gate.gate()
+    run.check("wrapper-gate", gerrs, gwarns)
+
+    import build_token_catalog
+    cat = load("tokens/llm/token-catalog.json")
+    run.check("token-catalog-in-sync", [] if build_token_catalog.build() == cat else ["tokens/llm/token-catalog.json differs from build_token_catalog.build(): rerun extraction/build_token_catalog.py"])
+    pol = load("tokens/llm/token-policy.json")
     errs = []
-    needle = "/" + "Users" + "/"
+    sp = pol["slots"]
+    for name in sp["node.tokens.spacingY"]["allowed"]:
+        if name not in cat["groups"]["spacing"]["tokens"]:
+            errs.append(f"token-policy spacing {name!r} not in catalog")
+    fams = cat["groups"]["typography.fontFamily"]["tokens"]
+    for fam, names in sp["node.tokens.font"]["allowedByFamily"].items():
+        for n in names:
+            if n not in fams:
+                errs.append(f"token-policy font {n!r} not in catalog")
+    for slot in ("surface", "text", "border"):
+        pre = sp[f"node.tokens.{slot}"]["prefix"]
+        if not any(k.startswith(pre) for th in cat["themes"].values() for k in th["semantic"]):
+            errs.append(f"token-policy slot {slot} prefix {pre!r} resolves to no catalog token")
+    for rid in pol["rules"]:
+        if rid not in graph_ids:
+            errs.append(f"token-policy rule {rid} not declared in compatibility/graph.json")
+    if set(disk["definitions"]["tokens"]["properties"]) != {k.split(".")[-1] for k in sp if k.startswith("node.tokens.")}:
+        errs.append("schema node.tokens properties != token-policy node.tokens slots")
+    man_cat = man.get("entryPoints", {})
+    for k in ("tokenCatalog", "tokenPolicy"):
+        if k not in man_cat:
+            errs.append(f"manifest entryPoints lacks {k}")
+    run.check("token-policy-resolves", errs)
+
+    errs, warns = [], []
+    ident = load("policies/source-identity.json")
+    for k in ("brand", "persons", "customers", "thirdPartyMarks"):
+        if not ident.get(k):
+            errs.append(f"source-identity {k} is empty")
+        for t in ident.get(k, []):
+            if not t.get("evidence"):
+                errs.append(f"source-identity {k} {t.get('value')!r} has no file:line evidence")
+    for k in ("urls", "embeds", "claims", "copy", "assets"):
+        if not ident.get(k):
+            errs.append(f"source-identity {k} is empty")
+    if HAVE_SRC:
+        import build_source_identity as bsi
+        if bsi.render(bsi.build()) != open(os.path.join(REPO, "policies/source-identity.json"), encoding="utf-8").read():
+            errs.append("policies/source-identity.json differs from a rebuild from the real source: rerun extraction/build_source_identity.py")
+    else:
+        warns.append("sibling source tree absent: source-identity rebuild comparison skipped (shape checked only)")
+    run.check("source-identity", errs, warns)
+
+    errs = []
+    fams = load("templates/templates.json")["templateFamilies"]["families"]
+    if {t["templateFamily"] for t in T.values()} != set(fams):
+        errs.append("templateFamilies.families != families used by templates")
+    gdir = os.path.join(REPO, "schema/examples")
+    seen = {}
+    for fn in sorted(os.listdir(gdir)) if os.path.isdir(gdir) else []:
+        if not fn.endswith(".pagespec.json"):
+            continue
+        spec = load(f"schema/examples/{fn}")
+        if spec.get("mode") != "generation":
+            errs.append(f"{fn}: mode must be generation")
+        r = sv.validate(spec)
+        errs += [f"{fn}: {e[:160]}" for e in r.errors]
+        fam = T.get(spec.get("template"), {}).get("templateFamily")
+        seen.setdefault(fam, []).append(fn)
+    for fam in fams:
+        if fam not in seen:
+            errs.append(f"template family {fam} has no generated example in schema/examples/")
+    if ex.get("mode") != "clone":
+        errs.append("schema/example.pagespec.json (the real-asset control) must be mode clone")
+    run.check("generated-examples", errs)
+
+    errs = []
+    dp = man.get("designPolicy") or {}
+    if man.get("category") not in ("saas", "consumer-app", "consumer-service-marketplace"):
+        errs.append(f"manifest category {man.get('category')!r} missing/unknown")
+    pfile = dp.get("ref")
+    if not pfile or not os.path.isfile(os.path.join(REPO, pfile)):
+        errs.append(f"designPolicy.ref {pfile!r} missing")
+    else:
+        pol_doc = load(pfile)
+        for k in ("policyId", "policyVersion", "commonIrVersion"):
+            if dp.get(k) != pol_doc.get(k):
+                errs.append(f"manifest designPolicy.{k} {dp.get(k)!r} != {pfile} {pol_doc.get(k)!r}")
+        if dp.get("commonIrVersion") != "0.5" or dp.get("enforcementMode") != "hard-and-soft":
+            errs.append("designPolicy must be commonIrVersion 0.5, enforcementMode hard-and-soft")
+        is_saas = pol_doc.get("classification", {}).get("isSaaS")
+        if is_saas and (dp.get("policyId"), dp.get("policyVersion")) != ("n0-saas-design-constraints-common", "0.1.0"):
+            errs.append("a SaaS classification must bind n0-saas-design-constraints-common 0.1.0")
+        if is_saas is False and dp.get("policyId") == "n0-saas-design-constraints-common":
+            errs.append("a non-SaaS classification must not bind the SaaS policy")
+        if (man.get("category") == "saas") != bool(is_saas):
+            errs.append("manifest category and policy classification.isSaaS disagree")
+        want = policy_hash(pol_doc["enforcedBy"])
+        if dp.get("contentHash") != want:
+            errs.append(f"designPolicy.contentHash {dp.get('contentHash')} != computed {want} (run: python3 extraction/verify_all.py --write-policy-hash)")
+    run.check("policy-binding", errs)
+
+    errs = []
+    needles = ["/" + "Users" + "/", "/" + "private" + "/", "/" + "tmp" + "/", "C:" + "\\" + "Users"]
     for d, _, fs in os.walk(REPO):
         for f in fs:
-            if f.endswith((".json", ".md", ".py", ".txt")):
+            if f.endswith((".json", ".md", ".py", ".txt", ".mjs")):
                 p = os.path.join(d, f)
-                if needle in open(p, encoding="utf-8", errors="ignore").read():
-                    errs.append(f"absolute path in {os.path.relpath(p, REPO)}")
+                txt = open(p, encoding="utf-8", errors="ignore").read()
+                for nd in needles:
+                    if nd in txt:
+                        errs.append(f"absolute path ({nd}) in {os.path.relpath(p, REPO)}")
     run.check("no-absolute-paths", errs)
 
     errs = []
@@ -403,6 +674,26 @@ def main():
     return finish(run)
 
 
+def policy_hash(files, root=REPO):
+    import hashlib
+    h = hashlib.sha256()
+    for rel in sorted(files):
+        h.update(rel.encode() + b"\0")
+        with open(os.path.join(root, rel), "rb") as f:
+            h.update(f.read())
+        h.update(b"\0")
+    return "sha256:" + h.hexdigest()
+
+
+def write_policy_hash():
+    man = load("registry.manifest.json")
+    pol = load(man["designPolicy"]["ref"])
+    man["designPolicy"]["contentHash"] = policy_hash(pol["enforcedBy"])
+    with open(os.path.join(REPO, "registry.manifest.json"), "w", encoding="utf-8") as f:
+        f.write(json.dumps(man, indent=2, ensure_ascii=False) + "\n")
+    print("designPolicy.contentHash =", man["designPolicy"]["contentHash"])
+
+
 def finish(run):
     print(f"design-repo verify_all  (sibling source tree: {'present' if HAVE_SRC else 'ABSENT -> source checks degrade to warnings'})")
     for name, st, n in run.results:
@@ -416,4 +707,6 @@ def finish(run):
 
 
 if __name__ == "__main__":
+    if "--write-policy-hash" in sys.argv:
+        sys.exit(write_policy_hash())
     sys.exit(main())

@@ -2,7 +2,9 @@
   "id": "chrome.legacy-nav",
   "family": "legacy",
   "category": "chrome",
+  "retrievalEligible": true,
   "purpose": "Legacy black fixed 62px nav (blur), Product/Resources dropdowns, GitHub star; hamburger card below 810.",
+  "generatedAssetRoles": [],
   "variants": {
     "default": "legacy nav"
   },
@@ -18,14 +20,26 @@
       "quote": "export default function LegacyLayout"
     }
   ],
+  "source": {
+    "id": "src:LegacyNav@src/components/LegacyLayout.jsx:79-139",
+    "tag": "LegacyNav",
+    "file": "src/components/LegacyLayout.jsx",
+    "lines": "79-139"
+  },
+  "semantic": {
+    "id": "chrome.legacy-nav",
+    "category": "chrome"
+  },
   "content": {
     "type": "object",
     "properties": {
       "linkTone": {
         "enum": [
-          "#999999",
-          "#A8A3A3"
-        ]
+          "text.link",
+          "text.link-category"
+        ],
+        "x-tokenField": "text",
+        "description": "semantic token (tokens/10-semantic/semantic.json legacy-black): text.link = #999999 guide nav, text.link-category = #A8A3A3 category nav"
       }
     },
     "additionalProperties": false,
@@ -75,5 +89,29 @@
       }
     ]
   },
-  "notes": "The GitHub star widget is a static stand-in for the live buttons.github.io iframe and embeds GitHub's mark (a third-party trademark: reuse exactly, never redraw)."
+  "notes": "The GitHub star widget is a static stand-in for the live buttons.github.io iframe and embeds GitHub's mark (a third-party trademark: reuse exactly, never redraw).",
+  "generationSubstitution": {
+    "sourceFixed": [
+      "GlassFlow legacy logo",
+      "Product/Resources dropdown links to glassflow/clickhouse-etl on GitHub",
+      "GitHub star widget (third-party mark)"
+    ],
+    "renderFrom": [
+      "brand.name",
+      "brand.mark"
+    ],
+    "evidence": [
+      {
+        "path": "src/components/LegacyLayout.jsx",
+        "lines": "95",
+        "quote": "alt=\"GlassFlow\""
+      },
+      {
+        "path": "src/components/LegacyLayout.jsx",
+        "lines": "8",
+        "quote": "const GH_ETL = 'https://github.com/glassflow/clickhouse-etl'"
+      }
+    ],
+    "rule": "In mode=generation the renderer MUST NOT print any sourceFixed item; it renders the listed spec.brand fields instead (or omits the element). The PageSpec layer enforces only that spec.brand exists and is clean; renderer compliance is not machine-checked here."
+  }
 }

@@ -1,0 +1,102 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "legacy-guide",
+  "theme": "legacy-black",
+  "route": "/guides/pipeline-checklist",
+  "meta": {
+    "title": "Pipeline checklist | Northwind Relay",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "legacy-nav-0",
+      "section": "chrome.legacy-nav",
+      "variant": "default",
+      "content": {
+        "linkTone": "text.link"
+      },
+      "motion": {
+        "patterns": [
+          "legacy-dropdown",
+          "legacy-menu-fade",
+          "legacy-link-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "guide-hero-form-1",
+      "section": "legacy.guide-hero-form",
+      "variant": "kafka",
+      "content": {
+        "pill": "example",
+        "h1": "Relay",
+        "lead": "Northwind Relay moves events from your queues into analytics tables, checks every record on the way and tells you plainly when something drifts.",
+        "insideLabel": "inside",
+        "checklist": [
+          "Name an owner per stream before it goes live.",
+          "Name an owner per stream before it goes live.",
+          "Name an owner per stream before it goes live."
+        ],
+        "form": {
+          "fields": [
+            {
+              "name": "firstname",
+              "label": "open_console",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "firstname",
+              "label": "view_example",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "firstname",
+              "label": "start_free",
+              "type": "text",
+              "required": false
+            }
+          ],
+          "submitLabel": "Submit",
+          "endpointPolicy": "must-not-reuse-live-endpoint",
+          "onSuccess": "inline-status"
+        },
+        "contentPolicy": "summary-only",
+        "fullTextLink": {
+          "label": "Read the full guide page on northwind.example",
+          "href": "https://northwind.example/notes"
+        },
+        "visual": {
+          "assetRole": "screenshot.placeholder",
+          "ref": "placeholder:dashboard-wireframe",
+          "alt": "Placeholder dashboard wireframe"
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

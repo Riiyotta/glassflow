@@ -1,11 +1,36 @@
 {
-  "$description": "What is enforced vs convention.",
+  "$description": "Where and how a PageSpec may reference tokens. Every name resolves against tokens/llm/token-catalog.json (generated from the real token files); verify_all.py (token-policy-resolves) fails if a slot, allowed name or rule id here does not resolve. schema/semantic_validate.py enforces the rules below under the same rule ids, which are also declared in compatibility/graph.json.",
+  "policyVersion": "1.0.0",
+  "catalog": "tokens/llm/token-catalog.json",
+  "referenceForm": "token NAME only (e.g. 'surface.panel', 'spacer-band', 'inter'); never a value",
+  "slots": {
+    "node.tokens.surface": {"kind": "semantic-color", "prefix": "surface.", "resolveIn": "themes.<spec.theme>.semantic"},
+    "node.tokens.text": {"kind": "semantic-color", "prefix": "text.", "resolveIn": "themes.<spec.theme>.semantic"},
+    "node.tokens.border": {"kind": "semantic-color", "prefix": "border.", "resolveIn": "themes.<spec.theme>.semantic"},
+    "node.tokens.spacingY": {"kind": "spacing", "resolveIn": "groups.spacing", "allowed": ["section-pad-y", "spacer-band", "spacer-divider", "spacer-band-70", "spacer-top-calculator"]},
+    "node.tokens.font": {"kind": "font-family", "resolveIn": "groups.typography.fontFamily", "allowedByFamily": {"mars": ["display", "inter", "mono", "sys", "sys-mono"], "legacy": ["inter", "sys"]}},
+    "content x-tokenField (chrome.legacy-nav linkTone)": {"kind": "semantic-color", "prefix": "text.", "resolveIn": "themes.<spec.theme>.semantic"}
+  },
+  "rawValuePatterns": {
+    "hex": "#[0-9a-fA-F]{3,8} (outside link/anchor fields)",
+    "function": "rgb( rgba( hsl( hsla( oklch( color(",
+    "length": "<number>px | <number>rem | <number>em | bare number in a spacing slot"
+  },
+  "rules": {
+    "TOKEN_UNKNOWN": "a token slot names something that is not in the catalog for any theme",
+    "TOKEN_RAW_VALUE": "a raw hex / rgb() / hsl() colour in a token slot or in any non-link content string",
+    "TOKEN_ARBITRARY_SPACING": "a spacing slot holds a px/rem/number or a spacing name outside slots.node.tokens.spacingY.allowed",
+    "TOKEN_UNSUPPORTED_FONT": "a font slot names a family outside typography.fontFamily, or one not used by the template's chrome family",
+    "TOKEN_THEME_MISMATCH": "a semantic token that exists only in the OTHER theme (e.g. text.link-category on a mars page, surface.panel on legacy-black), or a slot/prefix mismatch (a text.* token in the surface slot)"
+  },
   "enforced": {
-    "motion.patterns": "PageSpec motion.patterns is a closed per-section enum (schema)",
-    "assetRoles": "closed enum (schema + verify_all)"
+    "node.tokens": "optional, closed object (schema) + the five rules above (semantic validator)",
+    "motion.patterns": "closed per-section enum (schema)",
+    "assetRoles": "closed enum (schema + verify_all role-closure)"
   },
+  "overrides": "node.tokens is OPTIONAL and added in pageSpecVersion 1.2.0 so token references are machine-checkable. Section contracts still own styling; the clone example does not use it and the clone itself has no per-instance token override, so a renderer that honours node.tokens is not evidenced in the source (agent decision, recorded honestly).",
   "convention": {
-    "color": "reference semantic names, never raw hex"
-  },
-  "overrides": "PageSpecs carry NO per-instance style/token override field: styling is owned by section contracts. There is therefore nothing to mutate at PageSpec level for token overrides (MASTER-GUIDE 3.21); token drift is caught at catalog level by verify_all."
+    "color": "reference semantic names (tokens/10-semantic), never foundation hex",
+    "radius": "mars is square (radius.mars.none); rounded radii exist only in the legacy-black family and the calculator"
+  }
 }

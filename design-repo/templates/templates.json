@@ -3,6 +3,7 @@
   "templates": {
     "home": {
       "theme": "mars",
+      "templateFamily": "landing",
       "chromeFamily": "mars",
       "description": "Home: hero, testimonial, two product splits, quickstart, FAQ.",
       "implementedBy": [
@@ -113,6 +114,7 @@
     },
     "product-tares": {
       "theme": "mars",
+      "templateFamily": "product",
       "chromeFamily": "mars",
       "description": "/tares product page.",
       "implementedBy": [
@@ -271,6 +273,7 @@
     },
     "product-rius": {
       "theme": "mars",
+      "templateFamily": "product",
       "chromeFamily": "mars",
       "description": "/rius product page (differs from /tares in node sequence: benefits, logos, retrospective, agents table, plans, blog row).",
       "implementedBy": [
@@ -509,6 +512,7 @@
     },
     "pricing": {
       "theme": "mars",
+      "templateFamily": "pricing",
       "chromeFamily": "mars",
       "description": "/rius/pricing (also the /enterprise redirect target).",
       "implementedBy": [
@@ -651,6 +655,7 @@
     },
     "alternatives": {
       "theme": "mars",
+      "templateFamily": "comparison",
       "chromeFamily": "mars",
       "description": "Arize and Langfuse comparison pages: ONE template, per-vendor data; install / side-by-side / better-pick are optional, split repeats.",
       "implementedBy": [
@@ -789,6 +794,7 @@
     },
     "calculator": {
       "theme": "mars",
+      "templateFamily": "tool",
       "chromeFamily": "mars",
       "description": "Build-vs-buy calculator (the top band is desktop-only; it is still one node).",
       "implementedBy": [
@@ -835,6 +841,7 @@
     },
     "blog-index": {
       "theme": "mars",
+      "templateFamily": "index",
       "chromeFamily": "mars",
       "description": "/blog index.",
       "implementedBy": [
@@ -929,6 +936,7 @@
     },
     "blog-post": {
       "theme": "mars",
+      "templateFamily": "article",
       "chromeFamily": "mars",
       "description": "/blog/:slug (one template for every live post; related posts omitted when none).",
       "implementedBy": [
@@ -1031,6 +1039,7 @@
     },
     "case-studies-index": {
       "theme": "mars",
+      "templateFamily": "index",
       "chromeFamily": "mars",
       "description": "/case-studies index (no two-products band).",
       "implementedBy": [
@@ -1085,6 +1094,7 @@
     },
     "case-study-detail": {
       "theme": "mars",
+      "templateFamily": "article",
       "chromeFamily": "mars",
       "description": "/case-studies/:slug.",
       "implementedBy": [
@@ -1187,6 +1197,7 @@
     },
     "about": {
       "theme": "mars",
+      "templateFamily": "company",
       "chromeFamily": "mars",
       "description": "/about.",
       "implementedBy": [
@@ -1313,6 +1324,7 @@
     },
     "contact": {
       "theme": "mars",
+      "templateFamily": "contact",
       "chromeFamily": "mars",
       "description": "/contact.",
       "implementedBy": [
@@ -1391,6 +1403,7 @@
     },
     "contact-success": {
       "theme": "mars",
+      "templateFamily": "contact",
       "chromeFamily": "mars",
       "description": "/contact/success (no two-products band).",
       "implementedBy": [
@@ -1437,6 +1450,7 @@
     },
     "legal-with-sidebar": {
       "theme": "mars",
+      "templateFamily": "legal",
       "chromeFamily": "mars",
       "description": "Terms and Privacy: TOC sidebar + summary-only sections; ends with a spacer before the footer.",
       "implementedBy": [
@@ -1484,6 +1498,7 @@
     },
     "legal-single": {
       "theme": "mars",
+      "templateFamily": "legal",
       "chromeFamily": "mars",
       "description": "Imprint: single column.",
       "implementedBy": [
@@ -1530,6 +1545,7 @@
     },
     "category-legacy": {
       "theme": "legacy-black",
+      "templateFamily": "legacy",
       "chromeFamily": "legacy",
       "description": "LEGACY /categories/:slug: own nav, no global footer/CTA band.",
       "implementedBy": [
@@ -1568,6 +1584,7 @@
     },
     "legacy-guide": {
       "theme": "legacy-black",
+      "templateFamily": "legacy",
       "chromeFamily": "legacy",
       "description": "LEGACY gated-guide pages (kafka, mistakes): own nav, no footer.",
       "implementedBy": [
@@ -1597,5 +1614,21 @@
         }
       ]
     }
+  },
+  "templateFamilies": {
+    "$description": "Semantic page families (purpose, not DOM). Every family has one mode=generation example in schema/examples/generated.<family>.pagespec.json (checked by verify_all generated-examples).",
+    "families": [
+      "article",
+      "company",
+      "comparison",
+      "contact",
+      "index",
+      "landing",
+      "legacy",
+      "legal",
+      "pricing",
+      "product",
+      "tool"
+    ]
   }
 }

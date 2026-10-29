@@ -1,0 +1,252 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "blog-post",
+  "theme": "mars",
+  "route": "/journal/replay-without-regret",
+  "meta": {
+    "title": "Replay without regret | Northwind Relay",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "navbar-0",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "/pricing"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-1",
+      "section": "layout.spacer",
+      "variant": "divider-30",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "post-hero-2",
+      "section": "blog.post-hero",
+      "variant": "default",
+      "content": {
+        "category": "Field notes",
+        "title": "Ship schema changes calmly",
+        "description": "For platform groups that need audit trails and private networking.",
+        "author": "Priya Halvorsen",
+        "date": "Mar 3, 2026",
+        "cover": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "text-effect"
+        ],
+        "reducedMotionFallback": "opacity-only"
+      }
+    },
+    {
+      "id": "spacer-3",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "article-summary-body-4",
+      "section": "content.article-summary-body",
+      "variant": "post",
+      "content": {
+        "contentPolicy": "summary-only",
+        "lede": "A field guide to running event pipelines that recover on their own.",
+        "outline": [
+          {
+            "level": "h2",
+            "heading": "Pick the plan that fits",
+            "summary": "Explains how replay windows work and when to use them."
+          },
+          {
+            "level": "h2",
+            "heading": "Why teams move their streams to Relay",
+            "summary": "Covers holding tables for rejected rows."
+          },
+          {
+            "level": "h2",
+            "heading": "What a calm pipeline looks like",
+            "summary": "Lists the alerts worth keeping."
+          }
+        ],
+        "fullTextLink": {
+          "label": "Read the full article on northwind.example",
+          "href": "https://northwind.example/notes"
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-5",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "share-bar-6",
+      "section": "blog.share-bar",
+      "variant": "default",
+      "content": {
+        "heading": "Share the article",
+        "targets": [
+          "x",
+          "x",
+          "x"
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "related-posts-7",
+      "section": "blog.related-posts",
+      "variant": "default",
+      "content": {
+        "title": "You might also like",
+        "cards": [
+          {
+            "href": "/docs",
+            "tag": "guide",
+            "title": "One console for every stream",
+            "description": "Plain answers about running Relay in production.",
+            "author": "Juno Achterberg",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            }
+          },
+          {
+            "href": "https://docs.northwind.example/start",
+            "tag": "notes",
+            "title": "Late data, handled",
+            "description": "For a first team wiring one or two streams.",
+            "author": "Priya Halvorsen",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            }
+          },
+          {
+            "href": "/contact",
+            "tag": "release",
+            "title": "Cost you can predict",
+            "description": "For teams with several producers and shared dashboards.",
+            "author": "Juno Achterberg",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [
+          "blog-card-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-8",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "two-products-band-9",
+      "section": "conversion.two-products-band",
+      "variant": "posts",
+      "content": {
+        "title": "Built for night shifts",
+        "body": "Relay validates each event against the contract you wrote, routes rejects to a holding table and keeps the good rows flowing.",
+        "primary": {
+          "label": "talk_to_us",
+          "href": "#faq"
+        },
+        "secondary": {
+          "label": "open_console",
+          "href": "/pricing"
+        },
+        "background": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "footer-10",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

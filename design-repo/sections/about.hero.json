@@ -2,7 +2,12 @@
   "id": "about.hero",
   "family": "mars",
   "category": "hero",
+  "retrievalEligible": true,
   "purpose": "/about hero: per-word H1 + SUMMARY-ONLY story outline (per-char, per-line stagger) + team photo in dithered frame.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "person.fictional-avatar"
+  ],
   "variants": {
     "default": "/about"
   },
@@ -13,6 +18,16 @@
       "quote": "function Hero()"
     }
   ],
+  "source": {
+    "id": "src:Hero@src/pages/About.jsx:77-127",
+    "tag": "Hero",
+    "file": "src/pages/About.jsx",
+    "lines": "77-127"
+  },
+  "semantic": {
+    "id": "about.hero",
+    "category": "hero"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -39,11 +54,11 @@
         "properties": {
           "label": {
             "type": "string",
-            "pattern": "^Read the full (story|text) on glassflow\\.ai$"
+            "pattern": "^Read the full (story|text) on (glassflow\\.ai|[a-z0-9-]+\\.(example|invalid))$"
           },
           "href": {
             "type": "string",
-            "pattern": "^https://www\\.glassflow\\.ai/",
+            "pattern": "^https://(www\\.glassflow\\.ai|[a-z0-9-]+\\.(example|invalid))/",
             "x-linkField": true
           }
         },
@@ -58,13 +73,15 @@
         "properties": {
           "assetRole": {
             "enum": [
-              "person.real-photo"
+              "person.real-photo",
+              "person.fictional-avatar",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",

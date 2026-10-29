@@ -2,7 +2,9 @@
   "id": "alt.faq",
   "family": "mars",
   "category": "faq",
+  "retrievalEligible": true,
   "purpose": "FAQ as native <details>, one open at a time across the page.",
+  "generatedAssetRoles": [],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +16,16 @@
       "quote": "function FaqBlock({ items, acc })"
     }
   ],
+  "source": {
+    "id": "src:FaqBlock@src/pages/Alternatives.jsx:1034-1040",
+    "tag": "FaqBlock",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "1034-1040"
+  },
+  "semantic": {
+    "id": "alt.faq",
+    "category": "faq"
+  },
   "content": {
     "type": "object",
     "properties": {

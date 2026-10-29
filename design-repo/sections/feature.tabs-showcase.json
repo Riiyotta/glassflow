@@ -2,7 +2,12 @@
   "id": "feature.tabs-showcase",
   "family": "mars",
   "category": "feature",
+  "retrievalEligible": true,
   "purpose": "Two-column accordion of numbered tabs with the active tab's screenshot.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "screenshot.placeholder"
+  ],
   "variants": {
     "default": "/tares 'What is in Tares'"
   },
@@ -13,6 +18,16 @@
       "quote": "export default function TabsShowcase"
     }
   ],
+  "source": {
+    "id": "src:TabsShowcase@src/components/TabsShowcase.jsx:11-78",
+    "tag": "TabsShowcase",
+    "file": "src/components/TabsShowcase.jsx",
+    "lines": "11-78"
+  },
+  "semantic": {
+    "id": "feature.tabs-showcase",
+    "category": "feature"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -46,13 +61,15 @@
               "properties": {
                 "assetRole": {
                   "enum": [
-                    "product.screenshot"
+                    "product.screenshot",
+                    "screenshot.placeholder",
+                    "asset.user-supplied"
                   ]
                 },
                 "ref": {
                   "type": "string",
-                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                  "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                 },
                 "alt": {
                   "type": "string",

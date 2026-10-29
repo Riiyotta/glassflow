@@ -1,0 +1,221 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "contact",
+  "theme": "mars",
+  "route": "/talk-to-us",
+  "meta": {
+    "title": "Talk to us | Northwind Relay",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "navbar-0",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "#faq"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-1",
+      "section": "layout.spacer",
+      "variant": "divider-30",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "signal-form-2",
+      "section": "contact.signal-form",
+      "variant": "default",
+      "content": {
+        "title": "Ship schema changes calmly",
+        "lead": [
+          "Relay runs next to your data and never copies it elsewhere.",
+          "Every stream gets a replay window and a plain-language alert.",
+          "Contracts catch bad events before they reach a dashboard."
+        ],
+        "logoStrip": {
+          "caption": "Placeholder logos",
+          "logos": [
+            {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            },
+            {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            },
+            {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            },
+            {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            }
+          ]
+        },
+        "form": {
+          "fields": [
+            "firstname",
+            "firstname",
+            "firstname"
+          ],
+          "solutions": [
+            "Relay",
+            "Relay"
+          ],
+          "submitLabel": "submit",
+          "endpointPolicy": "must-not-reuse-live-endpoint",
+          "onSuccess": "navigate:/contact/success"
+        },
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "generate:abstract amber pixel dither field",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-3",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "quickstart-band-4",
+      "section": "onboarding.quickstart-band",
+      "variant": "contact-calendar",
+      "content": {
+        "heading": "Where the time goes today",
+        "sub": [
+          "No credit card for the trial."
+        ],
+        "calendarEmbed": {
+          "linkKind": "external-embed",
+          "src": "https://northwind.example/notes"
+        },
+        "founders": [
+          {
+            "name": "Priya Halvorsen",
+            "role": "Staff Engineer",
+            "avatar": {
+              "assetRole": "person.fictional-avatar",
+              "ref": "generate:initials avatar tile for a fictional person",
+              "alt": "Initials avatar for a fictional person"
+            }
+          },
+          {
+            "name": "Dario Kestrel",
+            "role": "Platform Lead",
+            "avatar": {
+              "assetRole": "person.fictional-avatar",
+              "ref": "generate:initials avatar tile for a fictional person",
+              "alt": "Initials avatar for a fictional person"
+            }
+          }
+        ],
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "generate:abstract amber pixel dither field",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-5",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "two-products-band-6",
+      "section": "conversion.two-products-band",
+      "variant": "pages",
+      "content": {
+        "title": "One console for every stream",
+        "body": "Runs inside your own account with a single container and a small config file.",
+        "primary": {
+          "label": "view_example",
+          "href": "/pricing"
+        },
+        "secondary": {
+          "label": "start_free",
+          "href": "/docs"
+        },
+        "background": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "footer-7",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

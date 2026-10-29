@@ -2,7 +2,13 @@
   "id": "legacy.bottom-cta",
   "family": "legacy",
   "category": "conversion",
+  "retrievalEligible": true,
   "purpose": "Legacy closing CTA over an image: gradient H2, grey sub, two rounded buttons.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "illustration.generated",
+    "texture.dither-field"
+  ],
   "variants": {
     "default": "/categories/:slug"
   },
@@ -13,6 +19,16 @@
       "quote": "function BottomCta()"
     }
   ],
+  "source": {
+    "id": "src:BottomCta@src/pages/Category.jsx:26-53",
+    "tag": "BottomCta",
+    "file": "src/pages/Category.jsx",
+    "lines": "26-53"
+  },
+  "semantic": {
+    "id": "legacy.bottom-cta",
+    "category": "conversion"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -74,13 +90,15 @@
           "assetRole": {
             "enum": [
               "scene.mars-figurative",
-              "texture.dither-field"
+              "texture.dither-field",
+              "illustration.generated",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",

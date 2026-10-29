@@ -2,7 +2,9 @@
   "id": "product.benefits-strip",
   "family": "mars",
   "category": "product",
+  "retrievalEligible": true,
   "purpose": "72px strip of 4 pixel-icon benefits on #1E0F00.",
+  "generatedAssetRoles": [],
   "variants": {
     "default": "/rius"
   },
@@ -13,6 +15,16 @@
       "quote": "function Benefits()"
     }
   ],
+  "source": {
+    "id": "src:Benefits@src/pages/Rius.jsx:93-104",
+    "tag": "Benefits",
+    "file": "src/pages/Rius.jsx",
+    "lines": "93-104"
+  },
+  "semantic": {
+    "id": "product.benefits-strip",
+    "category": "product"
+  },
   "content": {
     "type": "object",
     "properties": {

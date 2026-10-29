@@ -1,0 +1,452 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "product-tares",
+  "theme": "mars",
+  "route": "/platform/relay",
+  "meta": {
+    "title": "Relay platform | Northwind Relay",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "navbar-0",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "https://docs.northwind.example/start"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-1",
+      "section": "layout.spacer",
+      "variant": "divider-30",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "product-2",
+      "section": "hero.product",
+      "variant": "tares",
+      "content": {
+        "title": "Replay any hour of traffic",
+        "lead": "Every stream gets a replay window and a plain-language alert.",
+        "primary": {
+          "label": "view_example",
+          "href": "/contact"
+        },
+        "secondary": {
+          "label": "start_free",
+          "href": "#faq"
+        },
+        "image": {
+          "assetRole": "screenshot.placeholder",
+          "ref": "placeholder:dashboard-wireframe",
+          "alt": "Placeholder dashboard wireframe"
+        },
+        "barGraphic": {
+          "assetRole": "brand.placeholder-mark",
+          "ref": "placeholder:relay-mark",
+          "alt": "Northwind Relay placeholder mark"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "product-appear",
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "opacity-only+transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-3",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "title-row-4",
+      "section": "content.title-row",
+      "variant": "product-160",
+      "content": {
+        "title": "Alerts your on-call can trust"
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "image-card-grid-5",
+      "section": "feature.image-card-grid",
+      "variant": "cols-4",
+      "content": {
+        "cards": [
+          {
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            },
+            "title": "Ship schema changes calmly",
+            "body": "Relay validates each event against the contract you wrote, routes rejects to a holding table and keeps the good rows flowing.",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            }
+          },
+          {
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            },
+            "title": "One console for every stream",
+            "body": "Every stream gets a seven-day replay window, so analysts can rebuild a table after a schema fix in minutes.",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            }
+          },
+          {
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            },
+            "title": "Late data, handled",
+            "body": "Runs inside your own account with a single container and a small config file.",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [
+          "product-appear"
+        ],
+        "reducedMotionFallback": "opacity-only"
+      }
+    },
+    {
+      "id": "spacer-6",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "tabs-showcase-7",
+      "section": "feature.tabs-showcase",
+      "variant": "default",
+      "content": {
+        "title": "Cost you can predict",
+        "lead": "Contracts catch bad events before they reach a dashboard.",
+        "tabs": [
+          {
+            "title": "Built for night shifts",
+            "body": "Relay validates each event against the contract you wrote, routes rejects to a holding table and keeps the good rows flowing.",
+            "image": {
+              "assetRole": "screenshot.placeholder",
+              "ref": "placeholder:dashboard-wireframe",
+              "alt": "Placeholder dashboard wireframe"
+            }
+          },
+          {
+            "title": "Trace a record end to end",
+            "body": "Every stream gets a seven-day replay window, so analysts can rebuild a table after a schema fix in minutes.",
+            "image": {
+              "assetRole": "screenshot.placeholder",
+              "ref": "placeholder:dashboard-wireframe",
+              "alt": "Placeholder dashboard wireframe"
+            }
+          },
+          {
+            "title": "Fewer pages at 3am",
+            "body": "Runs inside your own account with a single container and a small config file.",
+            "image": {
+              "assetRole": "screenshot.placeholder",
+              "ref": "placeholder:dashboard-wireframe",
+              "alt": "Placeholder dashboard wireframe"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [
+          "product-appear",
+          "tabs-height"
+        ],
+        "reducedMotionFallback": "opacity-only+instant"
+      }
+    },
+    {
+      "id": "spacer-8",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "heading-band-9",
+      "section": "content.heading-band",
+      "variant": "default",
+      "content": {
+        "title": "Backfills without the drama",
+        "sub": "No credit card for the trial.",
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "generate:abstract amber pixel dither field",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "timeline-10",
+      "section": "feature.timeline",
+      "variant": "default",
+      "content": {
+        "rows": [
+          {
+            "time": "14:02",
+            "title": "Pipelines that explain themselves",
+            "sub": "Measured on a sample workload, your numbers will differ.",
+            "log": "14:02 contract check failed on field eta",
+            "finding": [
+              "Producer v2 sends eta as text",
+              "Producer v2 sends eta as text",
+              "Producer v2 sends eta as text"
+            ]
+          },
+          {
+            "time": "14:02",
+            "title": "Every event, accounted for",
+            "sub": "Pick a stream, point it at a table, watch it fill.",
+            "log": "14:02 contract check failed on field eta",
+            "finding": [
+              "Producer v2 sends eta as text",
+              "Producer v2 sends eta as text",
+              "Producer v2 sends eta as text"
+            ]
+          },
+          {
+            "time": "14:02",
+            "title": "Replay any hour of traffic",
+            "sub": "Start with one stream and grow from there.",
+            "log": "14:02 contract check failed on field eta",
+            "finding": [
+              "Producer v2 sends eta as text",
+              "Producer v2 sends eta as text",
+              "Producer v2 sends eta as text"
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-11",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "run-it-terminals-12",
+      "section": "onboarding.run-it-terminals",
+      "variant": "default",
+      "content": {
+        "heading": "From raw event to clean table",
+        "sub": [
+          "No credit card for the trial.",
+          "Measured on a sample workload, your numbers will differ."
+        ],
+        "terminals": [
+          {
+            "rows": [
+              {
+                "mark": "#",
+                "text": "Holding tables instead of silent drops."
+              },
+              {
+                "mark": "#",
+                "text": "Curious engineers who read the logs before guessing."
+              },
+              {
+                "mark": "#",
+                "text": "We write things down so the next person can fix them."
+              }
+            ]
+          },
+          {
+            "rows": [
+              {
+                "mark": "#",
+                "text": "Ask the quiet question early."
+              },
+              {
+                "mark": "#",
+                "text": "Replays that finish before the coffee does."
+              },
+              {
+                "mark": "#",
+                "text": "Holding tables instead of silent drops."
+              }
+            ]
+          }
+        ],
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "generate:abstract amber pixel dither field",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-13",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "accordion-14",
+      "section": "faq.accordion",
+      "variant": "product-inset",
+      "content": {
+        "heading": "Where the time goes today",
+        "items": [
+          {
+            "question": "How long is the replay window?",
+            "answer": "Seven days on every plan; longer windows are available on request."
+          },
+          {
+            "question": "Does Relay copy my data anywhere?",
+            "answer": "No. Relay runs inside your account and writes only to the destinations you configure."
+          },
+          {
+            "question": "What happens to rows that fail a check?",
+            "answer": "They land in a holding table with the reason attached, so you can fix and replay them."
+          }
+        ],
+        "firstOpen": true
+      },
+      "motion": {
+        "patterns": [
+          "faq-height"
+        ],
+        "reducedMotionFallback": "instant"
+      }
+    },
+    {
+      "id": "spacer-15",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "image-cta-16",
+      "section": "conversion.image-cta",
+      "variant": "product",
+      "content": {
+        "title": "Alerts your on-call can trust",
+        "body": "Relay validates each event against the contract you wrote, routes rejects to a holding table and keeps the good rows flowing.",
+        "primary": {
+          "label": "read_docs",
+          "href": "/pricing"
+        },
+        "secondary": {
+          "label": "see_plans",
+          "href": "/docs"
+        },
+        "background": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "footer-17",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

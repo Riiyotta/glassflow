@@ -1,0 +1,233 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "blog-index",
+  "theme": "mars",
+  "route": "/journal",
+  "meta": {
+    "title": "Journal | Northwind Relay",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "navbar-0",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "/contact"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-1",
+      "section": "layout.spacer",
+      "variant": "divider-30",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "title-block-2",
+      "section": "blog.title-block",
+      "variant": "default",
+      "content": {
+        "chip": "new",
+        "title": "Fewer pages at 3am",
+        "lead": "Bring your own cloud account; Relay runs next to your data and never copies it elsewhere.",
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "generate:abstract amber pixel dither field",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "featured-post-3",
+      "section": "blog.featured-post",
+      "variant": "default",
+      "content": {
+        "href": "#faq",
+        "category": "Guides",
+        "title": "Backfills without the drama",
+        "excerpt": "How one logistics team stopped losing late pings from trucks crossing borders.",
+        "cover": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        },
+        "ctaLabel": "read more"
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-4",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "filter-bar-5",
+      "section": "blog.filter-bar",
+      "variant": "default",
+      "content": {
+        "tabs": [
+          {
+            "label": "open_console",
+            "slug": "replay-without-regret"
+          },
+          {
+            "label": "view_example",
+            "slug": "replay-without-regret"
+          },
+          {
+            "label": "start_free",
+            "slug": "replay-without-regret"
+          }
+        ],
+        "searchParam": "title"
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "post-grid-6",
+      "section": "blog.post-grid",
+      "variant": "default",
+      "content": {
+        "cards": [
+          {
+            "href": "/pricing",
+            "tag": "guide",
+            "title": "Pipelines that explain themselves",
+            "description": "Plain answers about running Relay in production.",
+            "author": "Juno Achterberg",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            }
+          },
+          {
+            "href": "/docs",
+            "tag": "notes",
+            "title": "Every event, accounted for",
+            "description": "For a first team wiring one or two streams.",
+            "author": "Priya Halvorsen",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            }
+          },
+          {
+            "href": "https://docs.northwind.example/start",
+            "tag": "release",
+            "title": "Replay any hour of traffic",
+            "description": "For teams with several producers and shared dashboards.",
+            "author": "Juno Achterberg",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [
+          "blog-card-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-7",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "two-products-band-8",
+      "section": "conversion.two-products-band",
+      "variant": "blog",
+      "content": {
+        "title": "Alerts your on-call can trust",
+        "body": "Runs inside your own account with a single container and a small config file.",
+        "primary": {
+          "label": "read_docs",
+          "href": "/contact"
+        },
+        "secondary": {
+          "label": "see_plans",
+          "href": "#faq"
+        },
+        "background": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "footer-9",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

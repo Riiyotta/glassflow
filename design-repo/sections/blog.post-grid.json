@@ -2,7 +2,12 @@
   "id": "blog.post-grid",
   "family": "mars",
   "category": "content",
+  "retrievalEligible": true,
   "purpose": "All posts as cards, no pagination.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "illustration.generated"
+  ],
   "variants": {
     "default": "/blog"
   },
@@ -13,6 +18,16 @@
       "quote": "<Shell inner=\"grid grid-cols-1 p-3 md:grid-cols-2 md:gap-2 lg:grid-cols-3\">"
     }
   ],
+  "source": {
+    "id": "src:Shell@src/pages/BlogIndex.jsx:123-127",
+    "tag": "Shell",
+    "file": "src/pages/BlogIndex.jsx",
+    "lines": "123-127"
+  },
+  "semantic": {
+    "id": "blog.post-grid",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -52,13 +67,15 @@
               "properties": {
                 "assetRole": {
                   "enum": [
-                    "blog.cover"
+                    "blog.cover",
+                    "illustration.generated",
+                    "asset.user-supplied"
                   ]
                 },
                 "ref": {
                   "type": "string",
-                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                  "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                 },
                 "alt": {
                   "type": "string",

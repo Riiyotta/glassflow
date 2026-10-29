@@ -2,7 +2,9 @@
   "id": "case.metrics",
   "family": "mars",
   "category": "content",
+  "retrievalEligible": true,
   "purpose": "Three metric cells (value + label).",
+  "generatedAssetRoles": [],
   "variants": {
     "default": "/case-studies/:slug"
   },
@@ -13,6 +15,16 @@
       "quote": "{s.metrics.map(([m, label]) => ("
     }
   ],
+  "source": {
+    "id": "src:metrics@src/pages/CaseStudies.jsx:161-166",
+    "tag": "metrics",
+    "file": "src/pages/CaseStudies.jsx",
+    "lines": "161-166"
+  },
+  "semantic": {
+    "id": "case.metrics",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {

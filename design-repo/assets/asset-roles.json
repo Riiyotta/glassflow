@@ -1,15 +1,47 @@
 {
-  "$description": "CLOSED assetRole vocabulary. GlassFlow is a real, live company: every role carries AI-generation + licensing guidance. pinned=true roles are checked against an independent pinned table in extraction/verify_all.py (membership in the enum is not enough).",
-  "generationPolicyEnum": [
+  "$description": "CLOSED assetRole vocabulary. GlassFlow is a real, live company. Every role has a closed availability (clone-only | generation-safe | blocked-for-generation), the policy for each PageSpec mode, generationSafeSubstitutes and generatedModeGuidance. availability, cloneModePolicy and generationModePolicy are pinned independently in extraction/verify_all.py and schema/semantic_validate.py (PINNED_AVAILABILITY): editing this file alone cannot loosen them. kind=media roles form the PageSpec assetRole enum; url/copy roles are content policies enforced by the GENERATION_MODE_* rules.",
+  "availabilityEnum": [
+    "clone-only",
+    "generation-safe",
+    "blocked-for-generation"
+  ],
+  "availabilityMeaning": {
+    "clone-only": "Real source media, reusable for fidelity in mode=clone only. In mode=generation it is rejected (GENERATION_MODE_ASSET) and one of generationSafeSubstitutes must be used instead.",
+    "generation-safe": "May appear in both modes. In mode=generation the ref must be generate:<brief>, placeholder:<id> or user-supplied:<id>; a source file (/assets/...) is still rejected (GENERATION_MODE_ASSET).",
+    "blocked-for-generation": "Source identity (trademark, real person, real customer, real product UI). Clone mode may reuse the exact file; mode=generation rejects it under its identity rule (GENERATION_MODE_BRAND / _PERSON / _CUSTOMER / _THIRD_PARTY / _SCREENSHOT) whatever the ref."
+  },
+  "cloneModePolicyEnum": [
     "may-generate-new",
     "must-reuse-exact",
-    "must-not-fabricate"
+    "must-not-fabricate",
+    "operator-supplied",
+    "not-applicable"
   ],
+  "generationModePolicyEnum": [
+    "blocked",
+    "substitute-required",
+    "may-generate-new",
+    "operator-supplied",
+    "placeholder-only",
+    "must-be-original"
+  ],
+  "generationRefForms": {
+    "generate:<brief>": "a new asset generated from a written brief (8-200 chars)",
+    "placeholder:<id>": "a neutral placeholder from the renderer's placeholder library (lowercase id)",
+    "user-supplied:<id>": "operator media for the operator's own brand (lowercase id)"
+  },
   "roles": {
     "logo.third-party": {
-      "generationPolicy": "must-reuse-exact",
+      "kind": "media",
+      "availability": "blocked-for-generation",
+      "cloneModePolicy": "must-reuse-exact",
+      "generationModePolicy": "blocked",
       "pinned": true,
+      "generationSafeSubstitutes": [
+        "logo.placeholder-company"
+      ],
       "guidance": "Real third-party trademarks (Vercel, Claude, Cursor, OpenAI in the logo strip; investor firm badges). Reuse the exact clone files, unaltered, only where the source shows them. NEVER generate, redraw, recolour or add any other third-party logo; nominative use only, no implied endorsement beyond the source page.",
+      "generatedModeGuidance": "Never place a real third-party logo, wordmark or company name in a generated page. Use logo.placeholder-company (a neutral generated monogram for a fictional company) or omit the strip.",
       "evidence": [
         {
           "path": "src/components/Hero.jsx",
@@ -19,9 +51,16 @@
       ]
     },
     "logo.customer": {
-      "generationPolicy": "must-reuse-exact",
+      "kind": "media",
+      "availability": "blocked-for-generation",
+      "cloneModePolicy": "must-reuse-exact",
+      "generationModePolicy": "blocked",
       "pinned": true,
+      "generationSafeSubstitutes": [
+        "logo.placeholder-company"
+      ],
       "guidance": "Real customer / backer logos (Restack, nubrain, Sentri, Entire, Weaviate, sference, case-study logos). Exact files only; never fabricate a customer logo or a customer relationship.",
+      "generatedModeGuidance": "Never show a real customer/backer logo or imply a real customer relationship. Use logo.placeholder-company for a clearly fictional company (fictional name, .example domain).",
       "evidence": [
         {
           "path": "src/pages/Rius.jsx",
@@ -31,9 +70,17 @@
       ]
     },
     "brand.glassflow-mark": {
-      "generationPolicy": "must-reuse-exact",
+      "kind": "media",
+      "availability": "blocked-for-generation",
+      "cloneModePolicy": "must-reuse-exact",
+      "generationModePolicy": "blocked",
       "pinned": true,
+      "generationSafeSubstitutes": [
+        "brand.placeholder-mark",
+        "asset.user-supplied"
+      ],
       "guidance": "GlassFlow's own wordmark, product bar graphics, favicon. Exact files only; never redraw or generate a variant mark.",
+      "generatedModeGuidance": "Never reproduce, redraw or imitate the GlassFlow wordmark, bar graphics or favicon. Use the operator's own mark (asset.user-supplied) or a neutral brand.placeholder-mark.",
       "evidence": [
         {
           "path": "src/components/Navbar.jsx",
@@ -43,9 +90,17 @@
       ]
     },
     "brand.dither-mark": {
-      "generationPolicy": "must-reuse-exact",
+      "kind": "media",
+      "availability": "blocked-for-generation",
+      "cloneModePolicy": "must-reuse-exact",
+      "generationModePolicy": "blocked",
       "pinned": true,
+      "generationSafeSubstitutes": [
+        "texture.dither-field",
+        "illustration.generated"
+      ],
       "guidance": "Dithered backgrounds that contain the GlassFlow stripe mark (e.g. the 'Two products' band image, inspected). Reuse exactly; generating lookalikes would counterfeit the mark.",
+      "generatedModeGuidance": "These backgrounds carry the GlassFlow stripe mark: blocked. Use a NEW abstract texture.dither-field with no mark, or an illustration.generated scene.",
       "evidence": [
         {
           "path": "src/components/ProductSections.jsx",
@@ -55,9 +110,17 @@
       ]
     },
     "scene.mars-figurative": {
-      "generationPolicy": "must-reuse-exact",
+      "kind": "media",
+      "availability": "clone-only",
+      "cloneModePolicy": "must-reuse-exact",
+      "generationModePolicy": "substitute-required",
       "pinned": true,
+      "generationSafeSubstitutes": [
+        "illustration.generated",
+        "asset.user-supplied"
+      ],
       "guidance": "Figurative dithered Mars photography/illustration (astronaut hero band, mountain panels). GlassFlow brand art of unknown provenance/licence: reuse the existing files only, never generate new GlassFlow-branded scenes.",
+      "generatedModeGuidance": "Branded GlassFlow scene art: clone fidelity only. A generated page uses a newly generated illustration (no astronaut/Mars-scene lookalike of the source files) or operator-supplied art.",
       "evidence": [
         {
           "path": "src/components/Hero.jsx",
@@ -67,9 +130,14 @@
       ]
     },
     "texture.dither-field": {
-      "generationPolicy": "may-generate-new",
+      "kind": "media",
+      "availability": "generation-safe",
+      "cloneModePolicy": "may-generate-new",
+      "generationModePolicy": "may-generate-new",
       "pinned": false,
+      "generationSafeSubstitutes": [],
       "guidance": "Abstract dithered pixel fields used as decorative backgrounds (alt=\"\"): no figures, no marks, no text. New ones MAY be generated using only Mars palette tokens (page/panel/deep/amber) and a square pixel dither; never imitate a specific GlassFlow scene.",
+      "generatedModeGuidance": "Generation may use a NEW generated pixel field (generate:<brief>) or operator media (user-supplied:<id>); the source's own texture files (/assets/...) remain clone-only.",
       "evidence": [
         {
           "path": "src/components/ContentSections.jsx",
@@ -79,9 +147,14 @@
       ]
     },
     "icon.pixel": {
-      "generationPolicy": "may-generate-new",
+      "kind": "media",
+      "availability": "generation-safe",
+      "cloneModePolicy": "may-generate-new",
+      "generationModePolicy": "may-generate-new",
       "pinned": false,
+      "generationSafeSubstitutes": [],
       "guidance": "Square pixel-grid UI glyphs (benefit, card, value icons). May be generated on a strict pixel grid in palette colours; never a third-party or GlassFlow logo.",
+      "generatedModeGuidance": "Generation may draw NEW pixel-grid glyphs (generate:<brief>); never a third-party or GlassFlow mark, never the source's own /assets/ files.",
       "evidence": [
         {
           "path": "src/pages/Rius.jsx",
@@ -91,9 +164,16 @@
       ]
     },
     "person.real-photo": {
-      "generationPolicy": "must-not-fabricate",
+      "kind": "media",
+      "availability": "blocked-for-generation",
+      "cloneModePolicy": "must-not-fabricate",
+      "generationModePolicy": "blocked",
       "pinned": true,
+      "generationSafeSubstitutes": [
+        "person.fictional-avatar"
+      ],
       "guidance": "Real people: testimonial avatars, founders, /about team and investors, team group photo. NEVER generate likenesses or substitute stock faces; use the exact clone file for that named person or omit the image.",
+      "generatedModeGuidance": "Never show a real person's photo, name or title (team, investors, testimonial authors, post authors) in a generated page. Use person.fictional-avatar with a fictional name.",
       "evidence": [
         {
           "path": "src/components/Testimonial.jsx",
@@ -108,9 +188,16 @@
       ]
     },
     "product.screenshot": {
-      "generationPolicy": "must-not-fabricate",
+      "kind": "media",
+      "availability": "blocked-for-generation",
+      "cloneModePolicy": "must-not-fabricate",
+      "generationModePolicy": "blocked",
       "pinned": true,
+      "generationSafeSubstitutes": [
+        "screenshot.placeholder"
+      ],
       "guidance": "Real GlassFlow product UI (Tares/Rius dashboards, alert views, device visuals). Never generate or mock UI that claims to be the product; use exact files.",
+      "generatedModeGuidance": "Never reuse or mock GlassFlow product UI. Use screenshot.placeholder (a neutral wireframe labelled as a placeholder) or operator-supplied product imagery.",
       "evidence": [
         {
           "path": "src/components/Product.jsx",
@@ -120,9 +207,17 @@
       ]
     },
     "blog.cover": {
-      "generationPolicy": "must-reuse-exact",
+      "kind": "media",
+      "availability": "clone-only",
+      "cloneModePolicy": "must-reuse-exact",
+      "generationModePolicy": "substitute-required",
       "pinned": true,
+      "generationSafeSubstitutes": [
+        "illustration.generated",
+        "asset.user-supplied"
+      ],
       "guidance": "Covers belonging to real posts (posts.json thumb/cover). Reuse the post's own cover only; never generate a cover for a real post.",
+      "generatedModeGuidance": "Covers belong to real GlassFlow posts: clone only. Generated posts use a generated illustration or operator media.",
       "evidence": [
         {
           "path": "src/pages/BlogPost.jsx",
@@ -132,9 +227,16 @@
       ]
     },
     "animation.lottie": {
-      "generationPolicy": "must-reuse-exact",
+      "kind": "media",
+      "availability": "clone-only",
+      "cloneModePolicy": "must-reuse-exact",
+      "generationModePolicy": "substitute-required",
       "pinned": true,
+      "generationSafeSubstitutes": [
+        "illustration.generated"
+      ],
       "guidance": "The /rius retrospective Lottie JSON. Reuse exactly.",
+      "generatedModeGuidance": "The /rius retrospective animation is GlassFlow brand media: clone only. Generation uses a static generated illustration.",
       "evidence": [
         {
           "path": "src/pages/Rius.jsx",
@@ -142,6 +244,102 @@
           "quote": "R('vUQ6vAk7qnGO0kq09zG3qaBBo.json')"
         }
       ]
+    },
+    "brand.placeholder-mark": {
+      "kind": "media",
+      "availability": "generation-safe",
+      "cloneModePolicy": "may-generate-new",
+      "generationModePolicy": "may-generate-new",
+      "pinned": true,
+      "generationSafeSubstitutes": [],
+      "guidance": "A neutral geometric placeholder mark plus a fictional brand name, generated new (generate:<brief>) or from the placeholder library (placeholder:<id>). Must not resemble the GlassFlow bars/wordmark.",
+      "generatedModeGuidance": "A neutral geometric placeholder mark plus a fictional brand name, generated new (generate:<brief>) or from the placeholder library (placeholder:<id>). Must not resemble the GlassFlow bars/wordmark.",
+      "evidence": [],
+      "origin": "design-repo generation policy (no source asset)"
+    },
+    "asset.user-supplied": {
+      "kind": "media",
+      "availability": "generation-safe",
+      "cloneModePolicy": "operator-supplied",
+      "generationModePolicy": "operator-supplied",
+      "pinned": true,
+      "generationSafeSubstitutes": [],
+      "guidance": "Media supplied by the operator for THEIR brand (user-supplied:<id>): their logo, product shots, photos. The operator attests rights; the generator never fabricates these.",
+      "generatedModeGuidance": "Media supplied by the operator for THEIR brand (user-supplied:<id>): their logo, product shots, photos. The operator attests rights; the generator never fabricates these.",
+      "evidence": [],
+      "origin": "design-repo generation policy (no source asset)"
+    },
+    "illustration.generated": {
+      "kind": "media",
+      "availability": "generation-safe",
+      "cloneModePolicy": "may-generate-new",
+      "generationModePolicy": "may-generate-new",
+      "pinned": true,
+      "generationSafeSubstitutes": [],
+      "guidance": "A newly generated illustration or dithered scene (generate:<brief>) in Mars palette tokens; no figures copied from the source scenes, no marks, no text.",
+      "generatedModeGuidance": "A newly generated illustration or dithered scene (generate:<brief>) in Mars palette tokens; no figures copied from the source scenes, no marks, no text.",
+      "evidence": [],
+      "origin": "design-repo generation policy (no source asset)"
+    },
+    "screenshot.placeholder": {
+      "kind": "media",
+      "availability": "generation-safe",
+      "cloneModePolicy": "may-generate-new",
+      "generationModePolicy": "may-generate-new",
+      "pinned": true,
+      "generationSafeSubstitutes": [],
+      "guidance": "A neutral, clearly-placeholder UI wireframe (placeholder:<id> or generate:<brief>) labelled as illustrative; never claims to be a real product.",
+      "generatedModeGuidance": "A neutral, clearly-placeholder UI wireframe (placeholder:<id> or generate:<brief>) labelled as illustrative; never claims to be a real product.",
+      "evidence": [],
+      "origin": "design-repo generation policy (no source asset)"
+    },
+    "person.fictional-avatar": {
+      "kind": "media",
+      "availability": "generation-safe",
+      "cloneModePolicy": "may-generate-new",
+      "generationModePolicy": "may-generate-new",
+      "pinned": true,
+      "generationSafeSubstitutes": [],
+      "guidance": "A non-photographic or clearly fictional avatar (initials tile, abstract pixel portrait) for a fictional person; never a real person's likeness and never stock photos of real people.",
+      "generatedModeGuidance": "A non-photographic or clearly fictional avatar (initials tile, abstract pixel portrait) for a fictional person; never a real person's likeness and never stock photos of real people.",
+      "evidence": [],
+      "origin": "design-repo generation policy (no source asset)"
+    },
+    "logo.placeholder-company": {
+      "kind": "media",
+      "availability": "generation-safe",
+      "cloneModePolicy": "may-generate-new",
+      "generationModePolicy": "may-generate-new",
+      "pinned": true,
+      "generationSafeSubstitutes": [],
+      "guidance": "A generated monogram/wordmark for a FICTIONAL company (e.g. 'Northwind Labs'); never a real company's mark or name.",
+      "generatedModeGuidance": "A generated monogram/wordmark for a FICTIONAL company (e.g. 'Northwind Labs'); never a real company's mark or name.",
+      "evidence": [],
+      "origin": "design-repo generation policy (no source asset)"
+    },
+    "url.placeholder": {
+      "kind": "url",
+      "availability": "generation-safe",
+      "cloneModePolicy": "not-applicable",
+      "generationModePolicy": "placeholder-only",
+      "pinned": true,
+      "generationSafeSubstitutes": [],
+      "guidance": "Outbound links, emails and embeds in generated pages use reserved placeholder domains only: hosts ending in .example or .invalid (RFC 2606/6761), or internal routes / in-page anchors. Enforced by GENERATION_MODE_URL / GENERATION_MODE_EMBED.",
+      "generatedModeGuidance": "Outbound links, emails and embeds in generated pages use reserved placeholder domains only: hosts ending in .example or .invalid (RFC 2606/6761), or internal routes / in-page anchors. Enforced by GENERATION_MODE_URL / GENERATION_MODE_EMBED.",
+      "evidence": [],
+      "origin": "design-repo generation policy (no source asset)"
+    },
+    "copy.original": {
+      "kind": "copy",
+      "availability": "generation-safe",
+      "cloneModePolicy": "not-applicable",
+      "generationModePolicy": "must-be-original",
+      "pinned": true,
+      "generationSafeSubstitutes": [],
+      "guidance": "All generated copy is newly written: no source headings, taglines, testimonials, statistics or post text (5-word shingle match = GENERATION_MODE_COPY), no source numeric claims (GENERATION_MODE_CLAIM).",
+      "generatedModeGuidance": "All generated copy is newly written: no source headings, taglines, testimonials, statistics or post text (5-word shingle match = GENERATION_MODE_COPY), no source numeric claims (GENERATION_MODE_CLAIM).",
+      "evidence": [],
+      "origin": "design-repo generation policy (no source asset)"
     }
   },
   "decisionNotes": {

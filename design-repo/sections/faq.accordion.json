@@ -2,7 +2,9 @@
   "id": "faq.accordion",
   "family": "mars",
   "category": "faq",
+  "retrievalEligible": true,
   "purpose": "FAQ: 160px heading panel with pixel corners, then independent rows (first open).",
+  "generatedAssetRoles": [],
   "variants": {
     "home": "full-bleed, 'Frequently Asked Questions'",
     "product-inset": "pulled in 128px each side at lg"
@@ -19,6 +21,16 @@
       "quote": "defaultOpen={i === 0}"
     }
   ],
+  "source": {
+    "id": "src:Faq@src/components/Faq.jsx:49-68",
+    "tag": "Faq",
+    "file": "src/components/Faq.jsx",
+    "lines": "49-68"
+  },
+  "semantic": {
+    "id": "faq.accordion",
+    "category": "faq"
+  },
   "content": {
     "type": "object",
     "properties": {

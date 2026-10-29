@@ -2,7 +2,12 @@
   "id": "feature.what-you-get",
   "family": "mars",
   "category": "feature",
+  "retrievalEligible": true,
   "purpose": "Heading + intro row, then 2-column feature cards (title bar, image, text, read more).",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "screenshot.placeholder"
+  ],
   "variants": {
     "default": "/rius"
   },
@@ -13,6 +18,16 @@
       "quote": "function WhatYouGet()"
     }
   ],
+  "source": {
+    "id": "src:WhatYouGet@src/pages/Rius.jsx:228-258",
+    "tag": "WhatYouGet",
+    "file": "src/pages/Rius.jsx",
+    "lines": "228-258"
+  },
+  "semantic": {
+    "id": "feature.what-you-get",
+    "category": "feature"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -46,13 +61,15 @@
               "properties": {
                 "assetRole": {
                   "enum": [
-                    "product.screenshot"
+                    "product.screenshot",
+                    "screenshot.placeholder",
+                    "asset.user-supplied"
                   ]
                 },
                 "ref": {
                   "type": "string",
-                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                  "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                 },
                 "alt": {
                   "type": "string",

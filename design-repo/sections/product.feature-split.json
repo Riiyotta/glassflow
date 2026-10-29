@@ -2,7 +2,12 @@
   "id": "product.feature-split",
   "family": "mars",
   "category": "product",
+  "retrievalEligible": true,
   "purpose": "Home product split: titled panel with badge/H2/body/actions beside a 671px product screenshot.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "screenshot.placeholder"
+  ],
   "variants": {
     "tares-text-left": "copy left, image right",
     "rius-image-left": "image left, copy right"
@@ -19,6 +24,16 @@
       "quote": "export function Rius()"
     }
   ],
+  "source": {
+    "id": "src:Tares@src/components/Product.jsx:36-71",
+    "tag": "Tares",
+    "file": "src/components/Product.jsx",
+    "lines": "36-71"
+  },
+  "semantic": {
+    "id": "product.feature-split",
+    "category": "product"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -73,13 +88,15 @@
         "properties": {
           "assetRole": {
             "enum": [
-              "product.screenshot"
+              "product.screenshot",
+              "screenshot.placeholder",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",

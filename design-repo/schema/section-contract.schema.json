@@ -1,0 +1,321 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "glassflow-design-repo/section-contract.schema.json",
+  "title": "GlassFlow section contract (closed). verify_all.py validates every sections/*.json against this file.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "family",
+    "category",
+    "retrievalEligible",
+    "purpose",
+    "generatedAssetRoles",
+    "variants",
+    "implementedBy",
+    "source",
+    "semantic",
+    "constraints",
+    "motion",
+    "responsive"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z-]+\\.[a-z0-9-]+$"
+    },
+    "family": {
+      "enum": [
+        "mars",
+        "legacy"
+      ]
+    },
+    "category": {
+      "enum": [
+        "chrome",
+        "content",
+        "conversion",
+        "faq",
+        "feature",
+        "hero",
+        "layout",
+        "navigation",
+        "onboarding",
+        "pricing",
+        "product",
+        "social-proof",
+        "tool"
+      ]
+    },
+    "retrievalEligible": {
+      "type": "boolean",
+      "description": "false only for runtime/utility UI; pinned in extraction/verify_all.py and schema/semantic_validate.py (RETRIEVAL_INELIGIBLE)"
+    },
+    "retrievalReason": {
+      "type": "string",
+      "minLength": 30
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 10
+    },
+    "generatedAssetRoles": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "asset.user-supplied",
+          "brand.placeholder-mark",
+          "icon.pixel",
+          "illustration.generated",
+          "logo.placeholder-company",
+          "person.fictional-avatar",
+          "screenshot.placeholder",
+          "texture.dither-field"
+        ]
+      },
+      "description": "generation-safe roles this section's media fields accept in mode=generation (derived from its field enums; verify_all substitute-closure checks it)"
+    },
+    "variants": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "implementedBy": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "lines",
+          "quote"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^[^/][^:]*$"
+          },
+          "lines": {
+            "type": "string",
+            "pattern": "^[0-9]+(-[0-9]+)?$"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "tag",
+        "file",
+        "lines"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^src:"
+        },
+        "tag": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file": {
+          "type": "string",
+          "pattern": "^src/"
+        },
+        "lines": {
+          "type": "string",
+          "pattern": "^[0-9]+(-[0-9]+)?$"
+        }
+      }
+    },
+    "semantic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "chrome",
+            "content",
+            "conversion",
+            "faq",
+            "feature",
+            "hero",
+            "layout",
+            "navigation",
+            "onboarding",
+            "pricing",
+            "product",
+            "social-proof",
+            "tool"
+          ]
+        }
+      }
+    },
+    "content": {
+      "type": "object",
+      "description": "the content contract; sections with contentByVariant keep a placeholder here and the schema builder uses contentByVariant"
+    },
+    "contentByVariant": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object"
+      }
+    },
+    "constraints": {
+      "type": "object"
+    },
+    "motion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "allowedPatterns",
+        "reducedMotionFallback"
+      ],
+      "properties": {
+        "allowedPatterns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reducedMotionFallback": {
+          "type": "string"
+        }
+      }
+    },
+    "responsive": {
+      "type": "object",
+      "required": [
+        "390",
+        "810",
+        "1200",
+        "evidence"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "policies": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "long-form-summary-only",
+          "form-endpoint-pinned"
+        ]
+      }
+    },
+    "generationSubstitution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceFixed",
+        "renderFrom",
+        "evidence",
+        "rule"
+      ],
+      "properties": {
+        "sourceFixed": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "renderFrom": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "brand.name",
+              "brand.mark",
+              "brand.products"
+            ]
+          }
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "lines",
+              "quote"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "pattern": "^[^/][^:]*$"
+              },
+              "lines": {
+                "type": "string",
+                "pattern": "^[0-9]+(-[0-9]+)?$"
+              },
+              "quote": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        "rule": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "retrievalEligible": {
+            "const": false
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "retrievalReason"
+        ]
+      },
+      "else": {
+        "not": {
+          "required": [
+            "retrievalReason"
+          ]
+        }
+      }
+    }
+  ],
+  "anyOf": [
+    {
+      "required": [
+        "content"
+      ]
+    },
+    {
+      "required": [
+        "contentByVariant"
+      ]
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "allowlistVersion": "1.0.0",
+  "allowlistVersion": "1.1.0",
   "$description": "Closed set an AI may instantiate. Parity with primitives/, components/, sections/ is machine-checked by extraction/verify_all.py.",
   "primitives": [
     "arrow",
@@ -110,11 +110,12 @@
     "tool.build-vs-buy-calculator"
   ],
   "settableNodeProperties": [
-    "id",
-    "section",
-    "variant",
     "content",
-    "motion"
+    "id",
+    "motion",
+    "section",
+    "tokens",
+    "variant"
   ],
   "settableMotionProperties": [
     "patterns",
@@ -122,15 +123,21 @@
   ],
   "assetRoles": [
     "animation.lottie",
+    "asset.user-supplied",
     "blog.cover",
     "brand.dither-mark",
     "brand.glassflow-mark",
+    "brand.placeholder-mark",
     "icon.pixel",
+    "illustration.generated",
     "logo.customer",
+    "logo.placeholder-company",
     "logo.third-party",
+    "person.fictional-avatar",
     "person.real-photo",
     "product.screenshot",
     "scene.mars-figurative",
+    "screenshot.placeholder",
     "texture.dither-field"
   ],
   "themes": [
@@ -155,5 +162,15 @@
     "pricing",
     "product-rius",
     "product-tares"
+  ],
+  "settableTopLevelProperties": [
+    "brand",
+    "meta",
+    "mode",
+    "nodes",
+    "pageSpecVersion",
+    "route",
+    "template",
+    "theme"
   ]
 }

@@ -2,7 +2,9 @@
   "id": "content.article-summary-body",
   "family": "mars",
   "category": "content",
+  "retrievalEligible": true,
   "purpose": "Long-form body rendered SUMMARY-ONLY: headings + one-line summaries + 'Read the full article on glassflow.ai'.",
+  "generatedAssetRoles": [],
   "variants": {
     "post": "/blog/:slug"
   },
@@ -23,6 +25,16 @@
       "quote": "export default function ArticleBody"
     }
   ],
+  "source": {
+    "id": "src:bodyFor@src/pages/BlogPost.jsx:20-37",
+    "tag": "bodyFor",
+    "file": "src/pages/BlogPost.jsx",
+    "lines": "20-37"
+  },
+  "semantic": {
+    "id": "content.article-summary-body",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -72,12 +84,12 @@
         "properties": {
           "label": {
             "type": "string",
-            "pattern": "^Read the full article on glassflow\\.ai$",
+            "pattern": "^Read the full article on (glassflow\\.ai|[a-z0-9-]+\\.(example|invalid))$",
             "maxWords": 8
           },
           "href": {
             "type": "string",
-            "pattern": "^https://www\\.glassflow\\.ai/",
+            "pattern": "^https://(www\\.glassflow\\.ai|[a-z0-9-]+\\.(example|invalid))/",
             "x-linkField": true
           }
         },

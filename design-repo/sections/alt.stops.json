@@ -2,7 +2,9 @@
   "id": "alt.stops",
   "family": "mars",
   "category": "feature",
+  "retrievalEligible": true,
   "purpose": "'Where <vendor> stops' cards.",
+  "generatedAssetRoles": [],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +16,16 @@
       "quote": "function Stops({ s })"
     }
   ],
+  "source": {
+    "id": "src:Stops@src/pages/Alternatives.jsx:586-592",
+    "tag": "Stops",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "586-592"
+  },
+  "semantic": {
+    "id": "alt.stops",
+    "category": "feature"
+  },
   "content": {
     "type": "object",
     "properties": {

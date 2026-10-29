@@ -2,7 +2,9 @@
   "id": "content.title-row",
   "family": "mars",
   "category": "content",
+  "retrievalEligible": true,
   "purpose": "160px (168 on /about) heading band introducing the next block.",
+  "generatedAssetRoles": [],
   "variants": {
     "product-160": "32px title",
     "about-168": "40px title"
@@ -14,6 +16,16 @@
       "quote": "export function TitleRow"
     }
   ],
+  "source": {
+    "id": "src:TitleRow@src/components/ProductSections.jsx:20-27",
+    "tag": "TitleRow",
+    "file": "src/components/ProductSections.jsx",
+    "lines": "20-27"
+  },
+  "semantic": {
+    "id": "content.title-row",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {

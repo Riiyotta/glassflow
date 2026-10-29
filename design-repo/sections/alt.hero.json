@@ -2,7 +2,12 @@
   "id": "alt.hero",
   "family": "mars",
   "category": "hero",
+  "retrievalEligible": true,
   "purpose": "Comparison hero: kicker, H1 'Rius is the <vendor> alternative…', lead, chips, buttons, screenshot.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "screenshot.placeholder"
+  ],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +19,16 @@
       "quote": "function Hero({ d })"
     }
   ],
+  "source": {
+    "id": "src:Hero@src/pages/Alternatives.jsx:411-417",
+    "tag": "Hero",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "411-417"
+  },
+  "semantic": {
+    "id": "alt.hero",
+    "category": "hero"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -89,13 +104,15 @@
         "properties": {
           "assetRole": {
             "enum": [
-              "product.screenshot"
+              "product.screenshot",
+              "screenshot.placeholder",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",

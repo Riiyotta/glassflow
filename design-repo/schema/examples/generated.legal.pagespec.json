@@ -1,0 +1,116 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "legal-with-sidebar",
+  "theme": "mars",
+  "route": "/legal/terms",
+  "meta": {
+    "title": "Terms of service | Northwind Relay",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "navbar-0",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "https://docs.northwind.example/start"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "toc-document-1",
+      "section": "legal.toc-document",
+      "variant": "terms",
+      "content": {
+        "contentPolicy": "summary-only",
+        "h1": "Northwind Relay",
+        "intro": "These terms describe how Northwind Relay, a fictional example company, provides its hosted service.",
+        "toc": [
+          {
+            "label": "read_docs",
+            "anchor": "intro"
+          },
+          {
+            "label": "see_plans",
+            "anchor": "intro"
+          },
+          {
+            "label": "talk_to_us",
+            "anchor": "intro"
+          }
+        ],
+        "sections": [
+          {
+            "heading": "How replay changes incident review",
+            "summary": "Explains how replay windows work and when to use them."
+          },
+          {
+            "heading": "What stays on your servers",
+            "summary": "Covers holding tables for rejected rows."
+          },
+          {
+            "heading": "Questions we hear every week",
+            "summary": "Lists the alerts worth keeping."
+          }
+        ],
+        "fullTextLink": {
+          "label": "Read the full text on northwind.example",
+          "href": "https://northwind.example/notes"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "legal-toc-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-2",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "footer-3",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

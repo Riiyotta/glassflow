@@ -2,7 +2,9 @@
   "id": "alt.better-pick",
   "family": "mars",
   "category": "content",
+  "retrievalEligible": true,
   "purpose": "'When <vendor> is the better pick' honesty block (langfuse only).",
+  "generatedAssetRoles": [],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +16,16 @@
       "quote": "function BetterPick({ b, slug })"
     }
   ],
+  "source": {
+    "id": "src:BetterPick@src/pages/Alternatives.jsx:1011-1017",
+    "tag": "BetterPick",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "1011-1017"
+  },
+  "semantic": {
+    "id": "alt.better-pick",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {

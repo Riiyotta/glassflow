@@ -2,7 +2,9 @@
   "id": "alt.self-host-calc",
   "family": "mars",
   "category": "tool",
+  "retrievalEligible": true,
   "purpose": "Self-host cost calculator with <details> breakdowns (shared accordion name).",
+  "generatedAssetRoles": [],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +16,16 @@
       "quote": "function SelfHostCalc({ c, slug, acc })"
     }
   ],
+  "source": {
+    "id": "src:SelfHostCalc@src/pages/Alternatives.jsx:821-827",
+    "tag": "SelfHostCalc",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "821-827"
+  },
+  "semantic": {
+    "id": "alt.self-host-calc",
+    "category": "tool"
+  },
   "content": {
     "type": "object",
     "properties": {

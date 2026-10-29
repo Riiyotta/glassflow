@@ -1,0 +1,406 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "pricing",
+  "theme": "mars",
+  "route": "/plans",
+  "meta": {
+    "title": "Plans | Northwind Relay",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "navbar-0",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "https://docs.northwind.example/start"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-1",
+      "section": "layout.spacer",
+      "variant": "divider-30",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "pricing-2",
+      "section": "hero.pricing",
+      "variant": "default",
+      "content": {
+        "title": "Ship schema changes calmly",
+        "lead": "Relay keeps a short replay log for each stream, so a bad deploy becomes a rewind instead of a weekend.",
+        "cta": {
+          "label": "talk_to_us",
+          "href": "/contact"
+        },
+        "note": "Illustrative numbers only",
+        "image": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-3",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "comparison-table-4",
+      "section": "pricing.comparison-table",
+      "variant": "default",
+      "content": {
+        "plans": [
+          {
+            "name": "One console",
+            "price": "24",
+            "cta": {
+              "label": "open_console",
+              "href": "#faq"
+            },
+            "highlight": false,
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            }
+          },
+          {
+            "name": "Late data,",
+            "price": "$24",
+            "cta": {
+              "label": "view_example",
+              "href": "/pricing"
+            },
+            "highlight": false,
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            }
+          },
+          {
+            "name": "Cost you",
+            "price": "24",
+            "cta": {
+              "label": "start_free",
+              "href": "/docs"
+            },
+            "highlight": false,
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            }
+          },
+          {
+            "name": "Built for",
+            "price": "$24",
+            "cta": {
+              "label": "read_docs",
+              "href": "https://docs.northwind.example/start"
+            },
+            "highlight": false,
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            }
+          }
+        ],
+        "rows": [
+          {
+            "label": "see_plans",
+            "values": [
+              "check",
+              "check",
+              "check",
+              "check"
+            ]
+          },
+          {
+            "label": "talk_to_us",
+            "values": [
+              "check",
+              "check",
+              "check",
+              "check"
+            ]
+          },
+          {
+            "label": "open_console",
+            "values": [
+              "check",
+              "check",
+              "check",
+              "check"
+            ]
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [
+          "text-roll"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-5",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "every-plan-6",
+      "section": "pricing.every-plan",
+      "variant": "default",
+      "content": {
+        "heading": "How replay changes",
+        "columns": [
+          [
+            "Starter",
+            "Team",
+            "Scale"
+          ],
+          [
+            "Custom",
+            "Starter",
+            "Team"
+          ]
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-7",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "add-ons-8",
+      "section": "pricing.add-ons",
+      "variant": "default",
+      "content": {
+        "heading": "What stays on",
+        "addons": [
+          {
+            "name": "Tomas Reyhani",
+            "price": "24",
+            "description": "For a first team wiring one or two streams.",
+            "link": {
+              "label": "view_example",
+              "href": "/contact"
+            }
+          },
+          {
+            "name": "Juno Achterberg",
+            "price": "$24",
+            "description": "For teams with several producers and shared dashboards.",
+            "link": {
+              "label": "start_free",
+              "href": "#faq"
+            }
+          },
+          {
+            "name": "Priya Halvorsen",
+            "price": "24",
+            "description": "For platform groups that need audit trails and private networking.",
+            "link": {
+              "label": "read_docs",
+              "href": "/pricing"
+            }
+          }
+        ],
+        "image": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "product-appear"
+        ],
+        "reducedMotionFallback": "opacity-only"
+      }
+    },
+    {
+      "id": "spacer-9",
+      "section": "layout.spacer",
+      "variant": "band-70",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "calculator-banner-10",
+      "section": "conversion.calculator-banner",
+      "variant": "default",
+      "content": {
+        "title": "Trace a record end to end",
+        "sub": "Pick a stream, point it at a table, watch it fill.",
+        "cta": {
+          "label": "see_plans",
+          "href": "/docs"
+        },
+        "background": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-11",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "accordion-12",
+      "section": "faq.accordion",
+      "variant": "product-inset",
+      "content": {
+        "heading": "Questions we hear every week",
+        "items": [
+          {
+            "question": "Can I run it on my own cloud?",
+            "answer": "Yes, one container and a small config file are enough to start."
+          },
+          {
+            "question": "How long is the replay window?",
+            "answer": "Seven days on every plan; longer windows are available on request."
+          },
+          {
+            "question": "Does Relay copy my data anywhere?",
+            "answer": "No. Relay runs inside your account and writes only to the destinations you configure."
+          }
+        ],
+        "firstOpen": true
+      },
+      "motion": {
+        "patterns": [
+          "faq-height"
+        ],
+        "reducedMotionFallback": "instant"
+      }
+    },
+    {
+      "id": "spacer-13",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "image-cta-14",
+      "section": "conversion.image-cta",
+      "variant": "product",
+      "content": {
+        "title": "Fewer pages at 3am",
+        "body": "Every stream gets a seven-day replay window, so analysts can rebuild a table after a schema fix in minutes.",
+        "primary": {
+          "label": "talk_to_us",
+          "href": "https://docs.northwind.example/start"
+        },
+        "secondary": {
+          "label": "open_console",
+          "href": "/contact"
+        },
+        "background": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "footer-15",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

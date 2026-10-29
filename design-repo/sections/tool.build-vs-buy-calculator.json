@@ -2,7 +2,9 @@
   "id": "tool.build-vs-buy-calculator",
   "family": "mars",
   "category": "tool",
+  "retrievalEligible": true,
   "purpose": "Interactive build-vs-buy cost calculator (logic is code-owned; only labels are content).",
+  "generatedAssetRoles": [],
   "variants": {
     "default": "calculator"
   },
@@ -18,6 +20,16 @@
       "quote": "bg-panel font-sys text-[12px]"
     }
   ],
+  "source": {
+    "id": "src:BuildVsBuyCalculator@src/components/BuildVsBuyCalculator.jsx:188-248",
+    "tag": "BuildVsBuyCalculator",
+    "file": "src/components/BuildVsBuyCalculator.jsx",
+    "lines": "188-248"
+  },
+  "semantic": {
+    "id": "tool.build-vs-buy-calculator",
+    "category": "tool"
+  },
   "content": {
     "type": "object",
     "properties": {

@@ -2,7 +2,9 @@
   "id": "legal.toc-document",
   "family": "mars",
   "category": "content",
+  "retrievalEligible": true,
   "purpose": "Legal doc with TOC sidebar: H1, meta, numbered sections rendered as heading + one-line summary, link to full text.",
+  "generatedAssetRoles": [],
   "variants": {
     "terms": "/terms-of-service",
     "privacy": "/privacy-policy"
@@ -19,6 +21,16 @@
       "quote": "function Toc({ doc })"
     }
   ],
+  "source": {
+    "id": "src:LegalDoc@src/pages/Legal.jsx:160-204",
+    "tag": "LegalDoc",
+    "file": "src/pages/Legal.jsx",
+    "lines": "160-204"
+  },
+  "semantic": {
+    "id": "legal.toc-document",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -90,11 +102,11 @@
         "properties": {
           "label": {
             "type": "string",
-            "pattern": "^Read the full text on glassflow\\.ai$"
+            "pattern": "^Read the full text on (glassflow\\.ai|[a-z0-9-]+\\.(example|invalid))$"
           },
           "href": {
             "type": "string",
-            "pattern": "^https://www\\.glassflow\\.ai/",
+            "pattern": "^https://(www\\.glassflow\\.ai|[a-z0-9-]+\\.(example|invalid))/",
             "x-linkField": true
           }
         },

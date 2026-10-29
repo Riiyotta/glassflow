@@ -2,7 +2,12 @@
   "id": "content.heading-band",
   "family": "mars",
   "category": "content",
+  "retrievalEligible": true,
   "purpose": "Centred heading + sub over the quickstart texture, with no cards (/tares 'From event to finding').",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "texture.dither-field"
+  ],
   "variants": {
     "default": "/tares"
   },
@@ -13,6 +18,16 @@
       "quote": "<HeadingBand title=\"From event to finding\""
     }
   ],
+  "source": {
+    "id": "src:HeadingBand@src/pages/Tares.jsx:182",
+    "tag": "HeadingBand",
+    "file": "src/pages/Tares.jsx",
+    "lines": "182"
+  },
+  "semantic": {
+    "id": "content.heading-band",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -31,13 +46,14 @@
         "properties": {
           "assetRole": {
             "enum": [
-              "texture.dither-field"
+              "texture.dither-field",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",

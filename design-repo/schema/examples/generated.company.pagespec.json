@@ -1,0 +1,365 @@
+{
+  "pageSpecVersion": "1.2.0",
+  "mode": "generation",
+  "template": "about",
+  "theme": "mars",
+  "route": "/company",
+  "meta": {
+    "title": "Company | Northwind Relay",
+    "description": "Fictional example page for the design-repo generation mode: Northwind Relay is not a real company."
+  },
+  "nodes": [
+    {
+      "id": "navbar-0",
+      "section": "chrome.navbar",
+      "variant": "default",
+      "content": {
+        "ctaHref": "/docs"
+      },
+      "motion": {
+        "patterns": [
+          "products-dropdown-fade",
+          "nav-products-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "spacer-1",
+      "section": "layout.spacer",
+      "variant": "divider-30",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "hero-2",
+      "section": "about.hero",
+      "variant": "default",
+      "content": {
+        "title": "Trace a record end to end",
+        "contentPolicy": "summary-only",
+        "storyOutline": [
+          "Founded by two operators tired of rebuilding the same ingestion scripts.",
+          "Founded by two operators tired of rebuilding the same ingestion scripts.",
+          "Founded by two operators tired of rebuilding the same ingestion scripts."
+        ],
+        "fullTextLink": {
+          "label": "Read the full text on northwind.example",
+          "href": "https://northwind.example/notes"
+        },
+        "photo": {
+          "assetRole": "person.fictional-avatar",
+          "ref": "generate:initials avatar tile for a fictional person",
+          "alt": "Initials avatar for a fictional person"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "text-effect"
+        ],
+        "reducedMotionFallback": "opacity-only"
+      }
+    },
+    {
+      "id": "spacer-3",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "values-4",
+      "section": "about.values",
+      "variant": "default",
+      "content": {
+        "values": [
+          {
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            },
+            "title": "Fewer pages",
+            "text": "Curious engineers who read the logs before guessing."
+          },
+          {
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            },
+            "title": "Backfills without",
+            "text": "We write things down so the next person can fix them."
+          },
+          {
+            "icon": {
+              "assetRole": "icon.pixel",
+              "ref": "generate:pixel-grid glyph of a looping arrow",
+              "alt": ""
+            },
+            "title": "Pipelines that",
+            "text": "Ask the quiet question early."
+          }
+        ],
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "generate:abstract amber pixel dither field",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-5",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "team-6",
+      "section": "about.team",
+      "variant": "default",
+      "content": {
+        "title": "Every event, accounted for",
+        "members": [
+          {
+            "name": "Wen Abernathy",
+            "role": "Platform Lead",
+            "photo": {
+              "assetRole": "person.fictional-avatar",
+              "ref": "generate:initials avatar tile for a fictional person",
+              "alt": "Initials avatar for a fictional person"
+            },
+            "link": "https://docs.northwind.example/start"
+          },
+          {
+            "name": "Maren Holt",
+            "role": "Operations",
+            "photo": {
+              "assetRole": "person.fictional-avatar",
+              "ref": "generate:initials avatar tile for a fictional person",
+              "alt": "Initials avatar for a fictional person"
+            },
+            "link": "/contact"
+          },
+          {
+            "name": "Kofi Brandt",
+            "role": "Head of Data, Fernwick Labs",
+            "photo": {
+              "assetRole": "person.fictional-avatar",
+              "ref": "generate:initials avatar tile for a fictional person",
+              "alt": "Initials avatar for a fictional person"
+            },
+            "link": "#faq"
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-7",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "quickstart-band-8",
+      "section": "onboarding.quickstart-band",
+      "variant": "about-discover",
+      "content": {
+        "heading": "From raw event to",
+        "cards": [
+          {
+            "label": "view_example",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            },
+            "text": "Replays that finish before the coffee does.",
+            "link": {
+              "label": "start_free",
+              "href": "/pricing"
+            }
+          },
+          {
+            "label": "read_docs",
+            "image": {
+              "assetRole": "illustration.generated",
+              "ref": "generate:dithered relay tower at dusk in Mars palette",
+              "alt": "Generated dithered illustration"
+            },
+            "text": "Holding tables instead of silent drops.",
+            "link": {
+              "label": "see_plans",
+              "href": "/docs"
+            }
+          }
+        ],
+        "background": {
+          "assetRole": "texture.dither-field",
+          "ref": "generate:abstract amber pixel dither field",
+          "alt": ""
+        }
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-9",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "investors-10",
+      "section": "about.investors",
+      "variant": "default",
+      "content": {
+        "title": "Ship schema changes calmly",
+        "investors": [
+          {
+            "name": "Ilse Varga",
+            "firm": "Harbor Lantern Partners",
+            "photo": {
+              "assetRole": "person.fictional-avatar",
+              "ref": "generate:initials avatar tile for a fictional person",
+              "alt": "Initials avatar for a fictional person"
+            },
+            "badge": {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            }
+          },
+          {
+            "name": "Tomas Reyhani",
+            "firm": "Coldwater Seed Fund",
+            "photo": {
+              "assetRole": "person.fictional-avatar",
+              "ref": "generate:initials avatar tile for a fictional person",
+              "alt": "Initials avatar for a fictional person"
+            },
+            "badge": {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            }
+          },
+          {
+            "name": "Juno Achterberg",
+            "firm": "Harbor Lantern Partners",
+            "photo": {
+              "assetRole": "person.fictional-avatar",
+              "ref": "generate:initials avatar tile for a fictional person",
+              "alt": "Initials avatar for a fictional person"
+            },
+            "badge": {
+              "assetRole": "logo.placeholder-company",
+              "ref": "placeholder:company-monogram",
+              "alt": "Fictional company monogram"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "spacer-11",
+      "section": "layout.spacer",
+      "variant": "band-65",
+      "content": {},
+      "motion": {
+        "patterns": [],
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "id": "two-products-band-12",
+      "section": "conversion.two-products-band",
+      "variant": "pages",
+      "content": {
+        "title": "Alerts your on-call can trust",
+        "body": "Every stream gets a seven-day replay window, so analysts can rebuild a table after a schema fix in minutes.",
+        "primary": {
+          "label": "talk_to_us",
+          "href": "https://docs.northwind.example/start"
+        },
+        "secondary": {
+          "label": "open_console",
+          "href": "/contact"
+        },
+        "background": {
+          "assetRole": "illustration.generated",
+          "ref": "generate:dithered relay tower at dusk in Mars palette",
+          "alt": "Generated dithered illustration"
+        }
+      },
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    },
+    {
+      "id": "footer-13",
+      "section": "chrome.footer",
+      "variant": "default",
+      "content": {},
+      "motion": {
+        "patterns": [
+          "amber-button-hover"
+        ],
+        "reducedMotionFallback": "transitions-disabled"
+      }
+    }
+  ],
+  "brand": {
+    "name": "Northwind Relay",
+    "mark": {
+      "assetRole": "brand.placeholder-mark",
+      "ref": "placeholder:relay-mark",
+      "alt": "Northwind Relay placeholder mark"
+    },
+    "products": [
+      {
+        "name": "Relay Stream",
+        "slug": "stream"
+      },
+      {
+        "name": "Relay Watch",
+        "slug": "watch"
+      }
+    ]
+  }
+}

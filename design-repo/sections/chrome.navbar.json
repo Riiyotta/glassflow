@@ -2,7 +2,9 @@
   "id": "chrome.navbar",
   "family": "mars",
   "category": "chrome",
+  "retrievalEligible": true,
   "purpose": "Global 40px Mars nav: wordmark, products dropdown, docs/blog/contact cells, amber get_started.",
+  "generatedAssetRoles": [],
   "variants": {
     "default": "single global nav"
   },
@@ -23,6 +25,16 @@
       "quote": "<span tabIndex={0} aria-haspopup=\"true\""
     }
   ],
+  "source": {
+    "id": "src:Navbar@src/components/Navbar.jsx:44-85",
+    "tag": "Navbar",
+    "file": "src/components/Navbar.jsx",
+    "lines": "44-85"
+  },
+  "semantic": {
+    "id": "chrome.navbar",
+    "category": "chrome"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -77,5 +89,30 @@
       }
     ]
   },
-  "notes": "The 'products' cell is a focusable dropdown trigger (<span tabIndex=0 aria-haspopup>), not a navigation link; it has no href."
+  "notes": "The 'products' cell is a focusable dropdown trigger (<span tabIndex=0 aria-haspopup>), not a navigation link; it has no href.",
+  "generationSubstitution": {
+    "sourceFixed": [
+      "GlassFlow wordmark",
+      "tares / rius product links + products dropdown",
+      "console get_started targets on /tares and /rius"
+    ],
+    "renderFrom": [
+      "brand.name",
+      "brand.mark",
+      "brand.products"
+    ],
+    "evidence": [
+      {
+        "path": "src/components/Navbar.jsx",
+        "lines": "52",
+        "quote": "<img src={SVG('wordmark')} alt=\"GlassFlow\""
+      },
+      {
+        "path": "src/components/Navbar.jsx",
+        "lines": "16-17",
+        "quote": "title: 'tares'"
+      }
+    ],
+    "rule": "In mode=generation the renderer MUST NOT print any sourceFixed item; it renders the listed spec.brand fields instead (or omits the element). The PageSpec layer enforces only that spec.brand exists and is clean; renderer compliance is not machine-checked here."
+  }
 }

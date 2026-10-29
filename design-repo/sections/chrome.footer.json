@@ -2,7 +2,9 @@
   "id": "chrome.footer",
   "family": "mars",
   "category": "chrome",
+  "retrievalEligible": true,
   "purpose": "Global footer: 67px band, CTA band (heading + Start with Tares / Start with Rius), link row, legal bar.",
+  "generatedAssetRoles": [],
   "variants": {
     "default": "single global footer incl. CTA band"
   },
@@ -18,6 +20,16 @@
       "quote": "function CtaBand()"
     }
   ],
+  "source": {
+    "id": "src:Footer@src/components/Footer.jsx:69-117",
+    "tag": "Footer",
+    "file": "src/components/Footer.jsx",
+    "lines": "69-117"
+  },
+  "semantic": {
+    "id": "chrome.footer",
+    "category": "chrome"
+  },
   "content": {
     "type": "object",
     "properties": {},
@@ -60,5 +72,32 @@
         "quote": "flex gap-2 md:hidden lg:flex"
       }
     ]
+  },
+  "generationSubstitution": {
+    "sourceFixed": [
+      "GlassFlow wordmark",
+      "'Start with Tares' / 'Start with Rius' CTA band with console links",
+      "tares / rius product links",
+      "GitHub/X/LinkedIn social links",
+      "'2026 - Copyright GlassFlow.ai'"
+    ],
+    "renderFrom": [
+      "brand.name",
+      "brand.mark",
+      "brand.products"
+    ],
+    "evidence": [
+      {
+        "path": "src/components/Footer.jsx",
+        "lines": "7",
+        "quote": "title: 'Start with Tares'"
+      },
+      {
+        "path": "src/components/Footer.jsx",
+        "lines": "111",
+        "quote": "Copyright GlassFlow.ai"
+      }
+    ],
+    "rule": "In mode=generation the renderer MUST NOT print any sourceFixed item; it renders the listed spec.brand fields instead (or omits the element). The PageSpec layer enforces only that spec.brand exists and is clean; renderer compliance is not machine-checked here."
   }
 }

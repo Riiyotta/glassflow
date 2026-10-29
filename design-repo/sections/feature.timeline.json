@@ -2,7 +2,9 @@
   "id": "feature.timeline",
   "family": "mars",
   "category": "feature",
+  "retrievalEligible": true,
   "purpose": "Minute-by-minute incident timeline rows with logs and an amber finding.",
+  "generatedAssetRoles": [],
   "variants": {
     "default": "/tares"
   },
@@ -13,6 +15,16 @@
       "quote": "function Timeline()"
     }
   ],
+  "source": {
+    "id": "src:Timeline@src/pages/Tares.jsx:58-95",
+    "tag": "Timeline",
+    "file": "src/pages/Tares.jsx",
+    "lines": "58-95"
+  },
+  "semantic": {
+    "id": "feature.timeline",
+    "category": "feature"
+  },
   "content": {
     "type": "object",
     "properties": {

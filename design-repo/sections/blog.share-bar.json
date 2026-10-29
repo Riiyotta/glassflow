@@ -2,7 +2,9 @@
   "id": "blog.share-bar",
   "family": "mars",
   "category": "content",
+  "retrievalEligible": true,
   "purpose": "'Share the article' bar with 6 share buttons.",
+  "generatedAssetRoles": [],
   "variants": {
     "default": "/blog/:slug"
   },
@@ -13,6 +15,16 @@
       "quote": "export function ShareBar"
     }
   ],
+  "source": {
+    "id": "src:ShareBar@src/components/ContentSections.jsx:229-257",
+    "tag": "ShareBar",
+    "file": "src/components/ContentSections.jsx",
+    "lines": "229-257"
+  },
+  "semantic": {
+    "id": "blog.share-bar",
+    "category": "content"
+  },
   "content": {
     "type": "object",
     "properties": {

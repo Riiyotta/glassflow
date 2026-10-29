@@ -2,7 +2,9 @@
   "id": "alt.side-by-side",
   "family": "mars",
   "category": "feature",
+  "retrievalEligible": true,
   "purpose": "OTEL / SDK side-by-side code comparison (langfuse only).",
+  "generatedAssetRoles": [],
   "variants": {
     "arize": "arize data",
     "langfuse": "langfuse data"
@@ -14,6 +16,16 @@
       "quote": "function SideBySide()"
     }
   ],
+  "source": {
+    "id": "src:SideBySide@src/pages/Alternatives.jsx:762-768",
+    "tag": "SideBySide",
+    "file": "src/pages/Alternatives.jsx",
+    "lines": "762-768"
+  },
+  "semantic": {
+    "id": "alt.side-by-side",
+    "category": "feature"
+  },
   "content": {
     "type": "object",
     "properties": {

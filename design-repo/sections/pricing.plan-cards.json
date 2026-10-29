@@ -2,7 +2,12 @@
   "id": "pricing.plan-cards",
   "family": "mars",
   "category": "pricing",
+  "retrievalEligible": true,
   "purpose": "Four flush Rius plan cards.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "icon.pixel"
+  ],
   "variants": {
     "default": "/rius"
   },
@@ -13,6 +18,16 @@
       "quote": "export default function PlanCards"
     }
   ],
+  "source": {
+    "id": "src:PlanCards@src/components/PlanCards.jsx:6-47",
+    "tag": "PlanCards",
+    "file": "src/components/PlanCards.jsx",
+    "lines": "6-47"
+  },
+  "semantic": {
+    "id": "pricing.plan-cards",
+    "category": "pricing"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -70,13 +85,14 @@
               "properties": {
                 "assetRole": {
                   "enum": [
-                    "icon.pixel"
+                    "icon.pixel",
+                    "asset.user-supplied"
                   ]
                 },
                 "ref": {
                   "type": "string",
-                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                  "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                  "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                  "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                 },
                 "alt": {
                   "type": "string",

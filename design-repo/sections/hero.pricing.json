@@ -2,7 +2,13 @@
   "id": "hero.pricing",
   "family": "mars",
   "category": "hero",
+  "retrievalEligible": true,
   "purpose": "Pricing hero: centred H1 + lead + 'start free' BigButton + note beside an image.",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "illustration.generated",
+    "texture.dither-field"
+  ],
   "variants": {
     "default": "/rius/pricing"
   },
@@ -13,6 +19,16 @@
       "quote": "function Hero()"
     }
   ],
+  "source": {
+    "id": "src:Hero@src/pages/RiusPricing.jsx:87-112",
+    "tag": "Hero",
+    "file": "src/pages/RiusPricing.jsx",
+    "lines": "87-112"
+  },
+  "semantic": {
+    "id": "hero.pricing",
+    "category": "hero"
+  },
   "content": {
     "type": "object",
     "properties": {
@@ -58,13 +74,15 @@
           "assetRole": {
             "enum": [
               "texture.dither-field",
-              "scene.mars-figurative"
+              "scene.mars-figurative",
+              "illustration.generated",
+              "asset.user-supplied"
             ]
           },
           "ref": {
             "type": "string",
-            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-            "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+            "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+            "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
           },
           "alt": {
             "type": "string",

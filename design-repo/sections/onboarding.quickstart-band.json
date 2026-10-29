@@ -2,7 +2,14 @@
   "id": "onboarding.quickstart-band",
   "family": "mars",
   "category": "onboarding",
+  "retrievalEligible": true,
   "purpose": "Centred heading/sub over the quickstart texture, followed by product cards or custom cards (calendar / discover).",
+  "generatedAssetRoles": [
+    "asset.user-supplied",
+    "illustration.generated",
+    "person.fictional-avatar",
+    "texture.dither-field"
+  ],
   "variants": {
     "home-two-cards": "home: rius + tares cards",
     "rius-one-card": "/rius: rius card without start button",
@@ -16,6 +23,16 @@
       "quote": "export default function Quickstart"
     }
   ],
+  "source": {
+    "id": "src:Quickstart@src/components/Quickstart.jsx:92-118",
+    "tag": "Quickstart",
+    "file": "src/components/Quickstart.jsx",
+    "lines": "92-118"
+  },
+  "semantic": {
+    "id": "onboarding.quickstart-band",
+    "category": "onboarding"
+  },
   "content": {
     "type": "object",
     "properties": {},
@@ -74,10 +91,20 @@
             "type": "object",
             "properties": {
               "product": {
-                "enum": [
-                  "rius",
-                  "tares"
-                ]
+                "anyOf": [
+                  {
+                    "enum": [
+                      "rius",
+                      "tares"
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9-]{1,23}$"
+                  }
+                ],
+                "x-productKey": true,
+                "description": "clone: rius | tares (the renderer prints 'glassflow-' + key in the card title bar, src/components/Quickstart.jsx:38-39). generation: a slug from spec.brand.products (rendered '<brand slug>-' + key)."
               },
               "pitch": {
                 "type": "array",
@@ -173,13 +200,14 @@
           "properties": {
             "assetRole": {
               "enum": [
-                "texture.dither-field"
+                "texture.dither-field",
+                "asset.user-supplied"
               ]
             },
             "ref": {
               "type": "string",
-              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+              "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
             },
             "alt": {
               "type": "string",
@@ -232,10 +260,20 @@
             "type": "object",
             "properties": {
               "product": {
-                "enum": [
-                  "rius",
-                  "tares"
-                ]
+                "anyOf": [
+                  {
+                    "enum": [
+                      "rius",
+                      "tares"
+                    ]
+                  },
+                  {
+                    "type": "string",
+                    "pattern": "^[a-z][a-z0-9-]{1,23}$"
+                  }
+                ],
+                "x-productKey": true,
+                "description": "clone: rius | tares (the renderer prints 'glassflow-' + key in the card title bar, src/components/Quickstart.jsx:38-39). generation: a slug from spec.brand.products (rendered '<brand slug>-' + key)."
               },
               "pitch": {
                 "type": "array",
@@ -331,13 +369,14 @@
           "properties": {
             "assetRole": {
               "enum": [
-                "texture.dither-field"
+                "texture.dither-field",
+                "asset.user-supplied"
               ]
             },
             "ref": {
               "type": "string",
-              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+              "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
             },
             "alt": {
               "type": "string",
@@ -387,7 +426,8 @@
             },
             "src": {
               "type": "string",
-              "pattern": "^https://app\\.cal\\.com/"
+              "pattern": "^https://(app\\.cal\\.com|[a-z0-9-]+\\.(example|invalid))/",
+              "x-embedField": true
             }
           },
           "additionalProperties": false,
@@ -416,13 +456,15 @@
                 "properties": {
                   "assetRole": {
                     "enum": [
-                      "person.real-photo"
+                      "person.real-photo",
+                      "person.fictional-avatar",
+                      "asset.user-supplied"
                     ]
                   },
                   "ref": {
                     "type": "string",
-                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                    "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                    "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                   },
                   "alt": {
                     "type": "string",
@@ -452,13 +494,14 @@
           "properties": {
             "assetRole": {
               "enum": [
-                "texture.dither-field"
+                "texture.dither-field",
+                "asset.user-supplied"
               ]
             },
             "ref": {
               "type": "string",
-              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+              "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
             },
             "alt": {
               "type": "string",
@@ -506,13 +549,15 @@
                   "assetRole": {
                     "enum": [
                       "texture.dither-field",
-                      "scene.mars-figurative"
+                      "scene.mars-figurative",
+                      "illustration.generated",
+                      "asset.user-supplied"
                     ]
                   },
                   "ref": {
                     "type": "string",
-                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-                    "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+                    "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+                    "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
                   },
                   "alt": {
                     "type": "string",
@@ -569,13 +614,14 @@
           "properties": {
             "assetRole": {
               "enum": [
-                "texture.dither-field"
+                "texture.dither-field",
+                "asset.user-supplied"
               ]
             },
             "ref": {
               "type": "string",
-              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200})$",
-              "description": "an existing clone asset path, or generate:<brief> ONLY for roles whose generationPolicy is may-generate-new"
+              "pattern": "^(/assets/[A-Za-z0-9_./-]+|generate:.{8,200}|placeholder:[a-z0-9][a-z0-9-]{2,59}|user-supplied:[a-z0-9][a-z0-9-]{2,59})$",
+              "description": "clone mode: an existing clone asset path, or generate:<brief> only for roles whose cloneModePolicy is may-generate-new. generation mode: generate:<brief> | placeholder:<id> | user-supplied:<id> on a generation-safe role only (never /assets/)."
             },
             "alt": {
               "type": "string",
